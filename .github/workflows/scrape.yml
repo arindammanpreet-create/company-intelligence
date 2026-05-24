@@ -26,8 +26,7 @@ jobs:
       run: python scraper.py
       
     - name: Commit and push results
-      uses: stefanzweifel/git-auto-commit-action@v5
+      uses: ad-m/github-push-action@master
       with:
-        commit_message: "Update intelligence data"
-        file_pattern: "intelligence_data.json"
-        push_options: "--force-with-lease"
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
