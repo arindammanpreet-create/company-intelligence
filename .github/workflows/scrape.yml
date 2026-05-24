@@ -32,7 +32,7 @@ jobs:
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
+        git pull --rebase origin main
         git add intelligence_data.json
         git diff --staged --quiet || git commit -m "Update intelligence data - $(date -u +%Y-%m-%d_%H:%M) UTC"
-        git pull --rebase origin main
         git push origin main
