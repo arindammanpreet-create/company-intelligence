@@ -313,17 +313,29 @@ def process_company(company_name, config):
     unique_gaps = generate_solutions(unique_gaps, company_name)
 
     # Ensure we always have at least 3 gaps with solutions
-    while len(unique_gaps) < 3:
+    # Use unique fill gap types to avoid duplicate titles
+    fill_templates = [
+        ("monitoring", "Strategic Monitoring & Market Scan", "Continuous market intelligence and competitive landscape monitoring to detect early signals."),
+        ("competition", "Competitive Intelligence Deep-dive", "Focused analysis on competitor moves, pricing strategies, and market share shifts."),
+        ("digital_lag", "Digital & Innovation Benchmarking", "Assessment of technology adoption gaps and digital maturity relative to sector peers."),
+        ("consumer_sentiment", "Brand Perception & Stakeholder Tracking", "Ongoing tracking of consumer sentiment, brand health, and reputation metrics."),
+        ("esg_concern", "ESG & Sustainability Monitoring", "Tracking of ESG ratings, carbon footprint trends, and stakeholder perception on sustainability.")
+    ]
+
+    fill_idx = 0
+    while len(unique_gaps) < 3 and fill_idx < len(fill_templates):
+        gap_type, fill_title, fill_desc = fill_templates[fill_idx]
         extra_gap = {
-            "title": f"{company_name} Additional Strategic Monitoring",
+            "title": f"{company_name}: {fill_title}",
             "severity": "Medium",
-            "description": f"Supplementary market intelligence gap to ensure comprehensive coverage for {company_name}.",
-            "detected_from": "System-generated fill gap",
-            "gap_type": "monitoring",
+            "description": fill_desc,
+            "detected_from": "System-generated strategic fill gap",
+            "gap_type": gap_type,
             "keywords_found": []
         }
         extra_gap = generate_solutions([extra_gap], company_name)[0]
         unique_gaps.append(extra_gap)
+        fill_idx += 1
 
     unique_gaps = unique_gaps[:5]  # Cap at 5 gaps total
 
