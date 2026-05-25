@@ -309,14 +309,23 @@ def process_company(company_name, config):
             "keywords_found": []
         })
 
-    # 6. Generate MR&I Solutions based on gaps (always generate, even if no gaps)
-    solutions = generate_solutions(unique_gaps, company_name)
+    # 6. Generate MR&I Solutions attached directly to each gap
+    unique_gaps = generate_solutions(unique_gaps, company_name)
 
-    # Ensure we always have at least 3 solutions with MRA/ESOMAR framework references
-    if len(solutions) < 3:
-        additional = generate_solutions([], company_name)
-        solutions.extend(additional)
-        solutions = solutions[:5]
+    # Ensure we always have at least 3 gaps with solutions
+    while len(unique_gaps) < 3:
+        extra_gap = {
+            "title": f"{company_name} Additional Strategic Monitoring",
+            "severity": "Medium",
+            "description": f"Supplementary market intelligence gap to ensure comprehensive coverage for {company_name}.",
+            "detected_from": "System-generated fill gap",
+            "gap_type": "monitoring",
+            "keywords_found": []
+        }
+        extra_gap = generate_solutions([extra_gap], company_name)[0]
+        unique_gaps.append(extra_gap)
+
+    unique_gaps = unique_gaps[:5]  # Cap at 5 gaps total
 
     # 7. Compile result
     result = {
@@ -333,7 +342,6 @@ def process_company(company_name, config):
         "sentiment": sentiment,
         "news": news[:10],  # Keep top 10
         "research_gaps": unique_gaps,
-        "solutions": solutions,
         "competitor_intel": comp_intel[:5],
         "esg_highlights": esg_news[:5],
         "filings": filings[:5]
@@ -342,10 +350,9 @@ def process_company(company_name, config):
     return result
 
 def generate_solutions(gaps, company_name):
-    """Generate concise MR&I solutions based on detected gaps"""
-    solutions = []
+    """Generate concise MR&I solutions attached directly to each gap"""
 
-    # Define concise solution templates - one per gap type, max 3-4 per company
+    # Define concise solution templates - one per gap type
     solution_templates = {
         "revenue_risk": {
             "title": "Revenue Elasticity & Demand Forecasting",
@@ -441,31 +448,23 @@ def generate_solutions(gaps, company_name):
     if not gaps:
         gaps = [{"title": "Strategic monitoring required", "severity": "Medium", "gap_type": "monitoring"}]
 
-    # Generate one solution per gap, max 4 unique solutions
-    seen_types = set()
-    for gap in gaps[:4]:  # Max 4 solutions
+    # Attach one solution directly to EACH gap — no cross-gap deduplication
+    for gap in gaps:
         gap_type = gap.get("gap_type", "monitoring")
-
-        # Skip if we already have this type
-        if gap_type in seen_types:
-            continue
-        seen_types.add(gap_type)
-
         template = solution_templates.get(gap_type, solution_templates["monitoring"])
 
-        solutions.append({
+        gap["solutions"] = [{
             "title": f"{company_name}: {template['title']}",
             "impact": template["impact"],
             "timeline": template["timeline"],
             "price": template["price"],
             "methodology": template["methods"],
             "description": f"**MRA/ESOMAR-compliant study**. {template['methods']}. **Deliverables**: {template['deliverables']}.",
-            "addresses_gap": gap["title"],
             "gap_type": gap_type,
             "framework": "MRA/ESOMAR"
-        })
+        }]
 
-    return solutions
+    return gaps
 
 def main():
     print("=" * 60)
