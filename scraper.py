@@ -342,142 +342,130 @@ def process_company(company_name, config):
     return result
 
 def generate_solutions(gaps, company_name):
-    """Generate MR&I solutions based on detected gaps using MRA, ESOMAR & industry frameworks"""
+    """Generate concise MR&I solutions based on detected gaps"""
     solutions = []
 
-    # If no gaps detected, create generic monitoring solutions
-    if not gaps:
-        gaps = [{
-            "title": f"{company_name} Strategic Market Monitoring",
-            "severity": "Medium",
-            "gap_type": "monitoring"
-        }]
-
-    for i, gap in enumerate(gaps):
-        gap_type = gap.get("gap_type", "general")
-        severity = gap["severity"]
-
-        # Map gap types to MR&I solutions with framework references
-        solution_templates = {
-            "revenue_risk": {
-                "title": f"{company_name}: Revenue Elasticity & Demand Forecasting Study",
-                "impact": "High",
-                "timeline": "8-12 weeks",
-                "price": "₹18-28 Lakhs",
-                "methodology": "Quantitative + Econometric Modeling",
-                "description": f"**MRA-Compliant Primary Research** using stratified random sampling (n=5,000 B2B/B2C customers). **Quantitative**: CATI/CAWI surveys with conjoint analysis for price-demand elasticity. **Qualitative**: 24 in-depth interviews (IDIs) with procurement heads and CFOs. **Econometric**: Time-series forecasting using ARIMA/VAR models on 3-year historical data. **Deliverables**: (1) TAM/SAM/SOM sizing report, (2) Price sensitivity meter (PSM) analysis, (3) Revenue risk dashboard with early-warning KPIs, (4) Quarterly demand forecasting model. **ESOMAR Ethics**: Informed consent, anonymized data, 95% confidence interval reporting. **Team**: 1 Research Director, 2 Quantitative Analysts, 1 Data Scientist."
-            },
-            "margin_pressure": {
-                "title": f"{company_name}: Cost Structure & Pricing Power Analysis",
-                "impact": "High",
-                "timeline": "10-14 weeks",
-                "price": "₹22-35 Lakhs",
-                "methodology": "Competitive Intelligence + Mystery Shopping + Financial Modeling",
-                "description": f"**MRA Competitive Intelligence Framework** with ESOMAR ethical compliance. **Quantitative**: Mystery shopping across 200+ dealer/distributor touchpoints, cost benchmarking vs. 5-7 peers. **Qualitative**: 16 expert interviews with ex-employees, suppliers, and industry consultants (all under NDA). **Financial Modeling**: Activity-based costing (ABC) decomposition, contribution margin waterfall analysis. **Deliverables**: (1) Monthly margin intelligence report, (2) Cost-driver Pareto charts, (3) Pricing power scorecard by SKU/segment, (4) Margin optimization playbook with scenario planning. **Anthropological**: Ethnographic observation of 10 shop-floor operations to identify hidden cost leakages. **Team**: 1 CI Director, 2 Financial Analysts, 1 Operations Researcher."
-            },
-            "competition": {
-                "title": f"{company_name}: Competitive Positioning Intelligence (Battlecard Program)",
-                "impact": "High",
-                "timeline": "6-10 weeks initial + ongoing",
-                "price": "₹15-25 Lakhs (initial) + ₹3 Lakhs/month (ongoing)",
-                "methodology": "Continuous Monitoring + Win/Loss + Social Listening",
-                "description": f"**MRA Continuous Research Program** per ESOMAR ongoing research standards. **Quantitative**: Win/loss analysis of 100 recent deals, market share tracking via Nielsen/IRI secondary data. **Qualitative**: 20 competitor executive interviews (blind recruitment), quarterly war-gaming workshops. **Digital**: Social listening via Brandwatch/Sprinklr, patent filing monitoring, job posting analysis for R&D direction. **Deliverables**: (1) Weekly competitive battlecards, (2) Quarterly win/loss analysis with root-cause coding, (3) Pricing gap tracker by product line, (4) Strategic response recommendation engine. **Brand Design**: Visual competitive landscape maps, perceptual positioning charts. **Team**: 1 CI Manager, 2 Research Associates, 1 Data Analyst (ongoing)."
-            },
-            "regulatory": {
-                "title": f"{company_name}: Policy & Regulatory Risk Monitoring (Horizon Scanning)",
-                "impact": "High",
-                "timeline": "4-6 weeks setup + ongoing",
-                "price": "₹12-18 Lakhs (setup) + ₹1.5 Lakhs/month (ongoing)",
-                "methodology": "Policy Research + Delphi Method + Scenario Planning",
-                "description": f"**MRA Policy Research Framework** with transparent source attribution. **Quantitative**: Regulatory cost-impact modeling using Monte Carlo simulation, compliance cost benchmarking across 10+ peers. **Qualitative**: Delphi panel of 15 regulatory experts (2 rounds), stakeholder mapping via power/interest grids. **Scenario Planning**: 3-scenario model (base/optimistic/pessimistic) for major regulatory changes. **Deliverables**: (1) Monthly regulatory radar with probability-weighted risk scores, (2) Compliance cost scenario models, (3) Stakeholder impact matrices, (4) Pre-budget memoranda and representation drafts. **Anthropological**: Field immersion with 5 regulatory consultants to understand informal decision-making channels. **Team**: 1 Public Affairs Director, 1 Policy Analyst, 1 Risk Modeler."
-            },
-            "talent": {
-                "title": f"{company_name}: Talent Market Intelligence & Employer Brand Research",
-                "impact": "Medium",
-                "timeline": "8-12 weeks",
-                "price": "₹14-22 Lakhs",
-                "methodology": "HR Analytics + Employer Brand Tracking + Compensation Benchmarking",
-                "description": f"**MRA Workforce Research Standards** with NASSCOM/AICTE data integration. **Quantitative**: Quarterly talent supply-demand analysis using LinkedIn Talent Insights, campus placement data (500+ colleges), compensation benchmarking vs. 5-7 peers (n=2,000 matched profiles). **Qualitative**: 30 exit interviews (structured), 20 campus recruiter focus groups, employer brand perception study via projective techniques. **Deliverables**: (1) Quarterly talent market report, (2) Employer brand perception index (EBI), (3) Compensation benchmarking matrix by role/level, (4) Retention risk heatmap with predictive scoring. **Brand Design**: Employer brand visual identity audit, EVP (Employee Value Proposition) messaging framework. **Team**: 1 HR Research Director, 2 Quantitative Researchers, 1 Brand Strategist."
-            },
-            "debt_leverage": {
-                "title": f"{company_name}: Credit Risk & Capital Structure Intelligence",
-                "impact": "High",
-                "timeline": "6-8 weeks",
-                "price": "₹16-24 Lakhs",
-                "methodology": "Financial Research + Investor Perception + Credit Analytics",
-                "description": f"**MRA Financial Research Protocols** with CRISIL/ICRA data partnership. **Quantitative**: Debt covenant stress-testing, credit rating sensitivity analysis, refinancing pipeline modeling using Bloomberg/Reuters data. **Qualitative**: 12 institutional investor interviews (CIOs, credit analysts), 8 debenture trustee discussions. **Credit Analytics**: Altman Z-score trending, interest coverage ratio forecasting, liquidity gap analysis. **Deliverables**: (1) Quarterly capital market briefing, (2) Investor perception tracking with sentiment scoring, (3) Optimal capital structure model (WACC minimization), (4) Refinancing timing recommendation with window analysis. **Quantitative**: Monte Carlo simulation for default probability under 5 macro scenarios. **Team**: 1 Financial Research Director, 2 Credit Analysts, 1 Quantitative Modeler."
-            },
-            "esg_concern": {
-                "title": f"{company_name}: ESG Performance Benchmarking & Stakeholder Perception",
-                "impact": "Medium",
-                "timeline": "10-14 weeks",
-                "price": "₹20-32 Lakhs",
-                "methodology": "Sustainability Research + Stakeholder Engagement + Carbon Accounting",
-                "description": f"**ESG Research aligned with GRI, SASB, BRSR, and TCFD frameworks**. **Quantitative**: Comparative ESG scoring across {company_name} and 5-7 peers using CDP responses, Sustainalytics ratings, MSCI ESG scores. Carbon footprint accounting (Scope 1/2/3) per GHG Protocol. **Qualitative**: 25 stakeholder interviews (investors, NGOs, community leaders), supply chain audits at 15 vendor locations. **Deliverables**: (1) Quarterly ESG scorecard with peer benchmarking, (2) Carbon trajectory analysis with net-zero pathway modeling, (3) Stakeholder perception index (SPI), (4) Sustainability communication strategy and ESG investor presentation. **Anthropological**: Community immersion study at 3 operational sites to understand local ESG impact narratives. **Brand Design**: ESG report visual redesign, sustainability storyboard for annual report. **Team**: 1 ESG Research Director, 2 Sustainability Analysts, 1 Carbon Accountant, 1 Visual Designer."
-            },
-            "digital_lag": {
-                "title": f"{company_name}: Digital Maturity Assessment & Tech Investment ROI",
-                "impact": "Medium",
-                "timeline": "8-12 weeks",
-                "price": "₹18-28 Lakhs",
-                "methodology": "Technology Adoption Research + Digital Audit + ROI Modeling",
-                "description": f"**MRA Technology Adoption Framework** using TAM/TOE/DOI models. **Quantitative**: Digital maturity assessment of 200+ employees via structured survey (DMM framework), tech spend benchmarking vs. Gartner peer data. **Qualitative**: 20 CIO/CTO/VP Engineering interviews, 5 vendor briefings (AWS, Azure, Salesforce), quarterly digital war-gaming. **ROI Modeling**: NPV/IRR analysis for proposed tech investments, payback period modeling, TCO comparison. **Deliverables**: (1) Quarterly digital transformation tracker, (2) Tech investment prioritization matrix (Effort vs. Impact), (3) Cloud/AI/ERP adoption roadmap with milestones, (4) Vendor evaluation scorecards. **Brand Design**: Digital customer journey maps, UX heuristic evaluation of 10 key touchpoints. **Team**: 1 Digital Research Director, 2 Tech Analysts, 1 UX Researcher, 1 Financial Modeler."
-            },
-            "geopolitical": {
-                "title": f"{company_name}: Supply Chain Resilience & Geographic Risk Intelligence",
-                "impact": "Medium",
-                "timeline": "10-16 weeks",
-                "price": "₹22-35 Lakhs",
-                "methodology": "Trade Intelligence + Supplier Risk + Geopolitical Scenario Planning",
-                "description": f"**MRA Trade Research & Geopolitical Risk Framework**. **Quantitative**: Supplier concentration analysis (Herfindahl index), geographic exposure mapping using UNCTAD/World Bank data, import duty scenario modeling. **Qualitative**: 30 supplier interviews (structured risk assessment), 10 logistics provider discussions, expert panel on India-China trade dynamics. **Scenario Planning**: 4-scenario geopolitical model (status quo/escalation/diversification/trade war) with probability weights. **Deliverables**: (1) Quarterly supply chain risk dashboard, (2) Alternative sourcing recommendations with total landed cost analysis, (3) Tariff impact model by product category, (4) Geographic diversification strategy with phased implementation. **Anthropological**: 2-week field immersion at key supplier clusters (e.g., Shenzhen, Dhaka) to understand informal supply chain dependencies. **Team**: 1 Supply Chain Research Director, 2 Trade Analysts, 1 Geopolitical Risk Specialist."
-            },
-            "consumer_sentiment": {
-                "title": f"{company_name}: Brand Health Tracking & Reputation Risk Monitoring",
-                "impact": "High",
-                "timeline": "6-8 weeks setup + ongoing",
-                "price": "₹16-25 Lakhs (setup) + ₹2.5 Lakhs/month (ongoing)",
-                "methodology": "Brand Equity Research + Social Listening + Crisis Simulation",
-                "description": f"**MRA Brand Research Standards** using Aaker/Keller brand equity frameworks. **Quantitative**: Continuous brand tracking (n=2,000 quarterly) via CAWI panel, brand health metrics (awareness, consideration, loyalty, NPS), conjoint-based brand preference modeling. **Qualitative**: 16 consumer focus groups (4 cities), 12 expert interviews with brand consultants, semiotics analysis of brand communications. **Digital**: Social listening via Brandwatch/Sprinklr (real-time), sentiment trend analysis, influencer mapping. **Deliverables**: (1) Monthly brand health scorecard, (2) Reputation risk alerts with escalation triggers, (3) Competitive brand positioning maps (perceptual mapping), (4) Crisis communication playbook with scenario trees. **Brand Design**: Visual brand audit, packaging/communication redesign recommendations, brand architecture optimization. **Anthropological**: Consumer home immersion (10 households) to understand cultural brand meanings. **Team**: 1 Brand Research Director, 2 Quantitative Researchers, 1 Semiotician, 1 Visual Designer (ongoing)."
-            },
-            "monitoring": {
-                "title": f"{company_name}: Strategic Market Intelligence Subscription (Ongoing MR Program)",
-                "impact": "Medium",
-                "timeline": "4-6 weeks setup + quarterly deliverables",
-                "price": "₹12-20 Lakhs (setup) + ₹4-6 Lakhs/quarter (ongoing)",
-                "methodology": "Continuous Research + Expert Network + Scenario Planning",
-                "description": f"**MRA Continuous Research Program** with ESOMAR ongoing research ethics. **Quantitative**: Monthly macro-indicator dashboard (GDP, inflation, sector growth, FDI flows), quarterly consumer confidence index, competitor financial tracking. **Qualitative**: Quarterly expert interviews (15 industry leaders), semi-annual executive roundtables, ongoing expert network access (GLG/Third Bridge). **Deliverables**: (1) Quarterly strategy briefings (50-slide deck), (2) Scenario planning workshops (2 per year), (3) Opportunity identification reports with TAM sizing, (4) Board-level market intelligence dashboard (real-time). **Brand Design**: Market landscape infographics, trend visualization reports, competitor comparison matrices. **Anthropological**: Annual cultural trend immersion (2 weeks) in key markets to identify emerging consumer behaviors. **Team**: 1 Research Director, 2 Senior Analysts, 1 Data Visualization Specialist (ongoing)."
-            }
+    # Define concise solution templates - one per gap type, max 3-4 per company
+    solution_templates = {
+        "revenue_risk": {
+            "title": "Revenue Elasticity & Demand Forecasting",
+            "impact": "High",
+            "timeline": "8-12 weeks",
+            "price": "₹18-28 Lakhs",
+            "methods": "Quantitative (CATI/CAWI n=5,000) + Qualitative (24 IDIs) + Econometric (ARIMA/VAR)",
+            "deliverables": "TAM/SAM/SOM report, Price Sensitivity Meter, Revenue risk dashboard, Quarterly forecast model"
+        },
+        "margin_pressure": {
+            "title": "Cost Structure & Pricing Power Analysis",
+            "impact": "High",
+            "timeline": "10-14 weeks", 
+            "price": "₹22-35 Lakhs",
+            "methods": "Mystery Shopping (200+ touchpoints) + Expert Interviews (16) + ABC Costing",
+            "deliverables": "Monthly margin report, Cost-driver Pareto, Pricing scorecard, Margin optimization playbook"
+        },
+        "competition": {
+            "title": "Competitive Positioning Intelligence",
+            "impact": "High",
+            "timeline": "6-10 weeks + ongoing",
+            "price": "₹15-25 Lakhs + ₹3L/month",
+            "methods": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+            "deliverables": "Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine"
+        },
+        "regulatory": {
+            "title": "Policy & Regulatory Risk Monitoring",
+            "impact": "High",
+            "timeline": "4-6 weeks + ongoing",
+            "price": "₹12-18 Lakhs + ₹1.5L/month",
+            "methods": "Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning",
+            "deliverables": "Monthly regulatory radar, Compliance cost models, Stakeholder matrices, Pre-budget memos"
+        },
+        "talent": {
+            "title": "Talent Market Intelligence & Employer Brand",
+            "impact": "Medium",
+            "timeline": "8-12 weeks",
+            "price": "₹14-22 Lakhs",
+            "methods": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+            "deliverables": "Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap"
+        },
+        "debt_leverage": {
+            "title": "Credit Risk & Capital Structure Intelligence",
+            "impact": "High",
+            "timeline": "6-8 weeks",
+            "price": "₹16-24 Lakhs",
+            "methods": "Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending",
+            "deliverables": "Quarterly capital briefing, Investor perception tracker, WACC model, Refinancing window analysis"
+        },
+        "esg_concern": {
+            "title": "ESG Performance Benchmarking",
+            "impact": "Medium",
+            "timeline": "10-14 weeks",
+            "price": "₹20-32 Lakhs",
+            "methods": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+            "deliverables": "Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck"
+        },
+        "digital_lag": {
+            "title": "Digital Maturity Assessment & Tech ROI",
+            "impact": "Medium",
+            "timeline": "8-12 weeks",
+            "price": "₹18-28 Lakhs",
+            "methods": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+            "deliverables": "Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards"
+        },
+        "geopolitical": {
+            "title": "Supply Chain Resilience & Geographic Risk",
+            "impact": "Medium",
+            "timeline": "10-16 weeks",
+            "price": "₹22-35 Lakhs",
+            "methods": "Herfindahl Index + UNCTAD Mapping + Supplier Interviews (30) + 4-Scenario Model",
+            "deliverables": "Supply chain risk dashboard, Alternative sourcing map, Tariff impact model, Diversification strategy"
+        },
+        "consumer_sentiment": {
+            "title": "Brand Health & Reputation Risk Tracking",
+            "impact": "High",
+            "timeline": "6-8 weeks + ongoing",
+            "price": "₹16-25 Lakhs + ₹2.5L/month",
+            "methods": "Brand Tracking (n=2,000 quarterly) + Focus Groups (16) + Social Listening (Brandwatch)",
+            "deliverables": "Monthly brand scorecard, Reputation alerts, Perceptual positioning maps, Crisis playbook"
+        },
+        "monitoring": {
+            "title": "Strategic Market Intelligence Subscription",
+            "impact": "Medium",
+            "timeline": "4-6 weeks setup + quarterly",
+            "price": "₹12-20 Lakhs + ₹4-6L/quarter",
+            "methods": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
+            "deliverables": "Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard"
         }
+    }
+
+    # If no gaps, create one monitoring gap
+    if not gaps:
+        gaps = [{"title": "Strategic monitoring required", "severity": "Medium", "gap_type": "monitoring"}]
+
+    # Generate one solution per gap, max 4 unique solutions
+    seen_types = set()
+    for gap in gaps[:4]:  # Max 4 solutions
+        gap_type = gap.get("gap_type", "monitoring")
+
+        # Skip if we already have this type
+        if gap_type in seen_types:
+            continue
+        seen_types.add(gap_type)
 
         template = solution_templates.get(gap_type, solution_templates["monitoring"])
 
         solutions.append({
-            "title": template["title"],
-            "impact": template.get("impact", "Medium"),
-            "timeline": template.get("timeline", "12-18 weeks"),
-            "price": template.get("price", "₹15-25 Lakhs"),
-            "methodology": template.get("methodology", "Mixed Methods Research"),
-            "description": template["description"],
+            "title": f"{company_name}: {template['title']}",
+            "impact": template["impact"],
+            "timeline": template["timeline"],
+            "price": template["price"],
+            "methodology": template["methods"],
+            "description": f"**MRA/ESOMAR-compliant study**. {template['methods']}. **Deliverables**: {template['deliverables']}.",
             "addresses_gap": gap["title"],
             "gap_type": gap_type,
             "framework": "MRA/ESOMAR"
         })
 
-    # Always ensure at least 3-5 solutions
-    while len(solutions) < 3:
-        solutions.append({
-            "title": f"{company_name}: Strategic Market Intelligence Subscription (Ongoing MR Program)",
-            "impact": "Medium",
-            "timeline": "4-6 weeks setup + quarterly deliverables",
-            "price": "₹12-20 Lakhs (setup) + ₹4-6 Lakhs/quarter (ongoing)",
-            "methodology": "Continuous Research + Expert Network + Scenario Planning",
-            "description": f"**MRA Continuous Research Program** with ESOMAR ongoing research ethics. **Quantitative**: Monthly macro-indicator dashboard (GDP, inflation, sector growth, FDI flows), quarterly consumer confidence index, competitor financial tracking. **Qualitative**: Quarterly expert interviews (15 industry leaders), semi-annual executive roundtables, ongoing expert network access (GLG/Third Bridge). **Deliverables**: (1) Quarterly strategy briefings (50-slide deck), (2) Scenario planning workshops (2 per year), (3) Opportunity identification reports with TAM sizing, (4) Board-level market intelligence dashboard (real-time). **Brand Design**: Market landscape infographics, trend visualization reports, competitor comparison matrices. **Anthropological**: Annual cultural trend immersion (2 weeks) in key markets to identify emerging consumer behaviors. **Team**: 1 Research Director, 2 Senior Analysts, 1 Data Visualization Specialist (ongoing).",
-            "addresses_gap": "General strategic monitoring",
-            "gap_type": "monitoring",
-            "framework": "MRA/ESOMAR"
-        })
-
-    return solutions[:5]  # Cap at 5 solutions
+    return solutions
 
 def main():
     print("=" * 60)
