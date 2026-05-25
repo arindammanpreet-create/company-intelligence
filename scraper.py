@@ -358,7 +358,7 @@ def generate_solutions(gaps, company_name):
         severity = gap["severity"]
 
         # Map gap types to MR&I solutions with framework references
-                solution_templates = {
+        solution_templates = {
             "revenue_risk": {
                 "title": f"{company_name}: Revenue Elasticity & Demand Forecasting Study",
                 "impact": "High",
@@ -447,49 +447,6 @@ def generate_solutions(gaps, company_name):
                 "methodology": "Continuous Research + Expert Network + Scenario Planning",
                 "description": f"**MRA Continuous Research Program** with ESOMAR ongoing research ethics. **Quantitative**: Monthly macro-indicator dashboard (GDP, inflation, sector growth, FDI flows), quarterly consumer confidence index, competitor financial tracking. **Qualitative**: Quarterly expert interviews (15 industry leaders), semi-annual executive roundtables, ongoing expert network access (GLG/Third Bridge). **Deliverables**: (1) Quarterly strategy briefings (50-slide deck), (2) Scenario planning workshops (2 per year), (3) Opportunity identification reports with TAM sizing, (4) Board-level market intelligence dashboard (real-time). **Brand Design**: Market landscape infographics, trend visualization reports, competitor comparison matrices. **Anthropological**: Annual cultural trend immersion (2 weeks) in key markets to identify emerging consumer behaviors. **Team**: 1 Research Director, 2 Senior Analysts, 1 Data Visualization Specialist (ongoing)."
             }
-        }: Revenue Elasticity & Demand Forecasting (MRA Framework)",
-                "description": f"**ESOMAR-compliant primary research** among 5,000+ B2B/B2C customers using CATI/CAWI methodologies. Map price-demand elasticity curves, identify churn drivers, and build quarterly revenue risk dashboards. **MRA Standard**: Includes sampling frame design, non-response bias correction, and confidence interval reporting. Deliverables: TAM/SAM/SOM sizing, pricing sensitivity heatmaps, and early-warning revenue indicators for {company_name} product lines."
-            },
-            "margin_pressure": {
-                "title": f"{company_name}: Cost Structure & Pricing Power Analysis (Competitive Intelligence)",
-                "description": f"**Competitive intelligence study** using mystery shopping, supplier interviews, and desk research per MRA guidelines. Decompose EBITDA margin across business units, benchmark against 5-7 peers. **ESOMAR-compliant** data collection with anonymized respondent protocols. Deliverables: Monthly margin intelligence reports, cost-driver Pareto charts, pricing power scorecards, and actionable margin optimization playbooks for {company_name}."
-            },
-            "competition": {
-                "title": f"{company_name}: Competitive Positioning Intelligence (Battlecard Program)",
-                "description": f"**Continuous competitive monitoring** per MRA competitive intelligence standards. Track rival product launches, pricing moves, patent filings, and market share shifts via secondary research, win/loss interviews, and social listening. **ESOMAR ethical compliance**: All primary research uses informed consent. Deliverables: Weekly competitive battlecards, quarterly win/loss analysis, pricing gap trackers, and strategic response recommendations for {company_name} sales and product teams."
-            },
-            "regulatory": {
-                "title": f"{company_name}: Policy & Regulatory Risk Monitoring (Horizon Scanning)",
-                "description": f"**Regulatory horizon scanning** using MRA-compliant policy research frameworks. Monitor SEBI, RBI, TRAI, MCA, and ministry circulars via official gazettes, parliamentary questions, and industry association briefings. **ESOMAR standards**: Transparent source attribution, triangulation across 3+ sources. Deliverables: Monthly regulatory radar reports, compliance cost scenario models, stakeholder impact matrices, and pre-budget memoranda for {company_name} government relations team."
-            },
-            "talent": {
-                "title": f"{company_name}: Talent Market Intelligence & Employer Brand (HR Analytics)",
-                "description": f"**HR market intelligence study** per MRA workforce research standards. Quarterly talent supply-demand analysis using NASSCOM, AICTE, and LinkedIn Talent Insights data. Benchmark compensation, attrition, and time-to-fill vs. 5-7 peers. **ESOMAR-compliant**: Anonymous Glassdoor/LinkedIn sentiment tracking with opt-in panels. Deliverables: Quarterly talent market reports, employer brand perception index, compensation benchmarking matrices, and retention risk heatmaps for {company_name} critical roles."
-            },
-            "debt_leverage": {
-                "title": f"{company_name}: Credit Risk & Capital Structure Intelligence (Investor Perception)",
-                "description": f"**Capital market intelligence** using MRA financial research protocols. Monitor debt covenants, credit rating outlooks, and refinancing pipelines via CRISIL/ICRA reports, debenture trustee filings, and institutional investor interviews. **ESOMAR standards**: Transparent methodology disclosure, conflict-of-interest management. Deliverables: Quarterly capital market briefings, investor perception tracking, optimal capital structure modeling, and refinancing timing recommendations for {company_name} treasury team."
-            },
-            "esg_concern": {
-                "title": f"{company_name}: ESG Performance Benchmarking (Sustainability Research)",
-                "description": f"**ESG benchmarking study** aligned with GRI, SASB, and BRSR frameworks per MRA sustainability research standards. Comparative scoring across {company_name} and 5-7 sector peers using CDP responses, Sustainalytics ratings, and controversy tracking. **ESOMAR-compliant**: Stakeholder interviews with informed consent, third-party data verification. Deliverables: Quarterly ESG scorecards, carbon trajectory analysis, stakeholder perception index, and sustainability communication strategy for {company_name} ESG committee."
-            },
-            "digital_lag": {
-                "title": f"{company_name}: Digital Maturity Assessment (Tech Adoption Research)",
-                "description": f"**Digital maturity assessment** using MRA technology adoption frameworks (TAM/TOE model). Benchmark {company_name} against industry leaders via CIO/CTO interviews, vendor briefings, and Gartner/IDC secondary research. **ESOMAR standards**: Respondent confidentiality, non-attribution protocols. Deliverables: Quarterly digital transformation tracker, tech investment prioritization matrix, cloud/AI adoption roadmaps, and vendor evaluation scorecards for {company_name} digital strategy team."
-            },
-            "geopolitical": {
-                "title": f"{company_name}: Supply Chain Resilience & Geographic Risk (Trade Intelligence)",
-                "description": f"**Supply chain intelligence** using MRA trade research and geopolitical risk frameworks. Map supplier concentration, geographic exposure, and single-source dependencies via import/export data, supplier interviews, and UNCTAD/World Bank macro indicators. **ESOMAR-compliant**: Anonymous supplier surveys, data anonymization. Deliverables: Quarterly supply chain risk dashboards, alternative sourcing recommendations, tariff impact models, and geographic diversification strategies for {company_name} procurement team."
-            },
-            "consumer_sentiment": {
-                "title": f"{company_name}: Brand Health Tracking & Reputation Risk (Brand Equity Research)",
-                "description": f"**Brand equity tracking** per MRA brand research standards (Aaker/Keller frameworks). Continuous perception monitoring via social media listening (Brandwatch/Sprinklr), consumer panels (n=2,000 quarterly), and news sentiment analysis. **ESOMAR-compliant**: Panel recruitment with informed consent, data privacy per GDPR. Deliverables: Monthly brand health scorecards, reputation risk alerts, competitive brand positioning maps, and crisis communication playbooks for {company_name} marketing and corporate communications."
-            },
-            "monitoring": {
-                "title": f"{company_name}: Strategic Market Intelligence Subscription (Ongoing MR Program)",
-                "description": f"**Comprehensive market intelligence subscription** using MRA continuous research standards. Ongoing monitoring of sector trends, competitor moves, macro indicators, and emerging disruptions via secondary research, expert networks, and quarterly executive interviews. **ESOMAR-compliant**: All primary research follows ethical guidelines, respondent anonymity guaranteed. Deliverables: Quarterly strategy briefings, scenario planning workshops, opportunity identification reports, and board-level market intelligence dashboards for {company_name} leadership team."
-            }
         }
 
         template = solution_templates.get(gap_type, solution_templates["monitoring"])
@@ -520,9 +477,7 @@ def generate_solutions(gaps, company_name):
             "framework": "MRA/ESOMAR"
         })
 
-    return solutions[:5]  # Cap at 5 solutions
-
-def main():
+    return solutions[:5]  # Cap at 5 solutionsdef main():
     print("=" * 60)
     print("INDIAN COMPANY INTELLIGENCE SCRAPER + NLP")
     print(f"Run started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
