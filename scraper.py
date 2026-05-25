@@ -477,7 +477,9 @@ def generate_solutions(gaps, company_name):
             "framework": "MRA/ESOMAR"
         })
 
-    return solutions[:5]  # Cap at 5 solutionsdef main():
+    return solutions[:5]  # Cap at 5 solutions
+
+def main():
     print("=" * 60)
     print("INDIAN COMPANY INTELLIGENCE SCRAPER + NLP")
     print(f"Run started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
