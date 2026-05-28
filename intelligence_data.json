@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-27T23:10:18.107556",
+    "generated_at": "2026-05-28T12:57:45.008010",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,18 +14,18 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-05-27T23:05:18.006266",
+      "last_updated": "2026-05-28T12:51:46.757544",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.33,
-        "label": "Positive",
-        "pos": 2,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -90,108 +90,26 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Adani Green Energy Commissions World's Largest Battery Storage System",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ1VzMlkweTlld01DNGhEUWt2bTdqS2ZTQ2QzMUdPMk8yRGhpSy14S0sxdjQtNFJLbkdzb3lvZG9Xa1QyVGpYdkZWTGJnS0tkTHdFa2JzUjdCRm1pQkdLMzBHenF2akZ4d2I5UDROVnVDUjBZMHBTTXczVmpQVmJfN2w3Z1F3TE45VDZBb0RYWXM4dGFZaXZ5OXAxSmwtcVowRXhHbHRyZzhhNFVlT2fSAbYBQVVfeXFMTkpfRDZCNnVjRzgzUUpZNDc2d0J6UVlKRHZrQnlGdmt5YlRzdE9TdDNrMm1UOVhKdGhVSmZTYVktTG1QS1p1QnlPLWtwaWxHRGNvRkxWcjVsOHU0WnpkMTRrUEZjUExKQ1pyN29IUUgwRE9NR3RUb1NaM1F5X29ldXZOaFZ0OFVkQzJhcTRLdC0yQnE5M1NaZ2xxMkNxYnRRaUp0Zko2M0g3TEVqNWdoU2hKX1AwOFE?oc=5",
-          "source": "NDTV",
-          "publishedAt": "Tue, 26 May 2026 07:18:29 GMT",
-          "fetched_at": "2026-05-27T23:05:07.170485",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Adani Green Energy expands battery storage capacity to 3.37 GWh at Khavda",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbGJLMlJuYnNEQW52NndTM2dIQzhHTURWRjR0TThVYkIzYzVoamlTdWhSeV93TWN2SGlJb3FnSkV0bkg0Sm12SnMyWi1MdVUyRG1TUi1IYVFicE16dE5tTDRzZjlvSjFLYWg2UUtuYlN1dmVjRS01QV9GbF92NmQxMDlJY1BkSTBEeTRqZzlHWmZXZTdsTjlFS3F0WHJtaURnQVhPRnVLWVJ4WFVJY2l2c09qd3E1ZU14VTNUa3c2LTBUcHFFR1Vsb2h4QmYyTFdwdTk5MmZkUFpnd9IB3wFBVV95cUxPUTNEd2NDVVhXT0oyeHJFNENRaTlwNC1CeElWMWlVbjhoT1ZfMVh5NWdIUExUN1lSU2Y1bG56ZnA4YU5PbVVnUDBrNmZTdDFOaUdqcGxWSEZ0c3luUVFlQ1pCS0xqQXM2ejEwN0o5NmNMM0VEdHFxcUxUdDRKcWc5UmxsSGhXamJyNVBMa3hhVnk1cEJLR2hubDhoYmhDeElPM19Db09JWHdGelVpTmtWVTg1bFByV1ZYcUxSY3UzOVRSZldPcm9wVXA0b1pVdjlEQmFGZWMzMkNwTmdxRVl3?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Tue, 26 May 2026 05:16:31 GMT",
-          "fetched_at": "2026-05-27T23:05:07.170500",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Adani Green Switches On World's Largest Single-Site Battery, Stores 3.37 GWh Of Clean Power",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOHpGOWtvN0Q1eGxzakYzRFJZTWxveTNWTUhzd2k2Z29sMEY1WGlxVDVqNGZzVVVvVEFBV3JZbzhBU29MRWtkTzNyU2JGd25jbjI0dVVSQkxTYWh4d0dveUx0Z3UwNjBjWUM4UEFTbFk5SWdqTzZ2SlM3enRsN05USk5fNC14RUk2SnRfR0dWYjUweFN4ZVJ0dnlWOGtQZXc2YTQ2QkxoRDdiZDBKZE5jd05fa3ZsMThGeklUc2VqazBOSktJRFY1ZFF1RUdGdXfSAdcBQVVfeXFMTWtxaGpKQ2NZSjl6MnlDOXhLb251NGluUzdLaUtqenppeXNOMnh1ajJ4ajNmVndmN09rbVZoRU1VdWt2Z01ZaF9IZ0tiaUV5Y242ZHdyS0hpSkZ2LUV6UzM0MGphQkY0OWg5ZDgtcEJXUWFpcEtIOEVMcEtzWXMteDd0bGtHZUtkX1g1T0xuckZzQXREaEtvUi1hM0dXc2pyUnpGZDktRS05SnU5LXJNa1NDSHBFb0hXZ2oyd3NyaWp1VWhpZFk3YVpCX2RYbjlYc1dkR1A3aGM?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Tue, 26 May 2026 03:58:22 GMT",
-          "fetched_at": "2026-05-27T23:05:07.170505",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Dharavi Redevelopment: Who Gains as Adani Reshapes Mumbai?",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQ3lzR1hoMm5BdmNOZ1hhTTZhaW5ZTHVCS3lnUXRIVGxsVS01dGNJTGxCQWpGVVZwcVdrRHh1RFVlRncyVjJfdTRkaWhsTXhPX1VUbVdpQkVMYkJQd3lMalBYM1BIcVFkdFd2Qm55c1ctMW85VVNyMjRkT01FdGtGQnVhZU1Nb00tVHhmd09GMEdXWFRlbDZwcWlreDNvVGRHdUFaOVhiTlJzdXZDSTFwc1h2MHcwRlFST2hkR1hQSTJUZ9IByAFBVV95cUxOcE5zdmtORVVCdzhwMHBDSTJVaHpFUWxVdmhJOEFHNzROQ3hnd3BUSGE2TWpONXJrU21LNEVJUHh6M2NlTkIzUFo5RE4yTlA5UU0tWUZLRGJULWZJTDdqbTh6WUdzejdkUXZkWW80cVlqUlZuLWo1M3pabjFWVmt5b3ZwWHU1aGJ2V1J4MjRBaE1xSF9yNDFFYUk5VjROZERyVlI0WnFfcmZNWUppU0ZHbGRzZzhrOFUzLU5jVFdFeDNQY0tkb00tNQ?oc=5",
-          "source": "Frontline Magazine",
-          "publishedAt": "Tue, 26 May 2026 12:29:51 GMT",
-          "fetched_at": "2026-05-27T23:05:07.170512",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Adani group stocks recover about $150 bn in market value wiped out by Hindenburg report",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdGFWLW9kdGx0cEtaQVBzZ1RmVUJQczRTeEpiRWUxQXZCUEZtQWZnM3QxYkRYd2NHaUJnV21iVHJVMTdlVDEyM0VmS0NEd0FmQ2xuWDNldzB5MzZqNTE5eG1pN1lDa21Xdmkxc19GNUlsV2hzUnJrcEdOZTJNOXdwVk1KeFBWeG5mZ2JCZFctSnRMY3dvSkVfOXhna3QzaXhTNDdiWGZsemtXV0FONU1pNzh5MHF4Z1pReS00NDZ1VmvSAcYBQVVfeXFMTnVPMlg1WjdQUU9mTU5LcWt1UXBPaEozbVIzOHRwSVhWcUVJTndJRVFqdldyY2NXajNONnNXdFpueUpFVGhKRkg2QlktX3VTNmZVNTBlX2M5ejh4WkYzaVBUNDVEQlZHOWI3VXZmZUZIRlNJbnFZcTQtWU1LQkgxdEU5c2xGcFlUNXdCMzA4bVkyeUhwVVdJaU9yS1d2eHNlRkUzZk5Zc0pfVHdHN2pQVUxWaEdDdlBBNzU0VXBjTm9tMkRwYVJn?oc=5",
-          "source": "ThePrint",
-          "publishedAt": "Wed, 27 May 2026 13:22:56 GMT",
-          "fetched_at": "2026-05-27T23:05:07.170516",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "RIL announces AGM date on June 19; updates on Jio IPO in focus",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVTNaUDY0VVVHSUlrcHRwT3I3eGFUTjVoS1FIeEpURjFlWHZHT19hT3g0cVNpVmVaNE5URUhoVXlxcGphdThYOFVJc1FFeFRVNmpCU09teUtlbXBzOEhCMnBxX2RuaEJRMnZYNU9lYjhhZ1ZIV1VTZnpsYTJJWHM1WnFHdzhYU0EzQXRYZlM1SkoxSGtBenJLUlY2VXZSSmxYUVdVckx0elZlLVJLUnNXN1BJbnBVbzhMWlF1a0IxZlFZZ0FRMWl1U01BM3RVT0NM0gHWAUFVX3lxTE1jR2ZOc1JfTXl6Yk4xdExOaWdadk9uQ3NWaG1YdGgwRjhENzkzcGNvR1ZKU0hmMUduMjVTS3BGbEwybTctNWMzM2RsOTY5dGRqb040YlFGd3Uza0dNUHpZcUM0anhPZTlzV0hqTFBwNDJiaXRCLVltY28xVEI4NXFLNHkzWTF5b0pzNmZnWDhnR1R2ZUlJR3EtM282QnhOeWJhbEpRcE1MSm00RFpqX0tUOTRYRlpWeTloZEVrZzRVdDBjMWpLbUV4U1EzdUNPNDFqVW94d3c?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 27 May 2026 12:39:18 GMT",
-          "fetched_at": "2026-05-27T23:05:18.005400"
-        },
-        {
-          "title": "Reliance Retail’s Tira brings UK facial fitness brand FACEGYM to India amid premium beauty boom",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNLV9yQW1XaWNsLVFXMEZrMGV1YXhjRExKMEF5dmZ4WGQ4emVaU1l0WERVU0F1TGxqdFZPak00UnRiNnkyWWlYb0tUN0hMTXBUaHRjNTFuVnNQeF9yMmdUR1dJWHN4aUxmMzI1OWtBSUpoVEV6SVV3bEtySWMza0RiMmI5TkNqWGxOODdFeXRPSndGa2w2eUVnZ1JrelJRSHgzcmxrZXE3YXpDQThOTlNwaWVXTzVQYU51TjhQUFRtbXVNOWQxMkpYU0tVY0UyRl85MlAySUt5RGhxY0o40gHqAUFVX3lxTE5hUXQwQTc5U0poU1NWNGl0TjVUSFl2Xy1memhHd0wyc1BMVzFRR3ZxYVdGTk1hWHdRZmpoenRGOHNYV3huVkx0aUJndzE1NFgxb010NW5LMVJIRmVvQmFySTk2d2JYZDNjVWNKSzRONUtHczNneURnVHdOTENkNzJRcjZPcXMxR2JiLWtEYjcwVktWUWh4Y0JNUHY2Yk1CSVdieHliaE1zNnNyX1F2NXNqdVkyRG1TZ3JnVGVYQjJJVDJkSlpBRnk5MC1pZUtmUmRaSExUMEp3LUdSRkZSV3lGS3B6UEoyME80dw?oc=5",
-          "source": "Fortune India",
-          "publishedAt": "Mon, 25 May 2026 14:13:22 GMT",
-          "fetched_at": "2026-05-27T23:05:18.005422"
-        },
-        {
-          "title": "Reliance Retail appoints Sandeep Karwa as Ajio CEO amid digital fashion push",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1JFYmF1cFFGUklqZXhsS1RWVG5oZURIb3VmV0ZwMFpMOGRnYTFkR2llZzNxb1dCTWdqNFd1ZXV4cWdNQVUwMDZXQVdyeE4tekFSUENiN1NqZFVvUUxFZHUwU0lUTVJHMHVaellldHNQZzktcG5ZVVp4ZlgwdmN4TlFmakgzWFdPN0JreWRtLXFWV2JpM2VTQk9tRFFfdEtTUmdhWFN6S3p3ek54Um5jUHlsNU9jZUt0UlA1NFlwbUtaNTJzT2JGQQ?oc=5",
-          "source": "People Matters Media",
-          "publishedAt": "Thu, 21 May 2026 04:03:20 GMT",
-          "fetched_at": "2026-05-27T23:05:18.005428"
-        },
-        {
-          "title": "Reliance Retail names Sandeep Karwa as Ajio CEO; Vineeth Nair gets expanded role",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNGV6UGZ2Qk1uVjVMYUFXY3FqeWhJTktjUzNxSzczeWRRRVVPSWEtQUJ5cDIyLVMxRVVkdzktaGdyNDVxS2JxOTZjTVRzaHRkX3BSUWdCWkJlZkduVm5QUDJ3QXpLY0o2T1dKLXhSeGZSS2lSTldJaTJiU3dpdENJeGljaGwzajlxWTFzOXYxV0U0V0VnaVdad3ItQjFBdkxray1mUzBBUDZHcGlnUDU4UGFoQUVLUEE4WHlxcjZ3RFNHc0JWOWxaRlZDUmZkY2kwSjlhTGZOQ2NLLU0xVERFUmVKZjJPWEFKOUpueFRvZVQ?oc=5",
-          "source": "ET Retail",
-          "publishedAt": "Tue, 19 May 2026 11:24:52 GMT",
-          "fetched_at": "2026-05-27T23:05:18.005432"
-        },
-        {
-          "title": "FACEGYM enters India via Reliance Retail’s omnichannel beauty platform Tira",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4LWt5X0NLWmRQenc3Z3pSaExyNzhMcnpUOEo0NFd5T3k1UWk1WHVLZjBaUUxiaF93RHVYcUh4N21HUnMtWGF6WXE3YXYzMGJHektZeTU1Q2Zwbm9BQ1NwMlE5QUZObWVrYjY3VHoxdV9WOTZ3VWlrUmZn?oc=5",
-          "source": "Mediabrief.com",
-          "publishedAt": "Tue, 26 May 2026 15:10:56 GMT",
-          "fetched_at": "2026-05-27T23:05:18.005436"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "TCS": {
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-05-27T23:06:32.587108",
+      "last_updated": "2026-05-28T12:53:17.215096",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.6,
-        "label": "Positive",
-        "pos": 4,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -256,53 +174,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Allahabad HC Quashes Criminal Case Against Wipro Chairman Azim Premji Over Alleged Labour Law Violations",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN2NsRDJSdnJ5SElGRzVaa0pudXFjNWV0TzlSLW41eUl4Q1ZobWo1Z0JPYU9MR21oejlHUlM5TDVENWZIRkw1RUdBbWprdjlPN0VWNk5xXzQ5cUNYakYtRlVvY2JuREpfcExkVVl4dkF5WmtTSndOSnpTNkZ6d1RFcUdRdjIwc1ZuRUtTSTV6UzhjWjZUR3oxdTZtSlkyMnBBRkdDSUpUTWhjZVUxUDdPTFlsSjE3TjNHanJvaTlrcF9EYnJuTDI5ck0weGdKanps0gHWAUFVX3lxTE1zdWZXZ3FNMmNaSkZLUndkZFRheGQ2cmlJMDJPZVZVMm1aWWQtNE9HVG93clJrcnFOakdyY3hDcFozSXpoVDBFREV2U2l4eVJlajJwWHNLVE5IRGZFYjM2eE5pOVRubkVMSXNPbllhVG1Mem5FRWtaT2VBMUpPNDFOaUlSbjVWWFlBNE9UNzFzVDVmVjVFeGp3MmFBdk1kMEw5YmRLUWhBN2dBXzJaLTJvUHdxTmtTdHpxZDZwY0dwZ1AtUklWbHBQZjc3dzUtV092RGdwdUE?oc=5",
-          "source": "Live Law",
-          "publishedAt": "Tue, 26 May 2026 06:41:34 GMT",
-          "fetched_at": "2026-05-27T23:06:01.193433",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS, Wipro, Tech Mahindra hit hard as H-1B approvals fall sharply in FY26",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOanZGV0xLV3c3QUZtMExyTk5UZVB1VTUtNjJMaXN1N2ZoYjZRUUFJajFUUUJoNXFnU21BNEw0RHBnSW5XUDl5MUNGR0xxcGN0VU1EV0w1WkpVbmtfX0g4MERZRmo1MDAweDBhZGEwb0twdERFVFdYckN0RE9DQ0NCemVDdmk4YUI3cDRTSUN3WGU0b1d5bi1abGM2WG1POG8wVzRXejlPcmhrN21EMW41b3N3dWdPSUVKYlU5Vw?oc=5",
-          "source": "People Matters Media",
-          "publishedAt": "Tue, 26 May 2026 05:26:36 GMT",
-          "fetched_at": "2026-05-27T23:06:01.193446",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro buyback 2026: Key factors that will determine final returns for investors",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSUpUdlBlWHVnbjZMbVpEUEYxMk1Ma3BGcER0RF9UclhuZG5KWUJBUDloODVQamlvZ2VfU3FLU05SRHQzVERLTnJXN1laSzh4VUVtdE8ySXh1aDcyX3Q0OEUzb21FcDZaa3JXSGNvWTZmSFJmQjVIVGYtX3B6M2w2Q2RGRU42S2NzWVd1X0Zxc1hfQUNmTXotVjRpd0hScHU1d1BBSzkyaFU3cGxpc1FLcXRuSWpCd3Q5TTRqMDJ4ZFBmQWV3c1Q0WWh4a1BmVUwwZlh3dW13?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Wed, 27 May 2026 18:39:02 GMT",
-          "fetched_at": "2026-05-27T23:06:01.193451",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro Share Price Highlights: Wipro Stock Price History",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa1NlTEo1SDZ3bThfaVZfVmRYYThTdmthVE1ENm9qOUZTV09JdVBKTTBrY0FNVVB6a29vSlhkY1NvTWtxY2FvQ2hINVczWHJVaXBBektYNjY2WTA1R1hTdTNFYlRrYmJEVDl1OGVkYjQtT0w5WWl2SF9sS2xsNVJib3pmMjJFZWxGdzhQOGFjZV9uRC1seTV2YXpCanZPNURYSnJTcC1WeVQyU0pZQjYzQS1vUDJ4N3lQMmtVS2p2UlkyZWItOW56OW1nSTdVaUZucFo4Y2tjajM4Q1FYblHSAeMBQVVfeXFMTy03N0N6TEJYcU5yV0JteUk5NzZtUHU2aVQ1eWY3bmRUV1piWVdnWHh2d2l6X2lPdi1pUXdKX1lGRFdfX2FmQjgxU2ZrTkNFRmxWLWxSeG5aTnhOeVg0VkhOVkJTSFYwdFFxS3R4aUhMdFRDNmFkN2VmeWxqTGM0dDlwVy1Nc1FFdWVuQi1zYWFmYWtSQl9yUW02ZEw3dkNmWVRCUEFJU1lxandobVdIdHNnV0EtZ2JCanZFV3pHcVo3RXF3ZU5Ndm13bkZfcThpakNRdkRIQkNtOXZzZFUyYS1MdVU?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 20 May 2026 13:02:00 GMT",
-          "fetched_at": "2026-05-27T23:06:01.193455",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro Q4 Results 2026 Highlights: Net profit rises 12% QoQ to Rs 3,502 crore, Rs 15,000-crore share buyback announced",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdUlXdC1NdG1nSnZXUGJJdDRidGRRSFYtd05SYXR1MnJYeVJtRkI1b3o4ZGVIazgxa1l3RFF3SEFfNWpaNmY4OGJmaW03Q29vZVYySFZNdHJzcHlvVVU3cG43a0RtM1lib19tVzU1a0F6SHhlRF9BZE9rcC16Rzkwb1R0d0tOMk5feXpsS051OTc2MnZlTEVkWkZoQXZ3VEZzWTROZHMxRTM1eEFlQnVsdFJiUFl4X1ZsUXZLUXFLVkN6bUl0YklxWE84Y3NOUWdwSld6TUpxN1dwMHozZ1Q3dXJ1bU9KZ2pyem5xSGtmSDhRVDk0VGfSAfsBQVVfeXFMT3l0Y2xvWWE2S2xRd2JSMnczNXJ5TWdMTmRGS0x4OWJUaGRlWC1pT1dqeWtZQVFHSEpyeG9JaU1JeGt5a1FKS0xZVVlyTkgyMS1CNTdoSC1fLXd1aDVBQTdZbDliVVdzTlh5YkhPa3ctZ2hqYWhtRGVlZk5xbDRvRTVXWFJDU2hTaFF4U19JNUJ6SHQ3VFBzTnhiVkdkZTlvd0VkVU5LTWwzSERUYmMyQnZuTXNLLTdfQkdsMWI4QmZ3c3hPNF8yU1k4SVNMNkRyaFo1U0RnZlM2SmUxb01WekhOQ0lkclZLMVVqc1k3WldUaFRqdGdoNS1jQVU?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 16 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:06:01.193459",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -310,111 +182,37 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-05-27T23:07:58.710821",
+      "last_updated": "2026-05-28T12:54:29.428796",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 15,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.33,
-        "label": "Positive",
-        "pos": 4,
-        "neg": 2
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
-      "news": [
-        {
-          "title": "Infosys CEO Salil Parekh on AI impacting job market: My own sense is AI is going to create a lot more opp",
-          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQSzlLV3pvVlp2aFllS2ludEtTX0NXeHliQUxLWnU0UU1MMzBKdjEyVHhiUU1tX0EzYjR1VjF3WEE3Z0d0ZDRUVmJyMFRRMWJqcnUtcTVpTmZMY2o3dTVZOXRUOVFEbHdnV1JyMVIxTUJ6ODRPOHY2ZVFmM0xEMnBsR3VnYUgwWTRGWmZmTXVsTEFVUzkwRmVFLTgtOXFUbVE1dWRyak90ODMwbmZQeURiemdhbl9JeFFtQzZYcURxbUxKemRGOVJQakxPS2xMSVdtZFNZcmlfWkt6eVVMVGk3cHFIUk83cGMxd1ZaUmtqUTI2QnJHYUVvV2xDRnJZOWdycE01RmM1a0QtRGJWWkV6WGVfQXByNy1qSk1CRk0xbDhVMWhPOUp0Tmo0ODNyQdIBswJBVV95cUxQMkJrZFU0bG15WTE5Skd1ZUo0d2I3bUR2ZGtpUW9KTF8zaFdDUnhaM0g2WjZsM3p4UHdlRnFpQVc4T1J6dlUwTVVXRFVWNDJZbVVTSmdXNnQ2Qlc3X09xejJfWWI1d0E2WGZ4NGs4bHZPVGhfbHhnWXNKcGd5N0dFMFZ2bDAtRHoxRmZBWkZ2TGRUSmJqSEZPRHlqbnN6SGF1YU05Z3B1SU54UmJ2S2NZM1FmdjBXNENsS3JzQXprY1VIOVQ0UTYzQkFtLVNfZ0RaelB0N1JsWFBVMXF0Y2UzWkQyaV85NW5fczlLU0JVV3FCN0hxc0Y3bFFGSTVzNWpzOEZVTlk0TzBoUTRPTGpFZWhYS0NLZmJLUkxjSDROVVEwNWV5b2R4ZXZFaFJXTjVuV09J?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Fri, 01 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131087"
-        },
-        {
-          "title": "Infosys Recognized as a Leader in Avasant Generative AI Services 2025 RadarView™",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZHJRRFdWU1A2S1R3VlJQZHNmdlkzZmxnZ3BadF9rcHBudC1UTkVZTHlETDZqTVoxMXRFaEF6ZWRYbGtPZEw0ek5uMjljVWV0eUx4Mk9NSUtRQ3FlTTJBUGQtZGtFaTBheC1Gb1Z5S2JmUkxJb1lPWUxteDNxT3V0WHd1a1FJT1hNUk11eXdKbzJlTDgtWVg4Y0pJYnpScy1ibHdyUy1QVmltMXd1M0hNOF9TYw?oc=5",
-          "source": "Infosys",
-          "publishedAt": "Thu, 21 May 2026 19:21:16 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131103"
-        },
-        {
-          "title": "AI will bring changes to Indian IT’s pyramid talent model: Infosys CEO Salil Parekh",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM0RIWUJVeXpweEVoMnB5MHB3Tm9KTmlVWU5ZaWZRSFUtdW5Wb09VYk9nOXU3cXEwaWJydlpFenp3MUdPZzNzc25kakY3TkI2SnR3Y2lIc3NyalU3c2xzTnpPNnNBRHhGOEtEZFpEUlhfYU0yUlctOVUzNm9pSGlwT2NDNjhWQ01HcTIyZERObnVhU0FQUW42NmZ4cENCMGZtTzkyU1c1UWVOT0FPWC1Id1I4bEZVUEpUeEF4dXY1MFhqMXE4aC13N2lDMkhTMHBNU3ZDNmh2aFZFNFkzb0paa0FxcGZHOUtYSmU3MzZn0gHzAUFVX3lxTE9ZQWowM2VWWm00NkkzNG9wNlNzU2tqNndSQk82YmZyLUZEYVhSb2lZeGVBRkRPcmVxRF9rUWMwM0VTVHFmUnNGWWJSa1lmRzlzcWRQNllfeFpMbi00aTJMUkk3bVhPbndZVEZTVmU0aThDcE0tSno5UlEyelFENW1RaVVSS2JWQjEya1NiVG5EMTFuTDlYbU9CU3RaaEVVTFQ0U05YRjlqbzRnWjN4S1lMUTc0YUY3WUt3S1QzWnA5YUFGNlhLUWZHSjMxRFN2dXpaU3NlMlBkNnZMdWs5RWM4Y2I2WmxyZ2gtN0pna2QxQnBhTQ?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131108"
-        },
-        {
-          "title": "Infosys board to discuss CEO succession as Salil Parekh may not get a third term: Report",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcjhEeHdFOHBONlJ4dEdpcFNRc2tjS1ZnWkl4ZC1fNnA0WkJsREp0ZU5CSUNrMmJaYmRMTUJyYllneHd1U19DWmNvajV1aGNPT2cteUJpOFZiMjBNeWJDQjdZWUVWd2pYdzBVSS0zejB6SXFrNGliUWdfY0xRV1dNanlrRVlKTWNNdU90VVRRT2tqa3JybmYzMjB1SUlFaDFZaTAtSTB0TjZ0NmNoVHllTkVyRF9lZ2J3eGhDMk1sbVdyU0IzRmp5LThZQkczNXZPV3p4Mw?oc=5",
-          "source": "People Matters Media",
-          "publishedAt": "Tue, 21 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131112"
-        },
-        {
-          "title": "Infosys CEO highlights risks and opportunities from Anthropic’s Mythos vulnerabilities",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNFBLMk9IcHQtWnRKbDVxYmZWalFpY0xEcVhNUXlaRDlhZm5WT0NRUlJTUmlJWTRaQ3RVX1dDcUZ5ekxVa0trc1UwQ0FJR1BtYkVZeUk4S1dKbzNjRU9JamRQVml5TmV4MU94RzhkSl9Hd0FWOE84czNvMHNXVGZnSHFsMkEzbEJkUFg3dk5xaHl4a3dRNTRZUDFyUTRsNFZ6WmdoWjF4RVZENWZBemg5bW9DVTNmZHVFQUM5bWdMOUZzeFJnZEJZYmoxWXc5b1FkQ2JIbWR30gHjAUFVX3lxTFA2LV9mQXFsbW13aFRNUS1CNWVZSXc2UDU4ZWhkcHUzb2lQZU5QODNOdFVVSUN5c1NaZVFKVURzVW9kVFRRX1RnSGdvN3VPalQwMFpxbllFNDVyNl8zOHlKWGZ4UkYtRW9qVTlFdS1kX21CUzFQWDBfMWVUREhuV21CV1lERnVBa0x1VTRIc09pRGtYNlppQTN5Qm91V2V2YTVCVUs1bTQxQkhCaTBmQlIzOU40TDZoQnNzTkFZd2NkRUxSeVNjeGhPWU9hRFVqLVpiSTNMbGNwVlBtOVdPV1h2eWp3?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Thu, 23 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131117"
-        },
-        {
-          "title": "Infosys grants Rs 51.75 crore ESOPs to CEO Salil Parekh, employees still await pay hike",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPMno2em16SmVQRHJpanVqM1FUeDR6MHNqdEM2UmtiOU5rTUhkelVMUXRGemwwU0cwVGZ6QnFDYXJ1bHA3V0NHUEdablRIbzNPYjRNZ3BTb09GRXpmV3ZsQzlRWVlSY3VyY0x5a0Fpemc3MnRCNWlkWV9sU1FmMVQ5Um4yN1dFOXJPS242LUJST3pmS0V3TUZmaFN4M0ZSWmdvbmIyTDdSV1c5MWJtX1lVdF9zWl9Lc2xPVGR3MUszSlJBbGVGVzlrbnZMaFRfdVhUc3RiTjNfLU14NXN1UVNtUDVGNmYxczBZMWFzWXk5YmTSAfYBQVVfeXFMTm83VWoyaThtSU5MeThDWGVrT1BhVFRMLVV4QkFDYXdnVG9VdTItWHF4TUFnWUpwSWJPM0FaSlZHMEY4bmFhbHB3dko1T2RvVHVJRXctYVJXY3hFU0NZSENSN1JUTVVzN1ZuSGd2OHVVTXVZME9sNlFGV2ktenN4VF91NjE0XzVaRWVxLUoyN1dMU3U2bW94cmFQYmdTMTBOaVBnZWFvQi1OM0xucFNHY0ZvZlBEMzRUODB4bWxoUFJiNEo1OEZOcmhFMlZ6VTQxbUVrR2NoTkFaNEw5cEduLVZneEJPdC1SclNnUDZfUnNvOER3TnZn?oc=5",
-          "source": "India Today",
-          "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131121"
-        },
-        {
-          "title": "#MCTech3 | Infosys CEO Salil Parekh interview; Dreamteam in funding talks with Accel; and more",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSHFzRWlQa2hpU25TTENjc2d4LXdrbzlQOG9kOVpYYWJPb0VfNXdTdWtLTWc1UUlZREJaTVFsSjIzQndXOXFwUDhpbVB2RFZweVBPeDZwbE5SNnRVcXg3Y2t4RkZVVTUwdWo3MUpFZFkxamdIcHRLcVpEZVFfLWNYaHMtUVVlMXFTOTZjQk1kVmVUTlJkdXROY3hPbTBpQQ?oc=5",
-          "source": "LinkedIn",
-          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131125"
-        },
-        {
-          "title": "Unlock AI Value | Infosys at Databricks Data + AI Summit 2026",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ3dZRG8tZFNVVnZPaVlhSktzWGJzSERRWklyQV91RHktRlA2SlZzTXRaQVVHaWF2TWY4bjNUSGVVT2RoSDY0aUhtX25XT0NKa0thZFVFVlRFLUVSRTVuTHdTby1LMXJpalExZDNZSWl0ODc5S3piRG1BTHNoZ0lYNQ?oc=5",
-          "source": "Infosys",
-          "publishedAt": "Fri, 22 May 2026 01:15:25 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131129"
-        },
-        {
-          "title": "Launching Today: Infosys Topaz Fabric™ - Composable Stack of AI Agents, Services and Models to Accelerate Value from Enterprise AI Investments",
-          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPMXF0V2xLc09rWmNEUnhTdm1DTDFUNGZXOUhFa21QRWZYYU1Uak5RbUtrV01JX3dIQVJnNFRtU0dQNVU4dDVUcWt3djRPdzFRV3pCcnZfTjdZd0xrTlhuYzZXZlZpRDd6X054eEJrU094YzVhcXl2b2dKWFdseFJEX2k3bmdBbDhGTGN2cjRFQ09jMG5HcVQ0Ymh5VEJMYW8tdWRVSHVfY2ptd055XzdrS1VFWkhuR1lINTYyZ1hOSkdJUU5tYzJOaXZjdGJ2anFZaXUtVllXV0R1S081bDJ2ekt4cmhTS1Vka0t2MzhyeVV0NmlqaVFvTFRobFFEYnJmZGpWWGJlT0Z5cnZqVk13WTNOUHd3Vmh6M0drRTRLMA?oc=5",
-          "source": "PR Newswire",
-          "publishedAt": "Mon, 03 Nov 2025 08:00:00 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131135"
-        },
-        {
-          "title": "Too early to assess Mythos impact, says Infosys CEO Salil Parekh; sees potential opportunities",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVWVUcjQ1cGdPd01JaUxUTnV2U2ZPVm5wU2hvYnlpNi1Ka05OUjdQR1ZZZlpJdmZPRUJSTUZVb0FyR2U5Rll5U05WUHFWUTZmMkNTM0VpZzExZTR0ak8yUW02djBsWncyc0NobHAzQ29oek9Vd1JtbjdaTEN2bTZkZU92MmFjVDExYkpONlhab2NfT2RsXzJOY3VSUWlmZ2xIZ25IMDBKY0RfbXA2WEQ4Nk5zeE4zQzN4aFRkMndBcDJUVDdfTzkyTFVLY1daOGUtbTVJS2VaMGxBQXdDR1NKQlR0Sjl6Vy1hcmRlUUl5SEhHd01DSFdZQkpxVdIBgAJBVV95cUxPWHBEdm5pcGNyVEZTNzFMY0lqbjd2NEhzV00tLWdveXhtdWt3enR3MlBIUS1zUURhdzl0MXhfNzM0alo5V1dJeFdkWWVtLUlMV3VLOE9fRnNPZUNuRnY5c1NpdVFKSHBCNkJtMlczRkFENGlKVHhudGpyQnNRYlQ0dUxvek5jb05udlg0U0xxUVoycldJSXJwb0tHZllISWVVS0toWTNqSmx3V09zTHZzbGM0a0FiOFhuTEFzcENsY0U4WXFLVGR3ZlI3ME9kYWZ3ODRUSFRqZmdhaDBnXy1sdUNBOEJmRzJBLVZsaDFHblNrV2FqOXlrLVhYU2lBRERG?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:06:48.131140"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
-          "title": "ESG Compliance Gaps at Infosys",
+          "title": "Infosys Strategic Monitoring Required",
           "severity": "Medium",
-          "description": "ESG red flags detected at Infosys: governance, board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Infosys CEO Salil Parekh on AI impacting job market: My own sense is AI is going to create a lot more opp  Infosys Recognized as a Leader in Avasant G...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "governance",
-            "board"
-          ],
+          "description": "No critical gaps detected in current news cycle, but continuous market intelligence recommended for Infosys given sector dynamics.",
+          "detected_from": "Aggregate news analysis",
+          "gap_type": "monitoring",
+          "keywords_found": [],
           "solutions": [
             {
-              "title": "Infosys: ESG Performance Benchmarking",
+              "title": "Infosys: Strategic Market Intelligence Subscription",
               "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
+              "timeline": "4-6 weeks setup + quarterly",
+              "price": "₹12-20 Lakhs + ₹4-6L/quarter",
+              "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
+              "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
+              "gap_type": "monitoring",
               "framework": "MRA/ESOMAR"
             }
           ]
@@ -460,97 +258,15 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "SKF awards global AI-led business transformation contract to TCS",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdVQ2VzhsMU1nMzA0LWhoSGxGa2dRbHAwYV9VazNacnhlVW1OemFES3JWcmtTYTRvRzhfR3IyRHdCR3M3eWt5dk4wNlp4OFgxYnVHUkVFTnUwcF9fVTNLQ3pTaWdROEJWVDYtb0ZPMjJOZWQ0czRQR3JERTZIZjh0ODNOWjVRTkNVS19YX1ZXOVVLSW4wUkJudFNITGtTRkhPYXNSTjc2ZkFhYnhIbXJzUW82RVFJb0VUTHfSAcABQVVfeXFMUGV4ZkNSd2NuQkRJVjlPamNZenRsVzE2a2QzZU9NNTFJVjVLY19maXRqa3FDRkZWZzNvX3lXY0F5MDZNV3d3TTd0MDNpaDFtTnVGUmlSbFltbTBvVjZzZV9QN2xSakFCWU9rYVpaVjZzS0FBNHcwWWNsbEN3ZVc0Z0dSbURScmdOdGg0d09ka3ltOVFkdFljZWRqc3RWRjlnOGk3bVBPTkQzWVMyT2VfUEplaDVJcGFyQkg0VmxDTDEz?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Wed, 27 May 2026 16:11:05 GMT",
-          "fetched_at": "2026-05-27T23:07:01.884247",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS to modernise SKF’s global operations with AI-led platform",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOTE5RnZIamhsWDBpWDRLLTk3bEdwbmVqQ05rRDRjaG5MUmVnZVBQSmFhYzNSS3JrNXBleGNMa2FrUEhNSjl0TDdubXZsVWNqX256SFE4UHowU2ZxY09wSmV6TmxncEdISXNaSksyMkdLZlhYcVYyU0FyNndZNDNDVVJuaEhjWUx4Zlg2dnI5dzAyZUdGbVdGRk9YRTJlVnlkSlR4NDd2N1dvN0hQV3U4RUJKZ19JRWVRaFg3c1FYX0tkQU9UTU1kVmFRZG83NjFsbF9J0gHYAUFVX3lxTE9wb3c5c09iQ2RFWmZZMjl2RkVwRi1yeERraHFiUk5zcmk0NnhmU3lDSl9YN1hQTGl4RnpMMTJ4WG1PdXFGeTN2Zlg4azIxdUlkZHhZRTRVT21Ka0Q3V3FSM2VHVFRDaUtiM1laTktoUVljZmh5V3c0cjViS3J3bjh6Sk1WeVptQ056UE8wbnNkUEJYNWVhdWR4eEFFYm1GZDk1Y1hieWxrY3dqSEItVHVPWjh4dGpGR0loR0hnWWp6UEdleW00dFRKbjZUb3ZxcmMxN0FldGtqSg?oc=5",
-          "source": "Indiatimes",
-          "publishedAt": "Wed, 27 May 2026 06:30:05 GMT",
-          "fetched_at": "2026-05-27T23:07:01.884261",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "How is TCS modernizing SKF's global IT with AI?",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUlUyWFFOb2lTYjg2UGlEUGJsTEpabGQ2Zi1fMWVKRTVKQ1I3VFpyZDFhbm44ektRUlpBNS1YNndZY3ljSi1XdUZIbGxTaExSa19KUGoxeFg3NEs5dHFUX0NwazdYb0JaZHRoRFVfcFBBNmVjSGI2VkVDTVExMzZNMXp4ZF9lblBXQ1ZCWlBVWkdPejQ5TnQycmdJRDVORWRHdlgyT2R5aWl1MXRXY3pNQUkxa3NtQW1pb1ZFTmJYQXB2UQ?oc=5",
-          "source": "Analytics India Magazine",
-          "publishedAt": "Wed, 27 May 2026 09:48:04 GMT",
-          "fetched_at": "2026-05-27T23:07:01.884265",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS moves part of employee variable pay from quarterly to annual payouts: Report",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMHUxMzd1OUprek9PRkNhcnduWTJnbW9xbF9maGQ3WTNPQWtPZEtmMG43NF9BVmRWRVo0TkZBZDVDZG9ycVQ5LU4td0tkZE5mTDV1MkZfQjg0OVFNaWxERnJTN25oVDlDTnV0cllweklqdWQwTjZCVF8yLTFjQjB4XzVRTU5mWU44Y2RIVFJORV8xOVVKaTl6Ukc2Z2p4OS1ZZXVTdEd4MUxHYmNCRFY1cWVSZjd1RjI1YXV2MkE3Q0taeDNaUThUb2lFdHJoNzF0SGN6VFBselo?oc=5",
-          "source": "People Matters Media",
-          "publishedAt": "Mon, 25 May 2026 05:51:54 GMT",
-          "fetched_at": "2026-05-27T23:07:01.884269",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Mythos coming, alarmed Indian banks, govt departments, tech giants like TCS and Infosys run security audits",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObEJOai1mN2tOUFRxYUM3WndnVExEVEVDb0VEODhrWkVwMEM3X0wySkZ0cmVIb1ZUWi1nQnJ6bjFUVEV6Qkt6ZUNEeDBQbURJc2NhYWxDWmwyX0Q4T2xXMHZkbG4xenFXS0wwZGlOYWxPMXhqRGhDejRMbXBBSnYwNkZBVjJoX1hKbEhkTmxlWU1sT3BiV0M3SHdCODQwT3ktRVlhTk9WYmFoWTZ2STFIM1ZFRHJDM0RLZUVaYlJiWjIxeDA0YWVveEx4ONIB0AFBVV95cUxNRDNsdWg2clk2Zjc1ajVVTzVKLW90T1BFbl9JUGdvZHYyOEhNeThfamJQZzdteFE1cklMRnAtc0tOSTFCdlI3R2g0V3o5cVBYSXVNeDhMUk4yM2Z2UDl2dVFGUk1mNnNyRjBtYzdUeGNWRm9YcHgyTHQ0RHM0LWZtU3JwRy1oZE5VLTN5akFSS1JURk9ra2ZqaURPT3hhaC1ZTFJ5Z1pPb3VOSHA5ZlJ6YnFVU3pYRkVhYm1fZlZyZFVxWnFzZEJIaF9yOHE2OERu?oc=5",
-          "source": "India Today",
-          "publishedAt": "Wed, 27 May 2026 12:06:11 GMT",
-          "fetched_at": "2026-05-27T23:07:01.884273",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "Infosys CEO Salil Parekh on AI impacting job market: My own sense is AI is going to create a lot more opp",
-          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQSzlLV3pvVlp2aFllS2ludEtTX0NXeHliQUxLWnU0UU1MMzBKdjEyVHhiUU1tX0EzYjR1VjF3WEE3Z0d0ZDRUVmJyMFRRMWJqcnUtcTVpTmZMY2o3dTVZOXRUOVFEbHdnV1JyMVIxTUJ6ODRPOHY2ZVFmM0xEMnBsR3VnYUgwWTRGWmZmTXVsTEFVUzkwRmVFLTgtOXFUbVE1dWRyak90ODMwbmZQeURiemdhbl9JeFFtQzZYcURxbUxKemRGOVJQakxPS2xMSVdtZFNZcmlfWkt6eVVMVGk3cHFIUk83cGMxd1ZaUmtqUTI2QnJHYUVvV2xDRnJZOWdycE01RmM1a0QtRGJWWkV6WGVfQXByNy1qSk1CRk0xbDhVMWhPOUp0Tmo0ODNyQdIBswJBVV95cUxQMkJrZFU0bG15WTE5Skd1ZUo0d2I3bUR2ZGtpUW9KTF8zaFdDUnhaM0g2WjZsM3p4UHdlRnFpQVc4T1J6dlUwTVVXRFVWNDJZbVVTSmdXNnQ2Qlc3X09xejJfWWI1d0E2WGZ4NGs4bHZPVGhfbHhnWXNKcGd5N0dFMFZ2bDAtRHoxRmZBWkZ2TGRUSmJqSEZPRHlqbnN6SGF1YU05Z3B1SU54UmJ2S2NZM1FmdjBXNENsS3JzQXprY1VIOVQ0UTYzQkFtLVNfZ0RaelB0N1JsWFBVMXF0Y2UzWkQyaV85NW5fczlLU0JVV3FCN0hxc0Y3bFFGSTVzNWpzOEZVTlk0TzBoUTRPTGpFZWhYS0NLZmJLUkxjSDROVVEwNWV5b2R4ZXZFaFJXTjVuV09J?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Fri, 01 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:07:58.710380"
-        },
-        {
-          "title": "Infosys Recognized as a Leader in Avasant Generative AI Services 2025 RadarView™",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZHJRRFdWU1A2S1R3VlJQZHNmdlkzZmxnZ3BadF9rcHBudC1UTkVZTHlETDZqTVoxMXRFaEF6ZWRYbGtPZEw0ek5uMjljVWV0eUx4Mk9NSUtRQ3FlTTJBUGQtZGtFaTBheC1Gb1Z5S2JmUkxJb1lPWUxteDNxT3V0WHd1a1FJT1hNUk11eXdKbzJlTDgtWVg4Y0pJYnpScy1ibHdyUy1QVmltMXd1M0hNOF9TYw?oc=5",
-          "source": "Infosys",
-          "publishedAt": "Thu, 21 May 2026 19:21:16 GMT",
-          "fetched_at": "2026-05-27T23:07:58.710395"
-        },
-        {
-          "title": "AI will bring changes to Indian IT’s pyramid talent model: Infosys CEO Salil Parekh",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM0RIWUJVeXpweEVoMnB5MHB3Tm9KTmlVWU5ZaWZRSFUtdW5Wb09VYk9nOXU3cXEwaWJydlpFenp3MUdPZzNzc25kakY3TkI2SnR3Y2lIc3NyalU3c2xzTnpPNnNBRHhGOEtEZFpEUlhfYU0yUlctOVUzNm9pSGlwT2NDNjhWQ01HcTIyZERObnVhU0FQUW42NmZ4cENCMGZtTzkyU1c1UWVOT0FPWC1Id1I4bEZVUEpUeEF4dXY1MFhqMXE4aC13N2lDMkhTMHBNU3ZDNmh2aFZFNFkzb0paa0FxcGZHOUtYSmU3MzZn0gHzAUFVX3lxTE9ZQWowM2VWWm00NkkzNG9wNlNzU2tqNndSQk82YmZyLUZEYVhSb2lZeGVBRkRPcmVxRF9rUWMwM0VTVHFmUnNGWWJSa1lmRzlzcWRQNllfeFpMbi00aTJMUkk3bVhPbndZVEZTVmU0aThDcE0tSno5UlEyelFENW1RaVVSS2JWQjEya1NiVG5EMTFuTDlYbU9CU3RaaEVVTFQ0U05YRjlqbzRnWjN4S1lMUTc0YUY3WUt3S1QzWnA5YUFGNlhLUWZHSjMxRFN2dXpaU3NlMlBkNnZMdWs5RWM4Y2I2WmxyZ2gtN0pna2QxQnBhTQ?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:07:58.710401"
-        },
-        {
-          "title": "Infosys board to discuss CEO succession as Salil Parekh may not get a third term: Report",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcjhEeHdFOHBONlJ4dEdpcFNRc2tjS1ZnWkl4ZC1fNnA0WkJsREp0ZU5CSUNrMmJaYmRMTUJyYllneHd1U19DWmNvajV1aGNPT2cteUJpOFZiMjBNeWJDQjdZWUVWd2pYdzBVSS0zejB6SXFrNGliUWdfY0xRV1dNanlrRVlKTWNNdU90VVRRT2tqa3JybmYzMjB1SUlFaDFZaTAtSTB0TjZ0NmNoVHllTkVyRF9lZ2J3eGhDMk1sbVdyU0IzRmp5LThZQkczNXZPV3p4Mw?oc=5",
-          "source": "People Matters Media",
-          "publishedAt": "Tue, 21 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:07:58.710405"
-        },
-        {
-          "title": "Infosys CEO highlights risks and opportunities from Anthropic’s Mythos vulnerabilities",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNFBLMk9IcHQtWnRKbDVxYmZWalFpY0xEcVhNUXlaRDlhZm5WT0NRUlJTUmlJWTRaQ3RVX1dDcUZ5ekxVa0trc1UwQ0FJR1BtYkVZeUk4S1dKbzNjRU9JamRQVml5TmV4MU94RzhkSl9Hd0FWOE84czNvMHNXVGZnSHFsMkEzbEJkUFg3dk5xaHl4a3dRNTRZUDFyUTRsNFZ6WmdoWjF4RVZENWZBemg5bW9DVTNmZHVFQUM5bWdMOUZzeFJnZEJZYmoxWXc5b1FkQ2JIbWR30gHjAUFVX3lxTFA2LV9mQXFsbW13aFRNUS1CNWVZSXc2UDU4ZWhkcHUzb2lQZU5QODNOdFVVSUN5c1NaZVFKVURzVW9kVFRRX1RnSGdvN3VPalQwMFpxbllFNDVyNl8zOHlKWGZ4UkYtRW9qVTlFdS1kX21CUzFQWDBfMWVUREhuV21CV1lERnVBa0x1VTRIc09pRGtYNlppQTN5Qm91V2V2YTVCVUs1bTQxQkhCaTBmQlIzOU40TDZoQnNzTkFZd2NkRUxSeVNjeGhPWU9hRFVqLVpiSTNMbGNwVlBtOVdPV1h2eWp3?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Thu, 23 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:07:58.710410"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "HDFC Bank": {
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-05-27T23:08:50.581437",
+      "last_updated": "2026-05-28T12:55:24.081012",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -634,18 +350,18 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-05-27T23:09:37.216833",
+      "last_updated": "2026-05-28T12:56:34.883925",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.6,
-        "label": "Positive",
-        "pos": 4,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -710,101 +426,19 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Jio Launches ₹200 OTT Pass With 15 Streaming Apps and Unlimited 5G",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSVhoY3FncFJJUWRRSkRrZ0hoZzVpUVZXeTI1VnVmbXlNZVFyb3hjeUdfOXE2Unl2VGtMb29wRFloZzI5RFd3Smt6Y3dIbE5aRTdFbnFRd1Uwb01YbHV0ZXJBSTdZcmluRGVUcnU0dlRyVGJSanpNTTlhYXlLRzF3VVFvaXoyZEsxOWNlc1JCZkVKVDNxdklmYjJVV2RXZUU?oc=5",
-          "source": "Arunachal24",
-          "publishedAt": "Wed, 27 May 2026 12:15:56 GMT",
-          "fetched_at": "2026-05-27T23:09:04.484458",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "JioPhone exclusive 4G recharge plans now available for Lava, itel and Nokia feature phones",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTVFGR08tc3AzN3ZtRnE3RnoyVm90VzR3a0VmY091djIza1JCOFNjdGFNSmdZamFVVXZSczBZRVVmR3dFTDlRZkRmdGU5UXJXVThJLXhkVUJGd2c5bTVSa3hZakVEOTZ4ZTBUOF9LZWdtT3F1b3A0WGl3Z2o5LVZGSmdYc0Jad0Z5OFlz0gGQAUFVX3lxTE84ZWdnM0FUeFdlRmxKaUJkT0x6N09Jczg3TVhNbzVPd2c0V3lOOWptMHRsNHlnY0lNRTZTNHZLekxxRTNaRjR1OV9GWDRtemhnOFRod0NOU3d6U2lfR19nRkUyTmdEaW9uamhpVlhlUHdRQ0xyN1dUQVhFVnZzUHY4eXozUDFJb3hZcUNZVGhpbA?oc=5",
-          "source": "91mobiles.com",
-          "publishedAt": "Wed, 27 May 2026 09:38:39 GMT",
-          "fetched_at": "2026-05-27T23:09:04.484473",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Itel feature phone users get access to Reliance Jio’s Rs 123 super saver plan: Here’s how to avail the of",
-          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPTVNiYXI0VDFVMjhDWVVzS2swM2loMHhpakduSUszRndvb2QtdXR2Z1YxQ3dVajlfd2ZoQjRTaFJZTFAzSmUyREo2RkQ0dDJPRVFFb2hGdHVVbWxoZDM4SkxvU0diUlY4eEJsaElaQVd0ZHlVYUtqcnRnaDRIVzBRei13UUFEY0E0X2g0eUV2WnJnZU9Vb280NXNpVzFYWng3RGMzc1gzcmIzdWtFSENrenphS0FlUTJkempzWlVZZGpVTXpRdzRWRU8wSGZyZWxsOVhlcW8ybzRJd3kyUkEzX0dlM01IaXRaWlNraHhnSnJrSXlQbVJwREtIbTFWWXRxSkFMaHZ0VEhfcHZ4T0lJTWZxVzU5WDloYTNR0gGgAkFVX3lxTE5KVFFiblVybVhBd0x6U2VqTHc1VEYwWnlBakhlbXAtZXltakdEM2w5bHdoWS1obDd3dHFlcGkyYUNNNG1TNExNSEd1TjYycEpwN2lCQlZTTnZKY0hiSXd6RUVqZWxTNWFnQTJyQjBwVG9hdzFVVVdSSjhMWE16Y2dYWURQOEs0YkQ5X0xBR2RvZU83T2hITTNEdlU4RDNXZE9Qd0RPUEVFSExabS1PaDQ2cDNrOEhyMWVUbURsRWdhdkZLeENnVmQ4QlNoMC1NTEZWLVoyY3pKMnIwdkstcnZ0b0FPS2k4NFlxRFdrdTBQQUl1NUNhRkY4aGx5SmJqSWRsVjNOaW1IemUxWW1QR080TzdQYW1lV1RlaUxoSUdnOQ?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Wed, 27 May 2026 07:52:00 GMT",
-          "fetched_at": "2026-05-27T23:09:04.484479",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio New Strategy to Add Customers in India Aggressively",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTnlJcl9oZnNsU0JQbFNJN2tPYmk2X21LQzZNYlA1VGNUVUMwQ2tRYnVFazBHR3N5MXdSM054TVpiLWQyUF9rNktNTkhDNEl3RFpzcHE5eE5JcmNUekg2U3NkbDQ5SjVwdzRhWHV4OWJ3R3lFMWlCS2ZCMlZVenhrbEJyamQ0RV9ZU3R0ekMzSEpiM1k?oc=5",
-          "source": "TelecomTalk",
-          "publishedAt": "Wed, 27 May 2026 14:36:42 GMT",
-          "fetched_at": "2026-05-27T23:09:04.484483",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Telecom industry divided on Airtel's 5G priority plan; Jio, Vi call for regulatory clarity",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSGF5REpsRGY2eEdIMWZZZm45amx1VHNXYzVaUWlJM2c5d095ajVmRGowazhQUmttclBCb01pc0lMQ0Zlbk9iRVVMa1lGTTlaRVI3ZzU0X3RocGh6Q1JSTVFWY1dJUFlibUZzM25oclhPbE1qWHJTNFR1QlB2YzBiTlQxdTVfVXpTSjFaLTRma1NUWDYyQXBHMXR0cGpnZmNiV3g0WnRrTnJ5N3lqU0VkbnZoSWZpX3lma3ZLbGJiQ3FPUVREN1QwVHpESi1VdmVJSVJhclFzOHQtTE5qWlk1bXozLVlXWDA5WlRIdDVWZ9IB9AFBVV95cUxNYllaS3RhQkhlTHpQWUJfaTlxQmR1ZTRzbklUYWdGalQtZmYxUm5CaFdWOUI3bFNEZUZ0Vy1KQ0d2Z2xwNU81b1JNM0tVeTNUNFc0dTBqWE1nd0hzM09pakZjRzhFQ2t0SFV0WVlkLWE3ZXRsTkhuSWJySGtsMXZxc3c4ZzQ1UE1JYzN4MmNFdDBmWUIyb3ZCLXo3aS1qcVV3RDRBUXAtcUFUSzl3UDlGejhYeU8tcEw4ajhnSk52RHY3VERUelJfLUVEeDllbnlfS3ZUXy1QS3M1RFE3NTkxWnUxMlU2MERGc0dwbmxNTXRqQjl3?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 27 May 2026 07:03:25 GMT",
-          "fetched_at": "2026-05-27T23:09:04.484486",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
-          "source": "EY",
-          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
-          "fetched_at": "2026-05-27T23:09:37.216511"
-        },
-        {
-          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0HSAeMBQVVfeXFMT0pkU3doaGNTbElsQ2UwdGFYQzhBMWQ1dzQ2UHBkQmtaWUVKRFRhTUU5d1dUazVOdnhMQTFsdFh3dS1SQkVSZU9ZRnozY28yQmlWRk9TdGN6bVlCeWlzMHQ1cUktampBMUtib01DZnlOVFJiLVR3UmhxWGVlRlFXRUFKRFMzbGZvR1RWN1RTX1BGTUdvM2hOenBrYnowMTRfRTJEUzRGYWZhams4Rm9odXBVVUZUMlYwWGItZkt4eUQ2SXY3X1MwWGt5UW9HS3NlbkhXaklVMkV1TGRQNGdreVZ5Vnc?oc=5",
-          "source": "ET Telecom",
-          "publishedAt": "Fri, 15 May 2026 01:51:00 GMT",
-          "fetched_at": "2026-05-27T23:09:37.216525"
-        },
-        {
-          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
-          "source": "Forbes India",
-          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:09:37.216532"
-        },
-        {
-          "title": "Airtel to set up 56 edge data centres within 2 yrs; tariff structure in India needs to change: Gopal Vitta",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQRzVlMklyVF83MEFUNzJkZ2tvZURIQ3ZiUGZTVXI3c0dUdjJYYXFfVzBlZk9FRzdwOFduVHVHZGV2ZjdueUEyNmxHNm5MVElvTUJSNFVZd0hiYk5pWXpNVExkSHI2c1FGUUJ3WWpmZ2lCS2RhZ3VnUHhHb1dVd1JIRmJQOWtKa0YtV2dUb3dGYmg3RFkyNXFES2ppLS1mMjRXemVSTVlHdHFoc3pSTVBhUkdmVWxPOXJsZ0cxdzRaU2NvTE5xZ3VuemVBQ21fajJfZ1JZZGFuYkJNMTJzWTlGOE1CSHZsVFdjN042amF4MTBmeG5saDhyR2hMMU1yVHJRYWVtWXpfcFhOUDY2S1Q0dUZHOVNwVUlI0gGeAkFVX3lxTE55ZTEtbnNpX1p5MGxHTFVUUXRLMzNORmhseWQ5OXpZdlo4emlId2MwQ2huM0xnZE8wc09icTNmM1pVeWVvcURON1REZmhpSDNUOHJLaldPNmplUUVmTUxFdjE0ZTNwNXRvV0UyUDk2OEEteURzVjRYQ0RackhEUUhQZGFLWnNFcVZUbC1MU1FDZ0w5TzJiQ2phOFQzS2lJZkFSUE52TFVOaTV6M19rUTRKbXBRZDBUZUhGUHJWVWRSZURGOVpQTFZRR1JBRGR4VjVac0xPOXFUT0pZY2pydTdvZWw3Q0tjd0VKcXctLWVSb3VOeG9aNXUzRjFiaDBGZVFxX1pZcEhRTk9vYW11NXNUZ0NFdEl0bl9nN2E1N2c?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:09:37.216536"
-        },
-        {
-          "title": "Sunil Mittal to step down as Airtel Africa chair in July; to be succeeded by Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYmxIY1hRTVRKcUc2aTU4NEFFamM0STZzX0x5anNGMDdqV2J5TTJUbHFFS1lsQ3ZRcHpWRjZ4S2Vfb1JSQy1OVlMxdk5Bc09zbGJfLXJJX2t3Q3NrS3B2WUdEWXhhVW9ENFJVTjlXUGVYZ3liR0FKOFJCQ2VTWmRfeVFMdnkySzBoSUI3M09YQXJTY2Jqb1JQVWxMTzhsMmN5UzVObnl0akZPcTlqQWYxejhkcDFhZDM0Smlmb0ptYVNDUHNOLUIwand4SDFIOWE1WEFQeDNzc2RTMzRkVHU2SVN30gHnAUFVX3lxTE9VR01ZaXlqWXlYNmR1SEJyWEw4YVh3bkJxdHJTamJTdEtVUmRtUm1uQWdlZFVONklJOS1yUjA0cTRmRElrVHJGSmtPY093VnVvVkZTaVQyRGVuU3o1Y3dWTzFRNzJVMkM2V05OM2poZ2E4LV9kSmVyR2tJOXBIY1VKamhwSWN3a2tzQllIYXV4VUwyczFGbGNManBCbnJnLUVSRENUMmVUVUV3Yy1yOVZXVUh2d1U4ZFR3TmJEYW9Dc0d5UHBaQVBjeVZ4eUwydHJXNFF3aWVxdHA5RmloVHkxMzZ3Z1lTTQ?oc=5",
-          "source": "Mint",
-          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-27T23:09:37.216540"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-05-27T23:10:18.107544",
+      "last_updated": "2026-05-28T12:57:45.007989",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -876,53 +510,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "'Itna mat gir jao': No Shreyas Iyer in KKR's IPL 2024 title celebration post; fans blast franchise",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQYWtySTMtNUVIaF9kNjVvUE9GVFBLemp1RXk4MnVKMTJvdzVkMU9XOGptQU41cDBSaGhoTmNBdFExbW82ejM1aUZhOXAwb0NSN1Rwc1BmREtNQk84bnVJeWFpZy0wTExuRlFPOTh1SDRUTngyVHlrVWk4Ty1oUnZGaDE1cVpZRWNrN2Jsbi1VaGtCSWNmdHpYYS1JWTRGMVVCSUdMemRvM05FdmZEaTdEM1A0SUdKRkJfRFdpSzhyRVhkZy04Ui1tb2o1bjVaaXlQR1dnWHIyQUdadndYaFh5OG9mOFBHQ0JTUTk2ZTJlTVhHLTN4NXBnZlRma0NGZU9IYW9tak9sczHSAY4CQVVfeXFMTmxkVEVobmJMbFl5OXl6b0Z6YW5yT2M1TG1LR0ppeWJfN0I5OEphMk0tM1pUOW1YNXdZVTdvN2x6ejVBdmp3SkZad3JRZXUwVnRYSjBwYTRPRi12VU1FeU1BS3djTEVFNmtSNUVNVGZCUS1OQ3VIU0NRcUxPb3o4dm92bTdQUm5NS0NTUFdIRTdQdEhZZXI4RktOa3dMQ3RGaXAybjgyYnFrVmFRMlJfekpoQTljdE1Xa0tBRFVkSTdxZnZVamhtTlFqZEJRZ016Rzd6b1dGcGZNRzdhbnRpa09WUHl4RUFiMEI5UHNaSzE2XzdnNHprM09xMkE4cWN4ZTVXYjZLTUN2d3k4cHpR?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Wed, 27 May 2026 12:05:00 GMT",
-          "fetched_at": "2026-05-27T23:10:04.893754",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR vs GT Cricket Scorecard, 60th Match at Kolkata, May 16, 2026",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQXByRWd3MVhiNTFRZlh5QnpZT25kdGdXdnlCRkhBUHdoeEZpYmk0SVQ5WnJWd1Z0UlZRQkxwekNFZ01UNTJZSGZPekZ3X1JZd29JZTVBVGlBTklQNTYySGprWDlNTThUY2hXS1pGSUZLemNXOThWSll1N3dzOVdoVDFVZUR3Q2VjMnpHOXUtbllIT0xSMXVfWjVYcm9tWEpyWVJUQjVPOWR5b2ItV0U0WVFGdTJIUlBEZW9yanR2RTdGM05t?oc=5",
-          "source": "ESPNcricinfo",
-          "publishedAt": "Sun, 10 May 2026 04:46:10 GMT",
-          "fetched_at": "2026-05-27T23:10:04.893766",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR vs DC Highlights, IPL 2026: Kuldeep Yadav Magic Haunts Former Side KKR, DC End IPL 2026 On A High",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMHVvQ3FJRm5RbkdWRW96WDNHM1MwX21DRThwMndNYVp1cy1YOUlnQXRGSjhpQURmaE9YdXJTSENZUmZaVXBCazhWYnVpdkNlUVo5c1RjUWdtWC1INHNiejdzYkxpU0Nub0RvSkZjSFJpVjA0S0hPaUI0WUJFcnlBT0lpb19aa3E2enJ6dHkzWVJ4ZmFWWkFhOUU0d25lZ0NQUXlpUVlQNkt4YWxKQWNBZDVBX2luNHIyS3N4d0J6TlNxQlVfQVJWbDVEM084SGxrQ3d1VXJzQ0VFQmpSY0E1ck5mWnRxSjNsNG5QVmptUEVuSElEc1NpNXcxTzEySmtiNzJ4UmpCdkNma1ZvS3VJ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Sun, 24 May 2026 18:10:22 GMT",
-          "fetched_at": "2026-05-27T23:10:04.893771",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Cricket goes football way: New breed of KKR fans rewrites the rules of admiration",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVHVoenNNWGNBSzY4U1NnX3NOOGpzNXBpZUhpMnZxcjNnWDBTZVEySTFWbzRkRzMybnM5bEdVTjhqR1hLUU5XV0pQMVhyT3FDZUhyUmF2clBTSGMyZnU5Nm9oS29uR3ZmaUpwem53ZXhaTDV6YlloQldyY2VqTlFFS2VNb0xLTnE5SFhDcnAwVm5qYkl6Nnp1QXg1aFpIc01KZDk0R0l1N1NiTXhfSm0tZUxQX0J6OUFxUk0xM0RPOE9aUVRCY1hlY25RUzByY0lPNVBpUXFhaWvSAd4BQVVfeXFMT2RzUGxLdkRxM29xcEwwTVJFOHhxeHR0N1FVX3VPX05KQU9RR0RHaklwcFU1VjlPRk5xamJXbndheEJReS05ZXJTRDFRSkZ1Z1A0WWlIZDJJVGlxdkk5T0RiQ3NvSF9EakNzVDhmSU9zYkYzQWQ4WDhnZVY2TWRNVjJ1RFNvUEtXX2V2dHU0RGRqOHNOY3VGeHBPQTVPb1pJdVVuY3VoeC12dWI5UXBNTzVBTTFBSXl2YS1vT2lDbHl4TU02aGdRV3ZwU05yUHBpLV8xNUdYX0NsRjdtMFdR?oc=5",
-          "source": "Telegraph India",
-          "publishedAt": "Wed, 27 May 2026 08:55:37 GMT",
-          "fetched_at": "2026-05-27T23:10:04.893775",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Late IPL signings: what's driving the rush?",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTmYyOVRpcE9DRGhDUmFmNC1qQkUzZEV3OG9pc3JqYWtsME1meGdhN3J4a0pERDRHNW5aVWI3a1lpSkxFVVRpaVZPMDBuTkxabExsRThKTXBLWkg5aU5vUUFfeGFWWGpaRVp5cU9PODlYVzlaUjA1d3lNb2o4UFNiUUJFUncweURGOUVYNEV6N1JDRThZRGU1d0NoTmtSU29pSWRUdndaMHdRYnhTeFRQRG52U0kyZk95LXcyWlBWX2EwVzhJcTZqTEFXekVhR0pE?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 26 May 2026 09:01:07 GMT",
-          "fetched_at": "2026-05-27T23:10:04.893778",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     }
