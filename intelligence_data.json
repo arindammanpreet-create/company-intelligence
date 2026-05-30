@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-30T09:11:29.950089",
+    "generated_at": "2026-05-30T16:01:34.378720",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-05-30T09:05:26.859727",
+      "last_updated": "2026-05-30T15:56:11.226181",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-05-30T09:06:37.804931",
+      "last_updated": "2026-05-30T15:57:21.563052",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,18 +182,18 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-05-30T09:08:07.997841",
+      "last_updated": "2026-05-30T15:58:44.681073",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -258,7 +258,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Nifty 50 Gainers, May 29, 2026:Tech Mahindra Leads; IT, FMCG and Infra Stocks Drive Broad-Based Advance",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU3g1U0o3ZXdYd3pZZFZOTU5STURBTG9HVUF1dll3cThUOE1Td1ZOMWFUb2JLaGI2TFRwNkFCY3dZVFV5cmFEX2hqVG1WRlh4Uk9aSTdETi04QmJudlE3QkNiZXcwdHpJNmlNdDdrS0dZWElrZ2M4c1RpYzZnQnkzQXdXdVB6QU1M?oc=5",
+          "source": "HDFC Sky",
+          "publishedAt": "Fri, 29 May 2026 12:36:20 GMT",
+          "fetched_at": "2026-05-30T15:58:29.654269",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS, Wipro, Tech Mahindra hit hard as H-1B approvals fall sharply in FY26",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOanZGV0xLV3c3QUZtMExyTk5UZVB1VTUtNjJMaXN1N2ZoYjZRUUFJajFUUUJoNXFnU21BNEw0RHBnSW5XUDl5MUNGR0xxcGN0VU1EV0w1WkpVbmtfX0g4MERZRmo1MDAweDBhZGEwb0twdERFVFdYckN0RE9DQ0NCemVDdmk4YUI3cDRTSUN3WGU0b1d5bi1abGM2WG1POG8wVzRXejlPcmhrN21EMW41b3N3dWdPSUVKYlU5Vw?oc=5",
+          "source": "People Matters Media",
+          "publishedAt": "Tue, 26 May 2026 05:26:36 GMT",
+          "fetched_at": "2026-05-30T15:58:29.654284",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Ltd. is Rated Sell by MarketsMOJO",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSno1N0J4d2R0bHNINzJlTWJnUU1pRDJYQWpSekxVYzVzbG9BWldDbFRjOVlOcmpaYlFlZ0FncjRKNC0yclN4U284WEdsM3RXcDNQX0NlUTVBN3Q0Y09pMnNlUVJZMUNIeDBpNC1EdndmY19UaUpUc3d3YWpEWGtma0VtRDBEZHlmZEFVQlNzSkdOWEpITHI5dlk4ZjV0dUxWLUVrMEc4My1qVzBO?oc=5",
+          "source": "Markets Mojo",
+          "publishedAt": "Fri, 29 May 2026 04:53:26 GMT",
+          "fetched_at": "2026-05-30T15:58:29.654289",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra schedules June 2026 investor interactions in Mumbai",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQnFWY1JYdjVRajlfUWFmeC1JTW1XV2gwandtdkl5cm5rVXNjZm1GVnlpbmxrQ3JFYTViNW9TOUVORlZ6aW5ESzU2RmpURjQ1ZndQbmc5WkdzS2p2M21FcExzNDR5ZlVUclRYU1hIVVFTeFVLam1VMmVueVA4TXJ2M3BnN2w2MWhYSzM3a2MydXVCNy1acXp5b1A4czh0Y25Ib2tHYmR6eW43a3VwNFl1UHhR?oc=5",
+          "source": "scanx.trade",
+          "publishedAt": "Thu, 28 May 2026 23:40:13 GMT",
+          "fetched_at": "2026-05-30T15:58:29.654292",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Wins CIO Choice 2026 for Data & AI Transformation",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNFhTUjFrVk1TTWRoWUs5cUhvaTFKenBmWEI2YV82YjZuZDNTN2trWVZFYmkzTTRIdllreGlMc3hXa1BpWk5Mbk5lRnhseDFfQ3pEb3NzS0p6dkpTVzJVc2Nvci1KV2dUZndULURKUjRCNFREcW92amsydmFjRFlQMEpEblFKdDlDSE9nUw?oc=5",
+          "source": "Tech Mahindra",
+          "publishedAt": "Thu, 12 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-05-30T15:58:29.654297",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,39 +312,37 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-05-30T09:09:25.729394",
+      "last_updated": "2026-05-30T15:59:57.925168",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": -0.5,
-        "label": "Negative",
-        "pos": 1,
-        "neg": 3
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
         {
-          "title": "ESG Compliance Gaps at HDFC Bank",
+          "title": "HDFC Bank Strategic Monitoring Required",
           "severity": "Medium",
-          "description": "ESG red flags detected at HDFC Bank: governance. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "ICICI Bank, AU Small Finance Bank top picks as banking sector gears up for earnings revival  ICICI Bank Ltd. is Rated Hold by MarketsMOJO  CEC Kargil ...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "governance"
-          ],
+          "description": "No critical gaps detected in current news cycle, but continuous market intelligence recommended for HDFC Bank given sector dynamics.",
+          "detected_from": "Aggregate news analysis",
+          "gap_type": "monitoring",
+          "keywords_found": [],
           "solutions": [
             {
-              "title": "HDFC Bank: ESG Performance Benchmarking",
+              "title": "HDFC Bank: Strategic Market Intelligence Subscription",
               "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
+              "timeline": "4-6 weeks setup + quarterly",
+              "price": "₹12-20 Lakhs + ₹4-6L/quarter",
+              "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
+              "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
+              "gap_type": "monitoring",
               "framework": "MRA/ESOMAR"
             }
           ]
@@ -344,97 +388,15 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "ICICI Bank, AU Small Finance Bank top picks as banking sector gears up for earnings revival",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdmU2NmZiaUJWa2FOSWRrUTdxUDV4X1pFUGc1WDdGdm5SV1NjZ1Ffcllhd3oxQ0xXN3NwN3d4RnlGdGNGWE52dllJSWhQSlo4QmdBR1ZwVlVPaGFjNlRfNjRIUTEtXzE4RjRadHRMYVJTMUJhVmJJWFI4NUtJYnRFaWFEWDhfN2NvVmZTRWxfNlpBb2JVUGI1ZjdhNWhRMmZINGlaSXR5MnNFbGdvcG1HQ04tQk54ZVhHZ0tIRThWTklZYUNVZ2tUUTRiMDJvaV9wVTdyaE9ZQXlERm1MMXZLQVJYSm5qLTJDT3FFZDJkU1VJazI3MlFR0gH8AUFVX3lxTFBwT25GREcwUzFicmlLaEdfdDdkR0E2c1daY09aVUV3YWRWbmNNUUVHQUJiVWNiZlpYV3l1M0hzU2lGSzlIeEpibHNad2FMcW4wSWROTm55aDJnT0VvRndnZDBkU19saXZENHNMbnEyM0ZoR3pMWEQtMlFWSHlRSjJmMU9PUlZha3FCWmJSSUUyQWMtRm9WM2JZZ1A3WkRxVXlHUXJtWlFwYkt6Z01xUEpwT1pfZDlNOGhSNGtJREU0bXNocWM1d1ZrRU05Rjg0UGtUNnlvQUNuMlpZNGtfTUtHN1JhSTlxNVMxRVlHQmlqYmRZMXIzczVXdG1vVw?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Sat, 30 May 2026 04:21:04 GMT",
-          "fetched_at": "2026-05-30T09:08:29.058470",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "ICICI Bank Ltd. is Rated Hold by MarketsMOJO",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMG9yNHdsMlRxRDczd25Wc3BuRktOUWVxV0Nrb0M0OEJfY2oxdFMtTTZSXzN3MHByakRSYWVXYklJNzREV1hWU1VwX1VHa0RpcW1jcVZ6Uy1FM1Y5RXM3SmxhN2prTXI1dlpfaElGZnpzcHZuckJrX29wWjRWcURxQXRaWjQ1R3BCekw5UjZSRktGbVpXLTFCUWdTdHFGTjFaaWZMUG9sN2g?oc=5",
-          "source": "Markets Mojo",
-          "publishedAt": "Sat, 30 May 2026 04:41:01 GMT",
-          "fetched_at": "2026-05-30T09:08:29.058486",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CEC Kargil Meets ICICI Bank Delegation to Strengthen Banking Services and Youth Engagement.",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTUl6WVoxZ2FWRWVzNElOTnN0TUJLYWRsYVJLUTEzQkdNMDZlOUVRSHU5RVpmaW9uZE14WkFxWUdobE1IN19yNUVkMjBwMGVDdDNIWjlaUDYtUHJFdGlZRjhEOWd4dDRZSXZnZUlYT18wcUtCbkl0TUFQUzFBeFZ1Mm1Bamg1QXl5WFo5TlRYMU1TMDRydUkzY1U5cHFtMGZIcXFXUk45bS03dHZiRldRSkE0MA?oc=5",
-          "source": "Administration of Union Territory of Ladakh",
-          "publishedAt": "Mon, 18 May 2026 04:47:32 GMT",
-          "fetched_at": "2026-05-30T09:08:29.058491",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "ICICI Bank sees gold holding ₹1.5–1.8 lakh range in 2026 after duty hike",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPRzl2NmZkYTAtUHdXel9LLVJKY0pVcWxfN2U5RlR6NGp1SERjTXFHRFRrSFB1UlI4UUJORFVZWFJjaTZWY0xuaDgtekV6bUVhRnBkWlQwUUpCUzczM1ZTUFM5alNhekd0OWdjQUZoMlRDME9mQ3NxQUVNNlZ5OFVkWUI3b3VTOG1UMTNQbDhVN0o5QzRPckRIaEtFY2UwXzNCRjVYYTFmVERUOEVNTmdwMHd2ZUNDR0NHQWpGa284OWRDeGZXdVBhcmdldDVJUHBGWkNuUS12bllPRzlVY3VUMkJyS1NGSjlWRGZKcTUzeFlKR0ZhVmRxeFZBNC1DbDYzZzA4Rw?oc=5",
-          "source": "MSN",
-          "publishedAt": "Wed, 27 May 2026 05:44:45 GMT",
-          "fetched_at": "2026-05-30T09:08:29.058506",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Stock Market Crash Today: Reliance Industries, HDFC Bank, ICICI Bank, Bharti Airtel Drag Nifty",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmxuNVBxZmlFSkNxU3NVOEF5WXp4a1hGdzhEeHp3T2FKRzVZVHVTNGVSdFpmS2JfRElDNzFMbkRKTm1BVDN2NjhzVkdKOGVPblZCQlVPb2hjNDkxZEsxcnhQZWpUbjNxUkpXOTZ1VUJ2NndRMkxqUldjdU9rWDBFQnJ0MDgtM1c5NGhVME12VHRKaHdwRnNsbGFfQlJZb1VwMmF6MHg0ZEgwMkRfUjFaTmdiMjlYd1JqWUpwQTZQbU9adE03ZVdXOExBaGlzQ3PSAdcBQVVfeXFMT08zTjRHczVGWU5Ob3ZaU3NPLUtPb29HQ2NGcURJcmdUN3JDY3hOZlkyd3hfcUZUZm5iYzF0SlVpOGd4WlNsMVR6SDhRRkZzNUVNdXluX3dBd0p4WFRVcFRwRFljLTlyYk9zY0VGZWQ5a0Z4M3pVdXRVNVlweEU1ZzFPcnN1U2h2YWM4Ti0xdVpsMHFfUTk0cW1HSGFHSGtnMXlwTnpHMjNlSzVYYUtneEp3TnVTRmc1R3BqY191UkY3UjVvSWNxUWl3X1pZUFVsNExXMEtkcTA?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Fri, 29 May 2026 10:19:09 GMT",
-          "fetched_at": "2026-05-30T09:08:29.058511",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "HDFC Bank Shares Drop As Governance Report Deepens CEO's Woes",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeXRvLThmdXFQcUFiUDE3SElrcjRjM2RKaVl0QjdzejFSTWtjWlN1X1VXRkNlRkNrUGFXRmR2bGdRN0NIc05UVjB4bzN1UHNtdzdLNFVEcWtaSVhwVDZtT0ZmVGVJTlFmX0ZTZk9mLUlCa2JLVVZ3YWpUMzVlTlM0Z01VeVpZN1haaVZsUnJOeTN0RFhDV0IzeUduU2FRTHBqUkd6MzgwSdIBrwFBVV95cUxQWjJKb1VwdGZmdjJid2gtZ0s1dDkxLXhJLXNrTlB1Y3R6blZZNGtYUm5DVnlJMUNpTE9OdWtwUFc1X0JqOE9qRjk2ZTdDUk5iMVhVMldLSGk0ZG1tbWJabzhOa2YxRWZJRzdIYnVYMktMM0kyckQxSkZhQzZoR21FYUttTUpBeUdDaDhwclVnWjBzdHc3eFFMeUVHMFJwT1g4UjliS0tkUTdiLXQ5ZUdB?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Wed, 27 May 2026 06:57:19 GMT",
-          "fetched_at": "2026-05-30T09:09:25.728740"
-        },
-        {
-          "title": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnlrekJEX2tGMkZTRlFyczJaRHRjQjl3Q3pod0hrbU9oQkt1azREb09jbU1BYi03d0pKZmtxRkJaMU1kcVRwdG5QWFloYnNNX2ZfdGF1U1BZYlBJY1JYMUF1UDYxR2tTSC1kb0FNM2NQNHVjUmFhZTlrdHAyZmgtbXJlT0JrNTlsb1Q1TUM4eGZDNHlXWTNRNFhiMUpwbngwUVJ0U3ZpRQ?oc=5",
-          "source": "Whispers In The Corridors",
-          "publishedAt": "Fri, 29 May 2026 01:21:18 GMT",
-          "fetched_at": "2026-05-30T09:09:25.728756"
-        },
-        {
-          "title": "Supreme Court seeks HDFC CEO’s response to Lilavati Trust’s challenge of order quashing FIR against him",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQazZ1TDFIX2pFWEJIM1RydG9KdDB0V09DQm1MWnlQODh6T0UzZnEtU25STGRSZVUxay1TdWFkYjN2NHp3MFJnRHhJOTBYTW0zdURTaUNYOFR1anFXUG94QnNYcWI5Y19BUE83V3BxaUV1UDBVbXA0LXRONW9vWHVYeHJDNzF6dkdIQWx1OFZiZkQxMnF2RW1pQnJ3M2ZOaENLZGtwcDNJZ3FkYm1uUlVLT0dDTUpkOEhI0gG_AUFVX3lxTE9pbURUZXlYdV9URGRkNENlN1RNRFcxdGFtOFk0anRQNFRRcW5QWHJMNVp3U2Q1aWpXOUEyb2hHWHpqTWxONlZfVE9NSlQ4SGgzQlJPVG81YUdvNU9HOWQyVlY5UDRrSzlCZUpZblFEc05mMHB6T0pfbU1LMHdVYVdTMkFJek1jTVROVlk2cTY0ZTBlRVpMc0p1RUJ1THJQNk1XeWVUckxwNUlSZUVtVE1OSXJraEJVc0hOOUJDTGtZ?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Fri, 29 May 2026 16:25:37 GMT",
-          "fetched_at": "2026-05-30T09:09:25.728767"
-        },
-        {
-          "title": "Supreme Court Issues Notice On Challenge To HC Order Quashing FIR Against HDFC Bank CEO Sashidhar...",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOZGx6ejluWE1nU0tQRWRQQ0JVQmlMekt5LWpwTTNXT3plODhXZWFmZzZ1VXA1cUtXc3d1WFMxYVhCVmE1TlBsZUIyV3JNR0tndlVxTEczQnVjMERaWTNRMXdWLTJTUzI5WU5XOXJVeFo5cExZUC1tenNPYTBENThFTHBmdTNDUlQ0MHYwcDNsV2pXbzZuUVVEQi10XzQ5T1RJd1pSNnpULWY5Q3FiQWp2SFVibmtRWjFabjZ3TDJBQUJIQUFWc21wdEt1UUJZSXRNQktBeVZsTElfZUhZR3JYYnppMzRtckFBUmp3VHpwRF9YeDhkYlJKVjFSNVBLRkF2M3JZa2ppTThhOVhjVTZMZTkzRFpHQdIBmwJBVV95cUxQR1pPSE5XTzFxeG5iNHFmNl9vS2lxMW5sZ2hvZUkxQVEwNmRBbjV1UFRuTVp6NG9XZXltOVZDVEpSUlFqM3o1VDI4aERFMGZtTG5NbV9fdDQ3azAtd1JwSjl5UDVoTGlQeHJUdGZ5V212SmFHN0pyTWpYdXNaY0VEWU9mODFfTUpxYjNLclpYZ2FXdGRQSXBuVFpGTEk5c2xjQ055VXN4UVpjcDZlSmk0Z2M0X3ZLdTJNODJyaGM3WU1qRWh4eVZ2VFl2QnYzZ2I1R2NQZEZsNFJBZHU3eVlVS2E2MHFUT1IwekM1SWJiWnRpQjV3UEVFX09qRU5PM0xBSWRFb1NvbXlaSWNlRFV6ZWlYY1cycE04NFM0?oc=5",
-          "source": "LiveLawBiz",
-          "publishedAt": "Fri, 29 May 2026 07:00:58 GMT",
-          "fetched_at": "2026-05-30T09:09:25.728771"
-        },
-        {
-          "title": "Bombay High Court Dismisses Bribery Case Against HDFC Bank CEO",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmlPekl5M2tza0VQNU1BMnJuajllY2l4bEJwUFFCMEljRUlHMFNwZExzX1JCYUN4VXc2aHNFMUxVTEp5LWp2b2czYXZkYVJzZDdIWk1Wamp0ME54QlZDRHRzd2tjNlpkN2VJRS1HSWI1UGFMTlpjZ1QzaDlIc0xXbnVPeEE3bTdtakl0QkpPc242c1hLcUtIcXRLa3RKMmZ5VEVvb3VPblhnV1YzZ0JFeE80bGRMZ18wbDIyc3F0Sm3SAcgBQVVfeXFMUHh5TEJoSFhtd1lPaVNydjIwV0ZlV05hN0g3YlBhcTU1b19UTFM4TjNLMjNzRThMdTlXRVVMVEN5MGZ6ZVdqaDRpRnhzSEFndVUzaU0yLTFoTEt1SVVHREFVNjkxbi02RDJ4Q2JSdktuTFpoZGFUSFdVOXREOUpFX21mUTctclIwNWtPTU1adUpFQXVQZ1p6TWN5S1BELUdObndtNEVDWFplSW50WVFfRW9QTHZ1YkFZUTBnSVJPT3VQazRqNzU0Sk4?oc=5",
-          "source": "NDTV",
-          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-30T09:09:25.728775"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "Bharti Airtel": {
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-05-30T09:10:17.415441",
+      "last_updated": "2026-05-30T16:00:46.770404",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,91 +480,20 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-05-30T09:11:29.950073",
+      "last_updated": "2026-05-30T16:01:34.378708",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
-      "news": [
-        {
-          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Mon, 25 May 2026 04:42:54 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835433"
-        },
-        {
-          "title": "MI’s #ESAMatchDay 2026: When Mumbai comes together for 20,000 dreams",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTDlidWtGN1VLLXUxV1h3ckRrN2RZMkJRM1I0bEN4TDFJeDVyQTlyNnZ6TnBhX3FSS0Y4dGpyaUgteGQwYmxfMi1LdGNBelBOSWtJbThETVJuRnNPVU14aFJiSTdvazB5Ql9OcGRMaWxIc3NpSW53SmlkcnZoQ2xGSnhWTEVfNTRTTWppbmpmMHBkYUdPMFE?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Sat, 23 May 2026 07:01:02 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835448"
-        },
-        {
-          "title": "Bad news for Hardik Pandya after IPL 2026 season, Nita Ambani's MI set to…",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQejlMODRjR2dtWVp4S0NpZmg1dElEMGdOLVFHd3RwTldMazBteWV5bDFLczJoM1d0SkpoSlEyNGNleUpTT2I2MDU2bHpGM18za2lwZEpMQVdrcFByZkFKSm5va01sT3BCQVJsNE5MNk9zQkxpT1Z4R0VfVjNiYWJlZGF0NFBFUlFFZDdBbXkxS2luczdVSVczN0tVMmhmd25rVUloOHVMN1pIVEZRd2xuT3ZMek96OEFYb0MxOHZrNmhnenhWNVgwVNIBzgFBVV95cUxQb0hNX0padFVsM0tJdzhzalo0c09jTW01ekdXZktQLXB2YWhxd2poS3RQcXVxV0tqRlBRelhIamM0eGRUWk9Ka3BZZE9fd3dwbV9PVVl6c2drNFJoT1A5WWlIYVhSWkNESXc4a05PWjYzdHV4MzNpbXpMdVZhek1wLUdSVE5XYTlMaWlibWQ2dnVkTDFIeXhJVXpMalNHVU9Ldm5mVFEwd01YdFM5YVlNenpRNWs0WmdmTlU0TnVXdmVoYmRFczRGbldoODBMQQ?oc=5",
-          "source": "India.Com",
-          "publishedAt": "Fri, 29 May 2026 04:57:40 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835452"
-        },
-        {
-          "title": "Student ribs Mumbai Indians in graduation speech, Nita Ambani is in splits. Watch",
-          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOR1NCeW9mX0RXRjFzR0JRbHVmNHZFNWpBTWpBU1ozcDhFTDFtdE5zbVU0X2pEdFR6MFFBU3RXVV95dUtESUFyQ2NhQVA0ZWpPU1pDdFNQWmdFOC1QblpmT0c4ZlV4c1JMbUZkN2ZPSG5fQkNVWHJMQjFBOE1QTUJBMEF6VmJtVGF1V2EwY1hsX1V5VGxtTlhzanlfWEg0cmxrNGR5bXBodS1CNjdPLUpVb1AwRVJXenM4RXZIeXBpNXI0ZlNSd1o0RENtbDJsa3RBdFR5WFF5SkUzU3NJQmpEMXk2eE9mb2w3YzliYW5GSDdOWHhCaXJQc0o2a3VMQmVPcUg3aTNWNF9CMUxlR3I5T0xOc9IBmAJBVV95cUxPd0I1Y1R1RXVLT3lBVFQ2TnlGcGZic2FCa205RnUwTTZCdEZrWElfTXBpOXFDYkVMc3RWU1YxYjJOLTlCVVU1dTUyQWI3M2Jjc0xLQTFSV2pwaW9TaWF2dGwtSVVvMG1sSDhLQi1UUVlhQkVQSE9tM0VZMVlGT0J4UDlPa3lZZmMyMTFMbDlobzk3eEZmNTJIVFh5UDdkWTdzMnhyS3JXM21mZ19aLXM2bGRkRjFuN2Joc1E5NmtSTU90YmJ1bkdwT2xWaktsM2Y2bjdUR2h4WWlHN1pxajJ2ZmhfRWhvd2VtaFFFSm9CM09uYzAtVWtfWk5haFhucUpTVHZYZ2hieFdSbkdqUnd5WFRLV1k3a3hH?oc=5",
-          "source": "India Today",
-          "publishedAt": "Mon, 25 May 2026 02:47:38 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835459"
-        },
-        {
-          "title": "Nita Ambani left in splits as student slips Mumbai Indians joke into DAIS graduation speech | Trending",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWE1hTGlwdFlTZHFfMzlQRTZTYkVsc0ZySlVuQ3l5aEFabWs4bnZ6UjFmSEZ6dF80alJxRnJHaTdzLXNKaElaTDVybHdvZHVFcUdSbkhpdEx1anhSN0NKamRpZUtnSDBXYzV5aVdlSEt0bWJkUlRzd28tMGZjRFlieTdEenpNWC1wLVJqYUNhNVB5OUJzWlVJMG1ZN0ZGbEZzR0ctZVpaZG5MVFFTOFBCZTZyQ1JldXQxUThxZjV0UWtkRmg4Qkg0eFN2VnRoZXQzXzR6UjV4TVFiQ01XMEs4bzI0TGpoYzTSAewBQVVfeXFMTnBFOFdtLTRwckFvak01djRVa2t3VU9HaUJHVkZ6dDF2aU9FOXVRcVhFaWxzVTRlX2xfY29fZmJMX1E3LUl2Z3lqWE5qcFM3am1hbFREZHJhRWF2UFF1el9TM052VEYzMzJLR3AxNFNLR20zZ05McE4zXzkyQnJ3clI3NVZmTms3RGM4NG5Sa2dNVnhLYmltZ1NILVNRLU4yRGxrN0hzQllLeU9DemVjcDBvR1hFd0lSU25jYVlQdFdHaHJRZjFIX0hnUjB6ckZUQzJETHZLZ0NId1hEc1RRcHdWVnNYZkVnM0JFQzk?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Sat, 23 May 2026 08:51:02 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835464"
-        },
-        {
-          "title": "\"Hope the kids go back with a lot of cherished memories\": Nita Ambani shares after Mumbai Indians' annual ESA game",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPbktQbEVZYi1UNmJjeWllTFh4UXBjNFhVbUdNaFd4R0V3LXRhMUNDUWJ6OEZ4cXg5bXY2RjU3R244azYwRlQ4QnpkMU42c2lSZTBkdXVVbFowYVF3Y0ZrTTRFTnMtdUZnOTA4MVpZdXdUR0VTY1N6QW5IRkRXUlo1TFlqN2tPUVpmVTVkQUQ3Zkp4UjAyaV9xSURYOS01TGxQMDl5czhERi1TRGo4RjVxcEtOR2xkVm5BVDhDOEU5c29jWERYdy1UQ1FZWGQyVU1STDhZd0E3RS1jT0ZEQW9JVzgtdnF4UUpIc21SNkJIOVhtdGFnd2ZMTDJBOFFFcnJWTUNPMHVJRXc?oc=5",
-          "source": "ANI News",
-          "publishedAt": "Sun, 24 May 2026 16:19:00 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835468"
-        },
-        {
-          "title": "Rohit Sharma unrecognizable, Mumbai Indians owner Nita Ambani reacts to sensational transformation –...",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPcHV4RGRkbWJVR3RvRVpvalpXa2c5VTdIQW5YTWVuc2dqTnVnNE40bEVuLXNZX3BIVWpWeDJWZEdicXNQZUxleDRESl91MHR1WmlTdXFhTVNCQzh0VS1sLVBjLXlBS1RYZG53UUF5bU9pLTBiQVJyUE1QMUVVTE4xOGFKSWQ0c1NVMzNsWVhldlU2SUl3TGFmUE1PYkI2ckphZ3dlc2duQm8wOVd1czdqb2ZNNk1VT0RjZG5VRzAzU25GcG8ycUluR0JicW1pTnhFV2UxUy01NEpKeVY0MDlBam1oUmoxWWtUTHRvZ21VajVBLXRrWE9LMzJrODhxUdIBgwJBVV95cUxNRWhKWnVmN3dmWnhOcC03NGR4SVFaQmY2ZmRxdlhFVTBnNUhzVEl5MzIzSTdWY0pKLWUwdC0wRElyZktXNFQ0emtmdzRfUFJfV05HSElJaV9GNFYxOWo0ejlWb0RkbC05dUR0UFlzR3ZjcXRmUUV3YWRkaUxPeTJYR0FrMkp1Mlk1NFV0NWlBSjVuUHhHakkyd2xnX2stV3lFTUhnRGFCSkpTSkpEclU5WVZENmwwbUxTWjJ2YlN1XzhNTDhjVm5FWFFCUkhYNFJMQWxVbTAzaFJ4RE5GaEd4WVltYjRWM0swSlo5V2M2dEFxOVpjX1dWeEVVTlBrb3ZsX1Fv?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835472"
-        },
-        {
-          "title": "'Seasons where nothing goes right': Nita Ambani covers face after Dhirubhai Ambani School Head Boy's Mumbai Indians jab",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbUQtVTk5R2VDb1VFX0lNWnZCQ0lSV09wTUFEQVlfWTFhNEdOcEZ6dmVZTlJaMEd1TFBCT25jNU9IdE1wekRFNE9kU0NxVk1aTktNakRTWmlUajFiYlZBNkVpZ1Zka3lHa19GamhVdTJYbmRhWHpNNTlvcUhKX29LWmVxT1NtZXdudHJfYWM0QlNldTdHQlFhWDJjTkZIdVVvdDZwVHRzRURyRmtzR3hQWXhQWU9UQXUxS0FaLWRuWVNvSjVXV3o1cXVEQllacDJVYkRoTkVrRDhvSXdSdTk3em5qUmNqMWk1U2tPc3V3bDU?oc=5",
-          "source": "The Tribune",
-          "publishedAt": "Mon, 25 May 2026 05:00:23 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835476"
-        },
-        {
-          "title": "Rohit Sharma in disbelief; Akash and Nita Ambani shellshocked after Travishek storm turns MI’s night into nightmare | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQk9FUkhoaS1GaFF3bmhuSXRDc1dQZ0lJWnNMX1k0UkQzcGE2RjJsbnNTbU1jbE5JNWFvTm53VWtmUEg2a3E1ZVpvZ1pTOWpUbko1aGsxMzZBdE94cUN0T1JYMFN2VmJLMGRyb1l6WlJQSG1INTNmNS1XMmdPRXhVWHdYaGlBNDhtVDNoTDZGcXh0SnZWcUtFMlRhcE9uRE1zLUhscFY1OWhRZk1YLWhzZHBjRnV2OG8yVEdqZXNkYWViSzZuaDFScGV1MjZhZUdBWFNHVUVtZVJuSmxsN3FXd1FiV0pUUWJwM2pqX3ZDSTNOQdIB9wFBVV95cUxQaFBkandlVlB5T1RCb3RMT0M0eUF2cy11QldQTHM4T0pJYktTamtrN0FuWEtOT1pSMnU5eW1NeUd5clRJc29JQ2ZiUGMwTWNtanZCM2txZW51Wk5xNm5VQnFIVDhBMlhuT3psUDh4YzdTUTd1WVNqTjJiUzk3VTJld09wZUpBV0lpbl8tSlMyME9vVlgxMXJnZlZGMmRULUw2R1hsdmtlNkR5NE1VTi1UQmZrZUhZX3R0YWRYbE1ZdEEzcm44SVpLZ3poZzZPNkVhOEpuYzEtbmJYN0xvLWV5U3FjWHVDb1pBMXlXZV9GT0tfTHNwcXhz?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835481"
-        },
-        {
-          "title": "Bad news for Hardik Pandya in middle of IPL 2026, two HUGE contenders for MI captaincy, one name will shock you",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQU05FNEJtYWtBUmtIMW9MZjJuYzFhQ2M3aldkaGpBamM4TVNTazdEeno0V21TQkZPTjNSR0kwYXpxLUhkMmdqRFc0NTJJTkRQazN3TUpOR21ndTRoU3ZfNVU0YjJEQTBQdkttZ19qN3hIN3VGcEJjSzJINFZSOVhDNWdZcFhuZHJDaEFCem1tOVlqTUV0X19sWXdPZzZodkZLZVlZVFQxOWhJbURlb1psUUpEZkEteXlDLVpjazFBaHItWVk0Wmx6TmxkbXRhdDJ1a2VfRkd2WTYyb01Sb0lWNlBDVTF2MUFLbWVhOHM5TjlFYm5TTmp1MWNwdXZtZy00Q1FhcWZjNGJjd1NyMktYNA?oc=5",
-          "source": "India.Com",
-          "publishedAt": "Tue, 05 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-05-30T09:10:31.835485"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "Mumbai Indians Strategic Monitoring Required",
