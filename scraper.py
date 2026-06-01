@@ -295,49 +295,43 @@ def process_company(company_name, config):
             seen_titles.add(gap["title"])
             unique_gaps.append(gap)
 
-    # Limit to top 5 gaps
+    # Limit to top 5 real gaps
     unique_gaps = unique_gaps[:5]
-
-    # If no gaps detected, add a generic one
-    if not unique_gaps:
-        unique_gaps.append({
-            "title": f"{company_name} Strategic Monitoring Required",
-            "severity": "Medium",
-            "description": f"No critical gaps detected in current news cycle, but continuous market intelligence recommended for {company_name} given sector dynamics.",
-            "detected_from": "Aggregate news analysis",
-            "gap_type": "monitoring",
-            "keywords_found": []
-        })
 
     # 6. Generate MR&I Solutions attached directly to each gap
     unique_gaps = generate_solutions(unique_gaps, company_name)
 
-    # Ensure we always have at least 3 gaps with solutions
-    # Use unique fill gap types to avoid duplicate titles
+    # Fill to minimum 3 gaps with UNIQUE types and titles — no duplicates
     fill_templates = [
-        ("monitoring", "Strategic Monitoring & Market Scan", "Continuous market intelligence and competitive landscape monitoring to detect early signals."),
-        ("competition", "Competitive Intelligence Deep-dive", "Focused analysis on competitor moves, pricing strategies, and market share shifts."),
-        ("digital_lag", "Digital & Innovation Benchmarking", "Assessment of technology adoption gaps and digital maturity relative to sector peers."),
-        ("consumer_sentiment", "Brand Perception & Stakeholder Tracking", "Ongoing tracking of consumer sentiment, brand health, and reputation metrics."),
-        ("esg_concern", "ESG & Sustainability Monitoring", "Tracking of ESG ratings, carbon footprint trends, and stakeholder perception on sustainability.")
+        ("monitoring", "Strategic Market Intelligence & Early Warning System", "Continuous macro monitoring, competitor tracking, and early signal detection for strategic pivots.", "Medium"),
+        ("competition", "Competitive Intelligence & Win/Loss Analysis", "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.", "Medium"),
+        ("digital_lag", "Digital Transformation & Tech Investment Benchmarking", "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.", "Medium"),
+        ("consumer_sentiment", "Brand Health & Stakeholder Perception Tracking", "Ongoing brand tracking, reputation monitoring, and crisis preparedness protocols.", "Medium"),
+        ("esg_concern", "ESG Performance & Sustainability Benchmarking", "ESG scoring, carbon accounting, and stakeholder perception on sustainability commitments.", "Low")
     ]
 
+    # Track which gap types we already have (from real gaps) to avoid duplicates
+    existing_types = {g.get("gap_type", "monitoring") for g in unique_gaps}
     fill_idx = 0
+
     while len(unique_gaps) < 3 and fill_idx < len(fill_templates):
-        gap_type, fill_title, fill_desc = fill_templates[fill_idx]
-        extra_gap = {
-            "title": f"{company_name}: {fill_title}",
-            "severity": "Medium",
-            "description": fill_desc,
-            "detected_from": "System-generated strategic fill gap",
-            "gap_type": gap_type,
-            "keywords_found": []
-        }
-        extra_gap = generate_solutions([extra_gap], company_name)[0]
-        unique_gaps.append(extra_gap)
+        gap_type, fill_title, fill_desc, fill_sev = fill_templates[fill_idx]
+        # Only add if we don't already have this gap type
+        if gap_type not in existing_types:
+            extra_gap = {
+                "title": f"{company_name}: {fill_title}",
+                "severity": fill_sev,
+                "description": fill_desc,
+                "detected_from": "System-generated strategic coverage gap",
+                "gap_type": gap_type,
+                "keywords_found": []
+            }
+            extra_gap = generate_solutions([extra_gap], company_name)[0]
+            unique_gaps.append(extra_gap)
+            existing_types.add(gap_type)
         fill_idx += 1
 
-    unique_gaps = unique_gaps[:5]  # Cap at 5 gaps total
+    unique_gaps = unique_gaps[:5]  # Hard cap at 5
 
     # 7. Compile result
     result = {
@@ -455,10 +449,6 @@ def generate_solutions(gaps, company_name):
             "deliverables": "Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard"
         }
     }
-
-    # If no gaps, create one monitoring gap
-    if not gaps:
-        gaps = [{"title": "Strategic monitoring required", "severity": "Medium", "gap_type": "monitoring"}]
 
     # Attach one solution directly to EACH gap — no cross-gap deduplication
     for gap in gaps:
