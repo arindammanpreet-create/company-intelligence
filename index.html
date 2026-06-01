@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightAI Portfolio Terminal</title>
+    <style>
+        :root { --primary: #2563eb; --danger: #ef4444; --bg: #f8fafc; --text: #1e293b; --success: #15803d; --sports: #eab308; }
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: var(--bg); margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .card { background: #fff; padding: 25px; border-radius: 16px; border: 1px solid #e2e8f0; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+        .input-row { display: flex; gap: 12px; margin: 20px 0; }
+        input { flex: 1; padding: 16px; border: 2px solid #e2e8f0; border-radius: 12px; outline: none; font-size: 16px; transition: 0.2s; }
+        input:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1); }
+        .btn { background: var(--primary); color: white; border: none; padding: 16px 32px; border-radius: 12px; font-weight: 700; cursor: pointer; font-size: 16px; }
+        .grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 24px; }
+        .gap-item { border-left: 4px solid var(--danger); padding-left: 20px; margin-bottom: 25px; position: relative; }
+        .gap-item.sports-gap { border-left-color: var(--sports); }
+        .method-label { font-size: 10px; font-weight: 900; color: var(--primary); text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 5px; }
+        .method-label.sports-method { color: #b45309; }
+        .badge { background: #eff6ff; color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; border: 1px solid #dbeafe; }
+        .solution-box { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 15px; border-radius: 10px; margin-top: 10px; font-size: 14px; }
+        .solution-box.sports-box { background: #fef9c3; border-color: #fef08a; color: #713f12; }
+        .comp-item { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #f1f5f9; }
+        .comp-name { font-weight: 700; font-size: 15px; }
+        .status-dot { width: 8px; height: 8px; background: var(--success); border-radius: 50%; display: inline-block; margin-right: 5px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1 style="color:var(--primary); margin:0; display:flex; align-items:center; gap:10px">
+            <div style="width:14px; height:14px; background:var(--primary); border-radius:50%"></div>
+            InsightAI Portfolio Terminal <span style="color:#94a3b8; font-weight:400; font-size:18px">v5.0</span>
+        </h1>
+        <p style="color:#64748b; margin-top:5px">Tailored Workspace for Selected Core Indian Enterprises & Sports Franchises</p>
+        <div class="input-row">
+            <input type="text" id="companyInput" placeholder="Type: Reliance, TCS, Infosys, HDFC Bank, Bharti Airtel, or Mumbai Indians...">
+            <button class="btn" onclick="synthesize()">Run Portfolio Synthesis</button>
+        </div>
+    </div>
+    <div id="displayArea"></div>
+</div>
+
+<script>
+const STANDARDS = {
+    ANTHRO: { label: "Anthropological", code: "ESOMAR-48" },
+    QUAL: { label: "Qualitative", code: "ESOMAR-26" },
+    QUANT: { label: "Quantitative", code: "ESOMAR-28" },
+    OBSERV: { label: "Observational", code: "ESOMAR-46" }
+};
+
+function getPortfolioContext(name) {
+    const n = name.toLowerCase();
+    
+    if (n.includes("reliance")) {
+        return {
+            sector: "CONGLOMERATE & ENERGY",
+            peers: ["Adani Group", "Tata Group", "Indian Oil (IOC)", "NTPC"],
+            trends: "Balancing petrochemical retail integration with multi-gigawatt clean energy ecosystem builds."
+        };
+    }
+    if (n.includes("tcs") || n.includes("tata consultancy")) {
+        return {
+            sector: "IT SERVICES & CONSULTING",
+            peers: ["Infosys", "Wipro", "HCLTech", "Cognizant", "Accenture India"],
+            trends: "Transitioning standard legacy application maintenance contracts into client-side Agentic AI frameworks."
+        };
+    }
+    if (n.includes("infosys")) {
+        return {
+            sector: "IT SERVICES & CONSULTING",
+            peers: ["TCS", "Wipro", "HCLTech", "Tech Mahindra", "Capgemini India"],
+            trends: "Scaling cloud transformation layers and specialized generative AI developer playgrounds."
+        };
+    }
+    if (n.includes("hdfc")) {
+        return {
+            sector: "BANKING & FINANCIAL SERVICES",
+            peers: ["ICICI Bank", "SBI", "Axis Bank", "Kotak Mahindra Bank"],
+            trends: "Consolidating post-merger retail branches while tracking mobile loan origination drops."
+        };
+    }
+    if (n.includes("airtel") || n.includes("bharti")) {
+        return {
+            sector: "TELECOMMUNICATIONS",
+            peers: ["Reliance Jio", "Vodafone Idea (Vi)", "BSNL"],
+            trends: "Monetizing standalone 5G networks and scaling Fixed Wireless Access (FWA) rural broadband."
+        };
+    }
+    if (n.includes("mumbai") || n.includes("indians") || n.includes("mi")) {
+        return {
+            sector: "SPORTS FRANCHISE (IPL)",
+            peers: ["Chennai Super Kings (CSK)", "Royal Challengers Bengaluru (RCB)", "Kolkata Knight Riders (KKR)", "Gujarat Titans"],
+            trends: "Optimizing year-round digital fan monetizations, multi-team global branding, and sponsor asset attribution."
+        };
+    }
+    
+    return { sector: "GENERAL ENTERPRISE", peers: ["Industry Peer A", "Market Competitor B"], trends: "Standard strategic enterprise performance track." };
+}
+
+function getPortfolioGaps(name, sector) {
+    const n = name.toLowerCase();
+
+    if (sector.includes("SPORTS")) {
+        return [
+            { 
+                method: "ESOMAR-26 (QUALITATIVE)", 
+                title: "Fan Equity & Sponsor Valuation Delta", 
+                body: "Sponsors demand deeper emotional metrics beyond standard social media impressions. The gap is in measuring the true valuation conversion when badging with Mumbai Indians vs rivals like CSK.", 
+                solution: "Fan-Cohort Brand Affinity Audits & Sponsor Recall Tracking",
+                isSports: true
+            },
+            { 
+                method: "ESOMAR-48 (ANTHROPOLOGICAL)", 
+                title: "Matchday Merchandising & Stadium Friction Nodes", 
+                body: "Investigating live structural drop-offs in stadium concessions and authentic merchandise purchasing journeys at the physical grounds.", 
+                solution: "In-Stadia Fan Journey Mapping & Behavioral Friction Ethnography",
+                isSports: true
+            }
+        ];
+    }
+    if (n.includes("reliance")) {
+        return [
+            { method: "ESOMAR-26 (QUAL)", title: "O2C to Green Transition Credibility", body: "Measuring global institutional trust benchmarks regarding the company's multi-billion dollar clean-energy deployment timeline.", solution: "Stakeholder Perceptual Matrix & Trust Narrative Audits" },
+            { method: "ESOMAR-28 (QUANT)", title: "Cross-Platform Digital Consumer Friction", body: "Anaylzing if immediate data bundling across retail, telecommunications, and fintech operations generates genuine multi-point ecosystem stickiness or consumer onboarding fatigue.", solution: "Ecosystem Interactivity Tracking & Dynamic Segment Appraisals" }
+        ];
+    }
+    if (n.includes("tcs") || n.includes("infosys")) {
+        return [
+            { method: "ESOMAR-26 (QUAL)", title: "Global CXO Agentic AI Capability Trust", body: "Evaluating whether Fortune 500 decision-makers perceive Indian IT as strategic innovation architects or simply high-volume implementation factories for GenAI pipelines.", solution: "Executive Buyer Depth Frameworks & Capability Trust Audits" }
+        ];
+    }
+    if (n.includes("hdfc")) {
+        return [
+            { method: "ESOMAR-46 (OBSERV)", title: "Mobile UI Onboarding Friction Triggers", body: "Tracking the exact screen friction layers triggering premium credit card and high-value loan application drop-offs inside the native mobile app infrastructure.", solution: "User-Heuristic Interactive Journey Audits & Think-Aloud Tracking" }
+        ];
+    }
+    if (n.includes("airtel")) {
+        return [
+            { method: "ESOMAR-28 (QUANT)", title: "FWA Home Broadband Churn Triggers", body: "Isolating why rural fixed wireless broadband accounts defect to wired alternatives once geographic infrastructure constraints relax.", solution: "Predictive Strategic Churn Conjoint Frameworks" }
+        ];
+    }
+
+    return [{ method: "ESOMAR-26 (QUAL)", title: "Standard Brand Salience Alignment", body: "Synthesizing strategic brand perception factors across tier-2 high-growth clusters.", solution: "Regional Target Cohort Interrogations" }];
+}
+
+function synthesize() {
+    const name = document.getElementById('companyInput').value;
+    if(!name) return;
+
+    const ctx = getPortfolioContext(name);
+    
+    const filteredPeers = ctx.peers.filter(p => 
+        !p.toLowerCase().includes(name.toLowerCase()) && 
+        !name.toLowerCase().includes(p.toLowerCase().split(' ')[0])
+    );
+
+    const gaps = getPortfolioGaps(name, ctx.sector);
+
+    document.getElementById('displayArea').innerHTML = `
+        <div class="grid">
+            <div class="card">
+                <h3>⚔️ Verified Competitor Signal</h3>
+                <p style="font-size:12px; color:#94a3b8; margin-bottom:20px">Identified Industry Context: <b>${ctx.sector}</b></p>
+                ${filteredPeers.map(p => `
+                    <div class="comp-item">
+                        <div><div class="status-dot" style="background:${ctx.sector.includes('SPORTS') ? 'var(--sports)' : 'var(--success)'}"></div><span class="comp-name">${p}</span></div>
+                        <span class="badge" style="color:${ctx.sector.includes('SPORTS') ? '#b45309' : 'var(--primary)'}">${ctx.sector.includes('SPORTS') ? 'IPL Rival' : 'Active Rival'}</span>
+                    </div>
+                `).join('')}
+                <div style="margin-top:25px; padding:15px; background:#f8fafc; border-radius:10px; font-size:13px; border-left: 3px solid ${ctx.sector.includes('SPORTS') ? 'var(--sports)' : 'var(--primary)'}">
+                    <strong>Sector Core Trend:</strong> ${ctx.trends}
+                </div>
+                <div style="margin-top:20px; padding-top:15px; border-top:1px dashed #e2e8f0">
+                    <p style="font-size:12px; font-weight:700; margin-bottom:8px; color:#475569">📰 Open Live External Workspace Stream:</p>
+                    <a href="https://news.google.com/search?q=${encodeURIComponent(name)}+Business+India" target="_blank" style="color:var(--primary); font-size:13px; font-weight:bold; text-decoration:none; display:inline-block;">
+                        Launch Real-Time External Stream for ${name} ↗
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 style="color:var(--danger)">🔍 ESOMAR Architecture Gaps</h3>
+                <p style="font-size:12px; color:#94a3b8; margin-bottom:20px">Custom Methodologies Configured for ${name}</p>
+                ${gaps.map(g => `
+                    <div class="gap-item ${g.isSports ? 'sports-gap' : ''}">
+                        <span class="method-label ${g.isSports ? 'sports-method' : ''}">${g.method}</span>
+                        <h4 style="margin:5px 0">${g.title}</h4>
+                        <p style="font-size:14px; color:#475569; margin-bottom:10px">${g.body}</p>
+                        <div class="solution-box ${g.isSports ? 'sports-box' : ''}">
+                            <strong>Strategic Framework Solution:</strong> ${g.solution}
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+    `;
+}
+</script>
+</body>
+</html>
