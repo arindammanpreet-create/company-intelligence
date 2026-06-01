@@ -13,18 +13,41 @@
         input { flex: 1; padding: 16px; border: 2px solid #e2e8f0; border-radius: 12px; outline: none; font-size: 16px; transition: 0.2s; }
         input:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1); }
         .btn { background: var(--primary); color: white; border: none; padding: 16px 32px; border-radius: 12px; font-weight: 700; cursor: pointer; font-size: 16px; }
+        .btn:disabled { background: #94a3b8; cursor: not-allowed; }
         .grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 24px; }
         .gap-item { border-left: 4px solid var(--danger); padding-left: 20px; margin-bottom: 25px; position: relative; }
         .gap-item.sports-gap { border-left-color: var(--sports); }
+        .gap-item.monitoring-gap { border-left-color: #3b82f6; }
+        .gap-item.competition-gap { border-left-color: #8b5cf6; }
+        .gap-item.digital-gap { border-left-color: #06b6d4; }
+        .gap-item.esg-gap { border-left-color: #10b981; }
         .method-label { font-size: 10px; font-weight: 900; color: var(--primary); text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 5px; }
         .method-label.sports-method { color: #b45309; }
         .badge { background: #eff6ff; color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; border: 1px solid #dbeafe; }
         .solution-box { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 15px; border-radius: 10px; margin-top: 10px; font-size: 14px; }
         .solution-box.sports-box { background: #fef9c3; border-color: #fef08a; color: #713f12; }
+        .solution-box.monitoring-box { background: #eff6ff; border-color: #bfdbfe; color: #1e40af; }
+        .solution-box.competition-box { background: #f5f3ff; border-color: #ddd6fe; color: #5b21b6; }
+        .solution-box.digital-box { background: #ecfeff; border-color: #a5f3fc; color: #155e75; }
+        .solution-box.esg-box { background: #ecfdf5; border-color: #a7f3d0; color: #065f46; }
         .comp-item { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #f1f5f9; }
         .comp-name { font-weight: 700; font-size: 15px; }
         .status-dot { width: 8px; height: 8px; background: var(--success); border-radius: 50%; display: inline-block; margin-right: 5px; }
+        .severity-high { color: #dc2626; font-weight: 700; font-size: 11px; background: #fef2f2; padding: 2px 8px; border-radius: 12px; border: 1px solid #fecaca; }
+        .severity-medium { color: #d97706; font-weight: 700; font-size: 11px; background: #fffbeb; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a; }
+        .severity-low { color: #059669; font-weight: 700; font-size: 11px; background: #ecfdf5; padding: 2px 8px; border-radius: 12px; border: 1px solid #a7f3d0; }
+        .loading { text-align: center; padding: 40px; color: #64748b; }
+        .error { background: #fef2f2; border: 1px solid #fecaca; color: #dc2626; padding: 15px; border-radius: 10px; margin: 20px 0; }
+        .news-item { padding: 12px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+        .news-item a { color: var(--primary); text-decoration: none; font-weight: 600; }
+        .news-item a:hover { text-decoration: underline; }
+        .sentiment-pos { color: #059669; font-weight: 700; }
+        .sentiment-neg { color: #dc2626; font-weight: 700; }
+        .sentiment-neu { color: #64748b; font-weight: 700; }
+        .meta-row { display: flex; gap: 15px; margin-bottom: 15px; flex-wrap: wrap; }
+        .meta-pill { background: #f1f5f9; padding: 4px 12px; border-radius: 20px; font-size: 11px; color: #475569; font-weight: 600; }
     </style>
+<base target="_blank">
 </head>
 <body>
 
@@ -32,172 +55,227 @@
     <div class="card">
         <h1 style="color:var(--primary); margin:0; display:flex; align-items:center; gap:10px">
             <div style="width:14px; height:14px; background:var(--primary); border-radius:50%"></div>
-            InsightAI Portfolio Terminal <span style="color:#94a3b8; font-weight:400; font-size:18px">v5.0</span>
+            InsightAI Portfolio Terminal <span style="color:#94a3b8; font-weight:400; font-size:18px">v5.1</span>
         </h1>
-        <p style="color:#64748b; margin-top:5px">Tailored Workspace for Selected Core Indian Enterprises & Sports Franchises</p>
+        <p style="color:#64748b; margin-top:5px">Auto-Generated Intelligence from Live Data Pipeline</p>
         <div class="input-row">
             <input type="text" id="companyInput" placeholder="Type: Reliance, TCS, Infosys, HDFC Bank, Bharti Airtel, or Mumbai Indians...">
-            <button class="btn" onclick="synthesize()">Run Portfolio Synthesis</button>
+            <button class="btn" id="synthBtn" onclick="synthesize()">Run Portfolio Synthesis</button>
         </div>
     </div>
-    <div id="displayArea"></div>
+    <div id="displayArea">
+        <div class="loading">Enter a company name and click "Run Portfolio Synthesis" to load live intelligence data.</div>
+    </div>
 </div>
 
 <script>
-const STANDARDS = {
-    ANTHRO: { label: "Anthropological", code: "ESOMAR-48" },
-    QUAL: { label: "Qualitative", code: "ESOMAR-26" },
-    QUANT: { label: "Quantitative", code: "ESOMAR-28" },
-    OBSERV: { label: "Observational", code: "ESOMAR-46" }
-};
+const JSON_URL = 'https://raw.githubusercontent.com/arindammanpreet-create/company-intelligence/main/intelligence_data.json';
+let cachedData = null;
 
-function getPortfolioContext(name) {
-    const n = name.toLowerCase();
-    
-    if (n.includes("reliance")) {
-        return {
-            sector: "CONGLOMERATE & ENERGY",
-            peers: ["Adani Group", "Tata Group", "Indian Oil (IOC)", "NTPC"],
-            trends: "Balancing petrochemical retail integration with multi-gigawatt clean energy ecosystem builds."
-        };
+// Pre-load the JSON on page load
+fetch(JSON_URL)
+    .then(r => r.json())
+    .then(d => { cachedData = d; console.log('Intelligence data cached'); })
+    .catch(e => console.error('Failed to load intelligence data:', e));
+
+function normalizeInput(name) {
+    const n = name.toLowerCase().trim();
+    const aliases = {
+        'reliance': 'Reliance Industries',
+        'ril': 'Reliance Industries',
+        'tcs': 'TCS',
+        'tata consultancy': 'TCS',
+        'infosys': 'Infosys',
+        'hdfc': 'HDFC Bank',
+        'hdfc bank': 'HDFC Bank',
+        'airtel': 'Bharti Airtel',
+        'bharti': 'Bharti Airtel',
+        'bharti airtel': 'Bharti Airtel',
+        'mumbai': 'Mumbai Indians',
+        'mumbai indians': 'Mumbai Indians',
+        'mi': 'Mumbai Indians'
+    };
+    for (const [key, val] of Object.entries(aliases)) {
+        if (n.includes(key)) return val;
     }
-    if (n.includes("tcs") || n.includes("tata consultancy")) {
-        return {
-            sector: "IT SERVICES & CONSULTING",
-            peers: ["Infosys", "Wipro", "HCLTech", "Cognizant", "Accenture India"],
-            trends: "Transitioning standard legacy application maintenance contracts into client-side Agentic AI frameworks."
-        };
-    }
-    if (n.includes("infosys")) {
-        return {
-            sector: "IT SERVICES & CONSULTING",
-            peers: ["TCS", "Wipro", "HCLTech", "Tech Mahindra", "Capgemini India"],
-            trends: "Scaling cloud transformation layers and specialized generative AI developer playgrounds."
-        };
-    }
-    if (n.includes("hdfc")) {
-        return {
-            sector: "BANKING & FINANCIAL SERVICES",
-            peers: ["ICICI Bank", "SBI", "Axis Bank", "Kotak Mahindra Bank"],
-            trends: "Consolidating post-merger retail branches while tracking mobile loan origination drops."
-        };
-    }
-    if (n.includes("airtel") || n.includes("bharti")) {
-        return {
-            sector: "TELECOMMUNICATIONS",
-            peers: ["Reliance Jio", "Vodafone Idea (Vi)", "BSNL"],
-            trends: "Monetizing standalone 5G networks and scaling Fixed Wireless Access (FWA) rural broadband."
-        };
-    }
-    if (n.includes("mumbai") || n.includes("indians") || n.includes("mi")) {
-        return {
-            sector: "SPORTS FRANCHISE (IPL)",
-            peers: ["Chennai Super Kings (CSK)", "Royal Challengers Bengaluru (RCB)", "Kolkata Knight Riders (KKR)", "Gujarat Titans"],
-            trends: "Optimizing year-round digital fan monetizations, multi-team global branding, and sponsor asset attribution."
-        };
-    }
-    
-    return { sector: "GENERAL ENTERPRISE", peers: ["Industry Peer A", "Market Competitor B"], trends: "Standard strategic enterprise performance track." };
+    return name.trim(); // fallback
 }
 
-function getPortfolioGaps(name, sector) {
-    const n = name.toLowerCase();
-
-    if (sector.includes("SPORTS")) {
-        return [
-            { 
-                method: "ESOMAR-26 (QUALITATIVE)", 
-                title: "Fan Equity & Sponsor Valuation Delta", 
-                body: "Sponsors demand deeper emotional metrics beyond standard social media impressions. The gap is in measuring the true valuation conversion when badging with Mumbai Indians vs rivals like CSK.", 
-                solution: "Fan-Cohort Brand Affinity Audits & Sponsor Recall Tracking",
-                isSports: true
-            },
-            { 
-                method: "ESOMAR-48 (ANTHROPOLOGICAL)", 
-                title: "Matchday Merchandising & Stadium Friction Nodes", 
-                body: "Investigating live structural drop-offs in stadium concessions and authentic merchandise purchasing journeys at the physical grounds.", 
-                solution: "In-Stadia Fan Journey Mapping & Behavioral Friction Ethnography",
-                isSports: true
-            }
-        ];
-    }
-    if (n.includes("reliance")) {
-        return [
-            { method: "ESOMAR-26 (QUAL)", title: "O2C to Green Transition Credibility", body: "Measuring global institutional trust benchmarks regarding the company's multi-billion dollar clean-energy deployment timeline.", solution: "Stakeholder Perceptual Matrix & Trust Narrative Audits" },
-            { method: "ESOMAR-28 (QUANT)", title: "Cross-Platform Digital Consumer Friction", body: "Anaylzing if immediate data bundling across retail, telecommunications, and fintech operations generates genuine multi-point ecosystem stickiness or consumer onboarding fatigue.", solution: "Ecosystem Interactivity Tracking & Dynamic Segment Appraisals" }
-        ];
-    }
-    if (n.includes("tcs") || n.includes("infosys")) {
-        return [
-            { method: "ESOMAR-26 (QUAL)", title: "Global CXO Agentic AI Capability Trust", body: "Evaluating whether Fortune 500 decision-makers perceive Indian IT as strategic innovation architects or simply high-volume implementation factories for GenAI pipelines.", solution: "Executive Buyer Depth Frameworks & Capability Trust Audits" }
-        ];
-    }
-    if (n.includes("hdfc")) {
-        return [
-            { method: "ESOMAR-46 (OBSERV)", title: "Mobile UI Onboarding Friction Triggers", body: "Tracking the exact screen friction layers triggering premium credit card and high-value loan application drop-offs inside the native mobile app infrastructure.", solution: "User-Heuristic Interactive Journey Audits & Think-Aloud Tracking" }
-        ];
-    }
-    if (n.includes("airtel")) {
-        return [
-            { method: "ESOMAR-28 (QUANT)", title: "FWA Home Broadband Churn Triggers", body: "Isolating why rural fixed wireless broadband accounts defect to wired alternatives once geographic infrastructure constraints relax.", solution: "Predictive Strategic Churn Conjoint Frameworks" }
-        ];
-    }
-
-    return [{ method: "ESOMAR-26 (QUAL)", title: "Standard Brand Salience Alignment", body: "Synthesizing strategic brand perception factors across tier-2 high-growth clusters.", solution: "Regional Target Cohort Interrogations" }];
+function getGapStyle(gapType) {
+    const styles = {
+        'monitoring': { gapClass: 'monitoring-gap', boxClass: 'monitoring-box', label: 'STRATEGIC MONITORING' },
+        'competition': { gapClass: 'competition-gap', boxClass: 'competition-box', label: 'COMPETITIVE INTEL' },
+        'digital_lag': { gapClass: 'digital-gap', boxClass: 'digital-box', label: 'DIGITAL TRANSFORMATION' },
+        'esg_concern': { gapClass: 'esg-gap', boxClass: 'esg-box', label: 'ESG & SUSTAINABILITY' },
+        'revenue_risk': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'REVENUE RISK' },
+        'margin_pressure': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'MARGIN PRESSURE' },
+        'regulatory': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'REGULATORY' },
+        'talent': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'TALENT & HR' },
+        'debt_leverage': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'DEBT & LEVERAGE' },
+        'geopolitical': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'GEOPOLITICAL' },
+        'consumer_sentiment': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'BRAND & SENTIMENT' }
+    };
+    return styles[gapType] || { gapClass: '', boxClass: '', label: 'STRATEGIC GAP' };
 }
 
-function synthesize() {
-    const name = document.getElementById('companyInput').value;
-    if(!name) return;
+function getSentimentClass(label) {
+    if (label === 'Positive') return 'sentiment-pos';
+    if (label === 'Negative') return 'sentiment-neg';
+    return 'sentiment-neu';
+}
 
-    const ctx = getPortfolioContext(name);
-    
-    const filteredPeers = ctx.peers.filter(p => 
-        !p.toLowerCase().includes(name.toLowerCase()) && 
-        !name.toLowerCase().includes(p.toLowerCase().split(' ')[0])
-    );
+function getCompetitors(companyData) {
+    // Use competitor_intel from JSON, fallback to sector-based defaults
+    const compIntel = companyData.competitor_intel || [];
+    const seen = new Set();
+    const peers = [];
 
-    const gaps = getPortfolioGaps(name, ctx.sector);
+    for (const item of compIntel) {
+        const name = item.related_to || item.source || 'Competitor';
+        if (!seen.has(name)) {
+            seen.add(name);
+            peers.push(name);
+        }
+    }
 
-    document.getElementById('displayArea').innerHTML = `
+    // Fallback peers if JSON has none
+    if (peers.length === 0) {
+        const sector = (companyData.sector || '').toLowerCase();
+        if (sector.includes('sports')) peers.push('Chennai Super Kings', 'Royal Challengers Bengaluru', 'Kolkata Knight Riders');
+        else if (sector.includes('bank')) peers.push('ICICI Bank', 'SBI', 'Axis Bank', 'Kotak Mahindra');
+        else if (sector.includes('it')) peers.push('Infosys', 'Wipro', 'HCLTech', 'Tech Mahindra');
+        else if (sector.includes('telecom')) peers.push('Reliance Jio', 'Vodafone Idea', 'BSNL');
+        else peers.push('Industry Peer A', 'Market Competitor B');
+    }
+
+    return peers.slice(0, 5);
+}
+
+async function synthesize() {
+    const input = document.getElementById('companyInput').value;
+    if (!input) return;
+
+    const btn = document.getElementById('synthBtn');
+    btn.disabled = true;
+    btn.textContent = 'Loading...';
+
+    const companyName = normalizeInput(input);
+    const display = document.getElementById('displayArea');
+
+    // Show loading
+    display.innerHTML = '<div class="loading">Fetching live intelligence data...</div>';
+
+    // Ensure data is loaded
+    if (!cachedData) {
+        try {
+            const res = await fetch(JSON_URL);
+            cachedData = await res.json();
+        } catch (e) {
+            display.innerHTML = '<div class="error">Failed to load intelligence data. Please check your internet connection and try again.</div>';
+            btn.disabled = false;
+            btn.textContent = 'Run Portfolio Synthesis';
+            return;
+        }
+    }
+
+    const companyData = cachedData.companies?.[companyName];
+
+    if (!companyData) {
+        display.innerHTML = `<div class="error">Company "${companyName}" not found in intelligence database. Try: Reliance Industries, TCS, Infosys, HDFC Bank, Bharti Airtel, or Mumbai Indians.</div>`;
+        btn.disabled = false;
+        btn.textContent = 'Run Portfolio Synthesis';
+        return;
+    }
+
+    const isSports = (companyData.sector || '').toLowerCase().includes('sports');
+    const peers = getCompetitors(companyData);
+    const gaps = companyData.research_gaps || [];
+    const news = companyData.news || [];
+    const sentiment = companyData.sentiment || { label: 'Neutral', score: 0 };
+
+    // Build gaps HTML
+    const gapsHTML = gaps.map((gap, idx) => {
+        const style = getGapStyle(gap.gap_type || 'monitoring');
+        const sol = (gap.solutions && gap.solutions[0]) || {};
+        const severityClass = gap.severity === 'High' ? 'severity-high' : gap.severity === 'Low' ? 'severity-low' : 'severity-medium';
+
+        return `
+            <div class="gap-item ${style.gapClass}">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:5px;">
+                    <span class="method-label ${isSports ? 'sports-method' : ''}">${style.label}</span>
+                    <span class="${severityClass}">${gap.severity || 'Medium'} Severity</span>
+                </div>
+                <h4 style="margin:5px 0">${gap.title || 'Untitled Gap'}</h4>
+                <p style="font-size:14px; color:#475569; margin-bottom:10px">${gap.description || 'No description available.'}</p>
+                ${sol.title ? `
+                <div class="solution-box ${style.boxClass}">
+                    <div style="font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px; opacity:0.7;">MR&I SOLUTION</div>
+                    <strong style="font-size:15px; display:block; margin-bottom:8px;">${sol.title}</strong>
+                    <div class="meta-row">
+                        <span class="meta-pill">Impact: ${sol.impact || 'Medium'}</span>
+                        <span class="meta-pill">Timeline: ${sol.timeline || 'TBD'}</span>
+                        <span class="meta-pill">Price: ${sol.price || 'TBD'}</span>
+                    </div>
+                    <p style="font-size:13px; margin-top:8px; opacity:0.9;">${sol.description || ''}</p>
+                    <div style="font-size:10px; margin-top:8px; opacity:0.6; font-weight:600;">Framework: ${sol.framework || 'MRA/ESOMAR'}</div>
+                </div>
+                ` : ''}
+            </div>
+        `;
+    }).join('');
+
+    // Build news HTML
+    const newsHTML = news.slice(0, 5).map(n => `
+        <div class="news-item">
+            <a href="${n.url || '#'}" target="_blank">${n.title || 'Untitled'}</a>
+            <span style="color:#94a3b8; font-size:11px; margin-left:8px;">${n.source || 'News'} · ${n.publishedAt ? new Date(n.publishedAt).toLocaleDateString() : 'Recent'}</span>
+        </div>
+    `).join('') || '<p style="color:#94a3b8; font-size:13px;">No recent news available.</p>';
+
+    // Build competitors HTML
+    const peersHTML = peers.map(p => `
+        <div class="comp-item">
+            <div><div class="status-dot" style="background:${isSports ? 'var(--sports)' : 'var(--success)'}"></div><span class="comp-name">${p}</span></div>
+            <span class="badge" style="color:${isSports ? '#b45309' : 'var(--primary)'}">${isSports ? 'IPL Rival' : 'Active Rival'}</span>
+        </div>
+    `).join('');
+
+    display.innerHTML = `
         <div class="grid">
             <div class="card">
                 <h3>⚔️ Verified Competitor Signal</h3>
-                <p style="font-size:12px; color:#94a3b8; margin-bottom:20px">Identified Industry Context: <b>${ctx.sector}</b></p>
-                ${filteredPeers.map(p => `
-                    <div class="comp-item">
-                        <div><div class="status-dot" style="background:${ctx.sector.includes('SPORTS') ? 'var(--sports)' : 'var(--success)'}"></div><span class="comp-name">${p}</span></div>
-                        <span class="badge" style="color:${ctx.sector.includes('SPORTS') ? '#b45309' : 'var(--primary)'}">${ctx.sector.includes('SPORTS') ? 'IPL Rival' : 'Active Rival'}</span>
-                    </div>
-                `).join('')}
-                <div style="margin-top:25px; padding:15px; background:#f8fafc; border-radius:10px; font-size:13px; border-left: 3px solid ${ctx.sector.includes('SPORTS') ? 'var(--sports)' : 'var(--primary)'}">
-                    <strong>Sector Core Trend:</strong> ${ctx.trends}
+                <p style="font-size:12px; color:#94a3b8; margin-bottom:20px">Identified Industry Context: <b>${companyData.sector?.toUpperCase() || 'ENTERPRISE'}</b></p>
+                ${peersHTML}
+                <div style="margin-top:25px; padding:15px; background:#f8fafc; border-radius:10px; font-size:13px; border-left: 3px solid ${isSports ? 'var(--sports)' : 'var(--primary)'}'">
+                    <strong>Sentiment Analysis:</strong> <span class="${getSentimentClass(sentiment.label)}">${sentiment.label}</span> (Score: ${sentiment.score || 0})
                 </div>
                 <div style="margin-top:20px; padding-top:15px; border-top:1px dashed #e2e8f0">
-                    <p style="font-size:12px; font-weight:700; margin-bottom:8px; color:#475569">📰 Open Live External Workspace Stream:</p>
-                    <a href="https://news.google.com/search?q=${encodeURIComponent(name)}+Business+India" target="_blank" style="color:var(--primary); font-size:13px; font-weight:bold; text-decoration:none; display:inline-block;">
-                        Launch Real-Time External Stream for ${name} ↗
+                    <p style="font-size:12px; font-weight:700; margin-bottom:8px; color:#475569">📰 Latest Intelligence Feed:</p>
+                    ${newsHTML}
+                </div>
+                <div style="margin-top:20px; padding-top:15px; border-top:1px dashed #e2e8f0">
+                    <a href="https://news.google.com/search?q=${encodeURIComponent(companyName)}+Business+India" target="_blank" style="color:var(--primary); font-size:13px; font-weight:bold; text-decoration:none; display:inline-block;">
+                        Launch Real-Time External Stream for ${companyName} ↗
                     </a>
                 </div>
             </div>
 
             <div class="card">
-                <h3 style="color:var(--danger)">🔍 ESOMAR Architecture Gaps</h3>
-                <p style="font-size:12px; color:#94a3b8; margin-bottom:20px">Custom Methodologies Configured for ${name}</p>
-                ${gaps.map(g => `
-                    <div class="gap-item ${g.isSports ? 'sports-gap' : ''}">
-                        <span class="method-label ${g.isSports ? 'sports-method' : ''}">${g.method}</span>
-                        <h4 style="margin:5px 0">${g.title}</h4>
-                        <p style="font-size:14px; color:#475569; margin-bottom:10px">${g.body}</p>
-                        <div class="solution-box ${g.isSports ? 'sports-box' : ''}">
-                            <strong>Strategic Framework Solution:</strong> ${g.solution}
-                        </div>
-                    </div>
-                `).join('')}
+                <h3 style="color:var(--danger)">🔍 Identified Research Gaps</h3>
+                <p style="font-size:12px; color:#94a3b8; margin-bottom:20px">Auto-Generated from Live News & NLP Analysis · ${gaps.length} gaps found</p>
+                ${gapsHTML || '<p style="color:#94a3b8;">No research gaps detected.</p>'}
             </div>
         </div>
     `;
+
+    btn.disabled = false;
+    btn.textContent = 'Run Portfolio Synthesis';
 }
+
+// Allow Enter key to trigger synthesis
+document.getElementById('companyInput').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') synthesize();
+});
 </script>
 </body>
 </html>
