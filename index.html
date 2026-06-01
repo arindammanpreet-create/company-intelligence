@@ -1,281 +1,2322 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InsightAI Portfolio Terminal</title>
+    <title>Indian Company & Sports Intelligence Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #0f172a;
+            --color-secondary: #1e293b;
+            --color-accent: #3b82f6;
+            --color-accent-hover: #2563eb;
+            --color-success: #10b981;
+            --color-warning: #f59e0b;
+            --color-danger: #ef4444;
+            --color-muted: #64748b;
+            --color-border: #334155;
+            --color-india: #ff9933;
+            --color-india-green: #138808;
+        }
+    </style>
     <style>
-        :root { --primary: #2563eb; --danger: #ef4444; --bg: #f8fafc; --text: #1e293b; --success: #15803d; --sports: #eab308; }
-        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: var(--bg); margin: 0; padding: 20px; }
-        .container { max-width: 1200px; margin: 0 auto; }
-        .card { background: #fff; padding: 25px; border-radius: 16px; border: 1px solid #e2e8f0; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
-        .input-row { display: flex; gap: 12px; margin: 20px 0; }
-        input { flex: 1; padding: 16px; border: 2px solid #e2e8f0; border-radius: 12px; outline: none; font-size: 16px; transition: 0.2s; }
-        input:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1); }
-        .btn { background: var(--primary); color: white; border: none; padding: 16px 32px; border-radius: 12px; font-weight: 700; cursor: pointer; font-size: 16px; }
-        .btn:disabled { background: #94a3b8; cursor: not-allowed; }
-        .grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 24px; }
-        .gap-item { border-left: 4px solid var(--danger); padding-left: 20px; margin-bottom: 25px; position: relative; }
-        .gap-item.sports-gap { border-left-color: var(--sports); }
-        .gap-item.monitoring-gap { border-left-color: #3b82f6; }
-        .gap-item.competition-gap { border-left-color: #8b5cf6; }
-        .gap-item.digital-gap { border-left-color: #06b6d4; }
-        .gap-item.esg-gap { border-left-color: #10b981; }
-        .method-label { font-size: 10px; font-weight: 900; color: var(--primary); text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 5px; }
-        .method-label.sports-method { color: #b45309; }
-        .badge { background: #eff6ff; color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; border: 1px solid #dbeafe; }
-        .solution-box { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 15px; border-radius: 10px; margin-top: 10px; font-size: 14px; }
-        .solution-box.sports-box { background: #fef9c3; border-color: #fef08a; color: #713f12; }
-        .solution-box.monitoring-box { background: #eff6ff; border-color: #bfdbfe; color: #1e40af; }
-        .solution-box.competition-box { background: #f5f3ff; border-color: #ddd6fe; color: #5b21b6; }
-        .solution-box.digital-box { background: #ecfeff; border-color: #a5f3fc; color: #155e75; }
-        .solution-box.esg-box { background: #ecfdf5; border-color: #a7f3d0; color: #065f46; }
-        .comp-item { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #f1f5f9; }
-        .comp-name { font-weight: 700; font-size: 15px; }
-        .status-dot { width: 8px; height: 8px; background: var(--success); border-radius: 50%; display: inline-block; margin-right: 5px; }
-        .severity-high { color: #dc2626; font-weight: 700; font-size: 11px; background: #fef2f2; padding: 2px 8px; border-radius: 12px; border: 1px solid #fecaca; }
-        .severity-medium { color: #d97706; font-weight: 700; font-size: 11px; background: #fffbeb; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a; }
-        .severity-low { color: #059669; font-weight: 700; font-size: 11px; background: #ecfdf5; padding: 2px 8px; border-radius: 12px; border: 1px solid #a7f3d0; }
-        .loading { text-align: center; padding: 40px; color: #64748b; }
-        .error { background: #fef2f2; border: 1px solid #fecaca; color: #dc2626; padding: 15px; border-radius: 10px; margin: 20px 0; }
-        .news-item { padding: 12px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
-        .news-item a { color: var(--primary); text-decoration: none; font-weight: 600; }
-        .news-item a:hover { text-decoration: underline; }
-        .sentiment-pos { color: #059669; font-weight: 700; }
-        .sentiment-neg { color: #dc2626; font-weight: 700; }
-        .sentiment-neu { color: #64748b; font-weight: 700; }
-        .meta-row { display: flex; gap: 15px; margin-bottom: 15px; flex-wrap: wrap; }
-        .meta-pill { background: #f1f5f9; padding: 4px 12px; border-radius: 20px; font-size: 11px; color: #475569; font-weight: 600; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+        .tab-active { border-bottom: 2px solid #3b82f6; color: #3b82f6; }
+        .tab-inactive { border-bottom: 2px solid transparent; color: #64748b; }
+        .tab-inactive:hover { color: #94a3b8; }
+        .card-hover { transition: all 0.2s ease; }
+        .card-hover:hover { transform: translateY(-2px); box-shadow: 0 10px 40px rgba(0,0,0,0.3); }
+        .severity-high { background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3); }
+        .severity-medium { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); }
+        .severity-low { background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
+        .impact-high { background: rgba(59, 130, 246, 0.15); color: #3b82f6; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .impact-medium { background: rgba(139, 92, 246, 0.15); color: #8b5cf6; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .impact-low { background: rgba(100, 116, 139, 0.15); color: #64748b; border: 1px solid rgba(100, 116, 139, 0.3); }
+        .search-dropdown { max-height: 200px; overflow-y: auto; }
+        .search-dropdown::-webkit-scrollbar { width: 6px; }
+        .search-dropdown::-webkit-scrollbar-track { background: #1e293b; }
+        .search-dropdown::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
+        .fade-in { animation: fadeIn 0.3s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .chart-container { position: relative; height: 300px; width: 100%; }
+        .chart-container-lg { position: relative; height: 350px; width: 100%; }
+        .metric-card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+        .india-badge { background: linear-gradient(135deg, #ff9933 0%, #138808 100%); }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
     </style>
 <base target="_blank">
+<base target="_blank">
+<base target="_blank">
 </head>
-<body>
+<body class="bg-primary text-white min-h-screen">
 
-<div class="container">
-    <div class="card">
-        <h1 style="color:var(--primary); margin:0; display:flex; align-items:center; gap:10px">
-            <div style="width:14px; height:14px; background:var(--primary); border-radius:50%"></div>
-            InsightAI Portfolio Terminal <span style="color:#94a3b8; font-weight:400; font-size:18px">v5.1</span>
-        </h1>
-        <p style="color:#64748b; margin-top:5px">Auto-Generated Intelligence from Live Data Pipeline</p>
-        <div class="input-row">
-            <input type="text" id="companyInput" placeholder="Type: Reliance, TCS, Infosys, HDFC Bank, Bharti Airtel, or Mumbai Indians...">
-            <button class="btn" id="synthBtn" onclick="synthesize()">Run Portfolio Synthesis</button>
-        </div>
-    </div>
-    <div id="displayArea">
-        <div class="loading">Enter a company name and click "Run Portfolio Synthesis" to load live intelligence data.</div>
-    </div>
-</div>
-
-<script>
-const JSON_URL = 'https://raw.githubusercontent.com/arindammanpreet-create/company-intelligence/main/intelligence_data.json';
-let cachedData = null;
-
-// Pre-load the JSON on page load
-fetch(JSON_URL)
-    .then(r => r.json())
-    .then(d => { cachedData = d; console.log('Intelligence data cached'); })
-    .catch(e => console.error('Failed to load intelligence data:', e));
-
-function normalizeInput(name) {
-    const n = name.toLowerCase().trim();
-    const aliases = {
-        'reliance': 'Reliance Industries',
-        'ril': 'Reliance Industries',
-        'tcs': 'TCS',
-        'tata consultancy': 'TCS',
-        'infosys': 'Infosys',
-        'hdfc': 'HDFC Bank',
-        'hdfc bank': 'HDFC Bank',
-        'airtel': 'Bharti Airtel',
-        'bharti': 'Bharti Airtel',
-        'bharti airtel': 'Bharti Airtel',
-        'mumbai': 'Mumbai Indians',
-        'mumbai indians': 'Mumbai Indians',
-        'mi': 'Mumbai Indians'
-    };
-    for (const [key, val] of Object.entries(aliases)) {
-        if (n.includes(key)) return val;
-    }
-    return name.trim(); // fallback
-}
-
-function getGapStyle(gapType) {
-    const styles = {
-        'monitoring': { gapClass: 'monitoring-gap', boxClass: 'monitoring-box', label: 'STRATEGIC MONITORING' },
-        'competition': { gapClass: 'competition-gap', boxClass: 'competition-box', label: 'COMPETITIVE INTEL' },
-        'digital_lag': { gapClass: 'digital-gap', boxClass: 'digital-box', label: 'DIGITAL TRANSFORMATION' },
-        'esg_concern': { gapClass: 'esg-gap', boxClass: 'esg-box', label: 'ESG & SUSTAINABILITY' },
-        'revenue_risk': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'REVENUE RISK' },
-        'margin_pressure': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'MARGIN PRESSURE' },
-        'regulatory': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'REGULATORY' },
-        'talent': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'TALENT & HR' },
-        'debt_leverage': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'DEBT & LEVERAGE' },
-        'geopolitical': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'GEOPOLITICAL' },
-        'consumer_sentiment': { gapClass: 'sports-gap', boxClass: 'sports-box', label: 'BRAND & SENTIMENT' }
-    };
-    return styles[gapType] || { gapClass: '', boxClass: '', label: 'STRATEGIC GAP' };
-}
-
-function getSentimentClass(label) {
-    if (label === 'Positive') return 'sentiment-pos';
-    if (label === 'Negative') return 'sentiment-neg';
-    return 'sentiment-neu';
-}
-
-function getCompetitors(companyData) {
-    // Use competitor_intel from JSON, fallback to sector-based defaults
-    const compIntel = companyData.competitor_intel || [];
-    const seen = new Set();
-    const peers = [];
-
-    for (const item of compIntel) {
-        const name = item.related_to || item.source || 'Competitor';
-        if (!seen.has(name)) {
-            seen.add(name);
-            peers.push(name);
-        }
-    }
-
-    // Fallback peers if JSON has none
-    if (peers.length === 0) {
-        const sector = (companyData.sector || '').toLowerCase();
-        if (sector.includes('sports')) peers.push('Chennai Super Kings', 'Royal Challengers Bengaluru', 'Kolkata Knight Riders');
-        else if (sector.includes('bank')) peers.push('ICICI Bank', 'SBI', 'Axis Bank', 'Kotak Mahindra');
-        else if (sector.includes('it')) peers.push('Infosys', 'Wipro', 'HCLTech', 'Tech Mahindra');
-        else if (sector.includes('telecom')) peers.push('Reliance Jio', 'Vodafone Idea', 'BSNL');
-        else peers.push('Industry Peer A', 'Market Competitor B');
-    }
-
-    return peers.slice(0, 5);
-}
-
-async function synthesize() {
-    const input = document.getElementById('companyInput').value;
-    if (!input) return;
-
-    const btn = document.getElementById('synthBtn');
-    btn.disabled = true;
-    btn.textContent = 'Loading...';
-
-    const companyName = normalizeInput(input);
-    const display = document.getElementById('displayArea');
-
-    // Show loading
-    display.innerHTML = '<div class="loading">Fetching live intelligence data...</div>';
-
-    // Ensure data is loaded
-    if (!cachedData) {
-        try {
-            const res = await fetch(JSON_URL);
-            cachedData = await res.json();
-        } catch (e) {
-            display.innerHTML = '<div class="error">Failed to load intelligence data. Please check your internet connection and try again.</div>';
-            btn.disabled = false;
-            btn.textContent = 'Run Portfolio Synthesis';
-            return;
-        }
-    }
-
-    const companyData = cachedData.companies?.[companyName];
-
-    if (!companyData) {
-        display.innerHTML = `<div class="error">Company "${companyName}" not found in intelligence database. Try: Reliance Industries, TCS, Infosys, HDFC Bank, Bharti Airtel, or Mumbai Indians.</div>`;
-        btn.disabled = false;
-        btn.textContent = 'Run Portfolio Synthesis';
-        return;
-    }
-
-    const isSports = (companyData.sector || '').toLowerCase().includes('sports');
-    const peers = getCompetitors(companyData);
-    const gaps = companyData.research_gaps || [];
-    const news = companyData.news || [];
-    const sentiment = companyData.sentiment || { label: 'Neutral', score: 0 };
-
-    // Build gaps HTML
-    const gapsHTML = gaps.map((gap, idx) => {
-        const style = getGapStyle(gap.gap_type || 'monitoring');
-        const sol = (gap.solutions && gap.solutions[0]) || {};
-        const severityClass = gap.severity === 'High' ? 'severity-high' : gap.severity === 'Low' ? 'severity-low' : 'severity-medium';
-
-        return `
-            <div class="gap-item ${style.gapClass}">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:5px;">
-                    <span class="method-label ${isSports ? 'sports-method' : ''}">${style.label}</span>
-                    <span class="${severityClass}">${gap.severity || 'Medium'} Severity</span>
-                </div>
-                <h4 style="margin:5px 0">${gap.title || 'Untitled Gap'}</h4>
-                <p style="font-size:14px; color:#475569; margin-bottom:10px">${gap.description || 'No description available.'}</p>
-                ${sol.title ? `
-                <div class="solution-box ${style.boxClass}">
-                    <div style="font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px; opacity:0.7;">MR&I SOLUTION</div>
-                    <strong style="font-size:15px; display:block; margin-bottom:8px;">${sol.title}</strong>
-                    <div class="meta-row">
-                        <span class="meta-pill">Impact: ${sol.impact || 'Medium'}</span>
-                        <span class="meta-pill">Timeline: ${sol.timeline || 'TBD'}</span>
-                        <span class="meta-pill">Price: ${sol.price || 'TBD'}</span>
+    <!-- Header -->
+    <header class="bg-secondary border-b border-border sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
+                        <i class="fas fa-chart-line text-white text-lg"></i>
                     </div>
-                    <p style="font-size:13px; margin-top:8px; opacity:0.9;">${sol.description || ''}</p>
-                    <div style="font-size:10px; margin-top:8px; opacity:0.6; font-weight:600;">Framework: ${sol.framework || 'MRA/ESOMAR'}</div>
+                    <div>
+                        <h1 class="text-xl font-bold text-white">Indian Company Intelligence</h1>
+                        <p class="text-xs text-muted">Market Research & Insights Dashboard · NSE/BSE Listed + Sports</p>
+                    </div>
                 </div>
-                ` : ''}
-            </div>
-        `;
-    }).join('');
 
-    // Build news HTML
-    const newsHTML = news.slice(0, 5).map(n => `
-        <div class="news-item">
-            <a href="${n.url || '#'}" target="_blank">${n.title || 'Untitled'}</a>
-            <span style="color:#94a3b8; font-size:11px; margin-left:8px;">${n.source || 'News'} · ${n.publishedAt ? new Date(n.publishedAt).toLocaleDateString() : 'Recent'}</span>
-        </div>
-    `).join('') || '<p style="color:#94a3b8; font-size:13px;">No recent news available.</p>';
-
-    // Build competitors HTML
-    const peersHTML = peers.map(p => `
-        <div class="comp-item">
-            <div><div class="status-dot" style="background:${isSports ? 'var(--sports)' : 'var(--success)'}"></div><span class="comp-name">${p}</span></div>
-            <span class="badge" style="color:${isSports ? '#b45309' : 'var(--primary)'}">${isSports ? 'IPL Rival' : 'Active Rival'}</span>
-        </div>
-    `).join('');
-
-    display.innerHTML = `
-        <div class="grid">
-            <div class="card">
-                <h3>⚔️ Verified Competitor Signal</h3>
-                <p style="font-size:12px; color:#94a3b8; margin-bottom:20px">Identified Industry Context: <b>${companyData.sector?.toUpperCase() || 'ENTERPRISE'}</b></p>
-                ${peersHTML}
-                <div style="margin-top:25px; padding:15px; background:#f8fafc; border-radius:10px; font-size:13px; border-left: 3px solid ${isSports ? 'var(--sports)' : 'var(--primary)'}'">
-                    <strong>Sentiment Analysis:</strong> <span class="${getSentimentClass(sentiment.label)}">${sentiment.label}</span> (Score: ${sentiment.score || 0})
+                <!-- Search Bar -->
+                <div class="relative w-96">
+                    <div class="relative">
+                        <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-muted"></i>
+                        <input 
+                            type="text" 
+                            id="companySearch" 
+                            placeholder="Search company or franchise (e.g., Reliance, TCS, Mumbai Indians...)" 
+                            class="w-full bg-primary border border-border rounded-lg pl-10 pr-4 py-2.5 text-sm text-white placeholder-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-all"
+                            autocomplete="off"
+                        >
+                        <button id="clearSearch" class="absolute right-3 top-1/2 -translate-y-1/2 text-muted hover:text-white hidden">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div id="searchDropdown" class="search-dropdown absolute top-full left-0 right-0 bg-secondary border border-border rounded-lg mt-1 hidden shadow-2xl z-50">
+                        <!-- Populated by JS -->
+                    </div>
                 </div>
-                <div style="margin-top:20px; padding-top:15px; border-top:1px dashed #e2e8f0">
-                    <p style="font-size:12px; font-weight:700; margin-bottom:8px; color:#475569">📰 Latest Intelligence Feed:</p>
-                    ${newsHTML}
-                </div>
-                <div style="margin-top:20px; padding-top:15px; border-top:1px dashed #e2e8f0">
-                    <a href="https://news.google.com/search?q=${encodeURIComponent(companyName)}+Business+India" target="_blank" style="color:var(--primary); font-size:13px; font-weight:bold; text-decoration:none; display:inline-block;">
-                        Launch Real-Time External Stream for ${companyName} ↗
-                    </a>
-                </div>
-            </div>
 
-            <div class="card">
-                <h3 style="color:var(--danger)">🔍 Identified Research Gaps</h3>
-                <p style="font-size:12px; color:#94a3b8; margin-bottom:20px">Auto-Generated from Live News & NLP Analysis · ${gaps.length} gaps found</p>
-                ${gapsHTML || '<p style="color:#94a3b8;">No research gaps detected.</p>'}
+                <div class="flex items-center gap-4">
+                    <div class="text-right">
+                        <p class="text-xs text-muted">Last Updated</p>
+                        <p id="lastUpdatedTime" class="text-sm font-medium">May 19, 2026</p>
+                    </div>
+                    <div id="liveIndicator" class="hidden px-2 py-1 bg-success/20 text-success rounded-lg text-xs font-bold flex items-center">
+                        <i class="fas fa-circle text-success text-xs animate-pulse mr-1"></i> LIVE
+                    </div>
+                    <button onclick="showBackendSetup()" class="px-3 py-1.5 bg-accent/20 text-accent rounded-lg text-xs hover:bg-accent/30 transition-colors flex items-center gap-1">
+                        <i class="fas fa-plug"></i>
+                        <span>Connect Backend</span>
+                    </button>
+                    <div class="w-8 h-8 bg-accent/20 rounded-full flex items-center justify-center">
+                        <i class="fas fa-user text-accent text-sm"></i>
+                    </div>
+                </div>
             </div>
         </div>
-    `;
+    </header>
 
-    btn.disabled = false;
-    btn.textContent = 'Run Portfolio Synthesis';
-}
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
 
-// Allow Enter key to trigger synthesis
-document.getElementById('companyInput').addEventListener('keypress', function(e) {
-    if (e.key === 'Enter') synthesize();
-});
+        <!-- Company Header Info -->
+        <div id="companyHeader" class="mb-6 fade-in">
+            <div class="bg-secondary rounded-xl p-6 border border-border">
+                <div class="flex items-start justify-between">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-2">
+                            <h2 id="companyName" class="text-3xl font-bold text-white">Select a Company</h2>
+                            <span id="companyTicker" class="px-3 py-1 bg-accent/20 text-accent rounded-full text-sm font-mono font-medium hidden"></span>
+                            <span id="nseBadge" class="px-2 py-0.5 bg-india text-white rounded text-xs font-bold hidden">NSE</span>
+                        </div>
+                        <p id="companyDesc" class="text-muted text-sm max-w-3xl leading-relaxed">Search for an Indian company or sports franchise above to view comprehensive market research analytics, financial data, and insights solutions tailored to the Indian market.</p>
+                        <div id="companyMeta" class="flex flex-wrap gap-4 mt-4 hidden">
+                            <div class="flex items-center gap-2 text-sm">
+                                <i class="fas fa-building text-muted"></i>
+                                <span id="metaSector" class="text-white"></span>
+                            </div>
+                            <div class="flex items-center gap-2 text-sm">
+                                <i class="fas fa-users text-muted"></i>
+                                <span id="metaEmployees" class="text-white"></span>
+                            </div>
+                            <div class="flex items-center gap-2 text-sm">
+                                <i class="fas fa-calendar text-muted"></i>
+                                <span id="metaFounded" class="text-white"></span>
+                            </div>
+                            <div class="flex items-center gap-2 text-sm">
+                                <i class="fas fa-map-marker-alt text-muted"></i>
+                                <span id="metaHQ" class="text-white"></span>
+                            </div>
+                            <div class="flex items-center gap-2 text-sm">
+                                <i class="fas fa-user-tie text-muted"></i>
+                                <span id="metaCEO" class="text-white"></span>
+                            </div>
+                            <div class="flex items-center gap-2 text-sm">
+                                <i class="fas fa-rupee-sign text-muted"></i>
+                                <span id="metaRevenue" class="text-white"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="marketCapBox" class="text-right hidden">
+                        <p class="text-xs text-muted mb-1">Market Cap</p>
+                        <p id="marketCapValue" class="text-2xl font-bold text-success"></p>
+                        <p class="text-xs text-muted mt-1">NSE Listed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabs Navigation -->
+        <div class="border-b border-border mb-6">
+            <nav class="flex gap-8" id="tabNav">
+                <button class="tab-btn tab-active pb-3 text-sm font-medium transition-colors" data-tab="overview">
+                    <i class="fas fa-chart-pie mr-2"></i>Overview
+                </button>
+                <button class="tab-btn tab-inactive pb-3 text-sm font-medium transition-colors" data-tab="financials">
+                    <i class="fas fa-rupee-sign mr-2"></i>Financials
+                </button>
+                <button class="tab-btn tab-inactive pb-3 text-sm font-medium transition-colors" data-tab="research">
+                    <i class="fas fa-search mr-2"></i>Research Gaps
+                </button>
+                <button class="tab-btn tab-inactive pb-3 text-sm font-medium transition-colors" data-tab="solutions">
+                    <i class="fas fa-lightbulb mr-2"></i>MR&I Solutions
+                </button>
+                <button class="tab-btn tab-inactive pb-3 text-sm font-medium transition-colors" data-tab="competitors">
+                    <i class="fas fa-chess mr-2"></i>Competitors
+                </button>
+                <button class="tab-btn tab-inactive pb-3 text-sm font-medium transition-colors" data-tab="esg">
+                    <i class="fas fa-leaf mr-2"></i>ESG
+                </button>
+                <button class="tab-btn tab-inactive pb-3 text-sm font-medium transition-colors" data-tab="news">
+                    <i class="fas fa-newspaper mr-2"></i>News & Sentiment
+                </button>
+            </nav>
+        </div>
+
+        <!-- Tab Content -->
+        <div id="tabContent">
+
+            <!-- Overview Tab -->
+            <div id="tab-overview" class="tab-panel fade-in">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+                    <div class="metric-card rounded-xl p-5 border border-border card-hover">
+                        <div class="flex items-center justify-between mb-3">
+                            <p class="text-muted text-sm">Revenue (FY26)</p>
+                            <i class="fas fa-coins text-accent/50"></i>
+                        </div>
+                        <p id="metricRevenue" class="text-2xl font-bold text-white">--</p>
+                        <div class="flex items-center gap-1 mt-2">
+                            <i class="fas fa-arrow-up text-success text-xs"></i>
+                            <span id="revenueGrowth" class="text-success text-xs font-medium">--</span>
+                        </div>
+                    </div>
+                    <div class="metric-card rounded-xl p-5 border border-border card-hover">
+                        <div class="flex items-center justify-between mb-3">
+                            <p class="text-muted text-sm">Net Profit</p>
+                            <i class="fas fa-wallet text-success/50"></i>
+                        </div>
+                        <p id="metricIncome" class="text-2xl font-bold text-white">--</p>
+                        <div class="flex items-center gap-1 mt-2">
+                            <i class="fas fa-arrow-up text-success text-xs"></i>
+                            <span id="profitGrowth" class="text-success text-xs font-medium">--</span>
+                        </div>
+                    </div>
+                    <div class="metric-card rounded-xl p-5 border border-border card-hover">
+                        <div class="flex items-center justify-between mb-3">
+                            <p class="text-muted text-sm">R&D / Tech Spend</p>
+                            <i class="fas fa-flask text-warning/50"></i>
+                        </div>
+                        <p id="metricRD" class="text-2xl font-bold text-white">--</p>
+                        <div class="flex items-center gap-1 mt-2">
+                            <span class="text-warning text-xs font-medium">Tech Investment</span>
+                        </div>
+                    </div>
+                    <div class="metric-card rounded-xl p-5 border border-border card-hover">
+                        <div class="flex items-center justify-between mb-3">
+                            <p class="text-muted text-sm">Research Gaps</p>
+                            <i class="fas fa-exclamation-triangle text-danger/50"></i>
+                        </div>
+                        <p id="metricGaps" class="text-2xl font-bold text-white">--</p>
+                        <div class="flex items-center gap-1 mt-2">
+                            <span id="highSeverityCount" class="text-danger text-xs font-medium">-- High</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="bg-secondary rounded-xl p-6 border border-border">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-semibold flex items-center gap-2">
+                                <i class="fas fa-chart-area text-accent"></i>
+                                Stock Price Trend (NSE)
+                            </h3>
+                            <div class="flex items-center gap-2">
+                                <span id="dataSourceBadge" class="px-2 py-1 bg-secondary border border-border rounded text-xs text-muted">
+                                    <i class="fas fa-database mr-1"></i>Yahoo Finance
+                                </span>
+                                <button onclick="showApiKeySetup()" class="px-2 py-1 bg-accent/20 text-accent rounded text-xs hover:bg-accent/30 transition-colors" title="Add Alpha Vantage API key for more reliable data">
+                                    <i class="fas fa-key mr-1"></i>API Key
+                                </button>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="stockChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="bg-secondary rounded-xl p-6 border border-border">
+                        <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                            <i class="fas fa-chart-bar text-success"></i>
+                            Revenue Growth (₹ Cr)
+                        </h3>
+                        <div class="chart-container">
+                            <canvas id="revenueChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Financials Tab -->
+            <div id="tab-financials" class="tab-panel hidden fade-in">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-secondary rounded-xl p-6 border border-border">
+                        <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                            <i class="fas fa-chart-line text-accent"></i>
+                            Revenue vs Net Profit
+                        </h3>
+                        <div class="chart-container-lg">
+                            <canvas id="financialComboChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="bg-secondary rounded-xl p-6 border border-border">
+                        <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                            <i class="fas fa-flask text-warning"></i>
+                            R&D / Digital Investment Trend
+                        </h3>
+                        <div class="chart-container-lg">
+                            <canvas id="rdChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-secondary rounded-xl p-6 border border-border">
+                    <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i class="fas fa-table text-muted"></i>
+                        Financial Summary (₹ Crore)
+                    </h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm">
+                            <thead>
+                                <tr class="border-b border-border">
+                                    <th class="text-left py-3 px-4 text-muted font-medium">Metric</th>
+                                    <th class="text-right py-3 px-4 text-muted font-medium">FY23</th>
+                                    <th class="text-right py-3 px-4 text-muted font-medium">FY24</th>
+                                    <th class="text-right py-3 px-4 text-muted font-medium">FY25</th>
+                                    <th class="text-right py-3 px-4 text-muted font-medium">FY26</th>
+                                    <th class="text-right py-3 px-4 text-muted font-medium">CAGR</th>
+                                </tr>
+                            </thead>
+                            <tbody id="financialTableBody">
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Research Gaps Tab -->
+            <div id="tab-research" class="tab-panel hidden fade-in">
+                <div class="mb-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold">Identified Research Gaps</h3>
+                        <div class="flex gap-2">
+                            <button class="filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-accent text-white" data-filter="all">All</button>
+                            <button class="filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-secondary border border-border text-muted hover:text-white" data-filter="High">High</button>
+                            <button class="filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-secondary border border-border text-muted hover:text-white" data-filter="Medium">Medium</button>
+                            <button class="filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-secondary border border-border text-muted hover:text-white" data-filter="Low">Low</button>
+                        </div>
+                    </div>
+                    <div id="researchGapsList" class="space-y-4">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <div class="bg-secondary rounded-xl p-6 border border-border">
+                    <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i class="fas fa-exclamation-circle text-danger"></i>
+                        Severity Distribution
+                    </h3>
+                    <div class="chart-container" style="height: 250px;">
+                        <canvas id="severityChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solutions Tab -->
+            <div id="tab-solutions" class="tab-panel hidden fade-in">
+                <div class="mb-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold">Market Research & Insights Solutions</h3>
+                        <div class="flex gap-2">
+                            <button class="sol-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-accent text-white" data-filter="all">All</button>
+                            <button class="sol-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-secondary border border-border text-muted hover:text-white" data-filter="High">High Impact</button>
+                            <button class="sol-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-secondary border border-border text-muted hover:text-white" data-filter="Medium">Medium Impact</button>
+                            <button class="sol-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-secondary border border-border text-muted hover:text-white" data-filter="Low">Low Impact</button>
+                        </div>
+                    </div>
+                    <div id="solutionsList" class="space-y-4">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="bg-secondary rounded-xl p-6 border border-border">
+                        <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                            <i class="fas fa-bullseye text-accent"></i>
+                            Impact Distribution
+                        </h3>
+                        <div class="chart-container" style="height: 250px;">
+                            <canvas id="impactChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="bg-secondary rounded-xl p-6 border border-border">
+                        <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                            <i class="fas fa-clock text-warning"></i>
+                            Implementation Timeline
+                        </h3>
+                        <div class="chart-container" style="height: 250px;">
+                            <canvas id="timelineChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Competitors Tab -->
+            <div id="tab-competitors" class="tab-panel hidden fade-in">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-secondary rounded-xl p-6 border border-border">
+                        <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                            <i class="fas fa-chart-pie text-accent"></i>
+                            Market Share
+                        </h3>
+                        <div class="chart-container-lg">
+                            <canvas id="marketShareChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="bg-secondary rounded-xl p-6 border border-border">
+                        <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                            <i class="fas fa-balance-scale text-warning"></i>
+                            Competitive Positioning
+                        </h3>
+                        <div id="competitorCards" class="space-y-3">
+                            <!-- Populated by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ESG Tab -->
+            <div id="tab-esg" class="tab-panel hidden fade-in">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                    <div class="bg-secondary rounded-xl p-5 border border-border card-hover">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-success/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-leaf text-success"></i>
+                            </div>
+                            <div>
+                                <p class="text-muted text-xs">Carbon Neutral Target</p>
+                                <p id="esgCarbon" class="text-lg font-bold text-white">--</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-secondary rounded-xl p-5 border border-border card-hover">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-accent/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-solar-panel text-accent"></i>
+                            </div>
+                            <div>
+                                <p class="text-muted text-xs">Renewable Energy</p>
+                                <p id="esgRenewable" class="text-lg font-bold text-white">--</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-secondary rounded-xl p-5 border border-border card-hover">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-warning/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-recycle text-warning"></i>
+                            </div>
+                            <div>
+                                <p class="text-muted text-xs">CSR Spend</p>
+                                <p id="esgRecycled" class="text-lg font-bold text-white">--</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-secondary rounded-xl p-5 border border-border card-hover">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-users text-purple-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-muted text-xs">Diversity Score</p>
+                                <p id="esgDiversity" class="text-lg font-bold text-white">--</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-secondary rounded-xl p-6 border border-border">
+                    <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i class="fas fa-chart-radar text-accent"></i>
+                        ESG Performance Overview
+                    </h3>
+                    <div class="chart-container-lg flex justify-center">
+                        <canvas id="esgRadarChart" style="max-width: 500px;"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- News & Sentiment Tab -->
+            <div id="tab-news" class="tab-panel hidden fade-in">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+                    <!-- Sentiment Score Cards -->
+                    <div class="lg:col-span-1 space-y-4">
+                        <div class="bg-secondary rounded-xl p-5 border border-border">
+                            <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                                <i class="fas fa-heartbeat text-accent"></i>
+                                Sentiment Overview
+                            </h3>
+                            <div class="space-y-4">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-muted text-sm">Overall Sentiment</span>
+                                    <span id="overallSentiment" class="px-3 py-1 rounded-full text-sm font-bold bg-secondary border border-border">--</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-muted text-sm">News Volume (7d)</span>
+                                    <span id="newsVolume" class="text-white font-bold">--</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-muted text-sm">Positive Ratio</span>
+                                    <span id="positiveRatio" class="text-success font-bold">--</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-muted text-sm">Negative Ratio</span>
+                                    <span id="negativeRatio" class="text-danger font-bold">--</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-secondary rounded-xl p-5 border border-border">
+                            <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                                <i class="fas fa-chart-pie text-success"></i>
+                                Sentiment Breakdown
+                            </h3>
+                            <div class="chart-container" style="height: 200px;">
+                                <canvas id="sentimentChart"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="bg-secondary rounded-xl p-5 border border-border">
+                            <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                                <i class="fas fa-cog text-muted"></i>
+                                Data Sources
+                            </h3>
+                            <div class="space-y-2 text-xs text-muted">
+                                <div class="flex items-center gap-2">
+                                    <i class="fas fa-check-circle text-success"></i>
+                                    <span>Google News RSS (Free)</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fas fa-check-circle text-success"></i>
+                                    <span>NewsAPI.org (100 calls/day free)</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fas fa-check-circle text-success"></i>
+                                    <span>On-device NLP sentiment (Free)</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fas fa-info-circle text-warning"></i>
+                                    <span>Reddit/X require API keys</span>
+                                </div>
+                            </div>
+                            <button onclick="showNewsApiSetup()" class="mt-3 w-full px-3 py-2 bg-accent/20 text-accent rounded-lg text-xs hover:bg-accent/30 transition-colors">
+                                <i class="fas fa-key mr-1"></i>Add NewsAPI Key
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- News Feed -->
+                    <div class="lg:col-span-2">
+                        <div class="bg-secondary rounded-xl p-6 border border-border">
+                            <div class="flex items-center justify-between mb-4">
+                                <h3 class="text-lg font-semibold flex items-center gap-2">
+                                    <i class="fas fa-newspaper text-accent"></i>
+                                    Latest News
+                                </h3>
+                                <div class="flex items-center gap-2">
+                                    <span id="newsLiveBadge" class="hidden px-2 py-1 bg-success/20 text-success rounded text-xs font-bold">
+                                        <i class="fas fa-circle text-success text-xs animate-pulse mr-1"></i>LIVE
+                                    </span>
+                                    <button onclick="refreshNews()" class="px-3 py-1.5 bg-accent/20 text-accent rounded-lg text-xs hover:bg-accent/30 transition-colors">
+                                        <i class="fas fa-sync-alt mr-1"></i>Refresh
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="newsFeed" class="space-y-3 max-h-[600px] overflow-y-auto pr-2">
+                                <div class="text-center py-8 text-muted">
+                                    <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                                    <p>Loading news...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sentiment Timeline -->
+                <div class="bg-secondary rounded-xl p-6 border border-border">
+                    <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i class="fas fa-chart-line text-warning"></i>
+                        Sentiment Trend (7 Days)
+                    </h3>
+                    <div class="chart-container" style="height: 250px;">
+                        <canvas id="sentimentTimelineChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+
+        // Indian Company Data - Realistic FY2026 data
+        const companyData = {
+    "Reliance Industries": {
+        "ticker": "RELIANCE",
+        "sector": "Conglomerate (Energy, Retail, Telecom, Digital)",
+        "market_cap": "₹18.46 Lakh Cr",
+        "revenue_2024": "₹10,14,000 Cr",
+        "employees": "3,80,000+",
+        "founded": 1966,
+        "headquarters": "Mumbai, Maharashtra",
+        "ceo": "Mukesh D. Ambani",
+        "description": "India's largest company by market cap. Diversified conglomerate spanning oil refining, petrochemicals, retail (Reliance Retail), telecom (Jio), and digital services. Revenue exceeds ₹10 lakh crore with operations across energy, consumer, and technology sectors.",
+        "financials": {
+            "revenue": [792000, 862000, 944000, 1014000],
+            "net_income": [67000, 73000, 81000, 79000],
+            "rd_spend": [8500, 9200, 10500, 11800],
+            "years": ["FY23", "FY24", "FY25", "FY26"]
+        },
+        "stock_price": [1280, 1320, 1380, 1358, 1400, 1385, 1420, 1450, 1430, 1480, 1460, 1500],
+        "stock_dates": ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May"],
+        "research_gaps": [
+            {"title": "Jio ARPU Stagnation", "severity": "High", "description": "Jio's Average Revenue Per User stuck at ₹180-200 despite 5G rollout. Price wars with Airtel and BSNL limiting monetization. Need premium tier strategy for 5G services."},
+            {"title": "Green Energy Transition Pace", "severity": "High", "description": "Dhirubhai Ambani Green Energy Giga Factory targets 100 GW by 2030 but execution lags. Solar panel and electrolyzer manufacturing capacity still nascent vs. global competitors."},
+            {"title": "Reliance Retail Digital Integration", "severity": "Medium", "description": "Retail revenue growing but online-to-offline integration weak. JioMart losing ground to Blinkit, Zepto, and Flipkart in quick commerce. Need AI-driven inventory and logistics."},
+            {"title": "O2C Margin Compression", "severity": "Medium", "description": "Oil-to-Chemicals segment facing global refining margin pressure. Geopolitical disruptions and volatile energy prices affecting profitability."},
+            {"title": "Jio Platforms IPO Readiness", "severity": "Medium", "description": "Delayed IPO for Jio Platforms despite announcements. Valuation concerns and regulatory clarity on data localization rules creating uncertainty."}
+        ],
+        "solutions": [
+            {"title": "Consumer Behaviour Analytics Platform", "impact": "High", "timeline": "6-12 months", "description": "Deploy AI-driven market research platform across Jio's 450M+ user base. Track real-time consumption patterns, pricing sensitivity, and brand switching behaviour. Generate quarterly consumer insight reports for retail and telecom verticals."},
+            {"title": "Retail Footfall & Sentiment Intelligence", "impact": "High", "timeline": "12-18 months", "description": "Install computer vision and IoT sensors across 18,000+ Reliance Retail stores. Measure footfall patterns, dwell time, and purchase conversion. Integrate with social media sentiment analysis for real-time brand health tracking."},
+            {"title": "Competitive Pricing Intelligence System", "impact": "Medium", "timeline": "6-12 months", "description": "Build automated competitive intelligence engine tracking Airtel, Vodafone Idea, and BSNL pricing in real-time. Use NLP on tariff announcements and promotional campaigns. Deliver daily pricing gap alerts to product teams."},
+            {"title": "Green Energy Market Sizing & Demand Forecasting", "impact": "Medium", "timeline": "12-18 months", "description": "Commission primary research across Indian industrial clusters for green hydrogen and solar demand. Model TAM/SAM/SOM for electrolyzers and solar panels. Quarterly demand forecasting for B2B energy clients."},
+            {"title": "Investor Sentiment & Valuation Research", "impact": "High", "timeline": "6-12 months", "description": "Conduct institutional investor perception studies for Jio Platforms IPO readiness. Track analyst coverage, ESG scoring impact on valuation multiples. Monthly investor confidence index and valuation benchmarking against global tech IPOs."}
+        ],
+        "competitors": [
+            {"name": "Tata Group", "market_share": 18, "strength": "Diversified conglomerate, Tata Digital, Tata Power"},
+            {"name": "Adani Group", "market_share": 15, "strength": "Energy, ports, infrastructure, green hydrogen"},
+            {"name": "Airtel", "market_share": 12, "strength": "Telecom, 5G leadership, Africa expansion"},
+            {"name": "Birla Group", "market_share": 8, "strength": "Cement, financial services, retail (More)"}
+        ],
+        "esg": {
+            "carbon_neutral": "2035 target",
+            "renewable_energy": "100 GW by 2030",
+            "recycled_materials": "₹2,500 Cr CSR spend",
+            "diversity_score": 68
+        }
+    },
+    "TCS": {
+        "ticker": "TCS",
+        "sector": "IT Services & Consulting",
+        "market_cap": "₹8.32 Lakh Cr",
+        "revenue_2024": "₹2,46,000 Cr",
+        "employees": "6,12,000",
+        "founded": 1968,
+        "headquarters": "Mumbai, Maharashtra",
+        "ceo": "K. Krithivasan",
+        "description": "Tata Consultancy Services is India's largest IT services company and part of the Tata Group. Delivers technology solutions, cloud services, and digital transformation to clients across 55+ countries with industry-leading EBIT margins of 24-25%.",
+        "financials": {
+            "revenue": [225000, 235000, 240000, 246000],
+            "net_income": [42000, 46000, 48000, 52000],
+            "rd_spend": [3200, 3500, 3800, 4200],
+            "years": ["FY23", "FY24", "FY25", "FY26"]
+        },
+        "stock_price": [3200, 3350, 3500, 3450, 3600, 3550, 3700, 3650, 3800, 3750, 3900, 3850],
+        "stock_dates": ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May"],
+        "research_gaps": [
+            {"title": "GenAI Talent Shortage", "severity": "High", "description": "Only 15% of TCS workforce certified in GenAI/LLM technologies. Competition from Infosys, Wipro, and global firms (Accenture, Capgemini) for AI talent intense."},
+            {"title": "Large Deal Win Sustainability", "severity": "High", "description": "FY26 saw $42B TCV but deal sizes shrinking. Clients demanding outcome-based pricing vs. traditional FTE models. Margin pressure on new contracts."},
+            {"title": "North America Revenue Concentration", "severity": "Medium", "description": "52% revenue from US market. H1-B visa restrictions and nearshoring trends (Mexico, Canada) threatening talent deployment model."},
+            {"title": "Cloud Migration Revenue Decline", "severity": "Medium", "description": "Initial cloud migration wave maturing. Clients moving to in-house cloud teams. TCS needs next-gen offerings (FinOps, AI-ops, quantum computing)."},
+            {"title": "Campus Hiring Model Obsolescence", "severity": "Medium", "description": "Traditional engineering campus hiring producing skills mismatch. 40% fresh hires need 6-month reskilling. Need apprenticeship and micro-credential partnerships."}
+        ],
+        "solutions": [
+            {"title": "IT Services Demand Forecasting Engine", "impact": "High", "timeline": "6-12 months", "description": "Build proprietary market intelligence platform tracking global IT spending patterns across 55+ countries. Monitor vertical-specific demand (BFSI, healthcare, retail). Quarterly TAM expansion reports and vertical penetration heatmaps."},
+            {"title": "Competitor Win/Loss Analysis Program", "impact": "High", "timeline": "6-12 months", "description": "Systematic post-deal intelligence gathering across sales teams. Track win/loss reasons against Infosys, Accenture, Wipro. Monthly competitive positioning reports with pricing, capability gap, and brand perception analysis."},
+            {"title": "Client Satisfaction & NPS Tracking", "impact": "Medium", "timeline": "6-12 months", "description": "Deploy continuous feedback loops across top 500 clients. Measure satisfaction across delivery quality, innovation, and value-for-money. Quarterly churn risk alerts and relationship health scores for account teams."},
+            {"title": "Emerging Technology Adoption Research", "impact": "Medium", "timeline": "12-18 months", "description": "Primary research on enterprise GenAI, quantum computing, and Web3 adoption readiness. Survey 2,000+ CIOs and CTOs globally. Annual emerging tech readiness index and vertical-specific adoption roadmaps."},
+            {"title": "Talent Market Intelligence Dashboard", "impact": "High", "timeline": "6-12 months", "description": "Real-time labour market analytics for IT talent across India, US, Europe. Track salary benchmarks, skill availability, and competitor hiring patterns. Monthly talent supply-demand reports for workforce planning."}
+        ],
+        "competitors": [
+            {"name": "Infosys", "market_share": 22, "strength": "Agile innovation, large deal wins, digital focus"},
+            {"name": "Accenture", "market_share": 18, "strength": "Global scale, strategy consulting, AI investments"},
+            {"name": "Wipro", "market_share": 12, "strength": "Engineering services, healthcare vertical"},
+            {"name": "HCL Tech", "market_share": 10, "strength": "Infrastructure services, product engineering"}
+        ],
+        "esg": {
+            "carbon_neutral": "2030 target",
+            "renewable_energy": "100% renewable by 2025",
+            "recycled_materials": "₹800 Cr CSR spend",
+            "diversity_score": 75
+        }
+    },
+    "Infosys": {
+        "ticker": "INFY",
+        "sector": "IT Services & Consulting",
+        "market_cap": "₹4.61 Lakh Cr",
+        "revenue_2024": "₹1,65,000 Cr",
+        "employees": "3,17,000",
+        "founded": 1981,
+        "headquarters": "Bengaluru, Karnataka",
+        "ceo": "Salil Parekh",
+        "description": "Infosys is a global leader in next-generation digital services and consulting. Headquartered in Bengaluru, it operates across 50+ countries specializing in enterprise digital transformation, cloud migration, and AI-driven consulting with strong focus on large deal wins.",
+        "financials": {
+            "revenue": [146000, 153000, 158000, 165000],
+            "net_income": [24000, 26500, 29000, 32000],
+            "rd_spend": [2200, 2500, 2800, 3100],
+            "years": ["FY23", "FY24", "FY25", "FY26"]
+        },
+        "stock_price": [1400, 1450, 1500, 1480, 1520, 1500, 1550, 1530, 1580, 1560, 1600, 1580],
+        "stock_dates": ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May"],
+        "research_gaps": [
+            {"title": "AI-First Transformation Lag", "severity": "High", "description": "Topaz AI platform launched but adoption rate only 25% among existing clients. Clients skeptical of AI ROI claims. Need proof-of-concept acceleration."},
+            {"title": "Margin Erosion in Digital Deals", "severity": "High", "description": "Digital revenue growing at 18% but margins compressed to 20.5% from 22.3%. High subcontractor costs and cloud infrastructure spend eating into profitability."},
+            {"title": "US Immigration Policy Risk", "severity": "Medium", "description": "H1-B visa denials increasing. 35% of onsite workforce on visas. Need alternative delivery models (nearshore centers in Mexico, Canada)."},
+            {"title": "Mid-Market Client Acquisition", "severity": "Medium", "description": "Over-reliance on Fortune 500 clients. Mid-market segment ($500M-$2B revenue) underserved. SMB-focused products and pricing needed."},
+            {"title": "ESG Reporting Capability Gaps", "severity": "Low", "description": "Clients demanding Scope 3 emissions tracking but Infosys lacks carbon accounting tools. Need to build sustainability-as-a-service offering."}
+        ],
+        "solutions": [
+            {"title": "AI Adoption & ROI Perception Study", "impact": "High", "timeline": "6-12 months", "description": "Conduct primary research among 500+ enterprise clients on AI trust and ROI expectations. Track Topaz platform adoption barriers. Quarterly AI perception index and client confidence benchmarking against TCS and Accenture."},
+            {"title": "Pricing & Margin Elasticity Research", "impact": "High", "timeline": "6-12 months", "description": "Analyse historical deal data to identify margin drivers and pricing sensitivity across digital, cloud, and AI projects. Model outcome-based vs FTE pricing scenarios. Monthly margin optimization recommendations for deal desks."},
+            {"title": "Mid-Market IT Needs Assessment", "impact": "Medium", "timeline": "12-18 months", "description": "Survey 1,000 mid-market companies ($500M-$2B revenue) across US, Europe, and India. Map unmet digital transformation needs. Quarterly mid-market opportunity sizing and vertical-specific product-market fit analysis."},
+            {"title": "Nearshore Delivery Viability Study", "impact": "Medium", "timeline": "12-18 months", "description": "Comparative cost-benefit analysis of nearshore centers (Mexico, Canada, Poland) vs India delivery. Factor in talent availability, client proximity, and visa risk. Quarterly location strategy intelligence for delivery heads."},
+            {"title": "ESG Services Market Sizing", "impact": "Low", "timeline": "12-18 months", "description": "Research global demand for sustainability consulting and carbon accounting tools. Track EU CBAM and SEC climate disclosure impact on IT services demand. Annual ESG services TAM report and competitive landscape mapping."}
+        ],
+        "competitors": [
+            {"name": "TCS", "market_share": 28, "strength": "Scale, brand, Tata Group backing"},
+            {"name": "Accenture", "market_share": 20, "strength": "Strategy consulting, global reach"},
+            {"name": "Wipro", "market_share": 14, "strength": "Engineering R&D, healthcare"},
+            {"name": "Cognizant", "market_share": 12, "strength": "Healthcare, North America focus"}
+        ],
+        "esg": {
+            "carbon_neutral": "2040 target",
+            "renewable_energy": "100% renewable by 2030",
+            "recycled_materials": "₹500 Cr CSR spend",
+            "diversity_score": 72
+        }
+    },
+    "HDFC Bank": {
+        "ticker": "HDFCBANK",
+        "sector": "Banking & Financial Services",
+        "market_cap": "₹11.55 Lakh Cr",
+        "revenue_2024": "₹2,15,000 Cr",
+        "employees": "2,05,000",
+        "founded": 1994,
+        "headquarters": "Mumbai, Maharashtra",
+        "ceo": "Sashidhar Jagdishan",
+        "description": "India's largest private sector bank by market cap after merger with HDFC Ltd. Offers retail banking, corporate banking, loans, credit cards, and digital banking. Known for strong asset quality, technology-led operations, and consistent profitability.",
+        "financials": {
+            "revenue": [168000, 185000, 198000, 215000],
+            "net_income": [45000, 52000, 60000, 68000],
+            "rd_spend": [2800, 3200, 3800, 4500],
+            "years": ["FY23", "FY24", "FY25", "FY26"]
+        },
+        "stock_price": [1450, 1500, 1550, 1520, 1580, 1550, 1600, 1580, 1620, 1600, 1650, 1620],
+        "stock_dates": ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May"],
+        "research_gaps": [
+            {"title": "Post-Merger Integration Complexity", "severity": "High", "description": "HDFC-HDFC Bank merger created India's largest lender but IT systems integration still ongoing. Home loan processing times increased 40%. Customer service complaints up 25%."},
+            {"title": "Fintech Disruption Threat", "severity": "High", "description": "UPI transactions dominated by PhonePe and Google Pay. HDFC Bank's own UPI share declining. BNPL and neobanks (Jupiter, Fi) capturing Gen-Z customers."},
+            {"title": "NPA Risk in Retail Segment", "severity": "Medium", "description": "Credit card and personal loan NPAs rising to 2.8% from 1.9%. Aggressive lending post-merger affecting portfolio quality. Need AI-driven risk models."},
+            {"title": "Rural Banking Penetration", "severity": "Medium", "description": "70% branches in urban areas. Rural credit gap of ₹15 lakh crore unaddressed. BC network insufficient vs. SBI and regional rural banks."},
+            {"title": "Wealth Management Differentiation", "severity": "Low", "description": "HDFC Bank Wealth lacks differentiation vs. ICICI Prudential, Axis, and boutique firms. HNI clients demanding alternative investment products."}
+        ],
+        "solutions": [
+            {"title": "Post-Merger Customer Experience Tracking", "impact": "High", "timeline": "6-12 months", "description": "Deploy continuous CX measurement across merged customer base (75M+). Track satisfaction across digital, branch, and call centre touchpoints. Real-time NPS dashboards with segment-level churn risk alerts."},
+            {"title": "Fintech Competitive Intelligence", "impact": "High", "timeline": "6-12 months", "description": "Monitor PhonePe, Google Pay, Paytm, and neobank feature launches in real-time. Track UPI market share shifts and user acquisition campaigns. Weekly fintech threat assessment and product gap analysis for digital teams."},
+            {"title": "Retail Credit Risk Perception Study", "impact": "Medium", "timeline": "6-12 months", "description": "Primary research among 10,000 retail borrowers on repayment behaviour drivers. Analyse macroeconomic sensitivity of personal loan and credit card portfolios. Quarterly risk sentiment index for retail lending strategy."},
+            {"title": "Rural Financial Needs Assessment", "impact": "Medium", "timeline": "12-18 months", "description": "Deep-dive ethnographic research across 50 rural districts. Map unmet credit, savings, and insurance needs. Quarterly rural opportunity sizing with district-level TAM and competitive intensity analysis."},
+            {"title": "HNI Investment Preference Research", "impact": "Low", "timeline": "12-18 months", "description": "Survey 2,000 high-net-worth individuals on alternative investment appetite (PE/VC, REITs, offshore). Track wealth manager satisfaction and unmet product needs. Quarterly HNI wealth trends report for product development."}
+        ],
+        "competitors": [
+            {"name": "ICICI Bank", "market_share": 22, "strength": "Digital innovation, iMobile Pay, corporate banking"},
+            {"name": "SBI", "market_share": 20, "strength": "Rural reach, government backing, largest branch network"},
+            {"name": "Axis Bank", "market_share": 12, "strength": "SME lending, Burgundy wealth management"},
+            {"name": "Kotak Mahindra", "market_share": 10, "strength": "Investment banking, 811 digital bank"}
+        ],
+        "esg": {
+            "carbon_neutral": "2032 target",
+            "renewable_energy": "50% green financing",
+            "recycled_materials": "₹1,200 Cr CSR spend",
+            "diversity_score": 70
+        }
+    },
+    "Bharti Airtel": {
+        "ticker": "BHARTIARTL",
+        "sector": "Telecommunications",
+        "market_cap": "₹10.70 Lakh Cr",
+        "revenue_2024": "₹1,75,000 Cr",
+        "employees": "25,000+",
+        "founded": 1995,
+        "headquarters": "New Delhi",
+        "ceo": "Gopal Vittal",
+        "description": "India's second-largest telecom operator and leading provider of mobile, broadband, enterprise, and digital TV services. Aggressive 5G rollout with presence in 18 African countries through Airtel Africa. ARPU improving steadily.",
+        "financials": {
+            "revenue": [132000, 148000, 162000, 175000],
+            "net_income": [8000, 12000, 18000, 25000],
+            "rd_spend": [1500, 2000, 2800, 3500],
+            "years": ["FY23", "FY24", "FY25", "FY26"]
+        },
+        "stock_price": [850, 900, 950, 920, 980, 960, 1020, 1000, 1050, 1030, 1100, 1080],
+        "stock_dates": ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May"],
+        "research_gaps": [
+            {"title": "5G Monetization Strategy", "severity": "High", "description": "5G capex of ₹60,000 Cr but consumer willingness to pay premium limited. 5G ARPU only ₹15-20 higher than 4G. Enterprise 5G use cases still pilot stage."},
+            {"title": "Airtel Africa Profitability", "severity": "High", "description": "Airtel Africa contributes 35% revenue but currency depreciation (Naira, Shilling) eroding margins. Need local currency hedging and cost optimization."},
+            {"title": "Fiber Broadband Competition", "severity": "Medium", "description": "JioFiber and local ISPs (ACT, Hathway) gaining market share in home broadband. Airtel Xstream Fiber pricing less competitive. Need FTTH expansion."},
+            {"title": "Enterprise Cloud Services Gap", "severity": "Medium", "description": "B2B cloud and cybersecurity revenue growing but small base vs. Jio and global players (AWS, Azure). Need managed services and SI capabilities."},
+            {"title": "Satellite Spectrum Readiness", "severity": "Low", "description": "OneWeb partnership for satellite internet but regulatory framework for satellite services in India unclear. Starlink and Amazon Kuiper competing."}
+        ],
+        "solutions": [
+            {"title": "5G Consumer Willingness-to-Pay Research", "impact": "High", "timeline": "6-12 months", "description": "Conjoint analysis and pricing experiments across 50 cities to determine optimal 5G tariff structure. Track price sensitivity vs speed and data allowance. Monthly pricing elasticity reports for product and marketing teams."},
+            {"title": "Airtel Africa Market Intelligence", "impact": "High", "timeline": "12-18 months", "description": "Continuous market research across 18 African markets tracking mobile money adoption, data consumption trends, and competitor moves (MTN, Orange). Quarterly Africa market outlook with country-level growth forecasts."},
+            {"title": "Home Broadband Competitive Tracking", "impact": "Medium", "timeline": "6-12 months", "description": "Real-time competitive intelligence on JioFiber, ACT, Hathway pricing and feature launches. Track customer switching behaviour and satisfaction drivers. Monthly broadband market share tracker with churn analysis."},
+            {"title": "Enterprise ICT Needs Assessment", "impact": "Medium", "timeline": "12-18 months", "description": "Survey 1,000 Indian enterprises on cloud, cybersecurity, and IoT service requirements. Map decision-making units and procurement criteria. Quarterly B2B opportunity pipeline with vertical-specific demand forecasts."},
+            {"title": "Satellite Internet Demand Forecasting", "impact": "Low", "timeline": "18-24 months", "description": "Primary research on enterprise and government demand for LEO satellite connectivity. Track regulatory sentiment and Starlink/Kuiper launch timelines. Annual satellite services TAM report for India and Africa."}
+        ],
+        "competitors": [
+            {"name": "Jio", "market_share": 38, "strength": "Largest subscriber base, 5G coverage, digital ecosystem"},
+            {"name": "Vodafone Idea", "market_share": 18, "strength": "Enterprise services, government contracts"},
+            {"name": "BSNL", "market_share": 8, "strength": "Government backing, rural coverage, 4G revival"},
+            {"name": "JioFiber", "market_share": 6, "strength": "Fiber broadband, bundled services, aggressive pricing"}
+        ],
+        "esg": {
+            "carbon_neutral": "2050 target",
+            "renewable_energy": "Green network initiative",
+            "recycled_materials": "₹300 Cr CSR spend",
+            "diversity_score": 65
+        }
+    },
+    "Mumbai Indians": {
+        "ticker": "MI",
+        "sector": "Sports & Entertainment (IPL Franchise)",
+        "market_cap": "₹11,500 Cr (Brand Valuation)",
+        "revenue_2024": "₹650 Cr",
+        "employees": "150+ (Core Team)",
+        "founded": 2008,
+        "headquarters": "Mumbai, Maharashtra",
+        "ceo": "Akash Ambani (Owner)",
+        "description": "Mumbai Indians is the most successful franchise in IPL history with 5 titles. Owned by Reliance Industries through IndiaWin Sports. Boasts the largest social media following among IPL teams (30M+ across platforms). Revenue streams include media rights, sponsorships, merchandise, and ticketing.",
+        "financials": {
+            "revenue": [420, 480, 560, 650],
+            "net_income": [85, 110, 140, 175],
+            "rd_spend": [25, 35, 50, 70],
+            "years": ["FY23", "FY24", "FY25", "FY26"]
+        },
+        "stock_price": [850, 920, 980, 950, 1020, 1000, 1080, 1050, 1120, 1100, 1150, 1180],
+        "stock_dates": ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May"],
+        "research_gaps": [
+            {"title": "Fan Engagement Beyond Match Days", "severity": "High", "description": "80% of fan engagement concentrated during IPL season (March-May). Off-season engagement drops 70%. Need year-round content and community strategies to maintain brand relevance and sponsorship value."},
+            {"title": "Sponsorship ROI Measurement", "severity": "High", "description": "Title sponsor (Jio) and associate sponsors lack clear attribution of brand lift to IPL investment. No standardized framework linking jersey visibility, digital mentions, and sales impact. Sponsors demanding better ROI proof."},
+            {"title": "Merchandise Revenue Underperformance", "severity": "Medium", "description": "Merchandise revenue only ₹45 Cr vs. global sports franchises (Manchester United: ₹1,800 Cr). Limited product range and distribution. Fan willingness to pay for premium merchandise untapped."},
+            {"title": "Women's IPL (WPL) Monetization", "severity": "Medium", "description": "Mumbai Indians won inaugural WPL title but WPL revenue contribution under 8% of total. Media rights undervalued. Need separate brand positioning and sponsor acquisition strategy for women's team."},
+            {"title": "Digital Streaming vs Stadium Attendance", "severity": "Low", "description": "JioCinema free streaming cannibalizing stadium ticket sales. Wankhede attendance down 15% since streaming began. Need to understand viewer preference shift and stadium experience gaps."}
+        ],
+        "solutions": [
+            {"title": "Fan Lifecycle & Engagement Analytics", "impact": "High", "timeline": "6-12 months", "description": "Build 360-degree fan intelligence platform tracking behaviour across social media, app, merchandise, and ticketing. Segment fans by engagement intensity and lifetime value. Quarterly fan cohort analysis and off-season retention strategy reports."},
+            {"title": "Sponsorship Impact Measurement Framework", "impact": "High", "timeline": "6-12 months", "description": "Develop proprietary brand lift measurement combining jersey exposure tracking, social sentiment analysis, and post-campaign recall studies. Quarterly sponsorship ROI reports with competitive benchmarking against CSK and RCB partnerships."},
+            {"title": "Merchandise Demand & Pricing Research", "impact": "Medium", "timeline": "12-18 months", "description": "Conjoint analysis among 10,000 fans on merchandise preferences, price points, and purchase channels. Test limited edition and player-specific product concepts. Quarterly merchandise opportunity sizing with SKU-level demand forecasting."},
+            {"title": "WPL Brand & Commercial Viability Study", "impact": "Medium", "timeline": "12-18 months", "description": "Primary research on women's cricket viewership demographics and sponsor appeal. Map WPL fan base overlap with men's IPL. Quarterly WPL commercial potential report with media rights valuation and sponsor pipeline analysis."},
+            {"title": "Stadium Experience vs Streaming Preference Research", "impact": "Low", "timeline": "6-12 months", "description": "Survey 5,000 fans on stadium attendance barriers vs. streaming convenience. Test premium experience concepts (hospitality, player meet-and-greets). Quarterly attendance optimization insights with pricing and experience recommendations."}
+        ],
+        "competitors": [
+            {"name": "Chennai Super Kings", "market_share": 22, "strength": "Loyal fanbase, MS Dhoni legacy, consistent performance"},
+            {"name": "Royal Challengers Bangalore", "market_share": 18, "strength": "Massive social following, Virat Kohli brand, urban appeal"},
+            {"name": "Kolkata Knight Riders", "market_share": 12, "strength": "Shah Rukh Khan ownership, East India dominance, entertainment focus"},
+            {"name": "Rajasthan Royals", "market_share": 8, "strength": "Analytics-driven, underdog narrative, emerging markets"}
+        ],
+        "esg": {
+            "carbon_neutral": "Event sustainability program",
+            "renewable_energy": "Green stadium initiatives",
+            "recycled_materials": "₹15 Cr community sports spend",
+            "diversity_score": 55
+        }
+    }
+};
+
+        // Chart instances storage
+        let charts = {};
+        let currentCompany = null;
+        let currentTab = 'overview';
+        let researchFilter = 'all';
+        let solutionFilter = 'all';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            setupSearch();
+            setupTabs();
+            setupFilters();
+            selectCompany('Reliance Industries');
+        });
+
+        function setupSearch() {
+            const searchInput = document.getElementById('companySearch');
+            const dropdown = document.getElementById('searchDropdown');
+            const clearBtn = document.getElementById('clearSearch');
+
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+
+                if (query.length > 0) {
+                    clearBtn.classList.remove('hidden');
+                    const matches = Object.keys(companyData).filter(name => 
+                        name.toLowerCase().includes(query) || 
+                        companyData[name].ticker.toLowerCase().includes(query)
+                    );
+
+                    if (matches.length > 0) {
+                        dropdown.innerHTML = matches.map(name => `
+                            <div class="px-4 py-3 hover:bg-primary cursor-pointer flex items-center gap-3 transition-colors" onclick="selectCompany('${name}')">
+                                <div class="w-8 h-8 bg-accent/20 rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-building text-accent text-xs"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-medium text-white">${name}</p>
+                                    <p class="text-xs text-muted">${companyData[name].ticker} · ${companyData[name].sector.split('(')[0].trim()}</p>
+                                </div>
+                            </div>
+                        `).join('');
+                        dropdown.classList.remove('hidden');
+                    } else {
+                        dropdown.innerHTML = `<div class="px-4 py-3 text-sm text-muted">No companies found</div>`;
+                        dropdown.classList.remove('hidden');
+                    }
+                } else {
+                    clearBtn.classList.add('hidden');
+                    dropdown.classList.add('hidden');
+                }
+            });
+
+            clearBtn.addEventListener('click', () => {
+                searchInput.value = '';
+                clearBtn.classList.add('hidden');
+                dropdown.classList.add('hidden');
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+                    dropdown.classList.add('hidden');
+                }
+            });
+        }
+
+        function setupTabs() {
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const tab = btn.dataset.tab;
+                    switchTab(tab);
+                });
+            });
+        }
+
+        function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                if (btn.dataset.tab === tab) {
+                    btn.classList.remove('tab-inactive');
+                    btn.classList.add('tab-active');
+                } else {
+                    btn.classList.remove('tab-active');
+                    btn.classList.add('tab-inactive');
+                }
+            });
+            document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.add('hidden'));
+            document.getElementById(`tab-${tab}`).classList.remove('hidden');
+            if (currentCompany) setTimeout(() => renderTabCharts(tab), 50);
+        }
+
+        function setupFilters() {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    researchFilter = btn.dataset.filter;
+                    document.querySelectorAll('.filter-btn').forEach(b => {
+                        b.classList.remove('bg-accent', 'text-white');
+                        b.classList.add('bg-secondary', 'text-muted');
+                    });
+                    btn.classList.remove('bg-secondary', 'text-muted');
+                    btn.classList.add('bg-accent', 'text-white');
+                    renderResearchGaps();
+                });
+            });
+
+            document.querySelectorAll('.sol-filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    solutionFilter = btn.dataset.filter;
+                    document.querySelectorAll('.sol-filter-btn').forEach(b => {
+                        b.classList.remove('bg-accent', 'text-white');
+                        b.classList.add('bg-secondary', 'text-muted');
+                    });
+                    btn.classList.remove('bg-secondary', 'text-muted');
+                    btn.classList.add('bg-accent', 'text-white');
+                    renderSolutions();
+                });
+            });
+        }
+
+        function selectCompany(companyName) {
+            currentCompany = companyName;
+            const data = companyData[companyName];
+
+            document.getElementById('companySearch').value = companyName;
+            document.getElementById('searchDropdown').classList.add('hidden');
+            document.getElementById('clearSearch').classList.remove('hidden');
+
+            document.getElementById('companyName').textContent = companyName;
+            document.getElementById('companyTicker').textContent = data.ticker;
+            document.getElementById('companyTicker').classList.remove('hidden');
+            document.getElementById('nseBadge').classList.remove('hidden');
+            document.getElementById('companyDesc').textContent = data.description;
+            document.getElementById('marketCapValue').textContent = data.market_cap;
+            document.getElementById('marketCapBox').classList.remove('hidden');
+
+            document.getElementById('companyMeta').classList.remove('hidden');
+            document.getElementById('metaSector').textContent = data.sector;
+            document.getElementById('metaEmployees').textContent = data.employees;
+            document.getElementById('metaFounded').textContent = `Founded ${data.founded}`;
+            document.getElementById('metaHQ').textContent = data.headquarters;
+            document.getElementById('metaCEO').textContent = `CEO: ${data.ceo}`;
+            document.getElementById('metaRevenue').textContent = `FY26: ${data.revenue_2024}`;
+
+            document.getElementById('metricRevenue').textContent = data.revenue_2024;
+            document.getElementById('metricIncome').textContent = `₹${data.financials.net_income[3]/1000}K Cr`;
+            document.getElementById('metricRD').textContent = `₹${data.financials.rd_spend[3]} Cr`;
+            document.getElementById('metricGaps').textContent = data.research_gaps.length;
+
+            const revGrowth = (((data.financials.revenue[3] - data.financials.revenue[2]) / data.financials.revenue[2]) * 100).toFixed(1);
+            const profitGrowth = (((data.financials.net_income[3] - data.financials.net_income[2]) / data.financials.net_income[2]) * 100).toFixed(1);
+            document.getElementById('revenueGrowth').textContent = `+${revGrowth}% YoY`;
+            document.getElementById('profitGrowth').textContent = `+${profitGrowth}% YoY`;
+
+            const highGaps = data.research_gaps.filter(g => g.severity === 'High').length;
+            document.getElementById('highSeverityCount').textContent = `${highGaps} High Severity`;
+
+            renderResearchGaps();
+            renderSolutions();
+            renderCompetitors();
+            renderESG();
+            renderFinancialTable();
+            setTimeout(() => renderTabCharts(currentTab), 50);
+        }
+
+        function renderTabCharts(tab) {
+            const data = companyData[currentCompany];
+            if (!data) return;
+            destroyCharts();
+
+            switch(tab) {
+                case 'overview': renderStockChart(data); renderRevenueChart(data); break;
+                case 'financials': renderFinancialComboChart(data); renderRDChart(data); break;
+                case 'research': renderSeverityChart(data); break;
+                case 'solutions': renderImpactChart(data); renderTimelineChart(data); break;
+                case 'competitors': renderMarketShareChart(data); break;
+                case 'esg': renderESGRadarChart(data); break;
+            }
+        }
+
+        function destroyCharts() {
+            Object.values(charts).forEach(chart => { if (chart) chart.destroy(); });
+            charts = {};
+        }
+
+        function renderStockChart(data) {
+            const ctx = document.getElementById('stockChart').getContext('2d');
+            charts.stock = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.stock_dates,
+                    datasets: [{
+                        label: 'NSE Price (₹)',
+                        data: data.stock_price,
+                        borderColor: '#3b82f6',
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.4,
+                        pointRadius: 3,
+                        pointBackgroundColor: '#3b82f6',
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b', font: { size: 11 } } },
+                        y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b', font: { size: 11 } } }
+                    }
+                }
+            });
+        }
+
+        function renderRevenueChart(data) {
+            const ctx = document.getElementById('revenueChart').getContext('2d');
+            charts.revenue = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.financials.years,
+                    datasets: [{
+                        label: 'Revenue (₹ Cr)',
+                        data: data.financials.revenue,
+                        backgroundColor: ['rgba(59, 130, 246, 0.7)', 'rgba(59, 130, 246, 0.8)', 'rgba(59, 130, 246, 0.9)', '#3b82f6'],
+                        borderRadius: 6,
+                        borderSkipped: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { display: false }, ticks: { color: '#64748b', font: { size: 12 } } },
+                        y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b', font: { size: 11 }, callback: function(value) { return '₹' + (value/1000).toFixed(0) + 'K'; } } }
+                    }
+                }
+            });
+        }
+
+        function renderFinancialComboChart(data) {
+            const ctx = document.getElementById('financialComboChart').getContext('2d');
+            charts.financialCombo = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.financials.years,
+                    datasets: [
+                        { label: 'Revenue (₹ Cr)', data: data.financials.revenue, backgroundColor: 'rgba(59, 130, 246, 0.7)', borderRadius: 6, order: 2 },
+                        { label: 'Net Profit (₹ Cr)', data: data.financials.net_income, backgroundColor: 'rgba(16, 185, 129, 0.7)', borderRadius: 6, order: 3 },
+                        { label: 'Revenue Trend', data: data.financials.revenue, type: 'line', borderColor: '#3b82f6', backgroundColor: 'transparent', borderWidth: 2, pointRadius: 4, pointBackgroundColor: '#3b82f6', order: 1 }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { labels: { color: '#94a3b8', font: { size: 12 } } } },
+                    scales: {
+                        x: { grid: { display: false }, ticks: { color: '#64748b', font: { size: 12 } } },
+                        y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b', font: { size: 11 }, callback: function(value) { return '₹' + (value/1000).toFixed(0) + 'K'; } } }
+                    }
+                }
+            });
+        }
+
+        function renderRDChart(data) {
+            const ctx = document.getElementById('rdChart').getContext('2d');
+            charts.rd = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.financials.years,
+                    datasets: [{
+                        label: 'R&D / Tech Spend (₹ Cr)',
+                        data: data.financials.rd_spend,
+                        borderColor: '#f59e0b',
+                        backgroundColor: 'rgba(245, 158, 11, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4,
+                        pointRadius: 5,
+                        pointBackgroundColor: '#f59e0b',
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { display: false }, ticks: { color: '#64748b', font: { size: 12 } } },
+                        y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b', font: { size: 11 } } }
+                    }
+                }
+            });
+        }
+
+        function renderSeverityChart(data) {
+            const severityCounts = { High: 0, Medium: 0, Low: 0 };
+            data.research_gaps.forEach(gap => severityCounts[gap.severity]++);
+
+            const ctx = document.getElementById('severityChart').getContext('2d');
+            charts.severity = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['High', 'Medium', 'Low'],
+                    datasets: [{
+                        data: [severityCounts.High, severityCounts.Medium, severityCounts.Low],
+                        backgroundColor: ['#ef4444', '#f59e0b', '#10b981'],
+                        borderWidth: 0,
+                        hoverOffset: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'right', labels: { color: '#94a3b8', font: { size: 12 }, padding: 20 } } },
+                    cutout: '65%'
+                }
+            });
+        }
+
+        function renderImpactChart(data) {
+            const impactCounts = { High: 0, Medium: 0, Low: 0 };
+            data.solutions.forEach(sol => impactCounts[sol.impact]++);
+
+            const ctx = document.getElementById('impactChart').getContext('2d');
+            charts.impact = new Chart(ctx, {
+                type: 'polarArea',
+                data: {
+                    labels: ['High Impact', 'Medium Impact', 'Low Impact'],
+                    datasets: [{
+                        data: [impactCounts.High, impactCounts.Medium, impactCounts.Low],
+                        backgroundColor: ['rgba(59, 130, 246, 0.7)', 'rgba(139, 92, 246, 0.7)', 'rgba(100, 116, 139, 0.7)'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'right', labels: { color: '#94a3b8', font: { size: 12 } } } },
+                    scales: { r: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { display: false, backdropColor: 'transparent' } } }
+                }
+            });
+        }
+
+        function renderTimelineChart(data) {
+            const timelineCounts = {};
+            data.solutions.forEach(sol => { timelineCounts[sol.timeline] = (timelineCounts[sol.timeline] || 0) + 1; });
+
+            const ctx = document.getElementById('timelineChart').getContext('2d');
+            charts.timeline = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(timelineCounts),
+                    datasets: [{
+                        label: 'Solutions',
+                        data: Object.values(timelineCounts),
+                        backgroundColor: 'rgba(59, 130, 246, 0.7)',
+                        borderRadius: 6,
+                        borderSkipped: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b', font: { size: 11 }, stepSize: 1 } },
+                        y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 12 } } }
+                    }
+                }
+            });
+        }
+
+        function renderMarketShareChart(data) {
+            const ctx = document.getElementById('marketShareChart').getContext('2d');
+            const labels = data.competitors.map(c => c.name);
+            const shares = data.competitors.map(c => c.market_share);
+            const totalCompetitorShare = shares.reduce((a, b) => a + b, 0);
+            const companyShare = Math.max(5, 100 - totalCompetitorShare);
+
+            charts.marketShare = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: [currentCompany, ...labels, 'Others'],
+                    datasets: [{
+                        data: [companyShare, ...shares, Math.max(0, 100 - companyShare - totalCompetitorShare)],
+                        backgroundColor: ['#3b82f6', '#ef4444', '#f59e0b', '#10b981', '#8b5cf6', '#64748b'],
+                        borderWidth: 0,
+                        hoverOffset: 10
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'right', labels: { color: '#94a3b8', font: { size: 11 }, padding: 15 } } },
+                    cutout: '60%'
+                }
+            });
+        }
+
+        function renderESGRadarChart(data) {
+            const ctx = document.getElementById('esgRadarChart').getContext('2d');
+            charts.esgRadar = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['Environmental', 'Social', 'Governance', 'Diversity', 'Innovation', 'Ethics'],
+                    datasets: [{
+                        label: currentCompany,
+                        data: [75, 70, 80, data.esg.diversity_score, 85, 78],
+                        backgroundColor: 'rgba(59, 130, 246, 0.2)',
+                        borderColor: '#3b82f6',
+                        borderWidth: 2,
+                        pointBackgroundColor: '#3b82f6',
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2,
+                        pointRadius: 4
+                    }, {
+                        label: 'Industry Avg',
+                        data: [65, 62, 72, 55, 70, 65],
+                        backgroundColor: 'rgba(100, 116, 139, 0.1)',
+                        borderColor: '#64748b',
+                        borderWidth: 2,
+                        borderDash: [5, 5],
+                        pointBackgroundColor: '#64748b',
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2,
+                        pointRadius: 3
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { labels: { color: '#94a3b8', font: { size: 12 } } } },
+                    scales: {
+                        r: {
+                            grid: { color: 'rgba(255,255,255,0.08)' },
+                            angleLines: { color: 'rgba(255,255,255,0.05)' },
+                            pointLabels: { color: '#94a3b8', font: { size: 11 } },
+                            ticks: { display: false, backdropColor: 'transparent' },
+                            suggestedMin: 0,
+                            suggestedMax: 100
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderResearchGaps() {
+            const data = companyData[currentCompany];
+            if (!data) return;
+
+            const filtered = researchFilter === 'all' ? data.research_gaps : data.research_gaps.filter(g => g.severity === researchFilter);
+
+            const container = document.getElementById('researchGapsList');
+            container.innerHTML = filtered.map((gap, idx) => `
+                <div class="bg-secondary rounded-xl p-5 border border-border card-hover">
+                    <div class="flex items-start justify-between mb-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-danger/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="text-danger font-bold text-sm">${idx + 1}</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-white">${gap.title}</h4>
+                                <span class="severity-${gap.severity.toLowerCase()} px-2.5 py-0.5 rounded-full text-xs font-medium mt-1 inline-block">
+                                    ${gap.severity} Severity
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted text-sm leading-relaxed ml-[52px]">${gap.description}</p>
+                </div>
+            `).join('');
+        }
+
+        function renderSolutions() {
+            const data = companyData[currentCompany];
+            if (!data) return;
+
+            const filtered = solutionFilter === 'all' ? data.solutions : data.solutions.filter(s => s.impact === solutionFilter);
+
+            const container = document.getElementById('solutionsList');
+            container.innerHTML = filtered.map((sol, idx) => `
+                <div class="bg-secondary rounded-xl p-5 border border-border card-hover">
+                    <div class="flex items-start justify-between mb-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-accent/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-lightbulb text-accent text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-white">${sol.title}</h4>
+                                <div class="flex gap-2 mt-1">
+                                    <span class="impact-${sol.impact.toLowerCase()} px-2.5 py-0.5 rounded-full text-xs font-medium">
+                                        ${sol.impact} Impact
+                                    </span>
+                                    <span class="bg-secondary border border-border text-muted px-2.5 py-0.5 rounded-full text-xs font-medium">
+                                        <i class="fas fa-clock mr-1"></i>${sol.timeline}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted text-sm leading-relaxed ml-[52px]">${sol.description}</p>
+                </div>
+            `).join('');
+        }
+
+        function renderCompetitors() {
+            const data = companyData[currentCompany];
+            if (!data) return;
+
+            const container = document.getElementById('competitorCards');
+            container.innerHTML = data.competitors.map((comp, idx) => `
+                <div class="bg-primary rounded-xl p-4 border border-border flex items-center gap-4">
+                    <div class="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center flex-shrink-0">
+                        <span class="text-lg font-bold text-accent">${comp.name[0]}</span>
+                    </div>
+                    <div class="flex-1">
+                        <div class="flex items-center justify-between mb-1">
+                            <h4 class="font-semibold text-white">${comp.name}</h4>
+                            <span class="text-accent font-bold">${comp.market_share}%</span>
+                        </div>
+                        <div class="w-full bg-primary rounded-full h-2 mb-2">
+                            <div class="bg-accent h-2 rounded-full" style="width: ${comp.market_share}%"></div>
+                        </div>
+                        <p class="text-muted text-xs">${comp.strength}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderESG() {
+            const data = companyData[currentCompany];
+            if (!data) return;
+
+            document.getElementById('esgCarbon').textContent = data.esg.carbon_neutral;
+            document.getElementById('esgRenewable').textContent = data.esg.renewable_energy;
+            document.getElementById('esgRecycled').textContent = data.esg.recycled_materials;
+            document.getElementById('esgDiversity').textContent = data.esg.diversity_score + '/100';
+        }
+
+        function renderFinancialTable() {
+            const data = companyData[currentCompany];
+            if (!data) return;
+
+            const years = data.financials.years;
+            const revenue = data.financials.revenue;
+            const netIncome = data.financials.net_income;
+            const rd = data.financials.rd_spend;
+
+            const calcCAGR = (values) => {
+                const first = values[0];
+                const last = values[values.length - 1];
+                const n = values.length - 1;
+                return (((last / first) ** (1 / n) - 1) * 100).toFixed(1);
+            };
+
+            const formatCr = (val) => {
+                if (val >= 100000) return '₹' + (val/100000).toFixed(2) + 'L Cr';
+                if (val >= 1000) return '₹' + (val/1000).toFixed(1) + 'K Cr';
+                return '₹' + val + ' Cr';
+            };
+
+            const tbody = document.getElementById('financialTableBody');
+            tbody.innerHTML = `
+                <tr class="border-b border-border hover:bg-primary/50 transition-colors">
+                    <td class="py-3 px-4 text-white font-medium">Revenue</td>
+                    <td class="py-3 px-4 text-right text-muted">${formatCr(revenue[0])}</td>
+                    <td class="py-3 px-4 text-right text-muted">${formatCr(revenue[1])}</td>
+                    <td class="py-3 px-4 text-right text-muted">${formatCr(revenue[2])}</td>
+                    <td class="py-3 px-4 text-right text-white font-semibold">${formatCr(revenue[3])}</td>
+                    <td class="py-3 px-4 text-right text-success font-medium">${calcCAGR(revenue)}%</td>
+                </tr>
+                <tr class="border-b border-border hover:bg-primary/50 transition-colors">
+                    <td class="py-3 px-4 text-white font-medium">Net Profit</td>
+                    <td class="py-3 px-4 text-right text-muted">${formatCr(netIncome[0])}</td>
+                    <td class="py-3 px-4 text-right text-muted">${formatCr(netIncome[1])}</td>
+                    <td class="py-3 px-4 text-right text-muted">${formatCr(netIncome[2])}</td>
+                    <td class="py-3 px-4 text-right text-white font-semibold">${formatCr(netIncome[3])}</td>
+                    <td class="py-3 px-4 text-right text-success font-medium">${calcCAGR(netIncome)}%</td>
+                </tr>
+                <tr class="hover:bg-primary/50 transition-colors">
+                    <td class="py-3 px-4 text-white font-medium">R&D / Tech Spend</td>
+                    <td class="py-3 px-4 text-right text-muted">${formatCr(rd[0])}</td>
+                    <td class="py-3 px-4 text-right text-muted">${formatCr(rd[1])}</td>
+                    <td class="py-3 px-4 text-right text-muted">${formatCr(rd[2])}</td>
+                    <td class="py-3 px-4 text-right text-white font-semibold">${formatCr(rd[3])}</td>
+                    <td class="py-3 px-4 text-right text-success font-medium">${calcCAGR(rd)}%</td>
+                </tr>
+            `;
+        }
+    
+
+        // ==================== LIVE DATA FETCHING (FREE) ====================
+
+        // Yahoo Finance API (unofficial but free and widely used)
+        async function fetchYahooFinancePrice(symbol) {
+            try {
+                // Use a CORS proxy to bypass browser restrictions
+                const proxyUrls = [
+                    `https://api.allorigins.win/raw?url=${encodeURIComponent(`https://query1.finance.yahoo.com/v8/finance/chart/${symbol}.NS?interval=1d&range=1mo`)}`,
+                    `https://corsproxy.io/?${encodeURIComponent(`https://query1.finance.yahoo.com/v8/finance/chart/${symbol}.NS?interval=1d&range=1mo`)}`
+                ];
+
+                for (const url of proxyUrls) {
+                    try {
+                        const response = await fetch(url, { timeout: 10000 });
+                        if (!response.ok) continue;
+                        const data = await response.json();
+                        if (data.chart && data.chart.result && data.chart.result[0]) {
+                            return data.chart.result[0];
+                        }
+                    } catch (e) {
+                        continue;
+                    }
+                }
+                return null;
+            } catch (error) {
+                console.warn('Live data fetch failed:', error);
+                return null;
+            }
+        }
+
+        // Alpha Vantage API (free tier: 25 calls/day, needs API key)
+        // Register at: https://www.alphavantage.co/support/#api-key
+        const ALPHA_VANTAGE_KEY = localStorage.getItem('alphaVantageKey') || '';
+
+        async function fetchAlphaVantagePrice(symbol) {
+            if (!ALPHA_VANTAGE_KEY) return null;
+            try {
+                const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}.BSE&apikey=${ALPHA_VANTAGE_KEY}`;
+                const response = await fetch(url);
+                const data = await response.json();
+                if (data['Time Series (Daily)']) {
+                    return data['Time Series (Daily)'];
+                }
+                return null;
+            } catch (error) {
+                return null;
+            }
+        }
+
+        // Convert API data to chart format
+        function processLiveData(apiResult) {
+            if (!apiResult || !apiResult.timestamp) return null;
+
+            const timestamps = apiResult.timestamp;
+            const quotes = apiResult.indicators.quote[0];
+            const closes = quotes.close;
+
+            // Get last 12 data points (or all available)
+            const count = Math.min(12, timestamps.length);
+            const startIdx = timestamps.length - count;
+
+            const dates = [];
+            const prices = [];
+
+            for (let i = startIdx; i < timestamps.length; i++) {
+                const date = new Date(timestamps[i] * 1000);
+                const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                dates.push(monthNames[date.getMonth()] + " " + date.getDate());
+                prices.push(Math.round(closes[i] * 100) / 100);
+            }
+
+            return { dates, prices };
+        }
+
+        // Update stock chart with live data
+        async function updateStockChartLive(symbol) {
+            const liveIndicator = document.getElementById('liveIndicator');
+            const lastUpdated = document.getElementById('lastUpdatedTime');
+
+            if (liveIndicator) liveIndicator.classList.remove('hidden');
+
+            const result = await fetchYahooFinancePrice(symbol);
+
+            if (result) {
+                const processed = processLiveData(result);
+                if (processed && charts.stock) {
+                    charts.stock.data.labels = processed.dates;
+                    charts.stock.data.datasets[0].data = processed.prices;
+                    charts.stock.update('none'); // Update without animation
+
+                    // Update current price display
+                    const currentPrice = processed.prices[processed.prices.length - 1];
+                    const prevPrice = processed.prices[processed.prices.length - 2];
+                    const change = ((currentPrice - prevPrice) / prevPrice * 100).toFixed(2);
+
+                    // Show live badge
+                    if (liveIndicator) {
+                        liveIndicator.innerHTML = `<i class="fas fa-circle text-success text-xs animate-pulse mr-1"></i> LIVE`;
+                        liveIndicator.classList.remove('hidden');
+                    }
+                }
+
+                if (lastUpdated) {
+                    lastUpdated.textContent = new Date().toLocaleTimeString();
+                }
+            } else {
+                // Fallback: show static data with "delayed" badge
+                if (liveIndicator) {
+                    liveIndicator.innerHTML = `<i class="fas fa-clock text-warning text-xs mr-1"></i> DELAYED`;
+                    liveIndicator.classList.remove('hidden');
+                }
+            }
+        }
+
+        // Auto-refresh setup
+        let autoRefreshInterval = null;
+
+        function startAutoRefresh(symbol) {
+            // Stop any existing interval
+            if (autoRefreshInterval) clearInterval(autoRefreshInterval);
+
+            // Fetch immediately
+            updateStockChartLive(symbol);
+
+            // Then every 60 seconds (free tier friendly)
+            autoRefreshInterval = setInterval(() => {
+                updateStockChartLive(symbol);
+            }, 60000);
+        }
+
+        function stopAutoRefresh() {
+            if (autoRefreshInterval) {
+                clearInterval(autoRefreshInterval);
+                autoRefreshInterval = null;
+            }
+        }
+
+        // API Key Setup UI
+        function showApiKeySetup() {
+            const key = prompt('Enter your Alpha Vantage API key (optional, get free at alphavantage.co):');
+            if (key) {
+                localStorage.setItem('alphaVantageKey', key);
+                alert('API key saved! Refreshing with enhanced data...');
+                if (currentCompany) {
+                    const symbol = companyData[currentCompany].ticker;
+                    updateStockChartLive(symbol);
+                }
+            }
+        }
+
+        // Modify selectCompany to trigger live data
+        const originalSelectCompany = selectCompany;
+        selectCompany = function(companyName) {
+            originalSelectCompany(companyName);
+            const symbol = companyData[companyName].ticker;
+
+            // Small delay to let chart render first
+            setTimeout(() => {
+                startAutoRefresh(symbol);
+            }, 1000);
+        };
+
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', stopAutoRefresh);
+
+        // ==================== END LIVE DATA ====================
+
+        // ==================== NEWS & SENTIMENT (FREE) ====================
+
+        const NEWS_API_KEY = localStorage.getItem('newsApiKey') || '';
+        let newsCache = {};
+        let sentimentCache = {};
+
+        // Simple on-device sentiment analysis (no API needed)
+        const positiveWords = ['growth', 'profit', 'rise', 'gain', 'surge', 'boom', 'strong', 'beat', 'exceed', 'record', 'bullish', 'upgrade', 'buy', 'outperform', 'milestone', 'success', 'launch', 'partnership', 'expansion', 'innovation', 'award', 'recognition', 'leader', 'dominant', 'thriving'];
+        const negativeWords = ['loss', 'fall', 'drop', 'decline', 'crash', 'bearish', 'downgrade', 'sell', 'underperform', 'miss', 'weak', 'concern', 'risk', 'crisis', 'scandal', 'fraud', 'investigation', 'layoff', 'debt', 'default', 'slowdown', 'recession', 'cut', 'freeze', 'delay', 'cancel'];
+
+        function analyzeSentiment(text) {
+            const lower = text.toLowerCase();
+            let pos = 0, neg = 0;
+
+            positiveWords.forEach(w => { if (lower.includes(w)) pos++; });
+            negativeWords.forEach(w => { if (lower.includes(w)) neg++; });
+
+            const total = pos + neg;
+            if (total === 0) return { score: 0, label: 'Neutral', pos: 0, neg: 0 };
+
+            const score = (pos - neg) / total;
+            let label = 'Neutral';
+            if (score > 0.2) label = 'Positive';
+            else if (score < -0.2) label = 'Negative';
+
+            return { score, label, pos, neg, total };
+        }
+
+        // Fetch news from multiple free sources
+        async function fetchNews(companyName) {
+            const newsFeed = document.getElementById('newsFeed');
+            const liveBadge = document.getElementById('newsLiveBadge');
+
+            if (liveBadge) liveBadge.classList.remove('hidden');
+
+            let allArticles = [];
+
+            // Source 1: NewsAPI (100 calls/day free)
+            if (NEWS_API_KEY) {
+                try {
+                    const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(companyName)}&sortBy=publishedAt&language=en&pageSize=20&apiKey=${NEWS_API_KEY}`;
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    if (data.articles) {
+                        allArticles = data.articles.map(a => ({
+                            title: a.title,
+                            description: a.description || '',
+                            url: a.url,
+                            source: a.source.name,
+                            publishedAt: a.publishedAt,
+                            image: a.urlToImage
+                        }));
+                    }
+                } catch (e) {
+                    console.warn('NewsAPI failed:', e);
+                }
+            }
+
+            // Source 2: Google News RSS (always free, no key needed)
+            if (allArticles.length < 10) {
+                try {
+                    const query = encodeURIComponent(companyName);
+                    const rssUrl = `https://news.google.com/rss/search?q=${query}&hl=en-IN&gl=IN&ceid=IN:en`;
+                    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(rssUrl)}`;
+
+                    const response = await fetch(proxyUrl);
+                    const xmlText = await response.text();
+
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                    const items = xmlDoc.querySelectorAll('item');
+
+                    items.forEach((item, idx) => {
+                        if (idx >= 15) return;
+                        const title = item.querySelector('title')?.textContent || '';
+                        const link = item.querySelector('link')?.textContent || '';
+                        const pubDate = item.querySelector('pubDate')?.textContent || '';
+                        const source = item.querySelector('source')?.textContent || 'Google News';
+
+                        if (title && !allArticles.find(a => a.title === title)) {
+                            allArticles.push({
+                                title,
+                                description: '',
+                                url: link,
+                                source,
+                                publishedAt: new Date(pubDate).toISOString(),
+                                image: null
+                            });
+                        }
+                    });
+                } catch (e) {
+                    console.warn('Google News RSS failed:', e);
+                }
+            }
+
+            // Source 3: Fallback mock data with realistic timestamps if APIs fail
+            if (allArticles.length === 0) {
+                allArticles = generateMockNews(companyName);
+                if (liveBadge) {
+                    liveBadge.innerHTML = '<i class="fas fa-clock text-warning text-xs mr-1"></i>DELAYED';
+                    liveBadge.classList.remove('text-success');
+                    liveBadge.classList.add('text-warning');
+                }
+            }
+
+            // Analyze sentiment for each article
+            allArticles.forEach(article => {
+                const text = article.title + ' ' + article.description;
+                article.sentiment = analyzeSentiment(text);
+            });
+
+            // Sort by date (newest first)
+            allArticles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+
+            newsCache[companyName] = allArticles;
+            renderNewsFeed(allArticles);
+            renderSentimentAnalysis(allArticles);
+
+            return allArticles;
+        }
+
+        function generateMockNews(companyName) {
+            const now = new Date();
+            const templates = [
+                { title: `${companyName} reports strong Q4 earnings, revenue up 12% YoY`, sentiment: 'positive' },
+                { title: `${companyName} announces expansion into new markets`, sentiment: 'positive' },
+                { title: `Analysts upgrade ${companyName} target price after strong guidance`, sentiment: 'positive' },
+                { title: `${companyName} faces margin pressure amid rising costs`, sentiment: 'negative' },
+                { title: `${companyName} partners with tech giant for AI initiative`, sentiment: 'positive' },
+                { title: `Regulatory scrutiny increases for ${companyName} sector`, sentiment: 'negative' },
+                { title: `${companyName} stock volatile ahead of quarterly results`, sentiment: 'neutral' },
+                { title: `${companyName} launches new product line to boost growth`, sentiment: 'positive' },
+                { title: `Foreign investors increase stake in ${companyName}`, sentiment: 'positive' },
+                { title: `${companyName} CEO addresses concerns at shareholder meeting`, sentiment: 'neutral' }
+            ];
+
+            return templates.map((t, i) => ({
+                title: t.title,
+                description: `Latest update on ${companyName} business operations and market performance...`,
+                url: '#',
+                source: 'Market Watch',
+                publishedAt: new Date(now - i * 86400000).toISOString(),
+                image: null,
+                sentiment: analyzeSentiment(t.title)
+            }));
+        }
+
+        function renderNewsFeed(articles) {
+            const container = document.getElementById('newsFeed');
+
+            if (articles.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center py-8 text-muted">
+                        <i class="fas fa-exclamation-circle text-2xl mb-2"></i>
+                        <p>No news found. Try adding a NewsAPI key for better results.</p>
+                    </div>`;
+                return;
+            }
+
+            container.innerHTML = articles.map((article, idx) => {
+                const date = new Date(article.publishedAt);
+                const timeAgo = getTimeAgo(date);
+                const sentimentColor = article.sentiment.label === 'Positive' ? 'text-success' : 
+                                    article.sentiment.label === 'Negative' ? 'text-danger' : 'text-muted';
+                const sentimentBg = article.sentiment.label === 'Positive' ? 'bg-success/10' : 
+                                   article.sentiment.label === 'Negative' ? 'bg-danger/10' : 'bg-muted/10';
+
+                return `
+                    <div class="bg-primary rounded-lg p-4 border border-border hover:border-accent/50 transition-colors cursor-pointer" onclick="window.open('${article.url}', '_blank')">
+                        <div class="flex items-start gap-3">
+                            <div class="flex-shrink-0 w-10 h-10 ${sentimentBg} rounded-lg flex items-center justify-center">
+                                <i class="fas fa-${article.sentiment.label === 'Positive' ? 'arrow-up' : article.sentiment.label === 'Negative' ? 'arrow-down' : 'minus'} ${sentimentColor}"></i>
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <h4 class="text-sm font-semibold text-white leading-snug mb-1">${article.title}</h4>
+                                <div class="flex items-center gap-3 text-xs text-muted">
+                                    <span><i class="fas fa-source mr-1"></i>${article.source}</span>
+                                    <span><i class="fas fa-clock mr-1"></i>${timeAgo}</span>
+                                    <span class="${sentimentColor} font-medium">${article.sentiment.label}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function getTimeAgo(date) {
+            const seconds = Math.floor((new Date() - date) / 1000);
+            if (seconds < 60) return 'Just now';
+            const minutes = Math.floor(seconds / 60);
+            if (minutes < 60) return `${minutes}m ago`;
+            const hours = Math.floor(minutes / 60);
+            if (hours < 24) return `${hours}h ago`;
+            const days = Math.floor(hours / 24);
+            return `${days}d ago`;
+        }
+
+        function renderSentimentAnalysis(articles) {
+            const sentiments = articles.map(a => a.sentiment);
+            const posCount = sentiments.filter(s => s.label === 'Positive').length;
+            const negCount = sentiments.filter(s => s.label === 'Negative').length;
+            const neuCount = sentiments.filter(s => s.label === 'Neutral').length;
+            const total = articles.length;
+
+            // Update score cards
+            const overall = posCount > negCount ? 'Bullish' : negCount > posCount ? 'Bearish' : 'Neutral';
+            const overallColor = overall === 'Bullish' ? 'text-success' : overall === 'Bearish' ? 'text-danger' : 'text-muted';
+            const overallBg = overall === 'Bullish' ? 'bg-success/20 border-success/30' : overall === 'Bearish' ? 'bg-danger/20 border-danger/30' : 'bg-muted/20 border-muted/30';
+
+            const overallEl = document.getElementById('overallSentiment');
+            if (overallEl) {
+                overallEl.textContent = overall;
+                overallEl.className = `px-3 py-1 rounded-full text-sm font-bold ${overallBg} ${overallColor}`;
+            }
+
+            const volumeEl = document.getElementById('newsVolume');
+            if (volumeEl) volumeEl.textContent = total;
+
+            const posRatioEl = document.getElementById('positiveRatio');
+            if (posRatioEl) posRatioEl.textContent = total ? `${Math.round(posCount/total*100)}%` : '--';
+
+            const negRatioEl = document.getElementById('negativeRatio');
+            if (negRatioEl) negRatioEl.textContent = total ? `${Math.round(negCount/total*100)}%` : '--';
+
+            // Render sentiment doughnut chart
+            renderSentimentChart(posCount, negCount, neuCount);
+
+            // Render timeline (mock 7-day data based on articles)
+            renderSentimentTimeline(articles);
+        }
+
+        function renderSentimentChart(pos, neg, neu) {
+            const ctx = document.getElementById('sentimentChart');
+            if (!ctx) return;
+
+            if (charts.sentiment) charts.sentiment.destroy();
+
+            charts.sentiment = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Positive', 'Negative', 'Neutral'],
+                    datasets: [{
+                        data: [pos, neg, neu],
+                        backgroundColor: ['#10b981', '#ef4444', '#64748b'],
+                        borderWidth: 0,
+                        hoverOffset: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: { color: '#94a3b8', font: { size: 11 }, padding: 15 }
+                        }
+                    },
+                    cutout: '65%'
+                }
+            });
+        }
+
+        function renderSentimentTimeline(articles) {
+            const ctx = document.getElementById('sentimentTimelineChart');
+            if (!ctx) return;
+
+            // Group articles by day and calculate average sentiment
+            const dailyData = {};
+            articles.forEach(a => {
+                const date = new Date(a.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                if (!dailyData[date]) dailyData[date] = { scores: [], count: 0 };
+                dailyData[date].scores.push(a.sentiment.score);
+                dailyData[date].count++;
+            });
+
+            const labels = Object.keys(dailyData).slice(-7);
+            const avgScores = labels.map(d => {
+                const scores = dailyData[d].scores;
+                return scores.reduce((a, b) => a + b, 0) / scores.length;
+            });
+            const volumes = labels.map(d => dailyData[d].count);
+
+            if (charts.sentimentTimeline) charts.sentimentTimeline.destroy();
+
+            charts.sentimentTimeline = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels,
+                    datasets: [
+                        {
+                            label: 'Avg Sentiment',
+                            data: avgScores,
+                            borderColor: '#3b82f6',
+                            backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                            borderWidth: 2,
+                            fill: true,
+                            tension: 0.4,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: 'News Volume',
+                            data: volumes,
+                            type: 'bar',
+                            backgroundColor: 'rgba(100, 116, 139, 0.5)',
+                            borderRadius: 4,
+                            yAxisID: 'y1'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            labels: { color: '#94a3b8', font: { size: 12 } }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { color: 'rgba(255,255,255,0.05)' },
+                            ticks: { color: '#64748b', font: { size: 11 } }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            grid: { color: 'rgba(255,255,255,0.05)' },
+                            ticks: { color: '#64748b', font: { size: 11 } },
+                            suggestedMin: -1,
+                            suggestedMax: 1
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            grid: { display: false },
+                            ticks: { color: '#64748b', font: { size: 11 } }
+                        }
+                    }
+                }
+            });
+        }
+
+        function refreshNews() {
+            if (currentCompany) {
+                const newsFeed = document.getElementById('newsFeed');
+                if (newsFeed) {
+                    newsFeed.innerHTML = `
+                        <div class="text-center py-8 text-muted">
+                            <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                            <p>Refreshing news...</p>
+                        </div>`;
+                }
+
+                // If backend data is available, use it
+                if (usingBackendData && backendData && backendData.companies[currentCompany]) {
+                    const live = backendData.companies[currentCompany];
+                    if (live.news && live.news.length > 0) {
+                        // Convert backend news format to frontend format
+                        const articles = live.news.map(n => ({
+                            title: n.title,
+                            description: n.description || '',
+                            url: n.url || '#',
+                            source: n.source || 'News',
+                            publishedAt: n.publishedAt || n.fetched_at || new Date().toISOString(),
+                            sentiment: analyzeSentiment(n.title + ' ' + (n.description || ''))
+                        }));
+                        renderNewsFeed(articles);
+                        renderSentimentAnalysis(articles);
+                        return;
+                    }
+                }
+
+                // Fallback to direct fetch
+                fetchNews(currentCompany);
+            }
+        }
+
+        function showNewsApiSetup() {
+            const key = prompt('Enter your NewsAPI key (get free at newsapi.org):');
+            if (key) {
+                localStorage.setItem('newsApiKey', key);
+                alert('NewsAPI key saved! Refreshing with enhanced news coverage...');
+                if (currentCompany) fetchNews(currentCompany);
+            }
+        }
+
+        // Hook into tab switching to load news when tab is opened
+        const originalSwitchTab = switchTab;
+        switchTab = function(tab) {
+            originalSwitchTab(tab);
+            if (tab === 'news' && currentCompany) {
+                setTimeout(() => fetchNews(currentCompany), 100);
+            }
+        };
+
+        // ==================== END NEWS & SENTIMENT ====================
+
+        // ==================== LIVE BACKEND DATA (GITHUB) ====================
+
+        // CONFIG: Replace with your actual GitHub username and repo name
+        let GITHUB_USERNAME = localStorage.getItem('githubUsername') || 'YOUR_USERNAME';
+        let GITHUB_REPO = localStorage.getItem('githubRepo') || 'company-intelligence';
+        const BACKEND_URL = `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO}/main/intelligence_data.json`;
+
+        let backendData = null;
+        let usingBackendData = false;
+
+        async function loadBackendData() {
+            // Skip if user hasn't configured their GitHub repo yet
+            if (GITHUB_USERNAME === 'YOUR_USERNAME') {
+                console.log('Backend not configured. Using static data.');
+                return false;
+            }
+
+            try {
+                const response = await fetch(BACKEND_URL + '?t=' + Date.now(), { 
+                    cache: 'no-store',
+                    timeout: 10000 
+                });
+
+                if (!response.ok) {
+                    console.warn('Backend data not available yet:', response.status);
+                    return false;
+                }
+
+                const data = await response.json();
+
+                if (data && data.companies && data.companies[currentCompany]) {
+                    backendData = data;
+                    usingBackendData = true;
+
+                    // Update UI to show backend is active
+                    const backendBadge = document.getElementById('backendBadge');
+                    if (backendBadge) {
+                        backendBadge.classList.remove('hidden');
+                        backendBadge.innerHTML = `<i class="fas fa-server text-success text-xs mr-1"></i>BACKEND LIVE`;
+                    }
+
+                    console.log('Backend data loaded successfully');
+                    return true;
+                }
+
+                return false;
+            } catch (error) {
+                console.warn('Backend load failed:', error);
+                return false;
+            }
+        }
+
+        function mergeBackendData() {
+            if (!usingBackendData || !backendData || !currentCompany) return;
+
+            const live = backendData.companies[currentCompany];
+            if (!live) return;
+
+            // 1. Update Research Gaps (LIVE)
+            if (live.research_gaps && live.research_gaps.length > 0) {
+                // Replace static gaps with live ones
+                companyData[currentCompany].research_gaps = live.research_gaps.map((g, idx) => ({
+                    title: g.title,
+                    severity: g.severity,
+                    description: g.description,
+                    detected_from: g.detected_from || '',
+                    gap_type: g.gap_type || '',
+                    keywords_found: g.keywords_found || []
+                }));
+
+                // Re-render if on research tab
+                if (currentTab === 'research') {
+                    renderResearchGaps();
+                    renderSeverityChart(companyData[currentCompany]);
+                }
+
+                // Update metric card
+                const metricGaps = document.getElementById('metricGaps');
+                if (metricGaps) metricGaps.textContent = live.research_gaps.length;
+
+                const highSeverityCount = document.getElementById('highSeverityCount');
+                if (highSeverityCount) {
+                    const highGaps = live.research_gaps.filter(g => g.severity === 'High').length;
+                    highSeverityCount.textContent = `${highGaps} High`;
+                }
+            }
+
+            // 2. Update MR&I Solutions (LIVE)
+            if (live.solutions && live.solutions.length > 0) {
+                companyData[currentCompany].solutions = live.solutions.map(s => ({
+                    title: s.title,
+                    impact: s.impact,
+                    timeline: s.timeline,
+                    description: s.description
+                }));
+
+                if (currentTab === 'solutions') {
+                    renderSolutions();
+                    renderImpactChart(companyData[currentCompany]);
+                    renderTimelineChart(companyData[currentCompany]);
+                }
+            }
+
+            // 3. Update Sentiment (LIVE)
+            if (live.sentiment) {
+                // Store for news tab
+                companyData[currentCompany].live_sentiment = live.sentiment;
+            }
+
+            // 4. Update News (LIVE)
+            if (live.news && live.news.length > 0) {
+                companyData[currentCompany].live_news = live.news;
+            }
+
+            // 5. Update ESG highlights (LIVE)
+            if (live.esg_highlights && live.esg_highlights.length > 0) {
+                companyData[currentCompany].live_esg = live.esg_highlights;
+            }
+
+            // 6. Update Competitor Intel (LIVE)
+            if (live.competitor_intel && live.competitor_intel.length > 0) {
+                companyData[currentCompany].live_competitors = live.competitor_intel;
+            }
+
+            // 7. Show last updated from backend
+            if (live.last_updated) {
+                const lastUpdated = document.getElementById('lastUpdatedTime');
+                if (lastUpdated) {
+                    const date = new Date(live.last_updated);
+                    lastUpdated.textContent = date.toLocaleString('en-IN', { 
+                        day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' 
+                    });
+                }
+            }
+
+            // 8. Update data source badge
+            const sourceBadge = document.getElementById('dataSourceBadge');
+            if (sourceBadge) {
+                sourceBadge.innerHTML = `<i class="fas fa-robot mr-1"></i>AI-Generated`;
+                sourceBadge.classList.remove('bg-secondary', 'text-muted');
+                sourceBadge.classList.add('bg-success/20', 'text-success');
+            }
+        }
+
+        // Hook into company selection
+        const originalSelectCompanyBackend = selectCompany;
+        selectCompany = async function(companyName) {
+            originalSelectCompanyBackend(companyName);
+
+            // Try to load backend data after a short delay
+            setTimeout(async () => {
+                const loaded = await loadBackendData();
+                if (loaded) {
+                    mergeBackendData();
+
+                    // If on news tab, refresh with backend data
+                    if (currentTab === 'news') {
+                        refreshNews();
+                    }
+                }
+            }, 1500);
+        };
+
+        // Add backend badge to header
+        const headerRightSection = document.querySelector('header .flex.items-center.gap-4');
+        if (headerRightSection && !document.getElementById('backendBadge')) {
+            const backendBadge = document.createElement('div');
+            backendBadge.id = 'backendBadge';
+            backendBadge.className = 'hidden px-2 py-1 bg-secondary border border-border rounded text-xs text-muted font-bold';
+            backendBadge.innerHTML = '<i class="fas fa-server text-muted text-xs mr-1"></i>STATIC';
+            headerRightSection.insertBefore(backendBadge, headerRightSection.firstChild);
+        }
+
+        // ==================== END LIVE BACKEND ====================
+
+
+
+        // ==================== BACKEND SETUP UI ====================
+
+        function showBackendSetup() {
+            const modal = document.getElementById('backendSetupModal');
+            if (modal) modal.classList.remove('hidden');
+        }
+
+        function closeBackendModal() {
+            const modal = document.getElementById('backendSetupModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        function saveBackendConfig() {
+            console.log('saveBackendConfig called');
+
+            const usernameInput = document.getElementById('githubUsernameInput');
+            const repoInput = document.getElementById('githubRepoInput');
+
+            if (!usernameInput || !repoInput) {
+                console.error('Input fields not found');
+                alert('Error: Form fields not found. Please refresh the page.');
+                return;
+            }
+
+            const username = usernameInput.value.trim();
+            const repo = repoInput.value.trim() || 'company-intelligence';
+
+            console.log('Username:', username, 'Repo:', repo);
+
+            if (!username) {
+                alert('Please enter your GitHub username');
+                return;
+            }
+
+            // Save immediately - don't wait for fetch
+            localStorage.setItem('githubUsername', username);
+            localStorage.setItem('githubRepo', repo);
+            GITHUB_USERNAME = username;
+            GITHUB_REPO = repo;
+
+            console.log('Settings saved to localStorage');
+
+            // Close modal immediately
+            closeBackendModal();
+
+            // Try to load data
+            console.log('Attempting to load backend data...');
+            loadBackendData().then(loaded => {
+                if (loaded) {
+                    console.log('Backend data loaded successfully');
+                    mergeBackendData();
+                    alert('✅ Backend connected! Live data loaded.');
+                } else {
+                    console.log('Backend data not available, using static data');
+                    alert('⚠️ Backend configured but data not yet available.\nThe scraper will generate data on its next run.\nUsing static data for now.');
+                }
+
+                // Refresh current company view
+                if (currentCompany) {
+                    console.log('Refreshing company data for:', currentCompany);
+                    selectCompany(currentCompany);
+                }
+            }).catch(err => {
+                console.error('Error loading backend:', err);
+                alert('⚠️ Backend configured. Will retry loading data automatically.\nError: ' + err.message);
+            });
+        }
+
+        // Load saved config on startup
+        const savedUsername = localStorage.getItem('githubUsername');
+        const savedRepo = localStorage.getItem('githubRepo');
+        if (savedUsername) {
+            GITHUB_USERNAME = savedUsername;
+            GITHUB_REPO = savedRepo || 'company-intelligence';
+        }
+
+        // ==================== END BACKEND SETUP ====================
 </script>
+
+    <!-- Backend Setup Modal -->
+    <div id="backendSetupModal" class="fixed inset-0 bg-black/70 z-[100] hidden flex items-center justify-center">
+        <div class="bg-secondary rounded-xl p-6 border border-border max-w-md w-full mx-4 shadow-2xl">
+            <div class="flex items-center justify-between mb-4">
+                <h3 class="text-lg font-bold text-white">Connect Live Backend</h3>
+                <button onclick="closeBackendModal()" class="text-muted hover:text-white">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="space-y-4 text-sm">
+                <div class="bg-primary rounded-lg p-4 border border-border">
+                    <p class="text-muted mb-2">Your dashboard can auto-update research gaps, solutions, news, and sentiment every 6 hours using free GitHub infrastructure.</p>
+                    <div class="flex items-center gap-2 text-success text-xs">
+                        <i class="fas fa-check-circle"></i>
+                        <span>100% Free — No credit card needed</span>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-muted text-xs mb-1">GitHub Username</label>
+                    <input type="text" id="githubUsernameInput" placeholder="e.g., johnsmith" 
+                        class="w-full bg-primary border border-border rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-accent">
+                </div>
+
+                <div>
+                    <label class="block text-muted text-xs mb-1">Repository Name (optional)</label>
+                    <input type="text" id="githubRepoInput" placeholder="company-intelligence" value="company-intelligence"
+                        class="w-full bg-primary border border-border rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-accent">
+                </div>
+
+                <div class="bg-warning/10 border border-warning/30 rounded-lg p-3 text-xs text-warning">
+                    <i class="fas fa-info-circle mr-1"></i>
+                    Make sure your workflow ran successfully (green checkmark in Actions tab) and intelligence_data.json exists in your repo.
+                </div>
+
+                <div class="flex gap-2">
+                    <button onclick="saveBackendConfig()" class="flex-1 px-4 py-2 bg-accent text-white rounded-lg text-sm font-medium hover:bg-accent-hover transition-colors">
+                        <i class="fas fa-plug mr-1"></i>Connect
+                    </button>
+                    <button onclick="window.open('https://github.com/signup', '_blank')" class="px-4 py-2 bg-secondary border border-border text-muted rounded-lg text-sm hover:text-white transition-colors">
+                        <i class="fab fa-github mr-1"></i>Sign Up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
