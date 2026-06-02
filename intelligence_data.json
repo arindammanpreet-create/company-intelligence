@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-01T21:28:04.566745",
+    "generated_at": "2026-06-02T13:07:10.440612",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-01T21:23:01.875990",
+      "last_updated": "2026-06-02T13:01:34.025117",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-01T21:24:03.493181",
+      "last_updated": "2026-06-02T13:02:58.235303",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-01T21:25:24.430607",
+      "last_updated": "2026-06-02T13:04:16.944587",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-01T21:26:10.413368",
+      "last_updated": "2026-06-02T13:05:19.278794",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,11 +350,11 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-01T21:26:58.171446",
+      "last_updated": "2026-06-02T13:06:19.437440",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -426,7 +426,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "BSNL boosts mobile connectivity in rural Kollam",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVko4S2NfdDJlazNuNVVYTDlqaUJPT2RkaWxxUjc5d25qM3ZIUXMzOUdPd01Da290c1dlTXR1VkJPSTlpaV9xSzduM3RxUDBvM0JUVkJrYUhaVGpYOEFZYjhvczJRMFNlU3JWR181RG1ySWxLU2dmY1pzMTctTTgzVnhiYnFZUkhBR2MxTmJzSVM4Yjllem0yNnUyM2NfY1Q1UVZ1WVhBS3FsMC1wQkVjRzhRWdIBugFBVV95cUxOZ3FiZ2pDalJVU3d3ZHFMaUI4aGNvMDJIMTNGdDJMSTFYZngzS2lxM1MwZFF6M3MxZHNoWTFrV19jZHhVTGo2UUZJaEF0MUlOY1Y4STVLR3h6S3cyU0VPR2dXQkNaZzdaV0doX01fdF8zcGd1UFZ5RVR4dlNhZ2R3cE9sb3drbkxtUlI0UWRvQ3JTVzFIbldORWxhWmt6N1pTajdBS0hlNHcyb2lBY3BnOTJia2FsdHN3emc?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Sun, 31 May 2026 13:45:47 GMT",
+          "fetched_at": "2026-06-02T13:06:04.407473",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Low-hanging BSNL cable claims life of Odisha woman",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZTdwcHpxbFpfb20zWkdRSzVfanhuZ09xSjVIanlraFdNRXV5SmEzNjNTZExBVHcxV1ktQ3U4OFZhYkx2aHd4dTc0dDZMdzFqRXRjZG1HeWZmZjFhWUF1cTJVRkZmaHFha1NqbEcxcEFoUTlsUGlrTWFVd3Y0MG43Mmc4ZlptTElYS2tKalVDbXo3Sk56VmE1VVF6VklfdFdJcWFjT2NDS2lhanhXWnfSAbsBQVVfeXFMTzZ5b2Q2NlZQVjJNNjJsQVZkS1RrelZicG5sa196SFlrMXd0N2E2MkFwSm9nc25PR3hZelBod2xEV0tHcHUwQjhzcWN4aUpFZzR1dkVKT2t1VFVVUF84Wm5aX05teUdDdElKUzBRd1l5SGt3WTFmUWEtMW5RLTgzZkhYb2VPTVh4dXhsV3ZjTmJsVGRTcHZxTDAxb1NaZUR2UnEzTVhOMXVxa1R4SkI2QU5pSGZyREh0N0U5MA?oc=5",
+          "source": "The New Indian Express",
+          "publishedAt": "Tue, 02 Jun 2026 03:07:36 GMT",
+          "fetched_at": "2026-06-02T13:06:04.407488",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        },
+        {
+          "title": "UP government to migrate 4,200 employees to BSNL network from Vodafone Idea: Report",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNYy1JZmN5QnJXNGJzZ0ZTaXE0UmVZTF9yU0xDZU9fTVFMTjZrbVNsTzllQTdVajRTUWUxYUNqWnRWNWNTZm5EUFZpSU05V055N3NpX2Y0SVpYWTlzQVZyakVZUnZLX0RFTHh2SkE2YmxzUFdCbG5TaEZ0R04zcUNPeXRsNFFZV3BmWW5VVlhlOFQ5bzd1NWpYOUhfZmdKd0U3Y2Z3Nk1YdFFuM2VQcHNkT04tUVVpbHo3WWhXTTVOY3pWeXJUb2JCTU52bGZtLUhfMDZsRUs1SHBvVndzel9xOEJIZFE?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Mon, 01 Jun 2026 02:10:31 GMT",
+          "fetched_at": "2026-06-02T13:06:04.407494",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        },
+        {
+          "title": "BSNL Offers New SIM Connections at Rs 51",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yRVVQNTBQd2RFX21zaDJGdUhYUmE4RFBpWHV4aklzM3JTS0xBcTZVZ1NDZFViN09Xbmg2QU5taTFnX0d2aHR3eDBMYlNWRFpEY0lPZGNOeV9VakdjSUpaZGZDM0NsSjE0TGphdmlseGxRSU1FMG0yeEt5UVE0UQ?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Tue, 02 Jun 2026 09:50:57 GMT",
+          "fetched_at": "2026-06-02T13:06:04.407497",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        },
+        {
+          "title": "BSNL VRS Compensation Qualifies as Retrenchment Compensation, Eligible for Income Tax Exemption u/s 10(10B): ITAT [Read Order]",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWnM1MDVYZ3gyTGp3YWd6QTJKbGwtRE55VllrZGtIWWZsbW0zRi1RcjFJZzJReDVSUGZaLWt2dm1NWE1pbkJVN3B2T2NvazNNZ0htRjJydFQwNjhPZlU1TjJPMDJuaWhvY2prcnd0WXUwM3dWbFBBb294UXk5V3lwendqb1pnaVhHekJMcjFnUVJiN2hVeU9tVlFKTlgxeU5kQzJ0aW5EYk9QSEp1bGJjbnM2eExfZnR0S25pczVGUGY3VTV6UVJrSldNdzEwUjU2SkcwQXJXdDN6TUZtdjVLSFl3TzN3Zw?oc=5",
+          "source": "Taxscan",
+          "publishedAt": "Tue, 02 Jun 2026 07:00:49 GMT",
+          "fetched_at": "2026-06-02T13:06:04.407502",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -434,18 +480,18 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-01T21:28:04.566731",
+      "last_updated": "2026-06-02T13:07:10.440601",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -510,53 +556,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Final | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazMwV0lObFpLSzZaSXl6d1hwYkFsZ251QW9Rb3R0cjEwUzhISUlZMTB2SmJUX1pWU01QSmpsSl9FcE1JM2V6NHV6SlpZVm9KOTJZS001OUM3V1g1dnB0UHhyQW91WnZWemZ5NGF3c1FSRzllYWxuR3d3ZFk3SFNaRjdZWnZTcVVxQVhYZU5SSkdPV0R4TUE4Snd3?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 31 May 2026 18:02:40 GMT",
-          "fetched_at": "2026-06-01T21:27:34.396047",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Without Naming Vaibhav Sooryavanshi, Virat Kohli Gives Mic Drop Statement After IPL 2026 Win",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbEZMYkhBNUFnQUJUdE9FTEVTQ3E0RC1tdnBiSVN3cXhHOExxYzl1Y3A3cWdsWF8tUEJlRUZaY0VIVG1oQUR0SV81Z3FjZkVHNkh6SnpXcTZUcTVzUXFzdnB5RHZ4TUNXQy13QnFWbnd3bUp4MWVvM2hOOUhwQlcySzMzc1diRjZTVVZSQks1NFRaZXJLekNrS2Q1aElHRGZ3MVdialE1SnR6dXdQYmtHaXpySTE1QVdGZUFBS1ZCQWZYLUhGLU9SSzVBUGNWNWZVRWc?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Mon, 01 Jun 2026 00:58:11 GMT",
-          "fetched_at": "2026-06-01T21:27:34.396063",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RCB's Tim David suspended for next season opener after ice-bag incident with umpire in IPL final",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNelpVRnp0djJGV1B2WU1LSndaN0I5T3U3d3NOYUd2VlRRRGJOUHdZMVFjbUg1REY2YzdTdjU5WHdCdkxkTFFxMUhaLXhyNVRhMFFZcEFlcE1manpVX3loUFFORGpfa1hVSjhELXh3eXhDdmlsSkZRcFN1bDNzZEdlb0Z2M1Zmak1PNTYtOVBzTnZ3LTl2UThBdnhWZU1waC11QWVvV2ttaHhRMi1jdkdYUTM2U2puU3J2NHJva3FXTUx2NlZfd1NuQ09rM2N1TTVyYkRjTnJCVnR4ZHpfMzF6a0dvY1dHWTFt0gHuAUFVX3lxTE04ZkpjVHZOWWJkaHUzOEFFTU1iTktmQ25DRmRtTnBuU0JlS3psa3BxbDFlVnF6MWFaZkoxdi11cWowTUxpZHotVUp3YlJyaXJiejFPWFItdnQwbDkxRElwOFpXUXNPeXVhblVhVHFPTEwxdVVvV0dTVVdnekhyZDBNOEJDXzh0MUphLThkUVMtRnllMFhtREdkR2VVSUpKVmtxUmhqSEdFRWVpNTFFMVZySFZEMWNCZnp4elFDNVNKSGpCVjl4UGJEX25iOFhiVEo5bnBBYVJxZXV0TzI4REJ1MHdoQ3VnbUhnMDlCX1E?oc=5",
-          "source": "Telegraph India",
-          "publishedAt": "Mon, 01 Jun 2026 18:47:08 GMT",
-          "fetched_at": "2026-06-01T21:27:34.396068",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Hubballi: RCB victory celebration ends in quarrel between two families",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSklnUG9BN0ZaZW12R0MyNW9vV3FJTVp0czhOQ0dydmMxTTJadnV1ZmVRU0otZjQ0ZnFpeEVTT0xXSVNpcDMyM21JM1JBSWc5Vjhnem1KT3IzbmZoUEkweFpxazJJVldRV05FSUxEYmdQSF8wcEstbGFjN2pJYXdhZFJPNTcwN04xc0hwcldxRXZ4dGpsaHFlanFKc1c1ekx0bFJPWGpxcUxsT3pkNU83RGxydDZmM3I2Y2JoWHppYw?oc=5",
-          "source": "Deccan Herald",
-          "publishedAt": "Mon, 01 Jun 2026 19:01:52 GMT",
-          "fetched_at": "2026-06-01T21:27:34.396071",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "As RCB lift second straight IPL title, Patidar household celebrates comeback story",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQYkVHV0N2VXNkeUlHYllKRTFNSkR6bFBScjVqcF80Skc2SXZUR3JuVkhQaGtwWU1Da21URlNENHBpMmUtbUlFZWhKQkl2M0cyRV81bDktbGpzWXlqYUJZYTNZbTRNNjZOanlDZWpPWDlKaElIa1J2NlIweFpyTERmTVhfWlRqNWxsS01KZ2hEdXdYNjYxdWpUQURqRFNKSmhEYTVlU3dBVldKRWpHbmxmNWVWRVBxNHhUdDdiUUdQd0hpYzVvcE1JWThyRTVEam4zb2JETHNRUEk0RFNENUNHeGIzSVNPeFFEVGow0gHwAUFVX3lxTFA3RFBkQVVzWVZfMjg5dk90TW9DaS1hbG9WTjdWRzhHVTR2aXEwUkpmSnRRQ05PWEN3dVh1TDBXQmhPWXgwUFJjTXdqaGVnUG5SOUswUEl0Z2ljYjNkN1ZZdGdXdml0UkVwcnhtdnhLUHpuMjJDRGVJUEhMTGpsSEhkN19QZmdTeDZzU0VYdjl5aVhkYWJyeUNDSWxWTWhXcVpLY3FHOFpjVF9lbHB4WGZYeXVkbVBtMERXVmRsblRWT2FVcmRVZWJSNUpRTnF0U3gwTUEwN3BYempQT2hDaGRIcUkydERlbEgxOUlaVWN6Yw?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Mon, 01 Jun 2026 19:00:00 GMT",
-          "fetched_at": "2026-06-01T21:27:34.396075",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     }
