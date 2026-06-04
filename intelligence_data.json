@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-03T20:06:52.700339",
+    "generated_at": "2026-06-04T11:43:09.651378",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-03T20:01:14.922572",
+      "last_updated": "2026-06-04T11:37:41.126067",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,18 +98,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-03T20:02:07.561888",
+      "last_updated": "2026-06-04T11:38:48.399647",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 3,
+        "neg": 3
       },
       "news": [],
       "research_gaps": [
@@ -174,7 +174,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "IT shares extend losses to 2nd day amid profit booking; TCS, HCLTech, Infy down up to 2%",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNemQyRnotRkNCTjU4RU9wYndNcXRRNU43R2duUlJqZFFsV21qb0tGTTJ6OFZCNTFnckNfOFpkQ2FKMlFhdUlNQzdKcEdZaGl4eWcwdmNQWjJpeXVBZ19EYi1ZM3l2ZXNuSWotbEVvbWJibXNCX3ZQTmJqdFFGOFpYaUJJY3FxcDh6dTdkWlpIRGRaaFRXUTMxZExsaWpPYThJRHlfSjBJOWE1cFN2NDQ0amhuXzZKZ0dhUi1WNF9iY1BicUNYNzl3SVgzTnZqQTBETVBTQmUxbTIwVzR2LXhOSUE1Y9IB6AFBVV95cUxNb0gxUVY2eWRubXVWUGNlUlVmZzBSb1dKMWdCVFN0YktvNnRXckU0VENldzREOHNSNVZKSkU2WFlkaU5WZXJ0Vm5SRXBnVzJQeVV2dzQ4cEgxdDVRQkgxYkFKN1FGeWtUbHhiTy1YbHppQm85UVZqOXVLeDFkdmRLT0J0UGtKS2sxYVVTS2hSVW0tQWV5bWZveUw0dUZ5a1BPd0JhaEN0ZTA5QnNwV2hlQ3htbXFueXRWOURFc1p6N2FxY2Jfbkc1bUQwVW1Ya0F3Rk5iRUxPSFAtVno3LUtVSGVzUGt5RVFI?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 04 Jun 2026 08:54:38 GMT",
+          "fetched_at": "2026-06-04T11:38:42.759674",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS Share Price Slumps 7%, Infosys, HCL Tech Fall 3% As Nifty IT Snaps Two-Day Win Streak",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWjB4Z2hFQmpqeDFjbXRMbElqNllpdF9GYVRtUzN0MGFmMjNPZDlwYjRleHk5LUV2d2tXYTBtYnREZy1OajJSVGZKemZkcE1jb1gxSWZfNXo4S29OdW1OTmVZQUlSTGJFdWZpcGVZUl9BcWxEZ2xTcU5hb0w1V0ZhTFVaM3BnY0xrVTk2X1ZscG5UZHRIeGNaNnJ0d0F5SWVtQ2gtZ2lldXVtV3ktTWVkbzNKeXZCdFpiVDJBbjlkaExvUTczTEFOWnZVSWFGdkFz0gHYAUFVX3lxTFBiWXBYaWJsM2ZKRV9YR1MteEpNbWdqSVlIdFdlTjZDWHR3aFJ2LWNOcWhDcXpTN3lyVFVKcG5QU3RlMUYzMXM0aVBOZ3pidGVaT0ZFbHB1czJrb0NmRkpmc0ZkOXMtdlowVTFXMHN0WmhzRkRGTjc2MHhZZk5GOVB2MUtoQXZ6LWJPUVFyNVZ0eHU1dEY4WkM1aEtnVnFQM1BCOGhoWUNTaTd2Xy1IblJPX2tKY1FwTG1qMHJiWnV5NFdwcGVyNWlxdnEyZGpDQnVKTmtmal9NWA?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Wed, 03 Jun 2026 04:05:36 GMT",
+          "fetched_at": "2026-06-04T11:38:42.759692",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS, Infosys, HCL Tech, TechM, Wipro, Coforge, LTTS: IT stocks to buy— Check price target",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaTJ4QXh6VFpEWHVIakxJSXBJalVGeHNfM1ZXT1E4Y0RaekJiXzlaN0wzV1ZFeXlVMjhDTUNoZUNYYjB4eGlNOFNjYTZHTUJXUXNzZkdBLXpzMF8tLWF6TTRFSGJZd21Yelg2ZnZsQnFPeHFEeFV0cDBZd0VGSGEwOUZIM0plSmJVN0o0WWNXQ2hDd0daZk1hZHlreEFuRmcybk40ckVib0tYaC1Xa1FXenNwMTNUQnpGRVEyTENSeFdYT1VVWVRISFVQcnc4MExMcFc1U1VZSlpxaXJKRHpQSGIwWjI?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Wed, 03 Jun 2026 07:18:19 GMT",
+          "fetched_at": "2026-06-04T11:38:42.759707",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCL Tech Share Price Live Updates: HCL Tech Sees 1.18% Weekly Growth",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRFRxcXlkWDRjejdpZzRNVEVmdDRUTlk0bUZTRDZzb0h1bjJ4SG9QQUZ3ckNhcGRHM1ZpdUJOOEhsN0ZtMlVYNXo4c2pJaUYxNWk3SzlsdVR1YlVHQWlUQm9yY2FoTWFCOXd2blBhZXdQd0xYYUpNT3dfMHpseXNxV2lWRE8yUk9FZHY1T1hyLTdac1FDdDFXS0Vra09rWGNyNjJGWFM0T0VkYUdEVmFXMDVaWTZGelZCa1RQS0NRWGpoUXFl?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Thu, 04 Jun 2026 03:10:48 GMT",
+          "fetched_at": "2026-06-04T11:38:42.759711",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IT Stocks Today: Infosys, TCS, HCLTech, Wipro Sell-Off Deepens; F&O Data Shows Surge In Bearish Positions",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUzlyQ2c0QjFpRWRCRXY2UURRSHNMY05PMlpVTGRzaE5NMVJvRlZ5MXRZZUdwQ3VvSWlkdEc1YkI4alZ3Rk1VcXRBR0hvMVJrSFhkdE5hblZuNkI5b2tHSHBSWWpwSGRRcDRBbjNsMlE2dWdld2x2VnFDYjY3dU5CcFNYSjB4aUFIUU9jdTljUUJJaTlPWTFMMVo4aFdtVEZoUTdqWmowTVUtMWJVOEstQTdNR09hTFFrZWd5a3E1eFF2LWMzMjJrWS1ucUZxYm5sN2ZmVGZHeDV6Z0lR0gHkAUFVX3lxTE1mWkYtVWQ2Y3haUFRaNi01aUN5MDI3UXZQTHNFcWlfTkVoTWtCZUhtY2l4dGtXaWJRSzhtTGdFelRGSWpKb3BnVUs1c0ZCWnNXRFZFMG1SZzVFZHpzRWdWd2lIRG1sTzMtWHJPNlZCTm5IYk03T21fS0hYaTgtWEppdld5b3VLQXptQ0VkUENuaE9XSUZLUm1xYkRHZmZzeWd5aENxLTdwc3F0Wi1DZ3ZmZVhiSVc3NmdjOC1manFIS3dLSElMUzQ1czE1NkxYTmE3SU9ySWhZajJOMnZGM0ktSnNaag?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Wed, 03 Jun 2026 05:08:34 GMT",
+          "fetched_at": "2026-06-04T11:38:42.759716",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-03T20:03:21.047619",
+      "last_updated": "2026-06-04T11:40:15.752935",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-03T20:04:46.557449",
+      "last_updated": "2026-06-04T11:41:22.690750",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,91 +396,20 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-03T20:05:50.079944",
+      "last_updated": "2026-06-04T11:42:21.738791",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
-      "news": [
-        {
-          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
-          "source": "EY",
-          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161218"
-        },
-        {
-          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
-          "source": "Forbes India",
-          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161236"
-        },
-        {
-          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0HSAeMBQVVfeXFMT0pkU3doaGNTbElsQ2UwdGFYQzhBMWQ1dzQ2UHBkQmtaWUVKRFRhTUU5d1dUazVOdnhMQTFsdFh3dS1SQkVSZU9ZRnozY28yQmlWRk9TdGN6bVlCeWlzMHQ1cUktampBMUtib01DZnlOVFJiLVR3UmhxWGVlRlFXRUFKRFMzbGZvR1RWN1RTX1BGTUdvM2hOenBrYnowMTRfRTJEUzRGYWZhams4Rm9odXBVVUZUMlYwWGItZkt4eUQ2SXY3X1MwWGt5UW9HS3NlbkhXaklVMkV1TGRQNGdreVZ5Vnc?oc=5",
-          "source": "ET Telecom",
-          "publishedAt": "Fri, 15 May 2026 01:51:00 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161242"
-        },
-        {
-          "title": "Airtel to set up 56 edge data centres within 2 yrs; tariff structure in India needs to change: Gopal Vitta",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQRzVlMklyVF83MEFUNzJkZ2tvZURIQ3ZiUGZTVXI3c0dUdjJYYXFfVzBlZk9FRzdwOFduVHVHZGV2ZjdueUEyNmxHNm5MVElvTUJSNFVZd0hiYk5pWXpNVExkSHI2c1FGUUJ3WWpmZ2lCS2RhZ3VnUHhHb1dVd1JIRmJQOWtKa0YtV2dUb3dGYmg3RFkyNXFES2ppLS1mMjRXemVSTVlHdHFoc3pSTVBhUkdmVWxPOXJsZ0cxdzRaU2NvTE5xZ3VuemVBQ21fajJfZ1JZZGFuYkJNMTJzWTlGOE1CSHZsVFdjN042amF4MTBmeG5saDhyR2hMMU1yVHJRYWVtWXpfcFhOUDY2S1Q0dUZHOVNwVUlI0gGeAkFVX3lxTE55ZTEtbnNpX1p5MGxHTFVUUXRLMzNORmhseWQ5OXpZdlo4emlId2MwQ2huM0xnZE8wc09icTNmM1pVeWVvcURON1REZmhpSDNUOHJLaldPNmplUUVmTUxFdjE0ZTNwNXRvV0UyUDk2OEEteURzVjRYQ0RackhEUUhQZGFLWnNFcVZUbC1MU1FDZ0w5TzJiQ2phOFQzS2lJZkFSUE52TFVOaTV6M19rUTRKbXBRZDBUZUhGUHJWVWRSZURGOVpQTFZRR1JBRGR4VjVac0xPOXFUT0pZY2pydTdvZWw3Q0tjd0VKcXctLWVSb3VOeG9aNXUzRjFiaDBGZVFxX1pZcEhRTk9vYW11NXNUZ0NFdEl0bl9nN2E1N2c?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161247"
-        },
-        {
-          "title": "Sunil Bharti Mittal plans generational transition at Bharti Airtel; Calls for higher promoter stake",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQnNveE5jSk1RNUFoc2Y3UGpYRzFJa050S0xjVUxGcC1JZUh2RjY3d05wMkxmVEN5eE1NdkdXN0Rib2xoaWxTMTNRdWpkOUJJRVlSWG82T0UzU19RT1RZYUhHXzN2V0N0UkdzOHJxWFBHQVFaWXFNQnROQmdhMnIwTGx5b1Z3OXQxNXNFS3ljZWZwcmNabFAxQk85YU91MURJR1I4dnQzOG9WRTR4X01MdEZ2UDFDNDRHYmx5bm1QYjk1SG5XTWQ4VzRDSk54RG93NUc0SGRVSXFULWJ6SEQ2MS1yd1NFdU3SAfQBQVVfeXFMTVF4bDI2TmZuV0xGUTVnVDBmNkhUeHlqRE1GT2RDQXlwSFF1NTI0MEMydEV3TjhjaXU2dnZUOGxCR2NPZnFBSXRJcXpqZ1pvQXBoZThIdk5aUGNKVTRnU3VjRVRFQ1EwUUhKazk3dzk2MzU2UGxPNkNyaG1tcEVzQ2NBc2VkUU4yY2RWQkFWNEd2d0pzck83RU5pbnF4bThVTzBVSXN0ZERqcVg5eVAzSUxycnpBNFJIYV9ZUUVIUXltVTFCQ3o3VlBpV2xNc3FUdmh4TGdEdWNfUUtMMTMwSkhPbG40NDVNMVAyT2VSYTFHaGhveA?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161251"
-        },
-        {
-          "title": "Sunil Mittal to step down as Airtel Africa chair in July; to be succeeded by Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYmxIY1hRTVRKcUc2aTU4NEFFamM0STZzX0x5anNGMDdqV2J5TTJUbHFFS1lsQ3ZRcHpWRjZ4S2Vfb1JSQy1OVlMxdk5Bc09zbGJfLXJJX2t3Q3NrS3B2WUdEWXhhVW9ENFJVTjlXUGVYZ3liR0FKOFJCQ2VTWmRfeVFMdnkySzBoSUI3M09YQXJTY2Jqb1JQVWxMTzhsMmN5UzVObnl0akZPcTlqQWYxejhkcDFhZDM0Smlmb0ptYVNDUHNOLUIwand4SDFIOWE1WEFQeDNzc2RTMzRkVHU2SVN30gHnAUFVX3lxTE9VR01ZaXlqWXlYNmR1SEJyWEw4YVh3bkJxdHJTamJTdEtVUmRtUm1uQWdlZFVONklJOS1yUjA0cTRmRElrVHJGSmtPY093VnVvVkZTaVQyRGVuU3o1Y3dWTzFRNzJVMkM2V05OM2poZ2E4LV9kSmVyR2tJOXBIY1VKamhwSWN3a2tzQllIYXV4VUwyczFGbGNManBCbnJnLUVSRENUMmVUVUV3Yy1yOVZXVUh2d1U4ZFR3TmJEYW9Dc0d5UHBaQVBjeVZ4eUwydHJXNFF3aWVxdHA5RmloVHkxMzZ3Z1lTTQ?oc=5",
-          "source": "Mint",
-          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161255"
-        },
-        {
-          "title": "Sunil Bharti Mittal to step down as Airtel Africa chair in July; Gopal Vittal to take over",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNHZLTDlMX3ZqeEotRWwwN2NTWkVsTm1xT1JiQ1JQYVJKUW1JWmpSN0xuaW1uZHRyc24tLWpBNnUxOHdlTXlfRmsyQWV3R0RBSXYyek1neDZ6TXlVaHpUeHNCWkxhNEtDX1N0MUpJdVk1UE9KYlh0dmw4aUI4ZHhuakdIaXY1S1FyNkpGRmQwYnJKMTh5SDBIS0tXeGloQ1dGeGlOWTFlVUhEcWdzWjQyOVhiRmd3LVpiV1RjbnRZUTBmeXlWNWFzV096OHNCSC1jNTA2ZEVtWFhhWTc5NUHSAeMBQVVfeXFMT1NxUzNxZGUySVRjYVl0eTJ0TWEtdm5ET3I0S1IwV0ROaVMtSkI4SFE3YmFIRWN3SHBuVTB6YkNMY1ZaSXR6MFROeFRNVkhQSDA4ZXhrRnQ0TkVYM3V1d1haaXBxbmw0bGV3UnJ1aWdlakR0SFRBVk9DVDRNWHRGWlhCRDQ0eWdFOXVWNzZaTl9Da0taMmw0V0JPVUpUeHBFZm1HWnM5NlVRWl9CZDdvclVqMTlNZTIxU01za3dDald1LXlXcGxhck9kUmsySTNwYWJ3RTEzTWZFYVk2MXQwOFB3YmM?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161258"
-        },
-        {
-          "title": "Sunil Mittal’s new Airtel playbook: More than a telecom company",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVHlwUGVBRmdSMEh0czFaMlpxS2NyaDE2NGJOOGszblU5bVVRYlJ6Q3h4U0MyZTIwWVdKVGYwdjRfbXQxUGkyYnJwNHA5TU1PWGYwLWpPU0ZxMFJZMUlWNVZLdUpod3BkVEpBS3c1dG5JQ0YwNXFXVzlEVzQ5WUtsSHgxdzMyejB1dkRscThzcXFLREJSSlBRX2JfeHBTaDVZeVVPWktpc041S2w4VDJBam5EONIBuAFBVV95cUxOa0FFMXVZLXRhaXFjcnRtbWZwN3lfM0J6eXhHNGdCNWNEc3NjeWY3NDRRYVI2UzVZYWVZa2RFWXhDT0JSQS0xRDZGN3RvTWE3TlpfM2RtLV9XZjhsQ0Ywa1dEc3FyOExZUUpGc21saDBHNHo5ZFg4b2lOaDZ0a1R2elBfem1OLWpKQk8wcGh5THhLNkNZWWxubU91VDB0VU9TZ2J4NzM2LXZnbFBPNmp4Qmw1U2VmZkN3?oc=5",
-          "source": "Storyboard18",
-          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161263"
-        },
-        {
-          "title": "Sunil Bharti Mittal to step down as Airtel Africa chairman, Gopal Vittal to take over",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVFVzUnM4cGFuMUJZbFlHN1ZDelpCNDJrcGhqWDJlb0VjZXIzWUFhRjQ1azdYYktnb1J4cXVkT3R2NmxoaVFkS2ZtVWszMFlaQ0tNT1JlOXQ2eG13OElKc3pXcmlXcFlueW5kVWZCWUwteHkzLXN3TEZIa3ZHZnRib1VhZjRWaTUxUldQa0JZZnZPdDEweTgzN29WR2lxX0p0YmZZczRzY2ZCUEstTGNWZjlGU0lOT3RuNUxXcHN0M1ZPRXBnby1Sei1aNzRwUU0wblVyWXgzVkfSAd4BQVVfeXFMT2djNmxzWVh2TmxSaV9TdjhkVnU3bnZYZ3VhTENQYnUxclJMRXF4ZmtvR01mc3dINUtCSzNDMXFmVnJmdzF0ckV6LWoyOG1XQ0pOSWJHRkljUzN1aUVQc2cxRkVJbVlJUVJnSXI5SjhlR2xiR2pGcW1fbzAxcTBOTkx2NDhjdzlQbURzLTVnN05GZnRfenREb19Xc0VPZzIzYWlXMXA4bnl5b1p4bS1JRThKVWc2S3Nma1M1Y2dmTy1TdDlJQXJodlM5bVNJMTNFckZpMTFJN3JmRW9tc1pn?oc=5",
-          "source": "Telegraph India",
-          "publishedAt": "Thu, 26 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161267"
-        },
-        {
-          "title": "Bharti Airtel Q4 misses estimates, ARPU slips; Vittal seeks tariff hike",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUk1ZGpqM3UtNTFnYnBxRE0tbmFJOHZyZ3ZRTnRyTW40RW1kNE5YSWt6dDNYTTJ1WVFoT0Y4STBQLVJybEkxU0VVQXlPS2Y5cENuR1QyV3BKSHl2SDhGQWk4eUxyeXJkbnNka3hDNlFfUzdfLXF4U3l1Z2I5RHBlcXRRZzdmYnU0SzdjWVhsNzcwRm94R3JJUW9iZ2ZPeDJ4OUNjbGNQb3dzNGJW?oc=5",
-          "source": "Communications Today",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-03T20:05:01.161271"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "Bharti Airtel: Strategic Market Intelligence & Early Warning System",
@@ -505,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-03T20:06:52.700322",
+      "last_updated": "2026-06-04T11:43:09.651362",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
