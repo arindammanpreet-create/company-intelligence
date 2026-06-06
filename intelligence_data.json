@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-05T18:36:30.647095",
+    "generated_at": "2026-06-06T09:20:13.894911",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,18 +14,18 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-05T18:31:52.869643",
+      "last_updated": "2026-06-06T09:15:09.274150",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.2,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 3,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -90,15 +90,97 @@
           ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "U.K. fire crews battle blaze at Tata Steel's plant in Wales",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQblRXdkhMYnVYT016cFdFY1RtWFNCM044V2RCNWdYWHprWkc2RmwxYXhDVlBpZkVsOWdfb1Q5dFB4UDhrdjlEOXVsQUhtYWUwYjFELWYyY1pwdU1FUVpDSWdEN3dqRHA4c09oY1otOXA4T3FtNlNVUnNEWm5yNDg0bWo4OFFrSlhPUEpTTy00RnkxZVl4QkFsdzItR0VDZFlwWmx6N2x3RVNCY0owRkVaTk16cGVEdHdURXlSRtIBwwFBVV95cUxPWm1Mand5VkRZT2IwdU5vS3lBY2djR1p4LWNRczFSREtEWkdUZld1cmNUV3VNeUhJSi1QOTRmeS1JSEZQOElLQktMNURtVEt5RC14OEJfVi15NzN5bE9HQ2Z3SWt3T1I4dFVWY0E4eTR0aTlLaXdKYmJ5bDhvX0l6VnR3TDNyNjBoWTA0eVIyNzJnZXJCOFQ1Q09XTHVYaThRNnlpUVR2RGJxZ2ZYdm9INFZjdEtGVXgzdkp3czZpMDVOa0E?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Thu, 04 Jun 2026 17:04:06 GMT",
+          "fetched_at": "2026-06-06T09:14:25.059550",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "What we know about the Tata Steel plant fire in Port Talbot",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE93blB2QVJFNjcxNk9ydHJvVzNfakNUOTEzWm9PUzVwUVhidy1jMEJzb3Rfd29tQ21Da2cyazVUMFBaczdMc1RZWl9SMFhtWHFfbVFqUXNxMA?oc=5",
+          "source": "BBC",
+          "publishedAt": "Thu, 04 Jun 2026 16:42:36 GMT",
+          "fetched_at": "2026-06-06T09:14:25.059566",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tata Motors, Tata Elxsi, Tata Steel and Voltas among 16 Tata group stocks nearing dividend record date; check full list",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNdTRKQ0t5VS1oV2VnNmFaOXJrT0tRLWMyUjZlTEhSUzFqNW5sQ05sdEJYcE1IZnNLZ0ltVUJieFRYRGlfb3hZbGRmeFJMMlROai1kTTVQQjYzckZOSVNEbHlFUXFZRjB1X3Y1em1qVFp3NUpHQXgtYWJSQ3V0ZzFxRUFXd3lreEZKbUZ3ZXQ4Sk5MczhlMXNwT3k3U3pzYk5jd2VGWXVrdHpBZ3dPY1pSeFBYYjdFVFBhSU5Za1ZwakJuQ2pRSTgyaEs3U25fc19TRWJaQzdzWGtOR2haaWwxemtvWGVMVHNKLWExNC1oeVhaVUdfQTFhZnVGbUdFZFdRcnFvMUV3?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Wed, 03 Jun 2026 10:36:03 GMT",
+          "fetched_at": "2026-06-06T09:14:25.059571",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "How the Tata Ecosystem Insulates TCS from the AI Storm",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORU1NbXphX3hLNGxjNk1oQ2ROSDNKRG5DVUNlR1ZoTC1lV0pBUW0yVWJ2ZHE4R1FIaUlXNFFIYk1DQldlVWFTQlNHLXhQZGxTVHVKTkN4LTRQSktTckJLMGQ5cW5FdWYzZDY5QS1VU0hfUGc0dmZHVV9GdUk5YTZVUU9HMnBIWFkzRS1CZ0VyUXA2OVUyc0U0LXpTOTlXUHVGOWkwcV9wV1A5dlc0VEJGWHZVeF8yZlA1ZURrSWpBeG5qZmlDX0lDTWltSTYwQ1NGdUUxWA?oc=5",
+          "source": "Equitymaster",
+          "publishedAt": "Fri, 05 Jun 2026 04:30:00 GMT",
+          "fetched_at": "2026-06-06T09:14:25.059575",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Noel Tata’s Daughter Maya Tata May Exit Tata Digital, to Get a Bigger Role",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcjljQ2s3clVfRExUeGZJSUUtaGhvM3ZXUGpJeGpYaDdzNE8wXzkxSXBhREVTWUV3VGZuc2VzY2NqN05xeXl2enRlcndVZUg5UUoxN3lTa0N4QkNqX0RudDdjcDJWU245UGZFZGtBWE1oMjkwQ1JqRHBUM1J3Nk95Tl9TdXpxYlRLS1pwNFlHZ2FXbGFfN3JNM1F1MA?oc=5",
+          "source": "The Avenue Mail",
+          "publishedAt": "Thu, 04 Jun 2026 02:47:11 GMT",
+          "fetched_at": "2026-06-06T09:14:25.059590",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "Quarterly gross sales of Reliance Retail FY 2016-2025",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0pKSEpvQ0FHLVlFOU9Pa2xtVE10TURMM1NqZEJ4UjdaZjZhQ0Robk9SZ2tWc0xDVFltSVYzaGJGRVVscnBDc1NULWhrLVlhRUxzdngyZmllM1Qtc0FIZFp4a3o1V0tvRjZjMS1iQWNqaTFxUTdaU0ZaWlFyRC05TjJpSHg?oc=5",
+          "source": "Statista",
+          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-06T09:15:09.273426"
+        },
+        {
+          "title": "Retail India News: Reliance Brands Appoints New Head of Ecommerce",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb2FMZE1UeUhQSkpGVTdRUjFSV0lwbmFmQklpTmtzOFlzU0hoWHRDR3ZZVFFEbkg4OUVMcWh0QmlyenBPQUUxdWZJOEo2cnljeHRFZG5udVlpUmlsRXN1OFZZeDlCUVdGNVJvUjVTZldkQm50ZVJlZXhlekJ6N3FLUmQ1OTc3dlNyM0FGZ1lmSGtzZFpDaEZ0UA?oc=5",
+          "source": "Indian Retailer",
+          "publishedAt": "Fri, 05 Jun 2026 12:16:39 GMT",
+          "fetched_at": "2026-06-06T09:15:09.273441"
+        },
+        {
+          "title": "Near-term retail demand may remain sensitive, medium-term outlook positive: Reliance",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxORFhkRmc5dkU5N2xncVdNSHlNeDFnbW55M0Y5T011bk1sVDhQV3dYVHlnVGo5MUVhOTRkNUZFWVZMamFZRm44cGVGRnEtWUFKYWxyUEF6OHNhSW9RYUxoTTNZY1hpNHZTWjhqRE9DOUNDeXVIemdvZnF5cU1EQ01HX1hoWjR1RDcyanNrYW5NM2FuYjVzUU9KWk9nVzA5a2VOaG9IbGdYRTJ6MlhYVjBxelhFN1prLXRaSkVOejBsWFlHWmJzYkFsQlRib05SNS1DMFhqckNGcVBIeDZ4R0szV1JwSDB4aFVtRkItT0p1ZjJ0dGNDR1FIdg?oc=5",
+          "source": "ET BrandEquity",
+          "publishedAt": "Sat, 30 May 2026 05:30:06 GMT",
+          "fetched_at": "2026-06-06T09:15:09.273447"
+        },
+        {
+          "title": "JioMart Partner App rolls out in Guwahati; to benefit grocery stores, merchants",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM2dhZER1ZGdTcEFvNG1EVXlJOURUWmttZ1pRamM3Zkw2cE1paG1JUG5BeTNsbnpoMmEyN3EzRVRBaE9DOURNNWVTN3NieEhmV1lNTWd2dDlhQUdxVENwaDVsZmE2VXpPZGNrSUZ6c19VY2RaN2VhZnEtTHNlN2NTc0tWTHo1TDg?oc=5",
+          "source": "The News Mill",
+          "publishedAt": "Wed, 03 Jun 2026 10:42:13 GMT",
+          "fetched_at": "2026-06-06T09:15:09.273451"
+        },
+        {
+          "title": "Reliance Retail Rebounds in FY26: Luxury Sales Surge, FMCG Losses Modest",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNakR5eEEyczFKOWZQQWpWTFpZTkNGeC04VjczSnF3cUhKcVZDNlIyRU16NktLNE82Ni1UR0xLbkNtTXAzWWtiWWs1bW1CT2dLNlpwb0JmMU95QWhFQ3E5SHFRTVpuZ0V1aEctMkpzeDNvX2dQWXF6Zy1oWDVyRXpzWV93SGszc2ExT1pnc1R0SnhHMlNycHpSSzQyMFlSaGZkSnpPdElfd3I0NFc4dkVpTl9R0gG_AUFVX3lxTE5sbUtNV19HY1N6VVprcnRUWmtfQ195WTh3WW9BVE1IdUhvRVFmXzRYNjVkY29CR1lQTFBDc193YkpWR0llSV9JN3F4QzBQN3Vjc2FmTkVUWml0SGFtRUlUYzBvZTFMbTcyaTJvTExmWGhPYWVTLW5mMUJMSmNNd0EyZXVaMHk0SlFwNFVIU0xYUFFFQUpsQmNyOXBkeW9UU0VNMVJaeDJKS3JIbHluT0IxTW94N2g5YW1PR3B2MVFz?oc=5",
+          "source": "outlookbusiness.com",
+          "publishedAt": "Fri, 29 May 2026 08:04:42 GMT",
+          "fetched_at": "2026-06-06T09:15:09.273455"
+        }
+      ],
       "filings": []
     },
     "TCS": {
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-05T18:32:56.871927",
+      "last_updated": "2026-06-06T09:16:24.801829",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +264,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-05T18:32:59.153400",
+      "last_updated": "2026-06-06T09:17:18.289014",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,21 +348,137 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-05T18:34:19.671350",
+      "last_updated": "2026-06-06T09:18:37.964903",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.33,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 2
       },
-      "news": [],
+      "news": [
+        {
+          "title": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnlrekJEX2tGMkZTRlFyczJaRHRjQjl3Q3pod0hrbU9oQkt1azREb09jbU1BYi03d0pKZmtxRkJaMU1kcVRwdG5QWFloYnNNX2ZfdGF1U1BZYlBJY1JYMUF1UDYxR2tTSC1kb0FNM2NQNHVjUmFhZTlrdHAyZmgtbXJlT0JrNTlsb1Q1TUM4eGZDNHlXWTNRNFhiMUpwbngwUVJ0U3ZpRQ?oc=5",
+          "source": "Whispers In The Corridors",
+          "publishedAt": "Wed, 03 Jun 2026 19:22:36 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072771"
+        },
+        {
+          "title": "After Courts, RBI, independent reviewers clear HDFC Bank; persistence of crisis narrative raises questions",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYWdtLXFmUmRwRjJhTjA3cndDZllkbzJ0OU5qWlUyS3ZUdzF2OENLOHVOZml3aUNzaFBURlZnZWk0eVM3d0dzVTZXUnBsV3pLUktxaWJ0UDJOblExUURpdjFQSWRiS0FWbGN4dHh4Qmw0QnRrQkFjZXFNVElGaHNMemY0ODEwbHU0dFVwcEU5Zm45YkFsbmkzSkQzNTVZWXNmVk90eWg5cV9DR2JjYzRacUFtT0NfYTRIdXBJRTNQQm9RZXRUYlk1eThGOGV1cVJ4VGpNRkhEdzh3dWM1Yi0wSy16RjRaOHFJVGc?oc=5",
+          "source": "ANI News",
+          "publishedAt": "Fri, 05 Jun 2026 03:33:00 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072788"
+        },
+        {
+          "title": "No Specific Happenings, Practices Brought To Our Attention: Keki",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZFg5YkhrMjh5MktLakVXRkNHb0lkWG94eGhWOGUtajIwbTBLeTltSVdOVjM2aTNZMENzaGd0Q3l1c04tdlZtMkJmU2Z2am0xdHM0eE8zVTVTOE5MRHRGY3JJX0t4bVUxZkw4WkVERnFzdk9WYnhBa0NIVTFRZE9sYko1ay1OVHFLUmNydzF3cFdLblRac1l5U2k5MzhjOVBfc1JPVzF0Z3ZTX3c?oc=5",
+          "source": "fintechbiznews.com",
+          "publishedAt": "Mon, 01 Jun 2026 09:44:15 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072793"
+        },
+        {
+          "title": "#CNBCTV18Exclusive | HDFC Bank’s board is likely to send CEO #SashidharJagdishan’s name for reappointment after reviewing law firms’ report on former chairman #AtanuChakraborty’s resignation, expected by month-end, sources tell CNBC-TV18 By Fur",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVkhwdWhSeWU2bXNlbEU0b1JaNUFtZ3E4TmpQX1lxQU1BY1p1NnBoYUU1SzB4UkttNDZLNzg3eHNDbEVCaUtuRko1SHc4RVlIMDNBMUIwNlJhSEF4dXMzbllyRDZuTVhUUWgxM1FibUxMNWxpeDJEVElQQWpDR283WHVhUno1dk4xSG0wMXQ5M0pweDJPLXJPblVpRFZ2N0lXSVRpcVNET3dDa0tPTFRVUjF0ZGxoOFRRa3hIWmdYRXhaWVRkeXVJ?oc=5",
+          "source": "LinkedIn",
+          "publishedAt": "Mon, 20 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072803"
+        },
+        {
+          "title": "HDFC Bank to review decisions, ensure full transparency: CEO, Sashidhar Jagdishan",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNWGRZUEdBMFFOdTlQZlptYlNhOXFKNnlFQWJYN2ROLXFvRU45aGpxbmlCOURueU9sa1lXODlXX2RNUnB5bFVXSDVEcmZvVkFPRGhzVkxBY2tIM0tPMV9tcjhnY0dVUS1FdWtnMzNzb1ZNRG5nVTJIczhYSXlRQ2NnSVBnLUJiRGR0TVdNTVdBUVd2a0tFUzRBVFZLTUxUM2lVMUdSMktPRGhhc0JaMW44QS1BWU5iQ2xWNDVwdHl6cHdEUVdPM0N5UGtOaHRoRWFPSGhNZHY4RWVhU1hZcUU5ZU1hUkROQ3lsdTFGT3poQ3NvWU5zbmtRWdIB_gFBVV95cUxQb0hkWklBb0hJMElJWFE4ZkhFdjRfYUIxbTZiTHdjWWk5UDRsUU5WRGFEc1JEZS0tak85dVMxdVc2aUZkdXNqTlM3TVRWaUVXZXN5Rmk3SnB3VXNZYmw0ZFhxREM1d2ZYWDZnVlpmZkE0X3BGRmllNGREMTZIdVMwb05fNjlOV01STUhZa1JBYjk5N25zMEZ5S21xLTRhMlNJSGR2ZE1qX1hMZExIRWpJbGlEUmNxVU5HQ3VQaWF4Znc5Q3FDdkN3NTJZcldPbVpmdmczMmtWdWJyMkplVExWSjJNWGQ1bDRoOFZIVkpibWpqREpHaW5LR2FtVHJ1UQ?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Mon, 23 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072807"
+        },
+        {
+          "title": "Bombay High Court quashes FIR against HDFC Bank head in bribery case",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc0NHbGpGTnhlM3FFbk4yUGNJVUx2Q2dGQk1wakhOZFByNjlOeE9qNm9fMjQxeVhSTV9icTh6YjZuU0laNFpkMElPR2lPUlJmRlhiQW1odjlrYW83MktVTGJOaVVIandRY0wzYWU2bHg1STllVU14YzJkeXlySnBMbjhZeTVnbXBldjBHQzlkLURiS2NaVEYyRHEtUEJsSWg4ZEM0WllFbFNCZFMyQksxd19qX0U0YlNwYjJxc3Jra9IBxgFBVV95cUxNamJvaTE4d080bGoxelR3dFNlNEM3N2JSSi1lMFVIU19sOE4xRUpCTGdPRm5KY2xoMEpjZUxEeDF2UVdaVkVhS1NFQk5uR1VfdGlJeENuYm9QTy1yU282VTd4SEQtRWEtT2E3SDNQWm5aNzZ1eG0yRzBxZ1FkMHpxeGhGemktM0I2cEJUMERxOFVielQwRHNNblU5WHlmLUxEajNESUNaYXBNaDh3dTMwZkIyMTRHMGtZeHlXdl9UVGpNYnRYeHc?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072810"
+        },
+        {
+          "title": "Bombay High Court Dismisses Bribery Case Against HDFC Bank CEO",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmlPekl5M2tza0VQNU1BMnJuajllY2l4bEJwUFFCMEljRUlHMFNwZExzX1JCYUN4VXc2aHNFMUxVTEp5LWp2b2czYXZkYVJzZDdIWk1Wamp0ME54QlZDRHRzd2tjNlpkN2VJRS1HSWI1UGFMTlpjZ1QzaDlIc0xXbnVPeEE3bTdtakl0QkpPc242c1hLcUtIcXRLa3RKMmZ5VEVvb3VPblhnV1YzZ0JFeE80bGRMZ18wbDIyc3F0Sm3SAcgBQVVfeXFMUHh5TEJoSFhtd1lPaVNydjIwV0ZlV05hN0g3YlBhcTU1b19UTFM4TjNLMjNzRThMdTlXRVVMVEN5MGZ6ZVdqaDRpRnhzSEFndVUzaU0yLTFoTEt1SVVHREFVNjkxbi02RDJ4Q2JSdktuTFpoZGFUSFdVOXREOUpFX21mUTctclIwNWtPTU1adUpFQXVQZ1p6TWN5S1BELUdObndtNEVDWFplSW50WVFfRW9QTHZ1YkFZUTBnSVJPT3VQazRqNzU0Sk4?oc=5",
+          "source": "NDTV",
+          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072814"
+        },
+        {
+          "title": "Supreme Court Issues Notice On Challenge To HC Order Quashing FIR Against HDFC Bank CEO Sashidhar...",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOZGx6ejluWE1nU0tQRWRQQ0JVQmlMekt5LWpwTTNXT3plODhXZWFmZzZ1VXA1cUtXc3d1WFMxYVhCVmE1TlBsZUIyV3JNR0tndlVxTEczQnVjMERaWTNRMXdWLTJTUzI5WU5XOXJVeFo5cExZUC1tenNPYTBENThFTHBmdTNDUlQ0MHYwcDNsV2pXbzZuUVVEQi10XzQ5T1RJd1pSNnpULWY5Q3FiQWp2SFVibmtRWjFabjZ3TDJBQUJIQUFWc21wdEt1UUJZSXRNQktBeVZsTElfZUhZR3JYYnppMzRtckFBUmp3VHpwRF9YeDhkYlJKVjFSNVBLRkF2M3JZa2ppTThhOVhjVTZMZTkzRFpHQdIBmwJBVV95cUxQR1pPSE5XTzFxeG5iNHFmNl9vS2lxMW5sZ2hvZUkxQVEwNmRBbjV1UFRuTVp6NG9XZXltOVZDVEpSUlFqM3o1VDI4aERFMGZtTG5NbV9fdDQ3azAtd1JwSjl5UDVoTGlQeHJUdGZ5V212SmFHN0pyTWpYdXNaY0VEWU9mODFfTUpxYjNLclpYZ2FXdGRQSXBuVFpGTEk5c2xjQ055VXN4UVpjcDZlSmk0Z2M0X3ZLdTJNODJyaGM3WU1qRWh4eVZ2VFl2QnYzZ2I1R2NQZEZsNFJBZHU3eVlVS2E2MHFUT1IwekM1SWJiWnRpQjV3UEVFX09qRU5PM0xBSWRFb1NvbXlaSWNlRFV6ZWlYY1cycE04NFM0?oc=5",
+          "source": "LiveLawBiz",
+          "publishedAt": "Fri, 29 May 2026 07:00:58 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072818"
+        },
+        {
+          "title": "Bombay HC quashes FIR against HDFC Bank MD Sashidhar Jagdishan, calls it 'personal vendetta'",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUWtRUjlQUUVzV1lqZl9IREdnZy1LdzZxSlRfZFE3VkdYTGVmZk9lcFRUaGwwNDhBR1lsbmZZdVVNNkFFaWpfc3EyYnhLeWNMMFlXNl9oSkx2djBhT19ETlBBVzRlQ184QzNYbmk4Z05TelpQUUxFQkFVOFFpVTd5MVZXZHc3MngxclAyTmExWTVoT212NGNXQ2gySXNlbmZBOVpMc1gtVzAxU0pPQW1IMk9PRkFHTGxLbkd5TEZpcXUtVVM2ZTRyTTZHeXpFLTVYUmZJUWUzNzZNMmfSAegBQVVfeXFMTUJwQW9mVkxZR0ZmbUY1Ym12Qm1vaGpLZ1E5RXBxcUlCM0xDWmlOZ0pjQWgzWWpKT0RCUVF1NEpXM1pBNWFWaWNfeFd2Vm9CbU1aZlRaWm9PWkUwY0VNWm9sS1d6enBaSFpsWFpQcFdCYXY3aDJKMkdGcVE2cUNONnB5NlpqblRUWC1XdVhRWDZpelFJdmQxNjVsYWZ2d0MtUnBOMVR2UXZIalpFS1piQUFiYlNzX29xbkg1ZklhQnZjNFFzbU04TnVtdmNpUnBQczR5MlpvNjMteV9CcGZ3ZkkxSWczNHNCbQ?oc=5",
+          "source": "The New Indian Express",
+          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072821"
+        },
+        {
+          "title": "HDFC Bank ‘camouflaged’ crores as marketing spend to pay higher interest to state firm",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOc3c0T3p2TnZNOVlNTzQtc2tSN1E1ZmtnX3l3dmQwQ3REcENJX05vSXNuMnhZNFQ5SVNWZ0t2WFpXVkJkOVpsLVh5S243c1d4QXVRUm5NSnNuVnVPc1RDVHZkVFMtNUhqT3lMal8yUlc2cWpkMW1rUF9XQkFTSnVQaXdZQmtSdUZHZ3lWdHo2RGl4aG9GN3ZzMThHV3RFQ2RqUlRhZnZFQWc0NThIYXktcVdOYVRmUVRFUXowek1vVHZkMkRVY2QyanZkdzNMYnNPVE1XUmEwYzItYk5JcGRJ0gHmAUFVX3lxTE1wcno2QVhxSGI0c3ItdlZMNUJHbnFZZjEwLUpodlRwSTYtMG1oMjBVWDJ3MzVUVkYzWmZYdmk4X1p6ZWowMlk2aGNHV2ZxVjZkZlh1WWNsNjRLUC1hWlZqLTVGSUF0MGdEemVCQ1l5a3h2VWgzaDFQeWk3SGFjWU9Wc2xEaDBIVFJMYVByQjA0aWtFSVA5ZV9MbThjWHNtLW8zeWxVMnNrZFF2eUJiNTJEWVVfZ014UEdYeEU2bWZVVUNFN1RFRUJldlFpRWhzRTBtMDhNYVF5aWlPZ3VXa3gxZHFaNGxB?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Thu, 28 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-06T09:17:35.072826"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at HDFC Bank",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at HDFC Bank: resignation. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!  After Courts, RBI, independent reviewers clear HDFC Bank; persistence of crisis narrative raises ...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "resignation"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "ESG Compliance Gaps at HDFC Bank",
+          "severity": "Medium",
+          "description": "ESG red flags detected at HDFC Bank: governance, board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!  After Courts, RBI, independent reviewers clear HDFC Bank; persistence of crisis narrative raises ...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "governance",
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -300,46 +498,6 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "HDFC Bank: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
@@ -350,11 +508,11 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-05T18:35:23.773915",
+      "last_updated": "2026-06-06T09:19:36.597664",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -426,7 +584,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Why Reliance Jio AI chief says India must stop building on borrowed AI intelligence",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQV2VuZmVTT1laVHA5MDN1SGVGSVRCUlROY2VtOEE0YzNfTUNTV2twZjd6ejBjVURnUlhKS3h0NkVDWWtJU1ZHdVdiUTUyQkZsMVNQWHhIOWplV2tmbkIzNzRWYTJLUEdXWkdJbDFtUXZDUnh4dGJwdVVkRDk5dnY3SWZjV3NadTFXWHFrLVBKbmpiV0xDZVJST1U2bWxNeDk4ZjJGZmxuSDBha2ozNFl4NXJNM2poLTVMc1RNT0hWTDF2NkNZa1BCODcwZTl0Z0I4UERJNHdpZjRrM1lWWkZZU012Wkx6WVRoNVHSAe8BQVVfeXFMTW1rZGFibmhsek9BTi0wVGFaRVdveHdzTk14Uzk1czlab1AxT0VUZnN1SG1iWWtIZzctUlBuUy1TaEVYWEs0YjZ3WXRaQXV3N3FPZS1TZ2locXcxY3hObE1JcVJwcUdiUWVqdU0zUFROWUVkSGVwUThiWjhXNW9uMjh4ajl4TDFhbU42LVI2RUxPNUpLR05xeElmbURGOC0yZlVqVmRoU2tIcnVmQ0ZlU3c1NzhfZTNyZXppcjduUmY5V2Z5SmhiR2RRWmpyQUJUMlRvdnE5azdYMGVLdXBOWGVEQXdTSVlnbkJYaW8tYU0?oc=5",
+          "source": "India Today",
+          "publishedAt": "Wed, 03 Jun 2026 14:32:44 GMT",
+          "fetched_at": "2026-06-06T09:18:57.269747",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio Alone Decides Tariffs in Market: Opinion",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc1l3MFJHMVlUS2pidGNGeXlabTREaHlXc2M4b2hCYXBTcmZxMkpCY1ZodnZ3aG5vZ1ZEZTlETUtrSXpoME5JcjZ0cUZKT1VJeTN2dEgzYnp4OVhaR2k2NTUzd0IwWmphNWZkMGFsRDBHdzQyLTdUNW1rejR2ZVJ1ZXNoVQ?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Sat, 06 Jun 2026 01:30:44 GMT",
+          "fetched_at": "2026-06-06T09:18:57.269776",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Mukesh Ambani praises Ranveer Singh’s Rs 3,000 cr Dhurandhar: ‘40% of India’s box office’",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdE42NVMxRkZXM1VScWVNSjZSUkxuT25PRWpfWFpnOGVfZVNtX3lHa2pJdTVlQ3J1QmhQZUxaYzRIZGoydEROZzNtSkxFcDBJNkF6Sm93TWhkTWF5N1N0NTR6NlVialJvVGhRVkx0dHRoOURBS1d6aVBwQmdCTFNtbElTRF9RQmtXbHlleXhxWEl0Tkp0NHlWMGtja2MtTnB1LTNwMFZtdHVPU0JSdjNpQldJVm9YUnBrUFpXbmZXWDBYa2VVU3VwUkNjTE1NLS10cDNIWTRtSDRkbEYtSEs4TDQtTlFLZ9IB7AFBVV95cUxQX1ZIUGZxeGk1NF9vWk1qQUJ6dW0yTGlfT0NFLTU1WVRXT3B6Zk1ibDJCVkxKaTBGZEJ6SWF1czZOY2lXa0dUQkt4NlpHTFdyNWxCV3JSbzN0YWZhWTFRdUpGdDVZVWdjS0k1WVQtN0xjX1JETXFYWTM0cVFuc1VtaTV3bU1STU45R0ZnZ2VGTkcybEJLMVotNzBWLV9CcFZoZXFqMFBaaElDUjRIV092NVVDeXo4X0RYbWJmMUg5bnNDVzM3VnJvTUZMTERhQmhBX0xEWklrMGZfbHV2cUlCdmxEWk16TW42RjNOTw?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Wed, 03 Jun 2026 11:13:11 GMT",
+          "fetched_at": "2026-06-06T09:18:57.269784",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'Dad didn't allow Jio-to-Airtel port request': Bengaluru techie who stabbed parents to death mentally sou",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQV1JGZGp6eHRFbm8wdGlCNlRpVktPSHVXUkxqeTVUd29lRHFGb1dTWkFTRUpNdXkzQmQ2TFRZUEFLR0tqZWJGWE5pbmRPc3lFb2hUVHpYQ3dIaldvMHc5dElJZzZYOGJiNW03TC1pakVuYzgxM0M3UUJTdHAxOHNtd1Z1bmZXWWRENzBEUUJVX2gtZk9hUTl6aXVUQVpJQ0xtelpTU3FkampGYW1UYTRuRnhlYmVtOVcyVFM2WVY1NHFCT2ozVG1LQkZzLVlrZ2swNG9iQzlvVEF0Mm5UdldvdkRCMFh2U3VPeUNkWlhLdWF1RW9ObDJBcERFVHFfMXM0ZnUyRW1YMjR4Q2o0RXViYWVScEV1Umhj0gGeAkFVX3lxTE1TeE1oRUtKbjh2TmNJc0N6YXNSbkZmU2xZcHJ1RlJvNmVBaFZGUjI4cG5vZmhPWmdZQjFaX09FWm1QQnloNjJvMnotMmFpWVdXbkZDMExQaWdJNjQxbTdxbm42UW53RUZSWXNZRGhLdVVfbHB4ZkNGV3lpc1ZmR1BDV1NKQTl4aDY2T082cV9WNHBXeGt2TS1vUU5laW5lQWNYd1JmWWNkdWpwNlY2UkF1QjdaWGtYeXdKVDJuUllyUkdXX3dsNm8tMmtLY3RQZ1h4RzUwc2xxMk5JNUVoNks5RjVmOFBvUFJXOFkwSFN6TXltU244eGVFSW1jTVFUcHNUbTVJd3o2bjlLTnBNTFZ5WDY5OEsxNzNsN2MtcVE?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Wed, 03 Jun 2026 01:28:00 GMT",
+          "fetched_at": "2026-06-06T09:18:57.269789",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio Rs 459 Plan is Meant for Indian Youth",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE55TVk1enk1cHY0VDJWRnJqNW1zN1hURTVlNVhJQjlOMWUyckx5RFVaZHRvNUtZSk1aeGhnaEV1WllzMTVOOHY1UUVtVkJsZnBSRkZjODJZd1lMUjNTSHN4ME13M3ItbWdIdDY4U1hDaw?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Fri, 05 Jun 2026 01:35:13 GMT",
+          "fetched_at": "2026-06-06T09:18:57.269793",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -434,7 +638,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-05T18:36:30.647080",
+      "last_updated": "2026-06-06T09:20:13.894900",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
