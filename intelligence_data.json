@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-07T10:20:38.216528",
+    "generated_at": "2026-06-07T17:02:17.688988",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-07T10:15:45.806817",
+      "last_updated": "2026-06-07T16:55:42.061663",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,18 +98,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-07T10:16:52.488230",
+      "last_updated": "2026-06-07T16:56:54.044936",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 4,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -174,25 +174,107 @@
           ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "TCS, Infosys, HCL Tech Pare Early Gains To Trade Lower As Global Tech Snaps AI Rally",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZzFVUXlqemFUc3F6SFozRUdKcDRkb2Z0MHlENmJsNFFWcmNCOVNLQjlOZVdnVUllU1g2aWhIdGJxVlc4Ml81MDNoanpvUXllZkJwUkQ0R1c2VC1fOGJLVnhlSV84a2NGV3c3NHF2Q3luX2ZhcnlOb0hLbzV4aGJhR1pSTDZQQnpJc01EVWlHYmtIYkxaU0dEUHBQNG9FX2dQb2JnU3FzVkVleXVqZDl6OHBOSVkxMS1nTWNxX2ZXangtcVZHTDVVY0UtcjMteEnSAdcBQVVfeXFMTWxac1lwdlpGdGw5SUJPMGtHRGhROENGcGlJQjAxY3dQZ0FfXzJFY2RnUmxubGRqZnJ2RVVpekdmOUpBWFFQTmxMdlZmTS03YzlEMG5qMXNzakJFbi1nREtEdnNuVDBsUURrUFM0ODlPQTFCSUQ3WF8tT1pmdWNGZ3J0Z0lNZ09lTDIxaExjbXU2Tl81TEdRQWxody1TbmpCQlNNdjRIVGJNRmltdi1SZnZoa1pnWnB3SnZ4UllQTmtocHd2cEVRZm1ZMXFGSFhpVVoybzM5dWM?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Fri, 05 Jun 2026 07:06:55 GMT",
+          "fetched_at": "2026-06-07T16:56:24.882702",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCLTech, which sells to the world, invested $150M in Sarvam AI, which is built for India",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcHFzU3VMWTRqWEd2dFFNSXFoanRzUkRsZjVMRlY3Z29BQjJSejl3Q3Y5cVJSaXlnYVJ3MWVCNjRJWXlYQW5ZVmpZa3dCRTJRUFJZazV1RmJleFE3cFhNblV2TG9HUjdYOXQweEh6NzVvNXBDUU5DN0ZXNWdTbUJiaG8ycmEyNnNrVGs5M1VYUFdaUkVEaDNDeHRId1pBaHhMN0Q4Y3lLMk56RVRUVXo2bA?oc=5",
+          "source": "The Ken",
+          "publishedAt": "Fri, 05 Jun 2026 06:31:41 GMT",
+          "fetched_at": "2026-06-07T16:56:24.882718",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS, Infosys, HCLTech jump up to 6%. 3 reasons why IT stocks are rallying today?",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcTd3NGU5VFhGNV9XVWgtcDNuVXp3U2VJYmg4VVNUZ0p0QzlFa1RIVXhWSDhQS3lvNUJUOXM0Nl9MczhQd0xJOXNLbkREZnRINF9TNTg4UVVfZThSTDh4cXJ1YzA1QVFfc2xDMUFfWE03Q3VYTDd6UGFrUVBJdlNsN2Y1b1FUd0p6VWM2b2xGWC1oVkp4dHNKOXFpaFR0bV92bzlKeXROVmFfckw2aWl6RTJnWk82ajdleGgwYnlwaHJGNUNITXFrNEpEZ0xhTUU3RHdPMU43T09fWW1v0gHiAUFVX3lxTE5OWVM2dU5lNzJNSnpIR0RFelo2ZldVU3R5alNWR0V0OVVGU200czhkZ2NVZEktMEtZemhHZGw5RFNQMmJsUHpJYk8wNGVEUnprODFhMkgxa2ZPaUoyV2ZVUFEyRm9RaXF0Wlo3UHA4eG55eDQ4SUs1MDI4S0Nad1dRcWZ0OU1BLVRjTjFSTEcwX3F1bHhjT1pRQWZLTWhDYXlZekNreEZ2bGVldnRqUHZrbkFFMXhPcFZlb19hX05RZlVoNW5MZU5ZOFpWeTNVQWVJOEtxTFBiRFZmQlRBS3RCVVE?oc=5",
+          "source": "India Today",
+          "publishedAt": "Tue, 02 Jun 2026 04:39:41 GMT",
+          "fetched_at": "2026-06-07T16:56:24.882722",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCLTech Awards $1 Million to Three Nonprofits Under Climate Action Grant in the Americas",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa1N3MldiRTBFX1J4WTdLY2E4Zkt4UW4xbG9HTWM4c3hMOGVSYVFvQV9yeGpma0dHV1Badk1BODRwekhYU3laYU1VUlUwWEp5NHViR3I0dGJhampJM1JQcExKRS1nSlo3M2k0M0RxRm9RNnVIUzZTRnZIZm5CUzVZeDlNWXVlSU9PSjRBWjFxVUF3T0RaTzZXMTVYQUdGMFJjNm5BX2pYT2RjU0wzbVpjSE5ZQ1h3bml5aWZaTV9ZZjI?oc=5",
+          "source": "TheCSRUniverse",
+          "publishedAt": "Sun, 07 Jun 2026 04:04:07 GMT",
+          "fetched_at": "2026-06-07T16:56:24.882726",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Top gainers and losers, June 3: TCS tumbles 8%, TechM tanks 6%, HCL Tech down 5%, Apollo Hospitals up 3%; check list",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdUdxa0t5SUtHZUlqaEY5SlFhbEJ0UExxX1VUWUR3M2RrTnJGLTZIb1JrWHQ1a25NRnlBTUlQMGxVTUhYYnRjdVhkbGg0Xy1vcXlqMS1SY1k2U3RQV2VIeVFVdWk4UXp3eEN4NjNWcllyaHJISExGMUhPcVhXSE9reXQzR25mMUhYUWlScUtYdE9wTFRfV0U4ai1OY3VEallyWWxKMzNndEtFem9qTkFzMmtEUk5mTkxTSlctVTBZT2dKMC1HdFd4NlNwa21wdGpvbjNvUGVPTlJ5dUVhb3B4QWh6dEhVV1ZlMDJpcEhmbzJWSTRZeTZIUkNR?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Wed, 03 Jun 2026 11:17:56 GMT",
+          "fetched_at": "2026-06-07T16:56:24.882731",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "Nokian Tyres advances IT transformation with AI led modernization in collaboration with TCS",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUpWaVhGeURITEZ4eUk5SWRPVVJDZDhiLVhKc2labV9FSFdSbUhkUHliYWJPQ21NNDJPTlAxeElmVjFQZ3NDaG5KYW9Qa0xxMVotSFhoeXJNMDk0Zmg5WFZUSGlYWTBPTDJfN2NLZ2VtUk5nRUhwNHpUODdYSzlETDdxZnNScThCMmxMNV9uNnU0bmdvbkd0OVUtcDh4VnAxSWppNk56QVY0YkRqYzcxX0JxWWFWNFB1aW9zRU1xSlhJd214d3lYUlgyc3g?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Thu, 04 Jun 2026 09:40:16 GMT",
+          "fetched_at": "2026-06-07T16:56:54.044684"
+        },
+        {
+          "title": "Tata Consultancy Services Ltd Slides 4.15%, BSE Information Technology index Drops 2.36%",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUWIzZXhRcjJXUGRhc01fMUs4ZHhkZU5YWk1VODdSMHlzakQ2djBVc2x1ZEltcF9fN3BrX0tNNjg0WFNMekN5cW54X0lrQ1Y5YjNsUXRQUmFyTkZNVUZsWXdsWnlyZ2dnRGFtS1NEbW9qSTZTc01lQjZXbkgtb0kwR2F3SFlQMmpHZTV5QmlTMURWRGxhcElzdVRPSkh6MDRsdWZnQ0ZzUkQ0dXZsOGozdDRwV2xFREw3REx6V0diWE15S2xjanhPZDFET2tlVGZMUnItcDZ5YWJUck4yZ3JRRmJtWEZObGNFVmdEdzBERF9UOExJY19KdW56VdIBgAJBVV95cUxPTldNV28tSnZCWkVTaHQzdDVtSXdZMWY5eWg0YlJFUXZxMHVjdkF5UzBwc0ZTbzV1QUxRNllnanBUZDBWWDMyRENieHhRQkR4SHNfM3VHWC1YSlc5SFpCRjY3SHRvOWZhdjhWdVVmZElZWkVCMTRqamRwMmIxMGFISjJVdWFqTWJhSEZ6QU12V0tOMnFDQW0wTjJXRHdhU0ZvaUxCLXJ0eEtORnVZZGVyWDdkN1BmZFlGQVRtelpKOEdLWjJSV2pGZGphbjRPQlJyemtjRG1jeURQOXNqdXlJU3JNNWVnaDJFbFRhWGFSZlRScTFoVXl4Umo1OHU3eWMz?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Wed, 03 Jun 2026 04:34:19 GMT",
+          "fetched_at": "2026-06-07T16:56:54.044697"
+        },
+        {
+          "title": "TATA CONSULTANCY SERV LT Option Chain - Live TATA CONSULTANCY SERV LT Option Chain Data, OI & Price",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GdU92RnNESU5WSU9vVXp1X05KNVQwOUkxRlhGZlB6TGdlZXNobVVTWXZ2dzdhTFAyTVFBMTFRTkxodFdwSjBCSWdydFJOb3ktZnFpV0RDczYyWjZNNWJPZHpKUDQyMkho?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Fri, 05 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-07T16:56:54.044703"
+        },
+        {
+          "title": "IT Stocks Crash as TCS, Infosys Fall Up to 8% on Profit",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPblZ2UWM5V09hZ0ZPWWtGOVF2TGZtdk51MkVUV0NudUFybXhWQlpMaHJYUFRhWkJsLWkxV21XZzVBOF9idVVyTUFqVWpIYW01VTdRaEtId3JPWlpoLUtzeVI0TUwzUkVOdk15bFBhZDIzNEl1WnRJRTkwRkJNSTlKekdORjBNNndScWQxbEtxeEFyY0UzMkhaaUs2TFBLVENWeFZMY0lGd19PRHNvYWtKTFE1SWlSV0l0MUlOODNFUG8?oc=5",
+          "source": "HDFC Sky",
+          "publishedAt": "Wed, 03 Jun 2026 06:26:58 GMT",
+          "fetched_at": "2026-06-07T16:56:54.044707"
+        },
+        {
+          "title": "IT shares crash after three-day rally, TCS nosedives 8 per cent",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZldUTmlCaFhwNGFCTGl4Sy1sa1ZmUWxzQU9uOXNkNEtZMnMwUWRTUGxxT0x4SWZxeWV5QjF0aFNnZDJUOFRuNlo0TzU4SnVsN3pFaHlyRmJGd0JvNFZ4dlpXMjVna3VHMDNqUlc2b2VfM3p3NUFoMjFQajJBXzRHQW5yNTVlczFBRUtxS0tza25ieXF3X3BSckVDaGNWN3RGS1d2MHR4ZUVIZlY1TGZpblotbm5YeUHSAcQBQVVfeXFMTjZTNFVJSm9LWUJreDdycHp1bm5veExTRFpoTVVBZGJiQnliQVdNUlp3SklQVU5RcjNmT1RIbW5PbVI3Q2hVOXpUMEF1X1RyaGFNdmw4dlM0bnU0RTRvbGg3YlJHcUtEbUdvN3ZhWkFGTkZuV3gwcWhaOGVrVTl0QWpTVFZOb1VvUWZPX1FQdjhJUGFiQXJ0d3lyVFl0OGVvRUd0WmgwYm9KekhJbloyVTVWSWRrdG8wWTFYYWN1aVpmNFM2cQ?oc=5",
+          "source": "The New Indian Express",
+          "publishedAt": "Wed, 03 Jun 2026 13:00:13 GMT",
+          "fetched_at": "2026-06-07T16:56:54.044710"
+        }
+      ],
       "filings": []
     },
     "Infosys": {
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-07T10:18:04.630519",
+      "last_updated": "2026-06-07T16:58:23.234542",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -258,7 +340,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "TCS, Infosys, HCL Tech Pare Early Gains To Trade Lower As Global Tech Snaps AI Rally",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZzFVUXlqemFUc3F6SFozRUdKcDRkb2Z0MHlENmJsNFFWcmNCOVNLQjlOZVdnVUllU1g2aWhIdGJxVlc4Ml81MDNoanpvUXllZkJwUkQ0R1c2VC1fOGJLVnhlSV84a2NGV3c3NHF2Q3luX2ZhcnlOb0hLbzV4aGJhR1pSTDZQQnpJc01EVWlHYmtIYkxaU0dEUHBQNG9FX2dQb2JnU3FzVkVleXVqZDl6OHBOSVkxMS1nTWNxX2ZXangtcVZHTDVVY0UtcjMteEnSAdcBQVVfeXFMTWxac1lwdlpGdGw5SUJPMGtHRGhROENGcGlJQjAxY3dQZ0FfXzJFY2RnUmxubGRqZnJ2RVVpekdmOUpBWFFQTmxMdlZmTS03YzlEMG5qMXNzakJFbi1nREtEdnNuVDBsUURrUFM0ODlPQTFCSUQ3WF8tT1pmdWNGZ3J0Z0lNZ09lTDIxaExjbXU2Tl81TEdRQWxody1TbmpCQlNNdjRIVGJNRmltdi1SZnZoa1pnWnB3SnZ4UllQTmtocHd2cEVRZm1ZMXFGSFhpVVoybzM5dWM?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Fri, 05 Jun 2026 07:06:55 GMT",
+          "fetched_at": "2026-06-07T16:57:56.243870",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCLTech, which sells to the world, invested $150M in Sarvam AI, which is built for India",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcHFzU3VMWTRqWEd2dFFNSXFoanRzUkRsZjVMRlY3Z29BQjJSejl3Q3Y5cVJSaXlnYVJ3MWVCNjRJWXlYQW5ZVmpZa3dCRTJRUFJZazV1RmJleFE3cFhNblV2TG9HUjdYOXQweEh6NzVvNXBDUU5DN0ZXNWdTbUJiaG8ycmEyNnNrVGs5M1VYUFdaUkVEaDNDeHRId1pBaHhMN0Q4Y3lLMk56RVRUVXo2bA?oc=5",
+          "source": "The Ken",
+          "publishedAt": "Fri, 05 Jun 2026 06:31:41 GMT",
+          "fetched_at": "2026-06-07T16:57:56.243884",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS, Infosys, HCLTech jump up to 6%. 3 reasons why IT stocks are rallying today?",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcTd3NGU5VFhGNV9XVWgtcDNuVXp3U2VJYmg4VVNUZ0p0QzlFa1RIVXhWSDhQS3lvNUJUOXM0Nl9MczhQd0xJOXNLbkREZnRINF9TNTg4UVVfZThSTDh4cXJ1YzA1QVFfc2xDMUFfWE03Q3VYTDd6UGFrUVBJdlNsN2Y1b1FUd0p6VWM2b2xGWC1oVkp4dHNKOXFpaFR0bV92bzlKeXROVmFfckw2aWl6RTJnWk82ajdleGgwYnlwaHJGNUNITXFrNEpEZ0xhTUU3RHdPMU43T09fWW1v0gHiAUFVX3lxTE5OWVM2dU5lNzJNSnpIR0RFelo2ZldVU3R5alNWR0V0OVVGU200czhkZ2NVZEktMEtZemhHZGw5RFNQMmJsUHpJYk8wNGVEUnprODFhMkgxa2ZPaUoyV2ZVUFEyRm9RaXF0Wlo3UHA4eG55eDQ4SUs1MDI4S0Nad1dRcWZ0OU1BLVRjTjFSTEcwX3F1bHhjT1pRQWZLTWhDYXlZekNreEZ2bGVldnRqUHZrbkFFMXhPcFZlb19hX05RZlVoNW5MZU5ZOFpWeTNVQWVJOEtxTFBiRFZmQlRBS3RCVVE?oc=5",
+          "source": "India Today",
+          "publishedAt": "Tue, 02 Jun 2026 04:39:41 GMT",
+          "fetched_at": "2026-06-07T16:57:56.243888",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCLTech Awards $1 Million to Three Nonprofits Under Climate Action Grant in the Americas",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa1N3MldiRTBFX1J4WTdLY2E4Zkt4UW4xbG9HTWM4c3hMOGVSYVFvQV9yeGpma0dHV1Badk1BODRwekhYU3laYU1VUlUwWEp5NHViR3I0dGJhampJM1JQcExKRS1nSlo3M2k0M0RxRm9RNnVIUzZTRnZIZm5CUzVZeDlNWXVlSU9PSjRBWjFxVUF3T0RaTzZXMTVYQUdGMFJjNm5BX2pYT2RjU0wzbVpjSE5ZQ1h3bml5aWZaTV9ZZjI?oc=5",
+          "source": "TheCSRUniverse",
+          "publishedAt": "Sun, 07 Jun 2026 04:04:07 GMT",
+          "fetched_at": "2026-06-07T16:57:56.243892",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Top gainers and losers, June 3: TCS tumbles 8%, TechM tanks 6%, HCL Tech down 5%, Apollo Hospitals up 3%; check list",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdUdxa0t5SUtHZUlqaEY5SlFhbEJ0UExxX1VUWUR3M2RrTnJGLTZIb1JrWHQ1a25NRnlBTUlQMGxVTUhYYnRjdVhkbGg0Xy1vcXlqMS1SY1k2U3RQV2VIeVFVdWk4UXp3eEN4NjNWcllyaHJISExGMUhPcVhXSE9reXQzR25mMUhYUWlScUtYdE9wTFRfV0U4ai1OY3VEallyWWxKMzNndEtFem9qTkFzMmtEUk5mTkxTSlctVTBZT2dKMC1HdFd4NlNwa21wdGpvbjNvUGVPTlJ5dUVhb3B4QWh6dEhVV1ZlMDJpcEhmbzJWSTRZeTZIUkNR?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Wed, 03 Jun 2026 11:17:56 GMT",
+          "fetched_at": "2026-06-07T16:57:56.243896",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,21 +394,66 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-07T10:19:04.298747",
+      "last_updated": "2026-06-07T16:59:55.359499",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
+        "score": -0.2,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 2,
+        "neg": 3
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at HDFC Bank",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at HDFC Bank: resignation. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "Private investment announcements jump to Rs 56 lakh crore in FY26, says SBI Research  Adani Enterprises, Adani Energy: Adani Group shares in focus as ...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "resignation"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "ESG Compliance Gaps at HDFC Bank",
+          "severity": "Medium",
+          "description": "ESG red flags detected at HDFC Bank: governance, board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Private investment announcements jump to Rs 56 lakh crore in FY26, says SBI Research  Adani Enterprises, Adani Energy: Adani Group shares in focus as ...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "governance",
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -300,57 +473,99 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "HDFC Bank: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "Private investment announcements jump to Rs 56 lakh crore in FY26, says SBI Research",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOdEI4My1PRWpJRm14VzYxOGlsd0xpOVNUVGg4NGRUWXJRTmsxTVBJNnVxQ2JkaW9mTUhhT3ptQnN2TDc1M0ROS0h4c0ttbTE0c0pvcEdCcFgtTVFobW9rVTFfX19mc1dfbzlXMGdrYlJGN2FVbl82cWIyMnZjUFVxMS1BYnB5eXlhVHFXUUdjMEQxX2RmOVhJOC1udDhTUExJY1gyd2U2UXlNMmJ0NF9jcXVwZkNjYXZMTWxMNnY0bFdoeDRBZWZFWjRpMHlKTzV1VnNUMFo2YXRDaVUySGhjZVRHX3RZVkJmbS1MaThlMVpfX2poZ2NEVzFmaEc0d9IBgwJBVV95cUxNNXRyd25uUFc3M1J5WmRZTENoQVNnVll2N1V3SUFGakc4eWRUcU5ORFlmSVdPMFVKZUhaWS1ESmI5STcwT2xRZV9FVEo3cHkwVlBuZHhCbWQ4RWRhanNCZEF6a1Z4bDI1NzhBSnNoYUpYVjYtU05OcVFnNllCLVItM3U2V2YzWG1NTVQ0U1ppdlg1MXd6ODNUSUNGdjFrZC1WNXQ4ZzVCbmJnY2dOb2lySVJfUjQyYXlzVGFhdlZXa1IwaVZvRHJDRVBKVDVFNG5tek5ZelFGcFhHVURFWXM1QkNvakRmY1N4RzNzRlhaQWJTLXJPa21GVkptZFRheGk0N180?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sun, 07 Jun 2026 12:48:00 GMT",
+          "fetched_at": "2026-06-07T16:59:08.342274",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Enterprises, Adani Energy: Adani Group shares in focus as SBI MF buys stake worth ₹5,747 crore",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPdTlIMVpnWUQ5YlMxTTkxc1A2U1Z3QW50bkNYUXpWM09FOXh3akpJb19rWUF3WE5FelNseGh0eF9xZTBlbmY3dVYwREFCUDl4bDBRZHp4Vmk5dVpMUU5HdWlZWHFwOVppajJISVJOTFozNW9EWTRSYUl1QTNId3h4bzNPWTVPbDdtOE1PS1hZdDhuUlZCUE1xeUN5Ym02TWhuY3pOSjA3S2VVX3o4Si04WnUtREp4T3JQRkpmdUFqNFNrNVlaZmZrSVhzb2ZVRE9MR3BhS01kSWFoeEY1aklhNl9ZR3pLUG9JaTJuMThCSVZfYUd1MHRDbTlXOHFXZnZCWDhUaQ?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Sun, 07 Jun 2026 08:01:43 GMT",
+          "fetched_at": "2026-06-07T16:59:08.342300",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        },
+        {
+          "title": "SBI heist ‘mastermind’ sent to Surat jail, police say will seek custody",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeHd6NEE4V3NOOUdWRE5nT0gyczhUYjNKWE16VW94MnJBeUt3b3BlRWpwWTFiWUotM2J6T2drUnpBQmtQZzNCZGFJMm1XQ0xaQ21PelFVbTViRDNxbG5rZnh4V29QRXJBbUFLRFdDM3QwTjJDREFMM3FuWlJibmdhVHVtejhtRXVvZHYyTUdwSUxQS3NiWlFvNnhJRDZwZzZXVUg1ZzJXa25OYTjSAbIBQVVfeXFMTlRsUnd2SFJ4MWYyaEE4RzRKZ1Z0ZDgxbE5aaDRpR0k0akpGSnZpREpQMWxWQ1laUHNQcjFHN1dQTEZ3TjFCSTU4RTNtMnV1U2dUQ2RtQnZpMkZNQ1Ayc2F5djhqVzU0NjBucndsRmhCbkFjRFpRT0YzVTZGWmZzSzZLTFRNdlJqTDRQVDY3UXc1VWlUTTRxV3hWcXJJOUpvSUItVFVkSWFpQWpEOE4zbHFJdw?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Sun, 07 Jun 2026 03:24:55 GMT",
+          "fetched_at": "2026-06-07T16:59:08.342305",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bank Holidays next week — 8 to 14 June: When will SBI, HDFC, ICICI and other banks be closed? RBI calendar here",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPY2luWTlXdllLTUVjZzlycVNjRFBreGwxQXBXSVU3WURZQTVVMF9fbGJsaDQ0VmVsUXlWZG0xSXVUREFpNFdOWDFjOHk3VFJLNUxXcENILVI0aW1FMk1GWXhtRmdmMHdNN0NZb1NaWmE3dUhTU2hqRVFjdHU1cjN6V0RqbHVKcFlnZm9iRGZNNkMzSGk5NVVVbG5VQThHTE1ER1ZGekloTnJIWUxraWgtZG9tTWhTVUlqMmRhM1FIa2pHd29aVy1LLVJmQkZtY0d5NEJtczhzdmlCeHQ5b0xkd29VU29oYkpxbmU2ZdIB8gFBVV95cUxPNmpybEQwejVuOFlyeWEtZFdmUnR3bDZfTUp5VDRxaXFsRkpWamJ5SWRHbDB4OEJHUUVOdGZ3NjJfRHVBbWpmM054cDZqQ0ZYd1FVQzRUVUFJaXN5WmdCX0xTdVNTU19VNzdkS0lkUUtVN2ljM3RiUzdnUnRBcGx4Z0Vnc29kXzZ3VUo5Q2YyZVJKVERHM19LNFNUMExOTEZVWGthSHA2VFlTeU96QmpzUVF0SW92Q1F2SGFTaWhURk9nRkZDU28yV3dOc1FvS1JFZXpsYjhicmo0R2pkMVJPSk1yc3pMamp2TlRUOWdvbk5DQQ?oc=5",
+          "source": "Mint",
+          "publishedAt": "Sun, 07 Jun 2026 02:47:21 GMT",
+          "fetched_at": "2026-06-07T16:59:08.342314",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Q4 FY26 Results Live Updates: Swiggy among key companies to announce Q4 results today. Check SBI, Hyundai...",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNVV9wWTIyckZFeDFBTmZxdElxQ3NYOHI2Q1VXX2g3NnVaOUtieEVwX2V2Yk50emhyY2VIZTJhaXhhMzdxeVdwNHpjMDRSeDZHRVFkMG8xbEhUUndCbDBLcW5uWVVkMF94NWtTdnpvMEt1ZllQN0otRVktN0pnNnVsWlI3azZHcHBhNHlMMnFPWU1PX3BoSEJ0ZVQyX3AzRjFEZVowMUZiMTUyazc3WHI2TzdYMWhhdjB4QS1sOEpHSDNsSk1ZQmNhRUhCVkZfTjBPUXNvemx5eTZoNGMxNnVTLU1IRS1vT3BUOS1SUnpzeC1PNUIxc21GTG12MF80aGdfbVRldGNVMWZONkdo0gGSAkFVX3lxTE9PNlUwOXdiVy1DREJ5bUNCTUt0SE1KTmRiOWdUaVdITmhCdnNyRGE3OEJXN0c0cHNRVGwzV0ZRbXNzaDZ6OTdzT2pSNjJfaVV0NFUtUnFEakVTTWk2c3p2R0JJM1J0SzM0ajhqMFpuWjJTbjFER2h5ZkFrcmtubHNXVmFjWnJOd1FvalRGc0h6SmJ0YXNHbEgtZVFWTVhENG9OSHBVNGZtVERCejBBcGdMNV92aFU1Umh4Nnh2dmJyQm5pMmQwTFhhem9BUVlnQmZsOWZQX2VzYnNXM3VpRFJPSEJ2SVM1TUJZM0NOWFFTcldULUtCVkpDODFkekNzaWlUWlBYajNrRHBvQU41eE5WeFE?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Fri, 08 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-07T16:59:08.342319",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnlrekJEX2tGMkZTRlFyczJaRHRjQjl3Q3pod0hrbU9oQkt1azREb09jbU1BYi03d0pKZmtxRkJaMU1kcVRwdG5QWFloYnNNX2ZfdGF1U1BZYlBJY1JYMUF1UDYxR2tTSC1kb0FNM2NQNHVjUmFhZTlrdHAyZmgtbXJlT0JrNTlsb1Q1TUM4eGZDNHlXWTNRNFhiMUpwbngwUVJ0U3ZpRQ?oc=5",
+          "source": "Whispers In The Corridors",
+          "publishedAt": "Fri, 05 Jun 2026 22:11:26 GMT",
+          "fetched_at": "2026-06-07T16:59:55.349938"
+        },
+        {
+          "title": "After Courts, RBI, independent reviewers clear HDFC Bank; persistence of crisis narrative raises questions",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYWdtLXFmUmRwRjJhTjA3cndDZllkbzJ0OU5qWlUyS3ZUdzF2OENLOHVOZml3aUNzaFBURlZnZWk0eVM3d0dzVTZXUnBsV3pLUktxaWJ0UDJOblExUURpdjFQSWRiS0FWbGN4dHh4Qmw0QnRrQkFjZXFNVElGaHNMemY0ODEwbHU0dFVwcEU5Zm45YkFsbmkzSkQzNTVZWXNmVk90eWg5cV9DR2JjYzRacUFtT0NfYTRIdXBJRTNQQm9RZXRUYlk1eThGOGV1cVJ4VGpNRkhEdzh3dWM1Yi0wSy16RjRaOHFJVGc?oc=5",
+          "source": "ANI News",
+          "publishedAt": "Fri, 05 Jun 2026 03:33:00 GMT",
+          "fetched_at": "2026-06-07T16:59:55.349951"
+        },
+        {
+          "title": "SC issues notice to HDFC CEO on Lilavati Trust plea against HC quashing FIR against him",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPckw3SjJ4QXJPN1FKbFlhX19kYTV4UzVPRDRrUVJqV2JrSGQ2aDlja09YVTNrOXNvelhnX25TOXI5N3FmQ2JpZ20xdEdSTFgtOS0tcVlpRmhaRjFQOTdYYnNFNTVGU1h2eDVoV3ZUcU9walF1QVJDSjFqRjBHZzJRWjlxbWo4WTAtTFFScDljWFIxVDhuMVVRc2JZWFVpSktRbGNkdzl6WG9sRm5KcURFQWRaQkRvWXBlSXExU3d1ZWxLbGJIbkVLWEowdUZmUl9UaEVscnNQai1xMHZBVGdORHpLSTZXRDIzbmszaTNhZVFWb3PSAfgBQVVfeXFMUFlqaFdUZVplR1JuTnFBMl9JMk5EU1RMQlVHWEhubG5iN1lzNkxxa1dESFA3SVJpSzdtOHRUV3k4ZURzNkIxNERYdXBKb2dKYXByRkxXWmVHMGRQWTNoVGVTMzlaR0FkMGNnTTFFUVlDcm0zcXpyQ1N0bThuVjlQZ082T0hXRTlYcEVsbHNqOUdmZWV3NlFLSTlOSGRzRDJGS2ZOU19SSU1XRjFJVnBLNU5tVEp4MEZkaG5LeVU4NGhESGhDNlBCTnRlbFcxcXEwRmhsNE1yZXU3bGlpVEowWjFGR1pqdVJ3UV9XUEk3Q243UXl4VFYtbEg?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-07T16:59:55.349955"
+        },
+        {
+          "title": "#CNBCTV18Exclusive | HDFC Bank’s board is likely to send CEO #SashidharJagdishan’s name for reappointment after reviewing law firms’ report on former chairman #AtanuChakraborty’s resignation, expected by month-end, sources tell CNBC-TV18 By Fur",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVkhwdWhSeWU2bXNlbEU0b1JaNUFtZ3E4TmpQX1lxQU1BY1p1NnBoYUU1SzB4UkttNDZLNzg3eHNDbEVCaUtuRko1SHc4RVlIMDNBMUIwNlJhSEF4dXMzbllyRDZuTVhUUWgxM1FibUxMNWxpeDJEVElQQWpDR283WHVhUno1dk4xSG0wMXQ5M0pweDJPLXJPblVpRFZ2N0lXSVRpcVNET3dDa0tPTFRVUjF0ZGxoOFRRa3hIWmdYRXhaWVRkeXVJ?oc=5",
+          "source": "LinkedIn",
+          "publishedAt": "Mon, 20 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-07T16:59:55.349964"
+        },
+        {
+          "title": "HDFC Bank to review decisions, ensure full transparency: CEO, Sashidhar Jagdishan",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNWGRZUEdBMFFOdTlQZlptYlNhOXFKNnlFQWJYN2ROLXFvRU45aGpxbmlCOURueU9sa1lXODlXX2RNUnB5bFVXSDVEcmZvVkFPRGhzVkxBY2tIM0tPMV9tcjhnY0dVUS1FdWtnMzNzb1ZNRG5nVTJIczhYSXlRQ2NnSVBnLUJiRGR0TVdNTVdBUVd2a0tFUzRBVFZLTUxUM2lVMUdSMktPRGhhc0JaMW44QS1BWU5iQ2xWNDVwdHl6cHdEUVdPM0N5UGtOaHRoRWFPSGhNZHY4RWVhU1hZcUU5ZU1hUkROQ3lsdTFGT3poQ3NvWU5zbmtRWdIB_gFBVV95cUxQb0hkWklBb0hJMElJWFE4ZkhFdjRfYUIxbTZiTHdjWWk5UDRsUU5WRGFEc1JEZS0tak85dVMxdVc2aUZkdXNqTlM3TVRWaUVXZXN5Rmk3SnB3VXNZYmw0ZFhxREM1d2ZYWDZnVlpmZkE0X3BGRmllNGREMTZIdVMwb05fNjlOV01STUhZa1JBYjk5N25zMEZ5S21xLTRhMlNJSGR2ZE1qX1hMZExIRWpJbGlEUmNxVU5HQ3VQaWF4Znc5Q3FDdkN3NTJZcldPbVpmdmczMmtWdWJyMkplVExWSjJNWGQ1bDRoOFZIVkpibWpqREpHaW5LR2FtVHJ1UQ?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Mon, 23 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-07T16:59:55.349968"
+        }
+      ],
       "filings": []
     },
     "Bharti Airtel": {
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-07T10:19:37.828051",
+      "last_updated": "2026-06-07T17:00:56.175380",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +649,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-07T10:20:38.216513",
+      "last_updated": "2026-06-07T17:02:17.688977",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
