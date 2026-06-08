@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-07T22:00:00.119007",
+    "generated_at": "2026-06-08T14:57:45.767519",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,43 +14,21 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-07T21:54:40.383166",
+      "last_updated": "2026-06-08T14:52:01.163145",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.5,
-        "label": "Positive",
-        "pos": 3,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Reliance Industries",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Reliance Industries: board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Reliance Retail's growth drivers in FY 2025-26 — built around what India wants, where India wants it: • Quick commerce: JioMart in 5,100+ pincodes, Mi...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "board"
-          ],
-          "solutions": [
-            {
-              "title": "Reliance Industries: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -90,64 +68,48 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Reliance Retail's growth drivers in FY 2025-26 — built around what India wants, where India wants it: • Quick commerce: JioMart in 5,100+ pincodes, Milkbasket subscription, sub-4-hour Ajio Rush • Premium and luxury partnerships: Stella McCartney, Kurt Gei",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQelhTcDNzYWdFbmx0WDhMVzJJRzFGb0xqajB5RmRCUkh0WGpmSTAxTUdNbS0yZnZlbFZnWDNzQW5hSW5iLW5tUnY0UUY1RDd2R3ZCMTdBYXV3WTN6cERaSWhuYm5FRXNGckJBbGFIa08tV21rMzQ3dG5ueU9Sdm1wMjI4LWgxVGZta1ozUEZzaDlZa1ZnSE9raTRrX1BEZFowOUZ5M2hkQktDWjgyNkQ1aDVGelBQUW1uU1JGWWV5blpqQkJVS1N4M0lhSmRYWmdtcVhYYTJWVE1xZ0FhSHNDc1B2RkR3bFpGVzkw?oc=5",
-          "source": "facebook.com",
-          "publishedAt": "Sat, 06 Jun 2026 10:30:18 GMT",
-          "fetched_at": "2026-06-07T21:54:40.382420"
-        },
-        {
-          "title": "Anant Ambani's appointment as whole-time executive director of Reliance secures 94.4% shareholder approval",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcG1fLXF2YzY2NlJYUWVYeGppNWhDRUc0SGVtcDdFbWd0OUxVbWhhekVVbWYtc0Zmdk5EUDVPcHJwaGVPbTM5cVJqSmk4OGp6MmtaUE1aMzlmekpyWUlJQTdaM1lOdTE1RlM5LW9UZDZwcFhWSWxVTU9rbUtQblkwVkJJeUlvUEoyQmhVS2NyVFNkb1RiVzBNejF2OFd1MGJXNTVHN2JOdEVxa1lSUUNDcENHUTV4SzViYnBiY0NCYnZZUzdRdjd6ZTVqdVY4QnpEMS1NSjVRTmRaZUVRQ0pFcFhJb0syaVFHQWdyYWFWSktSNEtNMWkw0gH8AUFVX3lxTE1xdF9qb1ZaczBISURJN19PYXAtTE81d1R0cjdGQU9kMXlFQTQ5OERGaHVCeU5LZXFjQklyMndyN3JrM2FZWUNxeHhLOURkQ3BDU3UtbTVjQnd1Q3cyd3BUbExYejNMbjNoeFl0b0RvMXQ1SnlIZkV3RGVhMGYxTVBlWWp0VXdic2Q5NGlFUHdiazVRczY5TXRFM3NpWWk4QjZWT3ZtY0dsQURvSndWTUx2cHVtUGxSV0RlWlpiS2NJMmo5VlpxV2EzcENZZkkyWjNFTjY5YTdxdVVLeGZBV2NCVDd3ZEZyNWxnSkpSSl9lMVEtNnJnaWxjNUxYSQ?oc=5",
-          "source": "Mint",
-          "publishedAt": "Sun, 07 Jun 2026 17:04:02 GMT",
-          "fetched_at": "2026-06-07T21:54:40.382437"
-        },
-        {
-          "title": "Jio-bp — India's fastest-growing fuel retail network in FY 2025-26: • 2,199 outlets nationwide • HSD sales up 29% Y-o-Y, MS up 32% Y-o-Y (vs industry growth of 3.1% and 6.5%) • 6,200+ EV charging points • 112 'CleanNGreen' CBG (Compressed Bio-Gas) ou",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOYmExdDVWaHZDck0xX0lBWFAyRUpyN1lpUFVxalNCNWpGWlhmYzByT1VabmZ0T1RQUjdFUzBObFQ4N3M0Q0dDaHVEcFNnLVJrdWdNSExlT3Jqc3VWaVFiVzZjcUdfRmVDSEpQUDFlWExadWlTd2t5QnZhZ3RtZ2szOXpJRUNaQ21yQzVqSkZCUEpLZXR0aTRTYWV0MWY0NTBoUHFDb2YtU2NlQkRvWjBRZ0FxaExqN0swaDhsUk1RbGp6bmtUUmNiQ0k4TXVMdTRhQ1dZVVNfclFHOFJvTUd0TjNUeXlrcGxtZXVr?oc=5",
-          "source": "facebook.com",
-          "publishedAt": "Sun, 07 Jun 2026 05:30:20 GMT",
-          "fetched_at": "2026-06-07T21:54:40.382446"
-        },
-        {
-          "title": "Reliance Brands Appoints Aniket Kumar Singh as Head of E-commerce",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZTBBSHhPM1RjeW90OEZGRXJwTTlZZk9IUWcyNC0ybXhmclh4LUxDRi1NREE1ejRDT29sU1dBaGVVaDBOS0NBZzNENkFRenU4ajZmeTM0Z3ZnaFRGSU1vU3lUemhHLS10OTFYWHAwakkxTWQtTm42RFp4bnNFTExpd0dKTXpTOTNVMTREWElocWhCZE9TQ1NlWmpjWkxKX1M2Ukh4V3dXZVhkSW41X3pR?oc=5",
-          "source": "Apparel Resources",
-          "publishedAt": "Sat, 06 Jun 2026 07:47:13 GMT",
-          "fetched_at": "2026-06-07T21:54:40.382454"
-        },
-        {
-          "title": "Buy Reliance Industries Ltd for the Target Rs.1,655 by Motilal Oswal Financial Services Ltd",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdzhtcXRnakdfanhIODVtclZvak9jNTFDV1FhQ25yYnN4TFVCY3IyYURWd2JlQmpDeDYxdjYtaHUxYUFVNTFBcmJPSm5fVDY5R1lqd1B6Vnh6RjU1X3Zjd0JTX2ozcURWSDlFd2duT0tpZHFEbm4wdHA1ZXpYZkdwOHIzeW0wd0ZvendOcnlMX0VQbDJVek5ab1JmVzJDMXdlOWF0NGFZeE9qdEcxcFlETEM0MzNoM1Rud3hBSE9EOVkzSlNaYWNNbFlEOVBtcUhuQWVDQVVyYw?oc=5",
-          "source": "Investment Guru India",
-          "publishedAt": "Sun, 07 Jun 2026 04:33:23 GMT",
-          "fetched_at": "2026-06-07T21:54:40.382459"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "TCS": {
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-07T21:55:28.830738",
+      "last_updated": "2026-06-08T14:53:06.923816",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.33,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -212,7 +174,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Wipro shares fall over 11% in 2 days; should you buy, sell or hold?",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOazJ4U295dERJMG1EZWNJRmtQZWo1MlI5QlZYX3ZpWDRTSmJwMVlEeVFCVFZiWGowR1hUYTdGdXJKN2g0S2hXMjNKblVmUTA0ZWtsU0VURV9sSUxmNExOOVo3OC1kVTN2S1d4cDdJMnBiVnFqTUV6c25jU2x1aURPV0Iwa0VCTDBsMjd4a3VPMlpZMTFQdTdlSlJ4MVcwYUl5RlFpXzdvR05vV3lrTjFFY2VQWDlqQXZJWEo4VkZzbU1NT0NMVXBN0gHMAUFVX3lxTE1lUVNGWllzMXNwdEJHSllxWmtPMGpZWjRmMnVZOWhiRnQxcE5yUk5iMHM5dzNtWlRMVURBTThHSEZmTU1NaVYzOWZId2daTGJEWWR2OENpUDB2bF9FOEdSaWNTMDFPZlFMY3VYYTVZWUtfUzQyeVN5dHloRE5pUmI4bjVJVXdfU3AwTWRrdTZwd2h5NTAwajF6RlQ1OURKU09DZ3Q5eUhrUmJmUHhzSzQ0c0F4czZXS3BTVEEzR1FrR1ZjM3JaWXZOZ2I3eQ?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Mon, 08 Jun 2026 11:40:20 GMT",
+          "fetched_at": "2026-06-08T14:52:35.631849",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro shares plunge over 8%. What’s behind the selloff?",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQclY2TWpKazR2UzdTNTZ3QnQ1SjlPQmI2OTZHXzJBMTkzeDBYQ1ZiemxxTzZvZV9iYnN2bjhOX0NkdWpadnhMaDZveUJGWEJWWWRIa2E5YnlDZ0lyZ1gwYXg1clM4UUN0S1FVdGxET05hRzE2VEt2cHNacHQtUmhLSnBMc1RIVWdtVGo2SUkzUHRpVzVHeVpySVFnRjFKQnJ4V0FKdlBiQzdraXJFbWkxM2lGNTJWXzBNdndiN0d1UlB0QXdvVWE0NVlfZUF3ZlVrMi0yUVpMWkRuUdIB3wFBVV95cUxOLXRCZngxdjFGZ3NHUmU4TC0xRUlnRHpudUVhOF9VWHBBQmlGOFk3ejlHRTBWQW5lU1J1aDh4OHhXQVJ0TUFsbVlEUG1yRXBGdjU4REp4TmdPQzk5QVU3VjhlYnprNUJXcW50eWdHZ0xSVFJuOGg2UFoxZVFXSm1FLV9jOFo0UENsS1M1WEtZQ0Z0eXQtQnBPdFhVb0tsQ0hvMExXSkR0U2RsYlFyVTdyRFN0NzVwU2xISXVUTjZuTkkzOG9CazBlRzZpdC1YRk80RER3T19fa1J4dERuZ2VN?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Mon, 08 Jun 2026 04:41:55 GMT",
+          "fetched_at": "2026-06-08T14:52:35.631874",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Top gainers and losers, June 8: Wipro tumbles 8%, Jio Finserv, Eternal down 4%, Max Healthcare up 3%; check list",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVGhCbF9CN0JFajZOaXVGdHJhSFNHTmNtclJ5bEhPckdzYWR2WkZDaTd2aFhhVUNLQ09rdHZsMnpwT1g4dG14SmJkSXhUamN5T1lyTkVQckpKd253S1Z6c245SXdKeWNGY1Aza3hYSEtnZ0lfRXdTZnZ1by1BOGxJNzkxbGVlUVdtMDhUcjA3aXpHY1UxTFhoWXBRLXY4UnJXclZraGVseE9yT3QwRGl3dXdkX0J0b2dhUlJpQ01Ed2RCVHVOY1pqQk1aXy1seV9ubWhJLS10V2E4Z0xzOV82b1kxWnNOdUFEOUtmVjRzX3g0SGkx?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Mon, 08 Jun 2026 11:10:49 GMT",
+          "fetched_at": "2026-06-08T14:52:35.631880",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro, TCS drag Nifty IT 2% lower after Nasdaq crash, AI selloff",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSzNaWmdrcXRocUJkOGVENVFteDU2bDc1T2FURTBPMEFPNjlMOVFMSlhNMlZjeDUwMkp6ejhjY3BNZzhmTV8ycXBnTU1CUnlSNkNCVHNHOTg4VFJhZHQ3VGl2VGlNYl9jYlJLN0lsMU5RUWN6dXBkbURfMWxnSy1ya245UUNiNGRPV2xCUjM4REE2ZmNGTDhFZU03b05mUG5uWXVWRHRYdFdoZnhjUWNCRkNzeFNuM3BDN2tuSktIdU9CS2xl0gHLAUFVX3lxTE9vOGRCV05KS3FVNXFnWHFuTE50VnU3TGt6UFdRSVJNV21vQ2Q3Wm1JZWNwTUlVbm92RWZJTEkyTzdwQlZFbFJxUTJTWWswQWlHY2NXWlVROFpxUER2ajhZZWpWVURSV21iOW4xQU9GeGpmV1VZQVFnZ3c3SjROdHctWWwyakQ3c196Y2hDZmpzaEZndW9jWWMyQ3dyNGt4cmxnZDkzWUpKcXJ1YVRtbFVPZENWME1iNkpRdV80V3RNelcxR25mM2lCT2pB?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Mon, 08 Jun 2026 05:28:25 GMT",
+          "fetched_at": "2026-06-08T14:52:35.631884",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro Shares Fall 4%; TCS, Infosys, HCL Drop Over 1% As Global IT Crashes",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFpNbG90bVVSZ25DMEJKQ0lKaVJfMmZjS0UtZ0FQRUE3Z2FQRWdSRGFsejNXN2dYWkhrRmRTTnNtOHRpcWh4NXhieVR3QXZ4TUw5ckFRVzBxaWJhZDJRazZuMnhPN19ES3UwY05UWUx4cnZZaDFkV3hhSW5pRFdPYTREaDBOc0lucFQ0bHUydGJDNzV5aTdjM2c3TkpNV0FjRU5VT2s0elphWWVXUWpuc3NuMURZdW1OY2x0cFFRWl85YnpRc3VOMkxSZ9IB0wFBVV95cUxPdU1Ja21VeDJ6ZkpFU3NNVC1aZGZ1dmQxcUc3NGhUclFKMUxUSWhIeWd6ZWI1RnRQTXE5Sm5tdzZqSEt1SGRYMVFnam9hOWFxSnhUUWJjM1pPVFdvUWZrNHJIcWJWZnBXOVNtMkFZT3B3djdxNVhqU2M4RVFwdGpiVWVYd25yellvbEwyeHhCNjgzR1A2UmhZT1lpblUydHF6aURNbHYtS1BsRXduWThrNy02VGM5VjNyOW5NRm1FOW5UVWtMV25GcldoeDFYS1o1eWlz?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Mon, 08 Jun 2026 03:55:41 GMT",
+          "fetched_at": "2026-06-08T14:52:35.631888",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -220,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-07T21:56:39.672072",
+      "last_updated": "2026-06-08T14:54:37.426006",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -304,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-07T21:57:45.482882",
+      "last_updated": "2026-06-08T14:55:29.076594",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -388,20 +396,91 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-07T21:58:55.495478",
+      "last_updated": "2026-06-08T14:56:29.031747",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
+        "score": 0.0,
+        "label": "Neutral",
         "pos": 1,
-        "neg": 0
+        "neg": 1
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
+          "source": "EY",
+          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394019"
+        },
+        {
+          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
+          "source": "Forbes India",
+          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394036"
+        },
+        {
+          "title": "Airtel appoints Gopal Vittal as executive vice chairman, Shashwat Sharma as MD & CEO",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNd3ZWUV9LaUd2RWdZWXp1T3ZfMmRxNzU3MFdIb0RYUktEMUFWTDROODhMT183bFlvSnVBZ1VjcGFBZDVEQUc2WmRqaWp2OW5VT3pZUzUyWjJHYmkydlc5NWlzeHJFWTRpSFRWRnNCWUxZTU5QcDNNWTBfMTNKbmp3MFBQSU1PU00xYlZYQWVzbWNLUER5QlN0Q2FSTUtuQ1pkYmdRbmJVd0ZUQ2lEeTFyX0N2VWxPYVVfYUZCSV83UG5FTVBnZmlLNTk2UzVvTkNvZXVaRlZVSXJfdWI0UG43Qkg1Z2xTX05fZ1BiTzJFeW9sV0lsVF96YnJCeno?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Fri, 19 Dec 2025 08:00:00 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394044"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chairman, Gopal Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVFVzUnM4cGFuMUJZbFlHN1ZDelpCNDJrcGhqWDJlb0VjZXIzWUFhRjQ1azdYYktnb1J4cXVkT3R2NmxoaVFkS2ZtVWszMFlaQ0tNT1JlOXQ2eG13OElKc3pXcmlXcFlueW5kVWZCWUwteHkzLXN3TEZIa3ZHZnRib1VhZjRWaTUxUldQa0JZZnZPdDEweTgzN29WR2lxX0p0YmZZczRzY2ZCUEstTGNWZjlGU0lOT3RuNUxXcHN0M1ZPRXBnby1Sei1aNzRwUU0wblVyWXgzVkfSAd4BQVVfeXFMT2djNmxzWVh2TmxSaV9TdjhkVnU3bnZYZ3VhTENQYnUxclJMRXF4ZmtvR01mc3dINUtCSzNDMXFmVnJmdzF0ckV6LWoyOG1XQ0pOSWJHRkljUzN1aUVQc2cxRkVJbVlJUVJnSXI5SjhlR2xiR2pGcW1fbzAxcTBOTkx2NDhjdzlQbURzLTVnN05GZnRfenREb19Xc0VPZzIzYWlXMXA4bnl5b1p4bS1JRThKVWc2S3Nma1M1Y2dmTy1TdDlJQXJodlM5bVNJMTNFckZpMTFJN3JmRW9tc1pn?oc=5",
+          "source": "Telegraph India",
+          "publishedAt": "Thu, 26 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394048"
+        },
+        {
+          "title": "Gopal Vittal, the CEO who grew Airtel's market cap roughly ₹1 trn annually for 12 years on the trot",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT3lEMUlRTkxfd1R6eFlVTHZUT2NkcXM4NkdsOGVIZjJkTTVTclFfQlFER2xBNDRmZ2stNXk1ZE1aSHUxblFHQjBOeG1fU1ltRXU3MElGYmJ5M3lwNlFna2FEYWVQdWxST0VYMHdld2N4YkxHRnE2anZSa0lFZ1NlVlZuSWV2RDVrZlFjNDVOX3d1NUhXS2FTV3VwcU96YXhpbUZtRzVsZDVKdzNWakN2azRR0gG3AUFVX3lxTE5hNlVjaWU3Uk5PQVNnQ212TUgxb0FCWFJCZjB4VWlkLW9NWWlwY1BQcms1WlhoNW5EWjdCbHY2Rzl6MS1xSFZ6S0N6QmRkYi1uNWttYTQxN2FDTk13RnRZVGI1VnBDZFlQWUFqdVpzWFRTREh0OGE3eWVadGNFNWVNZkJ6eEl4NC1LRVlEdjQ2TkktRUEyc2ZVelNrb0F2eThCSDVlUW1uQkdkSEtIVmpDOFIwb3VEMA?oc=5",
+          "source": "Mint",
+          "publishedAt": "Tue, 23 Dec 2025 08:00:00 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394053"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chairman in July, Gopal Vittal to take charge",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMms3S2NRS1NuUkdBakdPRmVUQll6UUtMczBHMUlEWDRVLWRxZjNsRldOMXlnZlh4SUlCREFlblI5Z2ZLbzdkT1UwYnlGcTA3THVZTGtqb1pseVFESEtTMHV2VFk1U1pXcWQ4MUpkWGtDRHUybU5LRml2WkVxSXlkZmNnRjRzRDZrenQzNmxYZHd0SEpnTk45Z250ellBb0lPb29tMkF4SXNCR2x5N1pqd25QVktlQ0d2NXJCSUNldWZCZk80M3BFM19LLVFmTDdLb0xpeGVLXzlqYTk2d0tZVnZPQ1ZPVkJPZFktUGkxYTZyZHdvdG5r0gH8AUFVX3lxTFBxVHFPRzhyZDRCRE9mZ2FsTVlfdy1rc0JDN2RHOWhoRWZlUHhubkg1NVg0ZzZnZkNUdVk4TnRPa3Bpb1BDYy1fNkVZaks3ZUc0S0lHRGN1aE54MTExYjJaTlFBTjBEQVl1cUx2Ny1wejVSVVJNRTU3SHpXeDRfNmZ2WU5WaGwxdUpNdkRhZERRRHlWallRamFoN3kzcnZQbTQ5OHBFbVBmakF5dF9Pb0wydzY2VTA5eWprN3EwYTNRMFZ1dkVpOEJEMDhSQXhVVWdnaTkxTUtiMk5HM0xkbDFrZlYzeEhsQUVGOFFsdTcwOGUxSlV0Wi0zdE1hYw?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394057"
+        },
+        {
+          "title": "Bharti Airtel shares gain after management reshuffle: Shashwat Sharma succeeds Gopal Vittal as MD & CEO; check other changes",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQck51TXFRS25vRlhGUGFMQ0lSemZONERSZHh6YVlMb0hwcEwtMUZxSkZlanZfdHZmdlR6RS1XLVNKNmZjMzEtN25CR25KX3puaVpwelFia3ZKMlZOZnBnNGVtRlF2X3FsRFJRRUdkSHJZWHBVNWxPR25DQnE3QjFNMmZ0d3pMYmRPVXY1a1A2NjRwNFRjQ1ZhU2xEMUtaNl9fS0pOQ1kxYWlRbllkNV9vb1ExazhYQ08yTWl1YTBINmZaNDdJUVVNQUc5eWtPbXZXbVJmcDJ2U0NEMUJNWkxQVDVDX3ZDeUxkRGRMMVlfaFpsNVJPVEFnaGphcmF3ekR2VVdWT1JYZzQyT29rWDZGRzRGRzZkUQ?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Thu, 18 Dec 2025 08:00:00 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394062"
+        },
+        {
+          "title": "Vittal to replace Mittal as Airtel Africa chair",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmdlQmZHTm5sVGdfNkxjMUlnN1paZUo3QWlJbnlzcl9Na3Z4NUJfdHNzWHl5ZG1oUHp2RGQ3RHl0TFk5TjBzR2hPemc5WjRQcUxGakwxWlFNdXdyNktMZncyZGtvSUF0bWQ0UlA0dlNLNENDZ3BOV2p4enhsLXpSeTduOUF0S0VlVThWb0lEQXQ?oc=5",
+          "source": "Mobile World Live",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394066"
+        },
+        {
+          "title": "Bharti Airtel Wants Equal Treatment: Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTTNQenJCcDhaSDVXLV9XQmNta1pYNGFPZnRDYkZvSjVlY1dFeGZPLS1wamlEdWpqb3daYjh1TEc1Z0t4a29IRmZKakQ5TUhZcl90cXMtWlhQS3BCY0tpY1dhcUtIY256c1Eza0hIWGc3OU9DaVgwbDQ5UVRxSEtfaVh3RXJZU3plbGc?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Tue, 10 Feb 2026 08:00:00 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394069"
+        },
+        {
+          "title": "Bharti Airtel names Shashwat Sharma MD & CEO as Gopal Vittal moves to Executive Vice Chairman",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUnhaNzRCWDlUSVZKa2k4YW9JNFdhWGdOemZod1FyenBVNDkwbmRGX1EyZDhGT0pZY0JrbEc4c0tqcWhUaGZsZ1U0a19QOEl1YWY2MGFnVF9BS3A5TUdiOUh3WFM5dzlpd1ZJWTIzcV92NENQclRLb1ppd1loX1haaXJxWkxQSjdLZmhVcUY0NDNGTnBNWHk3eG8tUDRZMUV3cDlqdE42XzJQWGNwU2dZR1J0S0t1eGJZdzNRYy1jV01hMlFk?oc=5",
+          "source": "Adgully.com",
+          "publishedAt": "Fri, 19 Dec 2025 08:00:00 GMT",
+          "fetched_at": "2026-06-08T14:55:38.394073"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Bharti Airtel: Strategic Market Intelligence & Early Warning System",
@@ -464,107 +543,25 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Bank loses Rs 87 lakh to SIM swap fraud, Karnataka high court orders BSNL to pay over Rs 55 lakh compensa",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOUFEyUXpIZVEyV2hoR2JRU1ZjdDl0SVhUR2JwaklaZi1QUkw3anBvSWxLcDU3VXdTZHJXLVA4STQ4d2hjelNrN2plNGd1OTJ4SG9LVjBXRkYtWjc0dHdXRUtCbU5IRHNKc05rbmJzYjRaRVR6MzNMM0F3TnVISTVFckNoa2JqdmwtWkotd3p4MzlXTFpER09ZbEV5SVoyMHFBOFNPZm9GcTdGNjJRSFFtT25JVnBHTTNPOWt2MFBCZmh3d1lxWVBLMUdJVFJ5NnJlbzZzaHgyRVFtQzFlX3JyYUFZcUJ3QURfa2Rpa2pLVUlJdGUyTFVjb3d1VUtpNTlveXFNTm56aU92N2lESUHSAZMCQVVfeXFMUFdhcmtHRE1KZ192ejdUSE9aZVoxbF81NzczeFIySkpqanBWc2FhbnVXME1uUzZUN081WElmNHJlRk9MMnVvdk96ZDJGcHN0UFczbmxjSFlZcjd3bmJ4eXZCVlBmUlYxazZMVWdqeHQxNnZVZ25NdHhEZHdGTlcxS25EWnB6SHJuMndwcHlXNnNjdTNybG5YQ3BGVEpYNENuWGt3WDVqX0JNQ1lMRkZpdHZ6UkRLY1ROSmZaYkdydHRtZUxvd1NDRVpBM1o4dU9CQWY2d0Fva1VDOU5lWmMxZTNEY1N6Y1pSNEloaEZ4aU5pVjg1Qkk5cTNHb1g0c29GNEduVXpjS0ZnaHJONjNkUllXUm8?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Fri, 05 Jun 2026 12:42:00 GMT",
-          "fetched_at": "2026-06-07T21:58:40.345366",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SIM swap fraud: Karnataka HC tells BSNL to pay Rs 50.5 lakh compensation to co-op bank",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSEM1Q3kzYXhmMnRDOXlzcEJfOEFEVWt5cGc2QzBLX01SY3NkeDBUUXhhV18zMHhvQjlWanRPQVRrMWJBbi02RzRnaU41NVA0MFoxZl8zemZQTEFXcURxMzg3eV93djhtVHFGS21OVkRpb2ItX1laMkpDXzN5eEhaSC1ZZ09WaXB6R0tDSWxUYm1uaEJuVjZGLTlBMVlNTGdlZ19HOUlPSEM2NmtMeWVfV2FEajBqM3dXYkNnZVUyblc4djkzb2d2M3ZR?oc=5",
-          "source": "Deccan Herald",
-          "publishedAt": "Sun, 07 Jun 2026 01:50:18 GMT",
-          "fetched_at": "2026-06-07T21:58:40.345378",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Telcos liable for SIM swap fraud: Karnataka HC holds BSNL liable to pay ₹55 lakh for negligence",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV202bEw2Nnc5cmdqR0F2akNFa1Z5YnRXOHVFZ2d3TmhrazFndWpGMTVkM18weFFTTzFnb3ZWMzdaaWhLTk5qUFk3LThlNC1WY1ROUDI2S0M3YUY5Qm1QYk9TZGJXN0ZCaGtTeU9GVWkwNC1uNkx2QjkzallfMXBVaFNrSW9QSUozbTZveHFHNXA0RmhhX1p0OTVqTnRyZFVkYkdHc3dYSXRxNWlwall1MW5rZHhyTkFHQkpLNkdvZ0xJWlJBam1COUxrNUdKNFIxZWdF?oc=5",
-          "source": "Bar and Bench",
-          "publishedAt": "Fri, 05 Jun 2026 09:21:58 GMT",
-          "fetched_at": "2026-06-07T21:58:40.345386",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        },
-        {
-          "title": "BSNL ordered to pay Rs 55 lakh in SIM-swap fraud case | Tap to know more | Inshorts",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNemRiSExCYUNmbUJJVlptTUdPdmRXNUV5alUzUVBmSTlwbFVhTFhXUUtuaXVpWXRRNWZKd1JxS0N1SHEtdkVPanRmd2R5X2FHM3NaVWFpRjR3ejlzd2V4VVZrTHFvWXJRZEpNME9sc1lsWEUxS290Z0piRDRuN0JKQkJWNXBOZlh0QlNNRS00UlpQaWtyN1k1T3pPOELSAaIBQVVfeXFMTWtVaXBYbmIwV2QzM20xdGpQWDliZkdQWjhjX2JXRW1mcjlHQy1QS1lEN0JaNlBrZExpdFpfTDNFT3I0anlyeURvQl9Ec0VfbW1MdGdoU3Bob3puZUZVOFpnQWp4Nnl2QVZ0Y3NxMFVpbllGLXB2eUo3RC10bHJfNDN2Y2pIVngzcE5qYTZ2YWNkQW5uLTB4YXpCZk4teVR6UHhB?oc=5",
-          "source": "Inshorts",
-          "publishedAt": "Sun, 07 Jun 2026 05:57:06 GMT",
-          "fetched_at": "2026-06-07T21:58:40.345390",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Khammam MP Seeks Better BSNL Services To Improve Rural Connectivity",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSUdpWkdaclIzN2NnOS1ENl9Td2Q0RHBiZFFqSDBfLWR1ODRFR0tDNDI4RVdWdnNhZHN6SHVOd1Mtd2lyYTZtZG5OY25FUDdhcWNfTkNEdk5BMEZtWXBiVVg5YlNxS1NZMndRVGxvTi1RWjJ1X3RtajloWDBHckFxSTFYalJDYmZWbTdwTzl1SzR5RHFlRi1xNVprMDJpeXdvQW43ZEJNaHhLVW1IYnlVblc3N0lWbHpaY1ZUUFhXMU5QOFJDRFZPV2Y0QkxxQdIB0wFBVV95cUxPbmJwb2ExcFFnQ2NHcXZLR0g4U3AwYm00Wk9Sa2c3eW1lOUp3cVltak15WGVob3V3cGZKYk9oU0JBYW5ON3d4NHdldVltQU5BNlRVWHA5QV9sazVIbGZyc3FRWWdQanRJNWpBeE9nV2Z3MnhhWmRNU05Ua20zVjFERzZRQlBVUFhwQ0xBeVBHR1dOdTFHQTBDZGY4eHpwaWZXUUs2dWF0MTdYR3hLcGtSclRJaVpfYWFSR2czOEtjOWlJSkVCZHRTRU95cGUxSS1zNUEw?oc=5",
-          "source": "Deccan Chronicle",
-          "publishedAt": "Fri, 05 Jun 2026 13:35:54 GMT",
-          "fetched_at": "2026-06-07T21:58:40.345395",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
-          "source": "EY",
-          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
-          "fetched_at": "2026-06-07T21:58:55.495206"
-        },
-        {
-          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
-          "source": "Forbes India",
-          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-07T21:58:55.495220"
-        },
-        {
-          "title": "Sunil Mittal to step down as Airtel Africa chair in July; to be succeeded by Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYmxIY1hRTVRKcUc2aTU4NEFFamM0STZzX0x5anNGMDdqV2J5TTJUbHFFS1lsQ3ZRcHpWRjZ4S2Vfb1JSQy1OVlMxdk5Bc09zbGJfLXJJX2t3Q3NrS3B2WUdEWXhhVW9ENFJVTjlXUGVYZ3liR0FKOFJCQ2VTWmRfeVFMdnkySzBoSUI3M09YQXJTY2Jqb1JQVWxMTzhsMmN5UzVObnl0akZPcTlqQWYxejhkcDFhZDM0Smlmb0ptYVNDUHNOLUIwand4SDFIOWE1WEFQeDNzc2RTMzRkVHU2SVN30gHnAUFVX3lxTE9VR01ZaXlqWXlYNmR1SEJyWEw4YVh3bkJxdHJTamJTdEtVUmRtUm1uQWdlZFVONklJOS1yUjA0cTRmRElrVHJGSmtPY093VnVvVkZTaVQyRGVuU3o1Y3dWTzFRNzJVMkM2V05OM2poZ2E4LV9kSmVyR2tJOXBIY1VKamhwSWN3a2tzQllIYXV4VUwyczFGbGNManBCbnJnLUVSRENUMmVUVUV3Yy1yOVZXVUh2d1U4ZFR3TmJEYW9Dc0d5UHBaQVBjeVZ4eUwydHJXNFF3aWVxdHA5RmloVHkxMzZ3Z1lTTQ?oc=5",
-          "source": "Mint",
-          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-07T21:58:55.495225"
-        },
-        {
-          "title": "Airtel Says India Telecom Pricing Is Broken Due to Unlimited Data Plans",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM2JteEczXzhfWE1NYmltaWRvUWxJMy1fRFh6Q2p0bllJelV4NjNLODJwR19vT0stVi1vdDRDTFc5NjBrU3pHZGRUWUVMQ3RWcXdBdlE2ZUpDRUlxSHRMNHhDX2QxOXRHWHluOTdCWHhQcU9XOHE5eFBydnN4MHRYcXBBMnQ4V2hwV29sSXhLRDQ3Smd2S29Ial95YlBUaEU1dklyak84MW9iaHc?oc=5",
-          "source": "MediaNama",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-07T21:58:55.495228"
-        },
-        {
-          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0HSAeMBQVVfeXFMT0pkU3doaGNTbElsQ2UwdGFYQzhBMWQ1dzQ2UHBkQmtaWUVKRFRhTUU5d1dUazVOdnhMQTFsdFh3dS1SQkVSZU9ZRnozY28yQmlWRk9TdGN6bVlCeWlzMHQ1cUktampBMUtib01DZnlOVFJiLVR3UmhxWGVlRlFXRUFKRFMzbGZvR1RWN1RTX1BGTUdvM2hOenBrYnowMTRfRTJEUzRGYWZhams4Rm9odXBVVUZUMlYwWGItZkt4eUQ2SXY3X1MwWGt5UW9HS3NlbkhXaklVMkV1TGRQNGdreVZ5Vnc?oc=5",
-          "source": "ET Telecom",
-          "publishedAt": "Fri, 15 May 2026 01:51:00 GMT",
-          "fetched_at": "2026-06-07T21:58:55.495233"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-07T22:00:00.118995",
+      "last_updated": "2026-06-08T14:57:45.767503",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -630,53 +627,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Highlights: Gujarat Titans vs Rajasthan Royals | Qualifier 2 | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVENVUDFKUWpTSWNMcVpyVmpoUFlxUDBiUHhIUXBGYVZEQWZVYl9ISjhydkR0ZXhfWVpYSlNfUG4ybTl5QWhBcEpqRU1CSEJaUVhzYlVuNE1CSDh1VU5ZSnBsUlhEVWIyX0UtUTFOeDlhc01rS0pnS2ZJVTRNOXdCazRZZkxTZ2JEOVEtSXZ1Ny1DZ1RlcXlUZGFqYnNNa1pr?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 07 Jun 2026 19:15:09 GMT",
-          "fetched_at": "2026-06-07T21:59:51.437986",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RR vs CSK Cricket Scorecard, 3rd Match at Guwahati, March 30, 2026",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbkpVZTdrbFlaS3pHSENUTVR6N1RGX2lhUDN3MXNDcVh1TzJBTUlYU3R3RDNhdkdQYk1TUnc2TkM3ekowR3o4elkxVThvOE43ZDJwX1UzeU1tM3FyUDM1XzY0bzRJNTBSMTJ6akpCY19vbUlxeUQxTVR1VzE1MFV5a1FrWExrZXVwSkxaVU92cjhhOXB0eHM0Mk9JUjhyaEZwNUJocmYydm5nalI2bVRobkJkOF9Ia3hKWmdMY0xqdlZtWE0?oc=5",
-          "source": "ESPNcricinfo",
-          "publishedAt": "Fri, 13 Mar 2026 04:19:32 GMT",
-          "fetched_at": "2026-06-07T21:59:51.437998",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Highlights: Sunrisers Hyderabad vs Rajasthan Royals | Eliminator | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOGh6enlSRGFmWGhLMGNBWEN6SlBOQWt1aUZucmMtdjZ3OXhJa1VuZUNmcS03Qk9Yak9qT25EakN1aUwyOVRVcEozMlFpbW1hX0hGNHJ6MUZrQ1hBTDRjdjdDN2g5WjR2QnJPZ2RteTAyeG9tZjZfc19aeDRpMFZldUh3TFBhMGV1T054Q1E1U2FIWVZkX0xFSlFGOTU0Vko0?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 07 Jun 2026 19:45:18 GMT",
-          "fetched_at": "2026-06-07T21:59:51.438002",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "'Why Did Only Two Teams Bid For Me?\": Vaibhav Sooryavanshi On IPL Auction",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZVNyU1Rocl9TX2lRZUU2eEV4d3dxeWlDRnFSbXRzYlBpM0Z2d0NBQThUMTdDdFdjd1I1Z3RQamtONUFuaTJkMW1zcWhYdHcwaHIzdXUyZkVNWElRcDktTnN1ZkNOSVNnTERkaDBMQ1ZMVXA2V01PVEhBQUdRQm90VVpWSE9kRjVVSEZ3V2RpdGdPN3c3QkNheld0MGZ1dGVDRkpmc1o1UnF4SUxfUXdiUlZFLWlPRHg1RlFYTmhzWG4?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Sun, 07 Jun 2026 10:32:32 GMT",
-          "fetched_at": "2026-06-07T21:59:51.438006",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "'Sirf second trophy nahi, 2, 3, 4, 5 bhi jeetenge': Vaibhav Sooryavanshi's big promise to Rajasthan Royal",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNaHgydlk2MWE2UGh5YURCZHM0dGVQQzd0dGR0VWxOOUI0ajV1WDRyUk12NFBxYk1zMzF2cVBoOUdpek83RVRXUnlLel9tdVhSOTFnQXU0cnhLS3JTdXp2SUpSQWNiLVVtMnQ1QXZVemREUzZKRm53MnZTSmQ0UDlnbEJPVnFGQk5FRzMyNnJzREJvRGhENXdUeW5CUnk0eWRXYW1PQVR4WDZzazFKaXhORjBtZE5QNWRkOG9CcUdYaXBLeGU2Sml0dG5ORnZjSnNNZ3BSUVE4Wk5uQVhpYjhHNEVjV1VuRURIdXlKSmo3SVpEb1FLSHlDRkxqQkc0bWRTZUNLNGljT3hianNKUEtEX0xZd1FvVVHSAZwCQVVfeXFMTXRld2VhejJkb1U4M2QwaWhwVmlna0hSQXdvcUxRU1ZucVZDTmtxZ2dDRURucGV2Y3hxeGF5R1BKNFdlS2VpZEhXZFNRSVl4VmtkcTU4bldzMjRBakllNUFBR3M5ZDh6OU13SzlnbDFhVFdaQl9pSkRNZTYwMHJUcE5hUk0yaV9QTnprbjhXc3FRN2p5MklZbWlDRVRubEstVDM3OVFEWElYMnhrSVZJWGJfd2hrRHNJdFJsVGpCR2NIWW93dVlidGM5UF9KSi02Zk4xLXVGOWw2aDJ0WUhsWTFBN0ZvU19jOHBWTGd0dnlVMFVNNl9XRnhPbloyVmloeVU0SWlVWWtVMjk4NkU1YU1GbUdMekNFX0Z5cFQ?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sun, 07 Jun 2026 09:02:00 GMT",
-          "fetched_at": "2026-06-07T21:59:51.438011",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     }
