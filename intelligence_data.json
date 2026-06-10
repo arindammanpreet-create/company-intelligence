@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-09T19:41:14.223653",
+    "generated_at": "2026-06-10T12:47:53.571037",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-09T19:36:06.175758",
+      "last_updated": "2026-06-10T12:42:49.851678",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-09T19:37:25.260006",
+      "last_updated": "2026-06-10T12:43:42.644402",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-09T19:37:27.469839",
+      "last_updated": "2026-06-10T12:44:52.303742",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,65 +266,21 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-09T19:38:28.443333",
+      "last_updated": "2026-06-10T12:45:48.076361",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": -0.5,
-        "label": "Negative",
-        "pos": 1,
-        "neg": 3
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at HDFC Bank",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at HDFC Bank: resignation. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "SBI General Insurance to list after AMC’s IPO: SBI chairman CS Setty  SBI in $1 billion funding for Sun Pharma’s US deal  Japan's SBI Shinsei Bank pla...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "resignation"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "ESG Compliance Gaps at HDFC Bank",
-          "severity": "Medium",
-          "description": "ESG red flags detected at HDFC Bank: board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "SBI General Insurance to list after AMC’s IPO: SBI chairman CS Setty  SBI in $1 billion funding for Sun Pharma’s US deal  Japan's SBI Shinsei Bank pla...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "board"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -344,99 +300,57 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "HDFC Bank: Competitive Intelligence & Win/Loss Analysis",
+          "severity": "Medium",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "SBI General Insurance to list after AMC’s IPO: SBI chairman CS Setty",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNlBBVnBqUEpCMXRremw3alBkVy10NFBHUkMyNWpYQ1owMHgxSmFwZTBLZC1vRlE4cmhObDRJNEJ4OXNUMHlRSHhtcjZYMmlLclo1T3RUMXBTOTFMOHJpX2VHMTlOVEJKdi1WNHQzbE1UNk9nX0tsOHg2bWlwYlJQa3p0QWdUY1pjbUlLVl9OR2doTTk1NkEtTzhuTG1CNWdwV253eV9Ya2FfejhIS2NPTDE3VE1QcDZYb0pYNmlmRnJCSTdt0gHKAUFVX3lxTE44UDZxUjd4ZE5Nc2MwT0lvMmtPV3ExNTJmNTQyXzU2c0sxcmNHY3JaRkhzTk1iYzJEY3lzWVM1b3FkMFk1cEFIX19melBXNVlscDZQbDZtODNJSEU2S3cycVB1X3R3d25uQk9uOVR0WS1WZEplTjRqUHFYTmhpWWR3cWtiZkZlVkttNWZabjZ5aXZqOGtpNUQ0ZXg3SHhmWHZxclN2b3BTUnF3ek9nN1RheXBrYjBxMmxUS1dzNklXdW92TDczSkZmQ1E?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Mon, 08 Jun 2026 21:28:49 GMT",
-          "fetched_at": "2026-06-09T19:37:57.347328",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SBI in $1 billion funding for Sun Pharma’s US deal",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ0x5WTdTMnNCOU83Zm5oblJ2aXNVbTJjY1Q3aGRGSGVuRWRyRzVCZFFBVVV0VGFHVmZ6NVQ1SlRXVFcyRkt0WW1TSU5vVENoZmhuTlVub2E3ZFotTE1seFFNM2JPY2dmeVkyOTF1MVl6QmJrSnJhWWdjeExXZFpMYnRuOFExSVJtbDJ2WDVXRmloUHZzV2lGYVp5MGFCV3NJWmVubTRwWFZVeFZkXy0xbkZud3ZVVy1JWjZBdWJfNkNmbFE?oc=5",
-          "source": "ETLegalWorld.com",
-          "publishedAt": "Tue, 09 Jun 2026 15:03:36 GMT",
-          "fetched_at": "2026-06-09T19:37:57.347343",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Japan's SBI Shinsei Bank plans crypto rewards program for depositors this fall: Nikkei",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNnhKa3VzNEItOHRkZ29zYkhueW92U2dpUXBLdmFUeDJaRG5oR0M5U0ZPY0R1MWFEZFBoYUFlT2ZVaDdEbHYxWFFDaUJSZWNrbHB0SjVlQWR0NzdiUERVeUFMcHNJc3lWVkFiTDhiTjdKVWp4bHA5aWdhTmhHaUtGajEzYllobTUwa3BSZjYtTms?oc=5",
-          "source": "The Block",
-          "publishedAt": "Tue, 09 Jun 2026 09:52:51 GMT",
-          "fetched_at": "2026-06-09T19:37:57.347350",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rs 1,537 crore fraud probe call targets SBI consortium and asset firms",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQem5QRGYyT2JiUzl1enlkZ3dHNldSTlpsdU5sUFQzM0tSUVlvaFBHSWNDTG1OWl9zZTlZbEZKTWpCODRqemdULWJ2N21ORFhLcnI1MGpnT0RKbTFFU0VZR3FDaVNrTWl5aW9fNlNKVDJ0X1kzU3FpN1B1V1JxdXpBTWRtTzdOZ0FMeHBWZGo3Q29UWXY4LVl0aFoxbmNEWjJJclFBSkpYbmlEeDBnanEwTGlLVU9DaEV3R2NMcmJmMFl1X0xNa0Y5bdIBzgFBVV95cUxOWVpEcElBT21XdHoydU5LNHdFbmQzdWcwaXU3OVZ3VXBGYWFSakk4OUZaTkhJYXg4TnJwcVlicVZwQzlFSW5OT05fNk9QSk05M2t2azA3aHlPLXRuR3dXbnh0emtOMjlCQXlZNW5DTHFKVUY3RmV0OVk2NmhwcjhZczhqS0tKaWxkTDFaeU96ajFPUVM4Y3I4ZGhHRDMtLW1YQ2Q5c2F1RWZmZjRwYjhaRElDYjg3R0dZS1B4UkRLdzVrZlc1VEtKZkF0VzRZQQ?oc=5",
-          "source": "Telegraph India",
-          "publishedAt": "Mon, 08 Jun 2026 23:52:27 GMT",
-          "fetched_at": "2026-06-09T19:37:57.347354",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "ATM Body Wants Rs 100 Crore Compenasation, Says SBI Not Filling Cash Machines in Small Towns",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNanFsWEdMb3dfSkFJU0NPWEtRa2pQZzBLY05WTF8tNVBsWHRsZFR2YVlxbHlqbF9SX2tPRTIyVFV1WlZyTUFIZXBiRnN3amxsdzYwd09keWJHQUIxd3pIUEc0bC1DOXJEbFpjLV9FSnZlYUkzNjM3aWRQUXo0YnRXdUdVSVF4WGNlTTEwQXhuRElsZ0htNGhxY2hWd01zWFRqLWxBWFdta1BGdFRpUkpBRU85OXd3SzJmTjNMMlFjUHpMcFJCeVk40gHMAUFVX3lxTE9feDQ0T3ZOQmFyakNXcU1Mcm1XUVhNWXhYMThmcFhDdXU2ZzhZdHQzU2ZidGFVNkJWUUhkdktiZXZINjc2akxFT05lT1NhQWJHTjE3WTRCOVViOVFEUllEbE1wTzlYMFdHZU1JY2RjY0FvTWFkVlpOcmh2SnJMdVMxeF9iZ1ItN0tMdFhXX1gzTEpyZlEzX1VtRl81Vy1GNV9iUkxUVk1sYUVYbTUzQmV3a2FiUXVJbXdTZ1FQaGtKbTB6VUcwZE9FQnNzUQ?oc=5",
-          "source": "TheWire.in",
-          "publishedAt": "Mon, 08 Jun 2026 09:33:35 GMT",
-          "fetched_at": "2026-06-09T19:37:57.347358",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "HDFC Bank to decide on CEO Jagdishan's third term only after key report",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRV9LV2w2aG1HV0I2VVRpWk13b2RwNDlYbGZSSW1HcWFraExBbmd4MDNUMDJUWW4xNmhNSDBHZmFSVXlIRWxLd0p3czU0NWRWQjU3RzNVUWQxRmdOem1lT2NYVEEtaEpzck5ucVhEaVJtZ0poZXNzcXBYT09mdzZGUXJzc19qa1lWUjVlTXBmS1QtMllGenRSLXU5MW1WY293eGJrZ0FlZU9VMjhBdTQtUXNjdlZEU1dEbElGdkNVOVlYbENic2ljZndJV3pPanlNU1F0ZU1zQXowN3puY2Y1RGU1aFHSAeoBQVVfeXFMTkk5SDZvS3J5aUF2ekhKOW5kVnN0MGVCUWx5eXBIenRnX0hyVHRmS2RFeUVPdVk0eWxYckM4U19DQzF4YXVqeEN1czV1S01wcEpBMzlzOS1iUzl6OHl5WllPMDViUUtaZVUtRjdYa2xmOXRvVjBFTVZ4SGFoYmpzUWVRLWRvYkFpT1hsdEZhT3hVQjVCZlFNVGFqX1NpYkJyS3MyTGZDSDRiLXRQajViSjJmemtYMVhGVkdHTUphcEVmMTQzaDF4TkJWYjZoTXhmQjJxODJQTWdBQnZqZVlUbmdkRGRlcW0tUE9R?oc=5",
-          "source": "Mint",
-          "publishedAt": "Mon, 08 Jun 2026 00:30:30 GMT",
-          "fetched_at": "2026-06-09T19:38:28.442506"
-        },
-        {
-          "title": "HDFC Bank CEO reappointment decision delayed as board awaits legal review",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVFJrS2c2ZWJlMTJtTjZmTWhIaFE5VGxwMmdvV2czVHhTc0w0UzBtT3A2VExEcXU4LXpTQ2pQUXVSdF9uMlJ6QlJjdjFWZ2lpWVd0akk0SzRUQUxHd3NReExhV3lKYzY4b0dVWkVCalZ5QmFDWTV6TXF1M2dscDZnYk9DNERzWHlabVlnSWt2VVoxQzVuRXdpOUFBQlFmdDF5dnFvaHp1cWdnN2puUUtMTkdCV1BrUmFIaWpWR0VFeEpjQQ?oc=5",
-          "source": "People Matters Media",
-          "publishedAt": "Mon, 08 Jun 2026 05:02:36 GMT",
-          "fetched_at": "2026-06-09T19:38:28.442520"
-        },
-        {
-          "title": "HDFC Bank's Statement Not Prima Facie Defamatory Against Lilavati Trust: Bombay High Court Imposes Rs 5 Lakh Cost On Lilavati Trust",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQlUwUGhpdDZhTEFob1FUdzFZSGRuQjlqM2M4eEZnVUVlWU1ycnhzbTg2V3JEbkJfeXZIOE9pN2tUejljZXAwalB2MEFNaW5pMHh2dVpLY1ZsajdfTF9mNEpydnlOZFAwR1BhUVVYZlN2eW41MllsY01qRzdjRHQzdlpBMHFGTzVOUnZIeTZERmduUmVydnM1eHVOVnlkSjJXRVJFOXpqbHJDejBDVGhyN1o2Wmk1UFpvYmtqVWRaTXBXSzNmTE9VejlR?oc=5",
-          "source": "Live Law",
-          "publishedAt": "Tue, 09 Jun 2026 12:18:49 GMT",
-          "fetched_at": "2026-06-09T19:38:28.442527"
-        },
-        {
-          "title": "Bombay HC refuses to gag HDFC Bank in ₹1,000-crore Lilavati Trust defamation suit",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdmR1ajh1bmFLYlcwQlpEdXZaM3BCS2IzT0swUklfZk5BQXVYNXhoRGdpSW5fU0ktS0U3NlV6VHBRSk85ZmJleWdlRzJCdFc1Yi1lYjVzUHZsZU1YSW1JV19sVWVvaGR1WnFPcktTMGZMSmViZlJiN0FQYzZ5bWoxNzlFWXJSZ05IcmM1X0lKbHZSU2JZSVNMUzJsbldRaGp2clRoWUFoX196VENoVVFMdnhHNmpUT0pMLU52V1lYR2FUeExNRkpydtIB1gFBVV95cUxOS01GSkFsZF9ZOGpZVFBYam1naWtFdlBfd0NZdjg5a0RTWHItTXNBYnNiVk5BMHctYWpzSW9sUW5ia2FBYjJDRGhvOFZhcWtmcEpKWFdGUXMxSDZtUEhvUklGS2RuVHA0bkdWZHBlMG5BOWZMUjZubS1UMWllY1ZnTHlwMHZ4bGlTbTd5QW9HMEVWYm1zVWlTcFdCS0FiQWZ0SWg1bWV2SGdyMWpacDl6Z0xPUTBwYXNOY3psdHY3MEw5cFdUelJjeFk0YTlYSFh4UE5tOUx3?oc=5",
-          "source": "Fortune India",
-          "publishedAt": "Tue, 09 Jun 2026 13:31:00 GMT",
-          "fetched_at": "2026-06-09T19:38:28.442535"
-        },
-        {
-          "title": "Bombay High Court rejects Lilavati Trust’s plea to restrain HDFC Bank, imposes Rs 5 lakh costs",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ1ZaT2NndkZsRTI3dVhLcGFjdG9MeDhGanp6dnE4RzM5YW1KR3JVUnhIeGhkMllsdVNZajFNZmZCMjhpZ2dlVWY1bklRdEEyT051M3Z6UV94Wml5cGVJZWFkbDIybVBXZF9keVFzMnQwZGZvNURfZTFNbGhreU5MaWk5UGlMWEJJTzQ0OVFvb3N1UjhxQnBIdXlpR080VUdZd0FlMXVUMU1NY1YzREpFcWI2TUfSAbsBQVVfeXFMUDROUTMwcHZtVjRfM2Rrd2RST2pXN2h4WFF0TTY5Q1NwX2c4Nm1NS0FoLUVwMHlyWnFGSkh4YzRHNEswN1V4cUlnN1JxQVgxT21hS3NFN3daZ05uNXZCMTR2bElkSjFLT2JjLVBuQTJPbU5lZTh3a0h4dmxwSjU2T2dEMG1lY2J2V2lxVkhwR2taeVBCS01CTkF3YXF2Y0ViSG9wWmYwdVdTcEVVV0VUX3JaN3dHLS1RSGVlWQ?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Tue, 09 Jun 2026 11:28:06 GMT",
-          "fetched_at": "2026-06-09T19:38:28.442539"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "Bharti Airtel": {
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-09T19:39:44.016276",
+      "last_updated": "2026-06-10T12:46:50.691919",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -520,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-09T19:41:14.223636",
+      "last_updated": "2026-06-10T12:47:53.571020",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
