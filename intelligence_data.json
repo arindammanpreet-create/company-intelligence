@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-10T23:22:03.613244",
+    "generated_at": "2026-06-11T13:11:41.525511",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-10T23:16:39.588601",
+      "last_updated": "2026-06-11T13:06:21.109462",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,18 +98,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-10T23:17:39.658606",
+      "last_updated": "2026-06-11T13:07:51.646580",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.5,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 3
       },
       "news": [],
       "research_gaps": [
@@ -174,7 +174,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Infosys, HCL Tech, other IT stocks tumble up to 3%. What's spooking investors?",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOLUFZQW02bnh1ZF9uaXo5RGZGZmVUVjNFZFRyTG96XzNDOEFHb0VqR3ZCZTJOcVVjbFJGSmhpS2FBVWNDLVNwUFdwUm9xR1JYWUFZTTFNbGtvYmVxaTc4c3BYTjh5NGFtdkNFeFp4MGZqVU1IbTB0Vk12R2JHTUpqb2FxME1kRkhTQUVXZ1BJTVd4WTZXNUhZQTlOV2JvS0RjTzFnTW1ZYkRCRktrRUFzSHI0d0R1NzVadnc0eEF3eGVsR3RTLWhIUnZoNzI3UFlqVzVfNjZvSW00SU9GX3Jz0gHkAUFVX3lxTE1ZekdXMF83XzhtQ2VxZzZNZzdlZVMzUmJNRFc1N29ZdE1TOXhsb3RJTGhWSElkY1p1VmNLdmNzS3pUbEJvMUthajhKNWlKVVFYSllQZHNUM042eGpOV0xRRXdPQ2l3LXl6dVNyeUtnd2M3N0hKYUJNMTE2SmhwX1JMVEdwWTVMVmE3R1NhSEROZU1XM2trVngxMjllMnpObFdaTUJFTjBDYUJ2dXJIN2lYTFp6N0hhamlORzJtbEFKeFBJMnBmMWJVQ1F2cFE1LTJzbUhZRjI2Qk1FOVZGa3pyX05CYw?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Thu, 11 Jun 2026 07:40:10 GMT",
+          "fetched_at": "2026-06-11T13:07:21.591756",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Nifty IT worst sectoral loser, Infosys, HCL Tech drag as AI fears deepen; Anthropic launch adds pressure",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcXBGbXZOZE83bTBlZ01jTkJpNHBpdE84M0Nqb2FNeXF1Q2NqTnlxS0JNTUE2Q1dPV09JX0hWNXhEWDRXWDI3blRlTW9XWmtDYTR3Q29tYmRHdVM5SDg0Z2VXaHd0elJBVXBfY2RVT1FlOXc1cWdIZUdLWUduQkRhdjhXUXpaZEg1TVVDckpzZ1l1b0hBbFMtNVBmVlUwQWttcWVfMmZlYWNKZ1Y5X3pWejBLMGhLTEpjWk11Wk1EdW4yWm80WGxVQ3dzeHh0bUtkOERPQzJGTTZKUUE3bzd4SWEyajcxd3NUaUNIeDlnTFZKQi1mcUlqMtIB_gFBVV95cUxOdll2NF93WEJ5czRRWWlZMUFnbUlYRzNBWkViT2dTRHZFMUdVdHdENzBKaEE3WHVsTUl5NFdTMU12QWVvVGJLVGdZdlMyVFZod3I0eXlqRUctOGpoZmZycUJIWVRZclN0ZHV6SXUwNXJpOFl6VThBS1V5UXlIZXRJQXVNUFJ1OHpkLTBPaFZyYXVSZEdMVkVweTFTX0l4WnphUXJTLUtaQjVaUGNyTG45ZG12X05NX0swR1J4V1p5bUdLa3cyenZLVWV3Rkw3ek81NzlUZkN1TEdSSHNSYnZ2Tnl1ZmZWNXlmajIzVzBicDE4dnktcFE0cjhRS0syZw?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 11 Jun 2026 06:43:38 GMT",
+          "fetched_at": "2026-06-11T13:07:21.591774",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Why Infosys, TCS and HCLTech shares are falling as Nifty IT drops 3%",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQ0ZSa0FIdmFKSTdxS3dfZ3FqRnFMSURVR25fcUlXVUM4OG1LU1Zqci1Cc3JVa2F3YjdMTTBCVWs4clBmZURUMXNuSGgtWDFMdVRualI1V01obElIZmdSOXJVOTBLWXF6cEw0QlpGMkp5SzZReENsZTk2YmpVY1ZnLWFkRHhpOVJNSlh4QUEwTC1QRC1OX2xWNFQ0SS1xLU1MS1hmcmhYb2VLdW1hSE1BNkRVek1jU3EzVTdGZVMxOF9oNFVCNnNxS2dQaVBpZ1NBRnhuRWFvb2MyNEdtb0p3dkI2RF9aZ9IB7AFBVV95cUxNLVNrMERJZDNYbmZiRG40Q1FfUjdOQzkxNnVwWjZ0MWhXM283WDItQlFxcHgxNWV2TmxFNExDUUZudnY4NUpuQ0VoUkFKd3lZMlQtd1FwU09BWmZ1dEk3WDBUcUZNQTdxb3hyRWR4aTRZRWVjSWNuNkNGWHc5UEZxUzVjR3M5QzhQMUhyQ0JnNll6bE1JSVdGRTh3eDdFTm9XZUdlYUx2ejhiWW9BTjlVOGN3VXNPSmMta0hCZk91U1JUbzduZjJrOU5KaDNRSTlWNkpRaFV6dnNDNkJpMTc1SXFqVndvempya1BpRg?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Thu, 11 Jun 2026 06:50:18 GMT",
+          "fetched_at": "2026-06-11T13:07:21.591779",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys, HCL Tech, TCS tumble amid global tech selloff: Here's what's plaguing Indian IT stocks",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV196Q3J0OVA1VEYzaWZjSEV3WjdNbVdkTWhJdkhpbEdtMlN6dmQzb0o2NWlhNFc0aXBPaHY0bmtDYWNoQTZwaVJFVVNMZ0IyRkRPOUlyOHBJakVwS2ZHbnJiZ1JCTVZFY3R3eU9XM3gtXzY2UUN4d2ZPdkJ5dzNYSE1nQzhLWjF2NU9XTUZnTXNWSWowVEhuTWt6WWk2SHJaN3NIRzVFd09hX0t3VnFuM2ZpQk0tYjlwX3VXLTJ2MVhIX1FueF91MlptZXZqVzdFSVhHdVBVX0ZLeDdIWE8zQ3lRZDhOM3RGaXlQVnVLSzZPM3JRVEpaYnJuSdIBgAJBVV95cUxPSHhTbHFrQ2hCa1RWeVBQc3ZkWm85ZnZFUmNKbU9zZ0liT0dEUFpVcWJSeFVqdHEzTUdNZFZnZFZJc2VBVjc5Tm9BMGtWaHVCRFUtcUJnUE4wOWo4aXpiVHp1X1ptVzlRb2pwX2ptRlFZZ1VjWnRwSDVreUwxRnJ1YTYwNU00N1ozc2oxX3hIOHIzUlBNcHpKaHZZUFJBc0FIaGVRZjB5UExfRGdKVjFJU0Z2d3c4UXdQTG9wY1VjMUhyN1lBd0plRG1qaXpEY2hJd3ZHTFVfa0I0V05BcEZEZkZ6YVE0c2N0aExzbXEzYk1YM0hYelgyZEhkWU92QlhX?oc=5",
+          "source": "Mint",
+          "publishedAt": "Thu, 11 Jun 2026 05:00:41 GMT",
+          "fetched_at": "2026-06-11T13:07:21.591783",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Nifty IT tumbles over 2%; Infosys, HCL Tech, TCS among top drags as AI concerns weigh on sector",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNWhFcDVyLUE2eko1eC1xN29rMDdxZ2xKbU4ycnpTeS0xVnlzRTAwVUI1ZnNzLTd3V1Y0ZmtuQjNkNHZpQkpIaVNOSG5tYl9adG9PS1RQcnZiakNFQWM2SXJJTDQwWGdKYTd2V1VMNk5VMFpkVXFORnJ0RVJ3YVl1WTdocGtvcFZzbUl1UVVEQ180WHAzcjFsTjR0ci03QmFrbEVib3ROMndOSmlMRDVVbjFQY2xUdThpdFgtVEV1ek9RU09HeEJZYlUxZnVCclN4SUtmTThFM0F5bkRJcDEtWnRFOXJ1d29FemEw0gHwAUFVX3lxTE5mcmdOQ19yalZaRlJBU0JTREp1YXd2bEN6cHByZThsUzJRNHZVZi1HY0JtNm9RZXRWMVVmSXJlekZVa21QV01iS243MGJrR3lFWmVyNUpkaG1Ud1BDci1hbEJiVEpqd3UwM0Ezd3N3amx5al9iR2lzU0prWXk0Uzd6SkhKbzVEWVg2QzFKQm1USnI4T3dONEVQMjlnZjBNQmZHbzc0V3ZjV2FRMHhualI4OGg3bC1OVzZDNGNfR3pOcXU0RjFmOElvYm5LUzNobVNuR0tNMnRpam5uVXhGNmhRcUVLOURDS0tPSVY0VXh5Qw?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 11 Jun 2026 04:01:21 GMT",
+          "fetched_at": "2026-06-11T13:07:21.591787",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-10T23:18:55.164094",
+      "last_updated": "2026-06-11T13:08:25.365030",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-10T23:19:43.133053",
+      "last_updated": "2026-06-11T13:09:39.969816",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-10T23:20:48.425982",
+      "last_updated": "2026-06-11T13:10:29.758310",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-10T23:22:03.613229",
+      "last_updated": "2026-06-11T13:11:41.525490",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
