@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-11T23:17:29.458105",
+    "generated_at": "2026-06-12T12:46:59.130600",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-11T23:11:24.483650",
+      "last_updated": "2026-06-12T12:40:50.310005",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-11T23:12:40.390369",
+      "last_updated": "2026-06-12T12:42:07.947078",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-11T23:14:08.875588",
+      "last_updated": "2026-06-12T12:43:12.480011",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,18 +266,18 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-11T23:15:03.346613",
+      "last_updated": "2026-06-12T12:44:33.061498",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -342,7 +342,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "ICICI, SBI and Other Banks Launch Higher-Interest FCNR(B) Schemes for NRIs After RBI Swap Window Move",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzVmS2g0V3BJc1NMYjFYRDg1UEVPcGwyQkhmSXkyVUg0anVxNTAwem5Ucm9lWlBycWtJczBKS1BCZTdSRnB6MWo5SlRuenhBdnRwSVJRTFFjTUV0VlFvRENYUFFuSk9RQXg3ejlfX3lJdzE0UEhmZlJ1ZE1mOVphbQ?oc=5",
+          "source": "Daily Pioneer",
+          "publishedAt": "Fri, 12 Jun 2026 00:13:01 GMT",
+          "fetched_at": "2026-06-12T12:43:42.718257",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Buy Equitas Small Finance Bank; target of Rs 90: ICICI Securities",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZ3RFVGZyWHk1SDRYc2pQMkxyWXBBNjZwcGhaZlFKTnAxbXJ0aWE3MHZ6aGVWS3BIelY0MHpDd3RmNUtFYzBrUTh6Q05fMUJDZTQ4QnM4bThhWUhCQVpsVnZReDdTX3ktdmlrbExfVWV5UzFOYzBpbmY5c0FpQ0lBc3Z4NHNPbG41UmtqQzhURzUyak52T1F5MF9mSURKSkhYVGYxYlZvRFROX3hWQzhVRW5jMlZiQXNRbVhZSFdxWHAya1BVUmhYRNIBzgFBVV95cUxPbXJFUy1meEFoZENGeE1wOVV5Nk80aW1mZ2Z1dHFXYlBQTE5iYkVDSldFVTA0X0NrSHdVU2hsbnJDZkRKYzZnTjk0Q2h1Um1zU0lEOFZ5MXhxSlA3bE9Ydk1aZkV1aXlpLXlGX1VJMWcwcXZhVVZJYVBnLXdtZ3RXeGpBSG4zZDJRTzBqQkY0LUxjM3pNeFVvQUVVelhVQVg5N0JnQS01V3BndXdmbzlKdnlxRGl1dTM0SjhUcnZtTkthSmxXNEV5QXc3TWpZQQ?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Fri, 12 Jun 2026 06:29:31 GMT",
+          "fetched_at": "2026-06-12T12:43:42.718269",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Volume buzzers: Unichem, Aegis Logistics soar up to 17%; ICICI Bank adds 3%",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVGpwck5Gcl8zWVFTTmFEeHY1dUxnUVFmRXp2Y0dxc3JjZVJhVGQzNXlFWWRUSVpfaTF0ZlhoVUpfbEhQVXdsLTNvMXhCdWd3c01mZ0tNWEYtMzh1dGZjbWgwdDdicDV3WmIxOFJ5LXRkdlUxbG1NQWZ0all6MWpFSmZQVnk3SzFqTF9oODJQNnBjQzdWWXRFcWFMenZRYTBRNS1iWGhJajcxbFl3ZGE0d3JLRlhMd3FoZngyMjJwZWRiQ0Q3OFJBUVZTTjlMSFRaSUNV0gHYAUFVX3lxTE5kOVRka1I2ZlJHZEloanJMUHp3UlpiZFA5MHpPUzd3VGJkWjNld29VT2FsdU9PRG56aExHOHZaUnVJS0NiT2twXzZyWklUTmxENjAxY19iNmViM19CTzMwdFVyQ2Y2eEludExpZ0NNTmlKdlZMR29MV2MwYlhXMjlheEZKdEtiUFhvNEs4NDk2R0RSalJxUUhBUno5bDAzUThsS0hGUUdDOHlrTFd2Y2Jocl9wR0V1LVV2QnpSUWg0Vkx6N3pFaFRvX3Y1VnJPTmN6NW0wN2wteg?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Thu, 11 Jun 2026 08:08:54 GMT",
+          "fetched_at": "2026-06-12T12:43:42.718273",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "PL Capital cuts Nifty 50 target to 26,449; ICICI Bank, Titan, Bharti Airtel among top conviction picks",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQUJ6OGx5SnpkMmlvZjdCZWZjS3h5Z3BtXzlTazAtd0J4bm5pX21jbGFBMXdRRVFDVGRLS0FIYlMtSkJjazlUS2pYa3RtQjVtajBLZE5mdy0zbWZERnFHMkdNNmpsQ1pVNDV2NnFWRmhXZHIwQjZxQlkzaWN6cnA4NEwxdGlFRVdtRDhfV2xNcHdrOUMzNTg3S3B5THlWSGQ4RFhTQm1qSkJOV1ZabkpabDFORjRZS1kxWC1xeldpbzBUWVg0LUNLNk8yNE5Edk1VTkVzbjVpZjkwT2tiMTlBT01WNC1GZ2plOVJwTF9weVVhVlI5RklIb09aODlIZ9IBgwJBVV95cUxPbXp1dFF3LTRtRE82VjJ0ck1CdHZtT1hoMlJEYURfOFB2b3h6VUdPMHFaZWp2MW9BU185WFRJb2cyWldOOXhnOWgwRGJWemNwR0JTYUZENW4tajhuWFBmeXBQd3ZTbDdRMG9TX1NIRGFMZnhyOTlDWW5PYzJZajU3M2txWXZnNEo0VUdqVkI0TUxDSDJnaEFDZEsyUUMxQUNPR0dSWFJGNlYzOXd6aEw5N0NyU1ZMWXV6Wm5WVXZPdndnd09WQTZkZGVvNDd3aklULS00YnQxb3NXdWkzUnctODlHZDM1TERqcWJraUprNjJfZ05jWlYzS3ZjYUdEV3hsekw4?oc=5",
+          "source": "Mint",
+          "publishedAt": "Fri, 12 Jun 2026 09:03:03 GMT",
+          "fetched_at": "2026-06-12T12:43:42.718277",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Is ICICI Bank Limited (IBN) The Best Deep Value Stock to Invest in?",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS25sSXNBZllYdk9DanNiMnVzbzRkUWRmcjBDdXJXNWdRdEVTYjFPYU9ESTc1UThoOHpIV2Q4RURrNE9XcUd0OGV5QjBMRDg2M0tDYXU5UEZGdm9TWTFOaXhlNGdwcFZQeElWZ3BTSzJKZWN1d0NTTVhlQ1d6OVJpUjIyTmptclpNci1lSFB0eG0tZmRJMzFGRVQ0eS14cWJfUHRYZVhyOFZVWGg3?oc=5",
+          "source": "Insider Monkey",
+          "publishedAt": "Thu, 11 Jun 2026 01:06:24 GMT",
+          "fetched_at": "2026-06-12T12:43:42.718280",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-11T23:16:10.619991",
+      "last_updated": "2026-06-12T12:45:44.581585",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,91 +480,20 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-11T23:17:29.458090",
+      "last_updated": "2026-06-12T12:46:59.130587",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.33,
-        "label": "Positive",
-        "pos": 2,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
-      "news": [
-        {
-          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-11T23:16:25.326987"
-        },
-        {
-          "title": "Bad news for Nita Ambani's Mumbai Indians, after Hardik Pandya, THIS star player has also…",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZ1BiWDFNbzBienI4WWVheGlIa0JyTU1LZFA4ZGpNOWJQSUhva2FOS1hRLXNFcTFLME9RVXVJN1M2NnNYM2VweTNmMUJxdUtxSGRBVjVLc1JSZUJMbnFJRzNnT0lrVzRnV0JtbmFhaXFuVUl4RllFY2liVllJU01wd2h5alJjSFhkNmcyME93X2Z0NndaYXVnOGlhbExRQnRpUXp4R2RkX096RTUyLUdHVXU5WEVtSkRjLTNSSDBEb2tiOU5sQUNneWEwUHhZU2M4LVBMaXJRUjVWTWRRM00zZtIB5gFBVV95cUxOWkZXZTJQRmkyQ0pYTlN6TmpLVXdWQ3pKMVRpSlEtdXl0UmhuTFBYMjMySVVtVFMyRnJuanVXUFhxWXVlYVZrWHVkTFZjSUxZSkxidWh3cnJta0RlWEFHZXBHNmtKcEwxR3pwZkZGVFJSVENxT1UxczFMMDV3Nkx6N2lfRHk1YlZHV3djemVZZUFoYjBLbkxsZ3BpZ09nS3VILVlKUnAzVnFfUzJLakNHV0RVYWVqTFJNWEgwQWQ0T09jRjNMX3FfSFdRRWdSNU02UUx0UV92V1NTVTQyRXNfcGNEUUN2dw?oc=5",
-          "source": "India.Com",
-          "publishedAt": "Mon, 08 Jun 2026 09:13:10 GMT",
-          "fetched_at": "2026-06-11T23:16:25.327003"
-        },
-        {
-          "title": "Team Owner, Akash Ambani, on the Quinton buy, base-price picks and planning the MI-way",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQXJJYUt0ZjZWN0xva2JZU0ExZTg4aWhTeHVFZ0J5ZXlDYzZqRHotSEVJR2RyZHRwWEozdGUyRWZwU0thd2VmdGtNdGFFSVd3bGVrRXdMWTh1YUwzTmwzdFNjMldBMzB2VGt4SVBQYTBIcjNlRmxCc0J6RGxDVUVtLXhkbWV1eHVKbHZnRGFBTzZOU0V4cDF2SGRPYjlRUzJNendUa0tCcDJFNHlIdzQ5aEJxcFh1VmdjNXc?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Tue, 16 Dec 2025 08:00:00 GMT",
-          "fetched_at": "2026-06-11T23:16:25.327010"
-        },
-        {
-          "title": "Rohit Sharma in disbelief; Akash and Nita Ambani shellshocked after Travishek storm turns MI’s night into nightmare | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQk9FUkhoaS1GaFF3bmhuSXRDc1dQZ0lJWnNMX1k0UkQzcGE2RjJsbnNTbU1jbE5JNWFvTm53VWtmUEg2a3E1ZVpvZ1pTOWpUbko1aGsxMzZBdE94cUN0T1JYMFN2VmJLMGRyb1l6WlJQSG1INTNmNS1XMmdPRXhVWHdYaGlBNDhtVDNoTDZGcXh0SnZWcUtFMlRhcE9uRE1zLUhscFY1OWhRZk1YLWhzZHBjRnV2OG8yVEdqZXNkYWViSzZuaDFScGV1MjZhZUdBWFNHVUVtZVJuSmxsN3FXd1FiV0pUUWJwM2pqX3ZDSTNOQdIB9wFBVV95cUxQaFBkandlVlB5T1RCb3RMT0M0eUF2cy11QldQTHM4T0pJYktTamtrN0FuWEtOT1pSMnU5eW1NeUd5clRJc29JQ2ZiUGMwTWNtanZCM2txZW51Wk5xNm5VQnFIVDhBMlhuT3psUDh4YzdTUTd1WVNqTjJiUzk3VTJld09wZUpBV0lpbl8tSlMyME9vVlgxMXJnZlZGMmRULUw2R1hsdmtlNkR5NE1VTi1UQmZrZUhZX3R0YWRYbE1ZdEEzcm44SVpLZ3poZzZPNkVhOEpuYzEtbmJYN0xvLWV5U3FjWHVDb1pBMXlXZV9GT0tfTHNwcXhz?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-11T23:16:25.327015"
-        },
-        {
-          "title": "Rohit Sharma unrecognizable, Mumbai Indians owner Nita Ambani reacts to sensational transformation –...",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPcHV4RGRkbWJVR3RvRVpvalpXa2c5VTdIQW5YTWVuc2dqTnVnNE40bEVuLXNZX3BIVWpWeDJWZEdicXNQZUxleDRESl91MHR1WmlTdXFhTVNCQzh0VS1sLVBjLXlBS1RYZG53UUF5bU9pLTBiQVJyUE1QMUVVTE4xOGFKSWQ0c1NVMzNsWVhldlU2SUl3TGFmUE1PYkI2ckphZ3dlc2duQm8wOVd1czdqb2ZNNk1VT0RjZG5VRzAzU25GcG8ycUluR0JicW1pTnhFV2UxUy01NEpKeVY0MDlBam1oUmoxWWtUTHRvZ21VajVBLXRrWE9LMzJrODhxUdIBgwJBVV95cUxNRWhKWnVmN3dmWnhOcC03NGR4SVFaQmY2ZmRxdlhFVTBnNUhzVEl5MzIzSTdWY0pKLWUwdC0wRElyZktXNFQ0emtmdzRfUFJfV05HSElJaV9GNFYxOWo0ejlWb0RkbC05dUR0UFlzR3ZjcXRmUUV3YWRkaUxPeTJYR0FrMkp1Mlk1NFV0NWlBSjVuUHhHakkyd2xnX2stV3lFTUhnRGFCSkpTSkpEclU5WVZENmwwbUxTWjJ2YlN1XzhNTDhjVm5FWFFCUkhYNFJMQWxVbTAzaFJ4RE5GaEd4WVltYjRWM0swSlo5V2M2dEFxOVpjX1dWeEVVTlBrb3ZsX1Fv?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-11T23:16:25.327020"
-        },
-        {
-          "title": "IPL 2026: Ambani-owned Mumbai Indians deepen brand play with 30+ partnerships, 20% growth in sponsorship p",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOclhFR0pUaVh4b2FFTGg2S2tVNVV0OW55bkFGWHlVQVFnakFRMC1fSXR6NWhPMUVyZTRzYTRFV2dKS3Nqal94RkNXXzRfVE1BcE5sUThNTGpIclA1NXU1Q3c4Yl9HMDZvQjI4dGd0ZHlaTF9CdnhHZzI1T1JLOG9KbVkzeXZqbXJnbzk3Tl9DRDZJOHRZMXY1U1VyZTlFMFhtQnJnWWtkb0hpdnN3eEktdWpyazVyVmxoNWtqLVcwcHhiYzhGV2taS0xzUGFKVHdtaGJDZzFSQjJ0VWR2Ynk3SW5pUld5TVo3WjZiR1JHbUxsbGd1SVpDbklUZUVOUmJI0gGGAkFVX3lxTE4zN0lUVXp0RTVmT0poNVFyY0p1a3JNU1NsT3M1UXd5M2pGM3RUOW5nVzNfZ1BHVDZRTUVBS0JMSE1YYmg5SE5aeVF3b1dwVF9LaGZ3Z3BTZUs1NDZnRDFMOUZSWFVVNkNrRlBad3RQTFdZdVc4c0ZXR19fajJUbVp4UDlPVzVHNGxHSEJoWkhKNG96YzN1MlNSSnl3bW5GWVlhRk9OdWkxblNnNEl2QS00RXgxMFV1RGJheFdCbW01VlNzNkgydVozUWFHZmtYcGZsZ05ma3lxX0M1aWlRWUhQOW5ReUUxaFdvcVN3d3JhUUlNREtnR0d2WWZRQVJZdVV0cFV1ZUE?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-11T23:16:25.327024"
-        },
-        {
-          "title": "Video: Akash Ambani walks out of Wankhede Stadium midway through MI's loss to CSK",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTkRNanFUd2g3MDFsZ2hMdWs2bGw4ZklSV3kwNzN2d05xeE1sREZEMnJReEI4bDNUOGg5OEpya3NjeE1IY0lkVWJvMi0xcEQ5c1NCUWpVQkhzZEtuUWdvNF9ySE5yVHpSeTFzWVdTaEItYVhhcXJwSE9OZFo2UG5NVUNtbjhDbUhsc2dqN3djMzNrZU5OcXJEU1JHVVVocEY1ZkcwckthNFhXYThiR2NEY0lxcnBaYUQwbk9BUXl30gHDAUFVX3lxTE9WcER1UHVJUUMzZkh5UU15dWQ4YklaQTN2LWNoV3pfclNyb3JoeDVZRVVzaE00eEFnd2xGUEVVa2JVS0Vad0Y4TzNPeEU2RXNyUlFiQ1duakFNYk1fVnBLd0R0WXRKNTl3NXl0bFI2aHZmbXNCekRJQW9GQzB1dEx1UTdkNUdNZGJHWTBkRHFPeGlFTzg0eldFLXctTy00WXYzSDlJNWlwTHhHdFBvUmhSSzByM1FKcG1wcjVDSERoZ0N6cw?oc=5",
-          "source": "India Today",
-          "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-11T23:16:25.327028"
-        },
-        {
-          "title": "Good news for Nita Ambani’s Mumbai Indians after Rohit Sharma’s injury as THIS star…",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcTNqMmQ5NWZZVmh2WkJDZm5tbnllZl9UNGJKd1JNZTVGQUhGSGZUbXpvRkg0WjhNd3gzd0lMS2NpT0FOU190dUZ0bGFJNVkxY0R3dXFrRWpWZDlBbVhRc1BZcl9fZjYwaDV3WWdkMjZRWDdXemo4NEp6bTNGSHZPcktDcnE3aTNNNFhrRkdPd2Y5N3ZNUTVseklFeHRxR04wX21HQUVtakpoc004ZTNUYVlqNmQyUzFRNmdqSzNpVHdlR3RSU2FpU3VCRnN3YU42Y3BUcVJvRjdwaHR3ckJJTGZwSl8yLUJ1eERN0gHwAUFVX3lxTE1UeEZPbHozWG9QN3EtZlJ3eFNyNHBFeXMwZlk5Z1J3Rk5Ta2wxcUpjaHptSmxZRUlMTDRrQnBicjV4VGpBN3RJWGk5cTNkUWRvRmVrclA5d1FoRjJWZTBEZFVhOUxIaHZEZHVJQjhfUU9ob1M4ZFZGYlgzYmlBVGNJRFdLaUc1RWFwVWY3SFh6aTVJbXE1TVNJamZwQUp4ZHZVMHZUM2RJYVAyY09YWllxUDE0RERVY05PTzRPODkyNC1mazBpZ241ZXB6ZXZvMy1aRHlBZlVtbEMzQ2drVzY5TjFCWlV1Yng3aWxIOWM3dA?oc=5",
-          "source": "Cricket Country",
-          "publishedAt": "Thu, 16 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-11T23:16:25.327033"
-        },
-        {
-          "title": "Mrs. Nita M Ambani: “Hope the kids go back with a lot of cherished memories”",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeHo0cXpDU0tZRkF4RGFVLVhqZlFzRDdod2RSOEViNjRSOHdBb3E3UC1fRjFvdUxSa05yRGt6NU42RTFZcldWTERCNUMyNGNNRmlHVjAyV1NHQ2NIcjc5bG55MF82U1BTVVNsRFNYc0p4aGRqaFpuWmoycHRaX3NxRmphb2lJRFgzVjNUV0JtNUZxdHNjNW5xYV8ya2taZi1hY0RacnA3UFh6RTg?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-11T23:16:25.327037"
-        },
-        {
-          "title": "Mumbai Indians owner Nita Ambani fails to recognise Rohit Sharma after batting great’s unbelievable transformation | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdWN2MWEweHFuLWdadDNBTDFTQVdzVnRYTm1vOFowcEtvQjhCWWZ1aHN4MXNTMDd3aUlxdVFaZWhwY3MycUZaUHNBVi1vUTRFZUJINHlqcXdpdE0xc0xZLTRLc3Y2SWNqRUpjeTBad3lnVWllZHV3TWRJVjNlYmE0RHFVYVlqcWxqTGI2bFdaNmRaWnRvY3lrM09WOGpGT3hPSmpIbWc1S28tTklHT0RtNVJ0NHpBcFhfWlF0THhJYWZFSmNsTFNCVEtEU1owZVpfSWx3ZF9ZOWVHTU8yTlBqX0JsRkpNVE5OUF9PSkxuYzB1N3JxS2RHWlFUQnEtMkY1Ym5rb9IBigJBVV95cUxPa1lnRlI5RmJlOUdybEtKUVVzaEdjQUlzcU1RaUptSWI3YXVpNnBJS1A4WVhWekotM0dabUxBMkE3UHpWVmVWWFhMalFOU2ZpYmREWU9Rdi1MeFZIbnVSX0V5LTRvMlpjelp5NU5odFNXMWtLRlBYQUk4Znk3SDdqR0tlOUhHa0Z5alI3enVmLU1vNlVRdVlxZTFsNDZJQW1pVkFKQmlwUG5ZX3FTRUppSUlRV1NKc1R0TXIxZjJXZGRiYnI0R253YjhkbTgtWGgycTByMWlidU9IV0tJZEhEQjZ0QlFWOU9uSVhJelczckpQVi1fZzB3MUUzVHMwdFdJNmpoSFNlNUgzQQ?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-11T23:16:25.327042"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
