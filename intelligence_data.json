@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-13T17:09:59.009575",
+    "generated_at": "2026-06-13T22:00:27.319787",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-13T17:03:32.628733",
+      "last_updated": "2026-06-13T21:54:54.309738",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-13T17:04:57.070098",
+      "last_updated": "2026-06-13T21:56:10.128431",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,18 +182,18 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-13T17:06:25.716860",
+      "last_updated": "2026-06-13T21:57:33.417713",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.33,
-        "label": "Positive",
-        "pos": 2,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -258,53 +258,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Jaipur Literature Festival, Tech Mahindra Partner to Launch the Global India Book Prize",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMER3TlR4dUN5aUxNa2Q0Y1V4WG5LYUUwcDBISTlIcnBYclZ3d0VPMWVNbkU1aG1WTlBybDNEZ2pJVUk1TXlLMXhQbGF5WHJVUkkwLU9BYzN0cmxXbDR6OG5nQjhkZTlsVHNCOFlydVdvS2ZiTmZpMDBiMnBNc2lEbWtISFVFV3hhM250UFZzSkJfUmNWeWlndzFlN1ZiLVFKVEx4M1hwbGdOMXozTE9JNENOcl9HR3p4ekZUNjl5YjVmMWhoQ1U5cXRB?oc=5",
-          "source": "Publishing Perspectives",
-          "publishedAt": "Wed, 10 Jun 2026 12:44:16 GMT",
-          "fetched_at": "2026-06-13T17:06:19.853397",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS, Infosys, Tech Mahindra, other IT shares fall amid AI stocks sell-off on Wall Street",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZkw0dzROZE1XcEViOWpWcnlYbUUxOVpfa3ppX0QyQm9wdnJNbERMMzExa2pibVlvNWNSaU5YUjlhOEFEZk1HUFhLb3l5R1c0SVBLaWNYeWpWUERDSWFIUkgwOWltUEQ2R1htWGZxTnE1TUNVS19lMkVDbTduY0RXbG80cFVXN05fU2NYQlBMQURoc2lHblRxWnJOelB6RjRXZmJiSVRrV2ZGVHVUenJvNTV0cl9NWHlJdkZDN2thSk1nWEJ2RnZURTJZSFBhdW44bTJlNUJQUkxKb2JQ?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Thu, 11 Jun 2026 04:24:20 GMT",
-          "fetched_at": "2026-06-13T17:06:19.853413",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Nifty Top Gainers And Losers Today: Shriram Finance Leads",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc0VhWkdNTmRNOVA1YkVETzhWX3BCYTRuQmFEa3J0ZEpkc3NQN2ZPUlpib1JLVXJVRnRqTEswbHF4QjF3SGNDR1dMcUhLSXU1ZDlmRzRBT18wUmFFWWplTUpMWHpPVDJHZXBfV1duY2VuaTMtTFZsTE1oX2JqZGdzQlZuM0tRNFBOeENHZHd4bW5nWUlaRmNtYXZlZGItcnE0RVdScENoV081X3ZJNndJNnJiUk5FRldhclN2UGtFQ1VqTWphdGlBQThHcEhDSmh0UE0tTFFOVnk?oc=5",
-          "source": "HDFC Sky",
-          "publishedAt": "Fri, 12 Jun 2026 11:08:49 GMT",
-          "fetched_at": "2026-06-13T17:06:19.853418",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Ireland’s Digital Future: What’s Next for Businesses?",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPajFtd2FUdUh4c2xZUXRfcGQtQ1d5TUtNYzc4ZUNyQXExNGlMSmNJaVFWaFlIZjFYLTdjSVVtY2E3Sl9BRlJSZnIxSVZhRHpMaDlrUTI3OVJEcHgxUXh2U3FGSUhoWGlPeHJkTW9pRmVtVUFBRUFPOHFFUnZiaGZyZTE1UTRYRDJRbmtIaDc3azR3cGFG?oc=5",
-          "source": "Tech Mahindra",
-          "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-13T17:06:19.853433",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Global Chess League Season 4 To Be Held In Bengaluru",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVEU0VlJoeUJPeGJvMFFmRVE5Zll2eTJCS0tBV0xybF9LaGRiTUlNNURHQ1o0WjE2b0xnWl95WVhkQ1E4Q0lPV3hzNXlQUmVYeEV5NDQ5ZTZhcUFJQy05Q2t1N1RmeGN6bE1oVnVUYzFFSU1OR3hxWXZsZWpXQklPNEtKUkVWUDJoZllzNVYyd3pRd3hB0gGUAUFVX3lxTE5URTRWUmh5Qk94Ym8wUWZFUTlmWXZ5MkJLS0FXTHJsX0toZGJNSU01REdDWjRaMTZvTGdaX3lZWGRDUThDSU9XeHM1eVBSZVh4RXk0NDllNmFxQUlDLTlDa3U3VGZ4Y3psTWhWdVRjMUVJTU5HeHFZdmxlaldCSU80S0pSRVZQMmhmWXM1VjJ3elF3eEE?oc=5",
-          "source": "SMEStreet",
-          "publishedAt": "Fri, 12 Jun 2026 08:38:37 GMT",
-          "fetched_at": "2026-06-13T17:06:19.853437",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -312,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-13T17:07:52.295273",
+      "last_updated": "2026-06-13T21:58:41.780958",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -320,9 +274,9 @@
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -394,7 +348,7 @@
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbjhMMEVQQTVRX0NaZHJ4TWkzSERDcVZUdE1nZlNDUy14YzhDa29EZWx0d05HSTZvb01NZUdhcHBsbEhxbGtLNDlyMmVWRHFXbnhpeTY5bWl6bWthX1VuZnZkOWZoQW9TbFdvTzBzWkZnTWtVS29LeGZ2MVdQY1VZdG9ZcHpKVmFzbzFTWmVGbF80Zk5ZY2RuQ0lxc0lxYVFXY001Y0Y3bWNkLXA1U3BoYkx1ODlYeVJjQ3lZQ3FUSHZTMUNYdV9TZTNKcDM5ZXk5VjZ2bVBzZmtpcUoxejFkNjJlRkczNUh10gHuAUFVX3lxTE9DUEFUQnhuQ0pVekJQekhxekhDUHV1bDdEal9kMDJlQ25JUEZyZzRRdGVETklXZ05nWUQyUmktdWxvaTNXcWRJMWdKN3d2UnFZbE9FckRhMjJUVVFfMVcyS3cyYTdGQXFJTmR6dWVxdzNtWk5HMnVJMFpRQUhDa3FOeEFabVgxYlI5V3AzU3FsQlJuNDg0b0J1VnVDLTh3ZDh2TlRpQWFmb3pHNUt5MGx3N3MzSHBnVHJFTnM1ZEVManhSZFd5Z1JwRTYxd05yb0V5SVVRTGxoeENBWGkzRVEwT01yTmxCR0lmVXRxa0E?oc=5",
           "source": "Mint",
           "publishedAt": "Sat, 13 Jun 2026 00:30:56 GMT",
-          "fetched_at": "2026-06-13T17:07:12.208092",
+          "fetched_at": "2026-06-13T21:58:11.557538",
           "related_to": "SBI",
           "relevance": "competitor"
         },
@@ -403,34 +357,34 @@
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWHpYZ1ZERnZ1TXlpM0pfaFY3anEtQ0pjWkNKbHA0MXJmYUxUVEgzb0Via3pTSEduMlN3S2pqOFM3VFRERzVwR2hZUzU2ZmZOa3NKemhTTFJGVi1GVTZNa2dZdy1KUFEwRXdCc2QxSGtBaGc4cjF0Y3hYNDFOekM0WjNHVFUydTRoS1lXR0pHQnRBaGhOdEhBSVhBRXhJX3Y0RTJQT3Q4ckNaSjU2Y0dlcTB5QS1JOUdZSDNOOFZnNVdIRnFZX0NiY3k1SWZXcXJscC0tMUt1TdIB3AFBVV95cUxNTnk2OXJjdnlndFVMUVBrWUpsRVpvT2xSSnZKTW5MWVoxZmNDOExWR0l3RmNNeVprdTBFbTgtQVNzVFRiM0dGZ283WC14RV9udXZLMXZhaG9jZlhLN0xJYVU0Y0d1a2dOdHRCNF9DYzhkVUtmeWItbkM3WjM0Mm1IbnlJYWFNbHBUQWlVbFRlZ3BSUDlZNUVSTnZ5OWR0VVJUS3dkMHB3dnZrbFpIa2lrSy0yTktjSkoyZDdQRmY0UmZFQVpIekgzSWhDelRtbEhDR3Q2QXFjZGJGN1lZ?oc=5",
           "source": "Telegraph India",
           "publishedAt": "Sat, 13 Jun 2026 14:20:07 GMT",
-          "fetched_at": "2026-06-13T17:07:12.208112",
+          "fetched_at": "2026-06-13T21:58:11.557565",
           "related_to": "SBI",
           "relevance": "competitor"
         },
         {
-          "title": "NCLT admits SBI plea to initiate personal insolvency proceedings against Anil Ambani",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQX2Item9PRm9pZkMyLW0xZU11R29RNWg0SU5iaWNCYzRiR21pdWJpSUZZbDQ5c2JkdjcwRDRWb0M0ZHFvUGEwUW5rWWdFbmp4Q2VKZlRuQnVIZnZIaFo4TTg4OXlIM0x1dkx5Xzhudk9TcGRKcXlKU3dGY0VMUDdDYW9QQmNSUlMwcVlQNkxHdDhmVVh4UnRYYUd2MVpVNXJDbU5qRTFSM0NPdnhaMm9aQ3NsT0Y0WDRjYVNrU1VRV1hKSk9ZTGRF?oc=5",
-          "source": "Bar and Bench",
-          "publishedAt": "Thu, 11 Jun 2026 13:06:52 GMT",
-          "fetched_at": "2026-06-13T17:07:12.208119",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SBI stock rating: Jefferies bullish, eyes loan repricing for NIM stability; check target price, upside",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNank1aHBLVzBZNUNkaFhSakxiUmVlamNWWVJ0dm9HUmJDQXRMYzFVc01YQzAyRmZRMF8tZEh6bVVPNG5PMlFXamJmbjZPaEZTc2xqZkItMjNfcGZtSjZHNWR2LUdXSnhlaVZwdm5BY0ZFSUczSGR0b0NlTXV5V1RVTV9KbWlsaXRFWjYzV3V6VjhUcHlLWm9NZ09SVFBTZTJ1dmhiRkFRYTVENmNmckxGcVdYRW1VNWRFdS1FS0ZVSVNxQk9VVUVOWldVVktYTFdmNl9ielNaTlBWd2x0eEtNaGtNZVFuUXlGa25qUktPQ2Ryb2ow0gH6AUFVX3lxTE11SzNjNG5HaERaRFhsMjNOeHBmYzlyUndSbHFKejFGTWhZTzZUUEZRTU0wM1dEQkZfV3J2cGFpd3l0b0hjYVNveTFoLTZseE03YVNMb2ZWT1lVRUtYU3hTcF9lN2ppMjZ1WFZhQWJqQ2JuaXhkQV82WjlxSVdtNzF2ZG5rYmtJWWNhbWI3TEJiMzJ3T2lVMnNFMVRLYlFaYnRCTHRwZHZlNEFQRGgybFNEaUZDNU9oVThiemJidkN5ay1zcnhyZjQ4SDhlaXZ3NkhvSVN2ZklEU3VmWm5TMVJMQndoR0RmQ2thbGFHRVJBRDJvN24ySDdwOXc?oc=5",
+          "title": "SBI and Bank of Baroda raise FCNR deposit rates up to 6%",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa0dmM0pVS29QU1lyNk1PT2pOd2doYzlfdTlhckRGd25jZ014dWt4U3FoU0JjUFZfUVFHeTI1QV83TmsySFd6TnRzM3pVU3M4RGZpQm16MG9fbU15clJXVDh4NnFUbHdMdHFuZG4wLWN4QlNxVmc2NEpveERVNXZjYmVuUnN2Ykh6LUhDQWFURDNfbVFoV2F5Zm5lZXA2dkZWYXBCYzBGb19sUjd4ZDNsYnRnSWR6Rjh2RWZUNnhpMDlUdkcyMENOWNIBzgFBVV95cUxPQUFPdDdzQWdIbHF4VkR1cTRvckttQkQ0elpMajBFMXFNUE1fZEdvTHhOclZtcmtUWlFvSmRrdHV0akVxckNYRjNlSVVaWWpKZi04ZE9GcFBGVWxKei1uRFdjaHY1U053b0hQMDJDNTB4NGt0eUlkSUlNS3lXaTVRdGJ4dHBHSHVjX0o5a3Zvek9ONTF0TlBKeEpxbTB2RXlTMnppN05uRFpkR1kxM05taHRDZFZUdEFYMk5tZ1ZvaU1ZenBSZDhBQWZfWUtCQQ?oc=5",
           "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 12 Jun 2026 03:24:52 GMT",
-          "fetched_at": "2026-06-13T17:07:12.208123",
+          "publishedAt": "Thu, 11 Jun 2026 09:03:16 GMT",
+          "fetched_at": "2026-06-13T21:58:11.557570",
           "related_to": "SBI",
           "relevance": "competitor"
         },
         {
-          "title": "Man loses Rs 80,000 after card gets stuck in ATM, SBI refunds amount now to pay for ‘mental agony’",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUGVVekdsLWtwOTczRTRIZ2J5SDFZbHZTTUZZb2RnTjNoRWpBMFJHWnBRNXhrbFhzcktHTzJtaHIwUzA2NWh1Y3FzYUN0cFB0dENvSGowd1M2U3hsMnppZGJaVnVYQ2xVWGRFS3BQTUM4MmNIbGlfTjhYemtwcW9fV1JnUUREREhMZjFNMDN0UXhhZUx2N3FsLU5pbjhBTjhwekdReWU0RTFKQnBwNTlzenVxOGZsd9IBvAFBVV95cUxOY0pRekk4TUFNbC14SXJrZmttNExmSmprbnJCNHVZaWV4M1ByZkNDbzZ1SW0zUHpZbjE2SEp0czlja2FGNk4wYTFydE56Y25zOFVma3o3ZG51S2t1cWxobHFHRkRvaTZYQUtWUmkzMUNGMlZMbWQtNVRzWjIwaDRqV2ZRRzdBSjR4VzFHSHRfQmg5bHZkbkhqaFB1U3k3WlhrTWV5eW82eDdCVm15TW9YT3JtMGd2RDBDaUhRLQ?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Sat, 13 Jun 2026 03:30:26 GMT",
-          "fetched_at": "2026-06-13T17:07:12.208128",
+          "title": "Senior citizens FD interest rates up to 8.3%: SBI, HDFC Bank, PNB, ICICI Bank, Axis Bank and more",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSTZoV2RBcURQTjNQWjdIa2pjeU5RRnNPT25uV1BRS1NCVDJESlFkMS1rdk9fWFhHX1FydVFtOHBJSDc0UUdSZVJFWV9qWjJscUFHWnI3NDY0R09PT29hYVF1Q3lKMUowRFZaWXBTYmhJSjRfbVNael9YRjM3SjAwWDh1X3ZfOVB2cWFaT0NVN0RKRlJxckhRUU9QTFhEaHc2Smt4WHJYaGhBMUc5b1hVZVlGNzNJdFYyVzdlZmJqbDM3LVBsNFdjeHRjWTQwdGtSV2RCZHdlMF9OOTlXdmhmNFFmU1ZBdmFCM1JsTk9WWUTSAfYBQVVfeXFMTk9QUTVZaFhMNkR6QTV2YUxuS3JBV3FnMzhNSXJiRDlLZ3Iteko3dXhXN3RORXhCZUNyOE9ISVQ0ZHk0dC0zdjhuVUo4Ry1nZWhxb2Q4OWVrZ0o5dHZ4MzFZTm1rZk1ySVowVkN5c3pEVHc5My1LM2ZQb1BrTDFkaEs0NXk1eVl1elY0RWFGeFY3cFlvcGxRMmx1UF9ta0N0YUplOUFjNDBIVVRVTHRMeGJkdXp5RkxtUktyekkxOFNOWlRLc2RRUWFWNUs2S3FILTJmQkZKVHYtdDdxVmZwUTJuTHplQUNJUXJwb0Y1dk5nRl9EUXVB?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sat, 13 Jun 2026 10:24:31 GMT",
+          "fetched_at": "2026-06-13T21:58:11.557574",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bank holiday today, June 13: Are SBI, HDFC Bank, and other banks closed on Saturday?",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQk5mdmt4WnNXQ0pOVzhkV0pmNkVlZ0hmMXk2VE1BSXpJSG9NOV9hcWJrVmlYZVBwc2JLVmtoZmFuY0dFMHJ5QVRpZ3ppd3FvUGlQTFlSb05leTNBMEF2dTNuMzlTTDkwaEhGUTMzNVh5YWR1Q2N1MUx0NFlXZnV2TTJrMHluV2VaaTVuMmFFOWo0YUdaNzZ2Rmc1ZmlIU0pZZkxHbHZzT1QzVUZfY1lGSkxUS3RiT0lKMGVSV1VIaUpsTDNQbXdURGpmajk4NzMwSG5rY2ZucElxQjVmcS1aONIB5gFBVV95cUxPZUJ4TWtwcGJJZzAtSmtRb3locTRzM3VmWDNOQzBybEFkUkF2Mkc4Q2xPU0FwVTgzb2ZTVkJlV1dOVGZXdlh1ZkREWDM3SVo0amt2NDVObVAwU1dKQnktNEhybHBlQlByRk5ObThFQ3M4czYwN1VwOHo0RGxmTEF3dG9SU1FkbTZWM1FPeU13alVDNWdRLWpURkd5dzY0VUJ5eWFLaTRaTGl4LVBIc2ZLc3E1UWhzaHhnaE1rRVowbHFDR1gxZmFFcTRtWWNfVkhWUHVKZlVJM3hSUWJFS3VoLWI1ZC1XZw?oc=5",
+          "source": "Mint",
+          "publishedAt": "Sat, 13 Jun 2026 00:15:25 GMT",
+          "fetched_at": "2026-06-13T21:58:11.557578",
           "related_to": "SBI",
           "relevance": "competitor"
         }
@@ -442,18 +396,18 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-13T17:08:58.742949",
+      "last_updated": "2026-06-13T21:59:29.572760",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -518,7 +472,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Nashik cops raid warehouse in Mumbai, recover stolen BSNL cables worth Rs 2.8 cr, godown owner among six",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPTUdYeGFaTFlnWFVIWS1lQ3g4Q1N4MXFqU1FRVGdJeVdFS3ktbndFak9XYmFjcDB3cGNGMmN5SDlwTnhkVFhmOFZOcnpGZzhicGlGOFI4cUNBOTNfdXhOblpqUDVjbGd3RG44OEVDNTlLNl9TNWhBaXdJZFdQb2Zlckw0MHRQeTZtSm1hY1NpQ2hvTzF3bThHd0huYkVDbnFoLWljbGhZSVdxVVktQXk4MmdFcjVUeml6RUo2emNsQUZKR1lxQmRLWVc2anp2ck1udjFqWUhlbWplVDNTVGw1VEk5ajU3LTNCdGVhMmE0dExKdTFkczZETmdDZ0lOblNhRHhGc3RibldUTW01THfSAZMCQVVfeXFMT0dQalVFTmlLVlVGejR5cUFIcU04a2QwR1dYOFU3dncxSjlEeVZvR3djX2IzMTRDNVRRdWg3RGxTTEZCemdiUVpCalVpb2ZPbU8ydlh6WmVoR0JWNkpUN042cFJwRi1YMlVET2ZiNHc2TWdCdGhhZ0ZUaGZHZElycmgwbGZkS1A0aFRPY09KZTRkU2g1anhzdmpsNXNBUUk3aGhnNXZVdDNQQ1ZEZkFvRFBLOUpsYk9YXzBES3k0eTN0SVNDcGRYOC1KeVlDSkhQZnJnRkNlNnhwS0dIcGpET2plVGlZOGVNakV6ZUkxb1RLbUtKdjVvaExneTU2LU4tS1dyVldfR3QtZEpnSkRSQlphN3c?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sat, 13 Jun 2026 17:33:00 GMT",
+          "fetched_at": "2026-06-13T21:59:29.451232",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TRAI picks BSNL’s Harinder Kumar as its new secretary",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQlNvN3pjYVJSaTZWQ29Hd0RGLUowVHJVRWlSQXl5cHh5NVViZnZqRXJMcklMclBpMElGVy01Y1RfU2R4YnBhU2pTN25sQUdFTnNIQzFEOHdILW9yTlIwajdNd1JKeXMxVGVlZ2Q3MEN6RjMtMHB2NDRWYThmaVZRa2dwRDd4TnBFallCRGpidHdLaGxuY0hB?oc=5",
+          "source": "Indian Television Dot Com",
+          "publishedAt": "Fri, 12 Jun 2026 13:31:39 GMT",
+          "fetched_at": "2026-06-13T21:59:29.451251",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Can D2M Technology Help BSNL Reduce IPL Streaming Congestion",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KV1I1b2xMRGh2VTJ6ZS1IdVUyT1pjc1pRYWZockprUXRVVHhuNTZUTlhhWlpXeUhBRzdaeGZNc0NScG9tc1BfcnNvTlhfcGZUYWVRMFVMeERaTkFRTnc0NUp1LUZZajE3YUJRdnR5ekprTFktWlVDV2VfckppUQ?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Sat, 13 Jun 2026 06:31:25 GMT",
+          "fetched_at": "2026-06-13T21:59:29.451256",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Madras High Court Affirms Fresh Arbitration In ₹2.5 Cr. Isha Foundation-BSNL Call Billing Dispute",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNd2t4OWxFZWdaZFdkc0VTb1p1TC1rSHdXOU1LVEtvbzFTa00zeEpYa29yTVY0akVwRDBPT0R3V2Jjak45YnZJbUpXWXlGR1dUUHpyanFHbXQwdE1xcjFxVWtMaXBabFVMWWI1SzVrUUlKMHoxS2FkRlprNGZsamEzTnRhaHNVZVo4X3N5ekVDVFZRcHUzWGhjZ3h1aHBJXzBmWmZXU2U4UU1UTm5DSEpmNWFzVk5UUDVtTUxnX2UyT1BTek1VMGpNRzNucTlaM3cwX2ZEcGlTTVdXOEVFRHNZUmpBWllkejBsOE1J0gHwAUFVX3lxTFBMRkdHV3p0UERLNmdxNmV6Qm5rc3g3N1lfdmxsdEJLRnY4cDk0a2hIMU5ydEYzTkx6MTZIQWRSaXFWZHc5ZnZsX1FMUVktblZCdWlnM181bzlOUWpwN1RVYmExREFVTEFvcTQxWF9DMDV2SmVSWk5GN1phc2Y2TGdqYWs0dWUtT0RwWllVT1BTRlNPS2kyRWtIM041NEN1QjVSU2pjT3FLTzBsYU1kSFFXVlJSWFUtNGZKLXE5TXYwMUY5YzlGMjRDdWF4Z0tURXVOTnZqV1VFc3AxN2hLUm9uUnpRbHRKRmR3ZmY3VzNwQQ?oc=5",
+          "source": "LiveLawBiz",
+          "publishedAt": "Thu, 11 Jun 2026 11:37:56 GMT",
+          "fetched_at": "2026-06-13T21:59:29.451261",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TRAI appoints BSNL executive Harinder Kumar as secretary",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeThQczRUVzM4ZlB1c2pycDktOW1hRHRhMkx3ZlFlSU1DRmhzSy1FNHl4NmktTXBTQkVhQ2VLU0dsaGZldlk2RHkybWxIVy1Fcm1zRU9ldXllbnl3bUdJWHhzNDFjRmRyMUk3TGVFT1dDUFlRNjZQX3d5S2hLU3hHT2otUjRtdktob3RrYTNGTFlGYlhNVG1UdHRhT2ItUldCQzhfSmQxRUpEUldITlpYbzJB0gGyAUFVX3lxTFB5OFBzNFRXMzhmUHVzanJwOS05bWFEdGEyTHdmUWVJTUNGaHNLLUU0eXg2aS1NcFNCRWFDZUtTR2xoZmV2WTZEeTJtbEhXLUVybXNFT2V1eWVueXdtR0lYeHM0MWNGZHIxSTdMZUVPV0NQWVE2NlBfd3lLaEtTeEdPai1SNG12S2hvdGthM0ZMWUZiWE1UbVR0dGFPYi1SV0JDOF9KZDFFSkRSV0hOWlhvMkE?oc=5",
+          "source": "bestmediainfo.com",
+          "publishedAt": "Fri, 12 Jun 2026 13:04:07 GMT",
+          "fetched_at": "2026-06-13T21:59:29.451265",
+          "related_to": "BSNL",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -526,7 +526,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-13T17:09:59.009555",
+      "last_updated": "2026-06-13T22:00:27.319774",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
