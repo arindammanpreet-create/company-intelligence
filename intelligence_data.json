@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-12T23:09:57.858960",
+    "generated_at": "2026-06-13T10:20:26.954573",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,18 +14,18 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-12T23:03:55.075257",
+      "last_updated": "2026-06-13T10:14:43.904433",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.33,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Democratic senators question DOJ decision to drop case against billionaire",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSk5Nc09xRWpOWk8zeWhGVmpDZEpTYjVvd2pRalU4NUE1SnJjbkJOa0NRTDVXTFR6YWNqZkVMd0ZET2Y3VElpdUxmUXdGODlfLThkc0dzcDZpSV9iQUs4ZWh4Z3ViQllYVnpBQ2xHaGw3d2dfdy1YNWlNTXRNa19NNXJZUkk0OXpENlVaOU5SWlZMbDVtSlQtYzU1dFY5QjlsR3djS1N0ODZ5SUJKTjBZYkdpenFHeFM2SlB3YmdQdkE4VlBH?oc=5",
+          "source": "NBC News",
+          "publishedAt": "Fri, 12 Jun 2026 10:00:41 GMT",
+          "fetched_at": "2026-06-13T10:14:19.473095",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Congress attack on Adani helps China: Kenyan govt awards Nairobi Airport project to Chinese company at 50% higher cost after cancelling Adani contract due to political opposition",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdGxVR3M5RVRGYmxRb0xHZmdLeG9LTG9jcUJ6X19fRVVOa2hrUTlXcmNUdV9YLTZCUmVjdGlveEZTc2JmVXR1Z2lkQ0xRanpHcmVtMGl5UEF5UFJNcWloZWNhZTNOVVl4QVhrTWlfMGRvbFRTQmdrOUhESUtfMlh4TFc5S25BSlVEZXFXX2F4NTFELVlobTRlSVRYbFU1QUxjbTFDRUhsU2ptVlRaX0dQWmZubkk2M2lDeWEtcmUwVHQzSUJERUZaTTR6Z1psX0FWcFZTV0wtUmw2SVpZSmtmeExrOA?oc=5",
+          "source": "opindia.com",
+          "publishedAt": "Thu, 11 Jun 2026 14:12:43 GMT",
+          "fetched_at": "2026-06-13T10:14:19.473109",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Mukesh Ambani's Reliance Group enters Mumbai slum redevelopment sector",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObXlxT19MQ3VHeWRVZnVWbXpVX2s4c0l4VjFsWnNNMktfUThEUW53NG02QlFWWmtOZkxNdlB0WkxibWV3UGtNeWg3Tm5tUjVrMnNwYjJRM1FUWmJjZjgxWVBkQnRjUXFldG5hU095V0F1U1JrbzVRV2htMU9aRVdMN3BrY3NkaVF2SmRjZUxEYzREalRVS0dobGtEQzA0ZEtPTXVBTWY2LVlyNWdrLUZsUHRFRmZOaThr?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Thu, 11 Jun 2026 13:07:11 GMT",
+          "fetched_at": "2026-06-13T10:14:19.473113",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Group Stock Jumps After Acquiring 100% Ownership of Madhuvanti Build Estate By Trade Brains",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVnFZSVIwQlBlOU12NEgweXNUY2xLMnpVMU1LdTY4emxzSXZpUUJtT05ZNHdDS1pBVlY2MW5oSDVlSnEwQ3RsLTluekJuZ1VTcTByZHdwX2FhSmhtaGtDV1dLU2NkYXBNUld3MUx4UDlxN0NpbUlMekdQcy1Oa3dIMzZJWUtudkRhMXNWMHcwWUt6dWl4dTEzbl9yZ2pQOWZRWEJUclNqWlVtYXJFRjJ5TUtCVm96bXdhRnlaTEoydC14ZkpTLWxuOVVVNWdFNUdlaGc?oc=5",
+          "source": "Investing.com India",
+          "publishedAt": "Fri, 12 Jun 2026 10:01:35 GMT",
+          "fetched_at": "2026-06-13T10:14:19.473118",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "New twist in Adani-Hindenburg saga: Five offshore funds take SEBI to SAT, say reports; hearing today",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOcHpSVW44M0o4VjBsVl9iTFJaLVlHbHhrVHctWHF3QmUtbzBiMFpTNElOR2FBSmxrMUdYSWZ4Tlc4cnhyUkdYci1hNWRPanJpNFNuZTQwclNuc3U4RWNMeDEwRmY2NzJ6WEt4Zy1ncXhpcmtQbTRxWThPb1VPX0s0a1NhM0RjNHFiYzFEWGlRd1ZiSno4MzR2dDVmdkJlbVo2SE83YzF1NTRJenVWdU9GRWpaUzRIRWpROXRiTXZrcE9jWjJkb3lLUzhvbWJObHpVVlRMVDRKalQ5WUVZdE1VRVphaU5UYzJhVUI2aDVBV2p2Qzh1OWctS3J0UdIBgAJBVV95cUxQVnQwNGVNN21tamdNOXZ3U182T2pPUWhxQldtdmEwWExhVEdGZU5TWjZWUXZXQk1BbkxuVGdRVEk3cHVDQ243WFY2aEVoQ25veVdaS1pYOV9LQTVlRmhrM1d1a0FQRk5nWVk2TnFuS1NjMTIxLWNWSnRGNVk0dFpoeFJtamlMRkFmTVhLcXRMQ0x5c1BjR21mZ1ZOcW5rcnVyOHI0UlRjUDR1OV9zODYtUzd5Wno5cXIyMHluT2tDVDczQkw3Qm4zS0FLcVIyRDEzaDkyRW1icGI5ZFk5UnJuUDYyUVRGSDhxek9ZNm9CSC1aVk5DUmwzTlhHM1F6aURo?oc=5",
+          "source": "Mint",
+          "publishedAt": "Fri, 12 Jun 2026 03:19:03 GMT",
+          "fetched_at": "2026-06-13T10:14:19.473122",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,91 +144,20 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-12T23:05:12.080122",
+      "last_updated": "2026-06-13T10:15:31.012703",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 4,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "TCS and Anthropic launch Global Premier Partnership to drive Enterprise AI scaling",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOHNkYWdNVUtBc3lEOHFLd2RwQ1FoeE0xZXRIWTFYTzd5bFdjQ3kycXVWQ3Q4ZExGSE5zT2t5MUFFMmJ3enBJVnQ3VlhpX3NrNlM3Sldyb1V4SVVVcWhhaVU1aUNwSmVjdnI0Wi1YQ2ZWRFJJQkR4WG1LNUJYVGg4RkdhZkktZ3hQeS1EYTdDdHZjZGtnVTNnWGxtZ052V2FNajFuQlNQMXlwc0lTaFc2TTJpNTJIaEx5RnNvQ3FNLXFkUkFLREpDRA?oc=5",
-          "source": "Tata Consultancy Services",
-          "publishedAt": "Thu, 11 Jun 2026 10:22:58 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893381"
-        },
-        {
-          "title": "TCS and Anthropic partner to bring Claude to regulated industries",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mS004dFB2RHhmSy0zVWJXN0ZXbXFsdzBQTjNxNm5uOEh0cC1tVm4xdk11alFNS01lS0l4N0VVRjJHSjFUNjNfc3lHZllXRFB5Zks0X3U2VExuQ3N5aVRmV2xvd3BwNHc?oc=5",
-          "source": "Anthropic",
-          "publishedAt": "Fri, 12 Jun 2026 18:04:41 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893396"
-        },
-        {
-          "title": "India's TCS partners with Anthropic to drive enterprise AI scaling",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWFoTmFvRmMySDFtVjdMa0g3cTBBVGJxYUMwNnBybTV4dWczckRFdGt4QVJSRnVxYzItcFdTNzEzZ0F2V3gyb2UxMU1xazc0S2JoZW1OSUx4YkJlVEM5dTFFNnBwQWN2UnhBTGRUS2Rxb1YtSTY2WHVvcnRCUzM0ZS00UGxRTzNvemlCR2N0WU1NZTltaUZhMXZJOS1qVXZRQzJsZ0RQa0pkX3c5d1Rj?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Thu, 11 Jun 2026 05:31:00 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893405"
-        },
-        {
-          "title": "TCS, Anthropic partner to scale enterprise AI, to equip 50,000 employees with Claude",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObjRXcXAzNUxsNHk1WjB6TFJHRmNhVFlUNHRkeGZ2anBvR0J1TmFQRnUxUzhMdTZDaWFPU1Z6RFBPTFd0TFluMnBidmY4dEMwd2VzU1FNVUNqREFTaDhwbnV0NUszaGhaY1Zha1ZkTUNXbml6REFDN1p6WW11OTFrNUQwOFdZTDk2TEd0M3h1M0wwanBic1pVOUpNdWJuQ0ZmVV9WSDdIdDF6T2hzb3hyZjhYbDJoalBCSFZNLU1iV01MMFptaldDMjlJeG95QTl1cW5IWXFxeGpHck4zNzFfWHV0NVBiVzA?oc=5",
-          "source": "Indiatimes",
-          "publishedAt": "Fri, 12 Jun 2026 03:46:45 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893410"
-        },
-        {
-          "title": "TCS launches India’s first Oracle AI Data Platform Lab and Center of Excellence in Kolkata",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMkJKTU5CY3JFSklPdHUtMlJrSGViNEVpZk52SGRNaUVVc005NmZIRzRiamVfQU1JVllqbzRDRzh4UmRxQnF3bnRkNFBDVlVfVU9PUW55UXlPWllRTDI4RkY5Z2VSQ0RIWm82RXRYSE1DcDlacWhPVmpDcWxIdm1Dd09pcGwxOFVkbWJ1S1JRQXowLTdMcFNJVkdudjk5YlJRU0dFRll0YVpJalJidnh4Z1R5TzZldXZPTWlRNTBYbC02NVk5UXJWRzkzcnJ5N1UyN2twcVFR?oc=5",
-          "source": "Tata Consultancy Services",
-          "publishedAt": "Fri, 12 Jun 2026 07:39:59 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893424"
-        },
-        {
-          "title": "TCS Safety Scientist Jobs 2026: Life Science Professionals Can Apply",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHdBNWNuQm00cnYxMEdlbllXOHpMNkIzNmFpQlRMNUZDZFpaSjN6djdLQmU0eTV0Q2poMExRVlB2Qi1EZXR0azE2QjVHdVc3T1BuZnREd0J4SUI5UkpUbGl3Ui11RVFJY1ZVUmtCcWV3bm5zREhxYjZJbGZnb2VZSWI0Mi14bUhh0gGOAUFVX3lxTE54NTFIZDgyY2thUWpINkVIMFg0X1QxMWFRenF1YU5iRWZMU2UzSXRGUnJhbWhEZ3pyTXdDdWY0NXdSMW5UUE5TeHY0M2lxSTdsRHNPZzJJUk1MV2d2Z2dMcG9TbjdQYlB0Q0dHTF9IMDJaSFBvd3prcUNPdi1nU0haVGlhNTlhVWJEZnBYUEE?oc=5",
-          "source": "BioTecNika",
-          "publishedAt": "Fri, 12 Jun 2026 11:59:26 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893428"
-        },
-        {
-          "title": "Kolkata Gets India's First Oracle AI Data Platform Lab As TCS Expands AI Push",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObWtMMjVyRDRDOWZFT3k3aDZOT3RlR1JOdjMzbnp6dV9xWHhBMmRrOG5XU0p3Y3JQZml0ZXAycDBMVUotbXVrbm9EYlY3ZFBmbFcxOHNhVkNRdGd0T1QwajBmeWFPT3VMNG1mV0xyLVB2U0x6ZGFQTk4xeDdzTzVSTHZ5RnZqbkwzMGtJNGlzNVd5ZHBIVm9CYll5SjBqSnNlOHhrbVB4MUMzX1ZnUUFLaNIBwAFBVV95cUxPUlh5Ukl0eTFmQUNMUlBrSmNiZ0lHa0NRUUJOblZ2bDNmaGtSMFhqUjYwM3NtN29UZ3Fwc0dZbENyQ0FQMlpHcmZYa0VoQlREODhwNEx0RVAxeDdKanEwbTlsOFlweFIzMGFKVjJkcHZSWThvS0daVnhJZ0ZVVXpwNjhlSUR3c0NaNW5BR2VVYVRzNWhYN19MajJPZTFfVkZ3UkV3MzBtaUQ3UUt1RkIycTQwbDB5WmlSdUFDOWxwejU?oc=5",
-          "source": "Swarajyamag",
-          "publishedAt": "Fri, 12 Jun 2026 10:35:05 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893432"
-        },
-        {
-          "title": "TCS launches India's first Oracle AI Data platform lab in Kolkata",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORnVvZnlIN2FMQVY0a3BYWHRkanFWRWNob2FCdVJ5dFJNVVRzclpkTkY1VFZhTDFDUFp4LUVERGxJME9hekU5cVJEVkpFQl8yU1FvTHEwRktuVTMxd0JNZlNSU09teUJzYTQtRzluYWVEMlQ4R21fNGNGSjNhaGh3NVYzV1ZmdkEzbUd3eTVfcG56QnR2TjYtUWg1TjdsbkdvNE5obFFlZG1KWk5Hbm5MOFpXNlhid2tSYUFkNXlCNXM0a0ZBeUh2V1BUemlJLUHSAdQBQVVfeXFMTUxjSDh3ZmFic2V3VHp2MUJJb2ZMZU5XeE5BVHdLNlkxUl9SalpNVUdJNGFmV1ZaYk1fRTBERHFQTm02Uk83RkdzbnJ2amxpOTYwUXJDM1BuNjYwUl8weUpaT2hZMnN4Ym9zYkV1MG5DME1JWGhLSjExd29lTXJQY2RWa3FtQ19mOGpRV1lJbGNXUVRsMlJaSUlLQmp5dGZEVnN5OUVKY3RfanZiZ1hSaFBlWkhpVEFiWVMtb0xXdkUtcGlQdFFBckZ1akVfajVxTkk0bXY?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Fri, 12 Jun 2026 08:38:37 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893437"
-        },
-        {
-          "title": "TCS builds AI-ready data platform hub with Oracle in Kolkata",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSDRkc0tBRlJJMVhJdzJiVk10NlUtX0E3MVYtZndHM2RiOUxmRkFNbE03ZnZOeHNKand6WWFGRm9Vc3hyVXQ3RVFEVzVXaDdoWlg1bVRkdUVRakN4QkZqUk1PU0czYWlXMVVwVm1LZnJNMkREV2pzcUp4RVlKdFBJUGl1Ym9Ud3FSY0I3YmJ1VDE1YTdjNnhxR1hmSG82dw?oc=5",
-          "source": "Techcircle",
-          "publishedAt": "Fri, 12 Jun 2026 12:48:41 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893440"
-        },
-        {
-          "title": "Asia’s Largest Outsourcer to Slow Hiring as AI Reshapes Industry",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeXNPUXFfcnVpVjZfdTBmZXlIbFgzcU5fTDlZS0dQdHVMa0VNNmZNT0gzellUUGRVSFd1RTNmcjIxZF9oVHdnU1hwaE1iV1JSWGFCa193bE15R0hLNzNLRG56Mk13X2twTG9icXhRUHludG5vaWpVRnlMY0JKRzhkbC1nbkMtblNnX0kycHk1TWhZd241Y3VabGNoTWM0V0ZGMkxLdnZMNUozYlcwa0EwVndLcHJKUQ?oc=5",
-          "source": "Bloomberg.com",
-          "publishedAt": "Wed, 10 Jun 2026 05:54:00 GMT",
-          "fetched_at": "2026-06-12T23:04:07.893444"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
@@ -246,50 +221,14 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "TCS and Anthropic launch Global Premier Partnership to drive Enterprise AI scaling",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOHNkYWdNVUtBc3lEOHFLd2RwQ1FoeE0xZXRIWTFYTzd5bFdjQ3kycXVWQ3Q4ZExGSE5zT2t5MUFFMmJ3enBJVnQ3VlhpX3NrNlM3Sldyb1V4SVVVcWhhaVU1aUNwSmVjdnI0Wi1YQ2ZWRFJJQkR4WG1LNUJYVGg4RkdhZkktZ3hQeS1EYTdDdHZjZGtnVTNnWGxtZ052V2FNajFuQlNQMXlwc0lTaFc2TTJpNTJIaEx5RnNvQ3FNLXFkUkFLREpDRA?oc=5",
-          "source": "Tata Consultancy Services",
-          "publishedAt": "Thu, 11 Jun 2026 10:22:58 GMT",
-          "fetched_at": "2026-06-12T23:05:12.078949"
-        },
-        {
-          "title": "TCS and Anthropic partner to bring Claude to regulated industries",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mS004dFB2RHhmSy0zVWJXN0ZXbXFsdzBQTjNxNm5uOEh0cC1tVm4xdk11alFNS01lS0l4N0VVRjJHSjFUNjNfc3lHZllXRFB5Zks0X3U2VExuQ3N5aVRmV2xvd3BwNHc?oc=5",
-          "source": "Anthropic",
-          "publishedAt": "Fri, 12 Jun 2026 18:04:41 GMT",
-          "fetched_at": "2026-06-12T23:05:12.078961"
-        },
-        {
-          "title": "India's TCS partners with Anthropic to drive enterprise AI scaling",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWFoTmFvRmMySDFtVjdMa0g3cTBBVGJxYUMwNnBybTV4dWczckRFdGt4QVJSRnVxYzItcFdTNzEzZ0F2V3gyb2UxMU1xazc0S2JoZW1OSUx4YkJlVEM5dTFFNnBwQWN2UnhBTGRUS2Rxb1YtSTY2WHVvcnRCUzM0ZS00UGxRTzNvemlCR2N0WU1NZTltaUZhMXZJOS1qVXZRQzJsZ0RQa0pkX3c5d1Rj?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Thu, 11 Jun 2026 05:31:00 GMT",
-          "fetched_at": "2026-06-12T23:05:12.078965"
-        },
-        {
-          "title": "TCS, Anthropic partner to scale enterprise AI, to equip 50,000 employees with Claude",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObjRXcXAzNUxsNHk1WjB6TFJHRmNhVFlUNHRkeGZ2anBvR0J1TmFQRnUxUzhMdTZDaWFPU1Z6RFBPTFd0TFluMnBidmY4dEMwd2VzU1FNVUNqREFTaDhwbnV0NUszaGhaY1Zha1ZkTUNXbml6REFDN1p6WW11OTFrNUQwOFdZTDk2TEd0M3h1M0wwanBic1pVOUpNdWJuQ0ZmVV9WSDdIdDF6T2hzb3hyZjhYbDJoalBCSFZNLU1iV01MMFptaldDMjlJeG95QTl1cW5IWXFxeGpHck4zNzFfWHV0NVBiVzA?oc=5",
-          "source": "Indiatimes",
-          "publishedAt": "Fri, 12 Jun 2026 03:46:45 GMT",
-          "fetched_at": "2026-06-12T23:05:12.078969"
-        },
-        {
-          "title": "TCS launches India’s first Oracle AI Data Platform Lab and Center of Excellence in Kolkata",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMkJKTU5CY3JFSklPdHUtMlJrSGViNEVpZk52SGRNaUVVc005NmZIRzRiamVfQU1JVllqbzRDRzh4UmRxQnF3bnRkNFBDVlVfVU9PUW55UXlPWllRTDI4RkY5Z2VSQ0RIWm82RXRYSE1DcDlacWhPVmpDcWxIdm1Dd09pcGwxOFVkbWJ1S1JRQXowLTdMcFNJVkdudjk5YlJRU0dFRll0YVpJalJidnh4Z1R5TzZldXZPTWlRNTBYbC02NVk5UXJWRzkzcnJ5N1UyN2twcVFR?oc=5",
-          "source": "Tata Consultancy Services",
-          "publishedAt": "Fri, 12 Jun 2026 07:39:59 GMT",
-          "fetched_at": "2026-06-12T23:05:12.078976"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "Infosys": {
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-12T23:06:30.231568",
+      "last_updated": "2026-06-13T10:16:52.239514",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -373,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-12T23:07:43.865811",
+      "last_updated": "2026-06-13T10:18:12.576113",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -457,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-12T23:08:50.747084",
+      "last_updated": "2026-06-13T10:18:56.680307",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -541,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-12T23:09:57.858945",
+      "last_updated": "2026-06-13T10:20:26.954556",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
