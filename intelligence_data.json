@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-13T22:00:27.319787",
+    "generated_at": "2026-06-14T11:00:37.229179",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-13T21:54:54.309738",
+      "last_updated": "2026-06-14T10:54:48.833020",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-13T21:56:10.128431",
+      "last_updated": "2026-06-14T10:55:56.620571",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-13T21:57:33.417713",
+      "last_updated": "2026-06-14T10:57:09.880604",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,21 +266,65 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-13T21:58:41.780958",
+      "last_updated": "2026-06-14T10:58:12.188876",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 0
+        "competitor_intel_count": 0,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.5,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 3
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at HDFC Bank",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at HDFC Bank: resignation. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!  HDFC Bank CEO reappointment decision delayed as board awaits legal review  HDFC Bank to decide on...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "resignation"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "ESG Compliance Gaps at HDFC Bank",
+          "severity": "Medium",
+          "description": "ESG red flags detected at HDFC Bank: board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!  HDFC Bank CEO reappointment decision delayed as board awaits legal review  HDFC Bank to decide on...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -300,114 +344,64 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "HDFC Bank: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [
+      "competitor_intel": [],
+      "esg_highlights": [
         {
-          "title": "SBI plans a major HR overhaul to address employee burnout",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbjhMMEVQQTVRX0NaZHJ4TWkzSERDcVZUdE1nZlNDUy14YzhDa29EZWx0d05HSTZvb01NZUdhcHBsbEhxbGtLNDlyMmVWRHFXbnhpeTY5bWl6bWthX1VuZnZkOWZoQW9TbFdvTzBzWkZnTWtVS29LeGZ2MVdQY1VZdG9ZcHpKVmFzbzFTWmVGbF80Zk5ZY2RuQ0lxc0lxYVFXY001Y0Y3bWNkLXA1U3BoYkx1ODlYeVJjQ3lZQ3FUSHZTMUNYdV9TZTNKcDM5ZXk5VjZ2bVBzZmtpcUoxejFkNjJlRkczNUh10gHuAUFVX3lxTE9DUEFUQnhuQ0pVekJQekhxekhDUHV1bDdEal9kMDJlQ25JUEZyZzRRdGVETklXZ05nWUQyUmktdWxvaTNXcWRJMWdKN3d2UnFZbE9FckRhMjJUVVFfMVcyS3cyYTdGQXFJTmR6dWVxdzNtWk5HMnVJMFpRQUhDa3FOeEFabVgxYlI5V3AzU3FsQlJuNDg0b0J1VnVDLTh3ZDh2TlRpQWFmb3pHNUt5MGx3N3MzSHBnVHJFTnM1ZEVManhSZFd5Z1JwRTYxd05yb0V5SVVRTGxoeENBWGkzRVEwT01yTmxCR0lmVXRxa0E?oc=5",
+          "title": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnlrekJEX2tGMkZTRlFyczJaRHRjQjl3Q3pod0hrbU9oQkt1azREb09jbU1BYi03d0pKZmtxRkJaMU1kcVRwdG5QWFloYnNNX2ZfdGF1U1BZYlBJY1JYMUF1UDYxR2tTSC1kb0FNM2NQNHVjUmFhZTlrdHAyZmgtbXJlT0JrNTlsb1Q1TUM4eGZDNHlXWTNRNFhiMUpwbngwUVJ0U3ZpRQ?oc=5",
+          "source": "Whispers In The Corridors",
+          "publishedAt": "Sat, 13 Jun 2026 06:50:30 GMT",
+          "fetched_at": "2026-06-14T10:58:12.188027"
+        },
+        {
+          "title": "HDFC Bank CEO reappointment decision delayed as board awaits legal review",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVFJrS2c2ZWJlMTJtTjZmTWhIaFE5VGxwMmdvV2czVHhTc0w0UzBtT3A2VExEcXU4LXpTQ2pQUXVSdF9uMlJ6QlJjdjFWZ2lpWVd0akk0SzRUQUxHd3NReExhV3lKYzY4b0dVWkVCalZ5QmFDWTV6TXF1M2dscDZnYk9DNERzWHlabVlnSWt2VVoxQzVuRXdpOUFBQlFmdDF5dnFvaHp1cWdnN2puUUtMTkdCV1BrUmFIaWpWR0VFeEpjQQ?oc=5",
+          "source": "People Matters Media",
+          "publishedAt": "Mon, 08 Jun 2026 05:02:36 GMT",
+          "fetched_at": "2026-06-14T10:58:12.188041"
+        },
+        {
+          "title": "HDFC Bank to decide on CEO Jagdishan's third term only after key report",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRV9LV2w2aG1HV0I2VVRpWk13b2RwNDlYbGZSSW1HcWFraExBbmd4MDNUMDJUWW4xNmhNSDBHZmFSVXlIRWxLd0p3czU0NWRWQjU3RzNVUWQxRmdOem1lT2NYVEEtaEpzck5ucVhEaVJtZ0poZXNzcXBYT09mdzZGUXJzc19qa1lWUjVlTXBmS1QtMllGenRSLXU5MW1WY293eGJrZ0FlZU9VMjhBdTQtUXNjdlZEU1dEbElGdkNVOVlYbENic2ljZndJV3pPanlNU1F0ZU1zQXowN3puY2Y1RGU1aFHSAeoBQVVfeXFMTkk5SDZvS3J5aUF2ekhKOW5kVnN0MGVCUWx5eXBIenRnX0hyVHRmS2RFeUVPdVk0eWxYckM4U19DQzF4YXVqeEN1czV1S01wcEpBMzlzOS1iUzl6OHl5WllPMDViUUtaZVUtRjdYa2xmOXRvVjBFTVZ4SGFoYmpzUWVRLWRvYkFpT1hsdEZhT3hVQjVCZlFNVGFqX1NpYkJyS3MyTGZDSDRiLXRQajViSjJmemtYMVhGVkdHTUphcEVmMTQzaDF4TkJWYjZoTXhmQjJxODJQTWdBQnZqZVlUbmdkRGRlcW0tUE9R?oc=5",
           "source": "Mint",
-          "publishedAt": "Sat, 13 Jun 2026 00:30:56 GMT",
-          "fetched_at": "2026-06-13T21:58:11.557538",
-          "related_to": "SBI",
-          "relevance": "competitor"
+          "publishedAt": "Mon, 08 Jun 2026 00:30:30 GMT",
+          "fetched_at": "2026-06-14T10:58:12.188045"
         },
         {
-          "title": "Kolkata group seeks Suvendu Adhikari’s help to halt SBI centre shift from city",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWHpYZ1ZERnZ1TXlpM0pfaFY3anEtQ0pjWkNKbHA0MXJmYUxUVEgzb0Via3pTSEduMlN3S2pqOFM3VFRERzVwR2hZUzU2ZmZOa3NKemhTTFJGVi1GVTZNa2dZdy1KUFEwRXdCc2QxSGtBaGc4cjF0Y3hYNDFOekM0WjNHVFUydTRoS1lXR0pHQnRBaGhOdEhBSVhBRXhJX3Y0RTJQT3Q4ckNaSjU2Y0dlcTB5QS1JOUdZSDNOOFZnNVdIRnFZX0NiY3k1SWZXcXJscC0tMUt1TdIB3AFBVV95cUxNTnk2OXJjdnlndFVMUVBrWUpsRVpvT2xSSnZKTW5MWVoxZmNDOExWR0l3RmNNeVprdTBFbTgtQVNzVFRiM0dGZ283WC14RV9udXZLMXZhaG9jZlhLN0xJYVU0Y0d1a2dOdHRCNF9DYzhkVUtmeWItbkM3WjM0Mm1IbnlJYWFNbHBUQWlVbFRlZ3BSUDlZNUVSTnZ5OWR0VVJUS3dkMHB3dnZrbFpIa2lrSy0yTktjSkoyZDdQRmY0UmZFQVpIekgzSWhDelRtbEhDR3Q2QXFjZGJGN1lZ?oc=5",
-          "source": "Telegraph India",
-          "publishedAt": "Sat, 13 Jun 2026 14:20:07 GMT",
-          "fetched_at": "2026-06-13T21:58:11.557565",
-          "related_to": "SBI",
-          "relevance": "competitor"
+          "title": "Supreme Court Issues Notice On Challenge To HC Order Quashing FIR Against HDFC Bank CEO Sashidhar...",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOZGx6ejluWE1nU0tQRWRQQ0JVQmlMekt5LWpwTTNXT3plODhXZWFmZzZ1VXA1cUtXc3d1WFMxYVhCVmE1TlBsZUIyV3JNR0tndlVxTEczQnVjMERaWTNRMXdWLTJTUzI5WU5XOXJVeFo5cExZUC1tenNPYTBENThFTHBmdTNDUlQ0MHYwcDNsV2pXbzZuUVVEQi10XzQ5T1RJd1pSNnpULWY5Q3FiQWp2SFVibmtRWjFabjZ3TDJBQUJIQUFWc21wdEt1UUJZSXRNQktBeVZsTElfZUhZR3JYYnppMzRtckFBUmp3VHpwRF9YeDhkYlJKVjFSNVBLRkF2M3JZa2ppTThhOVhjVTZMZTkzRFpHQdIBmwJBVV95cUxQR1pPSE5XTzFxeG5iNHFmNl9vS2lxMW5sZ2hvZUkxQVEwNmRBbjV1UFRuTVp6NG9XZXltOVZDVEpSUlFqM3o1VDI4aERFMGZtTG5NbV9fdDQ3azAtd1JwSjl5UDVoTGlQeHJUdGZ5V212SmFHN0pyTWpYdXNaY0VEWU9mODFfTUpxYjNLclpYZ2FXdGRQSXBuVFpGTEk5c2xjQ055VXN4UVpjcDZlSmk0Z2M0X3ZLdTJNODJyaGM3WU1qRWh4eVZ2VFl2QnYzZ2I1R2NQZEZsNFJBZHU3eVlVS2E2MHFUT1IwekM1SWJiWnRpQjV3UEVFX09qRU5PM0xBSWRFb1NvbXlaSWNlRFV6ZWlYY1cycE04NFM0?oc=5",
+          "source": "LiveLawBiz",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-14T10:58:12.188049"
         },
         {
-          "title": "SBI and Bank of Baroda raise FCNR deposit rates up to 6%",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa0dmM0pVS29QU1lyNk1PT2pOd2doYzlfdTlhckRGd25jZ014dWt4U3FoU0JjUFZfUVFHeTI1QV83TmsySFd6TnRzM3pVU3M4RGZpQm16MG9fbU15clJXVDh4NnFUbHdMdHFuZG4wLWN4QlNxVmc2NEpveERVNXZjYmVuUnN2Ykh6LUhDQWFURDNfbVFoV2F5Zm5lZXA2dkZWYXBCYzBGb19sUjd4ZDNsYnRnSWR6Rjh2RWZUNnhpMDlUdkcyMENOWNIBzgFBVV95cUxPQUFPdDdzQWdIbHF4VkR1cTRvckttQkQ0elpMajBFMXFNUE1fZEdvTHhOclZtcmtUWlFvSmRrdHV0akVxckNYRjNlSVVaWWpKZi04ZE9GcFBGVWxKei1uRFdjaHY1U053b0hQMDJDNTB4NGt0eUlkSUlNS3lXaTVRdGJ4dHBHSHVjX0o5a3Zvek9ONTF0TlBKeEpxbTB2RXlTMnppN05uRFpkR1kxM05taHRDZFZUdEFYMk5tZ1ZvaU1ZenBSZDhBQWZfWUtCQQ?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 11 Jun 2026 09:03:16 GMT",
-          "fetched_at": "2026-06-13T21:58:11.557570",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Senior citizens FD interest rates up to 8.3%: SBI, HDFC Bank, PNB, ICICI Bank, Axis Bank and more",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSTZoV2RBcURQTjNQWjdIa2pjeU5RRnNPT25uV1BRS1NCVDJESlFkMS1rdk9fWFhHX1FydVFtOHBJSDc0UUdSZVJFWV9qWjJscUFHWnI3NDY0R09PT29hYVF1Q3lKMUowRFZaWXBTYmhJSjRfbVNael9YRjM3SjAwWDh1X3ZfOVB2cWFaT0NVN0RKRlJxckhRUU9QTFhEaHc2Smt4WHJYaGhBMUc5b1hVZVlGNzNJdFYyVzdlZmJqbDM3LVBsNFdjeHRjWTQwdGtSV2RCZHdlMF9OOTlXdmhmNFFmU1ZBdmFCM1JsTk9WWUTSAfYBQVVfeXFMTk9QUTVZaFhMNkR6QTV2YUxuS3JBV3FnMzhNSXJiRDlLZ3Iteko3dXhXN3RORXhCZUNyOE9ISVQ0ZHk0dC0zdjhuVUo4Ry1nZWhxb2Q4OWVrZ0o5dHZ4MzFZTm1rZk1ySVowVkN5c3pEVHc5My1LM2ZQb1BrTDFkaEs0NXk1eVl1elY0RWFGeFY3cFlvcGxRMmx1UF9ta0N0YUplOUFjNDBIVVRVTHRMeGJkdXp5RkxtUktyekkxOFNOWlRLc2RRUWFWNUs2S3FILTJmQkZKVHYtdDdxVmZwUTJuTHplQUNJUXJwb0Y1dk5nRl9EUXVB?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Sat, 13 Jun 2026 10:24:31 GMT",
-          "fetched_at": "2026-06-13T21:58:11.557574",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Bank holiday today, June 13: Are SBI, HDFC Bank, and other banks closed on Saturday?",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQk5mdmt4WnNXQ0pOVzhkV0pmNkVlZ0hmMXk2VE1BSXpJSG9NOV9hcWJrVmlYZVBwc2JLVmtoZmFuY0dFMHJ5QVRpZ3ppd3FvUGlQTFlSb05leTNBMEF2dTNuMzlTTDkwaEhGUTMzNVh5YWR1Q2N1MUx0NFlXZnV2TTJrMHluV2VaaTVuMmFFOWo0YUdaNzZ2Rmc1ZmlIU0pZZkxHbHZzT1QzVUZfY1lGSkxUS3RiT0lKMGVSV1VIaUpsTDNQbXdURGpmajk4NzMwSG5rY2ZucElxQjVmcS1aONIB5gFBVV95cUxPZUJ4TWtwcGJJZzAtSmtRb3locTRzM3VmWDNOQzBybEFkUkF2Mkc4Q2xPU0FwVTgzb2ZTVkJlV1dOVGZXdlh1ZkREWDM3SVo0amt2NDVObVAwU1dKQnktNEhybHBlQlByRk5ObThFQ3M4czYwN1VwOHo0RGxmTEF3dG9SU1FkbTZWM1FPeU13alVDNWdRLWpURkd5dzY0VUJ5eWFLaTRaTGl4LVBIc2ZLc3E1UWhzaHhnaE1rRVowbHFDR1gxZmFFcTRtWWNfVkhWUHVKZlVJM3hSUWJFS3VoLWI1ZC1XZw?oc=5",
-          "source": "Mint",
-          "publishedAt": "Sat, 13 Jun 2026 00:15:25 GMT",
-          "fetched_at": "2026-06-13T21:58:11.557578",
-          "related_to": "SBI",
-          "relevance": "competitor"
+          "title": "Bombay High Court Dismisses Bribery Case Against HDFC Bank CEO",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmlPekl5M2tza0VQNU1BMnJuajllY2l4bEJwUFFCMEljRUlHMFNwZExzX1JCYUN4VXc2aHNFMUxVTEp5LWp2b2czYXZkYVJzZDdIWk1Wamp0ME54QlZDRHRzd2tjNlpkN2VJRS1HSWI1UGFMTlpjZ1QzaDlIc0xXbnVPeEE3bTdtakl0QkpPc242c1hLcUtIcXRLa3RKMmZ5VEVvb3VPblhnV1YzZ0JFeE80bGRMZ18wbDIyc3F0Sm3SAcgBQVVfeXFMUHh5TEJoSFhtd1lPaVNydjIwV0ZlV05hN0g3YlBhcTU1b19UTFM4TjNLMjNzRThMdTlXRVVMVEN5MGZ6ZVdqaDRpRnhzSEFndVUzaU0yLTFoTEt1SVVHREFVNjkxbi02RDJ4Q2JSdktuTFpoZGFUSFdVOXREOUpFX21mUTctclIwNWtPTU1adUpFQXVQZ1p6TWN5S1BELUdObndtNEVDWFplSW50WVFfRW9QTHZ1YkFZUTBnSVJPT3VQazRqNzU0Sk4?oc=5",
+          "source": "NDTV",
+          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-14T10:58:12.188053"
         }
       ],
-      "esg_highlights": [],
       "filings": []
     },
     "Bharti Airtel": {
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-13T21:59:29.572760",
+      "last_updated": "2026-06-14T10:59:29.186769",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -472,53 +466,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Nashik cops raid warehouse in Mumbai, recover stolen BSNL cables worth Rs 2.8 cr, godown owner among six",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPTUdYeGFaTFlnWFVIWS1lQ3g4Q1N4MXFqU1FRVGdJeVdFS3ktbndFak9XYmFjcDB3cGNGMmN5SDlwTnhkVFhmOFZOcnpGZzhicGlGOFI4cUNBOTNfdXhOblpqUDVjbGd3RG44OEVDNTlLNl9TNWhBaXdJZFdQb2Zlckw0MHRQeTZtSm1hY1NpQ2hvTzF3bThHd0huYkVDbnFoLWljbGhZSVdxVVktQXk4MmdFcjVUeml6RUo2emNsQUZKR1lxQmRLWVc2anp2ck1udjFqWUhlbWplVDNTVGw1VEk5ajU3LTNCdGVhMmE0dExKdTFkczZETmdDZ0lOblNhRHhGc3RibldUTW01THfSAZMCQVVfeXFMT0dQalVFTmlLVlVGejR5cUFIcU04a2QwR1dYOFU3dncxSjlEeVZvR3djX2IzMTRDNVRRdWg3RGxTTEZCemdiUVpCalVpb2ZPbU8ydlh6WmVoR0JWNkpUN042cFJwRi1YMlVET2ZiNHc2TWdCdGhhZ0ZUaGZHZElycmgwbGZkS1A0aFRPY09KZTRkU2g1anhzdmpsNXNBUUk3aGhnNXZVdDNQQ1ZEZkFvRFBLOUpsYk9YXzBES3k0eTN0SVNDcGRYOC1KeVlDSkhQZnJnRkNlNnhwS0dIcGpET2plVGlZOGVNakV6ZUkxb1RLbUtKdjVvaExneTU2LU4tS1dyVldfR3QtZEpnSkRSQlphN3c?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sat, 13 Jun 2026 17:33:00 GMT",
-          "fetched_at": "2026-06-13T21:59:29.451232",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TRAI picks BSNL’s Harinder Kumar as its new secretary",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQlNvN3pjYVJSaTZWQ29Hd0RGLUowVHJVRWlSQXl5cHh5NVViZnZqRXJMcklMclBpMElGVy01Y1RfU2R4YnBhU2pTN25sQUdFTnNIQzFEOHdILW9yTlIwajdNd1JKeXMxVGVlZ2Q3MEN6RjMtMHB2NDRWYThmaVZRa2dwRDd4TnBFallCRGpidHdLaGxuY0hB?oc=5",
-          "source": "Indian Television Dot Com",
-          "publishedAt": "Fri, 12 Jun 2026 13:31:39 GMT",
-          "fetched_at": "2026-06-13T21:59:29.451251",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Can D2M Technology Help BSNL Reduce IPL Streaming Congestion",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KV1I1b2xMRGh2VTJ6ZS1IdVUyT1pjc1pRYWZockprUXRVVHhuNTZUTlhhWlpXeUhBRzdaeGZNc0NScG9tc1BfcnNvTlhfcGZUYWVRMFVMeERaTkFRTnc0NUp1LUZZajE3YUJRdnR5ekprTFktWlVDV2VfckppUQ?oc=5",
-          "source": "TelecomTalk",
-          "publishedAt": "Sat, 13 Jun 2026 06:31:25 GMT",
-          "fetched_at": "2026-06-13T21:59:29.451256",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Madras High Court Affirms Fresh Arbitration In ₹2.5 Cr. Isha Foundation-BSNL Call Billing Dispute",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNd2t4OWxFZWdaZFdkc0VTb1p1TC1rSHdXOU1LVEtvbzFTa00zeEpYa29yTVY0akVwRDBPT0R3V2Jjak45YnZJbUpXWXlGR1dUUHpyanFHbXQwdE1xcjFxVWtMaXBabFVMWWI1SzVrUUlKMHoxS2FkRlprNGZsamEzTnRhaHNVZVo4X3N5ekVDVFZRcHUzWGhjZ3h1aHBJXzBmWmZXU2U4UU1UTm5DSEpmNWFzVk5UUDVtTUxnX2UyT1BTek1VMGpNRzNucTlaM3cwX2ZEcGlTTVdXOEVFRHNZUmpBWllkejBsOE1J0gHwAUFVX3lxTFBMRkdHV3p0UERLNmdxNmV6Qm5rc3g3N1lfdmxsdEJLRnY4cDk0a2hIMU5ydEYzTkx6MTZIQWRSaXFWZHc5ZnZsX1FMUVktblZCdWlnM181bzlOUWpwN1RVYmExREFVTEFvcTQxWF9DMDV2SmVSWk5GN1phc2Y2TGdqYWs0dWUtT0RwWllVT1BTRlNPS2kyRWtIM041NEN1QjVSU2pjT3FLTzBsYU1kSFFXVlJSWFUtNGZKLXE5TXYwMUY5YzlGMjRDdWF4Z0tURXVOTnZqV1VFc3AxN2hLUm9uUnpRbHRKRmR3ZmY3VzNwQQ?oc=5",
-          "source": "LiveLawBiz",
-          "publishedAt": "Thu, 11 Jun 2026 11:37:56 GMT",
-          "fetched_at": "2026-06-13T21:59:29.451261",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TRAI appoints BSNL executive Harinder Kumar as secretary",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeThQczRUVzM4ZlB1c2pycDktOW1hRHRhMkx3ZlFlSU1DRmhzSy1FNHl4NmktTXBTQkVhQ2VLU0dsaGZldlk2RHkybWxIVy1Fcm1zRU9ldXllbnl3bUdJWHhzNDFjRmRyMUk3TGVFT1dDUFlRNjZQX3d5S2hLU3hHT2otUjRtdktob3RrYTNGTFlGYlhNVG1UdHRhT2ItUldCQzhfSmQxRUpEUldITlpYbzJB0gGyAUFVX3lxTFB5OFBzNFRXMzhmUHVzanJwOS05bWFEdGEyTHdmUWVJTUNGaHNLLUU0eXg2aS1NcFNCRWFDZUtTR2xoZmV2WTZEeTJtbEhXLUVybXNFT2V1eWVueXdtR0lYeHM0MWNGZHIxSTdMZUVPV0NQWVE2NlBfd3lLaEtTeEdPai1SNG12S2hvdGthM0ZMWUZiWE1UbVR0dGFPYi1SV0JDOF9KZDFFSkRSV0hOWlhvMkE?oc=5",
-          "source": "bestmediainfo.com",
-          "publishedAt": "Fri, 12 Jun 2026 13:04:07 GMT",
-          "fetched_at": "2026-06-13T21:59:29.451265",
-          "related_to": "BSNL",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -526,7 +474,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-13T22:00:27.319774",
+      "last_updated": "2026-06-14T11:00:37.229167",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
