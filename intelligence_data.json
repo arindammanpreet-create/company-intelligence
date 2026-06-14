@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-14T17:07:43.127480",
+    "generated_at": "2026-06-14T22:28:00.887912",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-14T17:02:30.480440",
+      "last_updated": "2026-06-14T22:21:40.121893",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-14T17:03:44.229906",
+      "last_updated": "2026-06-14T22:23:10.855059",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-14T17:04:53.851372",
+      "last_updated": "2026-06-14T22:24:20.099814",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-14T17:06:00.774015",
+      "last_updated": "2026-06-14T22:25:35.561159",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,18 +350,18 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-14T17:07:13.072400",
+      "last_updated": "2026-06-14T22:26:46.729136",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 3
       },
       "news": [],
       "research_gaps": [
@@ -426,7 +426,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Man wins Rs 19,700 payout from Reliance Jio over slow internet speed",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUGhhTGZRSTgweHVzWTJzWTZQTHhDNTFKdHFVTUhtM3VaRHdydlAydnJUT1diSmxBX3RQZkxIX0NIZXljZDFyUGZLYllaSkxHRWgxZUNSWlVMR1JXU1hlODdsTGJ5aXhBalFOanpHb2FuUUhwTmhtM01xVWpLVHBNWEVNR0xPeS1hMExmUFRQU2taSk1wQU9VcnhScE9MVEJCZTV4SmI1ekItUVlhVVRjRGxQRdIBugFBVV95cUxOUENWOUhQbVFzS2RpYXhrTzVCdDByUnUwYW01eDhMeHZfUGRnVkM4dEYzeWY2TlJhWmFuT1VzbW5EcG92NGRNQzdlQWxSYUdRZGhVUF9CSFlxWXctM2lmR3FRWENLbUU4d3h3S00ySlBCSk1ibEFJVjVkb3E3dkZVREtCUlowNXV1UUhxT3FibXRRUXlNQm5CcTFfUGdFUXFqSUdiZ3pJRzI0Q3NyN0lvazItdUJmZjFtbnc?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Fri, 12 Jun 2026 11:01:34 GMT",
+          "fetched_at": "2026-06-14T22:26:03.842220",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio enters global top 20 list in WIPO patent rankings",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMkZtZGtwWWsyWG83TGZSbjMwS1cxRWlPaTdhMVZ3SGhsNjFZMmpram9yZDUwbVJneFdqX3ExNmV2LXdqd3B1ZDJaQl9YeVpPMnpsMmxCMVp3M0VveDk3akVVcllxcFJ4cG5Ld2p4YmM5MjNoYUo0US1iVXEzam5uQnRELXM2UVQ1X1JsLUhqZEowM2RpUUl2cnFicnVPQWZjUWxlZjkyNVlmNmdhS3d0MDRSUVVBV3BWaDVPSTRDYi0zMkFDMWtoRGZuVjhCNkN5THBJ0gHYAUFVX3lxTE85M3BKbGJ2Q3dhc1Z2VkFrN0tqbUZmRUpuV3lMX3VrSjVnMGNXdl9hZFdfMjVURWF0alB6OUNDR0dZOVNOZWg3blJJTDl1SXFaMGItWXF0dTZybWVaT1lscEpiLTZfUkNfMC1QeXRWUWFNS3owaTlueW4yNVJ3RGZYV1ZnX0xFcEQ4UVk5WDFHRUNFanJpYWktOHItVnZvcTQxa1ZXODZ6azZLYWJsWm9jcERBX0Z4VjlXR0djWDBRc3NUWXBnU201bC00MGI5M2ZkRkJQLUdpUQ?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sun, 14 Jun 2026 19:32:33 GMT",
+          "fetched_at": "2026-06-14T22:26:03.842232",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "BSNL Takes a Different Approach to 5G FWA Than Jio and Airtel",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTXB0VU4tNHdMUDZONDU2WFZ0dUZsNk14ZlJvenJRWjlxeXJLa0EyWmJMMFBPYWpZdU10TVAyU1B5M1RueWtlWVIzQTJHcjlLbnBfRUQ3TjBrcGZKdFhHYS1fS0g0TEVIbXduRGlDa3dvQkNFVVVoOXF6eUhKa3NUSFlhRG1EQlU?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Sun, 14 Jun 2026 12:41:38 GMT",
+          "fetched_at": "2026-06-14T22:26:03.842237",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio user wins ₹19,700 payout from Jio due to slow internet | Tap to know more | Inshorts",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlU4Rm9fNm1pU1NFWmdwQThicFlrTWo4d0ctY1kwZElFZXNIRUR6MGdJbE52N3NOMEYwSkdCV0VFSkw5TjdiX0tnSkhuZnNpQmVhUlFVbVhhUG5McjZaaUQydUJnX1Y2RW1lQjQwZXFwOEdwN05pLWFONHp0MXRNS2EtcUxYbzFFTU9KVE54SlRGdk9QdU9NRHpZM3UyeW93MEVB0gGoAUFVX3lxTFAzbHNibVhuTjVtRm9YcnhBMlZONXBHZ2EwV3NoeHVOQ0J0MWI4aDFWSVVOQUNYTVE5QkFSQTl3cjNLUXdSTE5WaWc0R29IOWw2WDlISzBOZVFmYkw1ckhfaGtIQThEMEZhN0d0ZnRfeHZsNFJ3bXJTUFpEQ2RUYVFHeU44WWpZaGs3eDdDZlpkS29qUG41MnZLend3U3p5YkE4SGUxRUc4eA?oc=5",
+          "source": "Inshorts",
+          "publishedAt": "Sat, 13 Jun 2026 07:07:54 GMT",
+          "fetched_at": "2026-06-14T22:26:03.842250",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio, NSE prepare for market liftoff next week amid US IPO hype",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSzhxWG5oNUZEdG1VOFhUTmYyeE5sS1pYZmtSUE5XdEJIVzNsbUh3LWplWjRNWEM2LVNxdFpFREdZVmNmdExfZHFidmFDOE4zb2ZvRVotM3p0Q0dBMGZkcU1SUEQxRDdxT2xlajRGNXdSSk1uV3pfdzVnbEY3Wk05UkNMRXh5M19LUHFnMkd3Z2RaYVJyMXNjcDFQZFI2ekR5LXFFQmszdGJUeDJOaHFveWN1YmVtUWhqcDd4VkpTTmp5VTZyeHfSAcsBQVVfeXFMTjJ0Mzg0SllMaGxUelF5dk9jNkhzMWl0Y3hZM1JLb3FabFAtU2FaenUzakY2Z1F3SXQ3WDBFdFpTLUxMWktla0k5OGVJeFQ1ZFVTZjJocUE5dFBad2tLUXJCQkFtb2prMG5MVUdZY3d5aUJVcEFFUldWM3MzWXNIVDgtZWFVN2JIVHRfeUlJU01QSG1lbEJ1Ynhxc0FsS1pJMnkyMnVxQjJkaVNPYW1wcWJ5UEgwVmF5ZERmMGJxQ1p3WTBmSlByYTJJYlk?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Thu, 11 Jun 2026 18:03:41 GMT",
+          "fetched_at": "2026-06-14T22:26:03.842254",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -434,17 +480,17 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-14T17:07:43.127461",
+      "last_updated": "2026-06-14T22:28:00.887900",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -510,7 +556,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Final | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazMwV0lObFpLSzZaSXl6d1hwYkFsZ251QW9Rb3R0cjEwUzhISUlZMTB2SmJUX1pWU01QSmpsSl9FcE1JM2V6NHV6SlpZVm9KOTJZS001OUM3V1g1dnB0UHhyQW91WnZWemZ5NGF3c1FSRzllYWxuR3d3ZFk3SFNaRjdZWnZTcVVxQVhYZU5SSkdPV0R4TUE4Snd3?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 14 Jun 2026 20:33:32 GMT",
+          "fetched_at": "2026-06-14T22:27:25.857763",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT Cricket Scorecard, Final at Ahmedabad, May 31, 2026",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNU2hoQ195OVh4THN2UXIyWVRyejFobk1saUtCSjRnOExJdG9jcEg4dXlDbE93YVZ2VDZ2MEZCbFRmaWx4QkpuaG9JakptUExGWWVKeFY3SGhHbjJ3b2l3RDJSWGNHZExwanpObFFMbHRPTkJiVWY3MVAtU3VaelFCeGNyQWJSLUdLTWEyQmUxM1BEY05vbkxNSnR4ZkZPM2tZb0VSb1p3WXdTOThaNVJ5bEJQaU5HWjZKN3FlWDJDcDFfak9xRFE?oc=5",
+          "source": "ESPNcricinfo",
+          "publishedAt": "Sun, 31 May 2026 13:33:48 GMT",
+          "fetched_at": "2026-06-14T22:27:25.857781",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs SRH, 1st Match, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDllM0E5MnZFYUdtbGRqU3JTRXZVLVZLYWZpYUhQbTJRTEJlNU5oT0gwS3lxOFZZbkVnTGZOMktpanlHQjhLellCOXB3dDJtN21XVW85V0txNUd3WEFUY1IxczBjSkVmLUFnZExmeWdLbmM1U216RGVic09kRjY4cjFxM05EZDh2R21SVFhpVXF2dUJUOHBZWXVWSHBxakp6QkdXZQ?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 14 Jun 2026 16:21:28 GMT",
+          "fetched_at": "2026-06-14T22:27:25.857785",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "The Champion Code: Shreyanka Patil on manifestation, India, RCB fame and World Cup dream",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxON18xWkoxaHVSRXRvSmF4eVFVbFhlRDRmRUhHbUVYWi1oQTNlbVhUWXgwZHFsYkwtUVlFTXpLRmI3VE5lQXAzTDlSX0tmQmptUkk5WllKa3d0dHd2SnFfTWRtZkZKMXZsazZ5RGhZeWYyU0RCeUVVc3ZUMXpSbUhPeWZmaktqTV9kbHRVS1dNSTc3UVNXblZ2RFduTHhIT2R6dFk3ZEJzeWIyNF92Q0xvamNpWGREU05QZ2hERUNKc0I3UHFQWllzNVYyRHRVdlF6MHJqYtIB2gFBVV95cUxORWFFUFg5azRiZ1I3Z1NfQmFBWFljend2RlRGcHhHUVJxOGdPZTVYaXQzdmdUYWZ2SHBsUFQ2a0t3aGNaOXF4NE1DWkFnRDNPbDFEYTRtYXdXMEhLMDM5Z3NCRmFRWWh2WDBQbGZDVzg0cVdxTHVscWIxOVBMdHMyNGFwUTU3UTRlOVBZbGl5eEVFZWJHNkZUSnhjZUUtUVBIWmdRdmV1YTUyVkd2VHRqUTJCbkg5TXRxQkNLX096VVpPMDRBUUhadHNXY2hYZEJlV2NhWDdyTVFoZw?oc=5",
+          "source": "Firstpost",
+          "publishedAt": "Sun, 14 Jun 2026 11:00:10 GMT",
+          "fetched_at": "2026-06-14T22:27:25.857789",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT Highlights, IPL 2026 Final: Virat Kohli Takes RCB To Title No. 2, Achieves Huge Record; Shubman Gill's GT Runners-Up | Cricket News",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeWJzTmcxRFFyNTdxUkdfeVY3RzBpYlZ4WDRKN2o2UmdkdURtZkRmRDFpS2R2THZuc1V5Y25iSGQ3YThqVTNRVnlhVDBJNG5sMXVtMTcyR19SdkdUXy1vU2JHcDZySnpuY2pod0x2VmdXV0w1U3I1NXpVc1c0WEVFS3VIMzdtbVc2MUFYZmQxbkdBR25ZTnlsMVR1RnNScjhJM2tEZW1kUW1NSmExdzNXbzNLbDhfd2NIclNJSHJzY1NLdF90QjYxS2lQVXdzMklLRnFBR3ZOTkJpS1JvZ05CU3ZPRXVqWnhDYk5zZm5HZzlmXzR2akxyVVMyT0xnM0M3dEN6XzNnYWFydHNNZmlCQllqRnlhQQ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-14T22:27:25.857794",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     }
