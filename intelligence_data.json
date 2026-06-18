@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-17T23:14:41.346153",
+    "generated_at": "2026-06-18T12:40:48.579168",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-17T23:10:10.325681",
+      "last_updated": "2026-06-18T12:34:40.567494",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-17T23:10:59.264408",
+      "last_updated": "2026-06-18T12:36:00.165085",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-17T23:12:07.286849",
+      "last_updated": "2026-06-18T12:37:31.119239",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,21 +266,137 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-17T23:13:09.453794",
+      "last_updated": "2026-06-18T12:38:59.273574",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
+        "score": -0.5,
         "label": "Negative",
-        "pos": 0,
-        "neg": 1
+        "pos": 1,
+        "neg": 3
       },
-      "news": [],
+      "news": [
+        {
+          "title": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnlrekJEX2tGMkZTRlFyczJaRHRjQjl3Q3pod0hrbU9oQkt1azREb09jbU1BYi03d0pKZmtxRkJaMU1kcVRwdG5QWFloYnNNX2ZfdGF1U1BZYlBJY1JYMUF1UDYxR2tTSC1kb0FNM2NQNHVjUmFhZTlrdHAyZmgtbXJlT0JrNTlsb1Q1TUM4eGZDNHlXWTNRNFhiMUpwbngwUVJ0U3ZpRQ?oc=5",
+          "source": "Whispers In The Corridors",
+          "publishedAt": "Tue, 16 Jun 2026 18:17:36 GMT",
+          "fetched_at": "2026-06-18T12:37:47.371981"
+        },
+        {
+          "title": "HDFC Bank to decide on CEO Jagdishan's third term only after key report",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRV9LV2w2aG1HV0I2VVRpWk13b2RwNDlYbGZSSW1HcWFraExBbmd4MDNUMDJUWW4xNmhNSDBHZmFSVXlIRWxLd0p3czU0NWRWQjU3RzNVUWQxRmdOem1lT2NYVEEtaEpzck5ucVhEaVJtZ0poZXNzcXBYT09mdzZGUXJzc19qa1lWUjVlTXBmS1QtMllGenRSLXU5MW1WY293eGJrZ0FlZU9VMjhBdTQtUXNjdlZEU1dEbElGdkNVOVlYbENic2ljZndJV3pPanlNU1F0ZU1zQXowN3puY2Y1RGU1aFHSAeoBQVVfeXFMTkk5SDZvS3J5aUF2ekhKOW5kVnN0MGVCUWx5eXBIenRnX0hyVHRmS2RFeUVPdVk0eWxYckM4U19DQzF4YXVqeEN1czV1S01wcEpBMzlzOS1iUzl6OHl5WllPMDViUUtaZVUtRjdYa2xmOXRvVjBFTVZ4SGFoYmpzUWVRLWRvYkFpT1hsdEZhT3hVQjVCZlFNVGFqX1NpYkJyS3MyTGZDSDRiLXRQajViSjJmemtYMVhGVkdHTUphcEVmMTQzaDF4TkJWYjZoTXhmQjJxODJQTWdBQnZqZVlUbmdkRGRlcW0tUE9R?oc=5",
+          "source": "Mint",
+          "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-18T12:37:47.371995"
+        },
+        {
+          "title": "HDFC Bank Shares Drop As Governance Report Deepens CEO's Woes",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeXRvLThmdXFQcUFiUDE3SElrcjRjM2RKaVl0QjdzejFSTWtjWlN1X1VXRkNlRkNrUGFXRmR2bGdRN0NIc05UVjB4bzN1UHNtdzdLNFVEcWtaSVhwVDZtT0ZmVGVJTlFmX0ZTZk9mLUlCa2JLVVZ3YWpUMzVlTlM0Z01VeVpZN1haaVZsUnJOeTN0RFhDV0IzeUduU2FRTHBqUkd6MzgwSdIBrwFBVV95cUxQWjJKb1VwdGZmdjJid2gtZ0s1dDkxLXhJLXNrTlB1Y3R6blZZNGtYUm5DVnlJMUNpTE9OdWtwUFc1X0JqOE9qRjk2ZTdDUk5iMVhVMldLSGk0ZG1tbWJabzhOa2YxRWZJRzdIYnVYMktMM0kyckQxSkZhQzZoR21FYUttTUpBeUdDaDhwclVnWjBzdHc3eFFMeUVHMFJwT1g4UjliS0tkUTdiLXQ5ZUdB?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Wed, 27 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-18T12:37:47.371999"
+        },
+        {
+          "title": "Bombay High Court Dismisses Bribery Case Against HDFC Bank CEO",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmlPekl5M2tza0VQNU1BMnJuajllY2l4bEJwUFFCMEljRUlHMFNwZExzX1JCYUN4VXc2aHNFMUxVTEp5LWp2b2czYXZkYVJzZDdIWk1Wamp0ME54QlZDRHRzd2tjNlpkN2VJRS1HSWI1UGFMTlpjZ1QzaDlIc0xXbnVPeEE3bTdtakl0QkpPc242c1hLcUtIcXRLa3RKMmZ5VEVvb3VPblhnV1YzZ0JFeE80bGRMZ18wbDIyc3F0Sm3SAcgBQVVfeXFMUHh5TEJoSFhtd1lPaVNydjIwV0ZlV05hN0g3YlBhcTU1b19UTFM4TjNLMjNzRThMdTlXRVVMVEN5MGZ6ZVdqaDRpRnhzSEFndVUzaU0yLTFoTEt1SVVHREFVNjkxbi02RDJ4Q2JSdktuTFpoZGFUSFdVOXREOUpFX21mUTctclIwNWtPTU1adUpFQXVQZ1p6TWN5S1BELUdObndtNEVDWFplSW50WVFfRW9QTHZ1YkFZUTBnSVJPT3VQazRqNzU0Sk4?oc=5",
+          "source": "NDTV",
+          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-18T12:37:47.372002"
+        },
+        {
+          "title": "HDFC Bank’s hunt to appoint new chairman gathers momentum",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSTdkVXdVSUt3NzlTVjBnY2RYUWVIR3Z2Zm45ZUtHMWd1RDJpSmRpQ2FvODNyM1NmcU52a25mZjI1NU02NHFDVGlqX01PM25pYVh1OHJBOTQzU3A4N2ZZOEx3aGNydjNRMFRabGJSeUh1RDlUaHR5R3lRaFl6Q0lBTUtzRTZzQlJZb0pPQVcxaW03UzRDczFpNjZiRE9Sek51TjQ4VFRYTXB0V1pJZFVZWlpLcFBmeDFP0gHGAUFVX3lxTE1QSTlXVEpRX0dZU2xVcENsaFdhV0NES2djcHhmSnVsZkhrdmtuQ3RzQTJ4UWRHS0V1LUNNNFp6NkNOVGZCa243STJqYmY3S0Q3ckdsSGNtNXhIQWtRYV9HVW5pTmxFZ1pPdklVZVd2TjlzOWpvTDl3WkF1M3Q3QllVTDFFeXBkS1NFSWZmRFlhcGtPQ0JYa0hPeFluMDZpa1RoSTYtNUZiVmd1NklqUVBTdE9lQTNkeWtmUnM3Tklscl85d3AyQQ?oc=5",
+          "source": "Fortune India",
+          "publishedAt": "Fri, 12 Jun 2026 11:37:13 GMT",
+          "fetched_at": "2026-06-18T12:37:47.372016"
+        },
+        {
+          "title": "SC issues notice to HDFC CEO on Lilavati Trust plea against HC quashing FIR against him",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPckw3SjJ4QXJPN1FKbFlhX19kYTV4UzVPRDRrUVJqV2JrSGQ2aDlja09YVTNrOXNvelhnX25TOXI5N3FmQ2JpZ20xdEdSTFgtOS0tcVlpRmhaRjFQOTdYYnNFNTVGU1h2eDVoV3ZUcU9walF1QVJDSjFqRjBHZzJRWjlxbWo4WTAtTFFScDljWFIxVDhuMVVRc2JZWFVpSktRbGNkdzl6WG9sRm5KcURFQWRaQkRvWXBlSXExU3d1ZWxLbGJIbkVLWEowdUZmUl9UaEVscnNQai1xMHZBVGdORHpLSTZXRDIzbmszaTNhZVFWb3PSAfgBQVVfeXFMUFlqaFdUZVplR1JuTnFBMl9JMk5EU1RMQlVHWEhubG5iN1lzNkxxa1dESFA3SVJpSzdtOHRUV3k4ZURzNkIxNERYdXBKb2dKYXByRkxXWmVHMGRQWTNoVGVTMzlaR0FkMGNnTTFFUVlDcm0zcXpyQ1N0bThuVjlQZ082T0hXRTlYcEVsbHNqOUdmZWV3NlFLSTlOSGRzRDJGS2ZOU19SSU1XRjFJVnBLNU5tVEp4MEZkaG5LeVU4NGhESGhDNlBCTnRlbFcxcXEwRmhsNE1yZXU3bGlpVEowWjFGR1pqdVJ3UV9XUEk3Q243UXl4VFYtbEg?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-18T12:37:47.372020"
+        },
+        {
+          "title": "#CNBCTV18Exclusive | HDFC Bank’s board is likely to send CEO #SashidharJagdishan’s name for reappointment after reviewing law firms’ report on former chairman #AtanuChakraborty’s resignation, expected by month-end, sources tell CNBC-TV18 By Fur",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVkhwdWhSeWU2bXNlbEU0b1JaNUFtZ3E4TmpQX1lxQU1BY1p1NnBoYUU1SzB4UkttNDZLNzg3eHNDbEVCaUtuRko1SHc4RVlIMDNBMUIwNlJhSEF4dXMzbllyRDZuTVhUUWgxM1FibUxMNWxpeDJEVElQQWpDR283WHVhUno1dk4xSG0wMXQ5M0pweDJPLXJPblVpRFZ2N0lXSVRpcVNET3dDa0tPTFRVUjF0ZGxoOFRRa3hIWmdYRXhaWVRkeXVJ?oc=5",
+          "source": "LinkedIn",
+          "publishedAt": "Mon, 20 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-18T12:37:47.372027"
+        },
+        {
+          "title": "Bombay HC quashes FIR against Sashidhar Jagdishan, calls it ‘abuse of criminal process’",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQcG9XcnlPNmxRell5MEo5SWFGOV8yRmEzYS1VaTZtTnA2Rm8zMWZTQi11TER5ZjFZWFVVQ0lKLXBIdEQ3NENEWEpzTUk0aW5YTHN4ZVdXeFVjRHYxRzVaQlVKbFVYY1BjRVZhZ1JueUtXMlVpUU9WTWtBYW1TbE92dzZpeFNwNW10LWwyYnpSUV9fYWZXUG0zWEdESmdEWFRVN1Y5VGRpM0h1RXZWT0RfMThXRm85R1JQQktBZUUzMW5CcUk3VHlUTnMtYjNDd3lTNE45anJIQWxVYUZsN01oNnBZLWNveUpLV01GYlJZUTZ3YkN2SzVjXzZ2ODF4NDNJenpn0gGIAkFVX3lxTE96VV93RkFabTdnbmZ0VWl6SmN0ejR2NTNKVmdoTkF4XzhaZExKNGlBdmhrNDFlZDNSUFlZS1lidVowNy1QMmdIUzBNRFJsbUdzOTByWDdtcWxGOTAyMk1oeHVEb0ZaaTAtTWN2eXFzZFJPOUxibUdZSjF0T2ROblJkV0s3YlVwaXkwdW10Slc1VXYxNHFkcXdLdlItZUVTRTU1b1V2dDNlWlFRYmpmTEJzejV3ZXExdGlfTF9ROXREbVExUFdURFVyUHgwcGhJZ2VrSVo3RVd4TXdjRFVNVUl5bFk4OFZUcVlFbTNXX0R2YkRDRHIyNW5NSDM5NjNPbkhtVFBLZFFsZA?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-18T12:37:47.372032"
+        },
+        {
+          "title": "Bombay HC quashes FIR against HDFC Bank MD Sashidhar Jagdishan, calls it 'personal vendetta'",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUWtRUjlQUUVzV1lqZl9IREdnZy1LdzZxSlRfZFE3VkdYTGVmZk9lcFRUaGwwNDhBR1lsbmZZdVVNNkFFaWpfc3EyYnhLeWNMMFlXNl9oSkx2djBhT19ETlBBVzRlQ184QzNYbmk4Z05TelpQUUxFQkFVOFFpVTd5MVZXZHc3MngxclAyTmExWTVoT212NGNXQ2gySXNlbmZBOVpMc1gtVzAxU0pPQW1IMk9PRkFHTGxLbkd5TEZpcXUtVVM2ZTRyTTZHeXpFLTVYUmZJUWUzNzZNMmfSAegBQVVfeXFMTUJwQW9mVkxZR0ZmbUY1Ym12Qm1vaGpLZ1E5RXBxcUlCM0xDWmlOZ0pjQWgzWWpKT0RCUVF1NEpXM1pBNWFWaWNfeFd2Vm9CbU1aZlRaWm9PWkUwY0VNWm9sS1d6enBaSFpsWFpQcFdCYXY3aDJKMkdGcVE2cUNONnB5NlpqblRUWC1XdVhRWDZpelFJdmQxNjVsYWZ2d0MtUnBOMVR2UXZIalpFS1piQUFiYlNzX29xbkg1ZklhQnZjNFFzbU04TnVtdmNpUnBQczR5MlpvNjMteV9CcGZ3ZkkxSWczNHNCbQ?oc=5",
+          "source": "The New Indian Express",
+          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-18T12:37:47.372036"
+        },
+        {
+          "title": "‘Not a bona fide complaint’: Bombay High Court quashes Lilavati Trust’s Rs 2-cr bribe FIR against HDFC CEO Sashidhar Jagdishan",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU241MFZuQ19ZOWFMbExMSi1VRDE4ZElfUkswRV80c28wS2dyWEhYd3FTOVpUWjdzWmNqaEsweno3UGZpM1l2V0ZvTTRUOWhFZzJOQ0lSb0ZSR2g1enA5S3ZwYVBPRE1qck01Wk8wd1FTR3B2ODVDdlEtZXpRMzVOTEVWcXZrVW0zeFBSMG9SY1RrWDFKVVNCZW1ueUJTMXMtT2pWdk1mdE9tU2NYMHVvM0pqRVFyc0VLdUtkUGFBbVdRSW9DdkpNdFRyOGw0azdWM0HSAdgBQVVfeXFMUGpmclNacDB1bWpYOERlZDU2bHpzaENwZ1dCTlYyTjlSSF9vaEM0emxOMWRucWFkTWthd2xHY2VLanhfeVQ5SW1sTDVzSkl5MkUzUGFJcnJqM0RvQmE3YjhBTkZUTHk5VlhmZXdEWmVPYzd3M29iTG9VcXZWZlZMRjVJVzNWbmxseWVBaGhFU0ZRaDI2bE15ZkZ4bFU0dDRGdXJhYk5FZDNrUGFWbVo2WTZsaW5mVV81WHM3NlpJc01ONmNyQVNOMlprV0FlbEM1bHZhaUhRTDg3?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Tue, 05 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-18T12:37:47.372041"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at HDFC Bank",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at HDFC Bank: resignation. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!  HDFC Bank to decide on CEO Jagdishan's third term only after key report  HDFC Bank Shares Drop As...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "resignation"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "ESG Compliance Gaps at HDFC Bank",
+          "severity": "Medium",
+          "description": "ESG red flags detected at HDFC Bank: governance, board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!  HDFC Bank to decide on CEO Jagdishan's third term only after key report  HDFC Bank Shares Drop As...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "governance",
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -300,95 +416,9 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "HDFC Bank: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Axis Bank-BITS research park to be set up in Hyderabad with ₹100 crore grant",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcVlzTm9ibE5JS3IxX2ROYXM4ZXdHZjRia0tIQ1lCWXAzWmhFZUpmSWZJUGVhcldyNThTU2VjS25QZTFJRjZhNWRWSzN1cnFWZ25kNkplaGxpTEZUb1dvTmJ5V2p2R0RWQ0JoOUtWd2VGa3dBTmhFNFhIR2hfLXo5cG1oaU5vcWp4bkFhdkFHY2dJTGdTTWpONEhHRHNfNi1DelI1VFBFYjZubTJHOVl0TTd5V3FyMWNhNG9nbjRndHhESjJhbDVzU0VoSmtRQ05wakRHcGZKT1FjUQ?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Wed, 17 Jun 2026 13:53:14 GMT",
-          "fetched_at": "2026-06-17T23:12:44.912679",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Axis Bank witnesses high double-digit decline in frauds",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdUpqdVp4OUw5b1JLR19iWTNXU29DdnF4UDlqYkI3M2Q2eXBWM1k5U2g0TVRsT3VueUdKOUJQdFo5Tmtpc0t1VnNrd0IzaGJZRjRyZzlCaFd2Ymh0NVN2NXhvYm1ncHZsNzl5SnZRWGtmOUNFOC1oZHp2ZlRYOEdKNXp6WWo3VG43OG0yenEzcE5GZkJCSFhadTRXcUhEQkoxTGlsM0ZqQ2RMaVB4WjRBU0F2YXhIVXFFWXI2SmpPVG1rV0gtblgxVXRR0gHQAUFVX3lxTE1EelNybWx0Z1BXNXZ3Q2VQblR3MGVPTWZ4MDZpa25fSFhCZ0lGa1ZUZkVYX1dwYmlybnFXWXB6WFdLRUc2LTVwS0tleGdKem9CTFRfWTEtVS15WlJnWTlYUndqZHJzQkE1LUZaa1ZOdXJId1hfeXd4TFBVNERCakN2U2k5Nm01cktkdDU4Y1lPWXg3SDVCbGo1Y2lwZTdsUGU1N3hvVEg0WUVpUTF4YmtMc2djTFFqRnhnaFJsTUk1YnBZOVpvSUc2MV9nT3J3M0s?oc=5",
-          "source": "BusinessLine",
-          "publishedAt": "Wed, 17 Jun 2026 14:37:49 GMT",
-          "fetched_at": "2026-06-17T23:12:44.912696",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Digital systems secure, says Axis Bank amid AI platform-driven vulnerability claims on cybersecurity",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNWp3LTFqUUhreXZBeEI0STFvVGY3RTlyWE9GejlDZUJKV1VSQ3hQVFUybk5iYVAwRExzU2pYOHNRTGk4UFlpTmVGTzFFS0NhQVFYWDNIVHpfUUVLYUJuVkxENFNUcDY0eUM5SE9pZlBZdi1GYURnVVFiblhteTZBNVlYc1FXQ0ZhWGVtejhaX2ZQM0dTRWg2cGQ3NFl0b3NCU3FybFBVZzlxRkdVTGRlaTBpOFhncXNHMGNCS3FZelloUVU2M3BiLXR6eFJsbDFNOWfSAdcBQVVfeXFMUEVVcVVfVnM4bVFEeFVhNk5OYzZzMnZtaWllbTJoeE43SnBlSG1UR2FHWXlIajZpWjROUlduQUh2Z2t3M3RvVXRFYXVISmxSOF9QM2tEMmNMYjZzQ0k0UHlrVUZUNkxWRmJXM1lsTnVWUmhxazYyWWFfbl9iMEhyd2NIbTFjLXNqWXZKaFRBajAtR2tGU196UjNlOXc3Mzh4UFdTYUFFa2IwX0MybFNQZjJjTWp3RTAtRUl0V2E1bENGdHFHdDBDT1U5SG5SXzR2bmwwdmhqT2M?oc=5",
-          "source": "ThePrint",
-          "publishedAt": "Wed, 17 Jun 2026 11:49:00 GMT",
-          "fetched_at": "2026-06-17T23:12:44.912702",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kol hotspot of fraud transactions: Axis exec",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSVg5X0RWQlZoZUNBMXlSajduRnl2NkFjQUE2LS01N3I3bTV3aW9Gc1RaSUgtQ29hQUJLcmpPczRYLUZfeEl6MmpubGp2VXdzblN4a09xZ0tRSWRPcDREQUdnUENnb2VVS0xRYzdIS1VJaEhmSWFsMG1jYlUwMndUVm9XS0Z1eGlVQ1MxQjRpZUNGNzJEVXFoRTYwOFNXbUgyYVV2cWJNOWZoN19zNDNqVXRCZ0tScXFIclHSAb8BQVVfeXFMT0s2NDNGRklwNVd1R0lHb2N3Q3VwMTc5MWNNUktfSlV2WW1NSU8yQzdvZ3hBMUVEcEhBOE00YnBvNGhXTEs3aV9mODd5QUs0QVo5V1JnSlptVlIwTG1XUDB5OVB4aEtlQkJSSXY1VUJ4TC1fWDhid01TajZWUjhrQ0lfajg0dGlsM2dCSklQOV9fQlNmcW4yVTAycHRua1ctQmg3UV9KTUpFczV0Z25udVdoUExyOVdBejFYemJwSmM?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Wed, 17 Jun 2026 20:34:00 GMT",
-          "fetched_at": "2026-06-17T23:12:44.912705",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CCI approves Kedaara Capital's Rs 750 crore stake purchase proposal in Axis Finance",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUHVOT3FoaVJ0eHdRRExJMC1VUGZyVHR1YnFYSEtzRXhNNU9ORFl6TndPZkJlQU16d2RJbTRURFUza2c1Ny1hc0FMUktMXzYyb2ZYNXZVMHpya0JRT25ESkhieGt2MGZEZE05ZXYwajMwVFd2ZExYM3lIUUhZSTloSFVKamhDS0F5VFFSUmcxY3Q1bGE4ZGtSVm1GRGFCOER1QzcwQ3NIZXd6dU9JUE9aUFFFN3pjOEFzbnBiS1VGdmZXdDNjaWJjVmFsZkpCbHd6ZDFqUHRFV0VqbENEQi12dHp4b9IB6AFBVV95cUxPR1paX3ItMlc5T01OOVFrZ01xdm9qNm53cFJRMmw0bVVMWHFNQ0RleGI3bzRYUVd4UFZrNWdiSHc1TkF6WnlNTzlKc3JCbkhta2FpWFJxakFSOFpkM0tmeWE3THlnMC1paklKTDVaSk5ZYWxmOFBxTWNSQVpTZko4dlFISzVlVkd0MHhVdk0xcVQyS05NUzlkNnlGbU5oY0M0Ti1TOVd4VmxndEtyT04yQ1h6d1JEY1BvaXJhbnlaSXpHUEM3SWJhY2hocC03U3RzaHUxRE1nel9lYXoxM25pUUhvbXRBTlNO?oc=5",
-          "source": "ETLegalWorld.com",
-          "publishedAt": "Tue, 16 Jun 2026 18:13:41 GMT",
-          "fetched_at": "2026-06-17T23:12:44.912709",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -396,7 +426,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-17T23:13:40.004777",
+      "last_updated": "2026-06-18T12:39:22.654324",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -480,7 +510,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-17T23:14:41.346141",
+      "last_updated": "2026-06-18T12:40:48.579153",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
