@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-19T16:26:24.706016",
+    "generated_at": "2026-06-19T21:59:52.318893",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-19T16:21:16.518238",
+      "last_updated": "2026-06-19T21:55:08.739485",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-19T16:22:40.013094",
+      "last_updated": "2026-06-19T21:56:14.018712",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-19T16:23:46.326357",
+      "last_updated": "2026-06-19T21:57:29.650396",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-19T16:24:37.150537",
+      "last_updated": "2026-06-19T21:58:14.971013",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,17 +350,17 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-19T16:25:24.310769",
+      "last_updated": "2026-06-19T21:59:06.596861",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -426,53 +426,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Reliance AGM 2026 Highlights (June 19): Jio IPO takes centre stage as Mukesh Ambani unveils AI, satellite and new growth push",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQXdRZ09kaXZuNnhJelRhQXdudFN6N0dTWlhlZWFDdHVyLWRKdXM1YmhhazZSa3dFUFpqdk5reDlfaThKZHBsenZLSElUV085Wkw3cXRzY2laWkZ2Q2JvZHdkRjZsei1SS1ctWTloZElXdHZfNHRwaTN2ZFI5d2NKekhZbkpzY3pGeC03eEQ1RXU3aFdoTzh4RF9ldkZnUEc1TlE2eS1KbzRXa1hrRTZROF9tc0ZnV29yU1duZTZrVmM5V1lGcDRmY3RSazNOWVpPS0FSUVZndUFSSzBnbnJFaDZuN1U4b0Ey0gHuAUFVX3lxTFA0ektEeE1MYnRLaXdvTjZfaGN2OTEzVEdmb1gzeTc1SDBwQXBfR1lBV3lwY01zUXBZd3hiSE5GajZ1Z3Z5UzFnb25yOVppUkdQTlNWQmNPZDNDN2gwZDdDN3Ytb3JiUFRrTnlkdTVmOVMyNS1pcVU5R2MteWoweVZaUENqLUsyLVRSRnlfblVjUERmOS0xQW5xOHdNZ2lCWjJqak8wOVoyYlpUV2d6YlpVNUJXZ2xqX1hNVmFqN29JU29takxBSFM5WVJRanZyc29HbFp6Z0Rfb2p6RkdFMk9GdTVoanJXOHdhWmU5OXc?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 19 Jun 2026 11:52:45 GMT",
-          "fetched_at": "2026-06-19T16:25:09.111066",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio mulls plans to get into Satellite Communications",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdjZqMUhpamxhWWFhX1VXWTliSUlrQ1RwbzRxc0ptZjdVZ0luaUlNdV9rZlA5WGZ0SDVCclI0THdKcHVUMTFnQUJWZGJ2MXNqcWVZSW5JSkFWd1Bud0JvRkhvRy1rSGtORW1UdTR1SVZZV1NMNzJJR3oySDJ2Z0h2OW1JS084Y3pMdnd2VkRScTlfT0Z3TUxndG1Eb0VrWmNncGlsbFFBb0NndnVuSlF2dl9RZFUwQdIBvAFBVV95cUxQUzNqUEloZWZqclViRmFtcUVZREtPUmdBLVd3eE1qcEdOel9WZzE4QVhJN1BwNjdhV3I1QXdSWGF0bG5UYm1ZQ0RlZTc1bjNaa2hnRUJlUGlUaWtqZXNyZ1NhQjRKWG1BWHpKODJMa294UzdTa19VZEk2S3J2Y3JEdVRtUktoNlVaYUlqUDdkbnJ4OFRCUWJJTjhjY1dYelJSdW03dVFhVUl5dk1OU3QxWVhnelp2QVN2SVFMXw?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Fri, 19 Jun 2026 09:12:04 GMT",
-          "fetched_at": "2026-06-19T16:25:09.111081",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio to develop sovereign LEO satellite constellation, partner global providers",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQNEpsTnRodm5CQzAwQ3dET21naWx6OElPaklaTTMwWWtYNEotQmFRb3kyTEg3RDRsMUtnUHhOUHM2UEc0SktOU3lFU3RHeXg2eTRkcXdxckVScFdMVFc4MlJ6Ylo5NFlEdjhWUkFpZzB2bV9hbEZIOWg5SnVqdWFKaC1aenJKMWExQU0tekxFZUpoMzVTcmhJcDJmNnZzUnBEcVBWRWtvUW1ZbGVyUVpPRllBMHVoZVBZdFhEVzNKVVR6bW50UWZ5ODE0YzZxdndrYi1yMXRoZ2dxSGFseGtscGtvNTBlckRJblNiMTc0VGpjSHVlVDlYS3Q1T3ZGSy1CeTVfX3lyQnZMbzZNVFVVS2dyV1I1YWZySDg0Q3lNdHRNUXg4OVVF0gGqAkFVX3lxTE5rekFxTG90NTFiRS16alNmR2ZxRjFoQkEwMGdCMUxucHZjeENVc3JDV2pqam45VUN3UzNXVWlfS2JVZU9QelpBNHJpbm1QYUtNWk5UaVV1dG5UdldHbXJ0TWRETjB5a192UmVWMjkyS0U5eXdGNnZiOTZ0YmNkOGdDWVFjcWlDZzVMVzhKdThTTU9Oc201M2pGVnFhWGtaUk5paHoxX0F0cmd0RzRnT2FvMVlGR19ONlRLRWg0dU1fUGtDb1BMWEtuSkozcGo0QjhvOERlTi1UTVE0ejVCTUt2VGZQa2U3QmREcl8wdGZ1WWU2cFZ2eUZ2Q1cwa3lyTG5qVmc2dDRJbVpyMVh6bGItVUt5UVBtd3hFaFY1X2Fvdl8xcUgwUlpDUUE?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Fri, 19 Jun 2026 10:31:33 GMT",
-          "fetched_at": "2026-06-19T16:25:09.111086",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Reliance Jio eyes India's own satellite broadband network",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUjNmZ1BOUXk4MmY2VVNlRHp4NXJPOHFvcXhJeW5uQjNVRW41dVRYR05oTXVVSGFYSUlOOF9JY1VIdk5iNWFiOTZaVDFZc2dTNWVtMmdtSm8xWkRDLTI0SmV2TmtGN0hJajNOdE03Y1ZOSUVjbDFVd0VDWGNVWGZLWmh2M3lyQi1rYXJvUmFBdmVvLW1SN3RkTklwTnlqSjQ4bFFPMHBMV3dhMW1TZnpQc0V6R1Y4SE4tNTA0cUVXcWp2SjRNZXp6bGFzVzE0MkIydWRHemd3a1c1dk5FcnBJNkJnUmE4Z9IB7gFBVV95cUxPZ1dkX0Q2d05UZHUyeDNjXzhfUFdFcU9vcmZKbDJTMlJscmVqbUpkaWdxeTdTTlhGVl9MR0hydk8yM0tIODcyYWtWSlUzOWhSdVBZUFc1NW9CSW9iTUhTUURmeXdBRktiWDBnVnhFSWdlc2hLdUp2Ti14ek5HNVBTZ1RTUVl5U20zYWdSUjRuSFFpYk00YURjUHNYdDRzaWpDbHVMY2lrY0wtQ3JuaHR2TWVHT21meVhnVnVyTnpQZ2YyYUhxZWJ5Qm5pVkJQUE84SFZLUDRHQi0zeUpqeGtsbTdaVnRnMW9FVDBfM2VR?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Fri, 19 Jun 2026 09:00:46 GMT",
-          "fetched_at": "2026-06-19T16:25:09.111089",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio Call Agent and AI-powered MyJio app announced; set to launch later this year",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00Zl9KaEdIdlp6bUltQi1xU2d6bEs0ME5aVFVPMDFnbk1CUkhiaFJJSGVoakNSYnpVLVdrWnJkYkh2NGdrVG9LbUZqNFIxU1JHZ1VWM3hodHZxTUZ3RkM5ZlVkcG1TVk5CYmFVVDlLSDZpdUNZb3BJ0gF8QVVfeXFMT0JULW1mTHh2dGNvcHBiVTNERDZfRGYxaVJTNWpSVUtIYkRTb2ZSMmtpMlJwV2lLUWxZSUk5V01GVGkwUUl1eVotcndWbHZwOGRZazI3ZjFnV2NsbWJ4WWRRbWZrbHNXbzRRdTRVVHR5RHlyVWNfVC14OHRmMA?oc=5",
-          "source": "91mobiles.com",
-          "publishedAt": "Fri, 19 Jun 2026 12:43:33 GMT",
-          "fetched_at": "2026-06-19T16:25:09.111093",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -480,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-19T16:26:24.706003",
+      "last_updated": "2026-06-19T21:59:52.318877",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
