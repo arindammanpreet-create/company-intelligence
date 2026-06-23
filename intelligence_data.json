@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-22T23:13:38.620609",
+    "generated_at": "2026-06-23T11:50:23.736866",
     "version": "1.0",
     "total_companies": 6,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-22T23:07:36.511948",
+      "last_updated": "2026-06-23T11:44:19.114907",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-22T23:09:07.021984",
+      "last_updated": "2026-06-23T11:45:30.694327",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,26 +182,119 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-22T23:09:56.617184",
+      "last_updated": "2026-06-23T11:46:56.351697",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 5,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
-        "neg": 0
+        "score": 0.14,
+        "label": "Neutral",
+        "pos": 4,
+        "neg": 3
       },
-      "news": [],
+      "news": [
+        {
+          "title": "IHH Healthcare, Infosys team up on a multi-country, AI-powered ERP boost",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQlVlbUU3NnhJeVNOVjV6UXdLQ2hOdktsb0JPdVdxX1lVV2JkSnc3RUdJMnlsVDM4N0ZPYXd2V2s2QU83aGxzd2I5ZFRMSnFvY0xvcy1rUW1DbnhBRHRlS0hZeGRXQUg5MUNyellyclNNQkVJalBWR3lnOVZmZS1FODBVblpWR3AtTU0tTGpNTExmdGJNWlJELXZEWWRMdDEteDZxNkNoMEhxM3c?oc=5",
+          "source": "Frontier Enterprise",
+          "publishedAt": "Tue, 23 Jun 2026 03:00:00 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474045"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh rules out layoffs, bets on AI driven growth",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUDgtUG5HRkk1WlJuZk43RzVZcFU5SUU4Qm0zaDJLRTNKWDQ2U0dJcmVhVmVMTExyTWJrN095R1l5cDNBemdGdFcya0lTNjZRZEluTmZ1cEJtWXdEaGdBNjZPTjVfc1JWY2dXOHBpMHhIc0F5Y0FqQ0JrMkk3dTMwSjUwSHBJYmR1NjhRMWl3Z2hGdmJTN2lVNnNMcF9WdE5Oa2d3TW40ZWVOZ3JHVk5IYWdmNEd1Tm1FTFRNZG1SYzdGaVZNQ0FZR2l6YXg0ZGYtR0dNTFVCbkF2d9IB3wFBVV95cUxPNkY2VTl1cDRfWEJOMk4xb0w1S3haTkpXTUtoWlhRUEk1ZlpUQU5ZdnlsQVFPSk45NzRsYWFsazV2NEZCYkdWcU1SUEVvQ0NfWE5mOEY3LUctUWZjNzF5b1NzVmdQTmwyT2RYTXpqY3dWRzVodmtrb3k5M0NqcXFxd3JhOTlpc2R1Nk9jdVo5TGtfNXNyZnYwZDFxaU1zc2ZVVFcxVWpWNU1zTmcxS3RNX1RheWN6TDZsLUhWYk9FRmtNWFl2UkwzeXY1Qm5GU3FlaTAzazVtVWZPUWlhMzBn?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474058"
+        },
+        {
+          "title": "Unlocking AI Value: Salil Parekh on ROI, Jobs, Data, and Governance",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oWDVGNUVCeU14Y1I5dVcxOXJBb2xwVzYwdWdxWktNSjdzdmFiRFdYc2NNNWFpM1o2bmx1YmdwOW9EcmZPXy16ZFdPWHBEdkJjYTN1LVJBajVDbkJsZ0I1M205cWlTdGRRTVE?oc=5",
+          "source": "Infosys",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474063"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh earns ₹82.6 crore in FY26",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcy1Pd0hMa0ZtS1FWSHlDRWwtdWF0NnY2VkZyOWZKSnh6bUZqMkg0YkZwLTNoYkF3ZVpwTENtd0pWck9UTFEzM3hyYkZHc1ZCWG5ROTYxbF9qQWZ4cG1DUDFNaU4xTkRGbkF0cktNcjRyN3htSlZRWW1KWE5iZWlfMXZOX21SLWROUmI0MlFXSVRhdmI4Y3BKMVpQNTkyVTU3a3JEeWlKVnRRbmlHZlJxb2lEdXBXLTlESlVWcNIBwwFBVV95cUxPcTVZRXF5aW5FREZXaVNqQUdLVFFOZlJuMUNUSUZCa0xhNExMQ25UeXB5akRCWWlVcjFWZUY3eFVRTG1jSUdrQU5LV00xeDgtck5vM2s4THYzMEdweVNhRTdQOXpFdFNDWFF2NzVLOUdkS01uX3YxdTA2SnY4dGlUWHMtOVllaV9EblNDVTdZMjlhTDY1eEY5M1puYXhMSzNjSmJsa0JPcnctY0J3T21oTlBaTko0dHhwWGl1RXFjLW9wZU0?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474076"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh on AI impacting job market: My own sense is AI is going to create a lot more opp",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQSzlLV3pvVlp2aFllS2ludEtTX0NXeHliQUxLWnU0UU1MMzBKdjEyVHhiUU1tX0EzYjR1VjF3WEE3Z0d0ZDRUVmJyMFRRMWJqcnUtcTVpTmZMY2o3dTVZOXRUOVFEbHdnV1JyMVIxTUJ6ODRPOHY2ZVFmM0xEMnBsR3VnYUgwWTRGWmZmTXVsTEFVUzkwRmVFLTgtOXFUbVE1dWRyak90ODMwbmZQeURiemdhbl9JeFFtQzZYcURxbUxKemRGOVJQakxPS2xMSVdtZFNZcmlfWkt6eVVMVGk3cHFIUk83cGMxd1ZaUmtqUTI2QnJHYUVvV2xDRnJZOWdycE01RmM1a0QtRGJWWkV6WGVfQXByNy1qSk1CRk0xbDhVMWhPOUp0Tmo0ODNyQdIBswJBVV95cUxQMkJrZFU0bG15WTE5Skd1ZUo0d2I3bUR2ZGtpUW9KTF8zaFdDUnhaM0g2WjZsM3p4UHdlRnFpQVc4T1J6dlUwTVVXRFVWNDJZbVVTSmdXNnQ2Qlc3X09xejJfWWI1d0E2WGZ4NGs4bHZPVGhfbHhnWXNKcGd5N0dFMFZ2bDAtRHoxRmZBWkZ2TGRUSmJqSEZPRHlqbnN6SGF1YU05Z3B1SU54UmJ2S2NZM1FmdjBXNENsS3JzQXprY1VIOVQ0UTYzQkFtLVNfZ0RaelB0N1JsWFBVMXF0Y2UzWkQyaV85NW5fczlLU0JVV3FCN0hxc0Y3bFFGSTVzNWpzOEZVTlk0TzBoUTRPTGpFZWhYS0NLZmJLUkxjSDROVVEwNWV5b2R4ZXZFaFJXTjVuV09J?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Fri, 01 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474080"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh's FY26 pay rises to Rs 39.82 crore; TCS CEO Krithivasan earned Rs 28 crore",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOFVqMVc3R2VHU1pLY25sZmQxa184NFNHNkdZenB5NWxKMlNOQU9UQ2xSLWdYLWxYUFRKNlRORVdLX1pTMkRHMVQwNUJMRERWc3JmNXRDMGVyUmFZN0c4Y1lTakc3ZFd1QnVDVDdsUmNLeW5DdVBHaXRianFYSFV1R2NyN0NuUUU4aTBpM2hvZnhWMTQ3OFZDek5qanZJQ3I0MExRcE5lMWlkOTVELS1rUEZiTERJWmZqTEpOZU54MmdDTklfYnJGanItMjZRUdIB0wFBVV95cUxOd0NpRzFNeWlaMlpkYnJfcjJXQ2F2QXBXR0M2MVNrejhjM21BYTdZRE1vTS00MVVUSU1RQmpCYkwzb240eDFST1U3STVTRElkUG5YWE90SnZXcExJNTFCSUtYV0VYbDVPSUNIdnk5TUp5SUJpZUVUNEtVUDdEelJxMDRJak5qM2xXRGlrUHR0ZjI0QXZVR3MtQkIySFNhT0M4Y0dWYm00NjBWRXh4dmhXa21vWFZDQWZGdWEybFVUOXRqRkQwdlptbUhhMHpYTWVCZERB?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Tue, 16 Jun 2026 11:35:03 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474084"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh’s FY26 pay rises to ₹82.6 crore",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNFg0SUZQdzJJQjRyUjlFWHNQbThjdWxuV1A2Yk1meFoyVjhDRFRVaGRTUDN6ZTJNY1RQNVRvUm5JNnpVSmFwSVhSd2Z1YXlMLXBIU1ROVkx2LVBaRHR3OVMybTg0eGZVQU5rVHkwZlljWktnVmlsOVN0WEx3TjFBcEhSUzFKRHVhU0F1dGpoUFVGWktRVTZMTWhxVlFPclJhRS1zcFZ0VENPMWo3SUpLcGJPQ2RoN3RRVjB5VlhJb0hXRXZUN1FFVTRRVzdaWndSdG50X0JLYzNXS1FvTnJGaG1mZ1FWLTNJRFo4SExR?oc=5",
+          "source": "MSN",
+          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474088"
+        },
+        {
+          "title": "#MCTech3 | Infosys CEO Salil Parekh interview; Dreamteam in funding talks with Accel; and more",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSHFzRWlQa2hpU25TTENjc2d4LXdrbzlQOG9kOVpYYWJPb0VfNXdTdWtLTWc1UUlZREJaTVFsSjIzQndXOXFwUDhpbVB2RFZweVBPeDZwbE5SNnRVcXg3Y2t4RkZVVTUwdWo3MUpFZFkxamdIcHRLcVpEZVFfLWNYaHMtUVVlMXFTOTZjQk1kVmVUTlJkdXROY3hPbTBpQQ?oc=5",
+          "source": "LinkedIn",
+          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474093"
+        },
+        {
+          "title": "AI will bring changes to Indian IT’s pyramid talent model: Infosys CEO Salil Parekh",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM0RIWUJVeXpweEVoMnB5MHB3Tm9KTmlVWU5ZaWZRSFUtdW5Wb09VYk9nOXU3cXEwaWJydlpFenp3MUdPZzNzc25kakY3TkI2SnR3Y2lIc3NyalU3c2xzTnpPNnNBRHhGOEtEZFpEUlhfYU0yUlctOVUzNm9pSGlwT2NDNjhWQ01HcTIyZERObnVhU0FQUW42NmZ4cENCMGZtTzkyU1c1UWVOT0FPWC1Id1I4bEZVUEpUeEF4dXY1MFhqMXE4aC13N2lDMkhTMHBNU3ZDNmh2aFZFNFkzb0paa0FxcGZHOUtYSmU3MzZn0gHzAUFVX3lxTE9ZQWowM2VWWm00NkkzNG9wNlNzU2tqNndSQk82YmZyLUZEYVhSb2lZeGVBRkRPcmVxRF9rUWMwM0VTVHFmUnNGWWJSa1lmRzlzcWRQNllfeFpMbi00aTJMUkk3bVhPbndZVEZTVmU0aThDcE0tSno5UlEyelFENW1RaVVSS2JWQjEya1NiVG5EMTFuTDlYbU9CU3RaaEVVTFQ0U05YRjlqbzRnWjN4S1lMUTc0YUY3WUt3S1QzWnA5YUFGNlhLUWZHSjMxRFN2dXpaU3NlMlBkNnZMdWs5RWM4Y2I2WmxyZ2gtN0pna2QxQnBhTQ?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474098"
+        },
+        {
+          "title": "Infosys’ Salil Parekh vs TCS’ K Krithivasan: Which Indian tech CEO earned more in FY26? | Trending",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQlYtVVg1dTZfZU1kS2tGbTYzWXJoYlFvLXhUdFczM09UR0dqZ3VQQ2RENGxfZ3pPV0tQZWVtZ1Y0ZXdvSXR5dTdfa0RfMzJfTEJNbE5FLUktbERwOHNWbFFoSmc2c3p0azFfYjZZMThsSXhVWGQ4aGFoZlh6ZHctN3FVVGR5TWlvVjVwZXJtZWpyT2NJZHUzeVpLVjZxZWdMN2Q4RTRxYl9FNGFsenl4V1YzaEp3M1NxX0NvWUg2Nzd3UXNsUncxM0x2MWRMSG93SnR2aW5jY0NzMVJl0gHiAUFVX3lxTE9VSTQ4ZmVwM1A2bDBtY3B1OUYtYm8wbi1NbzlLa1plZktBTlgyZmR2YzNHTFZtUjIwNUpLVkxlVl9PSjJwOWZzNTJSRHlZaThKblk5OS1tcGFFcjZmZC1IS0dNU29KQWVwbm1SSV90R1RzdFdCNGU1Q1JJRVFreUQ2U1Bmd19ReFA1U25tWlZwSjhOYUdGR09teUVCMWdmVXZ5MHk1X0dNWGE0N2x4azYwbG50UWVZRmZJOHI4bXFhOVg1N1I1djUyRHF1cGl2aS1QVFJma3V0WnpWNkhZSEQ2VEE?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Tue, 02 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:45:41.474102"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Infosys",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Infosys: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "IHH Healthcare, Infosys team up on a multi-country, AI-powered ERP boost  Infosys CEO Salil Parekh rules out layoffs, bets on AI driven growth  Unlock...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Infosys: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "ESG Compliance Gaps at Infosys",
           "severity": "Medium",
           "description": "ESG red flags detected at Infosys: governance. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Nifty 50 June 22, 2026, Gainers: Cipla, Tech Mahindra, Dr Reddy's Lead  Tech Mahindra climbs Monday, outperforms competitors  Top gainers and losers, ...",
+          "detected_from": "IHH Healthcare, Infosys team up on a multi-country, AI-powered ERP boost  Infosys CEO Salil Parekh rules out layoffs, bets on AI driven growth  Unlock...",
           "gap_type": "esg_concern",
           "keywords_found": [
             "governance"
@@ -238,119 +331,63 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Infosys: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Infosys: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [
         {
-          "title": "Nifty 50 June 22, 2026, Gainers: Cipla, Tech Mahindra, Dr Reddy's Lead",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaHR2d2szQm1oSmE3LTJTckFCaFg5dkNINW1BRllENU5pZklHbEVnek1SOTRUMG10Z1l4aXFNZFNfWktIazlzdHhyYllaZVA4dDlZVF9BZ09sVEIwYVR0R3A4X284YVRaSXVNM0JuMGFxNDBtZGtsVkV1anhQVEszb1BiQVN2ZU1MUlVfak5KdUJhQlE?oc=5",
-          "source": "HDFC Sky",
-          "publishedAt": "Mon, 22 Jun 2026 11:05:11 GMT",
-          "fetched_at": "2026-06-22T23:09:42.203079",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra climbs Monday, outperforms competitors",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdTdIaE85TTlTMFdjQ3E0U2xvNWZ6VElZUzZfMUN5MTZaeTBZTDN3YWU1MVJ1a28yNTR3Y3ZIa29IWExraHl1VTlMUDJXdzZ2cUpxSVdZdnNFMkEwUmpYREZMbDRZTHhuUDVQVkt0SHZtNVo0Mm90UHBpZ21uWTZvdmVGODZfN3VtenI0ZnBCbDJPeFB0QjA4aXVSdXNLb1JjNDFnVXBBMkdCbVU?oc=5",
+          "title": "Wipro falls Tuesday, underperforms market",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVU5XanZHVHpscldtZ3M0ZXNTSVE2ZXFzbV9FMy15QUhxbGEzSE56aUNfcW95MnEweWhIejkzLTFPXzFOVHJuRjIyc1Zya2FCY0FCZ2tnaFEzd1J1ZFpreHhja3p5MU5leV9lN0g1R3FUc1ZnVHNaUjAwVzhPTm1YN1FSR0p6dHN2TGpYeERKdUFCRVNJRE85dFlKRVQ?oc=5",
           "source": "MarketWatch",
-          "publishedAt": "Mon, 22 Jun 2026 10:33:00 GMT",
-          "fetched_at": "2026-06-22T23:09:42.203094",
-          "related_to": "Tech Mahindra",
+          "publishedAt": "Tue, 23 Jun 2026 10:32:00 GMT",
+          "fetched_at": "2026-06-23T11:46:11.272883",
+          "related_to": "Wipro",
           "relevance": "competitor"
         },
         {
-          "title": "Top gainers and losers, June 22: Cipla jumps 5%, Tech Mahindra, Dr. Reddy’s up 2%, Titan down 1%; check list",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNelJzcVhsUXpCWXpYN2Qwejd3ODBXZnQtWEY3MXZtZ2tnZV9SdFM2eHY2ZXRHS0N1cHFxOG5JeWVFUGVKY2NtaTZOdFBKdmZUak9uTC16M1d5QndXQVlJU1cxdWN0TU43N2h5bTRHcEpvN2Z4TzE2ZWg3cHRWbFZGQjRNS0JjdElyRUw0NnBtU2lBR0owek9CLTdCbFRfU05GRldadDJGZjBDUVZJTV9hMGN4dXpKdDlPZU1iVmV5R010N2VJcDFXMkxVa0hidHVvVzRQU3l3Rks1dkJGMWpqS3p1NHc4bHRNZy1WV3N3?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Mon, 22 Jun 2026 10:50:29 GMT",
-          "fetched_at": "2026-06-22T23:09:42.203113",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra inks 10-yr office lease in Hyderabad, rent tops Rs 36 cr/year",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcnhuUUlvVmNJdnN5SEZlQVl4SnQ5bmlfVmlpV2Q3VU5yVVVnWUNxT0tPZnFxaG1EWEZzQU1JWVhFdy1DX2hlcG9YR0x6R1ZSNWdiVEFmSnpnNWRENGNJYno1VWJuekl0NUZNN184OUlGeTNyUFJqZUNSLTlULWpzenpQWTRNUDh1amhSZUZxTkQwUzlIdE01LUQ2d1k1aGVOTWRHR015WUdnRW9WRFppTl9kWlRGUDY4SGE5Y1R3Xzk1LW1jOHlZTldaYndjaTlrTUtJM05yZDEzWDEtRjBiU3hXVjg0dHUydU45RWdB0gHuAUFVX3lxTE1yeG5RSW9WY0l2c3lIRmVBWXhKdDluaV9WaWlXZDdVTnJVVWdZQ3FPS09mcXFobURYRnNBTUlZWEV3LUNfaGVwb1hHTHpHVlI1Z2JUQWZKemc1ZEQ0Y0liejVVYm56SXQ1Rk03Xzg5SUZ5M3JQUmplQ1ItOVQtanN6elBZNE1QOHVqaFJlRnFORDBTOUh0TTUtRDZ3WTVoZU5NZEdHTXlZR2dFb1ZEWmlOX2RaVEZQNjhIYTljVHdfOTUtbWM4eVlOV1pid2NpOWtNS0kzTnJkMTNYMS1GMGJTeFdWODR0dTJ1TjlFZ0E?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Mon, 22 Jun 2026 03:56:08 GMT",
-          "fetched_at": "2026-06-22T23:09:42.203117",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "BT Opening Bell | Sensex, Nifty open in green; RIL, Infosys, Tech Mahindra, HDFC Bank top gainers",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORFhCQmNIZ1o4a09KSTE2Yk1sdjZhb092UUVzQU0wYnFPQXl0ZlYxRldvLTlvOVlYc1dDanJrOTlWZ2cwSlJGODJZcGdTV3R5ZmFZTWxQLTRjU2VQdmJ0S2xrYjlzdXFkVkFZWERkNEN1b0JhTGJZeXNnZVRkdHUxdzhtRGZUZHg5dTdqMDJJR0JKTHhoRmdkTHpRcmdiaVV3MzhCYmItWXpFemd4Nml4eThUa1NrTDN4UzVZRldYYXlfV291cDdKTzdMc2o4RW1wZjhyZGh6enRDbmlpeDFVTnFySThDcGktYlFIbEtvONIB9AFBVV95cUxQdTJxZUpZOEFTaFlFM3RfaVBfUmJ3cnZmUWRTWXhHLWNBd1VNZmFkR2RLdlRabjJrNFFNRkpXUjJnc1RuZDUtZ1FIOVQ4bUUybThXb2FSNERBQU1PN1pGY1YzQmpOaXR3Z2RwTnhfTzZXSUI1VnBScDRXb3U2RlpmMVd0MWFNQ1FMY1NCSnpwMmhqTDA0MU1mSU9kT3JIaTZTTDMxbGM4MWdCYWd2Qkp6eVhRWE5XekFHekI0bGFOc3JQOVpPdHNLWVU3dlZ2c2x1RUZmNnYtNE1iajhzeDZlWGh0YkRVNVpZakVPNFI2d2haTl9a?oc=5",
-          "source": "Business Today",
-          "publishedAt": "Mon, 22 Jun 2026 04:08:04 GMT",
-          "fetched_at": "2026-06-22T23:09:42.203122",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "Infosys keeps CEO succession plans under wraps in AGM agenda",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNd2lUb00yaHIwWndwTDdsM2hFMW5Tc19oUHI2alhJM1JWVXhBaG1HdF9tM04zWWVXeFVhTmljN2NuYnY4QnV4QXNtMTk0MldGU3BXem1EMkRaMDRtTFlROUtodHk0N0NxWlhuejRneVM2Y29rNnZtcHBNcEtUZ1dzT2xEQWxIczZrZjhjVFQ1U1F6cFVEUV95Wkx0d1B0dTIzM0dhSDN3blZPUGRWejRUV0lnRGprVW5zaTVJOHI0OUJ1NTNMVlZ2WWNJekdaZ2xTaUphYlNFVdIB3AFBVV95cUxQR2tVNVMybXQtSWlPcjd0ZFJldWtMQ0kxZTd0OXczU0VTQTJKRkNKZXlDaVlHTVNoUFdyWm0xNTBvZ2dFWkE3d2Yxclh4X1VjYjliNy1FUzJCbW5YaFVuQ013dlV3Mk5kS2owMGg3RDlDbWMxcXQxSzQyZkZ1LUVULTh5Y2lJQk9nSFFLMmg0Vk5vdDNmb2tCWlBySzlUSXdfTmcyYnUzN3BsZzhNME5ZLXBLZkJtSW42b1cyM1o3U0tCSFRfQm1OS09yTkM3NHBCYWxfZkJaWWpBaGtn?oc=5",
+          "title": "IT index falls 2% amid AI worries; TCS, Wipro, Infosys lead losses",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLU9oQkVwSVM4X050S0RJcEhZV21CaTJhWDJLNlFTX0pna01BTVppaVpYWS1PR1diSS10cm44S1FGdG1XTENzS0Z6SW85VE0yQ0JFTlN5Yks5a1pDcGQwaFJicktZdVZSdlhGdHFQLWktUkdYTzhMc2JIRVZycmhqLWQ4V1p5Qk1Fd01GVzBnUXhIVGZobGFnYWRieEdlVHdJRk5xLWgxVndlOHExVnQxSW4xMzI2MnJTZ2RLWC1BMGlwYW5kU0HSAcsBQVVfeXFMTWlQbGFVRU1mMXktcU1TTjl2ak82XzRZUzlJTnBkeFltZXZuTGMxTWpSaGxGallERm1fbXhNaldwYzhod25jRTl5WkZra0xzUUtndHpWUkVRM3ZQSl9zMFd5SVJGYnVuV2tUcEdveWN6eGMyVnBjdjZkc0d2UUpmOVZ3TFpObGR6LTB3WDNab0dBUE9PR3Z3VE43U1Mzd3cxMGsweS1rOFhqMDhFRDJnbk5rbm82SUR5U2Y1OEszQ2lyMS1YV0pJY2ZTS28?oc=5",
           "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:09:56.608641"
+          "publishedAt": "Tue, 23 Jun 2026 09:09:13 GMT",
+          "fetched_at": "2026-06-23T11:46:11.272897",
+          "related_to": "Wipro",
+          "relevance": "competitor"
         },
         {
-          "title": "Unlocking AI Value: Salil Parekh on ROI, Jobs, Data, and Governance",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oWDVGNUVCeU14Y1I5dVcxOXJBb2xwVzYwdWdxWktNSjdzdmFiRFdYc2NNNWFpM1o2bmx1YmdwOW9EcmZPXy16ZFdPWHBEdkJjYTN1LVJBajVDbkJsZ0I1M205cWlTdGRRTVE?oc=5",
-          "source": "Infosys",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:09:56.608654"
+          "title": "Wipro expands Palo Alto Networks partnership for AI-driven cyber defense services",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQlFLRU9vM1FMTFBEeFIxeXN1UlVjdl9qaWY0clphVWt1bUxDMnFkRXp4alY4R1BKUmsyWGlYNEZwV2dwcWEwTU00aDBabFo5ZUFFLVQ2Y2RaMW9samhyVHpnTDlaejliZmVIZUo0aXpqaG5tZXFwZ0JGTzloN1JKVzFaRFItZHdhZW93aWpqUEF4bnZlcmtLTkxJYzNlM2w5dUN1WkhmaG5iS2dKRHF3RFVTcG1EZE5GNXM0VnN1el85Z0sxRGlSdm5rNklacWFjM3JhZ2tMNS14SHZ6cXfSAeMBQVVfeXFMTzFjWWxGWXplNmRWZjBVVjB6V01mNmxEM3F5R0VwSWpxWkx5dExPOVc1Skt2Mko0N1VMZkVpLTFRSE9mWDI0Q2tYaG84cUtVbnVfVU56anVVWGVvalNpWG5fbG90cnhJWVcwVXB5cG5ENlVJLUxPTFE2UUN3b1d3VjhBek9IQzFvSDRKY1lfUV95bVZDc29BVUlWdHFuY2xMc0NkcDBKQXdydk51VFNEbEIzdTNvSnRzWnd3N0Q4ckdOdE1kMUU5SURTaU9iWkFkT3ZNbll2U0s3cXJsUnJEaW9HY0U?oc=5",
+          "source": "CNBC TV18",
+          "publishedAt": "Tue, 23 Jun 2026 10:32:06 GMT",
+          "fetched_at": "2026-06-23T11:46:11.272902",
+          "related_to": "Wipro",
+          "relevance": "competitor"
         },
         {
-          "title": "Infosys CEO Salil Parekh's FY26 pay rises to Rs 39.82 crore; TCS CEO Krithivasan earned Rs 28 crore",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOFVqMVc3R2VHU1pLY25sZmQxa184NFNHNkdZenB5NWxKMlNOQU9UQ2xSLWdYLWxYUFRKNlRORVdLX1pTMkRHMVQwNUJMRERWc3JmNXRDMGVyUmFZN0c4Y1lTakc3ZFd1QnVDVDdsUmNLeW5DdVBHaXRianFYSFV1R2NyN0NuUUU4aTBpM2hvZnhWMTQ3OFZDek5qanZJQ3I0MExRcE5lMWlkOTVELS1rUEZiTERJWmZqTEpOZU54MmdDTklfYnJGanItMjZRUdIB0wFBVV95cUxOd0NpRzFNeWlaMlpkYnJfcjJXQ2F2QXBXR0M2MVNrejhjM21BYTdZRE1vTS00MVVUSU1RQmpCYkwzb240eDFST1U3STVTRElkUG5YWE90SnZXcExJNTFCSUtYV0VYbDVPSUNIdnk5TUp5SUJpZUVUNEtVUDdEelJxMDRJak5qM2xXRGlrUHR0ZjI0QXZVR3MtQkIySFNhT0M4Y0dWYm00NjBWRXh4dmhXa21vWFZDQWZGdWEybFVUOXRqRkQwdlptbUhhMHpYTWVCZERB?oc=5",
-          "source": "Storyboard18",
-          "publishedAt": "Tue, 16 Jun 2026 11:35:03 GMT",
-          "fetched_at": "2026-06-22T23:09:56.608660"
+          "title": "Top gainers and losers, June 23: Infosys, Wipro, TCS fall over 3%, Cipla jumps 1%; check full list",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOem14SW5UaW01amE5MFVEcGtGVHNFMkZod0pTSlZYeHduOTBRY180OXFCaVZodzlMVHpXTWZMR3drc1d4ZEZsc21yeEZ5N1BjNzNVTWt2Qzg4dU9kYXBUbUNkTTlBWWl4QldkdGl0WHI1d24tUzZ1YUhaSVVNMFJDYkF0RzFPVXFZa01ZWDNMcWlpeHpTYnR0RGtteWFBaWRtaW1XVDlsLUhnRnNuR3RfRWw2Z01Gdm1kaVhtN2JSUjhZbEdEelVYRVJ4dFpoTTJLYkhBV0ZqS0xOaUt5WVNhSWFYYw?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Tue, 23 Jun 2026 11:12:10 GMT",
+          "fetched_at": "2026-06-23T11:46:11.272906",
+          "related_to": "Wipro",
+          "relevance": "competitor"
         },
         {
-          "title": "Infosys CEO Salil Parekh earns ₹82.6 crore in FY26",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcy1Pd0hMa0ZtS1FWSHlDRWwtdWF0NnY2VkZyOWZKSnh6bUZqMkg0YkZwLTNoYkF3ZVpwTENtd0pWck9UTFEzM3hyYkZHc1ZCWG5ROTYxbF9qQWZ4cG1DUDFNaU4xTkRGbkF0cktNcjRyN3htSlZRWW1KWE5iZWlfMXZOX21SLWROUmI0MlFXSVRhdmI4Y3BKMVpQNTkyVTU3a3JEeWlKVnRRbmlHZlJxb2lEdXBXLTlESlVWcNIBwwFBVV95cUxPcTVZRXF5aW5FREZXaVNqQUdLVFFOZlJuMUNUSUZCa0xhNExMQ25UeXB5akRCWWlVcjFWZUY3eFVRTG1jSUdrQU5LV00xeDgtck5vM2s4THYzMEdweVNhRTdQOXpFdFNDWFF2NzVLOUdkS01uX3YxdTA2SnY4dGlUWHMtOVllaV9EblNDVTdZMjlhTDY1eEY5M1puYXhMSzNjSmJsa0JPcnctY0J3T21oTlBaTko0dHhwWGl1RXFjLW9wZU0?oc=5",
-          "source": "BusinessLine",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:09:56.608667"
-        },
-        {
-          "title": "Infosys Collaborates with Valmet to Reimagine IT Operations with AI Accelerated Transformation | Corporate",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNSGtfQWkxMnFibV95bnduQnV2a3VQaE5CeUFHV0U0Ums5THRJTW5wVkdxc19MdF93dXhGQzlZcmdXMk9qd2g2SzVoeFh3ZEljcUxfcThLdURFOVdPUW85UVNRTkQ5R2x6aldnZUk2aDI5cVRhT0ZDQzJ1MFBVbDRMSDhBdU53UHNROUY5dDF6cGJ1dm5UV1B3QlJGYlRGd0JWQnJab0FwaUdGZzByZmlOQmpHaFBiR2lRMnVVQkdnUjFsdlRtNERVbWl2bEZBa0JTOXlOajFuWEtIVno0M0VaRHlmSEFucWpfYmlUU2JpNkpOSHpkaUZ6Slp5WWtSbzI4WHpURA?oc=5",
-          "source": "EQS News",
-          "publishedAt": "Tue, 16 Jun 2026 10:25:22 GMT",
-          "fetched_at": "2026-06-22T23:09:56.608671"
+          "title": "Wipro Share Price Live Updates: Wipro's Trading Day Concludes",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNenNxdzdDeXFQMFFCeV8tdGd5UEROcDJnXzdfRkNCSUVhclZDQXhxbEI2bmhzcm5MaWVLWnRSMFo0WnViYVAzYnhYbFlidTNua3lMQTBHME9nVVRLVnh0ajVpa0ZVaVB4NGlyZ05hcWdYOEtIczhpa05RSnctbnJ6eHBiRDRnMUplcGRFNFd5TnVLU2hQNjBodUR6WHdSWGNKUEZYNUd0MXlTV1lZeGw2SU5WMFRiMDZxT1BzbzNR0gHDAUFVX3lxTE51UlRoZHgydlFON1RJcHMwcUJ6ZzVZOFJuSVZMQmRDc3F1cXdtRUdzbElHZkk5Q2lacmpQeExGenRpRldmeTljQ1RLZE5WWUMzbnlTazhmcFpWRFlJVlZRcURmTHRkNWxtcUtGUXBlbERkcGhMeFpNeVRDUG9sS2Y5Y1dDLWhPRVJIWVBzQTVOSTZGX1BUNWZkSnAxVkpNMzdVemI0bU5IOENpalp5RjJXMjVrckRMLVg1eGdOSXZGNDcxTQ?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Mon, 22 Jun 2026 12:07:00 GMT",
+          "fetched_at": "2026-06-23T11:46:11.272910",
+          "related_to": "Wipro",
+          "relevance": "competitor"
         }
       ],
+      "esg_highlights": [],
       "filings": []
     },
     "HDFC Bank": {
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-22T23:11:06.611535",
+      "last_updated": "2026-06-23T11:48:12.185962",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,17 +471,17 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-22T23:12:20.705829",
+      "last_updated": "2026-06-23T11:49:12.923204",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -510,97 +547,15 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Indian billionaire Mukesh Ambani files for blockbuster Jio float",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUzhYdF84MVVEWV9wQkxfbHpWZlRvTUo4cWhHTkhuOV8yNEZrTmdiVlA0SFdIRFdfdTU2ako3S3R5WnVQMVZFS0pkWnJVX2tEZWJDYURjZjhMT2JteGZnYmp6M09WbDM4Ui0tVnBOYkFlTmlfVnhvelJpUVBUd0NVUklwd24?oc=5",
-          "source": "Financial Times",
-          "publishedAt": "Fri, 19 Jun 2026 11:24:25 GMT",
-          "fetched_at": "2026-06-22T23:11:35.992967",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Reliance Industries shares climb nearly 3% as Jio files for IPO",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSEpIMlRvajhUY1RxREpleFh1WkVBbnNMSThHSXlVbkhWaWpJVkZ2aWlncERUMmhTWURtd3lOZGlvclVfTGp5MWFGM21pY1RJdVhtTjVJR01lX2ZFWThkb29OYjU4SXNodXRZYzBrakc1Vk1rMko3b3FKSDdhb0h3dFVFZmotRjZaQUdYRm9yeTRRcElVZGFrX3ozRFAzX01FUzU1TllrWG90MnNrV2tvVGNCNGpSbnRJOWRac2tJc0lzd9IByAFBVV95cUxOWDN6OFAwazFERzVncENWWjRuajY4Tl9pOHY2YVBSSzlweUFicTdBdlRTUDRvMksyeFpiZW5KOF9xUlpfWjg1RjFjWklTZUhCSVIxckFxRWhrQVZXOWNUNTA3Q3JQM2QtMlQ2VFNyMENrRFAya2x6VDU1Yks1dGtXYUU4SHNURkE3dU9pOTBrN0lJSk1IMXEzN3g2NGc5R2pIWHFNSl9LTnBJX3hHSjBheGh1dGJTRWZZUkJxLVRtSllTNmZULTF2ZQ?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Mon, 22 Jun 2026 07:08:27 GMT",
-          "fetched_at": "2026-06-22T23:11:35.992980",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "India’s microdrama scene just got serious— Jio Hotstar, YRF, Excel Ent investing big",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXY2M3RDM0hRc0I4YS1yOG12OUJnUkVMQ0FwcUFOSEJ0SjZoVmEydWtGbm9lQnhIU0dlNjBCUHFDZWNJT2pxbEUwbHMyY2tjUE1oYWlwaHRkVlpuejNERVJCWXhDa2RWeHh2OHlNZElDeTFQalhHZ3k0ZzZJZF9rUEtJY0xqQjNrc2hKSWFyWlpvWVljbl9MYUttLTlPMDBVVWdsdWNQbjgzUkV5eW1mQ2NnaV9yc2dJ0gG-AUFVX3lxTE5iVzdMbmZ1RnRjei1Va0UxTV9HT3FOZndhQThiMFFjWFBrQUpmdURGSGR5czMxdTRpX3VNbnJyNjlCUGVyd2c0Q1pEZS01ZFFIOVhteTZkWmNzVW5NRDFNLWM3NFQtdFdhMGNOOVozd20yWVVqNWJXeVV1MG1uSVJwQmRTeVM3dDFRY1NqNGt0c1RfekUwYjJOR0F3YTVlM25ERFRaVU5QeV8wSnp6SjJiZTB2aDBibGllVUhGVmc?oc=5",
-          "source": "ThePrint",
-          "publishedAt": "Sun, 21 Jun 2026 05:37:45 GMT",
-          "fetched_at": "2026-06-22T23:11:35.992988",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "NSE vs Jio IPO: Size, valuation, and profits. How do the two giants compare?",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQTVLVHk2clBpbllueW1rV1J4V1ZrbmNMTG01UTdUZFBXR3JqZnJ6YUpDU29YdjFfTng1QjVNRkNSMEM2U0k4UXo1MmNlNy1tdHRHX3VDcThvaFExNjE3d3U1T3VKMHZBTUFScFc4Zlc4Wkp1R0l4REkycFZpUVptWnRZU3BJRFZyVFlhdmNiUEc3R0hZd2NKcERicTRGSjRPQ0x4d21PVkNOYmhsU1NLWDVZT21KY3VDd0NiQ0FUUVd4QmvSAcgBQVVfeXFMT3lvV3lsLVA3VTUzMC1Zbnhqa0pVcmY2QnZEX3p2Nl9IQ20tVEZ3Q0lfZlVMNnFfMXRrNGxieURnZ0N5QVZDSzFZOFV4cU1wU1AzekNEZDdJaUFTYzVHZTVHaXhxMkl2ekI5bnZVYUIydzBXbWRubFlkNnotRXRRM0gwQnZ2VjROeFZVM1Z2LWVkejNmYnA4ejYwd3B1Tzl2Q3doTHF5dmI4WFdEYkhYRjB4M0FGdWU0dHo2blhPdGp1YUFwVE9feGE?oc=5",
-          "source": "India Today",
-          "publishedAt": "Mon, 22 Jun 2026 04:11:09 GMT",
-          "fetched_at": "2026-06-22T23:11:35.992992",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Brokerages give thumbs up to RIL post the 49th AGM, peg Jio valuation at $117-$127 billion",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa015aTRJTExpaTlicGFlRk9kWnd0SGJCOE9TbXdGM3JNOW01aWFsMUQ0d2RwdFZJR1RyeUN3MlFwWHZnTjE3aUhoYVI4ajVnNTREWU8wYkdYVC03bjg1dXZ1UjVxTkU3Tkc1WG5HcURtMzlsdzMtS2JMaWRjclpmRDJxUVNuME4wMHctNFlsUm1NSmpGR1NpOVYxWDdDZE9OcEphVHRaWURDUXpMNU5FaVpZZklnWEZsR3dLSmtFOHZuVzAzLXhDQ25GUkpRV25KLVl6SllOdXbSAeYBQVVfeXFMTzlUMUEzaUlJd1JYa2d0VzZ3U1ZRU0FUOE9ZRlhqOVVQa29xWUNxWjhrdEdHanpiSDZfNkg1VkMzUVgxQ0RWX21LNmN6cGtTR2RGd2J4R0FEbUs2YUUwLXN6eEh2VldCMmxxcWM5T0dTOE9MQVZUY0VUb29sb095ZnBPOVkwSjF1bUNRNHhKM1I5dDhCeWFiaWhSS2tNZk5DLTRLek0wbHpXckFRNmJIOEtfeVo5RW1RTWR4X1BpZ0xTcmJPMFhEMFk2T2xpVnNNcjhDTmI1UHBRTXJaN0xrdjgyUDNyMHc?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Mon, 22 Jun 2026 19:45:47 GMT",
-          "fetched_at": "2026-06-22T23:11:35.992997",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
-          "source": "EY",
-          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
-          "fetched_at": "2026-06-22T23:12:20.705518"
-        },
-        {
-          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0E?oc=5",
-          "source": "ET Telecom",
-          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:20.705530"
-        },
-        {
-          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
-          "source": "Forbes India",
-          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:20.705538"
-        },
-        {
-          "title": "Sunil Mittal to step down as Airtel Africa chair in July; to be succeeded by Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYmxIY1hRTVRKcUc2aTU4NEFFamM0STZzX0x5anNGMDdqV2J5TTJUbHFFS1lsQ3ZRcHpWRjZ4S2Vfb1JSQy1OVlMxdk5Bc09zbGJfLXJJX2t3Q3NrS3B2WUdEWXhhVW9ENFJVTjlXUGVYZ3liR0FKOFJCQ2VTWmRfeVFMdnkySzBoSUI3M09YQXJTY2Jqb1JQVWxMTzhsMmN5UzVObnl0akZPcTlqQWYxejhkcDFhZDM0Smlmb0ptYVNDUHNOLUIwand4SDFIOWE1WEFQeDNzc2RTMzRkVHU2SVN30gHnAUFVX3lxTE9VR01ZaXlqWXlYNmR1SEJyWEw4YVh3bkJxdHJTamJTdEtVUmRtUm1uQWdlZFVONklJOS1yUjA0cTRmRElrVHJGSmtPY093VnVvVkZTaVQyRGVuU3o1Y3dWTzFRNzJVMkM2V05OM2poZ2E4LV9kSmVyR2tJOXBIY1VKamhwSWN3a2tzQllIYXV4VUwyczFGbGNManBCbnJnLUVSRENUMmVUVUV3Yy1yOVZXVUh2d1U4ZFR3TmJEYW9Dc0d5UHBaQVBjeVZ4eUwydHJXNFF3aWVxdHA5RmloVHkxMzZ3Z1lTTQ?oc=5",
-          "source": "Mint",
-          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:20.705542"
-        },
-        {
-          "title": "Sunil Bharti Mittal to step down as Airtel Africa chair in July; Gopal Vittal to take over",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNHZLTDlMX3ZqeEotRWwwN2NTWkVsTm1xT1JiQ1JQYVJKUW1JWmpSN0xuaW1uZHRyc24tLWpBNnUxOHdlTXlfRmsyQWV3R0RBSXYyek1neDZ6TXlVaHpUeHNCWkxhNEtDX1N0MUpJdVk1UE9KYlh0dmw4aUI4ZHhuakdIaXY1S1FyNkpGRmQwYnJKMTh5SDBIS0tXeGloQ1dGeGlOWTFlVUhEcWdzWjQyOVhiRmd3LVpiV1RjbnRZUTBmeXlWNWFzV096OHNCSC1jNTA2ZEVtWFhhWTc5NUHSAeMBQVVfeXFMT1NxUzNxZGUySVRjYVl0eTJ0TWEtdm5ET3I0S1IwV0ROaVMtSkI4SFE3YmFIRWN3SHBuVTB6YkNMY1ZaSXR6MFROeFRNVkhQSDA4ZXhrRnQ0TkVYM3V1d1haaXBxbmw0bGV3UnJ1aWdlakR0SFRBVk9DVDRNWHRGWlhCRDQ0eWdFOXVWNzZaTl9Da0taMmw0V0JPVUpUeHBFZm1HWnM5NlVRWl9CZDdvclVqMTlNZTIxU01za3dDald1LXlXcGxhck9kUmsySTNwYWJ3RTEzTWZFYVk2MXQwOFB3YmM?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:20.705546"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-22T23:13:38.620592",
+      "last_updated": "2026-06-23T11:50:23.736850",
       "data_sources": {
         "news_count": 15,
         "filings_count": 0,
@@ -608,81 +563,81 @@
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.67,
+        "score": 0.6,
         "label": "Positive",
-        "pos": 5,
+        "pos": 4,
         "neg": 1
       },
       "news": [
         {
-          "title": "Good news for star player from Nita Ambani's MI, breaks Chris Gayle's MASSIVE record in T20 cricket, not Rohit Sharma, he is...",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQOTVEeTUtcEM2Y1g1MG4tLTliWkVpR0VZc2hVbzZZZXM0VFV2MTVPTDVmck9PNFZRU0dzdWlKSEFlX09QSnhaclZzVW9rNzhkaWVvLXd6Tm5ibWx2RFJGZFJhbW5raVVhR3hmWmlkcl9zQWhzbi1waXJYQXNDWDZmckJPdFhoR3N5R2JVc0FCLW1yYTNCQ1FKV3JIQmNkLUVjWjhJUlQ3S2NXalI5SEVURkVicm9lRUlSUjlsR1pWOE1KZXh6NUxrUFczdTROczZVblo1dUlZdm5SbTloVVB0S3NpeG5XcU1GUXF1QmxUZkFTYmpHR0h0WFFDaUR5Mmd4YWM2RVJKRnc?oc=5",
+          "title": "Good news for Vaibhav Sooryavanshi's RR before IPL 2027, star player is set to...",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPR1pTMzE3d19TVWl0MUdyRW5qUENIVXZaME5FZTRNdkpHVEhfOXNnVjJBc1BhT0dRQ21lQnljVG5mZXRlNURoU2hzbGVGdkZrdFR2bmZhcG9yWkQzdUFyaTd3MmxHSmVkMnZmdDhRUGZscDJVVDRvaXV1YmxDekNSVXh0NnlQQlVSLXdqQWhCclhucDZxcXVuMUxjUVY5YTFYMFlNaTNWMzBLZjRyR1d2c0puTzg4UjRKTDcxbG16ejk5Mkc0MmhUTFJHRDhhbTRKazlxN3dNM3RDeVExei0wNW0wS1JWdGwxQTR6dC1Gb0FqaW13UG9YWEg5aDc?oc=5",
           "source": "India.Com",
-          "publishedAt": "Mon, 22 Jun 2026 10:40:45 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351818"
-        },
-        {
-          "title": "Team Owner, Akash Ambani, on the Quinton buy, base-price picks and planning the MI-way",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQXJJYUt0ZjZWN0xva2JZU0ExZTg4aWhTeHVFZ0J5ZXlDYzZqRHotSEVJR2RyZHRwWEozdGUyRWZwU0thd2VmdGtNdGFFSVd3bGVrRXdMWTh1YUwzTmwzdFNjMldBMzB2VGt4SVBQYTBIcjNlRmxCc0J6RGxDVUVtLXhkbWV1eHVKbHZnRGFBTzZOU0V4cDF2SGRPYjlRUzJNendUa0tCcDJFNHlIdzQ5aEJxcFh1VmdjNXc?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Tue, 16 Dec 2025 08:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351831"
-        },
-        {
-          "title": "Rohit Sharma in disbelief; Akash and Nita Ambani shellshocked after Travishek storm turns MI’s night into nightmare | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQk9FUkhoaS1GaFF3bmhuSXRDc1dQZ0lJWnNMX1k0UkQzcGE2RjJsbnNTbU1jbE5JNWFvTm53VWtmUEg2a3E1ZVpvZ1pTOWpUbko1aGsxMzZBdE94cUN0T1JYMFN2VmJLMGRyb1l6WlJQSG1INTNmNS1XMmdPRXhVWHdYaGlBNDhtVDNoTDZGcXh0SnZWcUtFMlRhcE9uRE1zLUhscFY1OWhRZk1YLWhzZHBjRnV2OG8yVEdqZXNkYWViSzZuaDFScGV1MjZhZUdBWFNHVUVtZVJuSmxsN3FXd1FiV0pUUWJwM2pqX3ZDSTNOQdIB9wFBVV95cUxQaFBkandlVlB5T1RCb3RMT0M0eUF2cy11QldQTHM4T0pJYktTamtrN0FuWEtOT1pSMnU5eW1NeUd5clRJc29JQ2ZiUGMwTWNtanZCM2txZW51Wk5xNm5VQnFIVDhBMlhuT3psUDh4YzdTUTd1WVNqTjJiUzk3VTJld09wZUpBV0lpbl8tSlMyME9vVlgxMXJnZlZGMmRULUw2R1hsdmtlNkR5NE1VTi1UQmZrZUhZX3R0YWRYbE1ZdEEzcm44SVpLZ3poZzZPNkVhOEpuYzEtbmJYN0xvLWV5U3FjWHVDb1pBMXlXZV9GT0tfTHNwcXhz?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351838"
+          "publishedAt": "Tue, 23 Jun 2026 11:16:42 GMT",
+          "fetched_at": "2026-06-23T11:49:28.651779"
         },
         {
           "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
           "source": "The Indian Express",
           "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351844"
+          "fetched_at": "2026-06-23T11:49:28.651796"
+        },
+        {
+          "title": "Mrs. Nita M Ambani: “Hope the kids go back with a lot of cherished memories”",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeHo0cXpDU0tZRkF4RGFVLVhqZlFzRDdod2RSOEViNjRSOHdBb3E3UC1fRjFvdUxSa05yRGt6NU42RTFZcldWTERCNUMyNGNNRmlHVjAyV1NHQ2NIcjc5bG55MF82U1BTVVNsRFNYc0p4aGRqaFpuWmoycHRaX3NxRmphb2lJRFgzVjNUV0JtNUZxdHNjNW5xYV8ya2taZi1hY0RacnA3UFh6RTg?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:49:28.651801"
+        },
+        {
+          "title": "Rohit Sharma in disbelief; Akash and Nita Ambani shellshocked after Travishek storm turns MI’s night into nightmare | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQk9FUkhoaS1GaFF3bmhuSXRDc1dQZ0lJWnNMX1k0UkQzcGE2RjJsbnNTbU1jbE5JNWFvTm53VWtmUEg2a3E1ZVpvZ1pTOWpUbko1aGsxMzZBdE94cUN0T1JYMFN2VmJLMGRyb1l6WlJQSG1INTNmNS1XMmdPRXhVWHdYaGlBNDhtVDNoTDZGcXh0SnZWcUtFMlRhcE9uRE1zLUhscFY1OWhRZk1YLWhzZHBjRnV2OG8yVEdqZXNkYWViSzZuaDFScGV1MjZhZUdBWFNHVUVtZVJuSmxsN3FXd1FiV0pUUWJwM2pqX3ZDSTNOQdIB9wFBVV95cUxQaFBkandlVlB5T1RCb3RMT0M0eUF2cy11QldQTHM4T0pJYktTamtrN0FuWEtOT1pSMnU5eW1NeUd5clRJc29JQ2ZiUGMwTWNtanZCM2txZW51Wk5xNm5VQnFIVDhBMlhuT3psUDh4YzdTUTd1WVNqTjJiUzk3VTJld09wZUpBV0lpbl8tSlMyME9vVlgxMXJnZlZGMmRULUw2R1hsdmtlNkR5NE1VTi1UQmZrZUhZX3R0YWRYbE1ZdEEzcm44SVpLZ3poZzZPNkVhOEpuYzEtbmJYN0xvLWV5U3FjWHVDb1pBMXlXZV9GT0tfTHNwcXhz?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:49:28.651806"
+        },
+        {
+          "title": "Akash Ambani Visits Puri Jagannath Temple, Seeks Blessings For Mumbai Indians",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdERlYlNfellGYmN2QnVWWDZoTGJpNTM4ODRocXhkdDVvZUdFVmRUcXBSTmM5N0NiR0x4NmtMeW9tZjd2eFp4UUFlaTdOM3dIeXBEQmRTZmxCMFFGQi13RFRNVHFhNTZrNGk4LTNKclhGNVBGdDF1OVpzOE5oWTRhVGVSTEJ3N2FhWEVmQUVBUERFS042Qy1uTVcxSlJWU1pwR0ItVmpoeFhhUE9LNnRVZlFzb2tsZzhsZ00zVnBubVp0bTR3LXfSAcsBQVVfeXFMTUF2dEUxa0MyV19qQlBheDhNcFdUeFpDZTA1TGJlV0h5Q19EeG5XSzVqSnczVXBVMDZMQ1IwdXN5TDFWSmd4RGZXY1UwZHA0bHdFRU5tOTdzeXY5SnVFWEliRWFZb1ZhUzNPcl9SUUI4eXlZcXdFQ0VNSUNWeDIyaXNwV1FqUEVhZFFqYTFwaE5fUHhXUkJnU2VYZ0EzLXpzX0JkX19uX2lSOXdPcXRrQ2hUb3RDV0J5aEpZMTJpaEI4dUNlSUF2Nzg4MWc?oc=5",
+          "source": "news18.com",
+          "publishedAt": "Sat, 30 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:49:28.651810"
         },
         {
           "title": "Video: Akash Ambani walks out of Wankhede Stadium midway through MI's loss to CSK",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTkRNanFUd2g3MDFsZ2hMdWs2bGw4ZklSV3kwNzN2d05xeE1sREZEMnJReEI4bDNUOGg5OEpya3NjeE1IY0lkVWJvMi0xcEQ5c1NCUWpVQkhzZEtuUWdvNF9ySE5yVHpSeTFzWVdTaEItYVhhcXJwSE9OZFo2UG5NVUNtbjhDbUhsc2dqN3djMzNrZU5OcXJEU1JHVVVocEY1ZkcwckthNFhXYThiR2NEY0lxcnBaYUQwbk9BUXl30gHDAUFVX3lxTE9WcER1UHVJUUMzZkh5UU15dWQ4YklaQTN2LWNoV3pfclNyb3JoeDVZRVVzaE00eEFnd2xGUEVVa2JVS0Vad0Y4TzNPeEU2RXNyUlFiQ1duakFNYk1fVnBLd0R0WXRKNTl3NXl0bFI2aHZmbXNCekRJQW9GQzB1dEx1UTdkNUdNZGJHWTBkRHFPeGlFTzg0eldFLXctTy00WXYzSDlJNWlwTHhHdFBvUmhSSzByM1FKcG1wcjVDSERoZ0N6cw?oc=5",
           "source": "India Today",
           "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351847"
+          "fetched_at": "2026-06-23T11:49:28.651814"
+        },
+        {
+          "title": "Good news for star player from Nita Ambani's MI, breaks Chris Gayle's MASSIVE record in T20 cricket, not Rohit Sharma, he is...",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQOTVEeTUtcEM2Y1g1MG4tLTliWkVpR0VZc2hVbzZZZXM0VFV2MTVPTDVmck9PNFZRU0dzdWlKSEFlX09QSnhaclZzVW9rNzhkaWVvLXd6Tm5ibWx2RFJGZFJhbW5raVVhR3hmWmlkcl9zQWhzbi1waXJYQXNDWDZmckJPdFhoR3N5R2JVc0FCLW1yYTNCQ1FKV3JIQmNkLUVjWjhJUlQ3S2NXalI5SEVURkVicm9lRUlSUjlsR1pWOE1KZXh6NUxrUFczdTROczZVblo1dUlZdm5SbTloVVB0S3NpeG5XcU1GUXF1QmxUZkFTYmpHR0h0WFFDaUR5Mmd4YWM2RVJKRnc?oc=5",
+          "source": "India.Com",
+          "publishedAt": "Mon, 22 Jun 2026 10:40:45 GMT",
+          "fetched_at": "2026-06-23T11:49:28.651819"
         },
         {
           "title": "Rohit Sharma unrecognizable, Mumbai Indians owner Nita Ambani reacts to sensational transformation –...",
           "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPcHV4RGRkbWJVR3RvRVpvalpXa2c5VTdIQW5YTWVuc2dqTnVnNE40bEVuLXNZX3BIVWpWeDJWZEdicXNQZUxleDRESl91MHR1WmlTdXFhTVNCQzh0VS1sLVBjLXlBS1RYZG53UUF5bU9pLTBiQVJyUE1QMUVVTE4xOGFKSWQ0c1NVMzNsWVhldlU2SUl3TGFmUE1PYkI2ckphZ3dlc2duQm8wOVd1czdqb2ZNNk1VT0RjZG5VRzAzU25GcG8ycUluR0JicW1pTnhFV2UxUy01NEpKeVY0MDlBam1oUmoxWWtUTHRvZ21VajVBLXRrWE9LMzJrODhxUdIBgwJBVV95cUxNRWhKWnVmN3dmWnhOcC03NGR4SVFaQmY2ZmRxdlhFVTBnNUhzVEl5MzIzSTdWY0pKLWUwdC0wRElyZktXNFQ0emtmdzRfUFJfV05HSElJaV9GNFYxOWo0ejlWb0RkbC05dUR0UFlzR3ZjcXRmUUV3YWRkaUxPeTJYR0FrMkp1Mlk1NFV0NWlBSjVuUHhHakkyd2xnX2stV3lFTUhnRGFCSkpTSkpEclU5WVZENmwwbUxTWjJ2YlN1XzhNTDhjVm5FWFFCUkhYNFJMQWxVbTAzaFJ4RE5GaEd4WVltYjRWM0swSlo5V2M2dEFxOVpjX1dWeEVVTlBrb3ZsX1Fv?oc=5",
           "source": "Moneycontrol.com",
           "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351852"
-        },
-        {
-          "title": "IPL 2026: Ambani-owned Mumbai Indians deepen brand play with 30+ partnerships, 20% growth in sponsorship p",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOclhFR0pUaVh4b2FFTGg2S2tVNVV0OW55bkFGWHlVQVFnakFRMC1fSXR6NWhPMUVyZTRzYTRFV2dKS3Nqal94RkNXXzRfVE1BcE5sUThNTGpIclA1NXU1Q3c4Yl9HMDZvQjI4dGd0ZHlaTF9CdnhHZzI1T1JLOG9KbVkzeXZqbXJnbzk3Tl9DRDZJOHRZMXY1U1VyZTlFMFhtQnJnWWtkb0hpdnN3eEktdWpyazVyVmxoNWtqLVcwcHhiYzhGV2taS0xzUGFKVHdtaGJDZzFSQjJ0VWR2Ynk3SW5pUld5TVo3WjZiR1JHbUxsbGd1SVpDbklUZUVOUmJI0gGGAkFVX3lxTE4zN0lUVXp0RTVmT0poNVFyY0p1a3JNU1NsT3M1UXd5M2pGM3RUOW5nVzNfZ1BHVDZRTUVBS0JMSE1YYmg5SE5aeVF3b1dwVF9LaGZ3Z3BTZUs1NDZnRDFMOUZSWFVVNkNrRlBad3RQTFdZdVc4c0ZXR19fajJUbVp4UDlPVzVHNGxHSEJoWkhKNG96YzN1MlNSSnl3bW5GWVlhRk9OdWkxblNnNEl2QS00RXgxMFV1RGJheFdCbW01VlNzNkgydVozUWFHZmtYcGZsZ05ma3lxX0M1aWlRWUhQOW5ReUUxaFdvcVN3d3JhUUlNREtnR0d2WWZRQVJZdVV0cFV1ZUE?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351856"
+          "fetched_at": "2026-06-23T11:49:28.651824"
         },
         {
           "title": "Good news for Nita Ambani’s Mumbai Indians after Rohit Sharma’s injury as THIS star…",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcTNqMmQ5NWZZVmh2WkJDZm5tbnllZl9UNGJKd1JNZTVGQUhGSGZUbXpvRkg0WjhNd3gzd0lMS2NpT0FOU190dUZ0bGFJNVkxY0R3dXFrRWpWZDlBbVhRc1BZcl9fZjYwaDV3WWdkMjZRWDdXemo4NEp6bTNGSHZPcktDcnE3aTNNNFhrRkdPd2Y5N3ZNUTVseklFeHRxR04wX21HQUVtakpoc004ZTNUYVlqNmQyUzFRNmdqSzNpVHdlR3RSU2FpU3VCRnN3YU42Y3BUcVJvRjdwaHR3ckJJTGZwSl8yLUJ1eERN0gHwAUFVX3lxTE1UeEZPbHozWG9QN3EtZlJ3eFNyNHBFeXMwZlk5Z1J3Rk5Ta2wxcUpjaHptSmxZRUlMTDRrQnBicjV4VGpBN3RJWGk5cTNkUWRvRmVrclA5d1FoRjJWZTBEZFVhOUxIaHZEZHVJQjhfUU9ob1M4ZFZGYlgzYmlBVGNJRFdLaUc1RWFwVWY3SFh6aTVJbXE1TVNJamZwQUp4ZHZVMHZUM2RJYVAyY09YWllxUDE0RERVY05PTzRPODkyNC1mazBpZ241ZXB6ZXZvMy1aRHlBZlVtbEMzQ2drVzY5TjFCWlV1Yng3aWxIOWM3dA?oc=5",
           "source": "Cricket Country",
           "publishedAt": "Thu, 16 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351861"
+          "fetched_at": "2026-06-23T11:49:28.651828"
         },
         {
-          "title": "Mumbai Indians (MI) is the most valuable IPL franchise at $108 million in Brand Finance Annual Report on the Most Valuable and Strongest Indian Premier League Brands 🏆 #MumbaiIndians #BrandFinance #IPL",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUnY3N09wZkFPYXAtWXBfQmhKakFCMHFFRmNjTjUxVVg3NnVPY1hIcGNVcG9Dc0VaY3dhVnBCWVF1Y0U4ZnN5U1hFcE8wUUdGQkhnS2VIelNRMlNucGtJWl9HUm51Qkp6b0h6XzdVRWRqTnoweEVwYjNkU2c5dndFeTNxcEwxZFhyZ2FSZXJHSDFtWTFpQ3ZRTzFrNXlwaFIzamtfS1AxeGsxekJqSU5USTFmOUlVOFdTX19qcGgzakhkSWJoTFdrWXZqaWUweHlHdW5yQmd0VUJTNnFPbGV0SlRDbElxTFh6aFFr?oc=5",
-          "source": "facebook.com",
-          "publishedAt": "Tue, 09 Dec 2025 08:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351868"
-        },
-        {
-          "title": "Akash Ambani talks about MI's strategy at the TATA IPL Auction 2026",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQckk4SFlZWERaa2NVR3k4SFF5ZW1Pa1ZVdzRVbFhMbUdKSmdvSUZpS1RzcnpmWHdRWEl6WHlaNk9KRjRBUmVtbXpKbXFYNjVFVDE0Q0hrOFFjMGRUdWkxbGo3alp6NHQxak5yQ2dxajZLMXppb0tISW42UXU4bGhEblMtSlQ5QlpRVlZNa0MxSTlySXZjQVJrakVQRFdZX09McXBzOGNB?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Wed, 17 Dec 2025 08:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:36.351872"
+          "title": "IPL 2026: Ambani-owned Mumbai Indians deepen brand play with 30+ partnerships, 20% growth in sponsorship p",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOclhFR0pUaVh4b2FFTGg2S2tVNVV0OW55bkFGWHlVQVFnakFRMC1fSXR6NWhPMUVyZTRzYTRFV2dKS3Nqal94RkNXXzRfVE1BcE5sUThNTGpIclA1NXU1Q3c4Yl9HMDZvQjI4dGd0ZHlaTF9CdnhHZzI1T1JLOG9KbVkzeXZqbXJnbzk3Tl9DRDZJOHRZMXY1U1VyZTlFMFhtQnJnWWtkb0hpdnN3eEktdWpyazVyVmxoNWtqLVcwcHhiYzhGV2taS0xzUGFKVHdtaGJDZzFSQjJ0VWR2Ynk3SW5pUld5TVo3WjZiR1JHbUxsbGd1SVpDbklUZUVOUmJI0gGGAkFVX3lxTE4zN0lUVXp0RTVmT0poNVFyY0p1a3JNU1NsT3M1UXd5M2pGM3RUOW5nVzNfZ1BHVDZRTUVBS0JMSE1YYmg5SE5aeVF3b1dwVF9LaGZ3Z3BTZUs1NDZnRDFMOUZSWFVVNkNrRlBad3RQTFdZdVc4c0ZXR19fajJUbVp4UDlPVzVHNGxHSEJoWkhKNG96YzN1MlNSSnl3bW5GWVlhRk9OdWkxblNnNEl2QS00RXgxMFV1RGJheFdCbW01VlNzNkgydVozUWFHZmtYcGZsZ05ma3lxX0M1aWlRWUhQOW5ReUUxaFdvcVN3d3JhUUlNREtnR0d2WWZRQVJZdVV0cFV1ZUE?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:49:28.651832"
         }
       ],
       "research_gaps": [
@@ -749,48 +704,48 @@
       ],
       "competitor_intel": [
         {
-          "title": "Fleming to continue at CSK despite clamour for removal",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSzJ5dVNoMjczdF83SEtra2lhck8yZVZCdkVicTdYREF0M3N4RXRYb3pkcGUzUDZLRllnUGxTZnNmR1NJZDJVS1E5aVZpY1loY2UwYjczNTE2eGhaM2sxVFBXTGlJank4Yk9YYjBrRGwxRml6MkkzTzdLaXllM0g3UG1PYVVKUGZiOXFLUjcyS2JvMFQwU3lTTXp1YllFSUlsM0xKdlU2ZUJrRENDMktHUy1HZ2EyWFN4akxyRFdaWnlXSjNHMUEwUTliVHNSd2VlNzg3Q0NDVW5wQVh5SlhOTUo0RURPQlprMjFIeE1hUQ?oc=5",
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Final | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazMwV0lObFpLSzZaSXl6d1hwYkFsZ251QW9Rb3R0cjEwUzhISUlZMTB2SmJUX1pWU01QSmpsSl9FcE1JM2V6NHV6SlpZVm9KOTJZS001OUM3V1g1dnB0UHhyQW91WnZWemZ5NGF3c1FSRzllYWxuR3d3ZFk3SFNaRjdZWnZTcVVxQVhYZU5SSkdPV0R4TUE4Snd3?oc=5",
           "source": "Cricbuzz",
-          "publishedAt": "Mon, 22 Jun 2026 15:49:22 GMT",
-          "fetched_at": "2026-06-22T23:12:47.297685",
-          "related_to": "CSK",
+          "publishedAt": "Tue, 23 Jun 2026 10:43:56 GMT",
+          "fetched_at": "2026-06-23T11:49:57.527297",
+          "related_to": "RCB",
           "relevance": "competitor"
         },
         {
-          "title": "Who can be the Roger Federar of India cricket? CSK keeper answers as court awaits Wimbledon",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNU09CbzFqNWwwSlFpODZEQlRDSlM0aFFkMVNMX0lrNkNUWExaa01taVZkRFFGRmliSEc4WWdfY2lzMjU0dm5adlhZR3d0N09qdmxKSGZSLXpsdm9JNDk1UjIwTzlQUGtQeWRrMXBnZ01pZWpqcGVvalNSNDVUZnE4dTZKajIySmZ6cmxqOEtSbF9ZT1RGdzhaSlNUcTI2azJTVW53Wl9ram9ZcDRBdkdlR1BwblNhRzlpWDdQOHdyRVRONGZBRlVXYTdxXzA0cWgxUG5ySVFQVVhseEk?oc=5",
-          "source": "MSN",
-          "publishedAt": "Mon, 22 Jun 2026 20:41:05 GMT",
-          "fetched_at": "2026-06-22T23:12:47.297699",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVJ5OTNfaWNQMGhnWDNyM2pOT2NkbTUyczVwS3Q0TW0zZTA2aU41amZXVGxhd3ZIYy1mWlhmXzd4R3VqaUhpZFNZcVNqSHpQSjBNM1BCSUZUX1JlR20tN3A4V3pTeWFORWMyODlQM2s2TExZcDdFOV9UbVBKOGI1akRxTWhFRmZNMjhZNnNfSnM2U0dfT1RJTkJTSkdrTVpQ?oc=5",
+          "title": "IPL | RCB 167/8 (20) vs MI 166/7 (Bhuvneshwar Kumar 7(2) Rasikh Salam Dar 3(2)) | Royal Challengers Bengaluru vs Mumbai Indians, 54th Match, Indian Premier League 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, new",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNME1sUlpncU1jX09ldWdfRXl6UkRLbmYycC1yNmZlbXg3Sl9FMUFlZVQ2WFNBSzRldzItVGVYdVFheE9aNmF0blhyQWJoUnUyZEg4dlhReTFORldOQjdLc0Y1NWdtUVA2eFpYMm9rZEpsZU15N0hMb1VQaERXdHJvSnRhX2hlb0tlci1ONkhZZGZGaUthS3dEVzFQRTRPNUhq?oc=5",
           "source": "Cricbuzz",
-          "publishedAt": "Mon, 22 Jun 2026 22:54:02 GMT",
-          "fetched_at": "2026-06-22T23:12:47.297704",
-          "related_to": "CSK",
+          "publishedAt": "Tue, 23 Jun 2026 06:45:17 GMT",
+          "fetched_at": "2026-06-23T11:49:57.527314",
+          "related_to": "RCB",
           "relevance": "competitor"
         },
         {
-          "title": "IPL 2026 Updates: LSG vs CSK: LSG thrash CSK by 7 wickets",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBES2RHRUpoWENOS0Jrd1NDbzJDbzFjNXNlbWJxYXVubnhZdFFiQlZwSmRBTHlCdHlEeWJtYXhVV1JFZzU1UWxtbzlySWEzWXVFbFE1YU1uZFlyU2VHb3hkVGlkUXM0QXlJWjBnVnlaR3AxZUVWTTRqLQ?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-22T23:12:47.297707",
-          "related_to": "CSK",
+          "title": "RCB vs GT, Final, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWVlmckVCTjdER2tLTkNfNER5dGhkMjdzOThDUHF2M0dxc09DMEZ6Rk8wdFE5ZDJVd3Z4aUJDZ0dwcXFuSmVVbHg3TjVWWTFHcjJHWlViQkRiTGhsOVl6ejZWVFhBZzVyWDVQdTJsTFRnQlhoZUttY20xUFpJOENjVkh5Ym56NERiZklGWXVBNFl3U1E0OXVMRVZlczdYdw?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Mon, 22 Jun 2026 18:37:08 GMT",
+          "fetched_at": "2026-06-23T11:49:57.527319",
+          "related_to": "RCB",
           "relevance": "competitor"
         },
         {
-          "title": "Ball by Ball Commentary & Live Score - LSG vs CSK, 59th Match",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQTJBcEw3ZVhtTFROa3Z0UXBtMFdMbjlhb05OTXZYdElNR0Z3VXZidWlPblpIbGZ2eXpiMzllR1FaYi1vVTA0bXJQSmZDbEUwd2U4RnU4RjRKN1lMNmVZemp3cEdzSEI4aTlPelRSajh5YzBUbkEtSGVZTnV1YTd0dmw0X0o0bkJCRmpDZS1HelozMUtEM1U0SGxuLXBWMGhTZFhaeEhBTWN6VDl1bl8wX2RoMS1zamNVRFp3QmhPX25uQllEcVExbkpvNXhGTGtWRkliVkdn?oc=5",
-          "source": "ESPNcricinfo",
-          "publishedAt": "Fri, 15 May 2026 13:06:32 GMT",
-          "fetched_at": "2026-06-22T23:12:47.297712",
-          "related_to": "CSK",
+          "title": "RCB vs GT Highlights, IPL 2026 Final: Virat Kohli Takes RCB To Title No. 2, Achieves Huge Record; Shubman Gill's GT Runners-Up | Cricket News",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeWJzTmcxRFFyNTdxUkdfeVY3RzBpYlZ4WDRKN2o2UmdkdURtZkRmRDFpS2R2THZuc1V5Y25iSGQ3YThqVTNRVnlhVDBJNG5sMXVtMTcyR19SdkdUXy1vU2JHcDZySnpuY2pod0x2VmdXV0w1U3I1NXpVc1c0WEVFS3VIMzdtbVc2MUFYZmQxbkdBR25ZTnlsMVR1RnNScjhJM2tEZW1kUW1NSmExdzNXbzNLbDhfd2NIclNJSHJzY1NLdF90QjYxS2lQVXdzMklLRnFBR3ZOTkJpS1JvZ05CU3ZPRXVqWnhDYk5zZm5HZzlmXzR2akxyVVMyT0xnM0M3dEN6XzNnYWFydHNNZmlCQllqRnlhQQ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-23T11:49:57.527324",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "‘This is not IPL’: RR, RCB, DC take a cheeky jibe as Vaibhav Sooryavanshi smashes record 11-ball fifty in",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxObUxOSENfcGZuSkZxMVZab3NGeDFkcnpLZGdPRGNFOG1SZlpsak5pNnBkZUstRXhtWEhTMG56bTlUT0ZHMGlBdjZ0ZUswei0wcnhkMmFVX1VuaU9iYVE3b2hBd25tNURZMU5mV2xhR1JNSHlmZ0dGOEpYOEM0dkh5WU5TRjY2R3JpS3FMQUN1NWxUenZyb0ZIVU1pdmJxSm8xTWtuYTNydlBOUndFN0ZMTVpnd1FYYm4xRTZ4a09EeW00UkZrSjR5ckFRSmt5Tm5yOWJISVczeGlfWXF6ZERCaVJ4X21wU0g1OTRmQkRGangtOXcyelBISUk3V1owZUV1QjY2QW9PTlFyUkplSUxLa2pmSG81dGZHMGZqb1l1ZzVqNktmejYw0gGsAkFVX3lxTE5IazVna0p3aUlQY0R6RjE0YnYxUTNGaU95TmJUSFpKbXJGd01FbEZkcEhkWEU3ZndXNEJ6cFZLMS0wMWlqejUxbjFXZDU5Z3ZIMnVjZlc3b1FMRGp1bmFpLTF1X09CWjJaamU5YkhoRV9vVEN2RFdocmJYUDZYNFJvT0Q0T05LS281d2NfYzRlU1NNeFo0ZXBkczRub1hpeUhFSWRCNkRKTXo4ZVBtOTJxaEItNURKYUtiNXNFbllJU3h3WXJ2emRuYWFrU2drWC1sS0V6RVRIYjVyVF9BeEpkd3BTUEZkemdYejNlODV6cE94WENqMjV0ZDdxbjA5cTA1eEtZWXVraTBlZzk2ejN3a2ZwalNqMnlKQzVEVTBvWkhGcUVlNXZrMHlPSA?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 22 Jun 2026 07:12:00 GMT",
+          "fetched_at": "2026-06-23T11:49:57.527331",
+          "related_to": "RCB",
           "relevance": "competitor"
         }
       ],
