@@ -57,6 +57,16 @@ COMPANIES = {
         "ticker": "MI",
         "keywords": ["Mumbai Indians", "IPL", "Akash Ambani", "cricket franchise"],
         "sector": "sports"
+    },
+    "Royal Challengers Bengaluru": {
+        "ticker": "RCB",
+        "keywords": ["RCB", "Royal Challengers", "Virat Kohli", "IPL", "cricket franchise"],
+        "sector": "sports"
+    },
+    "Delhi Capitals": {
+        "ticker": "DC",
+        "keywords": ["Delhi Capitals", "DC", "IPL", "Rishabh Pant", "cricket franchise"],
+        "sector": "sports"
     }
 }
 
@@ -72,13 +82,21 @@ GAP_KEYWORDS = {
     "esg_concern": ["carbon", "emissions", "pollution", "labor violation", "governance", "board", "whistleblower"],
     "digital_lag": ["digital transformation", "legacy system", "tech debt", "AI adoption", "automation lag"],
     "geopolitical": ["geopolitical", "sanctions", "trade war", "supply chain", "import ban", "export restriction"],
-    "consumer_sentiment": ["brand damage", "consumer backlash", "boycott", "social media", "reputation"]
+    "consumer_sentiment": ["brand damage", "consumer backlash", "boycott", "social media", "reputation"],
+    "fan_engagement": ["fan engagement", "stadium attendance", "ticket sales", "viewership decline", "fan retention"],
+    "sponsorship_roi": ["sponsor", "brand lift", "jersey sponsor", "title sponsor", "ROI"],
+    "merchandise": ["merchandise", "jersey sales", "fan merchandise", "retail", "licensing"],
+    "player_retention": ["player auction", "retention", "salary cap", "player transfer", "contract"],
+    "digital_monetization": ["streaming", "digital rights", "OTT", "JioCinema", "broadcast"],
+    "women_league": ["WPL", "women premier league", "women cricket", "WPL franchise"]
 }
 
 SEVERITY_WEIGHTS = {
     "revenue_risk": 3, "margin_pressure": 3, "competition": 2, "regulatory": 3,
     "talent": 2, "debt_leverage": 3, "esg_concern": 2, "digital_lag": 2,
-    "geopolitical": 2, "consumer_sentiment": 2
+    "geopolitical": 2, "consumer_sentiment": 2,
+    "fan_engagement": 2, "sponsorship_roi": 3, "merchandise": 2,
+    "player_retention": 2, "digital_monetization": 3, "women_league": 2
 }
 
 POSITIVE_WORDS = ['growth', 'profit', 'rise', 'gain', 'surge', 'beat', 'exceed', 'strong', 'milestone', 'launch', 'partnership', 'expansion', 'innovation', 'upgrade', 'bullish', 'record']
@@ -132,7 +150,13 @@ def generate_gap_title(gap_type, keyword, company):
         "esg_concern": f"ESG Compliance Gaps at {company}",
         "digital_lag": f"Digital Transformation Lag at {company}",
         "geopolitical": f"Geopolitical Supply Chain Risk for {company}",
-        "consumer_sentiment": f"Brand Reputation Risk for {company}"
+        "consumer_sentiment": f"Brand Reputation Risk for {company}",
+        "fan_engagement": f"Fan Engagement & Stadium Experience Gaps at {company}",
+        "sponsorship_roi": f"Sponsorship ROI & Commercial Valuation Gaps at {company}",
+        "merchandise": f"Merchandise Revenue & Licensing Gaps at {company}",
+        "player_retention": f"Player Retention & Auction Strategy Risk at {company}",
+        "digital_monetization": f"Digital Monetization & Streaming Revenue Risk at {company}",
+        "women_league": f"Women's League (WPL) Commercial Viability at {company}"
     }
     return titles.get(gap_type, f"{gap_type.replace('_', ' ').title()} Concern at {company}")
 
@@ -147,7 +171,13 @@ def generate_gap_description(gap_type, matches, context, company):
         "esg_concern": f"ESG red flags detected at {company}: {', '.join(matches[:2])}. Sustainability benchmarking and stakeholder perception study needed.",
         "digital_lag": f"Technology adoption gap identified at {company}: {', '.join(matches[:2])}. Digital maturity assessment and tech investment ROI research required.",
         "geopolitical": f"External risk factors affecting {company}: {', '.join(matches[:2])}. Supply chain resilience and geographic diversification research needed.",
-        "consumer_sentiment": f"Reputation risk signals for {company}: {', '.join(matches[:2])}. Brand health tracking and consumer perception research urgently needed."
+        "consumer_sentiment": f"Reputation risk signals for {company}: {', '.join(matches[:2])}. Brand health tracking and consumer perception research urgently needed.",
+        "fan_engagement": f"Fan engagement metrics declining for {company}: {', '.join(matches[:2])}. Need year-round engagement strategy and off-season retention research.",
+        "sponsorship_roi": f"Sponsor attribution gaps at {company}: {', '.join(matches[:2])}. Brand lift measurement and commercial valuation framework needed.",
+        "merchandise": f"Merchandise revenue underperformance at {company}: {', '.join(matches[:2])}. Product-market fit and pricing research required.",
+        "player_retention": f"Squad stability concerns for {company}: {', '.join(matches[:2])}. Auction strategy and salary cap optimization research needed.",
+        "digital_monetization": f"Digital revenue streams under pressure at {company}: {', '.join(matches[:2])}. Streaming rights and OTT monetization research warranted.",
+        "women_league": f"WPL commercial gaps identified for {company}: {', '.join(matches[:2])}. Women's league brand positioning and sponsor acquisition study needed."
     }
     return base_desc.get(gap_type, f"Research gap detected: {', '.join(matches[:2])} at {company}. Primary research recommended.")
 
@@ -447,6 +477,54 @@ def generate_solutions(gaps, company_name):
             "price": "₹12-20 Lakhs + ₹4-6L/quarter",
             "methods": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
             "deliverables": "Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard"
+        },
+        "fan_engagement": {
+            "title": "Fan Lifecycle & Engagement Analytics",
+            "impact": "High",
+            "timeline": "6-12 months",
+            "price": "₹15-25 Lakhs + ₹3L/quarter",
+            "methods": "360° Fan Intelligence Platform + Social Listening + App Analytics + Stadium IoT",
+            "deliverables": "Fan cohort analysis, Off-season retention playbook, Engagement heatmaps, Churn prediction model"
+        },
+        "sponsorship_roi": {
+            "title": "Sponsorship Impact Measurement Framework",
+            "impact": "High",
+            "timeline": "6-12 months",
+            "price": "₹18-28 Lakhs + ₹2.5L/quarter",
+            "methods": "Brand Lift Studies + Jersey Exposure Tracking + Social Sentiment + Recall Surveys",
+            "deliverables": "Quarterly sponsor ROI reports, Brand lift index, Competitive benchmarking, Attribution model"
+        },
+        "merchandise": {
+            "title": "Merchandise Demand & Pricing Research",
+            "impact": "Medium",
+            "timeline": "12-18 months",
+            "price": "₹14-22 Lakhs",
+            "methods": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
+            "deliverables": "Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy"
+        },
+        "player_retention": {
+            "title": "Squad Strategy & Auction Intelligence",
+            "impact": "Medium",
+            "timeline": "4-6 months + ongoing",
+            "price": "₹12-18 Lakhs + ₹1.5L/quarter",
+            "methods": "Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning",
+            "deliverables": "Auction strategy playbook, Retention priority matrix, Salary cap optimizer, Competitor squad analysis"
+        },
+        "digital_monetization": {
+            "title": "Digital Streaming & OTT Monetization Strategy",
+            "impact": "High",
+            "timeline": "8-14 months",
+            "price": "₹20-32 Lakhs + ₹4L/quarter",
+            "methods": "Viewer Behavior Analytics + Ad Revenue Modeling + Subscription Pricing + Content ROI",
+            "deliverables": "Streaming revenue model, Ad inventory optimization, Paywall strategy, Content performance dashboard"
+        },
+        "women_league": {
+            "title": "WPL Brand & Commercial Viability Study",
+            "impact": "Medium",
+            "timeline": "10-16 months",
+            "price": "₹16-26 Lakhs",
+            "methods": "Demographic Research + Sponsor Pipeline + Media Rights Valuation + Fan Overlap Mapping",
+            "deliverables": "WPL brand positioning, Sponsor acquisition roadmap, Media rights valuation, Fan base overlap analysis"
         }
     }
 
