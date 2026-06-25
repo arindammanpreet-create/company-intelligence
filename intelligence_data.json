@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-25T04:12:20.815875",
+    "generated_at": "2026-06-25T09:42:13.914345",
     "version": "1.0",
     "total_companies": 8,
     "data_sources": [
@@ -14,43 +14,21 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-25T04:03:21.297299",
+      "last_updated": "2026-06-25T09:33:08.977748",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Merchandise Revenue & Licensing Gaps at Reliance Industries",
-          "severity": "Medium",
-          "description": "Merchandise revenue underperformance at Reliance Industries: retail. Product-market fit and pricing research required.",
-          "detected_from": "Adani Group to outsource non-core activities or move to GCCs: Gautam Adani  Lawyers for Gautam Adani urge US judge to dismiss criminal case  Adani Mun...",
-          "gap_type": "merchandise",
-          "keywords_found": [
-            "retail"
-          ],
-          "solutions": [
-            {
-              "title": "Reliance Industries: Merchandise Demand & Pricing Research",
-              "impact": "Medium",
-              "timeline": "12-18 months",
-              "price": "₹14-22 Lakhs",
-              "methodology": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking. **Deliverables**: Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy.",
-              "gap_type": "merchandise",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -90,110 +68,48 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Adani Group to outsource non-core activities or move to GCCs: Gautam Adani",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQa01BV2pFbGltdG5UdVZQX2hXSXdmekpmWVBwWlFaemFLZW5zWVRaeS0tbE5MTmJwTUFKUTAydjNiR20zY1BBSVlPS2hyWEhpNDQxSllYaXY1UE1nT1BnWVdEci0xYTY1ZmlqQ19ubDJvZlNqdkZHMGRVVjhSRjNnbmdoQkxYVXl5UVFVd1RqY3FyU1pocm1mb29SQ2ZwVzFWZ2dveEVHUGdxUWdtTTRGbDcxcUhXeEFVZVd6bnpnOUVJcnR6ZC1pTmQyOGVLXzNzX2fSAdgBQVVfeXFMTkZ4b1QzR3JselNaeHg4WnNrdkREcjNBLTh2RU1kdGRNZlAwTDhBbWl6N09yQWNPbWo1dHpHQ0d5NkpDdGJzNTJ4c1dXUmFsdTQzWS00N2pEeXhNUzNNN3lIdmlRUm9PVUpsTENmb0NCNlNlVzF5YmtKdUM1YmpQZE95YWpNVGJiU2ZYS1NBaFlPN3EzRUROMzliQkdiQ1BWSXpWMlN3a0lLLTM1d0ktbE02NEpvTmRkelRWWmhobVNjNjJqSE9vd2dTQUFIRjkzQVctVW45b3lJ?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Wed, 24 Jun 2026 06:56:33 GMT",
-          "fetched_at": "2026-06-25T04:02:50.430797",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Lawyers for Gautam Adani urge US judge to dismiss criminal case",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWDhOSGs2Rk1YXzBPenJqdVFhN1RFbW9Yb0dRN1RXbi1EMUtvMzdqZ0hLM1RoajRCN0ZLOGpJSlpUX0I5aWdCN2JyUl83SmtVVTNwYmNFdnFjckNfSmdFeVhwM0ZWWldVb3dzTkptelVZZ0pmMEtYVjlNNTljcElGZHdXZVF2dEZXQW5sOEptZXVVbmZoUGp5Vkpob0Z3N01hOWtuTnZER1B6Y3IyVFFDcnMza3I5UHR5UTlRR1pEdGdVRmQtdnpj0gHMAUFVX3lxTE01cC1vNFR0LU9PVG5Jd1B1X0ZmbWFRcHlaLXVHcldPSm0yR2VLanVjQzNzT2tyYVJ1T0JnRHdTVGEtM0dpbjVibHVNbXJZZmR1eEE3WVJwbmdVZld0VVhRQUtZWjNsLTZfSmxSNFV6QXRQRG55MWRRa1YzbFlkVEpiSnNxa0hyNC1rZ2x1Q09fWUtIekFFekNlcGJQekRpNzVReUhQcC10QmJ3UHFWUHlmZGdYaThRRXFSekROTEw1YWFBSEU1OXVRTXNEZw?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 25 Jun 2026 00:44:59 GMT",
-          "fetched_at": "2026-06-25T04:02:50.430810",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Adani Mundra Airport Takes Flight as a Fully Integrated, Multi-Modal Logistics and Business Hub",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcmItTm9xOU9DMlpxemhOODVTekdBR1RuTXdEV2kxWGVCQWltVFZ0aUd3ZXNrMzRfcXUzaC03OC1BVkpoamhzQzdPaGIyRk9oRkdSdTc1dHV1Y2NTcFdBRHpUZzhBaldGb3MySXQwdWlxMjFoVXNwUGVKamdOSUtOTGRONUVROFhydWpKd1pDSWZGaE5aUDlic0hXOTlzMWtjak5ZdldteU9MMW5nOEFselp5V1lERDlEYUh3Y2NTeEtsSkhsRTFrWkZqUXdZTlRFX3VMbTlSdw?oc=5",
-          "source": "Adani",
-          "publishedAt": "Tue, 23 Jun 2026 10:05:26 GMT",
-          "fetched_at": "2026-06-25T04:02:50.430814",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Adani opens Mundra Airport for scheduled commercial flights to 4 cities",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZ05vaGpDT2ZVcHdLX3hWSlZ5M2VpeV83czFCWV94T2pycExaM01nTWN0MTM2Q2hzYmxSeVNsZ09ZaEtuMUhQSzFuS0l0dXNZMm9wTHFSLV9yc3VKMFlKX0dPM2xCOEpzNVBaN3NjclZYTzRIejVPS2YtaTFGZC13dm01RHdWRDBIYUEtMVFCTEg2Q1k2WVMzMk8xOGN5eXJVZGtQeGtJaFI1eHQ3TkJoY1dkQ0ZLcW5CYTh6VU9aNTVicUFVMG1MOXloUEdvOXdqSlhaYtIB2wFBVV95cUxOR0dSZlA1enkwQ1FGaGRjT2dLU3ZJQ1hwWmFialRlSTZfVjRtYW1XV281dmhqX2NnZHZmNktBazRxdzItWXVqNWluUlZXSVRieklGbWhUU2NMTmhPbXVFQ21mQlhTQms4UHg2V0pQUWpCSVlhQjBfOE45Wm5fVHdKeDVDUzdWVHpWR0Q4THNrYzlCdWxyeDR4ZHR5eElHdVBHM0U0NnFyNlZNUDdXR2s1S3JFN0d5b3V5ZFkzVWstcjc4UEYzTm5Rc05ncExfZUh2YWRzMi15OHFuZFE?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Tue, 23 Jun 2026 17:55:50 GMT",
-          "fetched_at": "2026-06-25T04:02:50.430818",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Adani Group to invest ₹90,000-₹1 lakh crore across airports in next five years as Mundra commercial oper..",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOaDZ6MVQyMkRya3hkNEtxNEVzLXloVHNVeXdnSHpEVExRek44M0lPdkM0SF9GSVdrRENKWHZ1YnJoUWF0Q3JQWHh4TmZqZmkyZERYbjhNWk5Nam1VYndiRTVBQy10UTNIOERoYmhaa1Bna0lZVE1sbnlYeGxoNElFMzl4YWJjVXYyaUNmTHktNjl3bWFZemJUWHNpc3BwRzBlYm11VWhZeE80OFk5akhpZkMtTzFsY0ZDR2lYOHJkS0hhSW5hYzhSS2o1eVgzLV92QjZqcnhObVVobVlaVjRTel92S0I4enAxMGFIM2c1R01jQThfbk02WG5idThYX3c3Tk1obncxX1pJQkJ3QktTaNIBlgJBVV95cUxQUW0yQ0t2elpsdmh1Z1dobm9OOTM5Ul8zYm5EM2pHZGNBYUx3S1V3X01NV3VVWHh5X2wyRE1GWlVwSUFGMnBjWVNvdjdtUFpjVWlSYnBMeVpYSHBjdWZycDZtSHpjSzZ0cmJmNlh6UDdZaVFINDYtamtMX0podzdza05Ybk44bk11Rm1IaGF0ZHNfSTNUdHpENXBCQmYycTEtX3NwVmxEV2lEQjNGeUh6VWlSYy00SGVXU1lUV19LM0dmY0I3UkxoRGlFS1lDNlhRY0FCUTUtVE9RZm5yVmg3SHRlUHlwWTRONTFBM003YU9fVGlRLUk4NVFFZzhRTWVjN1JMcENGSHJDWGgtMVFFaXJSQV9MQQ?oc=5",
-          "source": "ET Infra",
-          "publishedAt": "Tue, 23 Jun 2026 10:20:09 GMT",
-          "fetched_at": "2026-06-25T04:02:50.430832",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "Reliance Retail's Yousta embraces football with FIFA collection - FashionNetwork",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaDI3dm5LbDdPOWxCNGJVTDQ0YWIyRGRMdTFXSzhJOVg4WDJHa1NsbFJtVUVXeGRkRU53VnkyaGJFNWtpT3c1cVAtNWNYQUFreVAyRGNzODBVMHBJU3VsV2MwYVAxWHk1MUtEdlVxcFhQOWZBNVdXbWRxVXYyMGpiSEItOXU0NWx5M0hRaWt2MVJMNnhHcGxHd2laQV9CZG55M1Nlak5DcW1tUHdnclNFQw?oc=5",
-          "source": "FashionNetwork - The World's Fashion Business News",
-          "publishedAt": "Wed, 24 Jun 2026 13:26:20 GMT",
-          "fetched_at": "2026-06-25T04:03:21.296410"
-        },
-        {
-          "title": "Reliance Retail Bets On AI, Quick Commerce And Consumer Brands For Growth: Isha Ambani",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3dCVFRhX1NnZTdYcHFienplM0JvaEdIdzBhM3FBZUdBNWY0OTBfY2djeXljNmVuNGN1VjVfOHNyNC1HRHlHNTZXb1hJV1FfaUNmbVN3WVJZUXNjc3laekRQR3hkS0doZjMwNmtGak1iWnRzdVBHMGlTc21YZk5wcUtDWkFjcnNFREgtUGo5M2txZ1pralNwRUFwZk1oVkFVUGlJU2syQXJXeGJod3VLaXVOVnM0WHRILW9CcGhxN29OV2tGR1Y4?oc=5",
-          "source": "BW Businessworld",
-          "publishedAt": "Wed, 24 Jun 2026 17:04:07 GMT",
-          "fetched_at": "2026-06-25T04:03:21.296422"
-        },
-        {
-          "title": "Reliance Retail building garment manufacturing ecosystem: Mukesh Ambani",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNU1pZkRtUndKeFV5Z0dtVVZ2dVZIV2tLWFVlWHU2RUVrTlBDOS16amZMR3hMRXU2aHB5bl9xUUxFVE84dUJaSzdSdU1nSmQ0a1JuaVBndUtldFBXNUpWbDZtM0JHamRjR1pTZlFkVk02U0YxS1RVdUZQXzg3dXduUVN5T0hHMGdnaFNaOWxBZUVMNFFhbW5GclQyaWNUclozd3BXeWJrdW5kOFpub3Vfb0NUbnVBVTJ0bXlfOVgwdlE1Mzh1cXVpLVc1OWUwd9IB1AFBVV95cUxNNzg1aXRSVEwtYkVtbDdDWDVFR04zWjRLcWFod1BWYk5DYUZHNW9zZUhEM0VRMS0tQ2JjS1U5MTgxNDFvZ1ZoOWZPY0xDdlctTWNUMWNSckJEeWpQTk50M01TbGh2UFNqQ0tqX3E1aWR2OTFRRHdIQ29QWldIUmNuMmRiUThnTmluOC1NOE9vWDNtekxMNHN3b0xGbjRfUUxOVG44VUFYaXJsREVnQ0pVazh0QkpqWUk5S0EtZVRER0VGWWJ0bExFaEhwM0hTQjV1NEo5TQ?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Fri, 19 Jun 2026 10:15:50 GMT",
-          "fetched_at": "2026-06-25T04:03:21.296427"
-        },
-        {
-          "title": "Reliance Retail to build manufacturing, export platforms for next phase of growth: Mukesh Ambani",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbTU1VGFDYmNXelQ4UHJBYWZPb29oUjlEVE9sVTNHRjQxNU8xVXdZUGlxWWpJVFJQQTdQRGFQRVNiN2FMZC1vU25pQm9kRHQ1WXFhUGtqSnR3WU9udHZIaTg5OS1fRnJlYllBY0R1Ml9MN3ZSa2tLTzYzQkNXUXBOcTczazVBdjZ4QUlPUVBBbjRQeHBYYTNGcXhybGlydmdINXdIdTNNM2JSVnJmMWpGamEyaGxIMUVhdU9rZVNBLVJIcHlnRndkWVRGekRmenFfbWpkdFRCTktjenlsM2U5ZkNOUVjSAfIBQVVfeXFMTWg1ZGxtUEZEakZvekJpOUFGY0UwMG5mc0tLMWRGV0xlWU9mZDB6Zll5U0F4VFVYenFqYm1qVjRiRGktdnhTb0haM0FFZUhybUtlLVkwU2VNODFfXzdMS2VnZjROb09GNmNybG9KWTF2bFVpTEl5MHRFdDlncEZ1Z3ZSRmljQUNCdEU3Y2pkdkthajMxNWFFUVdMblBFLWRRaWo2MXhpN0hOZkZaT0tkUXhHMFRqTW81cnBRUmQ0VXhCSURnckVYZlRvMTlyTmxHTWY4VkhUc1BzbV9QTmYxTWMzME9WZ3lzNzQyellUMEJlS2c?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Fri, 19 Jun 2026 11:05:50 GMT",
-          "fetched_at": "2026-06-25T04:03:21.296431"
-        },
-        {
-          "title": "Reliance Retail to build manufacturing platform for fresh produce, garments",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUXY4cThqNHNpZ0MwU0lUY3B2NGtZb1BwR2xPMjBwN29oWUVuVE5BRDhBaVlIUWhtdjQ3YXlTU1ZKcHFkanJPb3p0R25iQVB0d2xHUV9RYmpBQmQ4WUJTRUYxRnpwQVZIWHl4a1A1X3NBT2FwM19WRWZHMkNfTmthVEJPRmhfUVZOTjFQcWhlS21VeTFVaXB6eFAwNFNIazN0VTVGZVVNc3hUVXNNMFJ3c1hyQ1F6clFBOHhFdnA0SGRoMmVpSWhObWNIUjdrV2lhVFpFeFd30gHbAUFVX3lxTE02aTBWR1d2TEJkQnM4QXZWQzUwOFIwbVZiQjZDRV83MTEwUUZSUTRWVjhCV3NzSFNScHh6bkdvdkk2TWVLT1cyc3RreDdNcFhOc00yeEtrcDEwR3ZGdWliaTU0SF9zSWtqR0JKVS02N29KQ2I3eDd1a1lJWVJFcm1NMUFiUkROYzVncndkTkdBTEE3MHZkSWNzUVdXVGxxSXRLNWhrZDZhN0lGTE9Jc0dYenZvSDFkVkRNWm1iU1o3b3pxRHdOZG1SZjREZnpQd2xtX3I2SFc0NXFmUQ?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 19 Jun 2026 09:47:07 GMT",
-          "fetched_at": "2026-06-25T04:03:21.296434"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "TCS": {
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-25T04:04:36.120160",
+      "last_updated": "2026-06-25T09:34:29.536725",
       "data_sources": {
         "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 10,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0.09,
-        "label": "Neutral",
-        "pos": 6,
-        "neg": 5
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 5,
+        "neg": 0
       },
       "news": [
         {
@@ -201,70 +117,70 @@
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWGxfSm5NSUE5ajhNdE51Tm5NamJJZ2FueEpiNE9qM3JpaGY2cTVYa3pVclB1RjgyR0h0TklnQS16YW81TXVlRGl1TXBWV2g1SUFXU1pOUEQ2bWtsbGNLYnBXQ0NEUlZNa2tMQWEtZEJ2UDdobjJ1U21QcmY2ek1BVWpVd0hkQndBeC15TjRaNklUYXExcnNIdWRveExRNnFvOFBwemdCWEVKcG1obTZOSnh4bWM1RG9xUFVOVFBhZkU2RUpienhTUDdIN29ReUdkR1V2SkJUV2VIX2w40gHiAUFVX3lxTE1TOGtxdy1rZy1iT285cHJQM2hPalVIZW0xbzBaMjFLNmdRX0JzLUFDMkt0NXJncS1jRkFmVmJHYXlSekgzdG5Wb1huTEMtOW9xdnpjSEJ3c0Y0TmprbElPb2c3NXFyY2xaSncyQ2dKcEY1ODctZEpET2tfaGw1ZWRsSGU5akdWOTZabndBMmJ2ckFnTnhXZmNta2l4QS1qMl9TRV9PSGQzaXc5VjRMeXBUQ3ZCalJpb3ItOHpwQkRTdE5HVjJrNE8zU2MybTRxS2VQQzFpZFFISXVuUllway1qcFE?oc=5",
           "source": "simplywall.st",
           "publishedAt": "Wed, 24 Jun 2026 20:35:24 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679272"
+          "fetched_at": "2026-06-25T09:33:20.043999"
         },
         {
-          "title": "Tata Consultancy Services advances Wednesday, outperforms competitors",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV2l3cUYwX1huTnlYRURtYzVrcEFXa0RiYXJyeWlJd0Naalp1STJ4amQ5SUxNVVRzdTY1WkRTc2tKU3VPRHJrLU9lbTZpdFBuRjdwblYwR2ZVQy1RYU15S1F6aE9oNDNOY1FKd2liMzhFZGtraUFXNjU0dnFDZ0kydVU4eTh2ZFd2cHp5MHVnWXdCbFpZZjFqT3ZnUnRqc280NTgyWUpQa2tnUHJibVJLcDdSREVBeENBYzhsSkJUMXBPdw?oc=5",
-          "source": "MarketWatch",
-          "publishedAt": "Wed, 24 Jun 2026 10:33:00 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679283"
+          "title": "TCS, Infosys, HCL Tech Lead Mixed IT Trade; Nifty IT Edges Higher As F&O Data Shows Fresh Positioning",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUnA5emhXdDBrZHQ2NFFCcWhDcWpYaHZ2UDdvb1pqSlNOV0I3OTBHd0prUUFwQ0ktTk05cTk5eUV1OGc0Ylk5Y0s1c1pwaWZmTklfazk1X1pLb0lwV3hBZEVPcTdjMGJZdUs5cnhRelh4czJ4TDZ0d1NIWVBtWXdVeHNyMVFIZUlpVTBkQVZ5aDNyTWM2UFR0bnBiOVRMWFN5TUZSbDByaFhPOGVkYUNzbHU5ZXRWVmd0empxWWhaTHowckltbElpV0taY0Y0dHYzVW9kbldBcTJoQdIB4gFBVV95cUxQM243S3ZKWUxhNzJoXzk0aXJXeDZmX1JvcEtONW43YjFsWUgxcVVEYW10Y0pseEdTOEZSc3FueFloanVtMFNzakdaUHJJTlE5VEFFYWxVc2FWWlZsSjFMNWc1OFJUYmpmTmhvdjFmazEwZVFEekNXMTJxNzlqc3k5d3AxaTloMmIyMXJta0hieEdGWElKWlVSQzF1cWlITnFEaTdGN0VrQ1ZlbkNnakE5MUF0QzRNUGU4MWVWUk5SNm5kOFBkREZLa2tUWTIwQmlkRTMtdTVfTTBaYkExcC1KeVV3?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Thu, 25 Jun 2026 04:27:40 GMT",
+          "fetched_at": "2026-06-25T09:33:20.044015"
         },
         {
-          "title": "Tata Consultancy Services (TCS) Q1 25/26 (Media) earnings summary",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV2xOUk1pcVhPcS1iakpuMkcwWTNDRHVLd0lIb0ZCdUdBaGhsWTVwVVBYckkyM29yRXZ3SW1pNkY5R2cyeDZ4MmFxUldJVThVN1lkcEd2bV9jQzZPNkZXX3d3c0hqbU90cFpVQUJub2ZwM0FsU0tpNVo4dnNOb2lBOTMxNnlaZw?oc=5",
-          "source": "Quartr",
-          "publishedAt": "Mon, 22 Jun 2026 02:44:40 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679287"
-        },
-        {
-          "title": "TCS school quiz on AI opens entries for students across cities, how to apply",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSy1VdlQzWlVndWI5WGdGT1JPR1A3eWpxX2ltdzhpTkh3eDBoaW1hc1NDSHY5YUc0aW9JT18zb09MTXpKV1E1TlNocFNPS3lFc2NMUFlCTVZGQmd0Vld3Zlc4MXk4U0V0TzhTV09Gb09OYW5hVFRVbU14b2h3bUN4OFlqcS1WOEdVTkY2SC03NXNCYkVmU3RROGtSMDBGZkVlZGdLTEo2TDZXQ2VFR0dsWnNDTURxcy1Ud3ViN25pMzNtNmdKZlhNNERHNGN2RlZlbDh4MHNtM1VVOVA1bFhYRmI5Yi1tNE04cGgzZGw5RzJ0aHFnb25TM0daZ9IB-wFBVV95cUxQSy1VdlQzWlVndWI5WGdGT1JPR1A3eWpxX2ltdzhpTkh3eDBoaW1hc1NDSHY5YUc0aW9JT18zb09MTXpKV1E1TlNocFNPS3lFc2NMUFlCTVZGQmd0Vld3Zlc4MXk4U0V0TzhTV09Gb09OYW5hVFRVbU14b2h3bUN4OFlqcS1WOEdVTkY2SC03NXNCYkVmU3RROGtSMDBGZkVlZGdLTEo2TDZXQ2VFR0dsWnNDTURxcy1Ud3ViN25pMzNtNmdKZlhNNERHNGN2RlZlbDh4MHNtM1VVOVA1bFhYRmI5Yi1tNE04cGgzZGw5RzJ0aHFnb25TM0daZw?oc=5",
-          "source": "India Today",
-          "publishedAt": "Wed, 24 Jun 2026 12:18:00 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679290"
+          "title": "TCS Share Price Today - Tata Consultancy Services on NSE/BSE",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rZ0MxS29EY3VuVEpqempxSjVncnJhVXpVc2l4V0E0OUxWU2xtRHJRWlB0WmJZMmRuTzJidWdNdWJUY1YwSjRZZlV3R0NxTDgwUnZIYmNzd0dBQlAyT2tQQ05RdmRCeVdZb1NFR1lR?oc=5",
+          "source": "scanx.trade",
+          "publishedAt": "Wed, 24 Jun 2026 05:18:07 GMT",
+          "fetched_at": "2026-06-25T09:33:20.044024"
         },
         {
           "title": "TCS launches SovereignSecure Cloud™ in Europe",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU3JkTHM1RmkwanZBZFlISEhUTXhGajNGSmpFWG1XNXEtMXhwVWhyQjdLSm1oRU1iTTdPV21YYzk2Zk1PVl9tZTNqdWxfSmdyQTZNRk1jODE4ZnNLeXdxbEZEZ18tTFh4UmkwakhKNVVrc25peHRsdnFidi02RWoxVy1wRVVXbWMzN0ROelRTcEtMRVliNUdtZWV2OA?oc=5",
           "source": "Tata Consultancy Services",
           "publishedAt": "Tue, 26 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679296"
+          "fetched_at": "2026-06-25T09:33:20.044037"
         },
         {
-          "title": "Tata Consultancy Services signs with Tottenham Hotspur to drive global fan engagement",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU1Y5YkRhSFBsdEZDQWNWYWVBd2pRaFQySmxFUXhEQjJnRUdEcFdDMk1PV181NzByMEpaaHZBd2E5VW41TXVnOGtXQmdBdFEyNnhHTTN3RTNHV0tCbkc5b2g4Q09pbWtDRW5jdG5HY1dHWG1rcWl0RFV4elhndFFLcWdfS20tclhFNG1RQjJiX1hOTFc1c1NvSlhGN3M3TEZUVl9WRWx2OXFvNWY0VXBLOEpHSnJ0UlVjM1IwUEViVjPSAcYBQVVfeXFMTk94LWVrckQ2QkpIN2NJQkJ4SkpvRDhZb3ZnWW1pRm9iYkRoV2hVUTc1UTFtWnhyaVo5b1lVaHk1dlFmSlQ4LUFYRi1xNTNuZ1FrallEY3ZDZ3cyT2VqbEYyWEdKTllELTE1VHY5cXJBN09Pd0FaanE1alFUbnY0eVJtOVhQel9SbVZTZVF1RzZPUDFKbTBqaEJEN3loQlBnck5udFpaT1NkN0o3TWFlVkozMm5GcmVMU1ZiNFVJTUNtdnB0ZEFn?oc=5",
-          "source": "Consultancy.uk",
-          "publishedAt": "Fri, 19 Jun 2026 07:22:08 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679300"
+          "title": "TCS renews its strategic partnership with Marks and Spencer",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZTVLdE1ycmtLcVdYY3N4S2ZSYkYtX2RmWG0wdUd1cURMWnhPcDA0Vk9BWG5TMGQyOTc4WDNqU1NndWVwU3R0b2FweGppODdCcTBjOU5ubEhBQmJlX0VTYjdLcnJQSDE5eGtxZkhRYVU3ZWJIYmNqRF9OZjJNeVlHbTRVTW5FSXU1eE1sNkJKNzZHY05Ccl9keU43UGRTS3Y2bEE?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Thu, 09 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:33:20.044041"
+        },
+        {
+          "title": "Tata Consultancy Services slides Tuesday, underperforms market",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd1RIcDhxOGNFNzRNMXNuaVJHQmEtdld6dFZfLVNqSXVBcWlrV2RPaWpyX0FkNVVRNy1EQ3Q1XzBNU1AwZFhFN0xFd3pvWnFGdHA1ZVVnVXhnanlTRXdaS3V0ODJkTGgxZ3IyWmU3b05wcDQ5X01kNmJYS2JJN2FFWldmc3NTTzBZUW9qeGdjVTdfUmZNZ3FhNGc1REpNQVp3OTRRdklKZ2k1SFBEek51Ql8xOVpNbGZW?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Tue, 23 Jun 2026 10:33:00 GMT",
+          "fetched_at": "2026-06-25T09:33:20.044045"
+        },
+        {
+          "title": "Tata Consultancy Services rises Monday, underperforms market",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFJaR0RBcmgzWGFDNnd1d2ZrX2Y3ZERfYllxbGlSVmZQSjg1RF9GYlE5VW9BdVMwNzV3UTNtcUxZWlpiYmh2dXNXeHhVbVc3bGxJaHZWRWhJMjVrSFdtajllQ21nSk5zRnRwLWRmamd6WENYMWd0UXRjN3lyODFyZF9IQzRfakJKbG0tTjYyclphWUhzTU53UXBqZGhjbGpOc2xEWGVxN0I2OGZwa1ExUmVXb054Zw?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Mon, 22 Jun 2026 10:33:00 GMT",
+          "fetched_at": "2026-06-25T09:33:20.044049"
+        },
+        {
+          "title": "TCS Acquires Coastal Cloud, a Leading US Salesforce Consulting Firm",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2RhU21DZ3EySHVLVWRpWlJlYjBNWTJHeElVQlRNbHNCSVNkMVVvRVpSbUdXMWJPWmg4MHlqN1U3TTdRYTRiRVBVMjZJTXVZWGNjVGxjVUtMS0N4NXFNSGVJenN1NGV0U3FySW8zQVVqd1VqYzR1cGE0cWpxM3dHOWhtSmJYZ3FnZ21ZTXl4UzdxRXVqcnV6Z2k1ZVlRRG1uNG5pOENVY09OZ1VRVzJucm5FeXI1b2ExUzl6dg?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Wed, 10 Dec 2025 08:00:00 GMT",
+          "fetched_at": "2026-06-25T09:33:20.044053"
         },
         {
           "title": "All Eyes on TCS: Q1 Earnings, Interim Dividend Decision Due This July",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMDlFdUJEOHJ3c29uYU5Lb3k3N1RHOWRPbXV1VUdWYUwwUVk0VzBvZS12cENSb192NDF4SktuN3QtYmxHYWt5bS1iRWVPQTdyQl9uZGoyMnBHYmlqdDN3cmpFVTkwbEI0ckRTNDU2VE84UklvQXc0NjhId19pT01uczllY3ZCNUlyQ2t6azNDNWowQ2RidFRMdXQ4NjEwbWp1ZXlMdVM2cm5helZhYnlUYnh2MNIBwAFBVV95cUxQUTM4b0w5R1hUNDhRamdNckM2bW1hUGwyM09OaUVuM2s0b1EyeFN6anBpemlScWptektVZDQxRDBZWGpjNmt4VXY0S2hYUjRWRUF1aWlFZm5XU2RPX3I0V0ozbG5rdk42SWYzQ2pXYXJtbmdkb1BreUFEMmk1VktxcGNiRktiUUZrY3hDSWRsamxhZWZPeGxGZU5kaWd6YVpKc193NkF1dnhwQ3Jsd01UTXUtNDlrVFNpM3hOakR5aXE?oc=5",
           "source": "outlookbusiness.com",
           "publishedAt": "Wed, 24 Jun 2026 06:52:28 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679303"
-        },
-        {
-          "title": "Buy, Sell Or Hold: TCS, HDFC Bank, Garden Reach, Bank Of Baroda, Lumax Auto, TD Power — Ask Profit",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTGg3YTJNSUFnMlhtNVdyaVdNeG4tcWZhT25ENFg4Q0cwYnBhME5iQi0xb0JWajByeWs3UUlubThCaWI2UHE1M1haRW5SV1UzRWgwaXZxR2M2Z2NFMkFlYmF0T0p2REZIR0dub3Z5aGU0Zmp3dHdZMkROdXV2UVhvZ1VPN1Y4ZWlUajRla1BCY2FXbU1MSmRhb21GZHlKODJ3eHFtWjNlT0FtMTlPYTNhMWNPQ1V6dnFhZ095Xy16eS00dEhKMXNsRGNyUUhTd9IB1gFBVV95cUxOQnNrVjhHRHJEMGI3ZTU5WnBtSGZPMDdIMzFMbjl2TWpxZHIwLU9Cck9ISFQ3cDNLVnoxaDcwUmtBcXoxa1JmX2hRdWZWSjQtVkhmZXZSOVN0ZmJFbHBqVkdGWmtRSXFzTFlRcWVLb3JVT1o4ODVqdTdiMDRfNk1iaDRLSXFOYUEyOGg3d090VHQwXzZONC10V2o3MkpuNEFSNnBGVGxoWkdtbGEwSU5sOUdRdldBTFVobE55dDA0ZmZtSDZVV2Q1cmk1ZXJFSHBsYzRVMDV3?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Wed, 24 Jun 2026 07:03:45 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679308"
-        },
-        {
-          "title": "India's TCS partners with Anthropic to drive enterprise AI scaling",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWFoTmFvRmMySDFtVjdMa0g3cTBBVGJxYUMwNnBybTV4dWczckRFdGt4QVJSRnVxYzItcFdTNzEzZ0F2V3gyb2UxMU1xazc0S2JoZW1OSUx4YkJlVEM5dTFFNnBwQWN2UnhBTGRUS2Rxb1YtSTY2WHVvcnRCUzM0ZS00UGxRTzNvemlCR2N0WU1NZTltaUZhMXZJOS1qVXZRQzJsZ0RQa0pkX3c5d1Rj?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Wed, 10 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679312"
+          "fetched_at": "2026-06-25T09:33:20.044056"
         },
         {
           "title": "TCS opens registrations for InQuizitive 2026 quiz for students",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOElMbC10TUZBOHNxY2c0aGpmOWlpRDFSbjM5b0hHM191azY3NDZJaHNJbElmTnp3dkVWU3g3b1JBb3dtbzEtenFLTlQ2VTM4SVE0djZ2YnROWjVqaFMteVk5U1EyZXRVdktxS2pXMmVWRDJJWU5DTHNvNDBKYnNuZUJOWC1oM200R04wNW96ek90NVE?oc=5",
           "source": "Telangana Today",
           "publishedAt": "Tue, 23 Jun 2026 10:30:58 GMT",
-          "fetched_at": "2026-06-25T04:03:35.679315"
+          "fetched_at": "2026-06-25T09:33:20.044060"
         }
       ],
       "research_gaps": [
@@ -272,7 +188,7 @@
           "title": "Competitive Threat Intensifying for TCS",
           "severity": "Medium",
           "description": "Competitive intensity rising for TCS with disruption mentioned. Market positioning research needed to defend share.",
-          "detected_from": "Tata Consultancy Services Stock Leads 3 Dividend Picks For Steady Income  Tata Consultancy Services advances Wednesday, outperforms competitors  Tata ...",
+          "detected_from": "Tata Consultancy Services Stock Leads 3 Dividend Picks For Steady Income  TCS, Infosys, HCL Tech Lead Mixed IT Trade; Nifty IT Edges Higher As F&O Dat...",
           "gap_type": "competition",
           "keywords_found": [
             "disruption"
@@ -291,45 +207,41 @@
           ]
         },
         {
-          "title": "Fan Engagement & Stadium Experience Gaps at TCS",
+          "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
-          "description": "Fan engagement metrics declining for TCS: fan engagement. Need year-round engagement strategy and off-season retention research.",
-          "detected_from": "Tata Consultancy Services Stock Leads 3 Dividend Picks For Steady Income  Tata Consultancy Services advances Wednesday, outperforms competitors  Tata ...",
-          "gap_type": "fan_engagement",
-          "keywords_found": [
-            "fan engagement"
-          ],
+          "description": "Continuous macro monitoring, competitor tracking, and early signal detection for strategic pivots.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "monitoring",
+          "keywords_found": [],
           "solutions": [
             {
-              "title": "TCS: Fan Lifecycle & Engagement Analytics",
-              "impact": "High",
-              "timeline": "6-12 months",
-              "price": "₹15-25 Lakhs + ₹3L/quarter",
-              "methodology": "360° Fan Intelligence Platform + Social Listening + App Analytics + Stadium IoT",
-              "description": "**MRA/ESOMAR-compliant study**. 360° Fan Intelligence Platform + Social Listening + App Analytics + Stadium IoT. **Deliverables**: Fan cohort analysis, Off-season retention playbook, Engagement heatmaps, Churn prediction model.",
-              "gap_type": "fan_engagement",
+              "title": "TCS: Strategic Market Intelligence Subscription",
+              "impact": "Medium",
+              "timeline": "4-6 weeks setup + quarterly",
+              "price": "₹12-20 Lakhs + ₹4-6L/quarter",
+              "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
+              "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
+              "gap_type": "monitoring",
               "framework": "MRA/ESOMAR"
             }
           ]
         },
         {
-          "title": "Player Retention & Auction Strategy Risk at TCS",
+          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
           "severity": "Medium",
-          "description": "Squad stability concerns for TCS: contract. Auction strategy and salary cap optimization research needed.",
-          "detected_from": "Tata Consultancy Services Stock Leads 3 Dividend Picks For Steady Income  Tata Consultancy Services advances Wednesday, outperforms competitors  Tata ...",
-          "gap_type": "player_retention",
-          "keywords_found": [
-            "contract"
-          ],
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
           "solutions": [
             {
-              "title": "TCS: Squad Strategy & Auction Intelligence",
+              "title": "TCS: Digital Maturity Assessment & Tech ROI",
               "impact": "Medium",
-              "timeline": "4-6 months + ongoing",
-              "price": "₹12-18 Lakhs + ₹1.5L/quarter",
-              "methodology": "Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning",
-              "description": "**MRA/ESOMAR-compliant study**. Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning. **Deliverables**: Auction strategy playbook, Retention priority matrix, Salary cap optimizer, Competitor squad analysis.",
-              "gap_type": "player_retention",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
@@ -337,166 +249,109 @@
       ],
       "competitor_intel": [
         {
-          "title": "Former Infosys chief has a new startup that wants to challenge the IT services world",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01ZUVJKV3JvVnZTVnFmX2w5RWdUcVlkdWlwNnVDYjBNMWp4WExEWTdoRkgteER2SnZYTnNpQkVPWW5qOXNPSGd1VFRqY2VVY3h2ZWRLcmF5alZ6VzNBT05FTE93SDFJeHBtczZZRU1nemU5WDNhbEJHdTVWbEZpbWlyZDNhSl9xcFpRdjRLQWFscklMbWQtV3E2LVR6NU5zZVVVZWxWUlUycmVWLXVaVV9KWkRqVzlOWW1B?oc=5",
-          "source": "TechCrunch",
-          "publishedAt": "Wed, 24 Jun 2026 23:26:52 GMT",
-          "fetched_at": "2026-06-25T04:03:51.522373",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Former Infosys CEO Vishal Sikka's Hang Ten Systems raises $32 Mn Seed round",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUUkxZk85OFF4UGFKaDdzdGREWXV2Y0pMaFR2bVNMVjl4WjA0bDBDdGg3ZnJXRXRRZnM2ZGVpR1ppUzBWNUpiSmp3c0JTV004YTh4S0JyZzdhdEZOMXlZU2tucUYtN3k0THZCNXNlMkxicGlxeWJQS01LT0xGY1ZEb2ZRUWYxSWVpWDdhQTJPcVdoZ3ZwN1VkSVpjcXo1OWtLam1ybzNVd2Y5Z0tt0gGsAUFVX3lxTE5RSTFmTzk4UXhQYUpoN3N0ZERZdXZjSkxoVHZtU0xWOXhaMDRsMEN0aDdmcldFdFFmczZkZWlHWmlTMFY1SmJKandzQlNXTThhOHhLQnJnN2F0Rk4xeVlTa25xRi03eTRMdkI1c2UyTGJwaXF5YlBLTUtPTEZjVkRvZlFRZjFJZWlYN2FBMk9xV2hndnA3VWRJWmNxejU5a0tqbXJvM1V3ZjlnS20?oc=5",
-          "source": "Entrackr",
-          "publishedAt": "Wed, 24 Jun 2026 16:24:33 GMT",
-          "fetched_at": "2026-06-25T04:03:51.522384",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Ex-Infosys CEO Vishal Sikka’s New AI Venture Hang Ten Bags $32 Mn",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc3Z4S3ZFOXcxbmEwdHBCcnhnZDRzTWE3cUlDbjNnZG5wTDExbVllZXJkSFFoSVpfVGlmMUd6bkRsaWhEZWY4UHB4QjVEdDYxNU9lTzFtVzlqZkJWcFhsVWhKenJNcmlrM085NFNweEZodVdGcm8yZ3Rpd1lPbEJFUWt5M0lURVlkYmh4YndSYlk?oc=5",
-          "source": "Inc42",
-          "publishedAt": "Wed, 24 Jun 2026 21:16:25 GMT",
-          "fetched_at": "2026-06-25T04:03:51.522391",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Infosys sees AI as growth engine, not a threat, says Nandan Nilekani",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRGxXMWtjT3ZFVGtHczlZMFNHOUE4eW1pRHJMZ0t1aUFKb1pENl9UdC10TnZ1WWJGWmQyTVhfUVNtelBxVWpXTXdyVWV6QlllT3VjcmFoN2J3YVN0cEphajZXemwwQnN5V3NkR1drMTJ3Q3ZETERiMENWbjVzUlJOV3pQaUNXQ2FxXzlVMW1xODFrR05OOGstMDJ2bUp1NzdnTlE?oc=5",
-          "source": "Indian Television Dot Com",
-          "publishedAt": "Wed, 24 Jun 2026 04:48:07 GMT",
-          "fetched_at": "2026-06-25T04:03:51.522395",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
           "title": "Nifty IT jumps 2% despite JPMorgan's AI disruption warning; Infosys, Tech Mahindra, TCS among top gainers",
           "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZWZSamU3RHc4UjluVTRBdjduQ25zOTVMOTNWZ00zeEI2aGxvZGdxbFVxV0tmU2pxNFBuYlJpX3FTTnZxTkhFMmtNbTVzTnlhcjJVME5hS3c4VTkxX0Zab0s0NElsUmMySFZsYTl1c1VwOVdPZGNkYXZrbWhqSGdwMXlyaXJNdE9TczhaODdXdHA1RU93Y2l3Sk5VUnZiMG1DRDVmZ2Vva2dLNUJDdVVhRW0za3F2N2NQRGJZQlhDS0I3Tld0MXp3Y2FONjFtN2hyQXlZOVJyWmdDOFlXbWJwQWY0U2RFbXpWRUFkTUZaQko0NjgtQ3pvUnhJNDZMS1nSAYQCQVVfeXFMTkcxenJva1hCLWpZSktCNGRtTFU5clBJTkV1NnN6dDhkOGhkdXRVZTVNaXl3MU1hcU04azZudjJhTUpIZWdpTGFNanAxX2VuNVVNMGJRTjlCWE0tNklQcjNEU182NEFYTnlaemp2M1JpbkJadmJMUHpUaklRbG1kdXRqRWVQbDVuakFpQk1GNVRmVG5oRkE3QXBEZGJCelBkZDRrU3hPSWtaVmVGZ2w0OExPbGlyZnlaTkE5TmIzT0dlUG1KUGs3bmswOVFxanF4MWE2d2lkX3lHa0tvMkdZeFVUa1FGZzdiQWxWeFdMclV1bGZxTlBvSTg0T1puTlZMOU1mcnQ?oc=5",
           "source": "Moneycontrol.com",
           "publishedAt": "Wed, 24 Jun 2026 04:11:16 GMT",
-          "fetched_at": "2026-06-25T04:03:51.522399",
-          "related_to": "Infosys",
+          "fetched_at": "2026-06-25T09:34:18.403174",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra CEO Mohit Joshi’s FY26 salary grew 11.76% to Rs 67.5 crore",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVTZrcEpuUm9pM2xxVUpPQTVOQmdDOWpXZUIxaU1Iak0tMUpVUllCdE1WR3J6a1JGd0lKeTV3cGo0RERzamRmWEgySlJsM1l5ei01TGRYckJWNVhBNjQzWm14c1ZDOUhnT01CMzFzdkw4dk95aWN5dm50V0sxUHRGdUQxM1NROTIzWmVRU1lwY2ZRUE5RQ0l3YWlEOVQ0a2NSdjQ1QVVhanBJTXVra0JmT29wRmNHTzU5NnFGX1drUmx5bWdPVzRIdEZtTm1pUGNCcFB2dDhDYVdJeWdGdy1RRkJNSUdsUdIB6wFBVV95cUxQSWhwZGlpbUR4SV9yQ3NmMDN4eHU3RVRKY1h1Tm1VNWdUMF9XRVNSWmEtUUR0dkJiaTZoaDZrbTJsd1Q1dGtoY0dfRmpCaFdXQWxXMHNnVkhBT0dubGdVTnJhNXlNSFBoMHQwRGRzZlo3c3pBb0tJNVJjdFdwc2JkWENnME9reXhmeXYyaVBRSmV0MXRGMndhNjRMeEJTaFZpQVNxVnFhMWc2NWdMejBLMTZPYk5EeEtwb1ZCMG9CZHpNQzk4YW1KLVRPUXRFVEotQnhrS1dTMVZva3g3WFJEUmVMb3pWVlNYZHZv?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 24 Jun 2026 05:35:48 GMT",
+          "fetched_at": "2026-06-25T09:34:18.403190",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra CEO Mohit Joshi out-earns TCS, Wipro bosses with Rs 67.5 crore pay",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRHhGTkwwOG1rTzI5MWJyQW9FeTNjYjRnaEVBTElxSXFPUlRqblh1bEZJTHhJamd0dW9IRTBUMnJXSlZPT1JKdlY5TUVrSVczdE9tYUQ2NG1pdkhZcXhoOUVJSmNFVzRBSV9sbUJNZ0pkNzBuZ05iSzU2NDQwYXkycU42ZmczSW5VVmRqd2hQWE13cDRWVmJ6cy1YRXVRbUMzVVhiR1BqZkpIaFRKaWVUQU1IYw?oc=5",
+          "source": "Indian Television Dot Com",
+          "publishedAt": "Thu, 25 Jun 2026 06:40:30 GMT",
+          "fetched_at": "2026-06-25T09:34:18.403195",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra CEO’s salary jumps 12% to ₹67.55 crore in FY26",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY290U1AyX0NtczdubkNoTkpTd0hCdW82OVliNUZuT1ZXcTFmTUtONXhUcXFuUVFGRTRaQjkwZTZFTXhEY1NNeXNpdE5UZldjckVZanE5R0ZKZ3ZTY2RTdEFGNjN2Sjh1bXNWSGtqdE1pSnpmVnVsREFGZkljOUotak4xWW1wMERjQVdMaUtMa0tPTkdJaDEzZUYyZElNTGNUT3hIQkxfWk54UUVzS1gwbVBaR3J2WWdOd3NqS0pkNmk?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Wed, 24 Jun 2026 15:00:07 GMT",
+          "fetched_at": "2026-06-25T09:34:18.403199",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Strengthens Partnership with Telefónica Germany to Build Next-Generation Private Cloud Platform",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQeDFaV096VVdfdUVUYm5CUFdlVVotV253R2xIQ2ZseHpEVUxxdVBNLUJlaERvZzN0dGY1UExETUp0bTdHNnpFQTB0c1c1eGdkbV9KWUc5c3V2RkVSLTNFLS1QRVo2Qnp4bzdXeVV2RlVDUFBLTGM1SmI2WTlCYjJYMkpTZzYwUU5rQnQyZGlVS0w4cDhkVkcxdGdKRXNFQ1V5S0JGNFVoanhxSVlJNFB5TklRT2YzZXVSaFNvYkRPbVhsbmQ0NldCY3JHZFNPR0tsWU0xSDNlcUVCWWJfa2dhbl8xbDNBVlBRR25sTXI5N2NNY1V2WHA1Uw?oc=5",
+          "source": "PR Newswire",
+          "publishedAt": "Tue, 23 Jun 2026 15:32:00 GMT",
+          "fetched_at": "2026-06-25T09:34:18.403203",
+          "related_to": "Tech Mahindra",
           "relevance": "competitor"
         }
       ],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Tata Consultancy Services Stock Leads 3 Dividend Picks For Steady Income",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWGxfSm5NSUE5ajhNdE51Tm5NamJJZ2FueEpiNE9qM3JpaGY2cTVYa3pVclB1RjgyR0h0TklnQS16YW81TXVlRGl1TXBWV2g1SUFXU1pOUEQ2bWtsbGNLYnBXQ0NEUlZNa2tMQWEtZEJ2UDdobjJ1U21QcmY2ek1BVWpVd0hkQndBeC15TjRaNklUYXExcnNIdWRveExRNnFvOFBwemdCWEVKcG1obTZOSnh4bWM1RG9xUFVOVFBhZkU2RUpienhTUDdIN29ReUdkR1V2SkJUV2VIX2w40gHiAUFVX3lxTE1TOGtxdy1rZy1iT285cHJQM2hPalVIZW0xbzBaMjFLNmdRX0JzLUFDMkt0NXJncS1jRkFmVmJHYXlSekgzdG5Wb1huTEMtOW9xdnpjSEJ3c0Y0TmprbElPb2c3NXFyY2xaSncyQ2dKcEY1ODctZEpET2tfaGw1ZWRsSGU5akdWOTZabndBMmJ2ckFnTnhXZmNta2l4QS1qMl9TRV9PSGQzaXc5VjRMeXBUQ3ZCalJpb3ItOHpwQkRTdE5HVjJrNE8zU2MybTRxS2VQQzFpZFFISXVuUllway1qcFE?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Wed, 24 Jun 2026 20:35:24 GMT",
+          "fetched_at": "2026-06-25T09:34:29.530722"
+        },
+        {
+          "title": "TCS, Infosys, HCL Tech Lead Mixed IT Trade; Nifty IT Edges Higher As F&O Data Shows Fresh Positioning",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUnA5emhXdDBrZHQ2NFFCcWhDcWpYaHZ2UDdvb1pqSlNOV0I3OTBHd0prUUFwQ0ktTk05cTk5eUV1OGc0Ylk5Y0s1c1pwaWZmTklfazk1X1pLb0lwV3hBZEVPcTdjMGJZdUs5cnhRelh4czJ4TDZ0d1NIWVBtWXdVeHNyMVFIZUlpVTBkQVZ5aDNyTWM2UFR0bnBiOVRMWFN5TUZSbDByaFhPOGVkYUNzbHU5ZXRWVmd0empxWWhaTHowckltbElpV0taY0Y0dHYzVW9kbldBcTJoQdIB4gFBVV95cUxQM243S3ZKWUxhNzJoXzk0aXJXeDZmX1JvcEtONW43YjFsWUgxcVVEYW10Y0pseEdTOEZSc3FueFloanVtMFNzakdaUHJJTlE5VEFFYWxVc2FWWlZsSjFMNWc1OFJUYmpmTmhvdjFmazEwZVFEekNXMTJxNzlqc3k5d3AxaTloMmIyMXJta0hieEdGWElKWlVSQzF1cWlITnFEaTdGN0VrQ1ZlbkNnakE5MUF0QzRNUGU4MWVWUk5SNm5kOFBkREZLa2tUWTIwQmlkRTMtdTVfTTBaYkExcC1KeVV3?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Thu, 25 Jun 2026 04:27:40 GMT",
+          "fetched_at": "2026-06-25T09:34:29.530738"
+        },
+        {
+          "title": "TCS Share Price Today - Tata Consultancy Services on NSE/BSE",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rZ0MxS29EY3VuVEpqempxSjVncnJhVXpVc2l4V0E0OUxWU2xtRHJRWlB0WmJZMmRuTzJidWdNdWJUY1YwSjRZZlV3R0NxTDgwUnZIYmNzd0dBQlAyT2tQQ05RdmRCeVdZb1NFR1lR?oc=5",
+          "source": "scanx.trade",
+          "publishedAt": "Wed, 24 Jun 2026 05:18:07 GMT",
+          "fetched_at": "2026-06-25T09:34:29.530742"
+        },
+        {
+          "title": "TCS launches SovereignSecure Cloud™ in Europe",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU3JkTHM1RmkwanZBZFlISEhUTXhGajNGSmpFWG1XNXEtMXhwVWhyQjdLSm1oRU1iTTdPV21YYzk2Zk1PVl9tZTNqdWxfSmdyQTZNRk1jODE4ZnNLeXdxbEZEZ18tTFh4UmkwakhKNVVrc25peHRsdnFidi02RWoxVy1wRVVXbWMzN0ROelRTcEtMRVliNUdtZWV2OA?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Tue, 26 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:34:29.530749"
+        },
+        {
+          "title": "TCS renews its strategic partnership with Marks and Spencer",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZTVLdE1ycmtLcVdYY3N4S2ZSYkYtX2RmWG0wdUd1cURMWnhPcDA0Vk9BWG5TMGQyOTc4WDNqU1NndWVwU3R0b2FweGppODdCcTBjOU5ubEhBQmJlX0VTYjdLcnJQSDE5eGtxZkhRYVU3ZWJIYmNqRF9OZjJNeVlHbTRVTW5FSXU1eE1sNkJKNzZHY05Ccl9keU43UGRTS3Y2bEE?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Thu, 09 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:34:29.530752"
+        }
+      ],
       "filings": []
     },
     "Infosys": {
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-25T04:05:53.837583",
+      "last_updated": "2026-06-25T09:35:42.146782",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.6,
-        "label": "Positive",
-        "pos": 4,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
-      "news": [
-        {
-          "title": "Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaUxkNUdzTGR2ZWZiN1dOV3h4STJEV3FwMHMxaGJKdURvM0x0aUxaVnhxcFJuVkRxQUU2Z3RmdHhPNE16OTctT01WZ3FxSEhqbllfN1JOVVRPMEs4TVAya2hkVVVQTVZhdVJRZkY2bFhVdDVVazdVcHVKZXo0Tm1DU3hVYURwV054S0I4MTk3ZEh4MndadWx5VjN4WkhnbmhxcXlBMWh2SXp5cmx0MURheUFVelZkY2Z2SnVHVzY3SFZLSFd1SnR0TWhQV2lYMlpWM0JuVXdTLTFkdHF6YXREX2tYNkwtUTRl0gHuAUFVX3lxTE9WTHRzc0lQLUIwdGRMRGlQMlRrbUgyWEx3ZVZDVnZUMkEwQk9yLWtMMFlJUkExWDMtVDJrSVRLV2ptY1BtYVNDQl9odWg4UkR2cWpTZ2xGeUpXbk1VTTd0THh6cjYzQlByWVo1YzRVMVBiVkZiUDkwRmpiVkx0dDdiVjlOaG1lN0g1Y2xoclNNN1h1T3BRM3B1QkNxWWFGcWszbmZqS3BTZE5GZk5fQS05dGpGbFVicEMwbHpLYTRtLUV3WUFzZmN4bXl2V1JFNjIxcHpJRlNXUk91RzlIMGRNZjdsZWxYYVhOcExFTGc?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 24 Jun 2026 10:05:54 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804663"
-        },
-        {
-          "title": "Infosys keeps CEO succession plans under wraps in AGM agenda",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNd2lUb00yaHIwWndwTDdsM2hFMW5Tc19oUHI2alhJM1JWVXhBaG1HdF9tM04zWWVXeFVhTmljN2NuYnY4QnV4QXNtMTk0MldGU3BXem1EMkRaMDRtTFlROUtodHk0N0NxWlhuejRneVM2Y29rNnZtcHBNcEtUZ1dzT2xEQWxIczZrZjhjVFQ1U1F6cFVEUV95Wkx0d1B0dTIzM0dhSDN3blZPUGRWejRUV0lnRGprVW5zaTVJOHI0OUJ1NTNMVlZ2WWNJekdaZ2xTaUphYlNFVdIB3AFBVV95cUxQR2tVNVMybXQtSWlPcjd0ZFJldWtMQ0kxZTd0OXczU0VTQTJKRkNKZXlDaVlHTVNoUFdyWm0xNTBvZ2dFWkE3d2Yxclh4X1VjYjliNy1FUzJCbW5YaFVuQ013dlV3Mk5kS2owMGg3RDlDbWMxcXQxSzQyZkZ1LUVULTh5Y2lJQk9nSFFLMmg0Vk5vdDNmb2tCWlBySzlUSXdfTmcyYnUzN3BsZzhNME5ZLXBLZkJtSW42b1cyM1o3U0tCSFRfQm1OS09yTkM3NHBCYWxfZkJaWWpBaGtn?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804675"
-        },
-        {
-          "title": "Infosys Clocks About Annualised $1 Billion of AI Services Revenue, Says CEO Salil Parekh",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPamdqY01sZHQwZm92Um9lTXBsU2E5WlZGNXZicWVBczZOTWdJVm9YWHdSdEQ1YXpPN0hxWDlZd0YtOW9tamphZmN6WkQ1S3N6cHNnYktFd0xUUk1NQnlObDUtSmdsWFU3U2lPLU12RUx1ZlhGcS1TN0xqZDhob3lVQ0ZMYllZZjMwOTRsZ1RYRjdyQlhJLTlTTExQdE9jWklhaXYzSW92ZG5zaUxQbzdlcA?oc=5",
-          "source": "HDFC Sky",
-          "publishedAt": "Tue, 23 Jun 2026 15:53:34 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804679"
-        },
-        {
-          "title": "Infosys says AI will lift demand as investors question the model",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSXVWN0JFbVFnQ2h0RkxWNzFGOXNvdnVYNmUwNWpQUnNFU2VLcm1SQ1M5Yi1VU0J3dk95R1RzdEpXOE5qbUtzMnl1cmtSN29Fay1EWHhhNWVTbmxMQVdFUzZsNjQ5dFdldkVycW9mbkt1VkFFcUVOWUFKRjVaOHZxSk40bHBIbDhkV3N1TXJacFBCTVJSc1N5eXRiOA?oc=5",
-          "source": "PRESS Insider",
-          "publishedAt": "Wed, 24 Jun 2026 12:39:54 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804683"
-        },
-        {
-          "title": "Infosys Partners With Sentara to Scale Enterprise AI Across Healthcare Operations",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNX1ZHWkhjLW1KSUNpcUV0MFNKWUw1R3R4NVJoRXg3YkdmaWdHQ043cE9CSmw4bTNPdV9tZklZRHRZVjNSX1k3OVVkWTNlZUNtVE5xc1VEOVVITUo3cVh5OWVkUEFrcGt6VlN0RW1jcHNqRlpOSHQ2YjV0R2R3NkxldHVwVGlUOWJvcEdCYTdnVUlCVXA3ZDFLUGhIY1JDdVR3VExoT25SOE1SdFlWOFBjUkpmbDVDU3l3ZWFmTDQ0Yk9zTGZXN19TdS0tb1VoOVZmajJpYS1EMDFlVXQwYWlDVGYzbFNKemxMNl9tMXFDRUpUZw?oc=5",
-          "source": "scanx.trade",
-          "publishedAt": "Thu, 25 Jun 2026 00:40:19 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804686"
-        },
-        {
-          "title": "Infosys CEO earns nearly triple TCS chief as IT stocks surge",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMkZkLUwxRWpjTjVxSG1XOWdzbGp1NE1wX1ZoYUU0N2k5cFI3NTRKQUFxVUFYUC1fMTFLTUYwVG5USUZQa2xIZ2Z2a2tRdGFKOUkxOGFOSVdFNkprVEUxLXBjXzl0bloxR3l1NjM0WUoycHRkQk8ydnhXQnZkMkZiU2pzRi1pTGFvTlZULVVHaDN4U2JIN2lZUkxURnVNQUt0cUZudVFGX0J3WVEyYV9EdzhreDY2eVBjd2YxbUk3ZmlEYnI1VWl3QmpoUEw4OU9QcmUyaHpzWkJiYkpTZVN3NUFoWndJYkdXUHZNWl9mbWUwYUJ0WFE?oc=5",
-          "source": "MSN",
-          "publishedAt": "Tue, 23 Jun 2026 22:57:12 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804689"
-        },
-        {
-          "title": "Infosys Collaborates with Sentara to Unlock AI Value and Scale Enterprise AI Adoption in Healthcare Services",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPdzhRVE04YnhMSS1hem1VdEpsYU50YkdKa3lObFZPUWVHQ1NRMlktOHhhM0w5VGZ4SHkwVElpa0JOLXRKTDdFVl90SENGWHRRejhGM1g0bTluc1FNSEFPQVhyVlBtSHdxTTI2dktuNmcyOUk0S0lreTdmT2N6Q3FYOFlzdU5GeW1fQXl1N1U2cXFsa25BNVQ1Z084YXpSMEk0d0NpeGwzamFxZkx0QTZucGdQN2RaTjVxMnF5REpzemp2MnVHemowX1V4NUlTRjJqOWQ2cmplOXotWmlRRWxPT0VkR2hPOHY1UEdxaU9FdmlEZHN0eWd4dUtjajhMdw?oc=5",
-          "source": "TradingView",
-          "publishedAt": "Wed, 24 Jun 2026 12:14:00 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804693"
-        },
-        {
-          "title": "Infosys targets 400 billion ai first services market by 2030",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOM2JuNUVKUmdrOHY0QjBScTNtQXBSVGN4cHF3X2RNaXBCbjhqZFQ3MENPRzVjd1loU0JycUVNWjJfczJJdmI2eEJEaTQwbV9EaC1NWjBjY0plVzF5czBmLUVOczBYMC1BTDVuQXZ3anZJSXN6Q1VWV0RCT2RnMmpWWUd3WVlSWFUtOE5BbEJHaGRxZkJkdlNFeWdTUkVBRm9DYUhsTVlIUkxqdHZyZVRWOG9TZTU3WTZwS3l2VkhEc256Qy1tRW5XZVNaTUJDblRFblE?oc=5",
-          "source": "Indiatimes",
-          "publishedAt": "Wed, 24 Jun 2026 14:05:48 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804696"
-        },
-        {
-          "title": "Infosys says AI will not replace IT services firms, sees up to $400 billion market by 2030",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTHZxMjVTUlkyMjNLU3dHUTNnUFRnUG5XRW5NbWlORng4ZUpsUjhrMVZ5Z1ZISVdJYVdCM0pxRV9ab18yV19xYmZRYzBpVXB1RFZTcHUwT2hVanpmNUpYckZmTzlCNDJ4LVhaRFJZVUI5dmFfYXIyNUgtZldRel9lVzJOM3JiZkljWUFoQnpWZDNPZ0tOYkRibjY4ampxdk45c2NQbm9rS21MZVFldGxIV2FaRmQ1dDdUTEtDS1NBeUJHYmxQM0Z0a182T1NHdm50WDlkWDZjcGsyd9IB5wFBVV95cUxPNnlVWWZ3RW9MV3lsend3NTdscEtETW5BQ0dfREt3UG55NFh2bDlXY1JBV2RkYlp4bk1ubndKUXkwcnNaTGVNWDEzVkxZZDhWTHBZa1hxYS1JYUNfd1ZFYVBtSnZXMTBiWjkwQkV2ZFZoN0xraDBPV1YyWXlDUTNJejJUcjVNMGd5UDQxVUdoVEZyZEFjb3B0RGg5cVV3OXdHZ3pDWkxKT1ozRGt6VmxsSG5aM3NoMUt6clhJeHFiVEZzZU1QWThqRHZzRk1hRURrOHpfYmZQZlhseER0enVneUc0VkNTRTg?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Tue, 23 Jun 2026 18:22:41 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804699"
-        },
-        {
-          "title": "Infosys CEO Salil Parekh’s FY26 pay rises to ₹82.6 crore; company crosses $20 billion in annual revenue for the first time",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSDBKenlILTc5UmZFb25ZQzF3bG9WX0pvdGhoZnZEdnA1eGZ0SVpiZk5oaXpVYl9iVWJuaXhUcDFWNzZVWkhJMkh4TUlLTXV1c2NQS2NkX1V5V0FyMXpTWmVKa3Rzc0FNVW9MZzExVV82NEVMWFFLQXdvRnJ1UlNoZ25EVU4yZzJiN3VtNGR0N2c3V3hsNzNtcUxBc1JiYnBHcWIzZmRqdTNzU01LOFBIOWptRVhvdlpsWjhjQnlldE9kZm1OUTBTSURNWVd5VU0yT1B4ZHRFaHY3dlFW0gHqAUFVX3lxTE1vc2RURkVvRE42RXdnQ1pMNVhhNW14YjkzWFdmeG1TU2ZydnphZW5ib2tMSHUzSy1VcWhVN1NCdU93ME90WGVFVTU5amZnc2NCS0JZT2dvVHhvaU5tT0FWcVhaZ1djcFlDWEtHYmE0RVRlTGVNMERsMk9VUk53bjR5ZG5iNXVQbVVCY1Zick5TT1UwYjlRTC1QLXVwQk5QQkZPV09UOWNScEFHY2tHSEVNTUI4dnBfTUQ1dFU5NlJTU2Vlc2RERngzMGpVVjR6RlNkRWNBc1NiMFNoLXdGekFsUkc2NXJSdEMyQQ?oc=5",
-          "source": "Fortune India",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:04:50.804704"
-        }
-      ],
+      "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Infosys",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Infosys: governance. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made  Infosys keeps CEO succession plans under wraps in AGM agenda  Infosy...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "governance"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -536,55 +391,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Stocks to Watch Today: HCL Tech, Bharti Airtel, Avience Biomedicals, Delhivery, Pine Labs, NLC India,...",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNRlFIZkNzQnhvRmRJRlJjWDlPczlkMGlFaG56Rzh2TVUzT2tueUswMk5QemZpblZrd2x4ZFZKcVhtTG0xQW9HWEtacHpFVHl1YWtoQnIzQXNHVXF4RmFFNDh6dnhsZUdxVzJKVXB4SXNnUE8wYVpxaWZhMUwwZThzMDJQQXlxNFhIMWVwV0lSTzhJaGJwZEp5LUtYQ1hHdWpMTF85LXlBbi1QUnY3QTVfOEotZDZLS2FDcjZmanU0VTJfblg3QTE0TzlBRElSNjhBckRMWjN3ZUl5Qjd1WmxjS0hxU2JEM0JJTmVmbTI0T1JpRkNyLWczRlNZbU9oNF91ajNET3FrdDRfR1BPdVRaLXcteVpjMVItNXFHaXdJT1lhYTFVTUNj0gGsAkFVX3lxTFBsVmg2eTB4amEyallUbElwaVU4TzRPX3JFV0czc2JZZGg4OUZtOVdaMjJvd2pCMnlRQkhPQmdrMkhLd2xxcWQwY1NuM2Q2Qzd4UUg4M1Z2aC1VWTBHRnByd3V5YWpLRHctYkViSmVwZ1RhelZYNjh4NGIwdzFUakVrWjRYb09YaDh4Zm9RM3B2UUJsQWdHTnJOYUhRZ1JlcVZtclFHWXBkcGRYbnVlaVdXZGU0ZWpMS19uLVRQal85aGlHNEk5amZtdjBiUVg0TXBmdFZ3LWt2VHZrdHJKSjZVSEhzbnlmUlE2OWlETm9YNktqakliRXJaTmdzRWtDUEN3Tm5LdlFlaDB1TmNmN1BhVWx2NjExeXppbllFQ2FERHhpNFdCRVZnZGNCRg?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 25 Jun 2026 02:39:21 GMT",
-          "fetched_at": "2026-06-25T04:05:23.712409",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "HCL Technologies shares in focus as firm signs new deal with Neste; broadens Nokia partnership",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWWp2TjkzQl94SDdNTkpod0dpWk9HN01COExubmdPTkdyeVhhMVJBX1RaeXgwSVFscmFCTWhGSUJGZmMxN2ZwZDc4YVg1aXkzWExCeEhKN0JCeE5EdHdlRlRuMm9BNnIxcVM2OEw5OG9zeDRpaWpWR0RvLXJDbWpsUXY3UTZ3MkR4bTVHQ1FNcUVEbUNyTTRYR2JJZXpPdzBHXzNhcHFBZHFNckhuZ052ckk4dFB3SlFTaEQ4N2hkMlpyUFhNQ1VMRHVMWkwwSXd1RmtpdEJxQnZWMFlHT2YzOTFiNXc3dHc?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Wed, 24 Jun 2026 13:02:33 GMT",
-          "fetched_at": "2026-06-25T04:05:23.712421",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Stocks to Watch for June 25: Bharti Airtel, IRFC, RIL, HCL Tech and more",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcEhsdjVrWURSVThlaGhzVzhnSWlKeVRfb0YxdVYxVUJzSXczTktHcGI0U3hSR2JUeVdrdHZKLVVKcEtQZFVYQWpXMG4xQ3RZREd1WERIOXpGR2pTXzN2V1RWeEM0a0VSOW1WVzRXNEd2SHlEZ25DdTZxdVpkZzNHQ3Y4MzEyNHAtRHFPMEdGb05TME81ZlBrR1cwY2k5c0c0WXp5NWgzcTk0UE9WWDB0akZYNXhvQ2F4UlBsU9IBwgFBVV95cUxPcjJzUVphMnpxeGlHSFV6UzIzVlNPNzdTUWVacHVoR0w5UWZpXzBsOXRSaEcySzBrSkM3SWV1WGRSMWllUTdkSlo1V2VaVGVTcU00SFdoLVZ1Zm93STRpS1RTWkJBbU1nZ2YwVUt6akVCZGg0NE5leGVYUE1UcTBuZ2pULTgxVDBBUDRNX2V5Q28xUUF0bEpRMHFXMTY2eEllV3NrdW1qWHpFR3p1cW1uRm1PSWF4M1JsblBFcFk0VUcwQQ?oc=5",
-          "source": "CNBC TV18",
-          "publishedAt": "Wed, 24 Jun 2026 14:29:31 GMT",
-          "fetched_at": "2026-06-25T04:05:23.712425",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Nifty IT index slips 2%; TCS, Infosys, HCL Tech, LTM, Wipro down up to 3%",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTFhSUDV0UGxDdk5iaTVtWnh1MlpkcHlIODREcVcyRnM2UXk0VG1qNmlQdml2YzZkbnBMTG1kZ0F5OVdpWEZOUWpGZUtWeGVrTXBxT01NX0NXSFpyd1l0eE9GbHNERGpTWUJwU18wS2FPU09ydTZjcUR1LUtESnNScHU3eU1ZZzJ0c2p4U0piSHVXUVdCRmNESnpVSjlWUHRCOXVZWUpHX1M3UUJLUUlMZlhBRE95ZVRMYzFkVTFlZHpUMXhPcmNSdlRGaUlwd9IB0wFBVV95cUxQZmtqekE3Wjl4NldCcGhGOWI5Q1BHMEJnZlZaQzFWZUhzWEEwOXhYbVo3RVZWdFZyWU1aeWprSmRXWkY3cVR3ZXI1YVlBLU0waXNqT3JOX01rS01jc3ZUM0lsLXNBa1gteHdpYjg2MldWSnZSYmhCMjM4OV9WSTNEREFFOV9EOUZWY0I3cGJNWWdDTm9SUHhLdWk5M2lEazRVeTg3VE9HQmMtS0d5WXk4REdvYnQ5RWVVaUowV2ZRQlZSYlhOdFdQaVF0VDM0OE5rRlBR?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Tue, 23 Jun 2026 08:08:48 GMT",
-          "fetched_at": "2026-06-25T04:05:23.712429",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "HCLTech, Wipro Ratings Slashed By JPMorgan, Says AI Boom Not Translating Into IT Growth Yet",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQX2xYMXh2UUVuaFRyVy1VT2dUdno1VllNYk9rUnNJajVFNmpTM0pUT2JHb1ZPdVBfSzlXTHkwYWNSczcyRXNEWjdNV0pBN25QZ0d0QmtoZGFnU0EyMnR2N3FWMkdyQ2l0NWk3dVVsSTF3TC15T1N0b1Q0cUNRamhOQ3MyWjdNOW54Rl9OZ0NibFlxOTNTSFZ0Mnp3NEV4MHNjVjJmWGJEUDFWS2RGVmVxdzJmdEVnNy1xS0toTWtZQ2Y4ZEVwTHpFSjhHdWlxMzJsS2JFRTRiUE1pdnBQTHYtM2ZUYjFIMEhSUVpPTlVpX2pYaDDSAfsBQVVfeXFMTi1YMjdrYWp6bXF6Mk1fQWpsbXZPVzQ5WVp6a1lSZjJJUGdHcm1kVUNZaC1yYlFRT1R5cE1ybmlFUUxfYUhrZEQxOGhwTHZVeXlHUUJqdWlhY1psVWZhMmRVV0lGa1RJLUhiMG9aLVpHZjU5Zk9FUHlKYkZ2ejFwZkg3anZtajN0dFdFVm5IbW5wanRJVnhRVm5mQ2cxbFVGOTVReUU4Mm8xUnpkcTZKWDkxVnFJNXQzdUE0aHJCZEd3YkFCYks0STV6dmFpOXdwVXhPTHcyaWtqVk0xNGRyQ09KZHdZTUFOOTJDc0pxeXZDNXFWV0I5eGU3RWM?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Wed, 24 Jun 2026 06:40:51 GMT",
-          "fetched_at": "2026-06-25T04:05:23.712433",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -592,136 +421,21 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-25T04:07:10.926216",
+      "last_updated": "2026-06-25T09:36:57.790103",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.14,
+        "score": 0,
         "label": "Neutral",
-        "pos": 4,
-        "neg": 3
+        "pos": 0,
+        "neg": 0
       },
-      "news": [
-        {
-          "title": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnlrekJEX2tGMkZTRlFyczJaRHRjQjl3Q3pod0hrbU9oQkt1azREb09jbU1BYi03d0pKZmtxRkJaMU1kcVRwdG5QWFloYnNNX2ZfdGF1U1BZYlBJY1JYMUF1UDYxR2tTSC1kb0FNM2NQNHVjUmFhZTlrdHAyZmgtbXJlT0JrNTlsb1Q1TUM4eGZDNHlXWTNRNFhiMUpwbngwUVJ0U3ZpRQ?oc=5",
-          "source": "Whispers In The Corridors",
-          "publishedAt": "Tue, 23 Jun 2026 17:08:27 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955089"
-        },
-        {
-          "title": "HDFC Bank chairman search narrows to 3 candidates as board nears decision",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV2tEX1lRNlhhcmpwMGxILVFXdGIwM2txMXpKbUFpaWdhNjRoMzlyMHdBOFBjNUtBaVJNTVpkR1hncUxiLXZOMW85VVU3UkZSWk1HeDA5Y1JvMUFFc0pUajJVaVdTSVdIa1pzd3JLXzBSMUtwM3JkQlpndEFzbEFiaUNVcG5qWjNFTHAtMkJyVjV2a0F1QzZxWXRpS0kydUF1TGt5bGFCYW55a0xNMmJqQzMwMjczMi1ZQjA2dWJPejdHa2JuUlhjaFVB0gHPAUFVX3lxTE8tVXg4MGhvem9taURwWHp1NEs4RE1LM1R3Z3c4VzNuTy1vRDhOVnRsVTd3d2YyaGZUaG4yV0dlMkVlMGZPU1VSRHpGSVFPLWRjeXhxVjBwQmhVcXB6SzVPU1U2ay00SFVsSktQc3lhaDMwbEdTZnFVbW5XczR6Rlp5MzdOZzVZRFpKTi1WSTZYUFlCdEEwdXlSWWJybTQ1TzFTaUMzcEhsQ1NmT1NuRjd3cGh6M0FaTHhQSXRBV1k5NjFaRTl5V01kTEFYUW9VQQ?oc=5",
-          "source": "CNBC TV18",
-          "publishedAt": "Wed, 24 Jun 2026 09:19:53 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955100"
-        },
-        {
-          "title": "HDFC Bank CEO reappointment decision delayed as board awaits legal review",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVFJrS2c2ZWJlMTJtTjZmTWhIaFE5VGxwMmdvV2czVHhTc0w0UzBtT3A2VExEcXU4LXpTQ2pQUXVSdF9uMlJ6QlJjdjFWZ2lpWVd0akk0SzRUQUxHd3NReExhV3lKYzY4b0dVWkVCalZ5QmFDWTV6TXF1M2dscDZnYk9DNERzWHlabVlnSWt2VVoxQzVuRXdpOUFBQlFmdDF5dnFvaHp1cWdnN2puUUtMTkdCV1BrUmFIaWpWR0VFeEpjQQ?oc=5",
-          "source": "People Matters Media",
-          "publishedAt": "Sun, 07 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955104"
-        },
-        {
-          "title": "HDFC Bank to decide on CEO Jagdishan's third term only after key report",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRV9LV2w2aG1HV0I2VVRpWk13b2RwNDlYbGZSSW1HcWFraExBbmd4MDNUMDJUWW4xNmhNSDBHZmFSVXlIRWxLd0p3czU0NWRWQjU3RzNVUWQxRmdOem1lT2NYVEEtaEpzck5ucVhEaVJtZ0poZXNzcXBYT09mdzZGUXJzc19qa1lWUjVlTXBmS1QtMllGenRSLXU5MW1WY293eGJrZ0FlZU9VMjhBdTQtUXNjdlZEU1dEbElGdkNVOVlYbENic2ljZndJV3pPanlNU1F0ZU1zQXowN3puY2Y1RGU1aFHSAeoBQVVfeXFMTkk5SDZvS3J5aUF2ekhKOW5kVnN0MGVCUWx5eXBIenRnX0hyVHRmS2RFeUVPdVk0eWxYckM4U19DQzF4YXVqeEN1czV1S01wcEpBMzlzOS1iUzl6OHl5WllPMDViUUtaZVUtRjdYa2xmOXRvVjBFTVZ4SGFoYmpzUWVRLWRvYkFpT1hsdEZhT3hVQjVCZlFNVGFqX1NpYkJyS3MyTGZDSDRiLXRQajViSjJmemtYMVhGVkdHTUphcEVmMTQzaDF4TkJWYjZoTXhmQjJxODJQTWdBQnZqZVlUbmdkRGRlcW0tUE9R?oc=5",
-          "source": "Mint",
-          "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955107"
-        },
-        {
-          "title": "Bombay High Court Dismisses Bribery Case Against HDFC Bank CEO",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmlPekl5M2tza0VQNU1BMnJuajllY2l4bEJwUFFCMEljRUlHMFNwZExzX1JCYUN4VXc2aHNFMUxVTEp5LWp2b2czYXZkYVJzZDdIWk1Wamp0ME54QlZDRHRzd2tjNlpkN2VJRS1HSWI1UGFMTlpjZ1QzaDlIc0xXbnVPeEE3bTdtakl0QkpPc242c1hLcUtIcXRLa3RKMmZ5VEVvb3VPblhnV1YzZ0JFeE80bGRMZ18wbDIyc3F0Sm3SAcgBQVVfeXFMUHh5TEJoSFhtd1lPaVNydjIwV0ZlV05hN0g3YlBhcTU1b19UTFM4TjNLMjNzRThMdTlXRVVMVEN5MGZ6ZVdqaDRpRnhzSEFndVUzaU0yLTFoTEt1SVVHREFVNjkxbi02RDJ4Q2JSdktuTFpoZGFUSFdVOXREOUpFX21mUTctclIwNWtPTU1adUpFQXVQZ1p6TWN5S1BELUdObndtNEVDWFplSW50WVFfRW9QTHZ1YkFZUTBnSVJPT3VQazRqNzU0Sk4?oc=5",
-          "source": "NDTV",
-          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955110"
-        },
-        {
-          "title": "Supreme Court Issues Notice On Challenge To HC Order Quashing FIR Against HDFC Bank CEO Sashidhar...",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOZGx6ejluWE1nU0tQRWRQQ0JVQmlMekt5LWpwTTNXT3plODhXZWFmZzZ1VXA1cUtXc3d1WFMxYVhCVmE1TlBsZUIyV3JNR0tndlVxTEczQnVjMERaWTNRMXdWLTJTUzI5WU5XOXJVeFo5cExZUC1tenNPYTBENThFTHBmdTNDUlQ0MHYwcDNsV2pXbzZuUVVEQi10XzQ5T1RJd1pSNnpULWY5Q3FiQWp2SFVibmtRWjFabjZ3TDJBQUJIQUFWc21wdEt1UUJZSXRNQktBeVZsTElfZUhZR3JYYnppMzRtckFBUmp3VHpwRF9YeDhkYlJKVjFSNVBLRkF2M3JZa2ppTThhOVhjVTZMZTkzRFpHQdIBmwJBVV95cUxQR1pPSE5XTzFxeG5iNHFmNl9vS2lxMW5sZ2hvZUkxQVEwNmRBbjV1UFRuTVp6NG9XZXltOVZDVEpSUlFqM3o1VDI4aERFMGZtTG5NbV9fdDQ3azAtd1JwSjl5UDVoTGlQeHJUdGZ5V212SmFHN0pyTWpYdXNaY0VEWU9mODFfTUpxYjNLclpYZ2FXdGRQSXBuVFpGTEk5c2xjQ055VXN4UVpjcDZlSmk0Z2M0X3ZLdTJNODJyaGM3WU1qRWh4eVZ2VFl2QnYzZ2I1R2NQZEZsNFJBZHU3eVlVS2E2MHFUT1IwekM1SWJiWnRpQjV3UEVFX09qRU5PM0xBSWRFb1NvbXlaSWNlRFV6ZWlYY1cycE04NFM0?oc=5",
-          "source": "LiveLawBiz",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955114"
-        },
-        {
-          "title": "Bombay HC quashes FIR against Sashidhar Jagdishan, calls it ‘abuse of criminal process’",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQcG9XcnlPNmxRell5MEo5SWFGOV8yRmEzYS1VaTZtTnA2Rm8zMWZTQi11TER5ZjFZWFVVQ0lKLXBIdEQ3NENEWEpzTUk0aW5YTHN4ZVdXeFVjRHYxRzVaQlVKbFVYY1BjRVZhZ1JueUtXMlVpUU9WTWtBYW1TbE92dzZpeFNwNW10LWwyYnpSUV9fYWZXUG0zWEdESmdEWFRVN1Y5VGRpM0h1RXZWT0RfMThXRm85R1JQQktBZUUzMW5CcUk3VHlUTnMtYjNDd3lTNE45anJIQWxVYUZsN01oNnBZLWNveUpLV01GYlJZUTZ3YkN2SzVjXzZ2ODF4NDNJenpn0gGIAkFVX3lxTE96VV93RkFabTdnbmZ0VWl6SmN0ejR2NTNKVmdoTkF4XzhaZExKNGlBdmhrNDFlZDNSUFlZS1lidVowNy1QMmdIUzBNRFJsbUdzOTByWDdtcWxGOTAyMk1oeHVEb0ZaaTAtTWN2eXFzZFJPOUxibUdZSjF0T2ROblJkV0s3YlVwaXkwdW10Slc1VXYxNHFkcXdLdlItZUVTRTU1b1V2dDNlWlFRYmpmTEJzejV3ZXExdGlfTF9ROXREbVExUFdURFVyUHgwcGhJZ2VrSVo3RVd4TXdjRFVNVUl5bFk4OFZUcVlFbTNXX0R2YkRDRHIyNW5NSDM5NjNPbkhtVFBLZFFsZA?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955120"
-        },
-        {
-          "title": "#CNBCTV18Exclusive | HDFC Bank’s board is likely to send CEO #SashidharJagdishan’s name for reappointment after reviewing law firms’ report on former chairman #AtanuChakraborty’s resignation, expected by month-end, sources tell CNBC-TV18 By Fur",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVkhwdWhSeWU2bXNlbEU0b1JaNUFtZ3E4TmpQX1lxQU1BY1p1NnBoYUU1SzB4UkttNDZLNzg3eHNDbEVCaUtuRko1SHc4RVlIMDNBMUIwNlJhSEF4dXMzbllyRDZuTVhUUWgxM1FibUxMNWxpeDJEVElQQWpDR283WHVhUno1dk4xSG0wMXQ5M0pweDJPLXJPblVpRFZ2N0lXSVRpcVNET3dDa0tPTFRVUjF0ZGxoOFRRa3hIWmdYRXhaWVRkeXVJ?oc=5",
-          "source": "LinkedIn",
-          "publishedAt": "Mon, 20 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955128"
-        },
-        {
-          "title": "HDFC Bank ‘camouflaged’ crores as marketing spend to pay higher interest to state firm",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOc3c0T3p2TnZNOVlNTzQtc2tSN1E1ZmtnX3l3dmQwQ3REcENJX05vSXNuMnhZNFQ5SVNWZ0t2WFpXVkJkOVpsLVh5S243c1d4QXVRUm5NSnNuVnVPc1RDVHZkVFMtNUhqT3lMal8yUlc2cWpkMW1rUF9XQkFTSnVQaXdZQmtSdUZHZ3lWdHo2RGl4aG9GN3ZzMThHV3RFQ2RqUlRhZnZFQWc0NThIYXktcVdOYVRmUVRFUXowek1vVHZkMkRVY2QyanZkdzNMYnNPVE1XUmEwYzItYk5JcGRJ0gHmAUFVX3lxTE1wcno2QVhxSGI0c3ItdlZMNUJHbnFZZjEwLUpodlRwSTYtMG1oMjBVWDJ3MzVUVkYzWmZYdmk4X1p6ZWowMlk2aGNHV2ZxVjZkZlh1WWNsNjRLUC1hWlZqLTVGSUF0MGdEemVCQ1l5a3h2VWgzaDFQeWk3SGFjWU9Wc2xEaDBIVFJMYVByQjA0aWtFSVA5ZV9MbThjWHNtLW8zeWxVMnNrZFF2eUJiNTJEWVVfZ014UEdYeEU2bWZVVUNFN1RFRUJldlFpRWhzRTBtMDhNYVF5aWlPZ3VXa3gxZHFaNGxB?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Wed, 27 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955132"
-        },
-        {
-          "title": "Bombay HC quashes FIR against HDFC Bank MD Sashidhar Jagdishan, calls it 'personal vendetta'",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUWtRUjlQUUVzV1lqZl9IREdnZy1LdzZxSlRfZFE3VkdYTGVmZk9lcFRUaGwwNDhBR1lsbmZZdVVNNkFFaWpfc3EyYnhLeWNMMFlXNl9oSkx2djBhT19ETlBBVzRlQ184QzNYbmk4Z05TelpQUUxFQkFVOFFpVTd5MVZXZHc3MngxclAyTmExWTVoT212NGNXQ2gySXNlbmZBOVpMc1gtVzAxU0pPQW1IMk9PRkFHTGxLbkd5TEZpcXUtVVM2ZTRyTTZHeXpFLTVYUmZJUWUzNzZNMmfSAegBQVVfeXFMTUJwQW9mVkxZR0ZmbUY1Ym12Qm1vaGpLZ1E5RXBxcUlCM0xDWmlOZ0pjQWgzWWpKT0RCUVF1NEpXM1pBNWFWaWNfeFd2Vm9CbU1aZlRaWm9PWkUwY0VNWm9sS1d6enBaSFpsWFpQcFdCYXY3aDJKMkdGcVE2cUNONnB5NlpqblRUWC1XdVhRWDZpelFJdmQxNjVsYWZ2d0MtUnBOMVR2UXZIalpFS1piQUFiYlNzX29xbkg1ZklhQnZjNFFzbU04TnVtdmNpUnBQczR5MlpvNjMteV9CcGZ3ZkkxSWczNHNCbQ?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Wed, 06 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:06:09.955135"
-        }
-      ],
+      "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at HDFC Bank",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at HDFC Bank: resignation. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!  HDFC Bank chairman search narrows to 3 candidates as board nears decision  HDFC Bank CEO reappoin...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "resignation"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "ESG Compliance Gaps at HDFC Bank",
-          "severity": "Medium",
-          "description": "ESG red flags detected at HDFC Bank: board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "RBI Backs HDFC CEO Sashidhar Jagdishan Amid Crisis!  HDFC Bank chairman search narrows to 3 candidates as board nears decision  HDFC Bank CEO reappoin...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "board"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -741,55 +455,49 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "HDFC Bank: Competitive Intelligence & Win/Loss Analysis",
+          "severity": "Medium",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Bank Nifty rises 1.5% to reclaim 58,000; HDFC, ICICI Bank lead gains: Here are two reasons",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMlF1NUI5UzFxaGxhQ20xQ01XMkU2R202Q0xzTFZNdHJScEFtREFVeG00akJqNDdlal9hRGljVjVhS1V3b2s4Qmc5UVdxdzQ3UlY4dHAzbmJvX1hJYlJWSHZOU3lUa2EtVTZodFBOenRGZUtCNUQxcFFuWXctenNQZmo0UnJyb1MtdUgyMVBMTjZUTklVaHFJZ1cxZmxvRXU2Y0l4WnBiTThFbHBNZU1wQmY3WGYtVmJjN24tbTJoV0Rpa1dwaW9nYXhqYWRIeUJ4eWtyTzJZNGRKdXVjUTRNVUhsSQ?oc=5",
-          "source": "TradingView",
-          "publishedAt": "Wed, 24 Jun 2026 07:06:05 GMT",
-          "fetched_at": "2026-06-25T04:06:25.636375",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Nifty Bank rises 2% as HDFC Bank, ICICI Bank, SBI gain: Top factors behind the banking stock rally explained",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUXJaRm1kTjZEaVNpazUtR28zRE5CWTRmSkpOdjAxejZGTC1mdU5OT1NNWGFsSXM2RzE5czFKZmEwOXF0b3NvRG13TlZqVWlGamI5WDdxSkpOUHE4VjBpTUVoTFBiOUdGVjlvT1J6c1NrOVpsMDA5QXZUS0NNV3l0MDRlMFB6SldDNTNMZEFLQ1RkOFBYZTQ2eEJFVmFnZ1lvM1Z1YTBVN21FSTM5dnVlMV9vQ2NaZ1NjYWpmeVhMNEVDcjBtXzV1QXFDM0lDRS1PSUROYTIxTDVHMWphMGhUT1lwNzlWY1h5TlROWVRlaGZQeEp6a2c?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Wed, 24 Jun 2026 07:22:10 GMT",
-          "fetched_at": "2026-06-25T04:06:25.636387",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Financial services emerge as India Inc's biggest value creator, led by HDFC Bank, ICICI Bank and NSE",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVW5SUThocko1cS1zWmMwMlhmRlVNZHBDY2JFakZDcnlXVGllczVZeWd1VWRNS1RGbFpJLUYzZlpXSy1mN2QtWXc4OC1Tdkx5NnFsVktiS3ZLQmFlMnVGZVFUaldtODNNbXdmLUN4NTZhbl9BUHRDTUJMZjJiQ3FoWURvZEVOUEhnOEM1Ny1DSjhoeTNGeVJRaHlMT2cyOHBDZTdGVEd1NUFsWWJGYlhEeksxeVFqZVBKRmw4d1pJYzIwdUdIMlBwX0VEdlduMmpBT29XV19LN2NrUdIB3wFBVV95cUxPV3M3WERRSVRKNkk3Ri04dmJaOHZGRjZib051VWU1SUhYSDF0WlhnajBDQ2RmZnZiVUVYTHVZWE5JUzFSZ2M0emJET2pWTDlrQ2dkNGs0TDVxa1d4cVU3c1FNRDQtNzYtVktvS3ZJWENxLWJZcGQzaXV4TkE2RFcxdDdQazNubmZ2cVhjaExydG4za01rQ1Zza2FuRzZLLVNJMEZUVzRiS2M5WGN3R1VDNEkyUFltaUNtR1dpd01KNVFiWkVmc2w5ekJLM0h2eEl5NXdiNm8wM09BQlYxWGRZ?oc=5",
-          "source": "BFSI News",
-          "publishedAt": "Wed, 24 Jun 2026 08:52:02 GMT",
-          "fetched_at": "2026-06-25T04:06:25.636392",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "ICICI Bank soars 3%, nears record high; brokerages upbeat on stock",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeElkVDJYamw2ZjR5U0lnMGxqaDh3amtwMnk1XzItVDBUeE53MU1QSHdfektmTi1aT2lwZ1FpcTdTb3VjNk05bmtNSHhxT21jRmN2T0FrOHNFSGZqdjlMNjlocUVZTTVWWkZrdVRIVjFMMG5jam4yZ0loMTV6UzZEYWhPVnhxOEdZVlF2R0gyUWhFWUF1WmVFdXh6ampCUXI2WTNJTlcyZU5vLVJTYV9oMTFiLWVqYS1rT3BEY2lEWmNsR1FJa2JUTU130gHPAUFVX3lxTFBwU3AxVzNfZ0hkaEgxMVZoTjhQSTBTY2piQU10dm5tR3piWThOX0JDRkJDeGo5Wnl1cGRlZ0gxTHFmZ0FnLTN4a24tT2ZIU0tZaTNiQjBOV0VQOUxza0ZZWVFfaWozUXdMZWlBbU91V3ZLUDZOUjlZT3FVemxBODVJWXkybTNnQkhYcWhPekM2QWpXMTRTd2NJZkJ5ZE9IOWpaY2hvcDVSQktEOVMwcm5PNFRYVzY3TFgzZ2MxNml2X1hUdms2ZmJaNlpDYk51dw?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Wed, 24 Jun 2026 07:17:19 GMT",
-          "fetched_at": "2026-06-25T04:06:25.636395",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "ICICI Bank Share Price Live Updates: ICICI Bank Sees Robust Monthly Gains",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNajhuc0dmcm8yYlduU1FaVHAxd2MwdGFvcV8wMGhnQThuZnRfVngyQ1k1T2lKUEE0aTZmdzRzTXVTenBiUW0xU0s0MGFQY3RqV0JSOFhrVEE4NXBvMTBqZ3NOWTJ4cnhZWHZhYXZmMVcwNF9wME1aLWlncFdJUEFnMUNfNUM2T3UteGpFellqQ3RjSXQ4U3I0eG5BdTd4VG1QcEIyYlAzQVBtSUxlWVVhdmd1MVJQWm51cmFqVzl3V1Y5VEhFaGl30gHMAUFVX3lxTE5LUFJNaUhBSVM0a1F0Y3p1cHNWWnNBc1FEQnF4bnphQmxUUjlZbDJzLXNjbEJhODQwcFFfcFdUdnBNOW52MElPUzFZY2dUNWY1ZGt0V00xUXNyamZTNjdCRjZlTkw5YU5NbXhkeWVzU1RsazJpMDNObFMxTnlnWS01VnBreE1GdjBzcU9JdnhlaXdIS0NobjJFOEF4bVI1UVRhSVZqTGJrdm5IdHFGRklTRm01dUY0OGxMdV82WU5ndllYeWd4eWZjQW05cw?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 25 Jun 2026 03:01:40 GMT",
-          "fetched_at": "2026-06-25T04:06:25.636399",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -797,11 +505,11 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-25T04:08:25.073848",
+      "last_updated": "2026-06-25T09:37:58.270137",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -873,53 +581,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Jio Platforms’ big global backers sit out the IPO. They don’t have a choice",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZm1oTFZWX1VvekFxOEJjLWVPV2hTdE5Wcl9WTms3ekdqeUpCeWZnYjEzN1djanpNSWRjSklJdTdNSFk3QldmeWdQS0pQcmFaOGZHczNXM0xTWW5NZzdvLXQ5N2NpVDNYZXFLaWRUTzItanRxdVBEeGdHNWtTVnY0Y1N2eUNLLWI0VE02NFdFRGxyQ1dRNHVDd2dUOUZvMG1i?oc=5",
-          "source": "The Ken",
-          "publishedAt": "Tue, 23 Jun 2026 04:02:25 GMT",
-          "fetched_at": "2026-06-25T04:07:39.930923",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio Platforms’ bizarre patent campaign—Wipo rank #20 from #340 in a year",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUoxeEFkNjg4N3VLNjQ1dTllUWF1RkNRMkNNQUpYWGNyMDBjWFcwdmQ5YUtydldMT1liakNpa013bXBQN21EX1JtR1FqN2JXekRYcHNqYVJxbEgzZHJDa2UyTjVWMkxuYzRJZUo1enBlZktTVk9jMi1wa3oxX3pjQkxna0R6WGNUV1Fick91bGQ2MlV0elE5b095UV8wQldjeU01S2F2aHk?oc=5",
-          "source": "The Ken",
-          "publishedAt": "Wed, 24 Jun 2026 03:27:42 GMT",
-          "fetched_at": "2026-06-25T04:07:39.930934",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio BlackRock Broking applies to IFSCA for operating as broker-dealer & investment advisor in GIFT City",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSy04RVl0OGduVU1vRU9fWG1jbXhiMEtJMFpXak1acG1mMXZQOHFId3phZ0J0ZENacV9MbjQ4M0tyM2VVOUQzYm1xRzVEZ0hxbVdrRk9oR0g0SEFDU1ZvWHd6UnVBSmJhaFN1azRUUTlqcnBxVURIZm0td0dDTkZxcE1sYjVjYkVKSzlXRnB1NEZULVRiUXVWZVlzSWNSVDgyUmpiNFNHdlh0MG5Odi14UGxFYzQ5T25JLU54Ql83WmRXeHZDakRGRHU5M3VfQndaY0pvSS1wWG5QV2QtYWRqMGY4ZzcwVlE1NkZSdlBPbnNpcmhUWG9mSEw1dE3SAYMCQVVfeXFMUHpiUlNaVWcyQmJ5Y0k3NGlUUjhieVN6TUZ1Mm4zM3JneEZScUJZVjNWNGdpMmNQTTUyNm1ONldtdF94alh1VHJsd1JVUkdfWVVQX3hsUDV4MXg5MDd5YW1MbEZPa3pITThtbl9JWVY2di13MHpnb3A4eC1SSUliYld5aTFQRGFSSDkxVFgxSEZfMTV4ZnF2TjNSSG5Oazkzb2pxeDNwRDBZN2ROS3E3dDkzVDRtX1BVUjdHaVU3NkcybUVwMWpYcDZhS2Job0h0MHRuMEF0cGhHUWx3bjRUZW5MTDZTTXN1TmI3cm1WaDd2Rk00YWZTa2txZFRhYUU4ajFTbw?oc=5",
-          "source": "BusinessLine",
-          "publishedAt": "Tue, 23 Jun 2026 10:54:57 GMT",
-          "fetched_at": "2026-06-25T04:07:39.930941",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Mukesh Ambani’s Reliance AI Roadmap Puts Jio CallAgent Inside the Network",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWDFfVXFrLXRrd2EwcjlTSnlLTl9OdUNLUnByVlduOG5pR1hVWUYwWkc2ZXRabW1WTW5oSE5sd01Gbl81dFFvQ0dNcFA1LVhZU2NVNEppVTY0QlJVVGJEblFZZ1B2REpxcW1UU3RhZlhtVzZ1UmZyTXJJaWRNT1RsdkM3Vk9WUQ?oc=5",
-          "source": "TechRepublic",
-          "publishedAt": "Mon, 22 Jun 2026 14:29:25 GMT",
-          "fetched_at": "2026-06-25T04:07:39.930944",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Telegram is back in Play Store and Apple App Store, Jio & Airtel still blocking app",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcW1MRERUYU1iTXlSQmR6NnNHbjRYdHUzS09LejVrTlpjOXN3c3Q0Q0llM2RfNGU3OTRNeVJSbkltX1g0c2NsMDFWaDdldE1yaWVTcUdYelY1dDc5SG9XWlpYaG83emhoYkJaU3VFcUI5VExfaHcyYm5TRUt3VHpKa1FOR2hOLXlzbEVxT1NyOXJ6Q1VlT2txZE5tbUlxV3JNOGgtSlpsX3pHejUta2sxUlk3SkxaTzZnN3ZwZF9pTk5jZHNmYkJlUDRUYWlVdkw1ZlpsTWFyYXE5YjJZQk5UZdIB5gFBVV95cUxNaGJVb2I1SFdBcS16dDBoM2FDNC13eVp5X0MtWnJrbkZYRDVHNjh4eXRwaVdnU21hQUdNWlRKLTVhWFJWQkJxb0M4SHBiWm80UVVndk05c1N3bHlIV2FsbGViYW9teGs1Tm5hNVFaMnZfb2l4OF9BUlpjSms4WXJrX1d6M3VtQW9YN19CZnR5NDNIS0JIRmJRTGM0b2dJZGxFYkVRUDdBb2M3TTVEUVkydDVNM0tfT01UNlM3aENrWkhPeXRmbUJxbE93MU92a0JoWVduZmtFRThGZm9PQmo4clllSGFVQQ?oc=5",
-          "source": "India Today",
-          "publishedAt": "Tue, 23 Jun 2026 05:09:15 GMT",
-          "fetched_at": "2026-06-25T04:07:39.930949",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -927,43 +589,21 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-25T04:09:26.084152",
+      "last_updated": "2026-06-25T09:39:21.086481",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "competitor_intel_count": 5,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.5,
+        "score": 1.0,
         "label": "Positive",
-        "pos": 3,
-        "neg": 1
+        "pos": 1,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Sponsorship ROI & Commercial Valuation Gaps at Mumbai Indians",
-          "severity": "High",
-          "description": "Sponsor attribution gaps at Mumbai Indians: sponsor. Brand lift measurement and commercial valuation framework needed.",
-          "detected_from": "Bad news for Mumbai Indians before IPL 2027, after Hardik Pandya THIS star player will...  Team Owner, Akash Ambani, on the Quinton buy, base-price pi...",
-          "gap_type": "sponsorship_roi",
-          "keywords_found": [
-            "sponsor"
-          ],
-          "solutions": [
-            {
-              "title": "Mumbai Indians: Sponsorship Impact Measurement Framework",
-              "impact": "High",
-              "timeline": "6-12 months",
-              "price": "₹18-28 Lakhs + ₹2.5L/quarter",
-              "methodology": "Brand Lift Studies + Jersey Exposure Tracking + Social Sentiment + Recall Surveys",
-              "description": "**MRA/ESOMAR-compliant study**. Brand Lift Studies + Jersey Exposure Tracking + Social Sentiment + Recall Surveys. **Deliverables**: Quarterly sponsor ROI reports, Brand lift index, Competitive benchmarking, Attribution model.",
-              "gap_type": "sponsorship_roi",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -1003,63 +643,93 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Mumbai Indians: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Mumbai Indians: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [
+      "competitor_intel": [
         {
-          "title": "Bad news for Mumbai Indians before IPL 2027, after Hardik Pandya THIS star player will...",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMHFtUEhESjZUTGdBRzNsNlVETXo4MlZvWU94bFJaSWhORFVta0tZUU0xR3p3NXl4M0R2QVlxS0NqQmdhQm9iM3VERmdNQzFfdDl1MWs2bTZTcExjSjFsUW9uSUlSOUIzVjRLV3A2d3hUNEQ0R0Exb2pCek5MMjZPNkhqZU9WNkJyQ0dzSXJ5d2hNdndhMXg1SU50dlB5cXBhWUNPQ3BuTjNtelEzcWFnTXJDbzRkaml0ekNvQWZhWGxXTFEyRzI1cWhyeS1haHhzLWhLQ2FwTWQwOGdra2NhR2RDRVFFcUtLRmFFVjFn?oc=5",
-          "source": "India.Com",
-          "publishedAt": "Wed, 24 Jun 2026 11:52:16 GMT",
-          "fetched_at": "2026-06-25T04:09:26.083780"
+          "title": "IPL trade buzz: KKR, Rajasthan open talks with MI over potential Hardik Pandya move",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdXppUkFSa0pUQzdMU2IyQnM1V05NSHBpRkg1eGdKVWVFQUFQeG9jT0ZtbHo4bnZwTXh0NHY4ejI3SWx6V3ZiRWRxNklVaDJMUXdYbDBmVGZNS2ZGZzRkeHlqcDBUSnd1YUxsN3hnQUp2NnJqcVJPSk1IbkM3c29rMlVXRmVnNGF4NkNwMGhibFhDVFpVLVFFTWI5dlcwSllKWGd5Tl9GTzFzSmNoSFlmTTRUdjVtUzQ0a3drNl9nQU5MTDhncEN0U1dITXpPNW95MjZqVTVqaFPSAd4BQVVfeXFMTTB0N3RaQ3RpSHhzdDZidGVneXJNRjktQnZyVnFaRjl2SHBocGpoX2lDNHNLeFVadmhHRWFoODF6dldTME45ZWpNVVFIdUJMV0NfT3h2MV9BLTVZT3ZwS0pwdWxRNjdVeUt6MEpYTjU0M1gwZG44azdMYndSNmJQZFY1bExZNUtlb2FKbDB2UXNYbkEtN012NkM1UlR2Nkc2WXU0LVl4SW85WENNV2NSa1p3MGllOXhxZWJNcnliT3ViLUV0MEVndnl1Y0R1Mmx5VHdkYjZyNFItaTJfbm1n?oc=5",
+          "source": "India Today",
+          "publishedAt": "Tue, 23 Jun 2026 13:33:02 GMT",
+          "fetched_at": "2026-06-25T09:38:51.042074",
+          "related_to": "KKR",
+          "relevance": "competitor"
         },
         {
-          "title": "Team Owner, Akash Ambani, on the Quinton buy, base-price picks and planning the MI-way",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQXJJYUt0ZjZWN0xva2JZU0ExZTg4aWhTeHVFZ0J5ZXlDYzZqRHotSEVJR2RyZHRwWEozdGUyRWZwU0thd2VmdGtNdGFFSVd3bGVrRXdMWTh1YUwzTmwzdFNjMldBMzB2VGt4SVBQYTBIcjNlRmxCc0J6RGxDVUVtLXhkbWV1eHVKbHZnRGFBTzZOU0V4cDF2SGRPYjlRUzJNendUa0tCcDJFNHlIdzQ5aEJxcFh1VmdjNXc?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Tue, 16 Dec 2025 08:00:00 GMT",
-          "fetched_at": "2026-06-25T04:09:26.083791"
+          "title": "IPL 2026, KKR vs MI Updates: Bumrah castles Powell, breaks partnership",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5URkg2N2JQZWc2TFlJanBtUDZHYzBhMnV4S1pfOWZlLVVJbUdTQWJFdTZ6RmlxcmNidmZWSlI5bmdDd1RKTmZjQlFhVWp0TWdXVmVjdDJVN1ZXNFprRmlzcFJfTGxpS01sV3JyTjdBZldYWExtVFQ2Wg?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Wed, 20 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:38:51.042089",
+          "related_to": "KKR",
+          "relevance": "competitor"
         },
         {
-          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:09:26.083799"
+          "title": "\"Greg Chappell Wanted To Coach KKR With Me As Captain\": Sourav Ganguly's Stunning Revelation",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNnhVN2lvTm9DY1BDZ0c4NkhwbldvMnNycVg4eTRfUGwxc1c5Q1hmV2xUbVBBaWpSSEpPb25CVVdESUs4UGRBLWhLMG1EUTkzWUIwOWRFTWljM1FmVktjLXh4THE1T3dRZVN6YTN4dEtIemRFS2FEZk81dGhhRFRGSXF5dDZONzFnc3c1d1JENy0yempIbDNaT29OR011Vzd5VmhYUmZQTk1pYzlWT0pVcDlIUHZLVGNpaE9ETFllcWVjVU81MGJnQzZR?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Wed, 24 Jun 2026 13:00:40 GMT",
+          "fetched_at": "2026-06-25T09:38:51.042093",
+          "related_to": "KKR",
+          "relevance": "competitor"
         },
         {
-          "title": "Rohit Sharma in disbelief; Akash and Nita Ambani shellshocked after Travishek storm turns MI’s night into nightmare | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQk9FUkhoaS1GaFF3bmhuSXRDc1dQZ0lJWnNMX1k0UkQzcGE2RjJsbnNTbU1jbE5JNWFvTm53VWtmUEg2a3E1ZVpvZ1pTOWpUbko1aGsxMzZBdE94cUN0T1JYMFN2VmJLMGRyb1l6WlJQSG1INTNmNS1XMmdPRXhVWHdYaGlBNDhtVDNoTDZGcXh0SnZWcUtFMlRhcE9uRE1zLUhscFY1OWhRZk1YLWhzZHBjRnV2OG8yVEdqZXNkYWViSzZuaDFScGV1MjZhZUdBWFNHVUVtZVJuSmxsN3FXd1FiV0pUUWJwM2pqX3ZDSTNOQdIB9wFBVV95cUxQaFBkandlVlB5T1RCb3RMT0M0eUF2cy11QldQTHM4T0pJYktTamtrN0FuWEtOT1pSMnU5eW1NeUd5clRJc29JQ2ZiUGMwTWNtanZCM2txZW51Wk5xNm5VQnFIVDhBMlhuT3psUDh4YzdTUTd1WVNqTjJiUzk3VTJld09wZUpBV0lpbl8tSlMyME9vVlgxMXJnZlZGMmRULUw2R1hsdmtlNkR5NE1VTi1UQmZrZUhZX3R0YWRYbE1ZdEEzcm44SVpLZ3poZzZPNkVhOEpuYzEtbmJYN0xvLWV5U3FjWHVDb1pBMXlXZV9GT0tfTHNwcXhz?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:09:26.083805"
+          "title": "Cricket Coverage - KKR vs GT, 60th Match Analysis",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ1VDWGhLWVk4bUx0ZlRRM3JNUHIydElsQnBOVVZzaGdxTy1qVEo0VVNSbmNWMTRGVVJ0QUFhek95YjJ3MFBmLTRqN2p0Mi0xamkzeWJqTWRsbGtETmg3OFBwYVNKM2Q3WEJPMzJrYm1BVE1zS25YZ0tCbU9FYldOLXFzTU9UaDlLWUZuNUNua1RyV0xLck9URUF4QklCRTZxWm83eVUyamVvSkMyQ2tQcmhOdVdJbFJuNWlxQThPWQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Fri, 15 May 2026 13:28:32 GMT",
+          "fetched_at": "2026-06-25T09:38:51.042098",
+          "related_to": "KKR",
+          "relevance": "competitor"
         },
         {
-          "title": "Rohit Sharma unrecognizable, Mumbai Indians owner Nita Ambani reacts to sensational transformation –...",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPcHV4RGRkbWJVR3RvRVpvalpXa2c5VTdIQW5YTWVuc2dqTnVnNE40bEVuLXNZX3BIVWpWeDJWZEdicXNQZUxleDRESl91MHR1WmlTdXFhTVNCQzh0VS1sLVBjLXlBS1RYZG53UUF5bU9pLTBiQVJyUE1QMUVVTE4xOGFKSWQ0c1NVMzNsWVhldlU2SUl3TGFmUE1PYkI2ckphZ3dlc2duQm8wOVd1czdqb2ZNNk1VT0RjZG5VRzAzU25GcG8ycUluR0JicW1pTnhFV2UxUy01NEpKeVY0MDlBam1oUmoxWWtUTHRvZ21VajVBLXRrWE9LMzJrODhxUdIBgwJBVV95cUxNRWhKWnVmN3dmWnhOcC03NGR4SVFaQmY2ZmRxdlhFVTBnNUhzVEl5MzIzSTdWY0pKLWUwdC0wRElyZktXNFQ0emtmdzRfUFJfV05HSElJaV9GNFYxOWo0ejlWb0RkbC05dUR0UFlzR3ZjcXRmUUV3YWRkaUxPeTJYR0FrMkp1Mlk1NFV0NWlBSjVuUHhHakkyd2xnX2stV3lFTUhnRGFCSkpTSkpEclU5WVZENmwwbUxTWjJ2YlN1XzhNTDhjVm5FWFFCUkhYNFJMQWxVbTAzaFJ4RE5GaEd4WVltYjRWM0swSlo5V2M2dEFxOVpjX1dWeEVVTlBrb3ZsX1Fv?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:09:26.083809"
+          "title": "KKR, CSK, RCB, RR and PBKS enter India's corporate elite as sports becomes asset class",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZl8yWDRlSUNLSEZaaG1ENFEzQzJtTUNKZ1RKM3VZT0xITTJJQlp2Y1g4RXVZSXQ0bWFWU3lwTDhWVFFUSjJCWDBVaUhCQlZDYWxlUDJaampDVUtqbENVWXNlY1ZkRmV4OS1kelNranRpOEVtU3FCNlZqRHl2d0Vua1FtMnJCdDFPV0FqNnBaUjlJMkNWdUpzQ3FCcU1kMmZKN2tLd05XZWhTTWxUMnJJZkRJa1BzZmQyVFBLZ0RkclBLUFFyMnpNRlhZMllzQUlDZ3J5Y0lMZmZ2bzRSempV?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Wed, 24 Jun 2026 09:57:47 GMT",
+          "fetched_at": "2026-06-25T09:38:51.042102",
+          "related_to": "KKR",
+          "relevance": "competitor"
         }
       ],
+      "esg_highlights": [],
       "filings": []
     },
     "Royal Challengers Bengaluru": {
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-06-25T04:10:56.504620",
+      "last_updated": "2026-06-25T09:40:44.913535",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 10,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 3,
         "neg": 0
       },
       "news": [],
@@ -1125,29 +795,133 @@
           ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "IPL trade buzz: KKR, Rajasthan open talks with MI over potential Hardik Pandya move",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdXppUkFSa0pUQzdMU2IyQnM1V05NSHBpRkg1eGdKVWVFQUFQeG9jT0ZtbHo4bnZwTXh0NHY4ejI3SWx6V3ZiRWRxNklVaDJMUXdYbDBmVGZNS2ZGZzRkeHlqcDBUSnd1YUxsN3hnQUp2NnJqcVJPSk1IbkM3c29rMlVXRmVnNGF4NkNwMGhibFhDVFpVLVFFTWI5dlcwSllKWGd5Tl9GTzFzSmNoSFlmTTRUdjVtUzQ0a3drNl9nQU5MTDhncEN0U1dITXpPNW95MjZqVTVqaFPSAd4BQVVfeXFMTTB0N3RaQ3RpSHhzdDZidGVneXJNRjktQnZyVnFaRjl2SHBocGpoX2lDNHNLeFVadmhHRWFoODF6dldTME45ZWpNVVFIdUJMV0NfT3h2MV9BLTVZT3ZwS0pwdWxRNjdVeUt6MEpYTjU0M1gwZG44azdMYndSNmJQZFY1bExZNUtlb2FKbDB2UXNYbkEtN012NkM1UlR2Nkc2WXU0LVl4SW85WENNV2NSa1p3MGllOXhxZWJNcnliT3ViLUV0MEVndnl1Y0R1Mmx5VHdkYjZyNFItaTJfbm1n?oc=5",
+          "source": "India Today",
+          "publishedAt": "Tue, 23 Jun 2026 13:33:02 GMT",
+          "fetched_at": "2026-06-25T09:40:19.474985",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL 2026, KKR vs MI Updates: Bumrah castles Powell, breaks partnership",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5URkg2N2JQZWc2TFlJanBtUDZHYzBhMnV4S1pfOWZlLVVJbUdTQWJFdTZ6RmlxcmNidmZWSlI5bmdDd1RKTmZjQlFhVWp0TWdXVmVjdDJVN1ZXNFprRmlzcFJfTGxpS01sV3JyTjdBZldYWExtVFQ2Wg?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Wed, 20 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:40:19.474999",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "\"Greg Chappell Wanted To Coach KKR With Me As Captain\": Sourav Ganguly's Stunning Revelation",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNnhVN2lvTm9DY1BDZ0c4NkhwbldvMnNycVg4eTRfUGwxc1c5Q1hmV2xUbVBBaWpSSEpPb25CVVdESUs4UGRBLWhLMG1EUTkzWUIwOWRFTWljM1FmVktjLXh4THE1T3dRZVN6YTN4dEtIemRFS2FEZk81dGhhRFRGSXF5dDZONzFnc3c1d1JENy0yempIbDNaT29OR011Vzd5VmhYUmZQTk1pYzlWT0pVcDlIUHZLVGNpaE9ETFllcWVjVU81MGJnQzZR?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Wed, 24 Jun 2026 13:00:40 GMT",
+          "fetched_at": "2026-06-25T09:40:19.475003",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Cricket Coverage - KKR vs GT, 60th Match Analysis",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ1VDWGhLWVk4bUx0ZlRRM3JNUHIydElsQnBOVVZzaGdxTy1qVEo0VVNSbmNWMTRGVVJ0QUFhek95YjJ3MFBmLTRqN2p0Mi0xamkzeWJqTWRsbGtETmg3OFBwYVNKM2Q3WEJPMzJrYm1BVE1zS25YZ0tCbU9FYldOLXFzTU9UaDlLWUZuNUNua1RyV0xLck9URUF4QklCRTZxWm83eVUyamVvSkMyQ2tQcmhOdVdJbFJuNWlxQThPWQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Fri, 15 May 2026 13:28:32 GMT",
+          "fetched_at": "2026-06-25T09:40:19.475007",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR, CSK, RCB, RR and PBKS enter India's corporate elite as sports becomes asset class",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZl8yWDRlSUNLSEZaaG1ENFEzQzJtTUNKZ1RKM3VZT0xITTJJQlp2Y1g4RXVZSXQ0bWFWU3lwTDhWVFFUSjJCWDBVaUhCQlZDYWxlUDJaampDVUtqbENVWXNlY1ZkRmV4OS1kelNranRpOEVtU3FCNlZqRHl2d0Vua1FtMnJCdDFPV0FqNnBaUjlJMkNWdUpzQ3FCcU1kMmZKN2tLd05XZWhTTWxUMnJJZkRJa1BzZmQyVFBLZ0RkclBLUFFyMnpNRlhZMllzQUlDZ3J5Y0lMZmZ2bzRSempV?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Wed, 24 Jun 2026 09:57:47 GMT",
+          "fetched_at": "2026-06-25T09:40:19.475011",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "Virat Kohli hits winning runs as Royal Challengers Bengaluru retain IPL title",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnNHQ0dOa0ppSmh2VjJ3ejUwbFFHMEE5SVhZbWp2b0Z6aHZ3OEdORnBsWVAtc3kxOEdxS1NkXzdSOFA0RFB3bDd4bWx6WXRSU1N5aWRueFdva0VTVUpCVXNJdWxrLUhlRTBuTkp3bXJVaERkVk16dVRjdmdrdzlSS01QUlZuMVNjdTBqb1FKTDZfS2toODFhamsxazREVXkzakxsaGRSTDNTOWdsVFk4dVZyeDRKcmli?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:40:44.913190"
+        },
+        {
+          "title": "IPL 2026 Final: RCB vs GT - Player of the Match - Virat Kohli",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaE55S0YxUEJfRUhJMERLekdpelJ4Q19Dd2Zac0M5TVQ5QkFtdHltMTBmMXNjOWNjdm5CT1FwaVQ2eklUdjJvZFowOXZQZkphcTFKa1Q4VFVSRVd6R3htdWx5R1JheVNxa3pua2d4QldvRnVKTWtDb2JFRmtJazNST3JHUzdpbkRKdmM5SFVocW1pemVNMWxQNnEwbw?oc=5",
+          "source": "IPL T20",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:40:44.913205"
+        },
+        {
+          "title": "Royal Challengers Bengaluru beat Gujarat Titans in final to win IPL 2026 title",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa1BfeDdvZGFYVTEyRFRqcHVBY21hS0xxRnlWRkU2UzliN3p5VjJ0OEtzQldVVEJNcWVDVV9NbDBPQ05mZFc1R1lnZjduRlEyUWxxTFpJbFJSd3lKUlZ0MlRCSXJKcEd1WEk5N2w0OFFvVjZJR0JRWFFSODZOczZUb2ZIVWNxTm8?oc=5",
+          "source": "olympics.com",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:40:44.913209"
+        },
+        {
+          "title": "IPL 2026, RCB vs GT Final Match Report, May 31, 2026 - Quicks and Kohli lead RCB to second straight IPL title",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUVVQakZoQ2JqRGxsQjZrVmphU0FEYzczXzRYSlF2VVlaR1AxWURLMm1OYlZiQ3hqcVA2QjV1TTlDYkJjVDUyRUtoLUxVTGZUSlA0VXFDTjJNOVIwMHdfYW5DNUNlbWFVODFrZk5GZ3FrUjZNRmk4NWFxWXgtc0I4MG5YdC05TjFDVUdvc1F2WjVERFpHRHhfQmI3cHBJSU90VTNEeFdXN2NrVTJTQXo4d1YyZVJFTkJUbUJJRi1feHFlZjg?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:40:44.913213"
+        },
+        {
+          "title": "RCB CEO hints at what's next for Virat Kohli",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU1pqZUJNM3pwbW9wem82SDVQcDFKTGdGdnREOVpTWU1lcVg1Wk1aVGVhR0E1dlc4QVVPT2gybzVKRVlEVEQ3WHRaeUxEdXl4eHZXZjIyYmtoNDJ4Z3AzTno1RThodWg4ZVJBTkEwT1BQNk84ckRYQVlRQnNzZ3ZZbHlickNxcWRkYkRRRkV3UVU?oc=5",
+          "source": "Udayavani",
+          "publishedAt": "Sat, 20 Jun 2026 11:37:19 GMT",
+          "fetched_at": "2026-06-25T09:40:44.913216"
+        }
+      ],
       "filings": []
     },
     "Delhi Capitals": {
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-06-25T04:12:20.815860",
+      "last_updated": "2026-06-25T09:42:13.914338",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
-        "neg": 0
+        "score": -1.0,
+        "label": "Negative",
+        "pos": 0,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Delhi Capitals",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Delhi Capitals: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "Hardik Pandya to leave MI, join this team for IPL 2027 as captain…?| Mumbai Indians | Hindustan Times  Bad news for Mumbai Indians before IPL 2027, af...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -1187,76 +961,92 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [
         {
-          "title": "IPL 2026 RCB vs GT Updates: RCB trounce Titans to storm into final",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9mT294RXFEOGdwVHNaTDNVNFh5V0dod0F5VHU1NlpOQ2Vlb3hobFpLME9FUmdpdENUUk1HZTctY0ZUT1Y1NWVLR1haNGZuMngtV25xVjdNNWxBZmJqRmtJQ1lfaWNteEdrcWVDNjVIcVo4Q0NCemJBXw?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Tue, 26 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:11:39.493453",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RCB vs GT Highlights, IPL 2026 Final: Virat Kohli Takes RCB To Title No. 2, Achieves Huge Record; Shubman Gill's GT Runners-Up",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeWJzTmcxRFFyNTdxUkdfeVY3RzBpYlZ4WDRKN2o2UmdkdURtZkRmRDFpS2R2THZuc1V5Y25iSGQ3YThqVTNRVnlhVDBJNG5sMXVtMTcyR19SdkdUXy1vU2JHcDZySnpuY2pod0x2VmdXV0w1U3I1NXpVc1c0WEVFS3VIMzdtbVc2MUFYZmQxbkdBR25ZTnlsMVR1RnNScjhJM2tEZW1kUW1NSmExdzNXbzNLbDhfd2NIclNJSHJzY1NLdF90QjYxS2lQVXdzMklLRnFBR3ZOTkJpS1JvZ05CU3ZPRXVqWnhDYk5zZm5HZzlmXzR2akxyVVMyT0xnM0M3dEN6XzNnYWFydHNNZmlCQllqRnlhQQ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:11:39.493464",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Qualifier 1 | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOXzA1RzlpQmFQdUs3VklCZ3NNN0o3MER0UWx4emRScTF5Wm1FVU1LMW9waUlCNGt5QTk2M0dmV1BZV2o0dWVaQUEtOFVmNzMyUmpWTTBOMU1qbkpiYm5QemFvUktnNzRFR3Q3ZUQ4R3ZhMjBfME5mUU91em1abGRzd2M0RWZ3NWVFSkFGcm9pS3JwUjd5VUl4RUNuSlVXUUc0Tnc?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Wed, 24 Jun 2026 20:37:12 GMT",
-          "fetched_at": "2026-06-25T04:11:39.493468",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Ruturaj Gaikwad defends CSK’s struggles, says even RCB would suffer if 'three or four major players' suffer injuries",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPd0VSZ3ltT0dRV040ejhqNEZqdmhIcEEwVm8xSkU0WWQtaG5VZGtPRDI1RThqMl9TSnpWNTBMZkF6SEljYmVEeC1WekdZMHRERm9ORWpYUVhzREh2T2RXLTF5YVZKblUyZ1hUU2xWRHptOWxPRWhHRjFISjg5akxoSlhwdnF4RUVlSFFWeEt3ZkdXRzA3X1Zpb08zM1JoamlwSUVsaTFFYTY0SThuY2tmQjhqSFFzRGQwem5FYURnV1VJLVh1TEVwODE2QlR4eWM5SGtaaUVaeWxjOTVjRkdUN0g2QWlGUi1zYlNiNjdmX0xGZw?oc=5",
-          "source": "Circle Of Cricket",
-          "publishedAt": "Wed, 24 Jun 2026 05:45:24 GMT",
-          "fetched_at": "2026-06-25T04:11:39.493474",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RCB vs GT Highlights, IPL Qualifier 1: RCB reach back-to-back finals with thumping 92-run win, destroy GT in all phases | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQWRsZWtUNEg2bERCcXhPR1Jac1ZqSFJxeFpyNlRpMEJnOHpsYV96QXZSY2hqN0FrZlExN1ZyVkxuVjVEZUU4NTM5YkV2QjdLS1N1endtX1NldjdUV0dFRjFLd1doLXhNV1plNndQb25nRnVKSnozeURBdEhQYWxSVU5SS1N2cTl1VDA1Y0tyamJBRlNpYTJaZDFPUGFUbEx1aDhzNG14STAzNEJsZmtybDVob0N2MjVlUW1JWk1aMmdWNUZ0V0V4LUcwOW11NnNJR3RCT1N5TlBoV3ljdEE4eXZLS1BGNHNKTXpKM2tfcWZSU3JvdC1IVGNHWF_SAYICQVVfeXFMTWJoVk9iZDBYMXBZcWlfdHVPdEx1RHl5YkI5ZTFVSmpVZDBybjlIaUhNUkMzSVBhc1RGQ1NZT2l6bWRXLWxhLVlRVFhQRGd5SWpNaXp5enZkMUZXb3NPS1lBMUZKeUZzcmZuYmhQZ2ZYR3dKa1JQZENvajU4Q0FBd3VPeVo2Z2R5REVNRXNoeUpDNGUxUWxqcUVMMi13ZkY0OWlScXBoOWxEMGZfaEduUjd4bkZXaHFHOTZUdDdMRUNQRDVwSUtqZVZaQzd2djh1OERDRHhfT2pfdVgtS2RfT2JWa1BSZG9fdzdFOTNpUzdOb2I0YkdCWWREVnJVMWF1YWlR?oc=5",
+          "title": "Hardik Pandya to leave MI, join this team for IPL 2027 as captain…?| Mumbai Indians | Hindustan Times",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNV3gxelhpemJhZlREcHpVbXJSRnJXTV85cFdBd1BPNGd0VlQycndGZUQxTDlXMnZJVG9RY1IzX1drV0dUMThuWFkyU3JpMEJIbXg3ZTNUSjNXS2lBWUVmSjhvRjlZejN1OFE0RkFHLTY0TUJjRG9iUmF4Q2k1YUtXNTA4R3E2eVpNV2xLRUZPTXBDU0xKMGxpdUMyN3dVUnVaUlhYUWxEam5meUYwSzlVcng5dDBZN2NteGt3c0FGWUVTUGt4VzJDYXlsNWtzQXZPVVc2Y1JJai01Z185ZkFN0gHkAUFVX3lxTE4yWWlldTZSbDAzZ3oxMERudUY0Rlg4bWpScmZZa19HRjlRTmFyZG11RGROQjh5WVB0YkZEcThxWFd4a3hjQTNaVVpoRGtRRWtadXJTcnBFendHMTcwb3NvaHMxY3pVQjhqZGJUbTNoemJZWDJwVUgzdmZDSFk0bC1aMVlibFZtbzhLcU91UENSTWl0V3pWV1hnUTRUTnYzZlZNZWplX2tpaXBKUVduLW1qRjBxc1VfUGNWWlMzX3hlQ2hCX1VPc2RHQ2dsUFZJbFVaT2hYLS1TX2Y4ODVGTmt1OWh3QQ?oc=5",
           "source": "Hindustan Times",
-          "publishedAt": "Tue, 26 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-25T04:11:39.493478",
-          "related_to": "RCB",
+          "publishedAt": "Wed, 24 Jun 2026 11:42:24 GMT",
+          "fetched_at": "2026-06-25T09:41:14.181903",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bad news for Mumbai Indians before IPL 2027, after Hardik Pandya THIS star player will...",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMHFtUEhESjZUTGdBRzNsNlVETXo4MlZvWU94bFJaSWhORFVta0tZUU0xR3p3NXl4M0R2QVlxS0NqQmdhQm9iM3VERmdNQzFfdDl1MWs2bTZTcExjSjFsUW9uSUlSOUIzVjRLV3A2d3hUNEQ0R0Exb2pCek5MMjZPNkhqZU9WNkJyQ0dzSXJ5d2hNdndhMXg1SU50dlB5cXBhWUNPQ3BuTjNtelEzcWFnTXJDbzRkaml0ekNvQWZhWGxXTFEyRzI1cWhyeS1haHhzLWhLQ2FwTWQwOGdra2NhR2RDRVFFcUtLRmFFVjFn?oc=5",
+          "source": "India.Com",
+          "publishedAt": "Wed, 24 Jun 2026 11:52:16 GMT",
+          "fetched_at": "2026-06-25T09:41:14.181923",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "PBKS vs MI Highlights, IPL 2026: Tilak Varma Slams Heroic 75 Not Out, MI Win; PBKS Lose 5th Game In A Row",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPT0VxcVR5cUpuYUJPRHdTM0VZcG4yaS00UmRlRVMwcGZtX0VNNFFZYzJrUk1hUUFSdGZ4ekd0bEtzeDE3MU5HRHNiN2ZDQVhwZHpHY2hydHB3MXE1akQtdjRON1NOR2FXb1BLRGkxRkdLU09OajNoRU9IZEJ1N283NXdhVm1uMTNMYldhUzFuNEVfY2Z1MG5LQlZtQWNPd3pkbElUdlNWWU9LNC1pSUtGSHJqY21ma25BeUx2MG1YUTVLZjdDbDFLd0Y0aGVzdUVRZWxYakk5eXhVazJjdFczZ1VRQkctc2ZJY2lRZS0teU5mNExHenp0dHNn?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:41:14.181929",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Kolkata Knight Riders vs Mumbai Indians Live Score Updates, IPL 2026: Powell sends it soaring for six",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa2tvTm82VGJXUVEwRzhGd1RBVnlUdEY4eDk5Y3VpT200UW16Q2NoWWVGVXVpamtrNHd0ck1fcklubkg2aUtOQ01UZm1BalJuTGRSeDc3QVdsLXd5Y0oxclpFQ0JnOUFBN09XQjc2UHRkTV9tUnF3R1FkWmI4ZFRNYUVyX01Yb0w0ZS01cmJyUElOT2NCdGNVbDJ6TVR4T3RYV1pEenBsLTVpMUdDblFwa2t1cGxZMzFES25aekd2SHBzMTVoNkpkZlY5UzgwNTBnWU5qLXdVV3N6Qy1uREYyMmVPM19TQ1MzdkxWVmptTXFuS2RsbE1aR1VGNDV1NknSAYQCQVVfeXFMTTExV040YmRCcnNyVFZPUExNNnczdklaTmFPU1BYSnF3QnVENEw4MWNFYWtsU2pURDZrRFVDazB3VXhISEJLV0Y4clBBdE5mSEhXY0ctTFFSWHRuZERWbmlqZkdnNk1YaHppbHEwWkhjakxmbFZHMGVGRjBSM0xZeW91R2c3Vkh5YWZXMHFpdGNKbHNYNWJ6SklVenNLRzRkR1Y2RElSYzV5X01SQ1BOT2w4WVNTendGYXo2NWZOSVY5MVItR1hsWVFVVEdIVTVCbHNZZEVNMlBCUlQ5UURjNFRuYThQeXoxUjMxNXJWUUtWS2tsaG9JMnN3ZTkxdDI2WHo5TFE?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 20 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:41:14.181933",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MI Vs RR Highlights IPL 2026: Royals Qualify For Playoffs After Clinical Win Over Mumabi",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQaGFiQmZUSERBcmlEdW1odWN4RzEyX0Z0c2ZIOHVvdHY5d2NOd0M5ckRvVjlhcmdCWHNxUU10NHNYQ2ZZQjRPd3BjVXhRVVdaRlVqX0hZYkUxZzBGSXZJbmNZdWwxQjFIcUhrZEI1a1B0eG03NHFsWXdfcjFma1ZUVTV0NngzcG9VaU1KOEdsdHBPNVBOMTNzOXVjV0Y0bHZpcnhKV2dCby1XVGFwMUNfdl9hT0VTQ3JqUXFlUHczd0VmcE42ZzFQRmdXX2hNeDVuWWRYNGhHdHVZNm5zQ3RGMmVOMzUya0JMUG5VMFk2X1dfT01GcU44Vm9SX2ZOaFFrb0NSZNIBigJBVV95cUxOSzRjTEZiRUItb0hOT2V0S2xJMjdEV19ZTmk3elVnMU90MkNpdTEwcWtKblQ4VjluU1dUTU96N18xTmljSU9KR05VNzdENHlkQ3JKNS1HdUZUVWhzY3Q0S3N4NVAwQXJ6bXlCYVZuOVhWWE96M055WEp3MHVpYWFaUG9zeUFtdFRMQ2VNRnNPNEV2bzNVeEM1eTgyS1BIeTBSTFhNdmg3UU9EZ0lzTXdoNDNTU1hzRHk2a21uTXhTamRPS0F5MHkxSEtWOVdWTU1OYzFtRjJ5b2Q3dzRNVFlXVjBnemZHdDc1MVk2ZjJMOU5YZ1FVbmFsaTRQT0NwVFd6REMyWWRrd2lTUQ?oc=5",
+          "source": "News18",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:41:14.181937",
+          "related_to": "Mumbai Indians",
           "relevance": "competitor"
         }
       ],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Rishabh Pant and Kuldeep Yadav complete high-profile trade between DC and LSG",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX1NPVEtjdEZoOEMtRDZpRnlzeVBBdE5FMEQ2SC11T2gyUkVtUlhPdkozYUZLNEp5dkROdGNyNlF0TS02TUtGSGRiSVBhQ0JyMTJJZmpBY1JGbUxOcWVBT3hyMDZkYlFmSzRCTUhnSTNyekpjaVY3VklaTTFoeU1BaDl5Q2FqTVhjazluRGo1YV9UcWNzU2xacHVWZG1TU1F4ckZETjNWZ3ZBLVg5ZWM4?oc=5",
+          "source": "IPL T20",
+          "publishedAt": "Tue, 23 Jun 2026 08:09:25 GMT",
+          "fetched_at": "2026-06-25T09:42:13.914010"
+        },
+        {
+          "title": "KKR vs DC Highlights, IPL 2026: Kuldeep Yadav Magic Haunts Former Side KKR, DC End IPL 2026 On A High",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMHVvQ3FJRm5RbkdWRW96WDNHM1MwX21DRThwMndNYVp1cy1YOUlnQXRGSjhpQURmaE9YdXJTSENZUmZaVXBCazhWYnVpdkNlUVo5c1RjUWdtWC1INHNiejdzYkxpU0Nub0RvSkZjSFJpVjA0S0hPaUI0WUJFcnlBT0lpb19aa3E2enJ6dHkzWVJ4ZmFWWkFhOUU0d25lZ0NQUXlpUVlQNkt4YWxKQWNBZDVBX2luNHIyS3N4d0J6TlNxQlVfQVJWbDVEM084SGxrQ3d1VXJzQ0VFQmpSY0E1ck5mWnRxSjNsNG5QVmptUEVuSElEc1NpNXcxTzEySmtiNzJ4UmpCdkNma1ZvS3VJ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-25T09:42:13.914026"
+        },
+        {
+          "title": "Delhi Capitals Pacer Lungi Ngidi Taken Off Field in Ambulance After Head Injury",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTXNkWmxWaThsbFpjaHpKRGx5ZTU4SkFFUmNEWVpfaDNwNDNHVXZsRVBRcXgwYm5fMmNIcUtlYkNOSHpFMU13ZHhhZ0FMQUtlbXlRQ2QxUTNnTmV1VS1GS3QzaHdUcVpMZmFraGhra21UNk5LSFF1aDRJUTJ4cnQ1RGF6U0Rld3VoZEdublRDcno4LWZYMFRuRHNyZWpXbzhFcTA5TXQzTDE?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Wed, 24 Jun 2026 22:43:00 GMT",
+          "fetched_at": "2026-06-25T09:42:13.914030"
+        },
+        {
+          "title": "Yuvraj Singh to join Delhi Capitals as batting coach in IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQlBndC05Q2tLQ0dqYjhnTmRSSV96U0xQcVRxM2JhRkNFdWFDT1hXYTM1ZVpYZ3A5bkVvaWFDSkxhWUpUaDF3WG9RdDNxYjMtTEJ3Y2dhUU5HQjhtbnAtbWR1Wi1VWlFpOU56X0pQOUJyQ29id2J4ZFJoTGcxcXZnYmQtSWhLT0Y3MnE1ckFXenJrTTZXQi1KelNHOE54Q3hqbU5vdE51MUJnVnlhS2RNQTlkMlhxTlpkU0ZtZkE3d09KeG5OekVXcW1rM1BBOW9qc1RFa1FPdjVpN3pxb2ppUzdlUk4wWmRGMnhDYVUweUxRdlZhM3pxem9R?oc=5",
+          "source": "MSN",
+          "publishedAt": "Tue, 23 Jun 2026 02:32:37 GMT",
+          "fetched_at": "2026-06-25T09:42:13.914034"
+        },
+        {
+          "title": "Delhi Capitals Welcome Back Rishabh Pant As Kuldeep Yadav Joins Lucknow Super Giants",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmlHRWRxQVljV3otSG1CYzc4WlduN0FCRnkyek81ZDc0RzNKVUNmc0wwR3NkSUhBV0NDX3hheGxFWXFpNDFNU1V0OHJFczhiTE1QeGF3VGlhWmYzZ2xQTTAzUWhqY0h4NVQ2WXpCc1pKcU84Z0ZQQ0FxSm5RMzZJaWdaVUc1aHlTNDNSanJBNnY3NXJiRGZBakxiZWtyNUh6bm1hWGFSNHd2V2VrME9DNU9WZm90aWFMOUhB?oc=5",
+          "source": "Delhi Capitals",
+          "publishedAt": "Tue, 23 Jun 2026 13:46:53 GMT",
+          "fetched_at": "2026-06-25T09:42:13.914038"
+        }
+      ],
       "filings": []
     }
   }
