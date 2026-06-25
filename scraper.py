@@ -67,6 +67,11 @@ COMPANIES = {
         "ticker": "DC",
         "keywords": ["Delhi Capitals", "DC", "IPL", "Rishabh Pant", "cricket franchise"],
         "sector": "sports"
+    },
+    "Material": {
+        "ticker": "MATRL",
+        "keywords": ["Material", "Material Plus", "Material+", "LRW", "Lieberman Research", "Srijan Technologies", "customer experience", "market research", "Bill Kanarick", "Rahul Dewan"],
+        "sector": "market_research"
     }
 }
 
@@ -88,7 +93,12 @@ GAP_KEYWORDS = {
     "merchandise": ["merchandise", "jersey sales", "fan merchandise", "retail", "licensing"],
     "player_retention": ["player auction", "retention", "salary cap", "player transfer", "contract"],
     "digital_monetization": ["streaming", "digital rights", "OTT", "JioCinema", "broadcast"],
-    "women_league": ["WPL", "women premier league", "women cricket", "WPL franchise"]
+    "women_league": ["WPL", "women premier league", "women cricket", "WPL franchise"],
+    "ai_disruption": ["AI disruption", "generative AI", "ChatGPT", "AI research", "synthetic data", "automation"],
+    "data_privacy": ["data privacy", "GDPR", "consent", "tracking", "cookie deprecation", "privacy regulation"],
+    "talent_war": ["talent shortage", "researcher shortage", "data scientist", "engineer retention", "hiring"],
+    "client_churn": ["client loss", "account churn", "budget cut", "marketing spend reduction", "client departure"],
+    "platform_competition": ["Qualtrics", "Medallia", "Forsta", "SurveyMonkey", "DIY research", "self-serve"]
 }
 
 SEVERITY_WEIGHTS = {
@@ -156,7 +166,12 @@ def generate_gap_title(gap_type, keyword, company):
         "merchandise": f"Merchandise Revenue & Licensing Gaps at {company}",
         "player_retention": f"Player Retention & Auction Strategy Risk at {company}",
         "digital_monetization": f"Digital Monetization & Streaming Revenue Risk at {company}",
-        "women_league": f"Women's League (WPL) Commercial Viability at {company}"
+        "women_league": f"Women's League (WPL) Commercial Viability at {company}",
+        "ai_disruption": f"AI & Generative Technology Disruption Risk at {company}",
+        "data_privacy": f"Data Privacy & Tracking Compliance Gaps at {company}",
+        "talent_war": f"Talent Acquisition & Retention Crisis at {company}",
+        "client_churn": f"Client Budget Cuts & Account Churn Risk at {company}",
+        "platform_competition": f"DIY Platform & Self-Serve Research Threat to {company}"
     }
     return titles.get(gap_type, f"{gap_type.replace('_', ' ').title()} Concern at {company}")
 
@@ -177,7 +192,12 @@ def generate_gap_description(gap_type, matches, context, company):
         "merchandise": f"Merchandise revenue underperformance at {company}: {', '.join(matches[:2])}. Product-market fit and pricing research required.",
         "player_retention": f"Squad stability concerns for {company}: {', '.join(matches[:2])}. Auction strategy and salary cap optimization research needed.",
         "digital_monetization": f"Digital revenue streams under pressure at {company}: {', '.join(matches[:2])}. Streaming rights and OTT monetization research warranted.",
-        "women_league": f"WPL commercial gaps identified for {company}: {', '.join(matches[:2])}. Women's league brand positioning and sponsor acquisition study needed."
+        "women_league": f"WPL commercial gaps identified for {company}: {', '.join(matches[:2])}. Women's league brand positioning and sponsor acquisition study needed.",
+        "ai_disruption": f"AI-driven disruption threatening {company}'s traditional research models: {', '.join(matches[:2])}. Need to assess synthetic data impact and GenAI integration strategy.",
+        "data_privacy": f"Privacy regulation changes affecting {company}'s data collection: {', '.join(matches[:2])}. Compliance cost and alternative data strategy research required.",
+        "talent_war": f"Talent competition intensifying for {company}: {', '.join(matches[:2])}. Need competitive compensation benchmarking and retention strategy research.",
+        "client_churn": f"Client retention risk signals at {company}: {', '.join(matches[:2])}. Account health tracking and churn prediction research urgently needed.",
+        "platform_competition": f"DIY platform threat growing for {company}: {', '.join(matches[:2])}. Competitive positioning and value differentiation research warranted."
     }
     return base_desc.get(gap_type, f"Research gap detected: {', '.join(matches[:2])} at {company}. Primary research recommended.")
 
@@ -525,6 +545,46 @@ def generate_solutions(gaps, company_name):
             "price": "₹16-26 Lakhs",
             "methods": "Demographic Research + Sponsor Pipeline + Media Rights Valuation + Fan Overlap Mapping",
             "deliverables": "WPL brand positioning, Sponsor acquisition roadmap, Media rights valuation, Fan base overlap analysis"
+        },
+        "ai_disruption": {
+            "title": "GenAI Integration & Synthetic Data Strategy",
+            "impact": "High",
+            "timeline": "8-14 months",
+            "price": "₹22-35 Lakhs + ₹5L/quarter",
+            "methods": "AI Readiness Audit + Synthetic Data Pilots + Client Perception Tracking + Competitive Benchmarking",
+            "deliverables": "GenAI roadmap, Synthetic data governance framework, Client AI acceptance index, Competitive AI positioning report"
+        },
+        "data_privacy": {
+            "title": "Privacy-First Research Architecture",
+            "impact": "High",
+            "timeline": "6-10 months",
+            "price": "₹18-28 Lakhs",
+            "methods": "Privacy Impact Assessment + Zero-Party Data Strategy + Consent Management Audit + Regulatory Scenario Planning",
+            "deliverables": "Privacy-compliant research playbook, Zero-party data collection framework, Consent management system, Regulatory compliance dashboard"
+        },
+        "talent_war": {
+            "title": "Talent Market Intelligence & Employer Brand Strategy",
+            "impact": "Medium",
+            "timeline": "8-12 months",
+            "price": "₹14-22 Lakhs + ₹2L/quarter",
+            "methods": "Compensation Benchmarking + Employer Brand Tracking + Exit Interview Analysis + Talent Pipeline Mapping",
+            "deliverables": "Compensation matrix by role, Employer brand index, Retention risk heatmap, Talent acquisition playbook"
+        },
+        "client_churn": {
+            "title": "Client Health & Churn Prediction System",
+            "impact": "High",
+            "timeline": "6-10 months + ongoing",
+            "price": "₹20-32 Lakhs + ₹3L/quarter",
+            "methods": "Account Health Scoring + Client Satisfaction Tracking + Budget Cycle Analysis + Win/Loss Research",
+            "deliverables": "Churn prediction model, Client health dashboard, Quarterly NPS tracker, Account expansion playbook"
+        },
+        "platform_competition": {
+            "title": "DIY Platform Competitive Defense Strategy",
+            "impact": "Medium",
+            "timeline": "8-12 months",
+            "price": "₹16-25 Lakhs",
+            "methods": "Platform Feature Benchmarking + Client Switching Cost Analysis + Value Proposition Testing + Pricing Elasticity",
+            "deliverables": "Competitive feature matrix, Client switching barrier analysis, Value differentiation framework, Premium pricing model"
         }
     }
 
