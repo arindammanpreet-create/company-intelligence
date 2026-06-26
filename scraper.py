@@ -607,6 +607,54 @@ def generate_solutions(gaps, company_name):
 
     return gaps
 
+
+
+def fetch_alpha_vantage_stock(ticker, company_name):
+    """Fetch real stock prices from Alpha Vantage for publicly listed Indian companies"""
+    if not ticker or ticker in ['MI', 'RCB', 'DC', 'MATRL']:
+        return None  # Skip non-listed companies
+
+    # Map company tickers to NSE/BSE symbols for Alpha Vantage
+    av_symbols = {
+        'RELIANCE': 'RELIANCE.BSE',
+        'TCS': 'TCS.BSE',
+        'INFY': 'INFY.BSE',
+        'HDFCBANK': 'HDFCBANK.BSE',
+        'BHARTIARTL': 'BHARTIARTL.BSE'
+    }
+
+    av_symbol = av_symbols.get(ticker, f"{ticker}.BSE")
+
+    try:
+        url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={av_symbol}&apikey={ALPHA_VANTAGE_API_KEY}&outputsize=compact"
+        response = requests.get(url, timeout=30)
+        data = response.json()
+
+        if "Time Series (Daily)" not in data:
+            print(f"⚠️ No stock data for {company_name} ({av_symbol}): {data.get('Note', data.get('Information', 'Unknown error'))}")
+            return None
+
+        time_series = data["Time Series (Daily)"]
+        # Get last 12 data points
+        dates = sorted(time_series.keys(), reverse=True)[:12]
+        prices = []
+        for date in dates:
+            close_price = float(time_series[date]["4. close"])
+            prices.append(close_price)
+
+        print(f"✅ Fetched {len(prices)} days of stock data for {company_name} ({av_symbol})")
+        return {
+            "prices": prices[::-1],  # Reverse to chronological order
+            "dates": [d[8:] + "-" + d[5:7] for d in dates[::-1]],  # DD-MM format
+            "currency": "INR",
+            "source": "Alpha Vantage",
+            "last_updated": datetime.now().isoformat()
+        }
+
+    except Exception as e:
+        print(f"⚠️ Stock fetch failed for {company_name}: {str(e)}")
+        return None
+
 def main():
     print("=" * 60)
     print("INDIAN COMPANY INTELLIGENCE SCRAPER + NLP")
