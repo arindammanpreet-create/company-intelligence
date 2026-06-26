@@ -21,6 +21,7 @@ ssl_context.check_hostname = False
 ssl_context.verify_mode = ssl.CERT_NONE
 
 # ============== CONFIG ==============
+ALPHA_VANTAGE_API_KEY = os.environ.get('ALPHA_VANTAGE_API_KEY', 'demo')
 COMPANIES = {
     "Reliance Industries": {
         "ticker": "RELIANCE",
