@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-26T09:47:03.870867",
+    "generated_at": "2026-06-26T14:45:42.472415",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,17 +14,17 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-06-26T09:37:42.246441",
+      "last_updated": "2026-06-26T14:35:46.178707",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "India's Adani Airports to invest over $2 billion in developing airport cities",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd0dwVW1xNGl5cV9hVGcwbDl6OUlMY1VScDJESWRTYjl0bWF0Qk03REo3LWpVYlQyQjY5OUlpeDVZRWgxVDFvZlJWTWRqYkhXUVhncm5tbGYxeU1haHNOVmhZZjdmN3QySmlMb3l2d1ZsTzFMeElYT0NIU3VMSFQ0VlB0ZXVUXy1IS3B3NG9aOHlGWnprcG9UMXdQZ3pYVlROYU1IeU9xT2p4U0d1eXNUNjVLZk5LMkxk?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Thu, 25 Jun 2026 16:11:43 GMT",
+          "fetched_at": "2026-06-26T14:35:31.060353",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Gautam Adani Launches Vande Bharatam, a Nationwide Movement to Discover India's Grassroots Innovators and Entrepreneurs",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa2VvWTVhbmc2ZFNENS1lUF9JZDJQSi1QVU9GLUlCT3N5MEpZODExQ0RURmpESDlqSTd1OU1ycUl4NXBfXzFkdFFQRW9aYi1pT1VEYnByS04tbVFhSXlLQmdkVk8xeHpaUnlMTU1HM3d1MG9MS3RtSVVxb3p0WENiU2lnNE5lMHZpU3c?oc=5",
+          "source": "Adani",
+          "publishedAt": "Fri, 26 Jun 2026 13:55:58 GMT",
+          "fetched_at": "2026-06-26T14:35:31.060368",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Group Launches ‘Vande Bharatam’ Initiative To Back Startup Founders",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZHlhUUN5UElZMGZGNUpONGdXay1ORUtnTGREY01aeEdLYzZJUXZ5TGJ0ZTNHUVVlMHg1aVVRLXRsVjRaY0h6aXZ6M2RCbFNPazhSekVoNHVhVlktMFg5RV9rRXlJSWtkZEJ4UWtNSHM0SVQ4UzdWT0ZKRHQwODNkM1dEdnBrbVhoZHVXRzlDVEw0NmV6UFFJYnVzQQ?oc=5",
+          "source": "Inc42",
+          "publishedAt": "Thu, 25 Jun 2026 16:36:29 GMT",
+          "fetched_at": "2026-06-26T14:35:31.060378",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Gautam Adani Launches Vande Bharatam Initiative To Support Entrepreneurs",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObVFETzFQcHlYT1lGd1U0ZHg5UTdVV28yUHVnNFRXUTNxb29WR1hTWUhwamJfZDdoR0M0M0t1Y0RrNTNuemhLWTRkV2l5RnNIX2FDZnlQME1JS2VkOGtacEtWQkwwTlhuUm9NbEgxUU80dm1pajM4d3d5OXYwbEdCU0ZsdmNHanNPbXBuX1k4VEo2cUJDZFpHUEhOYlA2cVlJb0otN0xwMERjMGVwODJHeDVIUdIBuwFBVV95cUxNSS1wTDA2TmhIckgyMG5lWUtHbkMteml2ZjFzdU83bmtYd0lSM1EwUlVSVW5iWWpSNTRKbU04elNIUFZnNFM3ZVZ2WDMzdUM0c19Lb21PdlM0S2VPLWkxNV9NSnpLTHJBeDJFMnBLenk2OTlBQ3piNXZ0elNtbUFmVHJ0Qmxyb2IxZG5kN0V3QzdOQ1V0YkRVeDdtNGRyNmh5OXhqSVljUXI5aTFnNzkxb1V3TWI0MUJsX21J?oc=5",
+          "source": "NDTV",
+          "publishedAt": "Thu, 25 Jun 2026 07:13:28 GMT",
+          "fetched_at": "2026-06-26T14:35:31.060382",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Foundation Marks Gautam Adani's 64th Birthday with Nationwide Blood Donation Drive",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdFFEQ09zaWwwaklsOU9udHZpbl9GRXpQeHdBV3d1dGI0RFo1YnN6UEowMXpwYUk5dUZpSnJPMTk4V251TkwwVnNOSkVXQTUxTmNxUmZlMVhxSWd1bnE5bEZSdUhBZlhvM3lSTTFvVFBjMGo5VVFfaUFrS2RmSWUyRWtHeTladmhHZHIzNVBNb3VkM0t0Z2doLTFkS0pLWDVMaEl2SGJzVzVseEVqb3BlaW5aS2xQNGF5UVBXd2RES2VKdDR1QzdpLUMyc2xFQQ?oc=5",
+          "source": "Adani",
+          "publishedAt": "Thu, 25 Jun 2026 15:32:14 GMT",
+          "fetched_at": "2026-06-26T14:35:31.060387",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,11 +144,11 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-06-26T09:38:57.244942",
+      "last_updated": "2026-06-26T14:37:01.909646",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -174,7 +220,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Former Infosys chief has a new startup that wants to challenge the IT services world",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01ZUVJKV3JvVnZTVnFmX2w5RWdUcVlkdWlwNnVDYjBNMWp4WExEWTdoRkgteER2SnZYTnNpQkVPWW5qOXNPSGd1VFRqY2VVY3h2ZWRLcmF5alZ6VzNBT05FTE93SDFJeHBtczZZRU1nemU5WDNhbEJHdTVWbEZpbWlyZDNhSl9xcFpRdjRLQWFscklMbWQtV3E2LVR6NU5zZVVVZWxWUlUycmVWLXVaVV9KWkRqVzlOWW1B?oc=5",
+          "source": "TechCrunch",
+          "publishedAt": "Wed, 24 Jun 2026 23:26:52 GMT",
+          "fetched_at": "2026-06-26T14:36:01.806106",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys boss says vibe coding is no threat because there’s more to writing software than writing software",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYW43V0RDczlDeTdXVng2ODJEY2xzejUzdEZkbjNZdHVreGUxd3ZWTmZYS0x5cGtrTkRjMEZqaE5ZbHNIb2pjZlgtNmotOEtlQklaWnBIMFBoMnVuWjRJN2RLVEMwM2JaQjlwRjZESnp2WTNOSDhxSFBsclFzQlR0RkYzSkpkc2NLemhUQ0llMXlPYUNLLUowRDZON3V6YWc4RFFnVVd3NndObWMtRks3NTRoa2pIWEdxckFzSHV4ZV91WVphSmdQdTVRSEtIa0dVRTYzQThYcmRZWGtfVVNTbHRIRHNEOGFCME9SSTA5Wl8?oc=5",
+          "source": "The Register",
+          "publishedAt": "Thu, 25 Jun 2026 06:13:18 GMT",
+          "fetched_at": "2026-06-26T14:36:01.806125",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys positioned to tap into an AI opportunity worth up to $400 billion by 2030: Nandan Nilekani",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRW9pb2FMenF6Y3RGaE02OHBJMzdvb29oZVBvakw3c3NPYm9MUGFETTRZdUFxa3FweHpHaWpINjczVW9XWm11b2dxWXZ0MDZRMzU3UlRqS0NPMzB4Uy1odVVQM2lwUHB2TTMtWFBHNURXZGZ5N2FFMmtFRFVLbUJFWm91NjlSbUF3Ujh6WXRaY1JlRmROaFR6eWRIVnd2aG5BNHFzMktZR0d1dEN5TXZaUmNNTXYwRG4tOWtvQW5UYW1hMTI2SFZvbkVyenpIWTNGYkFMcUNKX2VFakJLNWdVcVVwV0ZpRFIzYzR3eFpYUUTSAfcBQVVfeXFMTlRtTG1qSGhOSUpBVmEwaE1Eb3RZRDJYNWEtNW55UUhkOHV2MTI0SThhUlZ1TzBoSk9NSXR6clRURXUxRGZ4eUg0TFUwbGVSS01UdVF4RkVhRjhnaGQtQWY2SU9tT0xHZUF3di02WUc0Z0NsVDBTekp3eUl0eE9oNmNZS29aRjRrM3hBQ0dUZ2w0MHRFRWt2eWZSZ29VWk9SNV9GNGFNTlJUSGQ5TDRjeFdHVVYzbWRQOGNQWURTOVBwXzdmZDJ2WkQ0SFREcmU4ajg1a2lheE1KXzQ1TUJFeW4wR0ZxQ1k4NTg5c0pEeC1IV1VjZnRLWQ?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Tue, 23 Jun 2026 20:40:34 GMT",
+          "fetched_at": "2026-06-26T14:36:01.806132",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "AI will not replace companies like ours, says Infosys Chairman Nilekani at AGM",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdzB4VV9YXzhWMzh4cFJwbVdBLVIwQlh4M1lEbkFpaHNOM3ItRW5WLXlKb2l5VXdIRzZMVDU4Z0RlTXNGTF9QWkhrUkdTQU1WOFRxLWNWeFZkZ3ZuQ1d1MW1uano3SkNla0hQSGp4LXBteF9DVXg5WGtUQk5KV3VWUDJoRkNJTG1LQVRFRUZLSnNuZjNrM3NmRzR4RS1NenE2TzZuVVVwTVVqNnVIbDB5WlRXa0RNWDdJR3pldF9uQ3JLWC0wclNGaG8yNlZqLVlaeWxtcjFnNEFuc0ZwMFlOdWxHV2x6X2_SAewBQVVfeXFMTy14ZmJGcHZhQW43WkVpTUhBaWg1Y0N0S0VJTU9PMjJVMjBRbW5GQTFxUVh1UnpxSHVIdFJkTzhGQ3NtcE1yY2J6XzBjeHR2VUY2c0doWUJSRG5ibFh1YnhFRTQ0dEkxSDNQdEMtZ3FkUGFrajZqcF9VTGNsTGNvMTZBT3hMTTVoOHR6Zk9TcEV3VS1iOGxhU0RiTXFCMTRCaEpqeGFhbGxocHdRVDBrS05VV1RweWxDV3dmYmMxUFhzdXRDSnlpNURKXzJBU2JfcHAxc1JjdW1KSHJ4b1NPSjZ3R1lUeXZqVmJweWg?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Tue, 23 Jun 2026 12:26:25 GMT",
+          "fetched_at": "2026-06-26T14:36:01.806137",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Stocks to watch, June 25: Vikram Solar, Infosys, HCLTech, PFC, REC, IRFC, Pine Labs, Vedanta",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNkl5aHRuZm5Ob0cyLUVaOEhrbEd1a0doVVNTYXBZYTNsUWVwWGc4WnVhd0w3V0YyalZYZmdJVXVQUkRiQUl4MWVNYjNtdjM0WE1QMjhKbGc0aVB6RmwzNnpkRU9Da1pESHNBaVZoMzFWRnBiMVlHdHdWOXdWN1Y5NGNKRWtJUUlvamFXODJVRTBaQVBZUFNhVzJ1Wl9iOHJWbEpoYXpGZ05GR1VQUFlQNnJFRUpLeWtObnVCR1JTSGJZakxqNDBKU0tyQ1FpM1NDTFduTVVDTC1rTFU?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Thu, 25 Jun 2026 02:39:15 GMT",
+          "fetched_at": "2026-06-26T14:36:01.806142",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +274,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-06-26T09:40:13.213330",
+      "last_updated": "2026-06-26T14:38:32.340738",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +358,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-06-26T09:41:38.456324",
+      "last_updated": "2026-06-26T14:39:32.971185",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,11 +442,11 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-06-26T09:42:38.409734",
+      "last_updated": "2026-06-26T14:40:28.356889",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -428,48 +520,48 @@
       ],
       "competitor_intel": [
         {
-          "title": "57% surveyed enterprises see AI as business growth accelerator: Vi Business study",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQOFdnX05ZYzl5NnNIaHFUdExOQWJGTkVCNzhRYXdBamlfdEdkUUY2MndQY2ZEVkJ4Q0t1WXk5c0Z0ZGxxNDU0RFdVMW1iTnU3WWlqMGs3N1Ywbm91emdEeXJHN0pxSnFkc3RMdzJZOWNvWGVzY1hwUTZEQl8tWmUzOWR4NGtGbHdHNzhpTW9oWTZPSGd4aEFYU0pqODFmUlJ6Y2NyWV9kUkFfSEJPWUE4WGR3QV9EYW5naVN3NGNXcWdkWlNiQU9jNVBJSUJ4LXJVaXVsS1VlT3FMYlRoNFd2ckJFT2dMUmFlTkFKRXBRYUo5c09XeVZ2ZGJJeFlYTlJq0gGGAkFVX3lxTFBkaXoySWhVYlUwcWdad1VXM2tYdUVKcnBVRFNtVUpNQTJXakVORkJvTzBOMkM1bDllSHJrT3FlMVROWUJOSHVTcDQyRzlyVEpockJpa3BsZXJYV3p5bjg3RzZKd3VQQU1WM2kyQ2U2OHlKOER2ZzFtdXlhRUFCeE9IWlZ1STlSZXRJRjljYllwbWdoNFNPMlpkbHNrbkhSbnIwOExUM1RrLVZQTkdTaXBMZldTbS1QcWlvZU1uNUdXUkhVcGVSYm9LdVhZRmxteGllMnpPaHVQWWwxbFZacWRxUmtfUThMcGZoOWhsLVhWSDJLSXRsR0hzdFB6dU1UV05rN005NlE?oc=5",
-          "source": "ET Telecom",
-          "publishedAt": "Thu, 25 Jun 2026 08:49:20 GMT",
-          "fetched_at": "2026-06-26T09:42:23.334133",
-          "related_to": "Vodafone Idea",
+          "title": "Ajay Devgn Sets Action Comeback With ‘Chauhaan,’ From Jio Studios and Colour Yellow",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUGFuS1BocURZYkhlRjBOczVIc1NXX21DTnNJQ0JkM1F5a2ZlbDgzbDFMVk5PUlBoR010ZXlqSE13dkttN01UelI2dVR3NGJSZ2JJQXViY1pBWjVpVlRMX3ptR0o2Zkx5a2Q1czVNWDZkMzYxQXZUcDhUYkg4MlVwWE8xNDU0ZjNUUVlUQUI4TGhBeHo4OWZB?oc=5",
+          "source": "Variety",
+          "publishedAt": "Thu, 25 Jun 2026 11:11:00 GMT",
+          "fetched_at": "2026-06-26T14:39:57.982257",
+          "related_to": "Jio",
           "relevance": "competitor"
         },
         {
-          "title": "Airtel leads subscriber gains in May as Vodafone Idea extends recovery; Jio remains No. 1",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOLVBJMEp5YVVkYXU4SzRRVlRSN0dKSWlwMG5GbWMxOVJESU5OYmMzdFN3ank3NUtqLWhTcndOeE5XcnBpWkxCUUJLQlRuRWlkMUZuNHFIWHUyNm44N3pqX3NMVlhNUnBuc0s0NEhfTHpPWWZjWjRjNEpZcXhHZG9IYW5fTU9zNVB3OEc2MHBjS0pWUDdfbGlZQkFkV0xsbGpldm9CTzNXQUhMV2pGQUZYOEtMbUhGdkFfd1N2bjFXN29DeGVZYTJiN21hTnU1US1SVFRnaUFjS3NRaVdEaWpGcHVPc9IB6AFBVV95cUxPNlFialVZUW5JT2ZMT1BZNkhkSG9Jb2VvVG8yQnRsWjRlbDJPLTRnT2JVVmktQTFqQWJ5R1JibXIybkpuekxyU3FUS3ZCZnBfMXZCeHp6VzZDRkkxYVZ5cndSXzg3N3BRZVUtZ3loT2F0dGhFS2pkLTJsT01xN2VpZW5QMm5IZjZRandTc3NKNEZJd2U4YUc2N0Q4VUhnVVNmdS15elRQVURxelNEN1dFcF8tSmc0UXZ6M1BiQmo5ck9KS1BLak5MT2RDSTNjdjZ1MEpUNFFIRHgtMWo4VGZxNHNiTy1GTDVU?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 25 Jun 2026 13:24:03 GMT",
-          "fetched_at": "2026-06-26T09:42:23.334147",
-          "related_to": "Vodafone Idea",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Vodafone Idea shares rally 80% in less than 3 months. Time to buy or avoid?",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbEYtUjFMX2UxUmRHbGljOTN2YWRmLTJpbmJrNDJ1YnhUbVJyNW9VWWJyRG5jZFM1U2ZZSXE2Q25QbFM5RTNlV2hfVTVuNE41RW5obXJpWU1rU2JaVmE0OVh2YmtSUllKNUpvTXNabVhVczdMQ2VoVDAtaHc1S1kyTEwtVmJ5QWhxby16QnJSTUF3QXR6T0hxcXJSRDlqcWRReHlTR1dWUU90ZC1BU2hoOWhpNHlMUXhEWFk2aHlVbFJUU09TeDcyaW0wR19scWZ4Vm1pdDc4MzJKV3BtRFo40gHkAUFVX3lxTE5pdEFBQ01tcGtqOUxFZmVtcGk3OFNXMF91U3ZiR0dHcmloR2p3a2tiZkdGX09GTk5uRTJUaVpIQlBpTE9hUkstY3BzY2JKUXM0SGJrYk5qcHExQkJhTVhPZzdhN1kyWWVXeGVsR1ZlLS1lbWYtWi12d2NGeUVsTHRIdXF6T2JPX0dvQ2QyODEwdmpEZnROYmVkQjZwU3FvRFpQMllRSHdiakFhU3RyUUJteDhCUkpzRk10eldfVEJMcl96X2dYalVacVB6djhoWDJNU2lSMC0xNlpGWTZlSG1oMFpCaw?oc=5",
+          "title": "Airtel outpaces Jio in May wireless user gains; adds 2.93 million subscribers",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPb19PZ2trTDBGTThVYWNyelNyaG5pMGVoMXNQdllmb3JTb2tkYUpZb21Ld3NfdC02aXRDbm5veExhdGs5U1o5dUctY1E0ajg5TElFNDNpN3hWeDdkR0ROdDFZWnczSGlUbmdrWHVQWGdFZy1kYVAwMGZud0xDQk9uYmthQmJxOUswc3hCRDNHQ2F2LUFkOHlYcnh5djcybXRtNURBUkNYNmxhNTJxYU5VVzFJTGFhMkRTRXdlUmo0UXdUdnB5OENBVEtMVml2S1FPZjZyM2VrYXlydFBydjNwbTJpd1JpRXJPdkFxbTF1aUFWd9IB9wFBVV95cUxQa0ctdWNpYXYwTC1aejl0SC1RQVJ0YkZJbHBWREZBNDJrODgzRFI2VmVfQzAzUUYydmV6SnF3NE1UblVHNXppTVB1NkpNZWdTV3lOdmtaaWlDRUV3Y0lWWENJUmh5bmZxMHUxSnF3cjZCQUJTa1ZPRkFpa3RuWTgxelZRNHZ5ZUxHNUxKejlfYUpJblZxbG9SX0E5a1JublNwbDI4bl83eFNjMXk2VE8wdEctcmNVX3V2ZDRGREtpbWtxZy15N3BxRXo4NlZZMEpiTmxRV3FBSjNzTE5TTGNJNWUxOVBBUGo5S2pka1FDX1BuWnY4UC1r?oc=5",
           "source": "The Economic Times",
-          "publishedAt": "Thu, 25 Jun 2026 04:25:07 GMT",
-          "fetched_at": "2026-06-26T09:42:23.334152",
-          "related_to": "Vodafone Idea",
+          "publishedAt": "Thu, 25 Jun 2026 15:43:09 GMT",
+          "fetched_at": "2026-06-26T14:39:57.982273",
+          "related_to": "Jio",
           "relevance": "competitor"
         },
         {
-          "title": "Q4 Results Highlights Today 16th May, 2026: Profit surge for Uno Minda , NHPC, Styrenix, Aarti Drugs and LatentView Analytics; Vodafone Idea, Symphony, Celebrity Fashions, Balrampur Chini disappoint",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNTDNEQ0J1SEpvaWNuQ3R4VVAybWRuT2lqbW44dk5hRU14YXdBc2RNQWZaR0dlN2g2cEl6bzYzTzdhRXNTck5NaHp1TXZNaGJJQWkxeVAzVWF4d1o3Y1dmeGd0cUlpNWszMHRNV2RuUG1YeE5LejlBN3pDSkV6UVptNE43aVZrMTl0UnVWUTQ0YjVkbG51Ti1lQXlmQU5sVUtrZXB3TkltdTBFczlNcXVCOElZajB6QUVjODJEZHBEOTI0ZnNhemp2N29uXzFaSGJmalNaaEVXRTNLUjJ4Ny00Z0RPMEF3dEMzTXE0MkZ6OUhQY1YxS3ZJMmxHWUhoRDN3ZGxZdlBIRkxHcEo2SDNhcVFsd0syTmpNSDJqbGZ0a1BRT3FERklqRFh1Z0Ruenp2Z0I2UE5lQ2JKd1lpQUFlSDEtTEFuUEdSYTM00gHSAkFVX3lxTE9RY09yczJ0amg2eTVyTUZ2dnRtVlpNUGdGTFhDVTRnQlpWUmNOZUR3b0NTQXJJLXVZUU14dmE2LWRCNXRNNGVyR2ZWVFoydTBVTWhYejJqdmVadXFUNGdveWQxaHRHQjVZZkpiRkxHbVZvRllBTWMwNjh5aGY2SGhKWlRVQUFLUDc4bkpNNFptclQ0YU9KMzVpS0ZHNjVHV0NUNUg0M2ZxOUo5ZVdYMDd6YlNfSUdsU3lmdDFUZHM0V0FRU0pJUmF4MUM2MEsxVmZBNk5JOGFGOEhvTDhsQXJKcHliZ2V5YWhYWFNacmFmWlRqQkwwQ0xsV1puZUNtaXpIVzFuVU9sZlh3Y2gtbDJDbWhuMlNEemtCUUswMXVQTHJvMWZkVEpFMTVGYy1uZGR1OF9VNHdsOG5zaGJPbWlXV0RpVTNZVmdMYmtHcUtJWGZ3?oc=5",
-          "source": "BusinessLine",
-          "publishedAt": "Sat, 16 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-06-26T09:42:23.334158",
-          "related_to": "Vodafone Idea",
+          "title": "Ajay Devgn To Star In Jio Studios & Colour Yellow Action Pic ‘Chauhaan’; October 2027 Release Date Set",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjRpNGJiTkFuaFdpeFhGTTgzanRMZmRsOHQzNnpEcHBfQTJjRWJXU3pIZHNRLUpHTWRic29LV1hQNXJFemZIaGF2aV82X1gySDB2V3YwcklRTmRHT2RiSDBDUWhDbTJ2ZUxlbGV6cmpiTXlMQVZhVVc1bWkydi1vRW9aWFBlLXpBUnlvZVkxZlF1Y0M2RTZzWjhFRWNEMFU?oc=5",
+          "source": "Deadline",
+          "publishedAt": "Thu, 25 Jun 2026 11:25:00 GMT",
+          "fetched_at": "2026-06-26T14:39:57.982279",
+          "related_to": "Jio",
           "relevance": "competitor"
         },
         {
-          "title": "Vodafone Idea vs Jio vs Airtel: Whose Plan Under Rs 200 is Best",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZlRtZGVPT2paRVliUWhGazJpTC0xMzdERVFpS3hRUW1JTW1hQVM0a0I1WW9CUDAwZ2ZiTGJab1VPaDZvTjFfRE9aS2NvNklJWks3RUxzUjhIRmxFTm5yT0ZSQWZMRUZ2RU1qTmhUTmVkejFielpBLXVzQXc5YjFzNEFENFMtdw?oc=5",
-          "source": "TelecomTalk",
-          "publishedAt": "Fri, 26 Jun 2026 02:43:41 GMT",
-          "fetched_at": "2026-06-26T09:42:23.334161",
-          "related_to": "Vodafone Idea",
+          "title": "Upcoming IPOs: Why Jio, NSE, Zepto and SBI MF plan to bring their IPOs in second half of 2026?",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaWdWa1E3bEtBdEd4R2U3ZjBucEFrN0lzQVFhVWZvY3BQMnlqLUQ4WDVXdjJySGlvc3BvZkxCV1Myd1hoMHVRalpJWHRvMHZmMFpRQzVUOXdhSHdrQ1FWQ2VYRVllRl9nbF9zcGZLV3RBbnhwc1dCd0pJX1NmQk9Hanc2RGZfazNNWndzVkw2UWpUZ3h1OGR3ZkRkY0kxRUxiZktqUE9YT3ppMUJtLUJDX3VLdEp4QTRaRVVQX29GcXRveDUtSjZGYVN4bkRkRUtyMkIxbU5SM0VNRDdfZDJWOXV3?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Thu, 25 Jun 2026 06:11:58 GMT",
+          "fetched_at": "2026-06-26T14:39:57.982284",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPO: Reliance Jio announces what may be India's biggest-ever share sale",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnUkY4Vjh5Y1piRHVyMGg0cG1fX0lQam5jWWN0OFU4WUI3NGJDbU45T1dFXzFBR3VqV2xlNzdINlFyclhYN0wwb05jOUxsZGJRRkRvOHNfMlhxQQ?oc=5",
+          "source": "BBC",
+          "publishedAt": "Fri, 19 Jun 2026 10:13:41 GMT",
+          "fetched_at": "2026-06-26T14:39:57.982288",
+          "related_to": "Jio",
           "relevance": "competitor"
         }
       ],
@@ -480,7 +572,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-06-26T09:43:53.592383",
+      "last_updated": "2026-06-26T14:41:43.577069",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -564,7 +656,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-06-26T09:45:08.796094",
+      "last_updated": "2026-06-26T14:43:28.748197",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -648,21 +740,43 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-06-26T09:46:33.695242",
+      "last_updated": "2026-06-26T14:45:12.055448",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 5,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 2,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Delhi Capitals",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Delhi Capitals: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "Highlights: Sunrisers Hyderabad vs Rajasthan Royals | Eliminator | TATA IPL 2026  IPL | GT 219/3 (18.4) vs RR 214/6 (Rahul Tewatia 17(9) Jos Buttler 9...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -702,83 +816,99 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [
         {
-          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVJ5OTNfaWNQMGhnWDNyM2pOT2NkbTUyczVwS3Q0TW0zZTA2aU41amZXVGxhd3ZIYy1mWlhmXzd4R3VqaUhpZFNZcVNqSHpQSjBNM1BCSUZUX1JlR20tN3A4V3pTeWFORWMyODlQM2s2TExZcDdFOV9UbVBKOGI1akRxTWhFRmZNMjhZNnNfSnM2U0dfT1RJTkJTSkdrTVpQ?oc=5",
+          "title": "Highlights: Sunrisers Hyderabad vs Rajasthan Royals | Eliminator | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOGh6enlSRGFmWGhLMGNBWEN6SlBOQWt1aUZucmMtdjZ3OXhJa1VuZUNmcS03Qk9Yak9qT25EakN1aUwyOVRVcEozMlFpbW1hX0hGNHJ6MUZrQ1hBTDRjdjdDN2g5WjR2QnJPZ2RteTAyeG9tZjZfc19aeDRpMFZldUh3TFBhMGV1T054Q1E1U2FIWVZkX0xFSlFGOTU0Vko0?oc=5",
           "source": "Cricbuzz",
-          "publishedAt": "Fri, 26 Jun 2026 08:51:25 GMT",
-          "fetched_at": "2026-06-26T09:45:48.567158",
-          "related_to": "CSK",
+          "publishedAt": "Fri, 26 Jun 2026 13:57:20 GMT",
+          "fetched_at": "2026-06-26T14:44:56.355227",
+          "related_to": "Rajasthan Royals",
           "relevance": "competitor"
         },
         {
-          "title": "‘Watching IPL with friends common’: Court relief for student caught for ‘black’ ticket sale in CSK, MI match",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSWlibTNCb0RwUlVTVDl5OTRyLXRJdjlLU0J1Q0xVX0NyREx6S2hWdTFpZ0t0Q3NlelBnQWZ5WG5oa0IwanAwa0g0UDdqeVg3aFc2eG0tb3pzR3RBZnN1ckw3ZXNoRmZtUVZGSnB2V2lnekV0MDFkWDY5RUxkSE5ya3Y3eTBOdkZYazRYNFY4bmJvNy1nMEd4RzZlT2dmNEZ2LVdsRkNsZ05ZeWhzcjRaU2h6RWUwenMwU29VYmRB0gHEAUFVX3lxTE42bWhrQTZYclV5VzBzRVZtTTA0RE1keXREeXRDOUZoZ01NemNILXA2dTdHRUdzakhQOFdIMGg3SnV0NFFoaWNEazJSSGZVRHpWTkZEajJENElyX1ZvRUkyZkw3RGhxejRmMjFlSmZDXzdKcEpsVUt3M3A5TVBrbzJXckpIT1QySm1kVEhNUF95bUh6YVQ2Z0E1b1lkSEhhcnpxdjAwQ3hkbzFNanhHOWlsMUVkQWp6X0N4NnR2ZUMzN2xUM18?oc=5",
+          "title": "IPL | GT 219/3 (18.4) vs RR 214/6 (Rahul Tewatia 17(9) Jos Buttler 9(9)) | Gujarat Titans vs Rajasthan Royals, Qualifier 2, Indian Premier League 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Can",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVENVUDFKUWpTSWNMcVpyVmpoUFlxUDBiUHhIUXBGYVZEQWZVYl9ISjhydkR0ZXhfWVpYSlNfUG4ybTl5QWhBcEpqRU1CSEJaUVhzYlVuNE1CSDh1VU5ZSnBsUlhEVWIyX0UtUTFOeDlhc01rS0pnS2ZJVTRNOXdCazRZZkxTZ2JEOVEtSXZ1Ny1DZ1RlcXlUZGFqYnNNa1pr?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Fri, 26 Jun 2026 13:27:07 GMT",
+          "fetched_at": "2026-06-26T14:44:56.355245",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs RR, Qualifier 2, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTjBZdUlBNXk0bzBDTjhBUFh1OUNRUnUzRXFfVDBaZ3ZRREpya3RmUHpScVRsaF9icXZuUHRKZ1NTN3AxVUxySUQ0YU4zWGo4TERfWXRSbnVlUUllanQzU2FXOHBiSlJITWU5NUROa2JoZjVWWlJrSFNncUpvTGZzclVadUs0N29vMG41R1BSRTZZQjNkMUFmRTlFdkJFbkd1MlpVbw?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Fri, 26 Jun 2026 09:22:21 GMT",
+          "fetched_at": "2026-06-26T14:44:56.355250",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Dravid on what makes Sooryavanshi different: ‘No recipe for a player like him’",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZEhHQXpmMXZYRE14R1Vxb3ZObzFHaldOWlJjZVlDU2pscEtOcXltdFd5VndxaS1RRVM1LXVJUF8wUVZBRFZEOTRkSzVzeVJtT2FTeVg1bjV5R21xRXBqLU5GSmJHQjNVMWpwbDREcGFLMUlxTXQ3ZGJKbDNtRkVQWTZNLWx3RzY3YVpaUm9ZZ2Y4LUVPTTRlcnJ6cWltNTZCX0txWkZpbVdlbVZwNE9xQzNpU0F4RDA4YjczaEZ1MVDSAccBQVVfeXFMT3hvWksySklTS0Y5OHFWM2ZYUEFMREhyWUwtRFIzclR0ZENza3YzZ2RPZ0NWTlluRXo5cWpWcHRoRWRfak4xTVAyNXBnNFREamVjUmh4RWx4WTYwWThLX0VpTFlmN0YyTjJLaUIteXpMcTgxWDdrdktBMXBOTG1qaE5RZGZ5aGJ6b3c5eGl4cVd3Q0dqN3hDWVRaNUpwWHBTX25QNWZ5OXpMdU0zQlZ4elk3R1RIV0pFZ3hnQTBENVhQUkZudmtCMA?oc=5",
           "source": "The Indian Express",
-          "publishedAt": "Fri, 26 Jun 2026 06:39:17 GMT",
-          "fetched_at": "2026-06-26T09:45:48.567176",
-          "related_to": "CSK",
+          "publishedAt": "Fri, 26 Jun 2026 08:11:29 GMT",
+          "fetched_at": "2026-06-26T14:44:56.355258",
+          "related_to": "Rajasthan Royals",
           "relevance": "competitor"
         },
         {
-          "title": "RCB vs CSK, 52nd Match, Indian Premier League 2025 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWHZzdHlrWDNRZzhvQnJLOFBYTHpRMFZuUkFPMVBITTRJMk56Zm9RamxiRl9aZWFPa2JjbUlQYk0zWWE1cDhURjNFRXZKMF9Ta0NsWlJoekpCam9kb1J1NmFkVElJdHlvQmR6RktMeDF2Zl9rTXlzcnlUelloX184ZjBMRHZsdHNoelo3VmNvZkxGTTdZNFFfZ3N2alNVX3FnVzdpNzZ3?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Fri, 26 Jun 2026 07:23:23 GMT",
-          "fetched_at": "2026-06-26T09:45:48.567182",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Ruturaj Gaikwad Gives Blunt Reason For CSK's Failure In IPL 2026: \"Take Away 3-4 Major Players From RCB\"",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNTRaeW5DaXZNZktHVW1nWmhlODVmclU1SkFnZTd2MlVQbGw1LVR6NU9FWnFQclgzUk9Id082SjhjWUFxUkpPV3JjTXlLTm5pd0hZVnU0N3lGVWY4bWFRX0FfS3JzR2ZWOVI4Sk8wemlzTHVPTVZpUVV3Q2pRcnNkMzVpX29FUFJkVjZURjlpQlRHc2s5WXlxUlBRNUprd3NKUlY5U3ZFOG1ZZngtajhnakFWWkZvcWNqMktCMnoyLXpwUU9WcXQwdFRsbnF6bnBVNlBmeXhaU2ppQQ?oc=5",
+          "title": "RR vs LSG Highlights, IPL 2026: Vaibhav Sooryavanshi Slams 93 As RR Beat LSG To Stay Alive In Playoff Race",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQVElPenVBZmFaVFFsQUp5aTBGcVRubVJKc2o3aWtOZTA5eUxLVUVwaEdOMFBfaF9WRFFuQjBRbElOajlmRkNKc2liMzAwZmJMcUVIZXhhTmwySjlPUDhBZ2NjZ2pPVWkyemxyNDF6cG5hcWU0V01aeHBRUkdrak1Cb3ctWS1ZUmtEblFMa3AyOFFxTGRVR0NVMFRpSlVJMExoVk04N09HX2tSd1ZCNzVvQ2dRNUtoRU9aMm1PbTRlMkhLUnJQRXJVdVI5ZmhvN1ZMZjRoeFk4NnVjdFloV3A1Y25BeUtUUkVLTnJLOThPc2hzRHlURERRTjdtTlBTZXN0SmVrY3l3T3VLTlowUjRN?oc=5",
           "source": "NDTV Sports",
-          "publishedAt": "Thu, 25 Jun 2026 08:28:19 GMT",
-          "fetched_at": "2026-06-26T09:45:48.567186",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Ruturaj Gaikwad's stunning RCB confession sheds light on CSK's recent IPL struggles",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLTd0a2g3UGUtV1FYVUxOTWlUNXp6MC1kb0Jtajl1Z3VFVlRGSlBka0JBLVJ1TFZzWEN6dnNGaHJhbW5ZWE9MV29nN2VkRXdLTnNvTHR1cHhzV2h2WWZGR2J2elFqT2c1MXJuYU91NzI0NVZKRmg0anIwbHdTU0twRkNtdjhTY1VmdUROcE9haVpsRzZBb0QzWjlueGN3QWF5TF9oTDlyZVhSa19rSExQdW5SWXpaZXBNNmtHOC1MTXNnZE42VHY3enN6QTBxTG4zbnc?oc=5",
-          "source": "MSN",
-          "publishedAt": "Fri, 26 Jun 2026 01:41:16 GMT",
-          "fetched_at": "2026-06-26T09:45:48.567190",
-          "related_to": "CSK",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-26T14:44:56.355263",
+          "related_to": "Rajasthan Royals",
           "relevance": "competitor"
         }
       ],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "IPL Trade 2027: Rishabh Pant returns to Delhi Capitals, Kuldeep Yadav joins Lucknow Super Giants",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLXNqV1pKNE1rYmtnVXc3Rl90al9BU0gxUmNlUXQ4M0VuWHhPYVVjMkJTenU0aUZSdHBlZVN6bW9wNkgzSE5vVnRmTUxHNDRqQkNQY19FaHZCSmhURFdGdDZYTERSOVh3UWd4VC1wYzVqcXhxa3JfM2FBeXktQTBDMmlZZVY2ZHJFYkswN2FfYVNFM2dEVlRkTnBYcGxESl95UkFzWi1aaUhSUjQ2UThBOU1UalRENUt3enlFTjJTNlpxMXZKbFJfSlRENzlXRHg2M2gtSThQVDdaR2twQzdsV3ZYQVgzWUhSdlE?oc=5",
+          "source": "GujaratSamachar English",
+          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-26T14:45:12.055047"
+        },
+        {
+          "title": "IPL 2026, Delhi Capitals vs KKR Updates: Allen smacks maiden IPL ton KKR thrash DC by 8 wickets.",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uUnp1VjFwOGJLNkFuRlFUOGN5am9qQ3BzSVhDcjgtN19hblRzYWpfYXNTTHZhR3ZzT3NMa2xfZjhHNEFtSkxvTmlKcWhKX3VmTzV3am1XZ2txNlRZSFVocTdPQTgwOEpFbXgzeFg0UGJZWnNtdEpxeg?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Fri, 08 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-26T14:45:12.055060"
+        },
+        {
+          "title": "DC vs CSK Highlights, IPL 2026: Sanju Samson, Kartik Sharma take Chennai home; Playoff chances brighten | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQekhNQVFYc19iclVRVWFCeVVmX3JORW9HcHp6c1FVTFhobE1zNU91SUVOblAxaVpRVmZjYzlQUmZFT21UaWppOVB4My1BUGJXRkVKdjFuUDRqZW1lU21ueEZKb3BjUVZLa1lhN0xrYlFSZVRnTmFnN2tOSzBkSVp3X1FJZkxBU0NUYmZMU2ZnQ1IteFNhUTVsc1ZBSG1OVTdmUkRvemNhTXJTVDJXMUNwNzh4bGtLM3hLSVZ6MllFZTE4TUpuMnB4alE3bTdDa2MxbFk2OVlFVlE4N0NxOXVZaDk2UklCUTFGTDZzblhtdlZVelUtQlFR0gH8AUFVX3lxTE00VmppdmJYY25LVHc3TXBUV3FTUUw4QW9SMTllT2xwQzNwWWE4TS11bGNPQkFtTkxEc1V6azVwODQ2Zy1kS1RXNUNNS0NBQVhmN0tTUk40VTAwN0txUGlvS0x2TW1DWmZNZzJ2azFmb2lVQ0R6ZFRNWXkwNl90SG5xZDVsX0ZQb1ZjZHRGaHlQTnJwZTRkckMtY3BOUlhBVm1paVdRRXdhNk1MRk8wOFpvRVpWY0hoX2dTVHJvSk5GaVIwZ1J0YXE0aEd4Y0VIc0dKYWFqQkV6SGlWcUlmaEg4Q3VOZ1lLa1RYYU50NnNJTFdENDFkR2NhdDY2cw?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Tue, 05 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-26T14:45:12.055065"
+        },
+        {
+          "title": "DC vs RR Highlights, IPL 2026: Delhi Capitals beat Rajasthan Royals by 5 wickets",
+          "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNN3hTVDUyN0dCZi0wV2hZQThOejl3UFZwdGdlZEtnS0dXWHhDdjNWcFVfOGRkR2pKclhZSDFFd0pCTTg1OU9ITmhtdUg1alV3ZVlGREwtTzMyaUpkT2RyNDJYQWtGMlJEMG9TYjA3ZFIyVFh1M0g4WWN2Z2p4WmlYeGZFY21vRUh1T0Z3aFhaV2RlU2dSakFwTjlXdGlCMlhycnE4bUhVUEtRc0dQc0pfdnVQQmZ5YlRsN2VQTnFSY2gwRmFhODFWS2JfblJUYmV6STd0Rk1uNGJMemtjTnNWdVNvUVJNTWtsRDlMRGk5RlQ5QlI2SWNiQUt4UjRSR3g1ZUltWHB5Z2tyMlVjRXZiUjZYdkkwY0ZxaHViVy1sR2g2ekhRb3pmMjNJODU0eVlHdnJla3M1QTRtTzNDRW1oTnNrQ2NZc0l0bl8ycjVFU001a01EQnVKMHBZcXlmeGswZ0dNQWx30gHrAkFVX3lxTE9oaXQ2Rm56UXdmTF80cGZxOGpRejFhNGpZenVUZS16UW9LOFd1bGRiZVRhT2FJQVNmZ04ybV9FWEpGUGZvVXdnemtVX2FKZnAwaXFUUmdna2puc0ttWVExTVlUZi1SbVFXV1FpRE9QbjlZX25iZ2p6ODFra18tczlmZWh5UGxVSmpUTXBCTUt3SXRJQjJ1a0ZyU00wczNHTnpwQ3oxYnFobnpSZllhMzBCZW9aYlB6dlMyLV91RXhoWGpKYVUxOHczaHRuU2ttX3BraE5XSXBlUmU5R3Z4X00yN29HMTBDSkpaMXlIMjRhYnZVQll6aXNWU2lFcXkydm53bUxfbE9LcWphUUJ6azhsQ01Ibl9GM1pEcnJmMENoSnRuVnRJRUFMV3JfVkQtUjBNeEhHQ1Y4QmNGSzdobGVLeUtYYzBha2dCU0RpLTFtVHhpTG9faTR5NDMxVVI4bXRzaEdrTmJPTzQ4SQ?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-26T14:45:12.055069"
+        },
+        {
+          "title": "Punjab Kings vs Delhi Capitals Highlights Score Updates, IPL 2026: It's time for the presentation ceremony",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbC1GdTUtam9xSUlfQmhVS0FXekw3M3pMcGg0Uy1zRlFwbVNtUVRPRkc1WktPdkVuX2VZRUpJZDUtMUV5S2p3TmxsQk1Wc25qc3FvV3BZOVdDa212NHJYYVdBc3dOZV81aDB4cW0yZ0VHUTVaem9DdFphZTJJR25NNVZVbkZoOEhCVnhHZXBPckxXeVpoQTZKcS1MR2hQODYwU1lHSHg4bzc5a3RTck50NGlnLVY1YmhDN0pRVllIV0tldkRrcDNLTXhQUl9BbWhST2JGSWZKNDJsbmVESnFnblVNai1QMW1qNFU4WTFLTWhJNlZi0gH6AUFVX3lxTE9NaE12cDZIcXYzZzBnUGhVNXA0MUdyYkxHMjlhVm4tMnhJbnJTNW5DMUg1clhFd2ZjM0VOdXpDUlhIUTVZNGd2TDJCdFNJekF4d0tlTWR4c21pcW1QbnFOUEJ6cmNiWG1YZnl6UFpxSmtCQk45SVpPYjdUMWNoTXByY3hZVjlVbHBsaFVSTlczNC0ySFVwV0lyanJfOUtDVWZmZUt5MWh5MDM5ejlxUVFod3hvMmR2cUFReVpSQjFXTWNCUzVJdGVSMjFvaTJaSEpwTGtLeUMta2ZKYm1NTDdIdHFZNEVhZFl2SENINy1TR2VQUFU5XzV0Q1E?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Mon, 11 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-06-26T14:45:12.055073"
+        }
+      ],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-06-26T09:47:03.870852",
+      "last_updated": "2026-06-26T14:45:42.472399",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
