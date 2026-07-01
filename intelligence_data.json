@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-01T10:07:19.866639",
+    "generated_at": "2026-07-01T14:56:48.525426",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,11 +14,11 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-01T09:59:21.144946",
+      "last_updated": "2026-07-01T14:48:15.524219",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -29,28 +29,6 @@
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Reliance Industries",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Reliance Industries: board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "N Chandrasekaran's seat on Tata Sons board up for reset in August  Noel Tata set to step down as Voltas chairman after turning 70 in November  Noel Ta...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "board"
-          ],
-          "solutions": [
-            {
-              "title": "Reliance Industries: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -90,55 +68,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "N Chandrasekaran's seat on Tata Sons board up for reset in August",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVmRVVnFzZ0oyd3ZZVXlVUHpLbEQ2SmFWWk5vRU9CbEdFd28wQ0paajBGZVFaRFVzUjNQUEtYRVJJZzNycVFXeEtESWRCcXAtRElQWFROVHJ1ZnozaDRPMDlfRG1QSFNxb1o4NFI3VWVGVEl2ZngzV3k1WnZQQjBVX05iN2VvZHA4TE5kQ29TVVNRNEhwZkt0YktLbXV6RUQ5ejJUOFdPQ0ZmU0NkUW1FU2l1MEljc09hY1E3dFcxUUNSVnR1SjY5cVZzTUdzeGpFemxnanJQZ2ZieUpGX0NDZi1B0gHnAUFVX3lxTE8xb3VNcVRsNDM4SUZXTXM3X0lXcnhra0VMSEtyeGVuTG85eVFhcHVfVkZkQVd2LUNiTFJrXzhnSl92b0JwUzNrdWxjeWNRVW5TOFoteTRSdS00VGRHX0J5RnNtM205MFRKOGhzOG9ISlBGQWJuZ3lhS3h1Um9qaHlQQzZZSzBVaXN6TDJBMmU3ak03X09ZU2dhUC1KdmZuek1rdmdzZjJJZEdXazkyREZFelZTVWRjNGswT0tReGpBXzd3c21mOWJZcWRWZXdpRzM5UHhBcmJscFAzOWV1Um5vVWVZZzZ0Zw?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 01 Jul 2026 00:00:00 GMT",
-          "fetched_at": "2026-07-01T09:58:45.803725",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Noel Tata set to step down as Voltas chairman after turning 70 in November",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLXI4T05HMHlmLXYwV3RGUkZNdjIyTTVhRWJ6ZVdfbnhHWWNROVRqMk5jVWhpWGRFZUcxS1JpN1FNLUwwSi0xYWl3TV9kNVd1TUlOZE9lclRTeHZPS1FFSm5Dcmd0NHhZLUlEYUVMNWFYZW5xcjJlWm5IZEVkRC15Y1BiVFY1TWJJZm9JT0JzU3Y0Sl9RaWJFYXFacl9UT1BvbXZ2U2JLRkNOMlVlU3Bmd191LXlaSkhOWDhUcHZ2M2xjS0FzXzhKeS1JTHRKei1BR2xuUG44WDHSAd4BQVVfeXFMT19ncmRHZW9fNGUtd3d1REdfNWNONmVTNWttUFpkQWpLQmE4Mjh0M3FrOEUxOWpQY0Q5dWZkWjg1ZGxmQVg2YU1QaU4wM05lTHRhSk56YTFlVDl0Nk1Yb3gwMWxhM2RBSzdvM3QxbmRvYnBfbE9oUVp2aGZsc1BvTzF2ZFFXMmkwZHJ0UXl5b0VaUnF3T1BoN0txY3hlUS1uR2VQVzhxdUxsbjA5UTJXNC01MjBHanZZdjE2NmgyakJ0ejRndGJPVjJTa2kwNi1teVZreVVEVThHWEhSUmdn?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Tue, 30 Jun 2026 10:26:52 GMT",
-          "fetched_at": "2026-07-01T09:58:45.803741",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Noel Tata announces exit as Voltas chairman at company's AGM",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMFBxZ3dyd2hqLUIzYmFpd0VGYi1TTFRlXzhua2dCN2FLRHJWeXFQVnJDNDMzSUZ1bmd2emtjN3NvNUVaQ0l0STNfTTdkXy1IVGp2eVFndzhxdXhHaHB5clBBUkZDenFCa3pWTFhkNTBLbHRPN09UNWI2UENEU2FrR2ozSDlzdzJhZExXNmtxUGFhWVNJWXdrNnZUT0R3ckYtTGNUaFRjWC0zU19wZWlFb0F4aGJJVl9EUk5lMXBYZUF3SEFLWjJpM3VIOGJkRVZBbXlTSHNtekw3aGF6ZlHSAeMBQVVfeXFMTkpIbWlkZGRGWmJvWWZpWjUzaUFvNVozUTlETWJPNFFWYWVybmg4NFRMWE1acDdtZGgweEhDQVE4eEZXRFRsQzBOc081MTBPNFVtYWxaang2bWlvN2xmeVZvbkdKUUpuR29FclI1SXJrQ1F3UnpiN2xaeUdKUXltWE1NckhKR09zU05GSmMtTjdMWjBHRFNLT0Jhcm9TVnB2bndGR3BOazJlNWZsMXdQMTNTX2YtWmVWcjVZSmt0ejhfbnViOGNIcTZ3eVhIdm1rMEloUTBnY2poR2h0aFlFbXRqb1U?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Tue, 30 Jun 2026 10:47:15 GMT",
-          "fetched_at": "2026-07-01T09:58:45.803746",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "After Trent, Noel Tata to step down as Voltas chairman",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORzZXeENIdlM4MHZfTUpwZzB4eEltWHQwOWxwUTlzU1NjbTdWZU5vcVJLcWVpX2xwYjNpQmhjcDd4d1hvTUlYb3UzZERoOTR4V2RXemE4c0pMbmRqamtzZ2c5ZnNuWll5Y1N3ZG1Xdk1pNE5KYl9JQjBvMEZGMFVNWXlySWlHcnRQZzZVdnJJSVMzZlFLd3NuSTg0MVU1d1R3WlBsc2pmSUkwN08xeWJCSkZONkNOdW5STUpieWdvONIBwgFBVV95cUxOTVEtV056NmdZekpFVVdUTXdIeGRWNFhiel9zUDBwU3pkQTJpcloxOGVXRGNYMTZEUHI2M0I0NlExTGpPY3pTVTlHdlFTR1MxMGdyd3RsOTUwZjVUZzdXSEc5ZjhjYmhvMTVaYno1QjZMNGw3X2ZVTHJyTUlBRFVBZjA5NENOZHlMSWR1MlRLdVVMUjVManRjWkU5OUQ4UXlRT2N1RFg3T0tFVGpvYU5fSmxCRk5KdDJycFAxcEZGamN1UQ?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Tue, 30 Jun 2026 12:30:10 GMT",
-          "fetched_at": "2026-07-01T09:58:45.803749",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rs 15 Dividend Per Share: Tata stock to trade ex-date on July 10",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVTVJWjVsRnJmOVRsWFFHR3RYcHF6b3MwUFRVTk1Lb3VZX1o4TTNYQmlfd19jWWZjVmZDbl9Hd200Y19lY1BJZDktYnN4UEVYY01ZZ1lvZFVOc182NmpfRTRfUjRILVlRSUxFcVpaQzBCN1JfWWlfY3NhSUF5TmQwTDItVDRFcnEyS0t3RFBOV1pqVklvY0Y3TVNtUjdCV1RUd3VUNkdsdnFpenBzRWlZb1hEUQ?oc=5",
-          "source": "Zee Business",
-          "publishedAt": "Tue, 30 Jun 2026 11:32:48 GMT",
-          "fetched_at": "2026-07-01T09:58:45.803753",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -146,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-01T10:00:35.724451",
+      "last_updated": "2026-07-01T14:49:21.985622",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -230,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-01T10:01:41.215483",
+      "last_updated": "2026-07-01T14:50:25.388993",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -314,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-01T10:02:51.775986",
+      "last_updated": "2026-07-01T14:51:55.934158",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -398,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-01T10:03:28.522275",
+      "last_updated": "2026-07-01T14:52:53.949815",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -482,43 +434,21 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-01T10:04:49.738018",
+      "last_updated": "2026-07-01T14:53:59.412941",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.33,
-        "label": "Positive",
-        "pos": 2,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Sponsorship ROI & Commercial Valuation Gaps at Mumbai Indians",
-          "severity": "High",
-          "description": "Sponsor attribution gaps at Mumbai Indians: sponsor. Brand lift measurement and commercial valuation framework needed.",
-          "detected_from": "Hardik Pandya make BIG move ahead of IPL 2027, leaves Mumbai to...  Team Owner, Akash Ambani, on the Quinton buy, base-price picks and planning the MI...",
-          "gap_type": "sponsorship_roi",
-          "keywords_found": [
-            "sponsor"
-          ],
-          "solutions": [
-            {
-              "title": "Mumbai Indians: Sponsorship Impact Measurement Framework",
-              "impact": "High",
-              "timeline": "6-12 months",
-              "price": "₹18-28 Lakhs + ₹2.5L/quarter",
-              "methodology": "Brand Lift Studies + Jersey Exposure Tracking + Social Sentiment + Recall Surveys",
-              "description": "**MRA/ESOMAR-compliant study**. Brand Lift Studies + Jersey Exposure Tracking + Social Sentiment + Recall Surveys. **Deliverables**: Quarterly sponsor ROI reports, Brand lift index, Competitive benchmarking, Attribution model.",
-              "gap_type": "sponsorship_roi",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -558,53 +488,37 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Mumbai Indians: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Mumbai Indians: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Hardik Pandya make BIG move ahead of IPL 2027, leaves Mumbai to...",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZDRKOU5BR0ptWFp0WnQtVVhXQVlGeEZLb3g0eVBlZ0F0RG9LT1ZrN2FmUzNXQzZQS29oYnlEbG83QmRvNHl5d2l0eEI5SG8zWjgwSFd6emlmSEpnVURBOG1raVh5eGp0VUhBUjh1dGVfblVEcHpnQzJsWXVfX21Wd2pGVGQ3a2JtTUN5anZpQmlxcnprX19pR1VBTWFZS29jVjJHUVA5OUJJZzh6Y0huZ2MwQWs5S2tsdlBsSUFMV2FQZw?oc=5",
-          "source": "India.Com",
-          "publishedAt": "Tue, 30 Jun 2026 11:13:11 GMT",
-          "fetched_at": "2026-07-01T10:04:49.737604"
-        },
-        {
-          "title": "Team Owner, Akash Ambani, on the Quinton buy, base-price picks and planning the MI-way",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQXJJYUt0ZjZWN0xva2JZU0ExZTg4aWhTeHVFZ0J5ZXlDYzZqRHotSEVJR2RyZHRwWEozdGUyRWZwU0thd2VmdGtNdGFFSVd3bGVrRXdMWTh1YUwzTmwzdFNjMldBMzB2VGt4SVBQYTBIcjNlRmxCc0J6RGxDVUVtLXhkbWV1eHVKbHZnRGFBTzZOU0V4cDF2SGRPYjlRUzJNendUa0tCcDJFNHlIdzQ5aEJxcFh1VmdjNXc?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Tue, 16 Dec 2025 08:00:00 GMT",
-          "fetched_at": "2026-07-01T10:04:49.737622"
-        },
-        {
-          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:04:49.737635"
-        },
-        {
-          "title": "Rohit Sharma unrecognizable, Mumbai Indians owner Nita Ambani reacts to sensational transformation –...",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPcHV4RGRkbWJVR3RvRVpvalpXa2c5VTdIQW5YTWVuc2dqTnVnNE40bEVuLXNZX3BIVWpWeDJWZEdicXNQZUxleDRESl91MHR1WmlTdXFhTVNCQzh0VS1sLVBjLXlBS1RYZG53UUF5bU9pLTBiQVJyUE1QMUVVTE4xOGFKSWQ0c1NVMzNsWVhldlU2SUl3TGFmUE1PYkI2ckphZ3dlc2duQm8wOVd1czdqb2ZNNk1VT0RjZG5VRzAzU25GcG8ycUluR0JicW1pTnhFV2UxUy01NEpKeVY0MDlBam1oUmoxWWtUTHRvZ21VajVBLXRrWE9LMzJrODhxUdIBgwJBVV95cUxNRWhKWnVmN3dmWnhOcC03NGR4SVFaQmY2ZmRxdlhFVTBnNUhzVEl5MzIzSTdWY0pKLWUwdC0wRElyZktXNFQ0emtmdzRfUFJfV05HSElJaV9GNFYxOWo0ejlWb0RkbC05dUR0UFlzR3ZjcXRmUUV3YWRkaUxPeTJYR0FrMkp1Mlk1NFV0NWlBSjVuUHhHakkyd2xnX2stV3lFTUhnRGFCSkpTSkpEclU5WVZENmwwbUxTWjJ2YlN1XzhNTDhjVm5FWFFCUkhYNFJMQWxVbTAzaFJ4RE5GaEd4WVltYjRWM0swSlo5V2M2dEFxOVpjX1dWeEVVTlBrb3ZsX1Fv?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:04:49.737640"
-        },
-        {
-          "title": "Mumbai Indians owner Nita Ambani fails to recognise Rohit Sharma after batting great’s unbelievable transformation | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdWN2MWEweHFuLWdadDNBTDFTQVdzVnRYTm1vOFowcEtvQjhCWWZ1aHN4MXNTMDd3aUlxdVFaZWhwY3MycUZaUHNBVi1vUTRFZUJINHlqcXdpdE0xc0xZLTRLc3Y2SWNqRUpjeTBad3lnVWllZHV3TWRJVjNlYmE0RHFVYVlqcWxqTGI2bFdaNmRaWnRvY3lrM09WOGpGT3hPSmpIbWc1S28tTklHT0RtNVJ0NHpBcFhfWlF0THhJYWZFSmNsTFNCVEtEU1owZVpfSWx3ZF9ZOWVHTU8yTlBqX0JsRkpNVE5OUF9PSkxuYzB1N3JxS2RHWlFUQnEtMkY1Ym5rb9IBigJBVV95cUxPa1lnRlI5RmJlOUdybEtKUVVzaEdjQUlzcU1RaUptSWI3YXVpNnBJS1A4WVhWekotM0dabUxBMkE3UHpWVmVWWFhMalFOU2ZpYmREWU9Rdi1MeFZIbnVSX0V5LTRvMlpjelp5NU5odFNXMWtLRlBYQUk4Znk3SDdqR0tlOUhHa0Z5alI3enVmLU1vNlVRdVlxZTFsNDZJQW1pVkFKQmlwUG5ZX3FTRUppSUlRV1NKc1R0TXIxZjJXZGRiYnI0R253YjhkbTgtWGgycTByMWlidU9IV0tJZEhEQjZ0QlFWOU9uSVhJelczckpQVi1fZzB3MUUzVHMwdFdJNmpoSFNlNUgzQQ?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:04:49.737645"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "Royal Challengers Bengaluru": {
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-01T10:06:05.004667",
+      "last_updated": "2026-07-01T14:55:30.192709",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -688,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-01T10:07:12.261938",
+      "last_updated": "2026-07-01T14:56:27.921097",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -772,114 +686,21 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-01T10:07:19.866624",
+      "last_updated": "2026-07-01T14:56:48.525416",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 10:51:13 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801304"
-        },
-        {
-          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 23 Jun 2026 13:34:48 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801320"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801329"
-        },
-        {
-          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
-          "source": "11Alive.com",
-          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801333"
-        },
-        {
-          "title": "Simulations Plus (SLP) accepts $18.50 per share all-cash buyout from Altaris",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcmFUVmk2U283eHVvSDVBdGZGYmVvdk16NldtdngtLVAwNUhzZmplS2RDbkFxNzJkUkZvM0pHT0Q4bXRsQWlzVGF0cHpOVnBWZ2xENVl4QlBVaUdpbVdIdFdFSmhLSVNUNnlMOWdKN0d1cUZ4OUhOWE8yRDJXbTVTT2NwRVZ5cmljWjhGVjNOUVA5VlNkbjBmYzZ3bU9vdTVFeW1mRTZYa0puSlJ6?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 16 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801337"
-        },
-        {
-          "title": "BRUCE SPRINGSTEEN’S ‘NEBRASKA ’82: EXPANDED EDITION’ - FEATURING PREVIOUSLY-UNRELEASED MATERIAL PLUS A BLU-RAY FULL-ALBUM PERFORMANCE FILM - ARRIVES OCT. 17 VIA SONY MUSIC",
-          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPN0hYMmROQXc1Yi1xS2ZKM1BzelI3QkR2MXVOTk8yekd6b2hnUkVqZ1FyTkFuMC12emtmQy1XR25lTVFxTlRYS3lsdjh4OF82c18xc2hOUG8wY1dVbjY1MGJEZG5CSHlFX2RVVHVDTmpMbTM1YTBUR05jTHJmRGo4Z1pSVnV0SHVRZWNxcVhZRXZlUjkyWGpCZVBLcF9tQ01fNE5SdEUwUS1yZGxfYkMyUzB2eDh1OFg5R0FMNHMzQ2U4MkFGb3NGOTVOekhEUHhSLUpselM2Z1JTOGFNZ0llTkFPUm9sYkZpem8wZ3JzRHFyVDJpRDYyS011Z2dRMnNnMF9TVmhIV2o2ZmpiYmsyX0gtbzFwVl85N0dVNXFKWmVPNUJT?oc=5",
-          "source": "brucespringsteen.net",
-          "publishedAt": "Thu, 04 Sep 2025 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801343"
-        },
-        {
-          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
-          "source": "WVUA 23",
-          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801347"
-        },
-        {
-          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
-          "source": "아시아경제",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801352"
-        },
-        {
-          "title": ": a new nasal packing material for the middle meatus in endoscopic sinus surgery",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95OUlyb2xBOFFHQi1WZnh1MzRyTC1CZWZkS2pYb2NWS0JYRzY3TmpYZ0NLcTRiNmxrSHRFaGNiVXNVdDdLUW5YQXFEcWxRVTl3YjQxMEZRZUJzXzN5VUczYVVlRXdoenFDdXBvRQ?oc=5",
-          "source": "Springer Nature Link",
-          "publishedAt": "Sun, 14 Jan 2024 08:00:00 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801355"
-        },
-        {
-          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
-          "source": "The Guardian",
-          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-01T10:07:19.801359"
-        }
-      ],
+      "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Material",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "we+ explores craft and digital fabrication through material intelligence  [8-K] GPO Plus, Inc. Reports Material Event  Designers Are Ditching Granite ...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "carbon"
-          ],
-          "solutions": [
-            {
-              "title": "Material: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -916,6 +737,26 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Material: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
