@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T14:20:14.499350",
+    "generated_at": "2026-07-02T19:47:37.163206",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-02T14:12:42.426377",
+      "last_updated": "2026-07-02T19:39:42.935925",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-02T14:14:13.214783",
+      "last_updated": "2026-07-02T19:40:31.704926",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-02T14:15:21.949241",
+      "last_updated": "2026-07-02T19:41:42.906132",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,21 +266,114 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-02T14:16:30.239980",
+      "last_updated": "2026-07-02T19:42:34.153354",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Sashidhar Jagdishan's reappointment as HDFC Bank CEO may be okayed by July 18",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObFg3Q3liTlRMeHdqdF9Odk5JWnhzajVJVkdyX2t3bW5sMVljNHBoQ2ZLaVFSbE5ZakY1Y1VaUnphMTc2Q2pIRnkxLVAtYVJ1RE5pZHZpLVNxLWlGQlR1YmVNMTJJLTJVZF9QNVA4d3I4M3VMQnFRYXVibDN6amtSVmlzUUJIcU9DS2Vjd1h2UTVFT204Y1k0QkFLNnBRZTJmSHJBdklvejREdHZ6OW9qWG1WOVNheXBhMUcyU1U2SHNQT0VsUXFKTEdDeDlLMnpZSlZEZWxPNNIB3AFBVV95cUxQdFhjSmtZa2FtQ3U1bnVyM3pqbGY2WEpYajFQZ29uNkFZUjVGaEFaWlFOa0JkYUFFYjQwcWFtWkhEb1JXeWJVQjlfaVk4OUtmLVFmblBOczViOGxUSjZMb2xDQXhDZEY2X3EtWE9sQnl0ZGlQVTFvLTY3NjhQQnhKdWFKUmVRbnVXcGxQSnltNUVLS0FXb2pmclRLRDFHNmxuN2FiaFJfVHVmZkhkOC1tNXJtRnBwQ3h6UGowZndPOHBtOGJXNDZiV1Z2aTFNeWdRdElRdDI3NHZRbUtK?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Tue, 30 Jun 2026 07:36:18 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130658"
+        },
+        {
+          "title": "HDFC Bank board to discuss CEO Jagdishan's name for third term in mid-July: Source",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWE3NE92ajMzS0JaY3AyRk9ab3ExeWZIU1U5dl9SQWlOcWthbExSRDdDTzJndFE0TzUyNUVCWDc2dy1RcVR6ZlRPby1PeFY0YVBCOW56bWVhU05sTnNwZnp5QVhvcEZRS0ctSGdRSHdnelI3cVI4SmRzR0d1MWdMSkE4Y0dZVklqSmpQdm5hMUNqUUZXMXpIeFA3ZUNMM0FCSjdMY0NJVV9RdHpvQlVFY2MyZFVoWFpOelhYRFlocWl0aUowTHI5SzFn0gHXAUFVX3lxTE9sZnpNWlVkT3hsdUx1WFVqMDlWSFpvbXIwU3hKdVFRal9hQnBFam1LN0VrdVUyamlwVzNSUDFHMXpvcmp1VUp3a2pxMmhhaVEwRU13VXZMcHdmSUM2OFd1UWRzMndyU25wejdYaE1IcE0wbHJmZkFaeUJHMmVISC1UcmY0SFZ2dWEtRjk0clNEU3BmOFZCSjdkdTdvNnhWUTZINTdWRjFnZ05RWU1yWk9UQ0h0SHJDdksyc2pzcVl3SDZaYlZ1emF3U2gwLWhyYldMUFFKQURJ?oc=5",
+          "source": "Fortune India",
+          "publishedAt": "Tue, 30 Jun 2026 09:45:00 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130673"
+        },
+        {
+          "title": "HDFC Bank board may now focus on the reappointment of Sashidhar Jagdishan as MD and CEO",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOGJTUFJsNjZPbUY1QVVwU2gzX00tTDRoS0lOVFNrRVNyd2REZ3JFSEZ2LUdrZ01hT1g4OGdDNFVYbnlLeGFyY3pwMXh0SEtNRnRrUERIZ01mdlQ2ajR5RTdIaFA4SGszQzVSdllSWWk2UXpWazdHMEk3Mk5Oak0tNUpsUTJoOWhxV2FDTkZJUWtIaVhhNmEyT05HRU9LWWdmTDVSWFdGelRYejJLajc5Vm5DaTZRei15ajVick90THMyUmtTWGVkMEpYNk0tMHZUTk5NaElpdi1zaFhXaFlGU1A5SXFKajE1Q0NlTmJB0gHzAUFVX3lxTFA2T2U1aU5LbWd0ZFVfdmlxaUMwZXlVNXhLM1pWWXBJb2lwX3BjYnJ2TkUxNXR2dV9JX1A4MGwzRjN1ZlhxTFRHMnFLM1pJSHRqOExtc1ZjYTg2Q3hOU2R0VU1ycXVrNVpqQWF2bWxNX3pPb0dCTUN4d2twMGZZcXB3TVNqOEE4anVrLThjSGJYSWtEd0pOSXJfUFpuWnZ5cExtRUIyM3RNaHIyaV9jN1dtNzhVQ1BtZzA4b1hOdTNfQWloVEdQc256V0lDWGJyck1NQmE3ejR2eXF3NF9mV3ZjRXlGczBfQ0puRHJaOVpRR3ZNZw?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Mon, 29 Jun 2026 17:14:34 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130678"
+        },
+        {
+          "title": "HDFC Bank Likely To Clear Sashidhar Jagdishan’s Reappointment By 18 July",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeEJGdkxTSkVHOEM2eC13MmV4bXhELTFCZFpvVlZ5WGNsOTBWWHVpVHJub0dsUmNybnBGVUR0TUE1c0YzSU94eVJoQ3o3el9tYTh3TDk1dWpoQ1lGSUwybkZkek5qUklVSllfdTY0U2xBZ3p4dHdDVzlhOVlkNVJMUjNnTldHOTJ3UUEybVNycmxZcmlqMWdDTnVTeFRYOTNYN2x0ZV91NnhDeVlYc0JLT1NUb0w3dnc?oc=5",
+          "source": "BW Businessworld",
+          "publishedAt": "Tue, 30 Jun 2026 21:43:01 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130686"
+        },
+        {
+          "title": "HDFC Bank likely to reappoint Sashidhar Jagdishan as CEO for third term",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxONm12QldsekpqOHFnZURra2pQa3d6SkRiQXZIb05ZazRIbHR2Qlk0aE40bklaMlJZSG1VMlFQV0tGWHhsdUljdjlEWVNQTEdzc2VHa0xCZE83QTZ5cjNFNVA1bFBjcnlubVVqMDQySXdlMEhqSnpZZGVTMnZaOTlVUExUbkw4eTlQSG1EVVl1bURGNm93NmdURDg4cGQ4RHZzc3RNb0Z2dG1WVmgwYngwa3AtUVlYNEpham5qVGRmUkxtam9xRjZCYWlUNW5WV0w2dWpoZDl6SEZERzF5amc1bmxZcU9IcElUcHlNRTdhbW0xRGFlbEY1V1VZR2tzQU5mNkpJVWRUZ1JmZlR3R19mREo1QdIBmAJBVV95cUxNaHVZbVBoaktQaTdhSUlIYlVXS0tQVFJ2aDltcHNOM1NueGtTa2J0NXlNanhzUVpuUkVYQWxEX0J2aUYtM1RHeVhfcDNvOHpNMkdhUzNDcVdySVVERjYwUlB0dUpFTXpMc0drT2lKaEViTTNlRnZFV1ZmR0dvS0lGTnNFZFBCSWZTdUk2U0tBTDNLWmpXSVpPSXhfS0M3N1JXcG52LVpoYS1kTjRkS3d6QXRzTjBoMXRURWIycFA0UUo4VUJpV1NLZGphUkZqVGFVeWxzZy0yVTNUczYzNXRDR1ZUTjNFOEVhTENHOE9JTkk2d0RjV09vY1dNNjZxSG9YcjQ3VGpsV3IzVmo0X0RMNGRSb25CZHkz?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Mon, 29 Jun 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130690"
+        },
+        {
+          "title": "HDFC Bank Likely to Reappoint Jagdishan after Legal Review Clears Ex-Chairman's Concerns",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdTJ5aExkM19vdHo4aG5McXpPelQ3N0lVN0U3WlJLME95d0VEYkd4Y2FLSjdkQlc0NlBRaWtSZ0NpdzAwaXdnTnFmbWxUY1JZb1IyU09POW1jZko4cExSTWlCZjdtYkV1UnZfbWlCNHBPTW4zc19qZzMyUHdjTVF2YThhTWp1bU1iM0RfaWlCd2kyTkw1OHNnaGtocy11YVhpWUpvcjU1NnhIV0dEaG9rRUdHaXNST2hGc21VOGNqaldZLW15R2x3eDJ0d0lHaEVYTmFGcHNB0gHjAUFVX3lxTE94d2FPMkFnQmhjWC11Q1ZpelJ3SnJDZDl1eUo2T0V2cUp1RWhLakdQTUZ0OWpBdThmMFlJSHlMRVpaYUJSY19ERnVtZ1VnLVRHNlNldjdidVFpdTNkUjVON3lOMzl6dkRfZkM0UmotWDlRbjd2R0YwZGk2TFB0VW45aVV4LTlxNzVxNlRQWGc0ano1YWgtV291SFZTRzNaUkxlUnRXOTRONzV2TVhqS3YxZDJLTFdxUG9VN3FHamcwcGktMUJOOC1hSnFNb2kyYVhpZ29LSjNoYTB4ek1lTjVGdHdR?oc=5",
+          "source": "outlookbusiness.com",
+          "publishedAt": "Mon, 29 Jun 2026 05:31:18 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130694"
+        },
+        {
+          "title": "Sashidhar Jagdishan's reappointment as HDFC Bank CEO may be okayed by July 18",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFhjSmtZa2FtQ3U1bnVyM3pqbGY2WEpYajFQZ29uNkFZUjVGaEFaWlFOa0JkYUFFYjQwcWFtWkhEb1JXeWJVQjlfaVk4OUtmLVFmblBOczViOGxUSjZMb2xDQXhDZEY2X3EtWE9sQnl0ZGlQVTFvLTY3NjhQQnhKdWFKUmVRbnVXcGxQSnltNUVLS0FXb2pmclRLRDFHNmxuN2FiaFJfVHVmZkhkOC1tNXJtRnBwQ3h6UGowZndPOHBtOGJXNDZiV1Z2aTFNeWdRdElRdDI3NHZRbUtK0gHcAUFVX3lxTFB0WGNKa1lrYW1DdTVudXIzempsZjZYSlhqMVBnb242QVlSNUZoQVpaUU5rQmRhQUViNDBxYW1aSERvUld5YlVCOV9pWTg5S2YtUWZuUE5zNWI4bFRKNkxvbENBeENkRjZfcS1YT2xCeXRkaVBVMW8tNjc2OFBCeEp1YUpSZVFudVdwbFBKeW01RUtLQVdvamZyVEtEMUc2bG43YWJoUl9UdWZmSGQ4LW01cm1GcHBDeHpQajBmd084cG04Ylc0NmJXVnZpMU15Z1F0SVF0Mjc0dlFtS0o?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Tue, 30 Jun 2026 07:36:18 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130698"
+        },
+        {
+          "title": "HDFC Bank Likely To Clear Sashidhar Jagdishan’s Reappointment By 18 July",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPelA2dmtKclBNbG9DSndqNEY5T2ZKNEF6T25BRHFGR3BTWWkzUy1jRmlrS2xwMkZ4SVVRLU1DeWNyX2ZvYjNqZkRiaEJqa2Q3WnpQQzdTMS1qTUVjbzBycGpPYnh6ZGpYb2ZvVWFqTGRuaUVkM21pM3dzcW1LUjZ1VVFfQkd2UlpMRkVoZ3pYUXdGMW5tUnhxWlZjRXZwWnBGdzR2d3ZxaXEtck1yeW95aWFRb3VBaUZ2OURSVmhDcDFYajhMYUE?oc=5",
+          "source": "BW Marketing World",
+          "publishedAt": "Tue, 30 Jun 2026 10:33:35 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130703"
+        },
+        {
+          "title": "HDFC Bank likely to reappoint CEO Sashidhar Jagdishan for third term - People Matters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTWc1NnRxZVluNXVyRHVvZmVtTUU5bmhtNVMzNmZTdkVWb0c5aUFtdDBrY2hhV05jYmZXSW9IXzNVWlVGbmtJRFJrVVBNUXlLNVhOVVBNbWdubnZKdzBSRjlLWW9ua1h0dWxLZkFiWFpYaE5RVUtIUzJ0aDF2cmd5bFl0ZmdXZEoxbjhhbWVwZXdadzZlNHpLUDNNNUwzRmlUYXRtYjF2V0NQWUk4ZFRFdFEyQzNvZEhUMmVN?oc=5",
+          "source": "People Matters - HR News",
+          "publishedAt": "Mon, 29 Jun 2026 05:34:09 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130707"
+        },
+        {
+          "title": "HDFC Bank clears legal review, backs Sashidhar Jagdishan for third CEO term",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaElhTmxUMEIzbi1vY3hYY0UwazdyMGJnS3ktQUNKRmprTTFhZFFEdHhlcXJMOTN4OGxmakRHbEFXQWs2WUlYRjRqcmxKZllzVnpjMEV4TmRYSUpsLWNwUk9tOWxfN0QtMGdlTzRBN0cxWmNxRXRpVUNYZlFXOWEtQlZRemp4eURvVGhsQi1fXzZub0RyWnA3Z0dfUGl5cTU1MUg0cWZwdGJaNGw0?oc=5",
+          "source": "Indian Television Dot Com",
+          "publishedAt": "Mon, 29 Jun 2026 02:44:43 GMT",
+          "fetched_at": "2026-07-02T19:41:59.130711"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at HDFC Bank",
+          "severity": "Medium",
+          "description": "ESG red flags detected at HDFC Bank: board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Sashidhar Jagdishan's reappointment as HDFC Bank CEO may be okayed by July 18  HDFC Bank board to discuss CEO Jagdishan's name for third term in mid-J...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -320,26 +413,6 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
@@ -350,7 +423,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-02T14:17:22.438403",
+      "last_updated": "2026-07-02T19:43:38.576478",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,11 +507,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-02T14:18:12.321194",
+      "last_updated": "2026-07-02T19:45:02.834523",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -510,53 +583,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Pandya trade far more layered as MI, CSK deny talks are on the table",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQXl1SngtX0JubXBMRkwwRy1wYXBaeFhLY1RkTTlLWUxLWjY1ckdKUHZMc0RkNmdFcEpHdXVkN29fQndoQUM1UkhVTzczZm54TDZFNjFtWk1kOWt5MVo3QS1uMnMzVnRwLVBCdTRfYjlmRGFFRlVOR3AwTFZJXzJXZXp6dGVxSW5iU01XTXlMYkZBQ3U4bHU5T3A3ZU9vSEV0U1dzbkwxSEZhd290X01KSXlHd29CWXR6bWpLS2lWR1B4ZUJEX2V2NTQyNkFvUVBNM3NGZFNjdkpBRDV0YWREUVQ1MmxVUElzelFnVlpyUDZKWjNpREE?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Wed, 01 Jul 2026 18:57:42 GMT",
-          "fetched_at": "2026-07-02T14:17:41.790470",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVJ5OTNfaWNQMGhnWDNyM2pOT2NkbTUyczVwS3Q0TW0zZTA2aU41amZXVGxhd3ZIYy1mWlhmXzd4R3VqaUhpZFNZcVNqSHpQSjBNM1BCSUZUX1JlR20tN3A4V3pTeWFORWMyODlQM2s2TExZcDdFOV9UbVBKOGI1akRxTWhFRmZNMjhZNnNfSnM2U0dfT1RJTkJTSkdrTVpQ?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Thu, 02 Jul 2026 14:08:04 GMT",
-          "fetched_at": "2026-07-02T14:17:41.790485",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK defeat KKR by 32 runs in IPL match in Chennai",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Y5OGpsQmhWY0hOU0JNNlJBS3dzdVgzM2t5MU1sOGxfcWl5ZHB1SXFKRFM4UHoxQTBfcndfeXdEczYzc0d2eEo0MTQ1VS1pNHZOQnZicDh4Rnk1aktNU01ULURtR05TMjBONEtGdW1TaTJzS0I3LVlGUGl2WDNkdg?oc=5",
-          "source": "News On AIR",
-          "publishedAt": "Thu, 02 Jul 2026 07:11:18 GMT",
-          "fetched_at": "2026-07-02T14:17:41.790490",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Squads",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaHNVRTc1LUJObkJfaVBHX0ZHNkphWTd4S0laTGdZdE1zLTNHVzVwT2dmZ0tYWktFWFpTVU92WDRuOEFtZDNkSkhqZE9FMURUY0wzeVBVNlpiUFB5b2hST0FKQVBZUkJKNk5aR0tXbWl4eHNQOWhueUlBT2IwZmRfQ2hJMWRHT0FmSVNPTkIxMkYyNEFrZ21SdzZRdlI3d2VTLXc?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Wed, 01 Jul 2026 15:48:11 GMT",
-          "fetched_at": "2026-07-02T14:17:41.790493",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK vs GT, 37th Match, Indian Premier League 2026 - Squads",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVcyWk9MT0Zhb3BzaGpPSWExR1d3TUhpbzlGZHEtamhqUTVTZFM1aGRFSlVPdXdwbWF2TWs4aU1fTGZoLTNGaDZzTTlsZUVGbFU2NnNxUjVVQjZWTHl3aUg2dTNpbjhMNkJLMUpLb0dkY1lMbWhuUC1EbGZ3MkpES1BYOWpxN21FM1RNTjkzVlB0aXQ0UXo0b3hSNFFEckN4T3c?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Wed, 01 Jul 2026 07:43:28 GMT",
-          "fetched_at": "2026-07-02T14:17:41.790497",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -564,11 +591,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-02T14:18:57.777958",
+      "last_updated": "2026-07-02T19:46:35.051196",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -640,7 +667,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "KKR in talks with JSW to drive in MG Motors JV with $400 mn investment",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSWtXdEhQU1llUEdrS3c1RjJjem02VElPbmhPNDJQVVFnU1lzSExDZTRuX1NUd0lUNVJiVVpUX2tHaWFhMmotRTl5akZzdWFDdGtqQ3c0MlFqYXhtcnJvZkQ5TlFHbHNxMWRpZG5za3FiOFp6YXJjSktFR01NejZsR3lSNmtnbkpERnFjdUhLcmZXZndPS09nNUVjYXdDQ3prUk5lLTlYTTBGN2FOWGV0WkJrYlZscjltTlFTWnlTUVpWWUMtRWNuMXREOFNpNVHSAdQBQVVfeXFMTkREeWF2Vjg0NTBrcWFPVFRSNnFkbGE3UC1OSXg1ZVM3WmRWVWNqdXdSS2JPYmR0d3VUMm9GSGtCUXRaYW5MRTgzUW1TTDVQUmFxQzY3OHlsemI2bEpfR1BkeXcyZE1DczRNazItRndIMk1VcC1VR1pmcGtPZ3FhdlhkN0VnRzgzT3ZIa0lyVjZySTl4cGFBYmd2X0U3aW9nSWxGbTRKaFR3YU1iOGtkVHU5U3lnVS03UzBvYUg2aXJvODZaUU5PTmxwSjJvRlVPTVBfaUE?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 01 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-02T19:46:04.990200",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Hardik Trade: CSK, KKR Among 7 Competing Teams, These 2 Sides Show No Interest",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdElyOXUwLS1yMm1VUTI4UUcwaDg0eEtMcGdIWU5ZM3pieHdjTGFBTE0zV1ZSdHBpV3ZDeWlXeUU4X2tacWdnTWgtdS1qeU44bDZJVjRMTGVJWjFfemx5Y3F3YWduSm9Fcmh4V3ltWXVMalhQSzZrYURtUnNHVUZyRG9VSFE4VWJYRy0xbUpCUmFKYWhyNDFLSHFIaHZvTk4wUC1obXlNeXBpWVU4cjk5aWJKY2VOMzNvWVpsTjVWd29iVVRDMHM4Mw?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Wed, 01 Jul 2026 10:07:16 GMT",
+          "fetched_at": "2026-07-02T19:46:04.990215",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR Makes Largest Ever Clean Energy Investment With $4.2B EDF Purchase",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORzFrZ0pNdTFfWDNOc01jS3oxeHdUeHFHSGN2UkZaZlJqbHY4Z3pqU3Y3SlhlcUdrQm9HWFFyTjJxQ3pKOUZzVThqek93X0MtRmlVSnFjeTAxSXg4NHVpWmdWaTNJSnNtOTM5Z1Z6MnJJRjVXRFczeGhhbUhUeTVUNUluLTRXTWtXc0xJbnZkcnVZV3p3Q3BPR01tWkFQazAzaC1PYlNBQXI2SHFzeVdEbU52alR3SjBYUVNXNF9sOTdZUdIBxwFBVV95cUxOZGUySzk1S0FWQ2Z5MG83VXhrQ3RUdWN0cVExZ2twMW0wdW5QQ2NJenE5ckl5d3VQbTd0c0ZabXZzRXlBYnVybjlCWlhOZUNUU1NrOTV2VVl3eWNJUGhZeXA4VHFud21fWWlDQ09iYUhHTzVuTnd1Y2dfYjVUNnlxSFhWaF9hcFlpcEVZZHVJYXUzSjY4RF9fUFZCMVl4RVppMC1qdXpSNmZGcHJOVFlzcWh2aUVMd3dpTW5nQWhZZFIyQk9ZZGNz?oc=5",
+          "source": "Crude Oil Prices Today | OilPrice.com",
+          "publishedAt": "Wed, 01 Jul 2026 17:30:00 GMT",
+          "fetched_at": "2026-07-02T19:46:04.990219",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL 2027: CSK could hijack KKR's Hardik Pandya deal",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORTF2V0pBUUpnRlFjdHhIZnQ5ZVlHcnBhNWdMbGM4T0lCVTZjcXpBRENpaHZ2enVPaUxhUTQ3TW4zUjU3RmVzVlVQOGJkUmNjOWlLdTFMNHR3RUt3WWk4SFAwWUtDbVhNc3prTE1XUnZIV002WElrRXk4bGoyUTFnZWlEZ2l0MUZTbkRnTExvS1hoZXRaX04zY1pLdXrSAa8BQVVfeXFMTjlCSHRHUU9DdHFESEhVNm9lZXFGY2lEUjhmNDc0TDVvUmhjVEtNcF92M2tNVXlvMmhNZDhTV3FEYUxiN2FXY1N6NUd1NDBORWVlU0lHTzU3ZkR2ZDV2SnRKa1VtZ19lbEhpQ2tHMjdvTjZkNFBFUHBZM3RsU0h0ZWVQUjBSN0N5WFdYeHppUGlWLWFyeXFKWmN0STFsWXFXQ2pQUDFhRzh4VGpjNGRPNA?oc=5",
+          "source": "Gulf News",
+          "publishedAt": "Wed, 01 Jul 2026 09:26:36 GMT",
+          "fetched_at": "2026-07-02T19:46:04.990223",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "hardik pandya ipl 2026 trade rumors csk kkr rr",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV1NwSUozRzRxeF91bEdfNU9pY2VfVDFYMHV5YXhlWEkxb0Nvc3BtNXFnV2RzWDkzMFlQOFN3UmhWUldsdW1JNzVZSFZJMG1SQkUyMFVOTEpMVnpGSGUwUEdJUTZRV2xscEpoc0U3WFg2Z081bDg1eVE1VWp0WFdkN3liMm5kUQ?oc=5",
+          "source": "Sandesh",
+          "publishedAt": "Wed, 01 Jul 2026 11:07:09 GMT",
+          "fetched_at": "2026-07-02T19:46:04.990227",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -648,7 +721,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-02T14:19:55.420706",
+      "last_updated": "2026-07-02T19:47:22.071087",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -732,114 +805,21 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-02T14:20:14.499336",
+      "last_updated": "2026-07-02T19:47:37.163190",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 10:51:13 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262693"
-        },
-        {
-          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 23 Jun 2026 13:34:48 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262705"
-        },
-        {
-          "title": "Simulations Plus (SLP) accepts $18.50 per share all-cash buyout from Altaris",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcmFUVmk2U283eHVvSDVBdGZGYmVvdk16NldtdngtLVAwNUhzZmplS2RDbkFxNzJkUkZvM0pHT0Q4bXRsQWlzVGF0cHpOVnBWZ2xENVl4QlBVaUdpbVdIdFdFSmhLSVNUNnlMOWdKN0d1cUZ4OUhOWE8yRDJXbTVTT2NwRVZ5cmljWjhGVjNOUVA5VlNkbjBmYzZ3bU9vdTVFeW1mRTZYa0puSlJ6?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 16 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262712"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262722"
-        },
-        {
-          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
-          "source": "11Alive.com",
-          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262726"
-        },
-        {
-          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
-          "source": "아시아경제",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262732"
-        },
-        {
-          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
-          "source": "The Guardian",
-          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262737"
-        },
-        {
-          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
-          "source": "WVUA 23",
-          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262742"
-        },
-        {
-          "title": "Simulations Plus (NASDAQ: SLP) agrees to $18.50-per-share all-cash sale",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaDdabUNrT1JiYmlEamEtVTdpbURCY0NGc25GY2pBaE11TFdBSU1kNzk4UHAxTFB3QkpIVmNTZjVzTTRWTkMzcXp4NG1hcEcwR1YwRXRGM0hsWENSS1o0d2tRcXBOQVFOU3NWMmpGS0hpTFNoM2tlZnhxRDVoalpONkw0bFV0NmEtR053dy1yZ3dLYmFBRXR3QnlqdGZTcU1SekVfbHVDcHF5YTUz?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Wed, 17 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262746"
-        },
-        {
-          "title": "Premium Quality Matting Material Trunk Mat for Jetour X70 Plus 2025-2026 (Washable) | Perfect Fit",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUDlKVWJvYnAtci1wc3ZGNTlYd2VhTGdiTVY5Wnk3Z0lLR0VBSFRKeFlJcXlLT2pRc0lKcTRWRVk4SzdRWG5mQzF4LVdPXzR4aUgzb3YzUG0yblQ1UXZTbmVuVV9lVWRyOXdwbTQwMzVoUlM4WHFERkNUMlREZXRVaW9vcm5NUjdTUzBieER5dXBXUXFtNTBGMVdhdk1jbG5CdnB0QXNDdXIybGxRRXZrY0ZWbDEtWWNXOW9VeHpQTnFPallBbk1iVkQ4X0pyalUxWHg5WDU5M3dfVURUOWl1VUxSM1k0SzQ?oc=5",
-          "source": "Pakwheels",
-          "publishedAt": "Wed, 01 Apr 2026 09:48:28 GMT",
-          "fetched_at": "2026-07-02T14:20:03.262750"
-        }
-      ],
+      "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Material",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "we+ explores craft and digital fabrication through material intelligence  [8-K] GPO Plus, Inc. Reports Material Event  Simulations Plus (SLP) accepts ...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "carbon"
-          ],
-          "solutions": [
-            {
-              "title": "Material: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -876,6 +856,26 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Material: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
