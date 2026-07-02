@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T09:29:06.500104",
+    "generated_at": "2026-07-02T14:20:14.499350",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,43 +14,21 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-02T09:21:48.555790",
+      "last_updated": "2026-07-02T14:12:42.426377",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Reliance Industries",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Reliance Industries: board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "SP Group to issue Rs 25,500 crore bonds against Tata Sons stake  Tata Group honours war veteran for two decades of suicide prevention work  Tata Sons ...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "board"
-          ],
-          "solutions": [
-            {
-              "title": "Reliance Industries: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -90,55 +68,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "SP Group to issue Rs 25,500 crore bonds against Tata Sons stake",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNWZYTlFOaTQxUGZvSEU1LXBoQ01uZ3N3NGtoN3VqQTl1a3otRDVkOGpzMUFKR0VsRnBONmxPM1dkR2lNS1poOU5BTlpmUnRwSEl5N1pkQTd1alNuaFBzMlNFMG5GdkdTeFdoLTFOZG14a045YU5PcTdDZ2lPVzNCbi04ajNMaHhKUDgxUVBYczloRTdYMFdJNUlJOU5jQlBmWFgzc2VsaVZUSS1Nb0M5NHFQLUZhR1Q2UktlUE1iM0Y3aTFzNWJ2blRR0gHPAUFVX3lxTE9aN0FpX1J6N2lWWDdMUUU2R1h0eHlPNDZ0VlVpcDhmVjhzMU9NMFFGZ3dYano5elJVRzh2dXQxN3BsZ1VlTjJHTkN0cnJtajdoRk1iQUdmZjFsejFNNmt0aVdZMXhTOXJIVUo3MmtsMzgzQmRMblB0Wk1feW1mSVpHdS1OdS1kd09MWTdXUTRqcEZBWEVyVFlncE5uR3FYOWlyUWpGTlYtYVBRWkZMSHFKdl9IRDlscXJxZ0M0cTVBbU4yaFhRQ1dqcjhwQWRRQQ?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 02 Jul 2026 00:43:30 GMT",
-          "fetched_at": "2026-07-02T09:21:18.479466",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Group honours war veteran for two decades of suicide prevention work",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMlpPSDE0OGpjYUJ4Nng1R3l3anNoRHFlMXFUOVYwci1QSy1aS1hOdmhyOW9IRF9HTGdqT2pkOWc4TXBTVWo3aG1hcjJTRk1uRkxLRVlZZGhQbDlKZGlhYnJCaEU5ODVwWnhUandWUDRyYldLSzNQVm9FWGY3Mm5tZi1DczFxdVp4SC1rZmtadVRHS1hmYmpjWVN6NnVxUUoteUI2REtoRUVPYklrbDBzUzdBNVA4VjBMbTN5bUY0eXBlc213RkRNRTNxYXlrdlc1Y1YyX2JjONIB3gFBVV95cUxQTDBTQkVwV0Fmdy11TVR1bDk1TGtTaHZwcVhQdmF4b0hfOE0xc3RZT29Eb05vNjVyMEZETkc2cmxwN0VRb2RnTHlPUnY2SnpMVUtTUkVYMkt0YUpRUlhVbDF1UXJSWFRUWUlyV29mVGRXcl9ZeGZ3YUc5Q0JsMWNKUThoNW5BZk44c1daSV93TFVaTVJDNW1CR0tkbDNId0JJcDlIT1M2RkxWNHVQX2FmZkpJOFhjb3djUW5RYWlHWWptdjhZWHhqTDZ4UDFhRFNQWlBkZVNUV2pIRHNBUFE?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Wed, 01 Jul 2026 14:21:46 GMT",
-          "fetched_at": "2026-07-02T09:21:18.479482",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Sons AGM to decide on Chandrasekaran's board reappointment amid stakeholder scrutiny: Report",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZlh6djFNSG5CVDBFMDRVRWZBYmRsbHJIQTRzWFRYelgzS1dPYzhMTHBtdVFjak1ucWdJVjVvS08xUmR0Zzl2bURoU1o3dmN5aklGX2NsMWVNcHBhUUJ3U0dpVFJJeHpZRENfTnZjSzNlX3VpenZnOXczTnJITTRlLXUzTHJaR0tmUllCNjNBUDdwRGNhN2RBRkQ5Q2I5a3l0T2p2blJURGw2WUtJNnBZaEo0V0FHVVZmalE5elllWGltUFBBS0RnLUZhTGhWWUkzdFZnZnlfNHc0Rk5lSlVsNXd1OXRGelRC0gHuAUFVX3lxTE1DaUtwQWJUc21Hb1pvSjZ4R29lR1YycHlXVE95bUpKRFgyeERQVWQ1RnNjeklCU1VjTU4tNmZZMm9WR2ZwcGI2UmpLaVo5SDQzM2NUaWhJbWxtTktsX1FiOVVwc3Y5Q3dOdUdhMFEyQnh1RVFaYnhCbkRTc2ticVMycl9QQnVNQXpPZ3ZieS1vOXlqNEVKX0lZRlp2TWd5ODR4SEVYOHFGUHJLZGJidjF4VVd1V2NqX016M0VEaHhSTGV6YjhfODFzUHk1Q0lBc0lwdDg2Q3M3dGpfSlhZdDlHbXBaSWgwa1NSVk00T3c?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Wed, 01 Jul 2026 06:51:58 GMT",
-          "fetched_at": "2026-07-02T09:21:18.479486",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Mehli Mistry steps down from Ratan Tata's family office",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaTNDTFI3RnliRUlRLVJkdGxyXzVzLVRiWUdKaGlQMmsyakJzYWNfTVJ1eHFVSk54LWJQOVlnekY0RURKWG5JbUV6MHhnSl9fVnhOcnhSVUNZdDlSS1RjVldPN1llTXRzdU1PeG5Qajg4Mk9oOHR2bHdrWk1SU3RUdWVSSF94U19Ed3JGUmF6QUFPNS0wMFBlb2IyUFdwc0JqdUhKd3dsSUlXMzVfNFdnSy1tOHZ0eG5EQ3k1a3NWMU9lWm5OVGFURNIBzgFBVV95cUxPV01kUHBCQk1IZVNwbzJTZHg1ZkxXdzVwaEZmQWp2WWZqQU85VWJhMHMtVW90ek11b2tuSmxVZkh1Q2htcUFzQ21aT3lzZDViUUduQzNCZHZBdEV6TnBZeFByRDdhaWw4R3FOSl9tTV8tUGhuQi1iTWZIaU5tTndHMzgtN19sN1RobmE1OXNwbUM5b0U5TlFsRkUwYkxJMHlFajBFTmRKLWxRbnhFODFzZUNSS09pQlhUbE9CTzFuc1F1SEVxczJfa2hRMkZpZw?oc=5",
-          "source": "India Today",
-          "publishedAt": "Thu, 02 Jul 2026 07:13:13 GMT",
-          "fetched_at": "2026-07-02T09:21:18.479490",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Group Commercial Vehicle Company Reports 27% Q1 Sales Growth; EV Volumes Jump 4.4x YoY",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQjJjcWJHVFZqbzZGampfY0FsdnlXdHhYMHp0RzRZS2duT182bEUxekxULUJOOUVETnJTQS00TDBnR0hPWVRiek9iMGU0VXhvaDA0SThsdDBZMEtsY3pod3dINlV5WHFRQ0FzUlJ4ODA3OHVPSmRJUW1kdmFveFF4UDN6NHpiV2loVWVyb1lpS0JBV3pSSE13VUJkcWVQdGM0VjhZTEZ0MTBXc29TZUd5eUFIYll1YWVjT3N1WHJOVWthMVNlV1JReDlYWlRDYUF1WG9J?oc=5",
-          "source": "Dalal Street Investment Journal",
-          "publishedAt": "Wed, 01 Jul 2026 10:40:42 GMT",
-          "fetched_at": "2026-07-02T09:21:18.479494",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -146,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-02T09:22:48.907913",
+      "last_updated": "2026-07-02T14:14:13.214783",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -230,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-02T09:23:41.622713",
+      "last_updated": "2026-07-02T14:15:21.949241",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -314,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-02T09:24:42.183021",
+      "last_updated": "2026-07-02T14:16:30.239980",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -398,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-02T09:25:48.375987",
+      "last_updated": "2026-07-02T14:17:22.438403",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -482,11 +434,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-02T09:26:53.519930",
+      "last_updated": "2026-07-02T14:18:12.321194",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -558,7 +510,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Pandya trade far more layered as MI, CSK deny talks are on the table",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQXl1SngtX0JubXBMRkwwRy1wYXBaeFhLY1RkTTlLWUxLWjY1ckdKUHZMc0RkNmdFcEpHdXVkN29fQndoQUM1UkhVTzczZm54TDZFNjFtWk1kOWt5MVo3QS1uMnMzVnRwLVBCdTRfYjlmRGFFRlVOR3AwTFZJXzJXZXp6dGVxSW5iU01XTXlMYkZBQ3U4bHU5T3A3ZU9vSEV0U1dzbkwxSEZhd290X01KSXlHd29CWXR6bWpLS2lWR1B4ZUJEX2V2NTQyNkFvUVBNM3NGZFNjdkpBRDV0YWREUVQ1MmxVUElzelFnVlpyUDZKWjNpREE?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 01 Jul 2026 18:57:42 GMT",
+          "fetched_at": "2026-07-02T14:17:41.790470",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVJ5OTNfaWNQMGhnWDNyM2pOT2NkbTUyczVwS3Q0TW0zZTA2aU41amZXVGxhd3ZIYy1mWlhmXzd4R3VqaUhpZFNZcVNqSHpQSjBNM1BCSUZUX1JlR20tN3A4V3pTeWFORWMyODlQM2s2TExZcDdFOV9UbVBKOGI1akRxTWhFRmZNMjhZNnNfSnM2U0dfT1RJTkJTSkdrTVpQ?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Thu, 02 Jul 2026 14:08:04 GMT",
+          "fetched_at": "2026-07-02T14:17:41.790485",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK defeat KKR by 32 runs in IPL match in Chennai",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Y5OGpsQmhWY0hOU0JNNlJBS3dzdVgzM2t5MU1sOGxfcWl5ZHB1SXFKRFM4UHoxQTBfcndfeXdEczYzc0d2eEo0MTQ1VS1pNHZOQnZicDh4Rnk1aktNU01ULURtR05TMjBONEtGdW1TaTJzS0I3LVlGUGl2WDNkdg?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Thu, 02 Jul 2026 07:11:18 GMT",
+          "fetched_at": "2026-07-02T14:17:41.790490",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Squads",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaHNVRTc1LUJObkJfaVBHX0ZHNkphWTd4S0laTGdZdE1zLTNHVzVwT2dmZ0tYWktFWFpTVU92WDRuOEFtZDNkSkhqZE9FMURUY0wzeVBVNlpiUFB5b2hST0FKQVBZUkJKNk5aR0tXbWl4eHNQOWhueUlBT2IwZmRfQ2hJMWRHT0FmSVNPTkIxMkYyNEFrZ21SdzZRdlI3d2VTLXc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 01 Jul 2026 15:48:11 GMT",
+          "fetched_at": "2026-07-02T14:17:41.790493",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK vs GT, 37th Match, Indian Premier League 2026 - Squads",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVcyWk9MT0Zhb3BzaGpPSWExR1d3TUhpbzlGZHEtamhqUTVTZFM1aGRFSlVPdXdwbWF2TWs4aU1fTGZoLTNGaDZzTTlsZUVGbFU2NnNxUjVVQjZWTHl3aUg2dTNpbjhMNkJLMUpLb0dkY1lMbWhuUC1EbGZ3MkpES1BYOWpxN21FM1RNTjkzVlB0aXQ0UXo0b3hSNFFEckN4T3c?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 01 Jul 2026 07:43:28 GMT",
+          "fetched_at": "2026-07-02T14:17:41.790497",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -566,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-02T09:27:58.998269",
+      "last_updated": "2026-07-02T14:18:57.777958",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -650,11 +648,11 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-02T09:29:00.990390",
+      "last_updated": "2026-07-02T14:19:55.420706",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -726,53 +724,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Hardik Pandya trade: CSK enter the race; seven franchises express interest",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTFRlMmVpUmt3VDRyQkZHbzVmZF9FNmIzQWwyWGFDODBMaFFkQm93bURKbUZIZmwwMTVjR0hZVFRMSzhMZ1B4UTRabEdTdVI0WHRwVkZ3RGFzZm5IX3hFcmcyTW1DSFo1Y2lMQ182cmRKb3hnNzR0SmxaNE5nd01KYTlON1VubDlMbWtraFZUWVFsU1ExRDlzN1RIUlFmaVpKZUZXUFFBQUtuMldOMHlQTjN6UkF3VzRFcnB5Y2daY0NxUldpczRvdWlteWhPNFEzNS1WY3RBU1JDTXA3aU9xOFc1TWw2dzJDMmfSAe8BQVVfeXFMTl96V1pHTDRrQVBqQzYtX0c2U1BUZ3JsdmcyekZDeGl3NWxhUUlPNU94VFdTaXBPQzZJUjhHV3p2b2kyNGJjUVh6bXRaWEE1bm5kOUV2RWo5SFNnb0tzTVhnc1NZWnNqV2xGTkdEQkl4MzBZSWtXUG02TERtb1pKUDVuOVktU3BsME1MaE5RY0RqakdIdHJ5NnNSR0E3QTd3Nk1NSWVtdEZYN2RfNkxfSUdkamxRUHhQbGgwQzBrSVp6WkpYVm1NajRHcElsU1RieUsyTjZMWHZfeGtQWWNPUXdQWno2Qk5Hc3RlVDVfYWs?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Wed, 01 Jul 2026 06:24:00 GMT",
-          "fetched_at": "2026-07-02T09:28:27.983057",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVJ5OTNfaWNQMGhnWDNyM2pOT2NkbTUyczVwS3Q0TW0zZTA2aU41amZXVGxhd3ZIYy1mWlhmXzd4R3VqaUhpZFNZcVNqSHpQSjBNM1BCSUZUX1JlR20tN3A4V3pTeWFORWMyODlQM2s2TExZcDdFOV9UbVBKOGI1akRxTWhFRmZNMjhZNnNfSnM2U0dfT1RJTkJTSkdrTVpQ?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Thu, 02 Jul 2026 09:15:20 GMT",
-          "fetched_at": "2026-07-02T09:28:27.983072",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK defeat KKR by 32 runs in IPL match in Chennai",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Y5OGpsQmhWY0hOU0JNNlJBS3dzdVgzM2t5MU1sOGxfcWl5ZHB1SXFKRFM4UHoxQTBfcndfeXdEczYzc0d2eEo0MTQ1VS1pNHZOQnZicDh4Rnk1aktNU01ULURtR05TMjBONEtGdW1TaTJzS0I3LVlGUGl2WDNkdg?oc=5",
-          "source": "News On AIR",
-          "publishedAt": "Thu, 02 Jul 2026 07:11:18 GMT",
-          "fetched_at": "2026-07-02T09:28:27.983077",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Squads",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaHNVRTc1LUJObkJfaVBHX0ZHNkphWTd4S0laTGdZdE1zLTNHVzVwT2dmZ0tYWktFWFpTVU92WDRuOEFtZDNkSkhqZE9FMURUY0wzeVBVNlpiUFB5b2hST0FKQVBZUkJKNk5aR0tXbWl4eHNQOWhueUlBT2IwZmRfQ2hJMWRHT0FmSVNPTkIxMkYyNEFrZ21SdzZRdlI3d2VTLXc?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Wed, 01 Jul 2026 15:48:11 GMT",
-          "fetched_at": "2026-07-02T09:28:27.983082",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK vs GT, 37th Match, Indian Premier League 2026 - Squads",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVcyWk9MT0Zhb3BzaGpPSWExR1d3TUhpbzlGZHEtamhqUTVTZFM1aGRFSlVPdXdwbWF2TWs4aU1fTGZoLTNGaDZzTTlsZUVGbFU2NnNxUjVVQjZWTHl3aUg2dTNpbjhMNkJLMUpLb0dkY1lMbWhuUC1EbGZ3MkpES1BYOWpxN21FM1RNTjkzVlB0aXQ0UXo0b3hSNFFEckN4T3c?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Wed, 01 Jul 2026 07:43:28 GMT",
-          "fetched_at": "2026-07-02T09:28:27.983086",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -780,21 +732,114 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-02T09:29:06.500089",
+      "last_updated": "2026-07-02T14:20:14.499336",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 10:51:13 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262693"
+        },
+        {
+          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 23 Jun 2026 13:34:48 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262705"
+        },
+        {
+          "title": "Simulations Plus (SLP) accepts $18.50 per share all-cash buyout from Altaris",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcmFUVmk2U283eHVvSDVBdGZGYmVvdk16NldtdngtLVAwNUhzZmplS2RDbkFxNzJkUkZvM0pHT0Q4bXRsQWlzVGF0cHpOVnBWZ2xENVl4QlBVaUdpbVdIdFdFSmhLSVNUNnlMOWdKN0d1cUZ4OUhOWE8yRDJXbTVTT2NwRVZ5cmljWjhGVjNOUVA5VlNkbjBmYzZ3bU9vdTVFeW1mRTZYa0puSlJ6?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 16 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262712"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262722"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262726"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262732"
+        },
+        {
+          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262737"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "WVUA 23",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262742"
+        },
+        {
+          "title": "Simulations Plus (NASDAQ: SLP) agrees to $18.50-per-share all-cash sale",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaDdabUNrT1JiYmlEamEtVTdpbURCY0NGc25GY2pBaE11TFdBSU1kNzk4UHAxTFB3QkpIVmNTZjVzTTRWTkMzcXp4NG1hcEcwR1YwRXRGM0hsWENSS1o0d2tRcXBOQVFOU3NWMmpGS0hpTFNoM2tlZnhxRDVoalpONkw0bFV0NmEtR053dy1yZ3dLYmFBRXR3QnlqdGZTcU1SekVfbHVDcHF5YTUz?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Wed, 17 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262746"
+        },
+        {
+          "title": "Premium Quality Matting Material Trunk Mat for Jetour X70 Plus 2025-2026 (Washable) | Perfect Fit",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUDlKVWJvYnAtci1wc3ZGNTlYd2VhTGdiTVY5Wnk3Z0lLR0VBSFRKeFlJcXlLT2pRc0lKcTRWRVk4SzdRWG5mQzF4LVdPXzR4aUgzb3YzUG0yblQ1UXZTbmVuVV9lVWRyOXdwbTQwMzVoUlM4WHFERkNUMlREZXRVaW9vcm5NUjdTUzBieER5dXBXUXFtNTBGMVdhdk1jbG5CdnB0QXNDdXIybGxRRXZrY0ZWbDEtWWNXOW9VeHpQTnFPallBbk1iVkQ4X0pyalUxWHg5WDU5M3dfVURUOWl1VUxSM1k0SzQ?oc=5",
+          "source": "Pakwheels",
+          "publishedAt": "Wed, 01 Apr 2026 09:48:28 GMT",
+          "fetched_at": "2026-07-02T14:20:03.262750"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "we+ explores craft and digital fabrication through material intelligence  [8-K] GPO Plus, Inc. Reports Material Event  Simulations Plus (SLP) accepts ...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -831,26 +876,6 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
