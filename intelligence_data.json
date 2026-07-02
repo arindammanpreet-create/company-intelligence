@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T04:09:30.514914",
+    "generated_at": "2026-07-02T09:29:06.500104",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,21 +14,43 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-02T04:00:17.384741",
+      "last_updated": "2026-07-02T09:21:48.555790",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Reliance Industries",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Reliance Industries: board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "SP Group to issue Rs 25,500 crore bonds against Tata Sons stake  Tata Group honours war veteran for two decades of suicide prevention work  Tata Sons ...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "Reliance Industries: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -68,29 +90,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "SP Group to issue Rs 25,500 crore bonds against Tata Sons stake",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNWZYTlFOaTQxUGZvSEU1LXBoQ01uZ3N3NGtoN3VqQTl1a3otRDVkOGpzMUFKR0VsRnBONmxPM1dkR2lNS1poOU5BTlpmUnRwSEl5N1pkQTd1alNuaFBzMlNFMG5GdkdTeFdoLTFOZG14a045YU5PcTdDZ2lPVzNCbi04ajNMaHhKUDgxUVBYczloRTdYMFdJNUlJOU5jQlBmWFgzc2VsaVZUSS1Nb0M5NHFQLUZhR1Q2UktlUE1iM0Y3aTFzNWJ2blRR0gHPAUFVX3lxTE9aN0FpX1J6N2lWWDdMUUU2R1h0eHlPNDZ0VlVpcDhmVjhzMU9NMFFGZ3dYano5elJVRzh2dXQxN3BsZ1VlTjJHTkN0cnJtajdoRk1iQUdmZjFsejFNNmt0aVdZMXhTOXJIVUo3MmtsMzgzQmRMblB0Wk1feW1mSVpHdS1OdS1kd09MWTdXUTRqcEZBWEVyVFlncE5uR3FYOWlyUWpGTlYtYVBRWkZMSHFKdl9IRDlscXJxZ0M0cTVBbU4yaFhRQ1dqcjhwQWRRQQ?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Thu, 02 Jul 2026 00:43:30 GMT",
+          "fetched_at": "2026-07-02T09:21:18.479466",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tata Group honours war veteran for two decades of suicide prevention work",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMlpPSDE0OGpjYUJ4Nng1R3l3anNoRHFlMXFUOVYwci1QSy1aS1hOdmhyOW9IRF9HTGdqT2pkOWc4TXBTVWo3aG1hcjJTRk1uRkxLRVlZZGhQbDlKZGlhYnJCaEU5ODVwWnhUandWUDRyYldLSzNQVm9FWGY3Mm5tZi1DczFxdVp4SC1rZmtadVRHS1hmYmpjWVN6NnVxUUoteUI2REtoRUVPYklrbDBzUzdBNVA4VjBMbTN5bUY0eXBlc213RkRNRTNxYXlrdlc1Y1YyX2JjONIB3gFBVV95cUxQTDBTQkVwV0Fmdy11TVR1bDk1TGtTaHZwcVhQdmF4b0hfOE0xc3RZT29Eb05vNjVyMEZETkc2cmxwN0VRb2RnTHlPUnY2SnpMVUtTUkVYMkt0YUpRUlhVbDF1UXJSWFRUWUlyV29mVGRXcl9ZeGZ3YUc5Q0JsMWNKUThoNW5BZk44c1daSV93TFVaTVJDNW1CR0tkbDNId0JJcDlIT1M2RkxWNHVQX2FmZkpJOFhjb3djUW5RYWlHWWptdjhZWHhqTDZ4UDFhRFNQWlBkZVNUV2pIRHNBUFE?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Wed, 01 Jul 2026 14:21:46 GMT",
+          "fetched_at": "2026-07-02T09:21:18.479482",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tata Sons AGM to decide on Chandrasekaran's board reappointment amid stakeholder scrutiny: Report",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZlh6djFNSG5CVDBFMDRVRWZBYmRsbHJIQTRzWFRYelgzS1dPYzhMTHBtdVFjak1ucWdJVjVvS08xUmR0Zzl2bURoU1o3dmN5aklGX2NsMWVNcHBhUUJ3U0dpVFJJeHpZRENfTnZjSzNlX3VpenZnOXczTnJITTRlLXUzTHJaR0tmUllCNjNBUDdwRGNhN2RBRkQ5Q2I5a3l0T2p2blJURGw2WUtJNnBZaEo0V0FHVVZmalE5elllWGltUFBBS0RnLUZhTGhWWUkzdFZnZnlfNHc0Rk5lSlVsNXd1OXRGelRC0gHuAUFVX3lxTE1DaUtwQWJUc21Hb1pvSjZ4R29lR1YycHlXVE95bUpKRFgyeERQVWQ1RnNjeklCU1VjTU4tNmZZMm9WR2ZwcGI2UmpLaVo5SDQzM2NUaWhJbWxtTktsX1FiOVVwc3Y5Q3dOdUdhMFEyQnh1RVFaYnhCbkRTc2ticVMycl9QQnVNQXpPZ3ZieS1vOXlqNEVKX0lZRlp2TWd5ODR4SEVYOHFGUHJLZGJidjF4VVd1V2NqX016M0VEaHhSTGV6YjhfODFzUHk1Q0lBc0lwdDg2Q3M3dGpfSlhZdDlHbXBaSWgwa1NSVk00T3c?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 01 Jul 2026 06:51:58 GMT",
+          "fetched_at": "2026-07-02T09:21:18.479486",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Mehli Mistry steps down from Ratan Tata's family office",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaTNDTFI3RnliRUlRLVJkdGxyXzVzLVRiWUdKaGlQMmsyakJzYWNfTVJ1eHFVSk54LWJQOVlnekY0RURKWG5JbUV6MHhnSl9fVnhOcnhSVUNZdDlSS1RjVldPN1llTXRzdU1PeG5Qajg4Mk9oOHR2bHdrWk1SU3RUdWVSSF94U19Ed3JGUmF6QUFPNS0wMFBlb2IyUFdwc0JqdUhKd3dsSUlXMzVfNFdnSy1tOHZ0eG5EQ3k1a3NWMU9lWm5OVGFURNIBzgFBVV95cUxPV01kUHBCQk1IZVNwbzJTZHg1ZkxXdzVwaEZmQWp2WWZqQU85VWJhMHMtVW90ek11b2tuSmxVZkh1Q2htcUFzQ21aT3lzZDViUUduQzNCZHZBdEV6TnBZeFByRDdhaWw4R3FOSl9tTV8tUGhuQi1iTWZIaU5tTndHMzgtN19sN1RobmE1OXNwbUM5b0U5TlFsRkUwYkxJMHlFajBFTmRKLWxRbnhFODFzZUNSS09pQlhUbE9CTzFuc1F1SEVxczJfa2hRMkZpZw?oc=5",
+          "source": "India Today",
+          "publishedAt": "Thu, 02 Jul 2026 07:13:13 GMT",
+          "fetched_at": "2026-07-02T09:21:18.479490",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tata Group Commercial Vehicle Company Reports 27% Q1 Sales Growth; EV Volumes Jump 4.4x YoY",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQjJjcWJHVFZqbzZGampfY0FsdnlXdHhYMHp0RzRZS2duT182bEUxekxULUJOOUVETnJTQS00TDBnR0hPWVRiek9iMGU0VXhvaDA0SThsdDBZMEtsY3pod3dINlV5WHFRQ0FzUlJ4ODA3OHVPSmRJUW1kdmFveFF4UDN6NHpiV2loVWVyb1lpS0JBV3pSSE13VUJkcWVQdGM0VjhZTEZ0MTBXc29TZUd5eUFIYll1YWVjT3N1WHJOVWthMVNlV1JReDlYWlRDYUF1WG9J?oc=5",
+          "source": "Dalal Street Investment Journal",
+          "publishedAt": "Wed, 01 Jul 2026 10:40:42 GMT",
+          "fetched_at": "2026-07-02T09:21:18.479494",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,18 +146,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-02T04:01:42.353010",
+      "last_updated": "2026-07-02T09:22:48.907913",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -174,53 +222,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Tech Mahindra responds to claim of employee abusing job-seeker during interview. ‘I was humiliated,’ says candidate | Trending",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdTFUVndKRTRYcTBuR0cxZVJwM0ozallvQ2dBWkhidUw5WjE1bkhKSzBZSTlXZWR0MHl1Vmt0ZE4xX1lfN1daN2FEZ3kyY1dXQzU5R1BjY1RwT2JOd3VWcHU1cjZqamU5Zl9DWElsdU8yR3I5T25SSjZTcUVuTl9ULWpuTzhZd1Z5VmxnLV9ocUNaNzI1a3FBSElWc21mTUk1cngxYzFqS0RoS2FQVmZOamFiX2FnaWZpTlJwcDI3LWlvS2dpMDM3WGhhSkRMeUVVeGlXU2JrWdIB3AFBVV95cUxPVEx3dkprazFhX2h2dXlONkxRaFZTSmx4dVNZOTl0ZDZpeC1JVnRsS3o3TjUtTUczZGF0ZkRwZDZkQ0tHY2xoUzdmNUFCdi02Rk0zVHRqaDlmcGJuUjhQZjk1MTNWcndoLWhMYVZ6aHJUSHI4RXMyU3lLUUwxUy0wODBaTzJoakxFOTZXeHM2S2N1dWQwOWVNWDZPUFVuNWVfbDBXZE9MOTZqblhSNzl5ZWJTS0xiRTZFUTFMNUdLQXdWZjFQZ2M3SEc2cDI3RW1Mblc5b19USzRLY2NN?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Wed, 01 Jul 2026 12:17:46 GMT",
-          "fetched_at": "2026-07-02T04:01:28.209870",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra and Microsoft collaborate on advanced Network Digital Twin for 5G monetization",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOXzFnaHJFVmJUU2pvYXA4RHhQZzJxdW05QjVlNWRZSUpqamFVZTAzd0g0MVZFQzNOZHZzMF90OWdYRE9leFM4WVdDN3FLaE1ETHlPWmR6ZEJNVWFkd3NveUZ2RkFfT0wxa0FiZF9NYjdoT1VrYndMVzVLSmpmdkZLNDFQZHlxY2dyeGc2eXJEU0ZEMzViWmtIQ0tndEFIanpJWmlxd2pMZk03QXFrNlhmQUlXbkhWbVJ3RWhZb09kNE94b0ZyMVNPRzVOWkRHUnFKOUg1SVlkdU5pcGlDaTd4cjFITEN0ZWRmWHk5eWRMdGVydjZPbHfSAfsBQVVfeXFMT0xOdXR6Ykt1WC1FWDh2SlRrSXdNXzc1Wjg0LXBrNGxVc2hHXzZSSFVwZGFUX1VhdjdSelpCQ3ZrRF9jdlhQWGNfdXQzejNOYkIza1NlMmlPcVA0ZGRGc2twXzFFOUstTDZJak1QM0hhTFZ6MW5ReTRkc29RUlgwa2hzemxnWDVkcW4yOW5zd0szQzZHZVR1Z2RPYTc4TXpyQkw2cUtsNGlNX0RMTnhhZ3l0dnNnMnFCYUtMcmY3aGRQcWctWEJ2d2t6Rl9QeGF2b0NmVEdGT2tweGkyZlRpVERDbXhYY2xWcmhiX3kwNWZLcm9fckxQN1FERmc?oc=5",
-          "source": "Indiatimes",
-          "publishedAt": "Wed, 01 Jul 2026 02:36:00 GMT",
-          "fetched_at": "2026-07-02T04:01:28.209887",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Nifty IT falls for fourth straight day despite broader market rally; Tech Mahindra, HCLTech among top...",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNRUlmcWxidnJYNXM3LV9iY2RMcmhGUnFWRWVZTndzNG5fY2VMazZQeUdISlZwWDkxTDIydUNiR1lST0xqa3MwWHpCWUNuTmgzdktlTlNCUFF6d2J5WjhEYkQzTjFzN0syNi05S1ZvLW9fUEZnUUJIV3RQbHZCbXlON3FpUFFPUDlaZF84RkhZaXFPQ05jbzUzQkZNeG1PYWNidnBXbDBTT3J3dXhrRXdUUnZXZnh3dmNFS3lPOTVKRklDS2lMRGhfYmx6SF9IY1Rtd3VVLS1lQzk4YzdEeGVNc2FBaFZsQ2t3WXNoMzhudHYxVWVaNTVOMDA4c1RSOUc30gGGAkFVX3lxTFBsZUFELTI0WFBBQmhyR183NXdrenNnaUFOTnV2cnd6MEtCSFFBbnJGeWVaNWdZeTdkOUd3al9GdmdhSXNZOVRPOWc1Y1ZVZ2lDcmcyR3ZKbmdxOElMY3ZXSmVoekNYSy1FdGhMeWZKNF9zN1FBcGVNZzNxQzNUZG1oc0Z5TVdEb2RIdDVzUExJWmtDanNBNGRBVE5pX3prMF9iTkpUWjhCMElRMFBNaVhfQWhyZ205T2d2dDRnT0hEUlExZ01SOXQ1dWpIRjBNdTZST2h5bW1VRUx2eFJ4dGdBdHZhTmNWY2VnOVNNMDZUQmhhbVV0bUVkQmdnbmxxdk5lR3R5Nmc?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Wed, 01 Jul 2026 07:04:40 GMT",
-          "fetched_at": "2026-07-02T04:01:28.209893",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra's Closing Figures",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWZHLWRqdEtaeUxvTVJ5UENmT21lTk1oQy1TM2dfVEJVQ1RBZHBHYzR0SWMwb0IzRzJQbmxWQnc2Yk5KTzYtY3JSS1ZIbWdmSnZzTlJabmxuSTJnMGZOY0tZWG1iSUhucGtwYjRFaEtaZlBmWHhkXzRnanJ2U0phNmJFNHFpT2FocURfWVI4TDRUNGhibFp5eUp0a3Z4N2lpajA3aDVkUVJ3T09PVWw0ZG1uVEF1a2pKVENWbUcxWDhSWVRXcG1DUdIBzgFBVV95cUxQZjhsMElJV0M2aTloMkV2aWJKWFhidU5yZlM0QTN6eHctMXR0Q2JiVEllZ2cxMXZLVHBxXzczVFRJSS1kR2JiSnMxUlAtaHUySzZ0bS1aV3JWWUpGTUR5ZEc3T2pYX2xhVXlLdm1YM2c2YzJQdVh4ZzduVjZpeTFsT1lBUjl5ckVfQUR4REpURHJyeV9nWHB4bDRoV3pDdUUteHpBa0ZSVE5ZT0dRY2lCSE9YVVg4TzNtMDBYVG9PWVNmMVM0Mmd4aWVmVzJOQQ?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 02 Jul 2026 03:10:57 GMT",
-          "fetched_at": "2026-07-02T04:01:28.209896",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra partners with Microsoft to bring AI digital twins to telecom networks",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQSldlM0h0STJmUnNPendLRDJFNk9fNm5HVUF4RS1MWkFZVlR3QnBfbk5TUGdhbEJ6ZUUxdGlxWEZ6VlNxQk05UFYzT2FUV2dQTHRsbFhfMEdBbVJidHdMai0zUEkzUk84bWhhS2JjaG1ITG9xWWsyaFV3dzZrRmsyTzJZdTY0azVESHNVczlubFRoNlpVZnFBV29ob29PbUg2Zm80dDJaUFJGWTg3SWJZc2JJLXcxMkJPZzhUbDNFcDJHMl8zcFRtaXFva0tPcmt6X2NseXJNcHNzalgzczBxT19VTzZwRFhhTXB3a0wyX3dyMGxNaUw4LdIB_gFBVV95cUxPclFwMUgxYlJ2cjFRemU3U2wwX1BUVXpMdTEtcEhHc2tna2VyR1ByM3VnbjEydE93aEEzT0ZzUHAycWNENXpkMlFrbTMyd2tmeHFkYllxMjl4NXl5RFBFUXY1N0RFUjZSY3RvY1RabVBueXNZeEZGOGdveUdXbm0zUUpiTjctRGtmVU5qOTdkN0FMSGlmWGdQMXRZbF9FOHhxeEFXWFFjRW0wTXIxRUVUWmh1Q0xIM0hhWGJNcTR0Q3JIOHFzRXhnd3VSQ0VnTE5IQ1NzUEpsRi1UYTVYOFR2bjd6Ui03eVFyTmxER21ISTNtc2N3aDNWNUt1SXJmUQ?oc=5",
-          "source": "ETEnterpriseai.com",
-          "publishedAt": "Wed, 01 Jul 2026 05:48:31 GMT",
-          "fetched_at": "2026-07-02T04:01:28.209900",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -228,114 +230,21 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-02T04:02:34.922354",
+      "last_updated": "2026-07-02T09:23:41.622713",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
-      "news": [
-        {
-          "title": "Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaUxkNUdzTGR2ZWZiN1dOV3h4STJEV3FwMHMxaGJKdURvM0x0aUxaVnhxcFJuVkRxQUU2Z3RmdHhPNE16OTctT01WZ3FxSEhqbllfN1JOVVRPMEs4TVAya2hkVVVQTVZhdVJRZkY2bFhVdDVVazdVcHVKZXo0Tm1DU3hVYURwV054S0I4MTk3ZEh4MndadWx5VjN4WkhnbmhxcXlBMWh2SXp5cmx0MURheUFVelZkY2Z2SnVHVzY3SFZLSFd1SnR0TWhQV2lYMlpWM0JuVXdTLTFkdHF6YXREX2tYNkwtUTRl?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 24 Jun 2026 10:05:54 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006370"
-        },
-        {
-          "title": "Infosys stays silent on CEO succession at AGM",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZU9xbDE3cnJRU3NDY0tZNmVpRnR0RG4tSlpJUlAyelI5Ung3WWdmZFRVVGRLdGVrMzljZExXZlYwLW1ocUxzZ1BIRGQ2dnBZY050WV9LZXdPb1dBdlpqZlB0ckVlU0pFbDNOVU9XMmNkU045bXduZUVSOGJQMjhQMkh6b2tNRW9ndmVRbVQ1MUllUFdBSmdlZ3NlWkFoNEJsV2tOaUdlaWcyOXNxd2VGR2NvRjhvMERkVUF4ak5FWmtmSUnSAcgBQVVfeXFMTlQ4LXVaOUJwUVFvckZLazcyQ29GNnpFQlY3UlNjQXVfTW5DcjRucU9jSTllNXNvcWRpdGtiUnl1M1lNbzZyX05iWmNjYXlBcnVXdVlvN2FBWWFtbE54Y2Mzekt3YU1ER2RCZzdCV2hRbjJ1UzFhRC0tTlpyWkdhM0FCa1FfMmJrbnRPaDUyWlFnYkhKSTN6MnJvZDRvT2hsVWRZTWk0XzRKV3E0QmtFa2RVM0hxck43cU1kQ2diNXFrX1hvQVBINTc?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006387"
-        },
-        {
-          "title": "Unlocking AI Value: Salil Parekh on ROI, Jobs, Data, and Governance",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oWDVGNUVCeU14Y1I5dVcxOXJBb2xwVzYwdWdxWktNSjdzdmFiRFdYc2NNNWFpM1o2bmx1YmdwOW9EcmZPXy16ZFdPWHBEdkJjYTN1LVJBajVDbkJsZ0I1M205cWlTdGRRTVE?oc=5",
-          "source": "Infosys",
-          "publishedAt": "Wed, 20 May 2026 09:06:54 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006393"
-        },
-        {
-          "title": "What Powered Salil Parekh's ₹82-Cr Pay Package At Infosys?",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMFgzaTV2OHEwaEp3TlpPWGR0SFlrWEc0NkdLZHdpUmVyOHdsdVVBSE9vVmdzZmIxcy1SZmJtakVMVExvRk8xNHBkdDk1V045Um1vTDZUTGdubzZzMmJWQmR6a1Z5bFFrcTJWVkF6ZmRGdUlUMTN0Q2I0dHR1VW9Hd1FMeV81OXh2STRwZzBuaTd2OW9QRE0wZXBPX2FRd9IBqwFBVV95cUxPakNaR1o1TnNvU0ZiSjhQbUFGeVkzT0hTYXdyYTJJNGZqYnVpWHg3Yldia1pNS1RfNUliUGp4MHFPYlhzUDkyTldTT1lqUDNudmViZThkVzV6ZndKNVFYa1g1WnlRN2hFOUpJUTd3ckpVTHFtblZkMXdsZVFUazRPTmhIN1lIeDZiNUVORWVsT2puYy1pTTdVNWVNcEdMb1dsZG5IY3VzRUVSd2c?oc=5",
-          "source": "outlookbusiness.com",
-          "publishedAt": "Sat, 30 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006397"
-        },
-        {
-          "title": "Infosys CEO Salil Parekh on AI tools replacing engineers: It is not that overnight everything is going to",
-          "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQX0dkNTFfZ0hteHBsQVhMbDBqSUh4V3RYbjRMZ21Xa3NTa0pOWEFmUVBQOTFhdHUybnp5MmlsMWlCcUpDNXVhVVMyTFFGdkxIbEVGRG94NEJoQl9fSUVCODhnenMta01Fc1BWa2ZlUHVhSUdpMmNadm5hRHZ3S19kMkRNbzNrYnpDVThJbmdOQllFMWNYMjNqNkJGTFlNc1l6THQxeDM3a3lSdzBleGpaVUcyY3FuZXVUc1kwYUktRjA4ZHExZVpPaGF4RDZ2ZC1VY19FcUlCZmo3YzFyR3hLY0paX0VoUEdHWWVrZzJIdmxVS1Q2VGlFd2xnTHRfX3k3VXdQcXg2R2kxNG9CVEE2RlhEWERoeGFsekhTcXlqSmhRU3RXaVllOXBmNzNXYlB5T0p4QlhjNUFDNFlYbGVpcjdCUHjSAcoCQVVfeXFMUElweEE4SGRrb1JSVkVsa2hqNWluWDdadm85X0JjOEhGNnVfZDFGUG0yN0VhNWJrQWFPTXpKVUpNelowV3ltZkFBVzRjbE5TTjk3TGFEX3R0REd3aVcxTTNNMFFndHJHSGNRVE9YZHFyVUxsaUhWdDdkcTJWMC1lU1VOV05rWjg0NWttZU1WOXhacmVkbjVuQjRDZ3JTbGZZdldLbXppTVZaSksyMWVKMlEwVkxUelhIVzkydklMZHk2XzlaTi16ck5nTS0waUxaeFd1S1lYQ3AxLXBQQVYyUGpaV3JfYTlWNjJPUE5jOEdhWDdITUdRZWE1ZGs5bzBFbjRrcjEzdV9mRzBHOGFMREtjS2w2eDF3cE9NakliOFBnR1IxcEpBUGxyeWpCWWRYVE5MYXgzdDhxWE9sb1BNb1VGd0RPbnZjZFBR?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sat, 21 Feb 2026 08:00:00 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006401"
-        },
-        {
-          "title": "Infosys CEO Highest Paid Indian IT Executive",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd3NrVmxEZHBLa3RzdVRoQUd0Y181TzFLZEtfY0tpalFLb2pncXpNcVNSUjZNUzJCLXFyWTlaU0FMOUFXQWxxelhPNzNaSmRkeGlwdjlGTGRsZFZMZWJWdFQ5bjFDVGo0UE81RVVqU2FlWXgxdjAwNnlMZHkxQ3J3Wmk1VWt4N2luRDBveGIyWkwzbTl4ZTBYMWEyaEd1T0ZhNEplRmpMTG5nT1hkWnRVU2ttenQ3NVpIbExJLXlYNGZ0UUhwczhz?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Sat, 06 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006404"
-        },
-        {
-          "title": "Infosys Clocks About Annualised $1 Billion of AI Services Revenue, Says CEO Salil Parekh",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPamdqY01sZHQwZm92Um9lTXBsU2E5WlZGNXZicWVBczZOTWdJVm9YWHdSdEQ1YXpPN0hxWDlZd0YtOW9tamphZmN6WkQ1S3N6cHNnYktFd0xUUk1NQnlObDUtSmdsWFU3U2lPLU12RUx1ZlhGcS1TN0xqZDhob3lVQ0ZMYllZZjMwOTRsZ1RYRjdyQlhJLTlTTExQdE9jWklhaXYzSW92ZG5zaUxQbzdlcA?oc=5",
-          "source": "HDFC Sky",
-          "publishedAt": "Tue, 23 Jun 2026 15:53:34 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006409"
-        },
-        {
-          "title": "Infosys CEO Salil Parekh's FY26 pay rises to Rs 39.82 crore; TCS CEO Krithivasan earned Rs 28 crore",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOFVqMVc3R2VHU1pLY25sZmQxa184NFNHNkdZenB5NWxKMlNOQU9UQ2xSLWdYLWxYUFRKNlRORVdLX1pTMkRHMVQwNUJMRERWc3JmNXRDMGVyUmFZN0c4Y1lTakc3ZFd1QnVDVDdsUmNLeW5DdVBHaXRianFYSFV1R2NyN0NuUUU4aTBpM2hvZnhWMTQ3OFZDek5qanZJQ3I0MExRcE5lMWlkOTVELS1rUEZiTERJWmZqTEpOZU54MmdDTklfYnJGanItMjZRUdIB0wFBVV95cUxOd0NpRzFNeWlaMlpkYnJfcjJXQ2F2QXBXR0M2MVNrejhjM21BYTdZRE1vTS00MVVUSU1RQmpCYkwzb240eDFST1U3STVTRElkUG5YWE90SnZXcExJNTFCSUtYV0VYbDVPSUNIdnk5TUp5SUJpZUVUNEtVUDdEelJxMDRJak5qM2xXRGlrUHR0ZjI0QXZVR3MtQkIySFNhT0M4Y0dWYm00NjBWRXh4dmhXa21vWFZDQWZGdWEybFVUOXRqRkQwdlptbUhhMHpYTWVCZERB?oc=5",
-          "source": "Storyboard18",
-          "publishedAt": "Tue, 16 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006413"
-        },
-        {
-          "title": "Infosys’ Salil Parekh vs TCS’ K Krithivasan: Which Indian tech CEO earned more in FY26? | Trending",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQlYtVVg1dTZfZU1kS2tGbTYzWXJoYlFvLXhUdFczM09UR0dqZ3VQQ2RENGxfZ3pPV0tQZWVtZ1Y0ZXdvSXR5dTdfa0RfMzJfTEJNbE5FLUktbERwOHNWbFFoSmc2c3p0azFfYjZZMThsSXhVWGQ4aGFoZlh6ZHctN3FVVGR5TWlvVjVwZXJtZWpyT2NJZHUzeVpLVjZxZWdMN2Q4RTRxYl9FNGFsenl4V1YzaEp3M1NxX0NvWUg2Nzd3UXNsUncxM0x2MWRMSG93SnR2aW5jY0NzMVJl0gHiAUFVX3lxTE9VSTQ4ZmVwM1A2bDBtY3B1OUYtYm8wbi1NbzlLa1plZktBTlgyZmR2YzNHTFZtUjIwNUpLVkxlVl9PSjJwOWZzNTJSRHlZaThKblk5OS1tcGFFcjZmZC1IS0dNU29KQWVwbm1SSV90R1RzdFdCNGU1Q1JJRVFreUQ2U1Bmd19ReFA1U25tWlZwSjhOYUdGR09teUVCMWdmVXZ5MHk1X0dNWGE0N2x4azYwbG50UWVZRmZJOHI4bXFhOVg1N1I1djUyRHF1cGl2aS1QVFJma3V0WnpWNkhZSEQ2VEE?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Tue, 02 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006418"
-        },
-        {
-          "title": "Infosys CEO Salil Parekh’s FY26 pay rises to ₹82.6 crore; company crosses $20 billion in annual revenue for the first time",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSDBKenlILTc5UmZFb25ZQzF3bG9WX0pvdGhoZnZEdnA1eGZ0SVpiZk5oaXpVYl9iVWJuaXhUcDFWNzZVWkhJMkh4TUlLTXV1c2NQS2NkX1V5V0FyMXpTWmVKa3Rzc0FNVW9MZzExVV82NEVMWFFLQXdvRnJ1UlNoZ25EVU4yZzJiN3VtNGR0N2c3V3hsNzNtcUxBc1JiYnBHcWIzZmRqdTNzU01LOFBIOWptRVhvdlpsWjhjQnlldE9kZm1OUTBTSURNWVd5VU0yT1B4ZHRFaHY3dlFW0gHqAUFVX3lxTE1vc2RURkVvRE42RXdnQ1pMNVhhNW14YjkzWFdmeG1TU2ZydnphZW5ib2tMSHUzSy1VcWhVN1NCdU93ME90WGVFVTU5amZnc2NCS0JZT2dvVHhvaU5tT0FWcVhaZ1djcFlDWEtHYmE0RVRlTGVNMERsMk9VUk53bjR5ZG5iNXVQbVVCY1Zick5TT1UwYjlRTC1QLXVwQk5QQkZPV09UOWNScEFHY2tHSEVNTUI4dnBfTUQ1dFU5NlJTU2Vlc2RERngzMGpVVjR6RlNkRWNBc1NiMFNoLXdGekFsUkc2NXJSdEMyQQ?oc=5",
-          "source": "Fortune India",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-02T04:01:57.006422"
-        }
-      ],
+      "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Infosys",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Infosys: governance. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made  Infosys stays silent on CEO succession at AGM  Unlocking AI Value: S...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "governance"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -375,6 +284,26 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
@@ -385,7 +314,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-02T04:03:37.312630",
+      "last_updated": "2026-07-02T09:24:42.183021",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -469,7 +398,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-02T04:04:44.562366",
+      "last_updated": "2026-07-02T09:25:48.375987",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -553,7 +482,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-02T04:05:58.845770",
+      "last_updated": "2026-07-02T09:26:53.519930",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -637,11 +566,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-02T04:07:39.791975",
+      "last_updated": "2026-07-02T09:27:58.998269",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -713,53 +642,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "CSK Break Silence On Hardik Pandya Trade Interest, CEO's Blunt Reply Amid Speculation",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNUZrYnhfc2h5Wmprc2ZGSkZtWWhDaVBOc1NQd1NMdUtfVXo4LUJKdG1rR1R6cjVoMGFUVHVkTjI0SUVNSEJTT3MyR0hQaXFSWTZvQTVOQ2FzbW1WS1pjejU1T2tYM3daTGU4MVF6enIzak5NU2lBWmV5LTA5VXVXbHYwLUhHdGhXckRLcDduclNDVmpZOWU5T3lwTkhDTW83SXJfY0hiUGFkWmVtRXRfZ3FnbDlYT2w0Zjg1UnNlTlhFN19zcVFGdjdB?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Thu, 02 Jul 2026 00:59:01 GMT",
-          "fetched_at": "2026-07-02T04:06:39.652058",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK vs MI, 44th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ0NKamxkcFdybTVpSnVyOVlSSzBWZkR2Q0hmVlItdW03aFNiTktpWmZCU1JUNUxfSXZEbUFROUQyOXN1d0ZoWlNhX2NOSWNaNXlqdFlqWXVNcGE4cEZjczVwek5QVmlTZUZDX1U3dzRjLU5uZUhhV3cwUXBrazJiUjJGSEppWnBvTXpTTC14c0YxMm5jOU9JcjFtU1pBanJH?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Thu, 02 Jul 2026 04:04:04 GMT",
-          "fetched_at": "2026-07-02T04:06:39.652073",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK defeat KKR by 32 runs in IPL match in Chennai",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Y5OGpsQmhWY0hOU0JNNlJBS3dzdVgzM2t5MU1sOGxfcWl5ZHB1SXFKRFM4UHoxQTBfcndfeXdEczYzc0d2eEo0MTQ1VS1pNHZOQnZicDh4Rnk1aktNU01ULURtR05TMjBONEtGdW1TaTJzS0I3LVlGUGl2WDNkdg?oc=5",
-          "source": "News On AIR",
-          "publishedAt": "Wed, 01 Jul 2026 18:35:23 GMT",
-          "fetched_at": "2026-07-02T04:06:39.652077",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK vs GT, 37th Match, Indian Premier League 2026 - Squads",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVcyWk9MT0Zhb3BzaGpPSWExR1d3TUhpbzlGZHEtamhqUTVTZFM1aGRFSlVPdXdwbWF2TWs4aU1fTGZoLTNGaDZzTTlsZUVGbFU2NnNxUjVVQjZWTHl3aUg2dTNpbjhMNkJLMUpLb0dkY1lMbWhuUC1EbGZ3MkpES1BYOWpxN21FM1RNTjkzVlB0aXQ0UXo0b3hSNFFEckN4T3c?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Wed, 01 Jul 2026 07:43:28 GMT",
-          "fetched_at": "2026-07-02T04:06:39.652081",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Squads",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaHNVRTc1LUJObkJfaVBHX0ZHNkphWTd4S0laTGdZdE1zLTNHVzVwT2dmZ0tYWktFWFpTVU92WDRuOEFtZDNkSkhqZE9FMURUY0wzeVBVNlpiUFB5b2hST0FKQVBZUkJKNk5aR0tXbWl4eHNQOWhueUlBT2IwZmRfQ2hJMWRHT0FmSVNPTkIxMkYyNEFrZ21SdzZRdlI3d2VTLXc?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 30 Jun 2026 17:05:28 GMT",
-          "fetched_at": "2026-07-02T04:06:39.652085",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -767,11 +650,11 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-02T04:09:15.423765",
+      "last_updated": "2026-07-02T09:29:00.990390",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -843,7 +726,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Hardik Pandya trade: CSK enter the race; seven franchises express interest",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTFRlMmVpUmt3VDRyQkZHbzVmZF9FNmIzQWwyWGFDODBMaFFkQm93bURKbUZIZmwwMTVjR0hZVFRMSzhMZ1B4UTRabEdTdVI0WHRwVkZ3RGFzZm5IX3hFcmcyTW1DSFo1Y2lMQ182cmRKb3hnNzR0SmxaNE5nd01KYTlON1VubDlMbWtraFZUWVFsU1ExRDlzN1RIUlFmaVpKZUZXUFFBQUtuMldOMHlQTjN6UkF3VzRFcnB5Y2daY0NxUldpczRvdWlteWhPNFEzNS1WY3RBU1JDTXA3aU9xOFc1TWw2dzJDMmfSAe8BQVVfeXFMTl96V1pHTDRrQVBqQzYtX0c2U1BUZ3JsdmcyekZDeGl3NWxhUUlPNU94VFdTaXBPQzZJUjhHV3p2b2kyNGJjUVh6bXRaWEE1bm5kOUV2RWo5SFNnb0tzTVhnc1NZWnNqV2xGTkdEQkl4MzBZSWtXUG02TERtb1pKUDVuOVktU3BsME1MaE5RY0RqakdIdHJ5NnNSR0E3QTd3Nk1NSWVtdEZYN2RfNkxfSUdkamxRUHhQbGgwQzBrSVp6WkpYVm1NajRHcElsU1RieUsyTjZMWHZfeGtQWWNPUXdQWno2Qk5Hc3RlVDVfYWs?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Wed, 01 Jul 2026 06:24:00 GMT",
+          "fetched_at": "2026-07-02T09:28:27.983057",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVJ5OTNfaWNQMGhnWDNyM2pOT2NkbTUyczVwS3Q0TW0zZTA2aU41amZXVGxhd3ZIYy1mWlhmXzd4R3VqaUhpZFNZcVNqSHpQSjBNM1BCSUZUX1JlR20tN3A4V3pTeWFORWMyODlQM2s2TExZcDdFOV9UbVBKOGI1akRxTWhFRmZNMjhZNnNfSnM2U0dfT1RJTkJTSkdrTVpQ?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Thu, 02 Jul 2026 09:15:20 GMT",
+          "fetched_at": "2026-07-02T09:28:27.983072",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK defeat KKR by 32 runs in IPL match in Chennai",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Y5OGpsQmhWY0hOU0JNNlJBS3dzdVgzM2t5MU1sOGxfcWl5ZHB1SXFKRFM4UHoxQTBfcndfeXdEczYzc0d2eEo0MTQ1VS1pNHZOQnZicDh4Rnk1aktNU01ULURtR05TMjBONEtGdW1TaTJzS0I3LVlGUGl2WDNkdg?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Thu, 02 Jul 2026 07:11:18 GMT",
+          "fetched_at": "2026-07-02T09:28:27.983077",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Squads",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaHNVRTc1LUJObkJfaVBHX0ZHNkphWTd4S0laTGdZdE1zLTNHVzVwT2dmZ0tYWktFWFpTVU92WDRuOEFtZDNkSkhqZE9FMURUY0wzeVBVNlpiUFB5b2hST0FKQVBZUkJKNk5aR0tXbWl4eHNQOWhueUlBT2IwZmRfQ2hJMWRHT0FmSVNPTkIxMkYyNEFrZ21SdzZRdlI3d2VTLXc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 01 Jul 2026 15:48:11 GMT",
+          "fetched_at": "2026-07-02T09:28:27.983082",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK vs GT, 37th Match, Indian Premier League 2026 - Squads",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVcyWk9MT0Zhb3BzaGpPSWExR1d3TUhpbzlGZHEtamhqUTVTZFM1aGRFSlVPdXdwbWF2TWs4aU1fTGZoLTNGaDZzTTlsZUVGbFU2NnNxUjVVQjZWTHl3aUg2dTNpbjhMNkJLMUpLb0dkY1lMbWhuUC1EbGZ3MkpES1BYOWpxN21FM1RNTjkzVlB0aXQ0UXo0b3hSNFFEckN4T3c?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 01 Jul 2026 07:43:28 GMT",
+          "fetched_at": "2026-07-02T09:28:27.983086",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -851,7 +780,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-02T04:09:30.514901",
+      "last_updated": "2026-07-02T09:29:06.500089",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
