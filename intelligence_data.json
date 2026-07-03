@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-03T14:29:59.853507",
+    "generated_at": "2026-07-03T19:46:16.851894",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-03T14:20:30.671461",
+      "last_updated": "2026-07-03T19:37:26.901141",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-03T14:21:46.415384",
+      "last_updated": "2026-07-03T19:38:23.569511",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-03T14:23:17.124323",
+      "last_updated": "2026-07-03T19:39:38.271478",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,11 +266,11 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-03T14:24:31.117016",
+      "last_updated": "2026-07-03T19:41:02.155819",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -281,28 +281,6 @@
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Merchandise Revenue & Licensing Gaps at HDFC Bank",
-          "severity": "Medium",
-          "description": "Merchandise revenue underperformance at HDFC Bank: retail. Product-market fit and pricing research required.",
-          "detected_from": "India news: Kotak to buy Deutsche Bank retail operations  Inside the leadership change at Kotak Mahindra Bank  CAM advises Kotak Mahindra Bank on prop...",
-          "gap_type": "merchandise",
-          "keywords_found": [
-            "retail"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Merchandise Demand & Pricing Research",
-              "impact": "Medium",
-              "timeline": "12-18 months",
-              "price": "₹14-22 Lakhs",
-              "methodology": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking. **Deliverables**: Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy.",
-              "gap_type": "merchandise",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -342,55 +320,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "India news: Kotak to buy Deutsche Bank retail operations",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOFp3MHk1R1lXSkNGUFZZT1ppRUZvM3ozaFhtenZDTTZZc05FbWRWQkJqUzNwNmcwUy1uWDdiMWpFNE05bHZ6RmlpWmQtM1VGYTh6b3pkbzRicm1Qb3lyOUpRdTA4SUlJM1dCYkVOOXlFN3ZjNFE0eXZ3RnhxMWRVcm45eHdENFp1QVJvMHRwd3lzRm8xSFE?oc=5",
-          "source": "DW.com",
-          "publishedAt": "Wed, 01 Jul 2026 19:17:41 GMT",
-          "fetched_at": "2026-07-03T14:24:16.090763",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Inside the leadership change at Kotak Mahindra Bank",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNDNxb0hqOGFvV2w5S3pBRlEycVRyamRLZFVHT0FubkFINFg5NHNHeWt0bVhBcGNwU2JkeWVBVnJibHE5QzZoZXV4dERkVTg3MDVjcDMzMVVkd185WG96NUpmaUphNExITFVHaHh0TEJnSGVUdXpkY00yRXZSTnlWbDQwQ2lHcE55Qk1TODFqZHVXQXhkZmVZWm1JWjNsQUJKVW1pS2gyNURreThmWGNHRms2U2hFZTDSAbwBQVVfeXFMUG5mcVFLYXB6Z3VONFFmSEdKc3hfM0lSd2dVemFWRUFFQkVtdVFybW5KalEtLXRhLXpBaXRvN1RZakVCclhBdl8xZkNMR0tWdjA0VFppRmQ4blA2LTNCQzlvMlp5Q2NTenA2STBXdk9EQmRteUtpbUVlWm9BeDFrbnhyZTEzWlRCUjdIM2l2TTVESVNBV0NiNTBZM2twZUNOa3A1UUJWUVVUN29ZNmJpSmUtZUdUdUVudkJqdV8?oc=5",
-          "source": "CNBC TV18",
-          "publishedAt": "Wed, 01 Jul 2026 04:48:20 GMT",
-          "fetched_at": "2026-07-03T14:24:16.090778",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CAM advises Kotak Mahindra Bank on proposed acquisition of Private Banking and Wealth Management Business of Deutsche Bank AG in India",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQVlQTk9JRl9TcXJmV09jeXJhTkhFOFk5cVl0QVZ1aVphMnN4M1FuRTJGQVZWZF9mYmtkdFJLaHpCd3BZNHVKRk1ESFZxaW91QlJaVkdTQjgxWkdyeWEzakI4d1VpODV3VFdseGh2UXJlclZQRkQtLTJucGczYXcyRHBzaHk5RVlIRE9BZUEzTFg5U0tBdjc0cmNTalB2VnRucTItZDFBbE9lck1YcU1ydzZIclRBQzRYTE5TcWJVS3dKVUhsYnQzUHg2Vm5vLV8tbF80VWo1S1g2aGxhaWJ2Qm1RUmhVWjJ5Y1gwaW84TTQ4SnJtU3c?oc=5",
-          "source": "SCC Online",
-          "publishedAt": "Fri, 03 Jul 2026 04:30:38 GMT",
-          "fetched_at": "2026-07-03T14:24:16.090784",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kotak Mahindra Bank to buy Deutsche Bank's India retail, wealth business for about $30 million",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRHk2RnV2NFZOWUFhdmd0X012NFVLbERrVndGV2NuZzRlbVhwakxNX05ic1RPemROOXBTdFBLc0hLaURidDdhVGItNWpOWGZHWjRLVGN4dUxmM2xENlA5cjljODhWYjVxajY5MjdZOElJOWhLSnQxTFVYenotaHg1dURTMzg2NjRCRG5leWR5R1FoblJ6ZlhNQmtJNkY2eGEwcXNHVEtTQXlINmNvQngxVzh0bnktR1RmVUZkSWZLZW9MZw?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Tue, 30 Jun 2026 11:58:42 GMT",
-          "fetched_at": "2026-07-03T14:24:16.090788",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kotak Mahindra Bank slides Friday, underperforms competitors",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQamU5WDRQYXlBY2R5cFl0QzY3a19oSHdMTk92N29OODNlLWx2cERZZGdNSWhkdktmWFNydlBLNW9VUVI5endZa004ZjlnRGNIU0gxR01NWWU5SWNnM1VSNm1zb3g2MmVGYnllQjEwVkdxQkRVcjYxSlNUV2xnbXZ2dGFDNzRhZFZKQTBHbndfbFY2SkxuaWw5VzczRjdVem9nVFN4X3ByRzVqU3lfVk1RU2F4dng0QQ?oc=5",
-          "source": "MarketWatch",
-          "publishedAt": "Fri, 03 Jul 2026 10:30:00 GMT",
-          "fetched_at": "2026-07-03T14:24:16.090792",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -398,18 +350,18 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-03T14:25:36.872027",
+      "last_updated": "2026-07-03T19:42:10.116310",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -475,14 +427,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
+          "source": "EY",
+          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
+          "fetched_at": "2026-07-03T19:42:10.116007"
+        },
+        {
+          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0HSAeMBQVVfeXFMT0pkU3doaGNTbElsQ2UwdGFYQzhBMWQ1dzQ2UHBkQmtaWUVKRFRhTUU5d1dUazVOdnhMQTFsdFh3dS1SQkVSZU9ZRnozY28yQmlWRk9TdGN6bVlCeWlzMHQ1cUktampBMUtib01DZnlOVFJiLVR3UmhxWGVlRlFXRUFKRFMzbGZvR1RWN1RTX1BGTUdvM2hOenBrYnowMTRfRTJEUzRGYWZhams4Rm9odXBVVUZUMlYwWGItZkt4eUQ2SXY3X1MwWGt5UW9HS3NlbkhXaklVMkV1TGRQNGdreVZ5Vnc?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-03T19:42:10.116021"
+        },
+        {
+          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
+          "source": "Forbes India",
+          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-03T19:42:10.116027"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chair in July; Gopal Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNHZLTDlMX3ZqeEotRWwwN2NTWkVsTm1xT1JiQ1JQYVJKUW1JWmpSN0xuaW1uZHRyc24tLWpBNnUxOHdlTXlfRmsyQWV3R0RBSXYyek1neDZ6TXlVaHpUeHNCWkxhNEtDX1N0MUpJdVk1UE9KYlh0dmw4aUI4ZHhuakdIaXY1S1FyNkpGRmQwYnJKMTh5SDBIS0tXeGloQ1dGeGlOWTFlVUhEcWdzWjQyOVhiRmd3LVpiV1RjbnRZUTBmeXlWNWFzV096OHNCSC1jNTA2ZEVtWFhhWTc5NUHSAeMBQVVfeXFMT1NxUzNxZGUySVRjYVl0eTJ0TWEtdm5ET3I0S1IwV0ROaVMtSkI4SFE3YmFIRWN3SHBuVTB6YkNMY1ZaSXR6MFROeFRNVkhQSDA4ZXhrRnQ0TkVYM3V1d1haaXBxbmw0bGV3UnJ1aWdlakR0SFRBVk9DVDRNWHRGWlhCRDQ0eWdFOXVWNzZaTl9Da0taMmw0V0JPVUpUeHBFZm1HWnM5NlVRWl9CZDdvclVqMTlNZTIxU01za3dDald1LXlXcGxhck9kUmsySTNwYWJ3RTEzTWZFYVk2MXQwOFB3YmM?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-03T19:42:10.116033"
+        },
+        {
+          "title": "Sunil Mittal to step down as Airtel Africa chair in July; to be succeeded by Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYmxIY1hRTVRKcUc2aTU4NEFFamM0STZzX0x5anNGMDdqV2J5TTJUbHFFS1lsQ3ZRcHpWRjZ4S2Vfb1JSQy1OVlMxdk5Bc09zbGJfLXJJX2t3Q3NrS3B2WUdEWXhhVW9ENFJVTjlXUGVYZ3liR0FKOFJCQ2VTWmRfeVFMdnkySzBoSUI3M09YQXJTY2Jqb1JQVWxMTzhsMmN5UzVObnl0akZPcTlqQWYxejhkcDFhZDM0Smlmb0ptYVNDUHNOLUIwand4SDFIOWE1WEFQeDNzc2RTMzRkVHU2SVN30gHnAUFVX3lxTE9VR01ZaXlqWXlYNmR1SEJyWEw4YVh3bkJxdHJTamJTdEtVUmRtUm1uQWdlZFVONklJOS1yUjA0cTRmRElrVHJGSmtPY093VnVvVkZTaVQyRGVuU3o1Y3dWTzFRNzJVMkM2V05OM2poZ2E4LV9kSmVyR2tJOXBIY1VKamhwSWN3a2tzQllIYXV4VUwyczFGbGNManBCbnJnLUVSRENUMmVUVUV3Yy1yOVZXVUh2d1U4ZFR3TmJEYW9Dc0d5UHBaQVBjeVZ4eUwydHJXNFF3aWVxdHA5RmloVHkxMzZ3Z1lTTQ?oc=5",
+          "source": "livemint.com",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-03T19:42:10.116035"
+        }
+      ],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-03T14:26:52.040549",
+      "last_updated": "2026-07-03T19:43:14.368909",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -566,7 +554,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-03T14:28:14.129744",
+      "last_updated": "2026-07-03T19:44:22.084181",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -650,7 +638,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-03T14:29:29.801617",
+      "last_updated": "2026-07-03T19:45:46.754778",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -734,7 +722,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-03T14:29:59.853490",
+      "last_updated": "2026-07-03T19:46:16.851878",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
