@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-03T09:36:19.017021",
+    "generated_at": "2026-07-03T14:29:59.853507",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-03T09:27:53.971993",
+      "last_updated": "2026-07-03T14:20:30.671461",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-03T09:29:02.978189",
+      "last_updated": "2026-07-03T14:21:46.415384",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-03T09:30:03.567324",
+      "last_updated": "2026-07-03T14:23:17.124323",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,11 +266,11 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-03T09:31:18.147136",
+      "last_updated": "2026-07-03T14:24:31.117016",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -281,6 +281,28 @@
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Merchandise Revenue & Licensing Gaps at HDFC Bank",
+          "severity": "Medium",
+          "description": "Merchandise revenue underperformance at HDFC Bank: retail. Product-market fit and pricing research required.",
+          "detected_from": "India news: Kotak to buy Deutsche Bank retail operations  Inside the leadership change at Kotak Mahindra Bank  CAM advises Kotak Mahindra Bank on prop...",
+          "gap_type": "merchandise",
+          "keywords_found": [
+            "retail"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Merchandise Demand & Pricing Research",
+              "impact": "Medium",
+              "timeline": "12-18 months",
+              "price": "₹14-22 Lakhs",
+              "methodology": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking. **Deliverables**: Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy.",
+              "gap_type": "merchandise",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -320,29 +342,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "India news: Kotak to buy Deutsche Bank retail operations",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOFp3MHk1R1lXSkNGUFZZT1ppRUZvM3ozaFhtenZDTTZZc05FbWRWQkJqUzNwNmcwUy1uWDdiMWpFNE05bHZ6RmlpWmQtM1VGYTh6b3pkbzRicm1Qb3lyOUpRdTA4SUlJM1dCYkVOOXlFN3ZjNFE0eXZ3RnhxMWRVcm45eHdENFp1QVJvMHRwd3lzRm8xSFE?oc=5",
+          "source": "DW.com",
+          "publishedAt": "Wed, 01 Jul 2026 19:17:41 GMT",
+          "fetched_at": "2026-07-03T14:24:16.090763",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Inside the leadership change at Kotak Mahindra Bank",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNDNxb0hqOGFvV2w5S3pBRlEycVRyamRLZFVHT0FubkFINFg5NHNHeWt0bVhBcGNwU2JkeWVBVnJibHE5QzZoZXV4dERkVTg3MDVjcDMzMVVkd185WG96NUpmaUphNExITFVHaHh0TEJnSGVUdXpkY00yRXZSTnlWbDQwQ2lHcE55Qk1TODFqZHVXQXhkZmVZWm1JWjNsQUJKVW1pS2gyNURreThmWGNHRms2U2hFZTDSAbwBQVVfeXFMUG5mcVFLYXB6Z3VONFFmSEdKc3hfM0lSd2dVemFWRUFFQkVtdVFybW5KalEtLXRhLXpBaXRvN1RZakVCclhBdl8xZkNMR0tWdjA0VFppRmQ4blA2LTNCQzlvMlp5Q2NTenA2STBXdk9EQmRteUtpbUVlWm9BeDFrbnhyZTEzWlRCUjdIM2l2TTVESVNBV0NiNTBZM2twZUNOa3A1UUJWUVVUN29ZNmJpSmUtZUdUdUVudkJqdV8?oc=5",
+          "source": "CNBC TV18",
+          "publishedAt": "Wed, 01 Jul 2026 04:48:20 GMT",
+          "fetched_at": "2026-07-03T14:24:16.090778",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CAM advises Kotak Mahindra Bank on proposed acquisition of Private Banking and Wealth Management Business of Deutsche Bank AG in India",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQVlQTk9JRl9TcXJmV09jeXJhTkhFOFk5cVl0QVZ1aVphMnN4M1FuRTJGQVZWZF9mYmtkdFJLaHpCd3BZNHVKRk1ESFZxaW91QlJaVkdTQjgxWkdyeWEzakI4d1VpODV3VFdseGh2UXJlclZQRkQtLTJucGczYXcyRHBzaHk5RVlIRE9BZUEzTFg5U0tBdjc0cmNTalB2VnRucTItZDFBbE9lck1YcU1ydzZIclRBQzRYTE5TcWJVS3dKVUhsYnQzUHg2Vm5vLV8tbF80VWo1S1g2aGxhaWJ2Qm1RUmhVWjJ5Y1gwaW84TTQ4SnJtU3c?oc=5",
+          "source": "SCC Online",
+          "publishedAt": "Fri, 03 Jul 2026 04:30:38 GMT",
+          "fetched_at": "2026-07-03T14:24:16.090784",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Kotak Mahindra Bank to buy Deutsche Bank's India retail, wealth business for about $30 million",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRHk2RnV2NFZOWUFhdmd0X012NFVLbERrVndGV2NuZzRlbVhwakxNX05ic1RPemROOXBTdFBLc0hLaURidDdhVGItNWpOWGZHWjRLVGN4dUxmM2xENlA5cjljODhWYjVxajY5MjdZOElJOWhLSnQxTFVYenotaHg1dURTMzg2NjRCRG5leWR5R1FoblJ6ZlhNQmtJNkY2eGEwcXNHVEtTQXlINmNvQngxVzh0bnktR1RmVUZkSWZLZW9MZw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Tue, 30 Jun 2026 11:58:42 GMT",
+          "fetched_at": "2026-07-03T14:24:16.090788",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Kotak Mahindra Bank slides Friday, underperforms competitors",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQamU5WDRQYXlBY2R5cFl0QzY3a19oSHdMTk92N29OODNlLWx2cERZZGdNSWhkdktmWFNydlBLNW9VUVI5endZa004ZjlnRGNIU0gxR01NWWU5SWNnM1VSNm1zb3g2MmVGYnllQjEwVkdxQkRVcjYxSlNUV2xnbXZ2dGFDNzRhZFZKQTBHbndfbFY2SkxuaWw5VzczRjdVem9nVFN4X3ByRzVqU3lfVk1RU2F4dng0QQ?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Fri, 03 Jul 2026 10:30:00 GMT",
+          "fetched_at": "2026-07-03T14:24:16.090792",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -350,7 +398,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-03T09:32:15.803817",
+      "last_updated": "2026-07-03T14:25:36.872027",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +482,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-03T09:33:21.490427",
+      "last_updated": "2026-07-03T14:26:52.040549",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +566,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-03T09:34:39.863080",
+      "last_updated": "2026-07-03T14:28:14.129744",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +650,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-03T09:35:49.749408",
+      "last_updated": "2026-07-03T14:29:29.801617",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,17 +734,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-03T09:36:19.017014",
+      "last_updated": "2026-07-03T14:29:59.853490",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -763,43 +811,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-03T09:36:19.016701"
-        },
-        {
-          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 23 Jun 2026 13:34:48 GMT",
-          "fetched_at": "2026-07-03T09:36:19.016715"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-03T09:36:19.016724"
-        },
-        {
-          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
-          "source": "11Alive.com",
-          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-03T09:36:19.016729"
-        },
-        {
-          "title": "Simulations Plus (SLP) accepts $18.50 per share all-cash buyout from Altaris",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcmFUVmk2U283eHVvSDVBdGZGYmVvdk16NldtdngtLVAwNUhzZmplS2RDbkFxNzJkUkZvM0pHT0Q4bXRsQWlzVGF0cHpOVnBWZ2xENVl4QlBVaUdpbVdIdFdFSmhLSVNUNnlMOWdKN0d1cUZ4OUhOWE8yRDJXbTVTT2NwRVZ5cmljWjhGVjNOUVA5VlNkbjBmYzZ3bU9vdTVFeW1mRTZYa0puSlJ6?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 16 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-03T09:36:19.016733"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
