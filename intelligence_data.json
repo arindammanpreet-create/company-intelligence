@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-04T08:52:19.111160",
+    "generated_at": "2026-07-04T13:53:10.651640",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-04T08:44:43.100137",
+      "last_updated": "2026-07-04T13:45:11.927174",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,65 +98,21 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-04T08:46:00.247130",
+      "last_updated": "2026-07-04T13:46:42.710065",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 2,
-        "neg": 2
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Competitive Threat Intensifying for TCS",
-          "severity": "Medium",
-          "description": "Competitive intensity rising for TCS with disruption mentioned. Market positioning research needed to defend share.",
-          "detected_from": "\"Maybe It's A Sign From God\": Delhi Wipro Employee's Candid Video After Layoff Goes Viral  Wipro employee's layoff video strikes chord amid IT job cut...",
-          "gap_type": "competition",
-          "keywords_found": [
-            "disruption"
-          ],
-          "solutions": [
-            {
-              "title": "TCS: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Talent & Retention Challenges at TCS",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at TCS: layoff. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "\"Maybe It's A Sign From God\": Delhi Wipro Employee's Candid Video After Layoff Goes Viral  Wipro employee's layoff video strikes chord amid IT job cut...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "layoff"
-          ],
-          "solutions": [
-            {
-              "title": "TCS: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -176,55 +132,49 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "TCS: Competitive Intelligence & Win/Loss Analysis",
+          "severity": "Medium",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "TCS: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "TCS: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "\"Maybe It's A Sign From God\": Delhi Wipro Employee's Candid Video After Layoff Goes Viral",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbzBTdlQxZDRDbjJnd0twSTVoOVJXOWs4VE1kZGtKWHNaMG55SGd2c0czaWJ5THpmcTdQRGtubmxUTkEwcHRiRXJ3ZEtfYWZfOFZyVFZVVURWSmJ5dEFyWXFXMEU5c2MwLVF6WjZBZENzb05RUmpYYmpSRFJjc0loRGZ2Z2ludFlpanVOb2tSNzlNSTN5SjQ3aWhta2VlMllucUhwM1JZUVhLMGV5cG9fWTVCbTc5TzFWOEpVdXQzY9IBxwFBVV95cUxNQ1o2VUQ4U1FqOTVxMVhLdDVMOWFMZEVsZjFfMXZKOXRLdkZxc0prWFhKUUZNdTVsX1ZydE8wbFJtVnZqRVRXV0Zyc29INHFjckNUQnk3U1NIa1lHYm9PLVJlNWUwdjBCT1hhdmpUZW1OYkVRVDRjUVU1dlVadHFpSmxFbmIyd3VEQWFsb19LSUlybF9GWjBpZlVCMXQ1ZENvM1NjZHZidTB6c3A0bzRMaWxxajhhblJEQ3hWZVdOVVRseU1lZGFR?oc=5",
-          "source": "NDTV",
-          "publishedAt": "Thu, 02 Jul 2026 03:56:23 GMT",
-          "fetched_at": "2026-07-04T08:45:19.521016",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro employee's layoff video strikes chord amid IT job cuts",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNNWhCbkh0SUhkSTBZRkhhNWlIWXdsN3FHVUdaQ0ZqRTM5Vl9uZENnT0RkU0dCakp0c1FoZWtldUdBOEE5RUJTTlZQSXZHSmVnLWZBWnA3UVY3VTg1NFE5QnlGY2NWeTloLWNySThYMXlCWnJWRU5CbFA2VUlfMUpnbTVDSUxvVzRKT0ZYMVlER1hCV1FzbDk0WTE3T254TnFXRUtRTVRxZTZSVGlZVmhYMnl1VU9WSzBZUWlBb1JZR2xDYXNHRW9ReFlIdW1KRzdjalc1ZVc4b21WWG55b1ItSWRmd0NNWTVHMWE1dkc1V0Q2WlgwTzh0RjVpdlRGSmtFdUx3MnpIcTFiUXFDYVFCemJZY0d1NXFVVjExTUpKbHNmc0t2TVc4?oc=5",
-          "source": "MSN",
-          "publishedAt": "Wed, 01 Jul 2026 14:07:29 GMT",
-          "fetched_at": "2026-07-04T08:45:19.521029",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "'I never thought I'd be here': Delhi woman laid off by Wipro after 5.5 years says it's 'A sign from God'",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQN3hTNW8wNFhSVGN3VmRFVVd6YlRuWXFGcXpYMDhDcGY3bEw3S0F0WEwzR2c0bC1GM1BwYnVva2RNelgxU0ZJb0o0SldTeFFDUTdBZm5WRUFqbDFhd1NCLURyQjJGaGpaYmVuOFBsYTZOOGwyMlBMNC02LUNVWTZqaXpUcThUUU9GMEVGelNRanoxaURJcVFqQXlvd3dRZHJjaWE1aXU1aGtDM09LemZ1aGpJcnJFSHJqcWRQdDFzUzJoTnRrRDNSTmlwcFJYbnVzTFZxQUp1ckFMRExyM1FlVUNxbnoxT1hod2tSdUNzTUJjeW80OTdrLXpGdEFBMEs1aURrTGhn0gGLAkFVX3lxTE0wRlNWdUF1dmVWbnQyNzNSSWNKYzBuUnNKMjktZEpEcGtwOHRfTWJCQWh3VTFZSjBOVzZMc3FqUk1BRldqTFdVWVZfLUdxcTdFODdyQ0NEaFlTZFRJN1A0dFJNaThTS3V1bHhhWmZuSEZjTWtvOGU0dmY3MzBvTVBJNWpxUGRacGV1bFhkbjloVXVCeGsxUFVycmQ0V1NvMmYwempOX0Vrbl9HNktzS0c2Z1p5dUQ5MlNUQjRIQmtoN2N0UmZyMC13WGthejdOZURfWm9EcnRvYjJNWE5LWmlway1KSEdCSllTZU1ON0lNVFRRSWtiV0Z1X0lTWDlzaWpHaVF0eG00bC1kcw?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Thu, 02 Jul 2026 03:03:00 GMT",
-          "fetched_at": "2026-07-04T08:45:19.521034",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Buy, Sell Or Hold: L&T, Wipro, RIL, Vikram Solar, Zee Ent, Hindustan Copper — Ask Profit",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOGo2TU5UQ284MFdkSk9KckdPTkJfMndnOGJfRkpvUmZoS2ZsQmxBVlpwT3YxSzhocmR6YThSdGt5SnItZEZ1TGhNekl3aVFnX0o0UVFkSENQZWpKeUhaRzNXdjVWVlduSWFJUHpVX04wOGFWS2x1a1RMU082cVREY25Cel9ZcXdBcVFhdnlleXBFcjB6Y2tTY1hleDAwNC15Zi1Vcy1MU0RMQmg5SkdxQ2RvdmxQQmlHNU11cVlEZm5LS2tTenNyOVRpWllPbGpsclZZWkZoT2tveknSAeMBQVVfeXFMTTBCeEVlQTllZXJCZWdWZV9ITVdQalNkVjF0Zm1FYTNKb2RUZEZfMnZlZEJZY3k4aXQtMFpLZjFnYzd6UXB4ZkFHa0lwdURENUJzdm51VUMzbXJhYjd6R1pwX0pFRFp4V2F6aGJYc1RmN0llMThNNlNDTHM0d21IcjJCTlNzenNibmR5bF9CejRmSzdCMTNzSF9qRXEtQ3hWZUpLUmRVYTVXbEVDQVVFWUtLTTJJQmw0dU9rSUlMVUJycV9fNXJySHdaTUN4V21BYkZzVm81TC1oUGcwMVdzVXpuMWc?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Thu, 02 Jul 2026 07:25:07 GMT",
-          "fetched_at": "2026-07-04T08:45:19.521044",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro slides Wednesday, outperforms competitors",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbHkwNHBnUElQUmo3eUhJZlA2NmRsaVAtOWc5c2NpeUwyWHhjaW54Q2d2YUIzcEVPUll0b0tXZXR4bXdaMU5VUktLc29kVW9pSVNEbzk3OFdrUGVxbjIzemQwNUhYblNKT0J2NWduZGQwbm5BSWllX1NmVmltcmljdmVFc3Z3Z2Rkc1ZwOTVPYk5jNUhURzU5SzRjLUVPb3BxcUhYRmpUVGtGZVAyOUJIS01fSXBlUElUNVZqNTNfemhXZw?oc=5",
-          "source": "MarketWatch",
-          "publishedAt": "Wed, 01 Jul 2026 10:32:00 GMT",
-          "fetched_at": "2026-07-04T08:45:19.521047",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -232,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-04T08:47:05.472174",
+      "last_updated": "2026-07-04T13:47:25.060600",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -316,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-04T08:47:36.750872",
+      "last_updated": "2026-07-04T13:48:27.752050",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -400,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-04T08:48:28.466170",
+      "last_updated": "2026-07-04T13:49:28.559802",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -484,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-04T08:49:08.661833",
+      "last_updated": "2026-07-04T13:50:34.092490",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -568,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-04T08:50:29.560496",
+      "last_updated": "2026-07-04T13:51:29.660091",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -652,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-04T08:52:04.356145",
+      "last_updated": "2026-07-04T13:52:47.485387",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -736,12 +686,12 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-04T08:52:19.111154",
+      "last_updated": "2026-07-04T13:53:10.651623",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
         "score": 0,
@@ -813,43 +763,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-04T08:52:19.110894"
-        },
-        {
-          "title": "Simulations Plus (SLP) accepts $18.50 per share all-cash buyout from Altaris",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcmFUVmk2U283eHVvSDVBdGZGYmVvdk16NldtdngtLVAwNUhzZmplS2RDbkFxNzJkUkZvM0pHT0Q4bXRsQWlzVGF0cHpOVnBWZ2xENVl4QlBVaUdpbVdIdFdFSmhLSVNUNnlMOWdKN0d1cUZ4OUhOWE8yRDJXbTVTT2NwRVZ5cmljWjhGVjNOUVA5VlNkbjBmYzZ3bU9vdTVFeW1mRTZYa0puSlJ6?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 16 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-04T08:52:19.110906"
-        },
-        {
-          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-04T08:52:19.110911"
-        },
-        {
-          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
-          "source": "11Alive.com",
-          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-04T08:52:19.110914"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-04T08:52:19.110921"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
