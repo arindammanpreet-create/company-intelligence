@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-06T04:08:58.098727",
+    "generated_at": "2026-07-06T10:56:56.497688",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,43 +14,21 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-06T04:02:38.788800",
+      "last_updated": "2026-07-06T10:48:26.205591",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Reliance Industries",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Reliance Industries: governance. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Tata Group at a Crossroads: Why Stable Leadership and Governance Matter for India's Corporate Icon  Leadership is about compassion, says former Tata e...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "governance"
-          ],
-          "solutions": [
-            {
-              "title": "Reliance Industries: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -90,55 +68,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Tata Group at a Crossroads: Why Stable Leadership and Governance Matter for India's Corporate Icon",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52a2w4ekE2X21VTWJlQkVSZjc3R3JyMnE0OE1NXzdEMDZGTE03cUpyb19SVzV6SGI1UlBxckxYV0Jha0lTRVRlTmFmeDNOaFFkdlJDcDJ2WlpBSHR4Yzl5dmR4N0owSktEZ0wzczBn?oc=5",
-          "source": "Daily Pioneer",
-          "publishedAt": "Sun, 05 Jul 2026 20:40:54 GMT",
-          "fetched_at": "2026-07-06T04:02:19.776767",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Leadership is about compassion, says former Tata executive",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa3BJaUFzTDJiVm1ETTB4UHM5MDh6dDFzaEE5WHdhVGdiNlJob2JyNkJDOVZpQS14YTZtQUpSTmRpMks2UndiTVp4OFZ3MGJrcHhEUDVySmpDVlVWQjYwMTEtdjVfeVZFRXJSTVVVbXRaaGt3TWhhMEI5ZElOUDZIR0FqaVozdXozN2E4?oc=5",
-          "source": "Star of Mysore",
-          "publishedAt": "Sun, 05 Jul 2026 14:05:27 GMT",
-          "fetched_at": "2026-07-06T04:02:19.776784",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Maya Tata, daughter of Noel Tata, set to take charge of Westside’s digital expansion: Report",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMVlLMFAtUF92aEM3TWkxN3FmczFXanNhTHFTZDRBN2pNSk1MQ2g2LUQ1UHZxNGp4WWZfQkNva0xHbU81YUNBenJaU2ZyajF1WGJLaXEzRXJhLTVLeGZxQlJNUkdHbFByTlpPcTZqR3BPUWl6eXBuWmhaMWNrQUtyZlNIbjBZYzF6NkR0Q1JzaDQ2N040ckpYbmVpR2hfMXVmUFFaU0FBVGs0TERtNkd4T3JuUnpwR3psTkZuMkdPMldVOElKOVJmUTZGVkE5R0phR3RnQ2VDTGs0SHhKU3hYaUMtZjY3aVZoVGV2RHRGUdIB9AFBVV95cUxOSDZRUlpzVHFvbzhFT0lDdXpYWDFrYzRramF1T1ktYXl2cnl4Y1Y4WjZraGlfVmtjdDI3bUNwenFJczBuNWR5ZzhYQlBJdFJ3YU9Hem1EWmpCZ3BWU0NIRDF4M1JxbDlxQm1kd0lHN1VqZHhsd01KYUFreWg5bWdRREwzZ3BhOHBiQTVBS1FEcXR1cmNVRU12RVowVmhZQ3BNNFhscl9lOWk0QXJLZHI0c05yVFBXekJjNzBCYnRmck9UMjBZUHdwbmg0YkZCNTNXZ3VPSVVqcDY5bHdibExueHJ6RTEzd3hMZWxTc0NIQVVHRWdQ?oc=5",
-          "source": "Business Today",
-          "publishedAt": "Mon, 06 Jul 2026 02:28:32 GMT",
-          "fetched_at": "2026-07-06T04:02:19.776795",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Group honours war veteran for two decades of suicide prevention work",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMlpPSDE0OGpjYUJ4Nng1R3l3anNoRHFlMXFUOVYwci1QSy1aS1hOdmhyOW9IRF9HTGdqT2pkOWc4TXBTVWo3aG1hcjJTRk1uRkxLRVlZZGhQbDlKZGlhYnJCaEU5ODVwWnhUandWUDRyYldLSzNQVm9FWGY3Mm5tZi1DczFxdVp4SC1rZmtadVRHS1hmYmpjWVN6NnVxUUoteUI2REtoRUVPYklrbDBzUzdBNVA4VjBMbTN5bUY0eXBlc213RkRNRTNxYXlrdlc1Y1YyX2JjONIB3gFBVV95cUxQTDBTQkVwV0Fmdy11TVR1bDk1TGtTaHZwcVhQdmF4b0hfOE0xc3RZT29Eb05vNjVyMEZETkc2cmxwN0VRb2RnTHlPUnY2SnpMVUtTUkVYMkt0YUpRUlhVbDF1UXJSWFRUWUlyV29mVGRXcl9ZeGZ3YUc5Q0JsMWNKUThoNW5BZk44c1daSV93TFVaTVJDNW1CR0tkbDNId0JJcDlIT1M2RkxWNHVQX2FmZkpJOFhjb3djUW5RYWlHWWptdjhZWHhqTDZ4UDFhRFNQWlBkZVNUV2pIRHNBUFE?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Wed, 01 Jul 2026 14:21:46 GMT",
-          "fetched_at": "2026-07-06T04:02:19.776799",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Digital appoints 3 new C-Suite leaders amid shift in business strategy",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOXAzejlzRjRoUWFTQlJxM0xBbC1JbHA3TE16YjQwamppNm44dGdodVB5Zm5GREl1T2NJa2hGNEtOemhKYVk0MThvQ2FoNmF4ZTRyMmVBekg5N0tNUTh4RWFjc0EzWU50TmdHM1NmSi1GY3hwZFpncWRpX3ZsUkZPemlrZzNrXzQ4YzBQMVdudFppRklwWkt4TDFQZ2JQd1AyTDZyQV9FVVZrOGhKdWRIai1FVFU0djFoNVZlYWZiQzRmX2NhRE1NOGkxNm9Ndi14cnJYb3JiRFpRNVZ5RFpN0gHkAUFVX3lxTE9GVVMtaExmR1JZUUhfNHVwU2xDaWRCR1dmUHVKQlhBeVQ2UzFrRUlJdHBWeFRnSnBTT1N1akNRTnlHZFJkZkxidnM2aHdDU2VSR3NVZXo5aEJ2Z2RXTmxyNldLVGt4M3V4RU02WURrTmNoMTBZMmVGbk9TSG0zUzZyZFp0dm0wNDJ5VFBBNDlHd0theTZfRmxyZUllLVhmQld5U25wR3BLaXozUkFJVkJfUk5jWjR1VEc2YURBTkwzYm9nSnpENURyV3RyNDJwNnRSNUZqdzZoVHhaVmtmT0kxVkROUw?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Sun, 05 Jul 2026 17:38:12 GMT",
-          "fetched_at": "2026-07-06T04:02:19.776803",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -146,114 +98,21 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-06T04:04:04.814925",
+      "last_updated": "2026-07-06T10:49:17.249985",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 3,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "IDC MarketScape: TCS a Leader in Life Sciences Consulting",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd3VkVnJsbzk1MlZtQVdkWjBZT2RHal8taTVGUElHX1JOTFZPRi04UGdxTjBmQl9sOHl6TEd1NnFSRFY3UXJwb1hHaUtkeDZoNkRKQTZSbUdJUE0wMDZiMl9FZy1sQzIxQWtHZTR0TzdNT3djTE5rakJJeGJQWjAyUzFLWi1NZkx6M1BSYkRUNUVQdEhOYm9GdjQxaTh0UVFVbFhCbUtkYl9ocjZsWTB6dXJjSS1tMWVLbUIzSzhqR1kxTkR1NERLRmJ3R2lpeFdIdE90NFhScw?oc=5",
-          "source": "Tata Consultancy Services",
-          "publishedAt": "Thu, 02 Jul 2026 04:43:30 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318057"
-        },
-        {
-          "title": "From TCS results to crude oil: 5 factors that could drive the stock market this week",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd0FSa1Y1V2ZtdXJ5SjJISG1SSHdjMFp5QTlhcWJtdFEwa2hxX2pwaE1BUS1FMkNzYW1JNVlMb2VOMUxnWmlsMF9XNHlhUXAxZmE2N2JkUjJqMjZqWFdZZlBCMjFNdmJOZHhpekxadXNjVEd4czU3czRrS1U1dW9aRG8tcXZLOVR0NGRDQUh3ZUlsTm5DSUNSYUI0WDV1VGpiUjA1cU9EU21wSmwtaE1lMWloVlFwMU8wOXBoOGNjVHZGQTR0OHBvemxjd1ZxaVpTdHlZZGlINVNNclpBWnZF?oc=5",
-          "source": "TradingView",
-          "publishedAt": "Sun, 05 Jul 2026 08:47:15 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318072"
-        },
-        {
-          "title": "Indian Oil Stock And 2 High Yield Indian Shares For Steady Income",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSGlFb0I3d29fQldadzllbjdEd3NmTmd3NzhLUmhUZ0JFeVViY2pNT0JsejV3ZUhZNThpbGNpZkUwMkFqaFZ0VUktUmhUUmFBRlpUZ2lSV0FmUXFfYmZtUFFJOUI5ektwR0RrWnZla3gxc2MtcnM0WWhMbF84NmZOR04za2hqMWlSYlVOaGc4SFVLN3dZdnc5QkJqMEFreDM3d2gwT2ZJTXZxanQ5bmVEamdJNVY4c09WR0YtTG5DRG44SjhwbURHU0RqdW9YTndhRVhWWGhrTlTSAd4BQVVfeXFMUHZzUjdMRjVDZVFhLV9zaUw2dEN4eFVEa1piVHFWYXV5THl5NDNnUHpHUGgyR0VpY1VCOE8tVGdlbjVvVjNTbjZUcWNBVnp6Q2p2VG1yOGtHeWt4Y3NyVWxNeU5Zc0QxVWtOUUhNT0Y1Z3RQS0xvSmdveXhpWjB2RGFRVnUwbXIxZXJpWVBQQU8tYVEzUF90TWYybHMzdlJ4RkNpZGtHSXE4cVVxTHZ1cGxpcW5uVmtySmhJU09VREdXMTk5UEJNeGF1SGZUN2sxbk8xWGJFbk91cERNVEZn?oc=5",
-          "source": "simplywall.st",
-          "publishedAt": "Sun, 05 Jul 2026 15:57:23 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318078"
-        },
-        {
-          "title": "TCS and Anthropic partner to bring Claude to regulated industries",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mS004dFB2RHhmSy0zVWJXN0ZXbXFsdzBQTjNxNm5uOEh0cC1tVm4xdk11alFNS01lS0l4N0VVRjJHSjFUNjNfc3lHZllXRFB5Zks0X3U2VExuQ3N5aVRmV2xvd3BwNHc?oc=5",
-          "source": "Anthropic",
-          "publishedAt": "Fri, 12 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318082"
-        },
-        {
-          "title": "Q1 Results This Week: TCS, DMart, LTM Among Companies Declaring Earnings From July 6 To July 11",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdzNFMG9UQzEybXRVdWQ2M1MyTGN1OE5hYVRnZ0oyNUlzMkN4SFV5cjBoa0l1N1R6cmh6MmE0eHVSc28tdXFPb29aUV8yNXUyRG54aFVjdHo5UzdiSUFOTzdST3JsUXRYZkIzcFJnZWY5WW9zLTFjRVVlSHRGOHMyTV9tbDVJN1BVN3FmdFVoeUszRF9uQmtSOUFMQndneld3UkJBYl8yS2ZOY1hoQ2ROM2MzWjJOejFyUGxyZjBsSFNrZ09uc1hDelJYYm1jVzJZV2fSAdoBQVVfeXFMUFZRb3VpdURaVVdwaE92aGRkRUl2TzRHWXVWUi1sdWluekRDQW8xQ2s5M3M4N2txcnhPVzZFcklDNXE2cUFUYUdrajRBUmw4RHZKajBCbjRvb3EzZGkzUS1mLVBGSm8yOHVObnBlV2Q1bkVxZ3ZYN0RmUEczSEJkaEcxV00zSmZDa0NfY2pFakIxaWRIUW1SZFdXQVdtNjlUQlpGUnVyLUpmdThkeTRmZmxlWXNUVTY0ZHpyeURieC1BSnpzUWtMajNJMERDWXdVUFZKNzhRb3NtZ2c?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Sun, 05 Jul 2026 08:37:41 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318086"
-        },
-        {
-          "title": "Tata Consultancy Services rallies Friday, outperforms market",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSm8wby1RcF9NcWpqOTJrYnVnQmlSVGU5M0wyOHlIdUVFZ092c1R1eFhMVnNYb1F3emtLUXRoZzQzVmo3UURNQmNISzB5SXpUaDg0aWYwSGNaRzhWOFU3dmEwRmx6X21TOGUyTXNCNkhfcnljbm1ZVllUMjdpVEFkdXFESVVVblBFOG4tSEZkVXkxN0VFQ3BiR0YzMS1RcFBTNlFMZWR6dmNiTE91Y2dBS2FYNHZ4VWRTY3E3cDZGVEdBNDRzQ3FnXzRaeG5tQQ?oc=5",
-          "source": "MarketWatch",
-          "publishedAt": "Fri, 03 Jul 2026 10:33:00 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318090"
-        },
-        {
-          "title": "Tata Consultancy Services - Vedanta, TCS among 5 stocks with the highest dividend yield. Check details",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNSklhR01ZVUs0ejlfcnZ5ZnVhbk1vY2haWktibnlhblJaQ2p6NEhfMmpoYk5OUHpTczFvZ2NBRW5RbVVKYTBDNVNDTG9aUDA0bG5oQW5Ua3M2SEhkM0VTWWRtb3Y0OThJY3RJRjdHUllFQUN0a25ZcUpTRFkwU0FVbHRfZk9ocHRrM2E3b0paZURHRmtJVHM5eThNM3l3XzRycHVKa2hmLTBSTWkwUWZkZVNaWjBkckUwdTgxSmNpLW03OFFHUDNoU0s3cnJDbTI5SWVsSDYtUVk0S3ljbXYwa3UwZWIzVldGaDZxdjRSZ0trLUZSYjkwZjVOcjlOb0U?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Sun, 05 Jul 2026 05:44:00 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318094"
-        },
-        {
-          "title": "Legal Operations Specialist (IP & Corporate Compliance) Vacancy At Tata Consultancy Services",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObUtzbEJpdHFWWTNZbzdQUElVcUVkNzU0cjlMenE2NFhnY0ZnMzdoekhTRG1IbVdCZXk0eE5zVHBadjZaSS15clZSeW5mWXAzMWFRVVlGTGFYbVFTWDI4WDBBc0wxYXlQTHFLcllrbVA2WnJxeEhTWERjOUI1TC1lWFdQUW1ETXdwVnJobGpBa1dhX1M4NG80RjI4Wkkyc0pJNnpuUlZfcDZjRGE5ZnZMM013OTJBSVNabm9sN2JJcXpGWjNEZDBhSUhB0gHPAUFVX3lxTE9CQWRNTW5OTkNnSEFjV2xvVnF0WDBsWm1nSEk4TVVMc2pISTFrOXhZNnlwYWZKcHlleTlBbTAtcHJ4X0hkMk5vTi1uOVFNTGtHLThQSWd4TnJIWVY2Z0FNa0FHZVVrcVpIcEZYS3YyQko1bXFqS3FRTGt3RlZmLTVxcW1BcDR1VWhlZ2QtMFhRSFlsLXIyRWNMRWZ5eUJjWVpoQTRsT095Rmw3dEFJcHg2SGdONW1nS01CNlZ6V3hRTEI3VklNTFZWZjdpNzBLdw?oc=5",
-          "source": "Live Law",
-          "publishedAt": "Wed, 01 Jul 2026 06:58:19 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318099"
-        },
-        {
-          "title": "TCS and Anthropic launch Global Premier Partnership to drive Enterprise AI scaling",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOHNkYWdNVUtBc3lEOHFLd2RwQ1FoeE0xZXRIWTFYTzd5bFdjQ3kycXVWQ3Q4ZExGSE5zT2t5MUFFMmJ3enBJVnQ3VlhpX3NrNlM3Sldyb1V4SVVVcWhhaVU1aUNwSmVjdnI0Wi1YQ2ZWRFJJQkR4WG1LNUJYVGg4RkdhZkktZ3hQeS1EYTdDdHZjZGtnVTNnWGxtZ052V2FNajFuQlNQMXlwc0lTaFc2TTJpNTJIaEx5RnNvQ3FNLXFkUkFLREpDRA?oc=5",
-          "source": "Tata Consultancy Services",
-          "publishedAt": "Thu, 11 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318102"
-        },
-        {
-          "title": "Coforge, Mphasis, Hexaware, TechM, LTM, Infosys, TCS among Nuvama's top IT stock picks",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPV0Jic0JqZTN4eVJpbm5JNlE4cDZncUlWQ0JLNTNodE5tX0FNdHhZeXRkai1BU0s5TjFFZ1dzU2hlTl9zQnNYODMtNHlkcGNhUnBPQldBellYUTJCSVZOVWw3a2pkTHJhRTZEajVPc2VSa3N3ZlhyZlkwLWZ0dFVicHNVUjlnTHU2R29jbGJaSWxmZ2lEZUZVZGtNRi13Q1BWQjFZelF4cGZJUV9RMUh6azR2REI3OHZyRS1fak8wVnhid1ZYS1d2RXVEZGR5VGZNNUVqMGdxZFpQaElFWUkxatIB5gFBVV95cUxQZHl3aWtvaWw4WVo5a0VBTWd6ZmRrSDRmUmp5akR3UVp6bEV5dklnZzBid2NDMU9uYjcxd3BnU29yZEtNUHN1d0ZheU5xQUQ3MnJLSWsxOGtkY0R0WXZUMy11eDBPTTFwbTlzM2JaRGF6LUxYOUI4UGd3bWhmQ1lPZmg2WTJ3Wm83UGF2Ny1hMUl2X1FjcEkxV0M3SFliREFXbG9hVTBQREltWXRyOVhDTVBoV0w5LW1FSU5vcDJlcWpwTG1TR1VWVUN3VjVDN294cEtvRFllWFpmbVhmcThXeEk4Yko3dw?oc=5",
-          "source": "Business Today",
-          "publishedAt": "Fri, 03 Jul 2026 04:36:14 GMT",
-          "fetched_at": "2026-07-06T04:02:53.318106"
-        }
-      ],
+      "news": [],
       "research_gaps": [
-        {
-          "title": "Regulatory Headwinds for TCS",
-          "severity": "High",
-          "description": "Regulatory overhang detected for TCS: compliance. Compliance cost and policy risk assessment required.",
-          "detected_from": "IDC MarketScape: TCS a Leader in Life Sciences Consulting  From TCS results to crude oil: 5 factors that could drive the stock market this week  India...",
-          "gap_type": "regulatory",
-          "keywords_found": [
-            "compliance"
-          ],
-          "solutions": [
-            {
-              "title": "TCS: Policy & Regulatory Risk Monitoring",
-              "impact": "High",
-              "timeline": "4-6 weeks + ongoing",
-              "price": "₹12-18 Lakhs + ₹1.5L/month",
-              "methodology": "Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning",
-              "description": "**MRA/ESOMAR-compliant study**. Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning. **Deliverables**: Monthly regulatory radar, Compliance cost models, Stakeholder matrices, Pre-budget memos.",
-              "gap_type": "regulatory",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -293,6 +152,26 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "TCS: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
@@ -303,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-06T04:05:20.603444",
+      "last_updated": "2026-07-06T10:50:23.390758",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -387,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-06T04:06:39.198661",
+      "last_updated": "2026-07-06T10:51:50.953694",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -471,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-06T04:07:14.157125",
+      "last_updated": "2026-07-06T10:52:39.809897",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -555,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-06T04:08:15.799791",
+      "last_updated": "2026-07-06T10:53:39.204959",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -639,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-06T04:08:57.699702",
+      "last_updated": "2026-07-06T10:55:14.578224",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -723,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-06T04:08:58.045272",
+      "last_updated": "2026-07-06T10:56:39.878339",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -807,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-06T04:08:58.098717",
+      "last_updated": "2026-07-06T10:56:56.497675",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
