@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-08T14:34:48.547555",
+    "generated_at": "2026-07-08T19:50:42.800368",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,21 +14,43 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-08T14:26:41.946465",
+      "last_updated": "2026-07-08T19:41:42.804648",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Merchandise Revenue & Licensing Gaps at Reliance Industries",
+          "severity": "Medium",
+          "description": "Merchandise revenue underperformance at Reliance Industries: retail. Product-market fit and pricing research required.",
+          "detected_from": "Proud to share that Reliance Industries Limited (RIL) and Reliance Retail have been recognised as one of India's Best Employers Among Nation Builders ...",
+          "gap_type": "merchandise",
+          "keywords_found": [
+            "retail"
+          ],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Merchandise Demand & Pricing Research",
+              "impact": "Medium",
+              "timeline": "12-18 months",
+              "price": "₹14-22 Lakhs",
+              "methodology": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking. **Deliverables**: Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy.",
+              "gap_type": "merchandise",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -68,47 +90,63 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Proud to share that Reliance Industries Limited (RIL) and Reliance Retail have been recognised as one of India's Best Employers Among Nation Builders 2026 by Great Place To Work®, for the third consecutive year. This recognition reflects the trust, collabora",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZUltZWlZWl9fMHRicF9sV2ZDWEVBQ3V3SGZObV9KbE01a1M5MkctWVZ3MHRveXdtZHE3Y3A3WHpRMG0tTk1DLXd5RWJNZ0pMMVVpSG9wQXZXOE90RnFaMXhHRE1tVW1zZzZISk1zV0RJU1Ayc1NKanBqZld6T29jMDZDazRCX0VJZ2xBVFJQWWUwN1lLTm55MzdPZFh0WkFvalJVS1dGdlZ1a1dBU1hJdmJSM3JvWlUzZDFONm1rMUFVYlNacUd2N1JELXJzNVhXM0RLUnJHeS1NbVgxNU9aV2owWnpUaWxKYzktcQ?oc=5",
+          "source": "facebook.com",
+          "publishedAt": "Fri, 26 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T19:41:42.804227"
+        },
+        {
+          "title": "Reliance Retail building garment manufacturing ecosystem: Mukesh Ambani",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNU1pZkRtUndKeFV5Z0dtVVZ2dVZIV2tLWFVlWHU2RUVrTlBDOS16amZMR3hMRXU2aHB5bl9xUUxFVE84dUJaSzdSdU1nSmQ0a1JuaVBndUtldFBXNUpWbDZtM0JHamRjR1pTZlFkVk02U0YxS1RVdUZQXzg3dXduUVN5T0hHMGdnaFNaOWxBZUVMNFFhbW5GclQyaWNUclozd3BXeWJrdW5kOFpub3Vfb0NUbnVBVTJ0bXlfOVgwdlE1Mzh1cXVpLVc1OWUwd9IB1AFBVV95cUxNNzg1aXRSVEwtYkVtbDdDWDVFR04zWjRLcWFod1BWYk5DYUZHNW9zZUhEM0VRMS0tQ2JjS1U5MTgxNDFvZ1ZoOWZPY0xDdlctTWNUMWNSckJEeWpQTk50M01TbGh2UFNqQ0tqX3E1aWR2OTFRRHdIQ29QWldIUmNuMmRiUThnTmluOC1NOE9vWDNtekxMNHN3b0xGbjRfUUxOVG44VUFYaXJsREVnQ0pVazh0QkpqWUk5S0EtZVRER0VGWWJ0bExFaEhwM0hTQjV1NEo5TQ?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Fri, 19 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T19:41:42.804242"
+        },
+        {
+          "title": "Expired food, pest-infested suji found at Reliance Retail store in Kompally",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaEVBNnRZZ05TR3pNMWVKZ3NJSTE5bEN5ckU3cDNwaGJ1QXVGckt4OThNZ0prMTlLNXdaM0pqQnYtR1BYU1Q4RDNTLUUybjRuVS1iMlV3X0M5c2VYbzdKNDJWZ2xGVzU3dUV2T3RPaW81cktNZzhnbnVic0p2MEZfMjhBUUFUOTJDbHY4N3ZjN215Y2c?oc=5",
+          "source": "Hyderabad Mail",
+          "publishedAt": "Tue, 07 Jul 2026 20:07:03 GMT",
+          "fetched_at": "2026-07-08T19:41:42.804246"
+        },
+        {
+          "title": "Flies, pest-infested food: Here is what safety audit found at Reliance Retail, Lucky Restaurant, Zepto store",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSXAxMHdhTWs4VktFd003VzFwbzgxV3ZsU3NRNWlkVjNydFpJTk5lSG9yYmItNEw1MHJrT3NKdEtwcEt1SlAzc2FEM2ZCTUo3VjVtbl8xbUN4aVdXV2xwS2pFUlFMQzdzZ3NZZGp2eDRPVm9zMTJHcmNBb2JCWmRvdkZFSlVCaUNLZzc5eG1CR3BWVUhfVndmNk5uSWhNMTJyYXNCamNsVmNpR0pSRV9jXzdOaFZicUZOSmo4U3Q3WlNjSWIwM3k1b3NGNXFlWFFBaDZsU3Rwa2UyZw?oc=5",
+          "source": "NewsMeter",
+          "publishedAt": "Wed, 08 Jul 2026 04:15:43 GMT",
+          "fetched_at": "2026-07-08T19:41:42.804254"
+        },
+        {
+          "title": "Indian and Chinese retail giants look to source more products from Vietnam - Vietnam Investment Review",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTExZQW93WGtQbEVwYlBUbEItcU9ZYk45VkdoYVMyd1BYRUt5dFhJeXAxaXhzN0ZkcXcxZ0pQY2UxT3Y2VWVyajlVdWxJTm1aaDgwMTB1WG1jYmZLUVd3Yy1OQjVic1ZRdVE2ZnBmdlByRW5VMXZKOWZNYW51SjFoNlhvWEVTVGVGWG9iZWlSaWREY0tBT1ItVFIzSjV5TDBDdDNXbEpzRnk?oc=5",
+          "source": "Vietnam Investment Review - VIR",
+          "publishedAt": "Tue, 07 Jul 2026 09:44:18 GMT",
+          "fetched_at": "2026-07-08T19:41:42.804260"
+        }
+      ],
       "filings": []
     },
     "TCS": {
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-08T14:27:43.957783",
+      "last_updated": "2026-07-08T19:42:52.110192",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -174,53 +212,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Stocks to Watch Today: Orchid Pharma, HCL Tech, EMS, Silver Touch, Knack Packaging, Ganesh Infraworld,...",
-          "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPbnp1engydnk5UktCc0FRV2RQV3dYeEVzdXpCVU0tdUk1cFRJTlhoekdLNlVxaHBJMnJWb0o3WGluU1VtR2k0b25XV2hWbzVZbHVlQ2syR01pV25oeVhiWTlRazNPc1FvM19veWV1Qk5ncTFrdG5NMUFkOHAtZUZOQ0w1cXU0eEhRcV8yQzAwQVRNVjdTWHVoVGE0Z2lOdUpuWDJUTy1hV05ZM01STktEMnJZM1VtRFlVVmlRbmVUNDZCV1c0and6T3JKUlN3SC1pTXB1eVpyajZlbU94ZTgwZDBxWGNXc2lZRGZyc3dWZ2RJOEgzcnNweTBla1VFd3RDN3JPcW82eE1NdFFpcnU3WnJid0I4V2tyREZtX0psQ2ZnWE9TZW9wMzAta3F6TW1QNHNxbtIBugJBVV95cUxNSzl0aUtRNkhMUmhFRXo5NUo1ZHRaT1NRRV93MlY1YVZUS2dxcjdEYzFzNzJDR3Z0OWozYWFXNkNwZXB1S2ZrZ2tzY0FVdnhqQUdScjlJV2NLLXk5d21PYXE3WVNRNEZWQldIWUw3aXExbUlGMFhhMTFTUGpGUE1WUzhNMlRROFJuYUw5ekdveHhWd3IyTnZDMHVzTGJ2NUMyMDlQaVVkV3RBTHdDbHdNTFJpX0dDdG5hOFdnRXNpdmFmS2tZcjVsbnlfQlN2Q0VQNjdJRHA3a0luMERNSHFCcjVCSkV3eHUydE5xNlVHZTJnTXF0Y3Y3WGVqcVJvbE9CUmFCakFNVEhNSmtuVzQwVDJ0a2NyY1dkeVRYamdhTDFTYlllQkpNa2ZsOFFMUU1DelZ1SWIxSjRSUQ?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Tue, 07 Jul 2026 19:30:13 GMT",
-          "fetched_at": "2026-07-08T14:27:34.048036",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Top gainers and losers on July 7: HCL Tech, Tech Mahindra, Infosys gain 3%; Trent down 13%, among top movers",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSUljMzRyVWt6T3ZOUFp0ZFE4VDNvb3cwcUZQYzBCMDRLZTJwV3F1V291VjNBZnpqUHdyeWQteEZNVHpmNGVrOUlOeUxEbEh2ODFfeVhJbEptMi1uTW9iZE9mVHhMVU44WUcyaUZFZnJjbUNYcXR5UHpJemh1bUZWcVZSYnQwSEFyMk5udWxuaWNVV3dqb0UwY3ZsWVczN3h3MFg4RDRUQVI0bFNoa2JRZGF5b3YwcDFTUk9kLWFhVFFMd0ZxVnJCYlRUa0ZnUTd2ZHh3X0xuTXV6VFJxVl83UjNfeUR1REJWS0ZSUWtlTWZ6QQ?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Tue, 07 Jul 2026 10:27:31 GMT",
-          "fetched_at": "2026-07-08T14:27:34.048052",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "HCL Tech Share Price Live Updates: HCL Tech faces a tough market environment",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHNvbGpQWFM5ZWxqc2pmdFFwbVAwYTcxRjRsbGhmMHVvN0FHSHNHbklGcTJBNXNQT1V4UFlJZnNhbmppejNWVU15OHBvb2tqai1CR0M4NzBDTzBaYnlBSUQwcEQ2MzBtSEMtRFFQUXhLblZBUGpIbDlOdlIxUk5OSm81eTJWYzVNLURtbzdUa1VHY2ZOX1dubkF1SS1BTlNJZ3lrZ3ZSVlZRWE5WRkdMWWl3RlFlcFVXLVFRdnJ0WWxwMnF20gHKAUFVX3lxTE1Zd1N6QllSRXR3UWdpZWtXMXlXR1NDTmw1bVVyQlpZYklWLWstVEF1ZHhZaVhUZ2ctS2xULVlZVzh1amxtbmNDNzRCVW1uYTN5Y216UXYzTVhBTk5PYmRHaUp1bXNYVFc2cGlJR3pseFFyOEZiMG16VlpGbmtleEZUcHRBNk84eXBpbWNTdU1TTXNXUHdDTm5OSVZJUGhES0dQSkxlSEJDMjYxemRLN3hNMnlwUUVYOW4tMF9wMUZBNXRYUFRSOXNNSFE?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 08 Jul 2026 03:10:45 GMT",
-          "fetched_at": "2026-07-08T14:27:34.048057",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Stocks To Watch Today, July 8: Cochin Shipyard, Tata Motors, Uno Minda, NTPC Green, HCL Tech and more",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORjZhZ001X0NTdTF4S29mUU9HU2FxQW9qd2pKekFZakZSNUsteGVIYVlaQkItWWw3TGtIeGQxMGhZSjZ0cW9CVkl5X3BhWEtaLWtwbU5yWXpEMFdwMy15YkRqajBQbWlncXJZNUVVeXBRc0RjcFQzQVlJUFAzNVRfdTVnWUROYmVaQ3VGYlJKaFlkMmZ0X1RuTFNsYUxSXy1mN2VkVjRPY2dhV09aZXVVbERnT3lITHRhamR6RjVyeUE1NzRSRFhIQ2ZfTnJ0QVJuMDJIQ2xsbEk1azdTQUE?oc=5",
-          "source": "Zee Business",
-          "publishedAt": "Wed, 08 Jul 2026 01:55:37 GMT",
-          "fetched_at": "2026-07-08T14:27:34.048061",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Nifty IT Index Rebounds With 2% Gain As TCS, Infosys, HCL Tech Lead The Charge On Q1 Earnings Optimism",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWXc3S1hqSGNpQWNSSWRNRkY3N3A2dDE4LUxrTVZqQXM0TWotYkhZT2NmOUdiUFdzX2hrLUxRS2Y5Vi1qRmdoQWtwRER0N2RBRXZtWVYwQ3RxaVNBQ1lxeVBvVDdlaDI5b0Q4N1A4dk1CUzdzUE5OQ2F5VVpqU3g3VlMtaXdYUnNQM3l3Q3FFd1FwNkhpcDRFX2hRcm4wc0hjdWEwT3g1aHhodlkzLURkYWs2VUdKck9lR1dockJlc2ZobEhfNzJ4V1JkbW45YUY2Y2JGVG5CQTFmR1nSAeMBQVVfeXFMTXNRNXlzQVBkMmxGNzBlR1FoamhROUF5Nmk5Q25NMmJwMVd2LUpnWjZTaFU3Si1pMmdXR0U5NzQ4U09RVGNnV0ZYbldRMlFuRHd1UU9xdGJfV0dnLVFtRkJpVE05X0ZONWlRNjdBUm8zWWdlYkdxOW9tTmJWMTRVTDBBNnVKRmQtenJkTkxOLVdXdFlJMXVyX05SLVpXRHBtWXMzN1Y0UkhJRjBGRHloRi13VGYxWFozNl9BbzFQYmZRSWt6bGxDZnVsa2d6QS1qZ1N6MDNKcmMyWHhUeGs0bTFtbnc?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Tue, 07 Jul 2026 04:46:04 GMT",
-          "fetched_at": "2026-07-08T14:27:34.048065",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -228,7 +220,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-08T14:28:43.773463",
+      "last_updated": "2026-07-08T19:43:52.189771",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -312,7 +304,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-08T14:29:26.934002",
+      "last_updated": "2026-07-08T19:45:13.790045",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -396,7 +388,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-08T14:30:31.508061",
+      "last_updated": "2026-07-08T19:46:14.689878",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -480,7 +472,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-08T14:31:57.540208",
+      "last_updated": "2026-07-08T19:47:23.967773",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -564,7 +556,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-08T14:33:35.131031",
+      "last_updated": "2026-07-08T19:48:54.317232",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -572,10 +564,10 @@
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
-        "label": "Neutral",
+        "score": -0.33,
+        "label": "Negative",
         "pos": 1,
-        "neg": 1
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -647,8 +639,8 @@
           "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Commentary",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVJ5OTNfaWNQMGhnWDNyM2pOT2NkbTUyczVwS3Q0TW0zZTA2aU41amZXVGxhd3ZIYy1mWlhmXzd4R3VqaUhpZFNZcVNqSHpQSjBNM1BCSUZUX1JlR20tN3A4V3pTeWFORWMyODlQM2s2TExZcDdFOV9UbVBKOGI1akRxTWhFRmZNMjhZNnNfSnM2U0dfT1RJTkJTSkdrTVpQ?oc=5",
           "source": "Cricbuzz",
-          "publishedAt": "Wed, 08 Jul 2026 13:53:07 GMT",
-          "fetched_at": "2026-07-08T14:32:39.270350",
+          "publishedAt": "Wed, 08 Jul 2026 19:43:11 GMT",
+          "fetched_at": "2026-07-08T19:47:54.217884",
           "related_to": "CSK",
           "relevance": "competitor"
         },
@@ -656,26 +648,8 @@
           "title": "IPL | CSK 160/2 (18.1) vs MI 159/7 (Kartik Sharma 54(40) Ruturaj Gaikwad 67(48)) | Chennai Super Kings vs Mumbai Indians, 44th Match, Indian Premier League 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and mo",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ0NKamxkcFdybTVpSnVyOVlSSzBWZkR2Q0hmVlItdW03aFNiTktpWmZCU1JUNUxfSXZEbUFROUQyOXN1d0ZoWlNhX2NOSWNaNXlqdFlqWXVNcGE4cEZjczVwek5QVmlTZUZDX1U3dzRjLU5uZUhhV3cwUXBrazJiUjJGSEppWnBvTXpTTC14c0YxMm5jOU9JcjFtU1pBanJH?oc=5",
           "source": "Cricbuzz",
-          "publishedAt": "Wed, 08 Jul 2026 13:53:08 GMT",
-          "fetched_at": "2026-07-08T14:32:39.270370",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK vs SRH, 63rd Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV3hneHVyd1R1b296cVMwR2JUMFdYZTFvcWlsVUhuRnlVdTcyRmg0eEZqMW1rQnF1b2FKYjA1a19PSDFtejZ2UUFRR0NpVFJiYVo5dkk4b0NwM0dkajQwMkYyZWNZeElpb0RwT2p2RWRPMWJCbGRnLWlxNzFhRnN5U0NSV0JWczBDRC1HLUN2a09NU25HaG53R1BzY3pxek44cmc?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Wed, 08 Jul 2026 10:08:12 GMT",
-          "fetched_at": "2026-07-08T14:32:39.270377",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "MS Dhoni turns 45: Why former CSK skipper made a 15000-feet jump to his aversion for mobile phone, check litt",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPVlAyX0FHSlNMVERNbHJRUldXdTU0UC1zRWFuM3Vtd3hocFRoREM3Wmp3akJoM05lTmg1b0x4Qm1hOXFIQURTTFdoUGUxLUIwRVRqN3IyckVWbmRfZmlZMS1UaHB2bzhoQW0zRTlsT1hoSURvQUFTeVJBNnlReGNvRlBuYjRDcXR1S1VfNm12NGZCR2RWUVpZcU44b3BQVmozTThWTVRJTWEyUlUzMTk0NVRtcTBZbXp1ak5ZQXFPN1hHRU9UbEFmaUVJRXRSbndLQmdGakx0dFhUVUp1aUUzMHpvNzlNaHoxNTFoYjFXYm5YZGEzeUF1bkY0bXREaE520gGGAkFVX3lxTE5RbDEtQkZCcTVIOWYyX091SlBuMlFMZ2xJOVBULTl3dk1LdEpLOFRJYzNqYzE2MFhpVjdmZXBzMjhidFp0ZFN2Qmhvd0xhVVgwcnQ5VXM2a3dMQUtaMkhXQ041Tl9TcGJxSENldjBCZjI2RE1NNkU0WWFKU3kyeTJmdTItZXBId2dZUV9HWllOQXpYcmJLVFdZcmJ2N3oyc3l4aXBST05TOXZZb1BYZjZhMGlpWkNnM1p5VEdWdkxvWHBXblYxQUg2and6NE1mS3VDel90OWkwbnRPMzFyMy1iT21KSWRnR3Z3QktSNW1Sa0d5VmRjU3hCS3hCLTdtVDN2RGhZS0E?oc=5",
-          "source": "India.Com",
-          "publishedAt": "Tue, 07 Jul 2026 08:46:29 GMT",
-          "fetched_at": "2026-07-08T14:32:39.270382",
+          "publishedAt": "Wed, 08 Jul 2026 19:43:08 GMT",
+          "fetched_at": "2026-07-08T19:47:54.217900",
           "related_to": "CSK",
           "relevance": "competitor"
         },
@@ -684,7 +658,25 @@
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jSjZaYXA3OUI3NkdYVTl1MzBEQmhrRFJuZEtENnpSa1Vqc3JyUVkxRmV1NkVqZ09sdzZEejBjZ1huNHNQZDQ2ck9ndzhpd2Z6WXdNeXh0Z3lMZTR3NzVZUGphaWtIZjBNWnhWZUNXcVk3OExMRG1DaA?oc=5",
           "source": "Rediff",
           "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-08T14:32:39.270385",
+          "fetched_at": "2026-07-08T19:47:54.217905",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MS Dhoni turns 45: Why former CSK skipper made a 15000-feet jump to his aversion for mobile phone, check litt",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPVlAyX0FHSlNMVERNbHJRUldXdTU0UC1zRWFuM3Vtd3hocFRoREM3Wmp3akJoM05lTmg1b0x4Qm1hOXFIQURTTFdoUGUxLUIwRVRqN3IyckVWbmRfZmlZMS1UaHB2bzhoQW0zRTlsT1hoSURvQUFTeVJBNnlReGNvRlBuYjRDcXR1S1VfNm12NGZCR2RWUVpZcU44b3BQVmozTThWTVRJTWEyUlUzMTk0NVRtcTBZbXp1ak5ZQXFPN1hHRU9UbEFmaUVJRXRSbndLQmdGakx0dFhUVUp1aUUzMHpvNzlNaHoxNTFoYjFXYm5YZGEzeUF1bkY0bXREaE520gGGAkFVX3lxTE5RbDEtQkZCcTVIOWYyX091SlBuMlFMZ2xJOVBULTl3dk1LdEpLOFRJYzNqYzE2MFhpVjdmZXBzMjhidFp0ZFN2Qmhvd0xhVVgwcnQ5VXM2a3dMQUtaMkhXQ041Tl9TcGJxSENldjBCZjI2RE1NNkU0WWFKU3kyeTJmdTItZXBId2dZUV9HWllOQXpYcmJLVFdZcmJ2N3oyc3l4aXBST05TOXZZb1BYZjZhMGlpWkNnM1p5VEdWdkxvWHBXblYxQUg2and6NE1mS3VDel90OWkwbnRPMzFyMy1iT21KSWRnR3Z3QktSNW1Sa0d5VmRjU3hCS3hCLTdtVDN2RGhZS0E?oc=5",
+          "source": "India.Com",
+          "publishedAt": "Tue, 07 Jul 2026 08:46:29 GMT",
+          "fetched_at": "2026-07-08T19:47:54.217909",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Gujarat Titans",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVJqSVMwemp1TGctcG1XYWNqdzNfa2lIZ2taSHFmcEZyYW9BQUtxUkhpM00yNVhNWFpDd2Q1UXlXUTFLcGNkblVoTW4tT0tyUGVpdXpjaE1vMmhjbmNoSTh3a055LWxmU2xBb3h0RDIyQ1VBNFAxcmVWM1Z1c05LVVo3R1pIVTI5Q1NsWHZXeE81SXo3Uk8tZkNqZk9oam9EZ2QtRXcxVmU5MUhGQVFVamF5N3dfM0xSR3VCZndLS21uSjBOUGMtUFpIclhZRkIxbDQyTElkMS15SjZZMHV1clBZU3dxbnNXcXp6eW4tSGVtODVHT01fYk10QXg3LUdoZmc?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T19:47:54.217914",
           "related_to": "CSK",
           "relevance": "competitor"
         }
@@ -696,7 +688,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-08T14:34:28.893268",
+      "last_updated": "2026-07-08T19:50:12.752315",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -780,7 +772,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-08T14:34:48.547545",
+      "last_updated": "2026-07-08T19:50:42.800351",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
