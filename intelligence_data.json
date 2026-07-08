@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-07T20:14:26.243823",
+    "generated_at": "2026-07-08T03:28:34.077169",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-07T20:03:56.613994",
+      "last_updated": "2026-07-08T03:20:47.205623",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-07T20:05:11.292792",
+      "last_updated": "2026-07-08T03:21:40.101156",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,83 +182,206 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-07T20:06:36.582527",
+      "last_updated": "2026-07-08T03:23:11.093339",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": -0.2,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 2,
+        "neg": 3
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Infosys stays silent on CEO succession at AGM",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZU9xbDE3cnJRU3NDY0tZNmVpRnR0RG4tSlpJUlAyelI5Ung3WWdmZFRVVGRLdGVrMzljZExXZlYwLW1ocUxzZ1BIRGQ2dnBZY050WV9LZXdPb1dBdlpqZlB0ckVlU0pFbDNOVU9XMmNkU045bXduZUVSOGJQMjhQMkh6b2tNRW9ndmVRbVQ1MUllUFdBSmdlZ3NlWkFoNEJsV2tOaUdlaWcyOXNxd2VGR2NvRjhvMERkVUF4ak5FWmtmSUnSAcgBQVVfeXFMTlQ4LXVaOUJwUVFvckZLazcyQ29GNnpFQlY3UlNjQXVfTW5DcjRucU9jSTllNXNvcWRpdGtiUnl1M1lNbzZyX05iWmNjYXlBcnVXdVlvN2FBWWFtbE54Y2Mzekt3YU1ER2RCZzdCV2hRbjJ1UzFhRC0tTlpyWkdhM0FCa1FfMmJrbnRPaDUyWlFnYkhKSTN6MnJvZDRvT2hsVWRZTWk0XzRKV3E0QmtFa2RVM0hxck43cU1kQ2diNXFrX1hvQVBINTc?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134573"
+        },
+        {
+          "title": "Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaUxkNUdzTGR2ZWZiN1dOV3h4STJEV3FwMHMxaGJKdURvM0x0aUxaVnhxcFJuVkRxQUU2Z3RmdHhPNE16OTctT01WZ3FxSEhqbllfN1JOVVRPMEs4TVAya2hkVVVQTVZhdVJRZkY2bFhVdDVVazdVcHVKZXo0Tm1DU3hVYURwV054S0I4MTk3ZEh4MndadWx5VjN4WkhnbmhxcXlBMWh2SXp5cmx0MURheUFVelZkY2Z2SnVHVzY3SFZLSFd1SnR0TWhQV2lYMlpWM0JuVXdTLTFkdHF6YXREX2tYNkwtUTRl0gHuAUFVX3lxTE9WTHRzc0lQLUIwdGRMRGlQMlRrbUgyWEx3ZVZDVnZUMkEwQk9yLWtMMFlJUkExWDMtVDJrSVRLV2ptY1BtYVNDQl9odWg4UkR2cWpTZ2xGeUpXbk1VTTd0THh6cjYzQlByWVo1YzRVMVBiVkZiUDkwRmpiVkx0dDdiVjlOaG1lN0g1Y2xoclNNN1h1T3BRM3B1QkNxWWFGcWszbmZqS3BTZE5GZk5fQS05dGpGbFVicEMwbHpLYTRtLUV3WUFzZmN4bXl2V1JFNjIxcHpJRlNXUk91RzlIMGRNZjdsZWxYYVhOcExFTGc?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134594"
+        },
+        {
+          "title": "Unlocking AI Value: Salil Parekh on ROI, Jobs, Data, and Governance",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oWDVGNUVCeU14Y1I5dVcxOXJBb2xwVzYwdWdxWktNSjdzdmFiRFdYc2NNNWFpM1o2bmx1YmdwOW9EcmZPXy16ZFdPWHBEdkJjYTN1LVJBajVDbkJsZ0I1M205cWlTdGRRTVE?oc=5",
+          "source": "Infosys",
+          "publishedAt": "Wed, 20 May 2026 09:06:54 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134599"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh on AI tools replacing engineers: It is not that overnight everything is going to",
+          "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQX0dkNTFfZ0hteHBsQVhMbDBqSUh4V3RYbjRMZ21Xa3NTa0pOWEFmUVBQOTFhdHUybnp5MmlsMWlCcUpDNXVhVVMyTFFGdkxIbEVGRG94NEJoQl9fSUVCODhnenMta01Fc1BWa2ZlUHVhSUdpMmNadm5hRHZ3S19kMkRNbzNrYnpDVThJbmdOQllFMWNYMjNqNkJGTFlNc1l6THQxeDM3a3lSdzBleGpaVUcyY3FuZXVUc1kwYUktRjA4ZHExZVpPaGF4RDZ2ZC1VY19FcUlCZmo3YzFyR3hLY0paX0VoUEdHWWVrZzJIdmxVS1Q2VGlFd2xnTHRfX3k3VXdQcXg2R2kxNG9CVEE2RlhEWERoeGFsekhTcXlqSmhRU3RXaVllOXBmNzNXYlB5T0p4QlhjNUFDNFlYbGVpcjdCUHjSAcoCQVVfeXFMUElweEE4SGRrb1JSVkVsa2hqNWluWDdadm85X0JjOEhGNnVfZDFGUG0yN0VhNWJrQWFPTXpKVUpNelowV3ltZkFBVzRjbE5TTjk3TGFEX3R0REd3aVcxTTNNMFFndHJHSGNRVE9YZHFyVUxsaUhWdDdkcTJWMC1lU1VOV05rWjg0NWttZU1WOXhacmVkbjVuQjRDZ3JTbGZZdldLbXppTVZaSksyMWVKMlEwVkxUelhIVzkydklMZHk2XzlaTi16ck5nTS0waUxaeFd1S1lYQ3AxLXBQQVYyUGpaV3JfYTlWNjJPUE5jOEdhWDdITUdRZWE1ZGs5bzBFbjRrcjEzdV9mRzBHOGFMREtjS2w2eDF3cE9NakliOFBnR1IxcEpBUGxyeWpCWWRYVE5MYXgzdDhxWE9sb1BNb1VGd0RPbnZjZFBR?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sat, 21 Feb 2026 08:00:00 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134603"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh earns ₹82.6 crore in FY26",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcy1Pd0hMa0ZtS1FWSHlDRWwtdWF0NnY2VkZyOWZKSnh6bUZqMkg0YkZwLTNoYkF3ZVpwTENtd0pWck9UTFEzM3hyYkZHc1ZCWG5ROTYxbF9qQWZ4cG1DUDFNaU4xTkRGbkF0cktNcjRyN3htSlZRWW1KWE5iZWlfMXZOX21SLWROUmI0MlFXSVRhdmI4Y3BKMVpQNTkyVTU3a3JEeWlKVnRRbmlHZlJxb2lEdXBXLTlESlVWcNIBwwFBVV95cUxPcTVZRXF5aW5FREZXaVNqQUdLVFFOZlJuMUNUSUZCa0xhNExMQ25UeXB5akRCWWlVcjFWZUY3eFVRTG1jSUdrQU5LV00xeDgtck5vM2s4THYzMEdweVNhRTdQOXpFdFNDWFF2NzVLOUdkS01uX3YxdTA2SnY4dGlUWHMtOVllaV9EblNDVTdZMjlhTDY1eEY5M1puYXhMSzNjSmJsa0JPcnctY0J3T21oTlBaTko0dHhwWGl1RXFjLW9wZU0?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134607"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh’s FY26 pay rises 2.5 pc to Rs 82.6 crore",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOVEtNGlUUG9VUlBtYVJQOWZCOW1CNE9zcDRIcTJSN0NBVzhTM2p3LVUweVctQ1FSaXNQbnVlVjRjNTZrQkgyMUo1Wm1hNEktQWtnXzBrU0RINlF1LVhCMmE1bXhiRDM0c1FoRnZ4Y0ZPY2NDWFFIaXFRZnI0bFZxaUdkNGpwNENsY3A3WUdTUGZKNjRUelZxLVZldEgyZ3Y5bk4zODgyWHA3dERZZWdUVmdaZFNtazDSAcQBQVVfeXFMT2xtUUltTjJVSENENmU3ZENJSjBScnB2eXpVaGVNWm40TmkybTBSZnJNWFFXVjI2dE5sbzNRcDRGdVU3T2JsLXE0NW0xdmRLc21HQXlPU3psSDhmMENwNVpPMm5LTmdDN1d0X3dtTXBkUXFUN2JjZXFEVno2dDFRa2lrYnE4eHJmNUs4UURBVHNrZmlHNEFLcW13T3J0OWNlblAzOE9YYW1DaldJT1ZzVzFfeFhsNHUwZ21WcjhRV2UxTzdteg?oc=5",
+          "source": "The New Indian Express",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134611"
+        },
+        {
+          "title": "#MCTech3 | Infosys CEO Salil Parekh interview; Dreamteam in funding talks with Accel; and more",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSHFzRWlQa2hpU25TTENjc2d4LXdrbzlQOG9kOVpYYWJPb0VfNXdTdWtLTWc1UUlZREJaTVFsSjIzQndXOXFwUDhpbVB2RFZweVBPeDZwbE5SNnRVcXg3Y2t4RkZVVTUwdWo3MUpFZFkxamdIcHRLcVpEZVFfLWNYaHMtUVVlMXFTOTZjQk1kVmVUTlJkdXROY3hPbTBpQQ?oc=5",
+          "source": "LinkedIn",
+          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134615"
+        },
+        {
+          "title": "What Powered Salil Parekh's ₹82-Cr Pay Package At Infosys?",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMFgzaTV2OHEwaEp3TlpPWGR0SFlrWEc0NkdLZHdpUmVyOHdsdVVBSE9vVmdzZmIxcy1SZmJtakVMVExvRk8xNHBkdDk1V045Um1vTDZUTGdubzZzMmJWQmR6a1Z5bFFrcTJWVkF6ZmRGdUlUMTN0Q2I0dHR1VW9Hd1FMeV81OXh2STRwZzBuaTd2OW9QRE0wZXBPX2FRd9IBqwFBVV95cUxPakNaR1o1TnNvU0ZiSjhQbUFGeVkzT0hTYXdyYTJJNGZqYnVpWHg3Yldia1pNS1RfNUliUGp4MHFPYlhzUDkyTldTT1lqUDNudmViZThkVzV6ZndKNVFYa1g1WnlRN2hFOUpJUTd3ckpVTHFtblZkMXdsZVFUazRPTmhIN1lIeDZiNUVORWVsT2puYy1pTTdVNWVNcEdMb1dsZG5IY3VzRUVSd2c?oc=5",
+          "source": "outlookbusiness.com",
+          "publishedAt": "Sat, 30 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134619"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh's FY26 pay rises to Rs 39.82 crore; TCS CEO Krithivasan earned Rs 28 crore",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOFVqMVc3R2VHU1pLY25sZmQxa184NFNHNkdZenB5NWxKMlNOQU9UQ2xSLWdYLWxYUFRKNlRORVdLX1pTMkRHMVQwNUJMRERWc3JmNXRDMGVyUmFZN0c4Y1lTakc3ZFd1QnVDVDdsUmNLeW5DdVBHaXRianFYSFV1R2NyN0NuUUU4aTBpM2hvZnhWMTQ3OFZDek5qanZJQ3I0MExRcE5lMWlkOTVELS1rUEZiTERJWmZqTEpOZU54MmdDTklfYnJGanItMjZRUdIB0wFBVV95cUxOd0NpRzFNeWlaMlpkYnJfcjJXQ2F2QXBXR0M2MVNrejhjM21BYTdZRE1vTS00MVVUSU1RQmpCYkwzb240eDFST1U3STVTRElkUG5YWE90SnZXcExJNTFCSUtYV0VYbDVPSUNIdnk5TUp5SUJpZUVUNEtVUDdEelJxMDRJak5qM2xXRGlrUHR0ZjI0QXZVR3MtQkIySFNhT0M4Y0dWYm00NjBWRXh4dmhXa21vWFZDQWZGdWEybFVUOXRqRkQwdlptbUhhMHpYTWVCZERB?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Tue, 16 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134623"
+        },
+        {
+          "title": "Infosys’ Salil Parekh vs TCS’ K Krithivasan: Which Indian tech CEO earned more in FY26? | Trending",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQlYtVVg1dTZfZU1kS2tGbTYzWXJoYlFvLXhUdFczM09UR0dqZ3VQQ2RENGxfZ3pPV0tQZWVtZ1Y0ZXdvSXR5dTdfa0RfMzJfTEJNbE5FLUktbERwOHNWbFFoSmc2c3p0azFfYjZZMThsSXhVWGQ4aGFoZlh6ZHctN3FVVGR5TWlvVjVwZXJtZWpyT2NJZHUzeVpLVjZxZWdMN2Q4RTRxYl9FNGFsenl4V1YzaEp3M1NxX0NvWUg2Nzd3UXNsUncxM0x2MWRMSG93SnR2aW5jY0NzMVJl0gHiAUFVX3lxTE9VSTQ4ZmVwM1A2bDBtY3B1OUYtYm8wbi1NbzlLa1plZktBTlgyZmR2YzNHTFZtUjIwNUpLVkxlVl9PSjJwOWZzNTJSRHlZaThKblk5OS1tcGFFcjZmZC1IS0dNU29KQWVwbm1SSV90R1RzdFdCNGU1Q1JJRVFreUQ2U1Bmd19ReFA1U25tWlZwSjhOYUdGR09teUVCMWdmVXZ5MHk1X0dNWGE0N2x4azYwbG50UWVZRmZJOHI4bXFhOVg1N1I1djUyRHF1cGl2aS1QVFJma3V0WnpWNkhZSEQ2VEE?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Tue, 02 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T03:21:55.134627"
+        }
+      ],
       "research_gaps": [
         {
-          "title": "Infosys: Strategic Market Intelligence & Early Warning System",
-          "severity": "Medium",
-          "description": "Continuous macro monitoring, competitor tracking, and early signal detection for strategic pivots.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "monitoring",
-          "keywords_found": [],
+          "title": "Infosys Revenue Growth Under Pressure",
+          "severity": "High",
+          "description": "Recent reports indicate Infosys facing demand challenges. Key indicators: weak demand. Context suggests need for pricing elasticity and market share defense research.",
+          "detected_from": "Infosys stays silent on CEO succession at AGM  Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made  Unlocking AI Value: S...",
+          "gap_type": "revenue_risk",
+          "keywords_found": [
+            "weak demand"
+          ],
           "solutions": [
             {
-              "title": "Infosys: Strategic Market Intelligence Subscription",
-              "impact": "Medium",
-              "timeline": "4-6 weeks setup + quarterly",
-              "price": "₹12-20 Lakhs + ₹4-6L/quarter",
-              "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
-              "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
-              "gap_type": "monitoring",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Infosys: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Infosys: Competitive Positioning Intelligence",
+              "title": "Infosys: Revenue Elasticity & Demand Forecasting",
               "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
               "timeline": "8-12 weeks",
               "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
+              "methodology": "Quantitative (CATI/CAWI n=5,000) + Qualitative (24 IDIs) + Econometric (ARIMA/VAR)",
+              "description": "**MRA/ESOMAR-compliant study**. Quantitative (CATI/CAWI n=5,000) + Qualitative (24 IDIs) + Econometric (ARIMA/VAR). **Deliverables**: TAM/SAM/SOM report, Price Sensitivity Meter, Revenue risk dashboard, Quarterly forecast model.",
+              "gap_type": "revenue_risk",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Talent & Retention Challenges at Infosys",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Infosys: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "Infosys stays silent on CEO succession at AGM  Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made  Unlocking AI Value: S...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Infosys: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "ESG Compliance Gaps at Infosys",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Infosys: governance. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Infosys stays silent on CEO succession at AGM  Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made  Unlocking AI Value: S...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "governance"
+          ],
+          "solutions": [
+            {
+              "title": "Infosys: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
               "framework": "MRA/ESOMAR"
             }
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Wipro Q1 Results: Date, Time, Dividend News, Earnings Call Schedule And More",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOemFpWUtHMnFNVUFBQ0MwTkhoeTZlRFd0VG8wczJrWWgwMmtUVXI0TmlRUlU5ZjNHSEhZcmxTTkMyeEE3R21Wd0kwSDdZYXRWNTBPN0U3WVEtNF9nczB2b1BobGU5NzNwb0hRRUNfYmxzdjY4Q3hYYzBKOXFhYlRLV203S1NPNG9IcUk1RnFJd0ZhUFpiMGVDM05VQ3gzRGtFM0hyeVNNS0FfdjNwQlBfaWJ0bDk0UVnSAb8BQVVfeXFMTnd0cFJpWHdhZ2tYYmxiNHI0MDN1cE9kUVo5bUlZMkxQaVBrUWk5eHBWaGVUTnlJV3MxUlEtNkVOamowaGZZLVJWM0hsSnVsZGpuN2hkOE1oSkhicGpXTG9xNmFjaFBkWE9WVmZaajB6VmdaUS1Wd0s5elpteW5zS0Z6TDF6VTFXanFORlQtbHlUcmZfZGhVWjdFdTIyWm5US1NWaDhpUHFlS1RrSl80VTdwWlVqa0oyNWxCQVotTm8?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Tue, 07 Jul 2026 11:20:47 GMT",
+          "fetched_at": "2026-07-08T03:22:26.000581",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro appoints Priya Jha Choudhary as AI Native Business CHRO",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZVRSUHl0ODg5X011eUZXclM1YmM5Z05rbTRtcnp6R1ptWURCSGVFVXQ5X2JPS2k2OFp5V09mQVVmT2dRbWdlc3JMaFF4MGlEWVJRLXdVZW5oMkJpZ012LXQ0dFN0VThtbzVpREJWSlV2SzEtcEI5WHVOR3BVckl6NGotRzd6eW1yclVnbTRhSnlNZ0d6LV9UWjZ0dHpVOUJ6Ym5GcWo5VFpvX19sWXhlVWlQS1h1Z1pPT01TX3NWc3NsWHBLaktfR0MxZWRBZHllM2xoZ9IB2gFBVV95cUxPU1IzXzRRYmowNUZVUThLLTg1NzVieDhfeUFvWC1TUnc1RFFidDJQNFgyNUg4Zjl6YlM4bXZzR1NEWWt5bzJkZ2YxRURXZVdvUkpTUzAtcElBMkcxNUpyS2QtVFZId1ZsQWV2ZlZ1cjY5c0FMNkxHRWVmaF85ekROSUtuak8xNEVKSXU0eVBZam83VVB5bll2a2ZtejRrbmpEbXZ0R09SaThZckdjNWprVFNOdHFudEg3ak1oa3JxUmJIRmJGem5IQ0JlMUlsTjBKQkN3R18tYnliZw?oc=5",
+          "source": "ETHRWorld.com",
+          "publishedAt": "Mon, 06 Jul 2026 06:44:33 GMT",
+          "fetched_at": "2026-07-08T03:22:26.000597",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS, Infosys, Wipro and HCLTech likely to begin FY27 with muted quarter as AI, weak demand weigh on growth",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUDdMQmowdGltalF5all0VHNmMVY4bTA0eEw2TkhMTkhpaWRRMUFZMXdQZGwtSi1LWjhPZVJscUc0LWpRdllVSmZjVkNaLUw1dzBSbHFzUGdKM1RBaHpqU21UdTh3eHB6a3Z5NjZFTzl5VjBJWjZvTFF5QVh6cEU4X2REbmVWVXJOX1BucFdlamd0VFpXT2FiOEg4SWF2U1A3czVRRnhZdi0xQVdsRnJyQkowVkpjZEtTRnlMTW43YXVMeUlWOU5Xdk4xaDhvcnQwZkUydjQ1OVJYdFZhczdqbFFjem5PdTJxTUxyNndQZmPSAfYBQVVfeXFMT3BGanE1ajllLWJSYXhBVFBQNER2cVNEVzFsbkt6MGZHblBBQVFlX2EydXA2RkxVUHpnaWtwUUdxd0pFcDhuczBIU0pYUER1R2hGal8yYzhSbGxrVmlaNTNKdGJnVDhUeEt2MzV6U3NjbU1kS0dWUkxsNXBPS2F2WmxvWHVnNnNJWlQtQjZMTm1VeW1vNXR3cmNydklZdEFtZFBGZmNNbHdyQkJYRWllOUpVYllGc0RvT2x3eUZvdTJuRVRUVFlXd2w5UC0tNDViWXVEZHFLbi1FTVV5WVVNamFuNjZZMUg4UlMxdmtRRjFGTnZrc1BR?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Mon, 06 Jul 2026 11:39:02 GMT",
+          "fetched_at": "2026-07-08T03:22:26.000602",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Indian IT sector set for weak June quarter as global uncertainty weighs on spending: Report",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQb2tIWUt6Wk1VYUZSWExrazZQVkI4RV83a0l1MUc0M29nQVhrRkQ5YWZYTS1vbjc4enZWckRiSWFYOW5Jb0dybTBvTW9LM29fVlc4Umc5MkJIS19WbERjTHh5M1V3UHpuOHgySDJGcl9wdi0wc1ZEWlNvclpxanZZMUktVXZSY0hGd0FQdXZDemd3LXZBVnQwMl95TFh0NmhJSnhzMmk4TXE3bFdDVmllN0h4cjZEZUR5ajA2Nmg0SG5YSUZjNHhCTnlxRHZJekRMYzV1NkF6ZTJYMmdlQ1FWclln0gHnAUFVX3lxTFBEYkYySTVTYW55RlN3bjdCQlJ5LTZUSHdZS1VYbmlRVE1tcXFhbVVwYll3MUw0LVUzTHNqRkhMN3ZNTGUxZHhiaElzNDk5RW16Tnhja1ExVTBoYzYyWGs0LXpMTUptdGo2ajBlRUtnMmpWSjRrcGFwWGxvOEZUWjZ4RjZRdXBCaDNOa2VwVFlqbGpKMTZlaGY4UDAxd0haMFZZTXJnREpJTGtlck5RUjdBMVl0aWdqTlFpRDlWSjJWUzQwcFhqaUlHRTFLck52bllCc0NWdVNvNFlaVjdUcnRVQWFaQ0oxaw?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Sun, 05 Jul 2026 12:55:35 GMT",
+          "fetched_at": "2026-07-08T03:22:26.000606",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Nifty IT Snaps Two-Day Winning Run; TCS, Infosys, Wipro Decline Despite Q1 Earnings Optimism",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVjFnVHlvSHhfT0E4SkRIQzFZaVRoSm56RkRaTGFUeGQ5ZnRKdkVlZWdjZlNmSm4zeDQwai1IdFVaYTNCRXRyTUkxWTQtMWpRc3ZTZTdjU2VjWnZDV3NGQ1RfRmp0cE9TQUdCcFVrdTlERFZVWVIxWXFNU2haWThNSVNZOTd4eWtuTlFuVXkxbWI2R0F5ZkVVc3B0amhiR1JjUXFoZk5BWWl5VV81UlJGZjZfb2t0STlrZmlENmE5VjNLdWhQVU1kVENyb0NsZ9IB1gFBVV95cUxQYjRzMElsdFF3d1puWjhXc1YxZmVVMnp1ekEtRWF6akhqcWN3OGJITzBhUDMyZUZLRXVSSV9rNG9TRm9iaFdYTUhDb3Z3T3pUbE5JTklLMDRNeFhYVmdvaHF5TUFyRUZiSkMxSmVfeFk1eFo0ZThOVG56bzFJLXVmb1lkRzhoWlBCMEpTMmNXdHJ4eC1HV19VUTZyZGt4Ym1fc1VkbmxYUERXdlp4SVJ6eDFsdHNkRjFYMnN3ak9WeE80dzBDWXNsZXM4b1VwdUhFN3RneVN3?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Mon, 06 Jul 2026 04:26:52 GMT",
+          "fetched_at": "2026-07-08T03:22:26.000609",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,7 +389,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-07T20:08:07.201887",
+      "last_updated": "2026-07-08T03:24:27.024363",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +473,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-07T20:09:13.196908",
+      "last_updated": "2026-07-08T03:24:52.297517",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,17 +557,17 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-07T20:10:36.111150",
+      "last_updated": "2026-07-08T03:25:45.908654",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -510,7 +633,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVJ5OTNfaWNQMGhnWDNyM2pOT2NkbTUyczVwS3Q0TW0zZTA2aU41amZXVGxhd3ZIYy1mWlhmXzd4R3VqaUhpZFNZcVNqSHpQSjBNM1BCSUZUX1JlR20tN3A4V3pTeWFORWMyODlQM2s2TExZcDdFOV9UbVBKOGI1akRxTWhFRmZNMjhZNnNfSnM2U0dfT1RJTkJTSkdrTVpQ?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 08 Jul 2026 03:10:23 GMT",
+          "fetched_at": "2026-07-08T03:25:10.525905",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL | CSK 160/2 (18.1) vs MI 159/7 (Kartik Sharma 54(40) Ruturaj Gaikwad 67(48)) | Chennai Super Kings vs Mumbai Indians, 44th Match, Indian Premier League 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and mo",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ0NKamxkcFdybTVpSnVyOVlSSzBWZkR2Q0hmVlItdW03aFNiTktpWmZCU1JUNUxfSXZEbUFROUQyOXN1d0ZoWlNhX2NOSWNaNXlqdFlqWXVNcGE4cEZjczVwek5QVmlTZUZDX1U3dzRjLU5uZUhhV3cwUXBrazJiUjJGSEppWnBvTXpTTC14c0YxMm5jOU9JcjFtU1pBanJH?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 08 Jul 2026 03:10:27 GMT",
+          "fetched_at": "2026-07-08T03:25:10.525923",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "DC vs CSK, 48th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEt5MGRMeEdUSFdlUVJuZklMYTh2bi1HaFFjbVRFYzN2OTloUGJzdmRoQ0Z2SFBVY1RZQUc2bU4wejk3LTdTQkZpd09DODZzMGlFNXVCMFNKdW1KRllJUWRQaVg0MHhxYlV1dEhmclVNNGtySTFYcE9DYWtfblllV3NOZ250NUxmd3Q4VjZ5Nm5vN2JvaUdLbU1WeVhWR3pF?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 08 Jul 2026 01:10:14 GMT",
+          "fetched_at": "2026-07-08T03:25:10.525927",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MS Dhoni turns 45: Why former CSK skipper made a 15000-feet jump to his aversion for mobile phone, check litt",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPVlAyX0FHSlNMVERNbHJRUldXdTU0UC1zRWFuM3Vtd3hocFRoREM3Wmp3akJoM05lTmg1b0x4Qm1hOXFIQURTTFdoUGUxLUIwRVRqN3IyckVWbmRfZmlZMS1UaHB2bzhoQW0zRTlsT1hoSURvQUFTeVJBNnlReGNvRlBuYjRDcXR1S1VfNm12NGZCR2RWUVpZcU44b3BQVmozTThWTVRJTWEyUlUzMTk0NVRtcTBZbXp1ak5ZQXFPN1hHRU9UbEFmaUVJRXRSbndLQmdGakx0dFhUVUp1aUUzMHpvNzlNaHoxNTFoYjFXYm5YZGEzeUF1bkY0bXREaE520gGGAkFVX3lxTE5RbDEtQkZCcTVIOWYyX091SlBuMlFMZ2xJOVBULTl3dk1LdEpLOFRJYzNqYzE2MFhpVjdmZXBzMjhidFp0ZFN2Qmhvd0xhVVgwcnQ5VXM2a3dMQUtaMkhXQ041Tl9TcGJxSENldjBCZjI2RE1NNkU0WWFKU3kyeTJmdTItZXBId2dZUV9HWllOQXpYcmJLVFdZcmJ2N3oyc3l4aXBST05TOXZZb1BYZjZhMGlpWkNnM1p5VEdWdkxvWHBXblYxQUg2and6NE1mS3VDel90OWkwbnRPMzFyMy1iT21KSWRnR3Z3QktSNW1Sa0d5VmRjU3hCS3hCLTdtVDN2RGhZS0E?oc=5",
+          "source": "India.Com",
+          "publishedAt": "Tue, 07 Jul 2026 08:46:29 GMT",
+          "fetched_at": "2026-07-08T03:25:10.525931",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights | CSK vs SRH, IPL 2026: Sunrisers Hyderabad win by 5 wickets",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNWlhWN2hJaHJYNmFzR3JUOXZsd2MtNmdVX0tIRkVqLTJuVnlObmZ0c0NqZmdGVEIwVlE3cEctcmlmTktuejFLTlFnYnJYWHJXQ2ZUemFmNWFZSnByc1RTRXBkVXRUT2ZEVnlaQmpaVmlXNjU2MUJLSDFqNlJDcEdKQUU2Vi1sWUVGWXhuaDhfUXlTcnE0NTVfSmJIWkx1TjMwME5kRFBRaUVIMHdtcVRwVk5LQmVpZ2plYl9nWjhucGFZTTBaX1ljWGE4WkNDUXZ6UGc2bExNRnk3aTl0Y0JwUlhQNmljUlFhY0xQMWc3NGhoU09uMnRTOUFuZ3ZwLVQxbEJBX1c5cnRabWpkbE9xb284X01mMzYzSkFTaE1kSdIBpAJBVV95cUxQb09WRlFTSTNsU0RpWFh1NzJZZXhpSmhVMjNLRk9vaExZdzV6eC1yd1NlTF9fVnRwMkQ1NkpWVGZXb0lkeE1sZWxCT1ZwVzlvMWl5WndPV2tZR1ZlUEhnTWRkT3RYVjVnX01iMndORnZpZXBJM3FqMWJLTEVLNUN2cTVfM29sMWZoX2hrSTF0cHVzb2o3Q2Q3cWhobVk2a0JoY0RGMTJHRDNKckhjdVJEWlMxaGttVzhkR1packRhY1U4cGxRek5ySzg1MGdra3VlaXZrZUlpS0hHdWhBWVowLXhrV3MyRXM1VFZUMHYwcnIza1hZdjdBS29iNzdsN2Q4MGpNLUJCWWppZ2hSR2dXcXVFWllBbGFvMmRMMnFtS285RlFO?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-08T03:25:10.525935",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,7 +687,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-07T20:12:17.995050",
+      "last_updated": "2026-07-08T03:27:04.233420",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +771,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-07T20:13:56.196532",
+      "last_updated": "2026-07-08T03:28:18.985277",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +855,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-07T20:14:26.243806",
+      "last_updated": "2026-07-08T03:28:34.077155",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
