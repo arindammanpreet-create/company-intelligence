@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-09T15:31:46.832459",
+    "generated_at": "2026-07-09T20:02:02.695675",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-09T15:21:21.993286",
+      "last_updated": "2026-07-09T19:53:45.861113",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-09T15:22:52.457996",
+      "last_updated": "2026-07-09T19:54:53.646180",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-09T15:24:16.505790",
+      "last_updated": "2026-07-09T19:56:04.037538",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-09T15:25:36.452947",
+      "last_updated": "2026-07-09T19:57:07.403544",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-09T15:26:48.491414",
+      "last_updated": "2026-07-09T19:58:19.810336",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-09T15:28:04.990325",
+      "last_updated": "2026-07-09T19:59:31.519470",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-09T15:29:49.634541",
+      "last_updated": "2026-07-09T20:00:26.087650",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,21 +602,43 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-09T15:31:20.564159",
+      "last_updated": "2026-07-09T20:01:56.820174",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Delhi Capitals",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Delhi Capitals: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "IPL 2026, PBKS vs MI Updates: Mumbai hand Punjab heavy defeat  Kolkata Knight Riders vs Mumbai Indians Live Score Updates, IPL 2026: Powell sends it s...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -656,29 +678,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "IPL 2026, PBKS vs MI Updates: Mumbai hand Punjab heavy defeat",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkSEhHc3dqVTJfaFR0UWdiZlViU1lMM1dLRnpaTHZScnNsOGxZUjNuODB5NnJ1SUktaUwtOEd0czVfX1pWZDBEM01IaGZ2ODBvYjBwUG1wVkZpZEc0TC1HanNMam42em4tUTVSTi1KSjNfOTNPem9pYw?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-09T20:00:54.223891",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Kolkata Knight Riders vs Mumbai Indians Live Score Updates, IPL 2026: Powell sends it soaring for six",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa2tvTm82VGJXUVEwRzhGd1RBVnlUdEY4eDk5Y3VpT200UW16Q2NoWWVGVXVpamtrNHd0ck1fcklubkg2aUtOQ01UZm1BalJuTGRSeDc3QVdsLXd5Y0oxclpFQ0JnOUFBN09XQjc2UHRkTV9tUnF3R1FkWmI4ZFRNYUVyX01Yb0w0ZS01cmJyUElOT2NCdGNVbDJ6TVR4T3RYV1pEenBsLTVpMUdDblFwa2t1cGxZMzFES25aekd2SHBzMTVoNkpkZlY5UzgwNTBnWU5qLXdVV3N6Qy1uREYyMmVPM19TQ1MzdkxWVmptTXFuS2RsbE1aR1VGNDV1NknSAYQCQVVfeXFMTTExV040YmRCcnNyVFZPUExNNnczdklaTmFPU1BYSnF3QnVENEw4MWNFYWtsU2pURDZrRFVDazB3VXhISEJLV0Y4clBBdE5mSEhXY0ctTFFSWHRuZERWbmlqZkdnNk1YaHppbHEwWkhjakxmbFZHMGVGRjBSM0xZeW91R2c3Vkh5YWZXMHFpdGNKbHNYNWJ6SklVenNLRzRkR1Y2RElSYzV5X01SQ1BOT2w4WVNTendGYXo2NWZOSVY5MVItR1hsWVFVVEdIVTVCbHNZZEVNMlBCUlQ5UURjNFRuYThQeXoxUjMxNXJWUUtWS2tsaG9JMnN3ZTkxdDI2WHo5TFE?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 20 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-09T20:00:54.223906",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MI vs RR Highlights, IPL 2026: Rajasthan Royals seal playoff spot with 30-run win over MI",
+          "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQcUpRQ3NxX2g1MUNWYUxrOS1abEttU2pEelFSS3lVVnoycFpDZk9BZFpaN3QxSnA1ZXhPeXl3UDVXNXZWTUE3RW91Z1l0bTh5MXlaQVR5WGN0Ni1ma3BWQXFBbnNpYVlfQktIU3d3Nk1hYXFSU0RGUXhTZ1F1UWx6TUFOYWRxZ0VZblJVdkFDd3pxMWxja1QtRl9Yc29LZFd0cHNxZXl6NEJBSldiTlBwU0NXcjdZSjB0TGZXVU51V29nLWdhSUMyRE1lbTFLdG41SHBBY1U4NUZjUkNjazJTdXR1X0lwSmh1d1hnNEVNb0laYVZyOUFIZ0FNNnRpekxaUVFWWUxoWWFSaHFtWHpmUzJ5VGNnYXhYbkZqWTlfbmZPTk95NXhKRzhPUkItd1dFdE0yZTFNQlpJUWQ4b0RFQW1DeUN2OXdBUjlsWTIzdWo4b1VVZVdXYk5iRzFnRy1yMFhqdGhfajfSAe4CQVVfeXFMTmRIRk5kQ3ZZaE8yR0k0WFR4RnR3TTZjeVNlRmRBc19MOVZrdWZvZkhCRk4yTjMzX1dnRzc1cjRFWlpOSTBoOFZYRmdHS1pnUWZGZ0NoYndVamp5b1VhUVpvOWYxUWptMlFvaW9tcm01RkdENmR6SmEyaHREaTBaLV9lSnNQVVVieUltX2txTGkyaHA1MEZleFRQN3FQLVh5d0xGSVg4Q2VHaHh1QTRaWEtWc0t4b080RVNvV3NadWtqZE5NOGZndkNXM1JUSzFDY0FtNldrX3AxdGpwOXJEWGR6dVZ1b2luOHZ1WU1LSTcyOWI5ME9sZl8wR0VSM1o1d1EwTVpyQnVndnR1Q1Z0d0R5WE4yNkNhS3JXbG5KRlFtYUp5QVRUQ20xUkFCcDZ3YXJKSG5LcnJsaHowTWw2YnhDWU54WkJUc1JwVDZRM2lBdXJUWjkzVzhqeGtweHVuY09ZMmd6VFBxZkNhTGZB?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-09T20:00:54.223911",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "PBKS vs MI Highlights, IPL 2026: Tilak Varma Slams Heroic 75 Not Out, MI Win; PBKS Lose 5th Game In A Row",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPT0VxcVR5cUpuYUJPRHdTM0VZcG4yaS00UmRlRVMwcGZtX0VNNFFZYzJrUk1hUUFSdGZ4ekd0bEtzeDE3MU5HRHNiN2ZDQVhwZHpHY2hydHB3MXE1akQtdjRON1NOR2FXb1BLRGkxRkdLU09OajNoRU9IZEJ1N283NXdhVm1uMTNMYldhUzFuNEVfY2Z1MG5LQlZtQWNPd3pkbElUdlNWWU9LNC1pSUtGSHJqY21ma25BeUx2MG1YUTVLZjdDbDFLd0Y0aGVzdUVRZWxYakk5eXhVazJjdFczZ1VRQkctc2ZJY2lRZS0teU5mNExHenp0dHNn?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-09T20:00:54.223915",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Full Scorecard of Punjab Kings vs Mumbai Indians, Indian Premier League 2026, 58th Match - Score Report | ESPN.in",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOU9UYkR0V0MwdldTTDRmRDRDVmxNVlJsQ09rakpTYU0ySnBEQjdqWUFlOHRHblVZRlJNU1pjblVSRnVQeXRlaXcwblhPUkdwc3lLbUFxT3VCNjZyZElNMDMwTWFmLS1MdGdPNmxpVnZjVFBDY0RsbG9qeURtVEMyMzIzZWVsd01NQ05VSFE3bWFLUVp3MkhSQ3QwYWs5YUpnUUxBbVV1djJiWTBRQ3laaHdwSzF5ZkdiTXdrZC1EV01Ud3pm?oc=5",
+          "source": "espn.in",
+          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-09T20:00:54.223919",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -686,7 +734,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-09T15:31:46.832444",
+      "last_updated": "2026-07-09T20:02:02.695663",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
