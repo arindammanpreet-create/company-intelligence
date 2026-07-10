@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-09T20:02:02.695675",
+    "generated_at": "2026-07-10T03:57:00.158535",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-09T19:53:45.861113",
+      "last_updated": "2026-07-10T03:48:58.809228",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-09T19:54:53.646180",
+      "last_updated": "2026-07-10T03:49:41.077309",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-09T19:56:04.037538",
+      "last_updated": "2026-07-10T03:50:47.572450",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-09T19:57:07.403544",
+      "last_updated": "2026-07-10T03:52:05.852408",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-09T19:58:19.810336",
+      "last_updated": "2026-07-10T03:52:53.487085",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-09T19:59:31.519470",
+      "last_updated": "2026-07-10T03:54:03.489418",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-09T20:00:26.087650",
+      "last_updated": "2026-07-10T03:55:40.478322",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,43 +602,21 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-09T20:01:56.820174",
+      "last_updated": "2026-07-10T03:56:37.353116",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 0
+        "competitor_intel_count": 0,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
-        "pos": 0,
-        "neg": 1
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at Delhi Capitals",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at Delhi Capitals: layoff. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "IPL 2026, PBKS vs MI Updates: Mumbai hand Punjab heavy defeat  Kolkata Knight Riders vs Mumbai Indians Live Score Updates, IPL 2026: Powell sends it s...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "layoff"
-          ],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -678,77 +656,180 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
+      "competitor_intel": [],
+      "esg_highlights": [
         {
-          "title": "IPL 2026, PBKS vs MI Updates: Mumbai hand Punjab heavy defeat",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkSEhHc3dqVTJfaFR0UWdiZlViU1lMM1dLRnpaTHZScnNsOGxZUjNuODB5NnJ1SUktaUwtOEd0czVfX1pWZDBEM01IaGZ2ODBvYjBwUG1wVkZpZEc0TC1HanNMam42em4tUTVSTi1KSjNfOTNPem9pYw?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-09T20:00:54.223891",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
+          "title": "RR vs DC, 43rd Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX25LdzFYSnE2andwVE1MTFBSUWtOSEhOZ243a2FicXpxSEZRb2FEa0tGbFFRQVFoeDc2TDhPN0V0cXZHN1d5S3I4SWM1WGpqaW5sWE8zVVgxNElJN1J6b201MzZLdUFyZWpmdHZmRWl2Ti1ZNUl4Zi1FRUhfeHR3VkkyRTZtLUhfSEFFU3hQaDlFWUJUak0tVWpzNjVyVUk?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Fri, 10 Jul 2026 03:48:15 GMT",
+          "fetched_at": "2026-07-10T03:56:37.352806"
         },
         {
-          "title": "Kolkata Knight Riders vs Mumbai Indians Live Score Updates, IPL 2026: Powell sends it soaring for six",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa2tvTm82VGJXUVEwRzhGd1RBVnlUdEY4eDk5Y3VpT200UW16Q2NoWWVGVXVpamtrNHd0ck1fcklubkg2aUtOQ01UZm1BalJuTGRSeDc3QVdsLXd5Y0oxclpFQ0JnOUFBN09XQjc2UHRkTV9tUnF3R1FkWmI4ZFRNYUVyX01Yb0w0ZS01cmJyUElOT2NCdGNVbDJ6TVR4T3RYV1pEenBsLTVpMUdDblFwa2t1cGxZMzFES25aekd2SHBzMTVoNkpkZlY5UzgwNTBnWU5qLXdVV3N6Qy1uREYyMmVPM19TQ1MzdkxWVmptTXFuS2RsbE1aR1VGNDV1NknSAYQCQVVfeXFMTTExV040YmRCcnNyVFZPUExNNnczdklaTmFPU1BYSnF3QnVENEw4MWNFYWtsU2pURDZrRFVDazB3VXhISEJLV0Y4clBBdE5mSEhXY0ctTFFSWHRuZERWbmlqZkdnNk1YaHppbHEwWkhjakxmbFZHMGVGRjBSM0xZeW91R2c3Vkh5YWZXMHFpdGNKbHNYNWJ6SklVenNLRzRkR1Y2RElSYzV5X01SQ1BOT2w4WVNTendGYXo2NWZOSVY5MVItR1hsWVFVVEdIVTVCbHNZZEVNMlBCUlQ5UURjNFRuYThQeXoxUjMxNXJWUUtWS2tsaG9JMnN3ZTkxdDI2WHo5TFE?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 20 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-09T20:00:54.223906",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
+          "title": "DC vs CSK, 48th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEt5MGRMeEdUSFdlUVJuZklMYTh2bi1HaFFjbVRFYzN2OTloUGJzdmRoQ0Z2SFBVY1RZQUc2bU4wejk3LTdTQkZpd09DODZzMGlFNXVCMFNKdW1KRllJUWRQaVg0MHhxYlV1dEhmclVNNGtySTFYcE9DYWtfblllV3NOZ250NUxmd3Q4VjZ5Nm5vN2JvaUdLbU1WeVhWR3pF?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Fri, 10 Jul 2026 01:10:56 GMT",
+          "fetched_at": "2026-07-10T03:56:37.352821"
         },
         {
-          "title": "MI vs RR Highlights, IPL 2026: Rajasthan Royals seal playoff spot with 30-run win over MI",
-          "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQcUpRQ3NxX2g1MUNWYUxrOS1abEttU2pEelFSS3lVVnoycFpDZk9BZFpaN3QxSnA1ZXhPeXl3UDVXNXZWTUE3RW91Z1l0bTh5MXlaQVR5WGN0Ni1ma3BWQXFBbnNpYVlfQktIU3d3Nk1hYXFSU0RGUXhTZ1F1UWx6TUFOYWRxZ0VZblJVdkFDd3pxMWxja1QtRl9Yc29LZFd0cHNxZXl6NEJBSldiTlBwU0NXcjdZSjB0TGZXVU51V29nLWdhSUMyRE1lbTFLdG41SHBBY1U4NUZjUkNjazJTdXR1X0lwSmh1d1hnNEVNb0laYVZyOUFIZ0FNNnRpekxaUVFWWUxoWWFSaHFtWHpmUzJ5VGNnYXhYbkZqWTlfbmZPTk95NXhKRzhPUkItd1dFdE0yZTFNQlpJUWQ4b0RFQW1DeUN2OXdBUjlsWTIzdWo4b1VVZVdXYk5iRzFnRy1yMFhqdGhfajfSAe4CQVVfeXFMTmRIRk5kQ3ZZaE8yR0k0WFR4RnR3TTZjeVNlRmRBc19MOVZrdWZvZkhCRk4yTjMzX1dnRzc1cjRFWlpOSTBoOFZYRmdHS1pnUWZGZ0NoYndVamp5b1VhUVpvOWYxUWptMlFvaW9tcm01RkdENmR6SmEyaHREaTBaLV9lSnNQVVVieUltX2txTGkyaHA1MEZleFRQN3FQLVh5d0xGSVg4Q2VHaHh1QTRaWEtWc0t4b080RVNvV3NadWtqZE5NOGZndkNXM1JUSzFDY0FtNldrX3AxdGpwOXJEWGR6dVZ1b2luOHZ1WU1LSTcyOWI5ME9sZl8wR0VSM1o1d1EwTVpyQnVndnR1Q1Z0d0R5WE4yNkNhS3JXbG5KRlFtYUp5QVRUQ20xUkFCcDZ3YXJKSG5LcnJsaHowTWw2YnhDWU54WkJUc1JwVDZRM2lBdXJUWjkzVzhqeGtweHVuY09ZMmd6VFBxZkNhTGZB?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-09T20:00:54.223911",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
+          "title": "RCB Vs DC Highlights, IPL 2026: Miller Gets His Redemption, Delhi Win By 6 Wickets",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOck9TNnoyN1FNaWc1V2x2M0tFd0d6R3lrM193a05naThJYk5CVmVlZFhocHkzeEgzZHVYbzlLUGxnOVdOenFqbTBDWXZxS2JwMHJUMzJRN3pwMC0xbzlBdWRPMWppOUtqT1IxNGRaamFQZnFFMVZjaVV1U0N2M01VWFpoRU0tQnJOSW40MlVOUm5GV2RGbGVhd2ZhOFRMVkxNWFUwSjFxZ2tnSU5ocVZoZ0dYY3Y0T3BwRDNxWTNwd1luVjAtNTlfRGtWRWJpV2RnRFhWTXZwem9iZDNHa0dTbFlTMk9qOTlqY1o0bExJU1U0QXlpRUE4RnF4ZVp6STRUcGFSdlhLbTJ2TFBtTGJz0gGUAkFVX3lxTE5PU3FFRnVwV3U3MXRhVVZ1SWVHNTRwWW8wSER4ZWxVZ2dydG4yNGVsN1JBVVpVSjE5OGs1aTI4RVJHcGZTSHVfcHRkQXpyME53RTM1amhhX2V5d0lwekVEamJScVU3aDNHUFdCTC1iaV91ZGZsNlRsbkowNVJURkRudnJxc3pzcEhVczhQZFB5WlVOWFFCSGZKbDYyOFpjb25WVVpOdWlwaHhHRmJaTVk5NkFZbUpKYWdnWW1HS3VydkNEdGRQTGhFUGVFbnZzdU5XLVYxRG5GVko1NnJOTDAtN2NwLU1HN3NUUi1WbDc2dVhpZGotYkFkTU9rOHFJTjhFZjhLNlphRXNhcEpUaGZlRFZveg?oc=5",
+          "source": "News18",
+          "publishedAt": "Sat, 18 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:37.352826"
         },
         {
-          "title": "PBKS vs MI Highlights, IPL 2026: Tilak Varma Slams Heroic 75 Not Out, MI Win; PBKS Lose 5th Game In A Row",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPT0VxcVR5cUpuYUJPRHdTM0VZcG4yaS00UmRlRVMwcGZtX0VNNFFZYzJrUk1hUUFSdGZ4ekd0bEtzeDE3MU5HRHNiN2ZDQVhwZHpHY2hydHB3MXE1akQtdjRON1NOR2FXb1BLRGkxRkdLU09OajNoRU9IZEJ1N283NXdhVm1uMTNMYldhUzFuNEVfY2Z1MG5LQlZtQWNPd3pkbElUdlNWWU9LNC1pSUtGSHJqY21ma25BeUx2MG1YUTVLZjdDbDFLd0Y0aGVzdUVRZWxYakk5eXhVazJjdFczZ1VRQkctc2ZJY2lRZS0teU5mNExHenp0dHNn?oc=5",
+          "title": "KKR vs DC Highlights, IPL 2026: Kuldeep Yadav Magic Haunts Former Side KKR, DC End IPL 2026 On A High",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMHVvQ3FJRm5RbkdWRW96WDNHM1MwX21DRThwMndNYVp1cy1YOUlnQXRGSjhpQURmaE9YdXJTSENZUmZaVXBCazhWYnVpdkNlUVo5c1RjUWdtWC1INHNiejdzYkxpU0Nub0RvSkZjSFJpVjA0S0hPaUI0WUJFcnlBT0lpb19aa3E2enJ6dHkzWVJ4ZmFWWkFhOUU0d25lZ0NQUXlpUVlQNkt4YWxKQWNBZDVBX2luNHIyS3N4d0J6TlNxQlVfQVJWbDVEM084SGxrQ3d1VXJzQ0VFQmpSY0E1ck5mWnRxSjNsNG5QVmptUEVuSElEc1NpNXcxTzEySmtiNzJ4UmpCdkNma1ZvS3VJ?oc=5",
           "source": "NDTV Sports",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-09T20:00:54.223915",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:37.352829"
         },
         {
-          "title": "Full Scorecard of Punjab Kings vs Mumbai Indians, Indian Premier League 2026, 58th Match - Score Report | ESPN.in",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOU9UYkR0V0MwdldTTDRmRDRDVmxNVlJsQ09rakpTYU0ySnBEQjdqWUFlOHRHblVZRlJNU1pjblVSRnVQeXRlaXcwblhPUkdwc3lLbUFxT3VCNjZyZElNMDMwTWFmLS1MdGdPNmxpVnZjVFBDY0RsbG9qeURtVEMyMzIzZWVsd01NQ05VSFE3bWFLUVp3MkhSQ3QwYWs5YUpnUUxBbVV1djJiWTBRQ3laaHdwSzF5ZkdiTXdrZC1EV01Ud3pm?oc=5",
-          "source": "espn.in",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-09T20:00:54.223919",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
+          "title": "RR vs DC Highlights, IPL 2026: KL Rahul, Nissanka fifties help Delhi Capitals haul down 226",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYWhRUTY3UUtnYlFFZi11TllHVXV3RVlST2JUS0VTRTRqV21qNm1obU5vYjdhTlFIa2g1QWRlU3VKRXVqTEVPejVSQ0RPcC1NQzlWSkdVSzVGRHZrdi1JWW1xOVNMdXBQcVgxZFZJdzBSYXdtLUVLTFJvWmxtMTA1aUk3S280cmw2U3ZqX0drZ05BN0h5TFhaZWM4ZW02SFNyemxqTWM4TXVhQ2NxQWRqdnFLWFJTRmF2WE5qNFNibmdOU25kRTIxZTV3a0w2enI0Q1NjcDJHWjdfQdIB4AFBVV95cUxNck1aczRmMWZ1aHB0UmxPdjd3ZE00aDVQX1hXcHY0dnR5b09jeWxUa0NSV3JTWnNZMHdMOU1uS2lRdnc0RlRON1pCTExNdkpzYS1EVUhIZnZhdEpNRFEzSzlVSHFlR2pjTzNySndiQldfZ1VyVDlTN1VxQ3JRUFg5aXoxWG1fYTFmZ0pqWXpXUXNKY0R3ZmtZdy1FdlJYbHFhSU9YVkJBdmFqMGJRSXotdjRRUHN6NzZrNnBRQk5sdnprNVg1Q3VMWXBNMmlWSmpZR0ttNzA2dHVLSFRJLWMwaw?oc=5",
+          "source": "Sportstar",
+          "publishedAt": "Fri, 01 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:37.352833"
         }
       ],
-      "esg_highlights": [],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-09T20:02:02.695663",
+      "last_updated": "2026-07-10T03:57:00.158519",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141695"
+        },
+        {
+          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141708"
+        },
+        {
+          "title": "BNB Plus Corp. (NASDAQ: BNBX) amends registration rights timing for investors",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNWdQdTAzVkFYdmZTX1l1dE11M05aNUNxMExUcS0wWUpQNjAtZVB5X2M0QkZMT3hMX0NBM0Q3V2YxY0Q3Z09JcXRKbGREbjdVc0k2VDY5TE9wUEN3T2pseENiRFBCUnV0MU5faEhLZ2pOc2dldDhFN0t0b2lvZ3VDd2w1STVvSEhGTmdiMXNmWkVvdUhraGtwTE1EVVJTS3MzeFNESg?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 02 Jul 2026 20:11:21 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141713"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141717"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141726"
+        },
+        {
+          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141731"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141736"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "WVUA 23",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141740"
+        },
+        {
+          "title": "Premium Quality Matting Material Trunk Mat for Jetour X70 Plus 2025-2026 (Washable) | Perfect Fit",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUDlKVWJvYnAtci1wc3ZGNTlYd2VhTGdiTVY5Wnk3Z0lLR0VBSFRKeFlJcXlLT2pRc0lKcTRWRVk4SzdRWG5mQzF4LVdPXzR4aUgzb3YzUG0yblQ1UXZTbmVuVV9lVWRyOXdwbTQwMzVoUlM4WHFERkNUMlREZXRVaW9vcm5NUjdTUzBieER5dXBXUXFtNTBGMVdhdk1jbG5CdnB0QXNDdXIybGxRRXZrY0ZWbDEtWWNXOW9VeHpQTnFPallBbk1iVkQ4X0pyalUxWHg5WDU5M3dfVURUOWl1VUxSM1k0SzQ?oc=5",
+          "source": "Pakwheels",
+          "publishedAt": "Wed, 01 Apr 2026 09:48:28 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141744"
+        },
+        {
+          "title": "Simulations Plus (SLP) accepts $18.50 per share all-cash buyout from Altaris",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcmFUVmk2U283eHVvSDVBdGZGYmVvdk16NldtdngtLVAwNUhzZmplS2RDbkFxNzJkUkZvM0pHT0Q4bXRsQWlzVGF0cHpOVnBWZ2xENVl4QlBVaUdpbVdIdFdFSmhLSVNUNnlMOWdKN0d1cUZ4OUhOWE8yRDJXbTVTT2NwRVZ5cmljWjhGVjNOUVA5VlNkbjBmYzZ3bU9vdTVFeW1mRTZYa0puSlJ6?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 16 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-10T03:56:45.141747"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "we+ explores craft and digital fabrication through material intelligence  [8-K] GPO Plus, Inc. Reports Material Event  BNB Plus Corp. (NASDAQ: BNBX) a...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -785,26 +866,6 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
