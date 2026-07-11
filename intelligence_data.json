@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-11T13:46:22.535949",
+    "generated_at": "2026-07-11T19:19:20.895461",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-11T13:38:21.962007",
+      "last_updated": "2026-07-11T19:11:24.210388",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -96,93 +96,14 @@
     },
     "TCS": {
       "company": "TCS",
-      "ticker": "TCS",
-      "sector": "it",
-      "last_updated": "2026-07-11T13:39:03.383386",
-      "data_sources": {
-        "news_count": 0,
-        "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
-      },
-      "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
-      },
-      "news": [],
-      "research_gaps": [
-        {
-          "title": "TCS: Strategic Market Intelligence & Early Warning System",
-          "severity": "Medium",
-          "description": "Continuous macro monitoring, competitor tracking, and early signal detection for strategic pivots.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "monitoring",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "TCS: Strategic Market Intelligence Subscription",
-              "impact": "Medium",
-              "timeline": "4-6 weeks setup + quarterly",
-              "price": "₹12-20 Lakhs + ₹4-6L/quarter",
-              "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
-              "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
-              "gap_type": "monitoring",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "TCS: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "TCS: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "TCS: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        }
-      ],
-      "competitor_intel": [],
-      "esg_highlights": [],
-      "filings": []
+      "error": "'ai_disruption'",
+      "last_updated": "2026-07-11T19:12:34.458998"
     },
     "Infosys": {
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-11T13:40:09.994593",
+      "last_updated": "2026-07-11T19:13:25.770217",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +187,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-11T13:41:19.070688",
+      "last_updated": "2026-07-11T19:14:28.550695",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +271,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-11T13:42:17.899812",
+      "last_updated": "2026-07-11T19:15:06.885261",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +355,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-11T13:43:38.726617",
+      "last_updated": "2026-07-11T19:16:33.762927",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,17 +439,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-11T13:44:48.869298",
+      "last_updated": "2026-07-11T19:17:56.687386",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -595,14 +516,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Virat Kohli's RCB teammate reveals chilling account of India star being secretly filmed in UK",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRTRKc01lSWJKVVBTTUtyN2hPak9YNVJVZjhnNTR4NVNEaW5NQ1dhTmp0ODQxaE95UWFFZmQ0RGpMVUFPWUJ6eUJxQ3JCRWg3enRjMXFQRTBaeTBPY1gzaGh1bnQwNGVlYXl5ejVlTnhsYTN4ZVYzdmRBaDBEMVhmVlFCeFloYnA4MjdwaEtuVEoyTnl0ZHpFcE1YWnZCb0ZXc2VFRWRPM18ydWV0ck1XbVVfQmlUU01aQVdWOTlwdHNLVFlyM25mY1dscm54RDNKRnV5ZW5PR1ZiNlhNQWfSAeMBQVVfeXFMTm9zNE5fR0J1NTlBTVVySGtkamxRSU5MclZxSHNsTnhPRFV4M2JXSU15SF9qV3NSeUFjSnl5Qm53TExONmlSbWRLUFBJdEFHZW5JX3NFZnpTSE42RzFOOHFQakVlcUxDYmtDTFRucEdkWDBCVUU3bjVGZ2locHdIcnRFVmRJcUEzSTNWb2U3ck1Wcy1NQVhyUHVJUTNMLWZsejlRRWdoVi1zMkxiLWFKUEliNW5TWF9ZelRjbWYxb3pFVFNBcVAtVHBlRXp1ZzdWQVZmZ1R4eHUwQ1E2czBuTU5fdkU?oc=5",
+          "source": "Firstpost",
+          "publishedAt": "Sat, 11 Jul 2026 10:24:07 GMT",
+          "fetched_at": "2026-07-11T19:17:56.687037"
+        },
+        {
+          "title": "'People want a piece of him': Virat Kohli's RCB teammate shares surprising details behind viral UK photos",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSnRTSEJyTk1xeVl4bms5UnM4WjNjbTRGYWE0eklfa3RXRXRRYzJjX1JfNWg3ZEs0WkZOZDRjWjY1ZTlUTzdZUEtMaGx5ZFJDTTZORkFRM2hCUDNCSUlDQl95MWRwcDFFUHBodkdIT20zQ1FDOXhralhOSjJTQUtKRU8yNjNLbXE0ZFZzVEx3eTJOcEJxTWlWQnNYTzlPSnNmOGRUSi02d1dEY1E0T2ZoeF9sOHBzeDI4Q3NUMmVHeVpGTTVoOUo0bWRWck5QLVN1ZWMxNkVUZWt3Qmo3R3l1VHd4c28tdUJ1Tl9iWVhlbGxWZUZweE04OEplU0HSAYICQVVfeXFMTzRCaFd4M3pDZ2FGd1ZrSW5FYlpQa2tBbHBBekI4MDlIMnZIZFNpNlFYR3VuNUJqbEV3M0QtZFJzYXZxcGR6QlJ5eWtscUZ2eGFUVU96QzZ1cDJlcmF2T3ZvWUVxZVNYbFhkZE9tOFBCMnk2R3hIQTlEck10UXR2UU5lVVBOeFo1TGxkbGt6bzlvRWJ2VHFFbzZkVV9LTjVnZ2ljUzhLdmtZUkM1TE1DMmc5QVF6TWNxQkVhTjhPZFhGeVNiTXZmQXhoSF9RdnV5ZmRyQ2Q2aG5mWkpld3pDV1lWRXNrV2x3SE1KUWdYMC1yNUZlRnFBZFBSdTYyMmh6eEl3?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Sat, 11 Jul 2026 05:49:05 GMT",
+          "fetched_at": "2026-07-11T19:17:56.687050"
+        },
+        {
+          "title": "Virat Kohli slams record 9th IPL century as RCB beat KKR by 6 wickets",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3ZmcWVzZGtFZE81UUVrQzFUTzdnWDhjbzBLLTl6RElKNG9rUS1yTFJTdUtVdk85T3hob3ZMYUtFTmdhVV9JX0paVUlEa2FuN1l4OTdRTmVTRU5tc25vNy1GaWV5U2tfa2xZMWFPVXhURGR0NnVWQTUyYVRqMEtDbnR2UDk5QmhXNVBTaGd1NWVjYndDRUxzVmFnOA?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Fri, 10 Jul 2026 18:46:14 GMT",
+          "fetched_at": "2026-07-11T19:17:56.687055"
+        },
+        {
+          "title": "Virat Kohli wanted to stay under the Radar, but THIS happened; RCB teammate reveals all",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPU2ZHc25tdEx6YTd4Z3pxcHZCU1I0a3BfekJPWVNUX0dPSFpMVEY0WUJVdDRxWnVOY1U1RmhoSWlYdWVvQ1RMQ3Y5YVVzdkVIZ1ZpQ2lLMzkwV0FLR2xBczhsRGVUMlE5QkxtazVhLWkyR3ZCVzA5ZVoxaUNETDhUT09UZHZHTC1kRGV3dDRndldkSENhaGs2YVgtbEhzc2V3UWxxeHV6dU9pMlJDS2pscUk1SGVWQWZnc0p3QWg3MjhNcDVBYldZclln0gHPAUFVX3lxTE9mVlNvRDk0WkNDZXJRekptdnNDeW03UzNsWV96QTV6LWN2aTZmQXVBYmcxODdXLTVhWlFJTTdNdDZrZXJhM3ctSkZEbGF2RUsyMXJhaEhzRlU2V3FHRlRPZ1pwV1FvaU14NGpKTW1LcTlVTl95QWp5QjNnSEl6dGVtcHRxZG1YaTBZZ2R5S0VONkZTWWhSRGxyZVNrTUhZZExKdE9Ma2dtM1ktRGQ1bTA4WlRTMFdBMHlZZ09wSFktdE9XbUNid1VPVnhjLTl0SQ?oc=5",
+          "source": "Cricket Country",
+          "publishedAt": "Sat, 11 Jul 2026 12:10:00 GMT",
+          "fetched_at": "2026-07-11T19:17:56.687059"
+        },
+        {
+          "title": "Virat Kohli secretly photographed in UK, RCB teammate reveals never-heard-before details: ‘I was like what the hell’ | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPc2lMWFNGZm9vVG5EOG5paTNQbV9UNWRpT0xLMDJIZjltSU5iZEhtV1ZOYXZVLXpNaHNjQ0tEdnVhMS1OTkFMWmkyR0pJWDVkUGNrdk5tNEdyLWNlZ3lEWWFqZzVQVVhvTmhqdi1VSWlRX2hSNTFUaUwyOHZUMlNRWGlYQmxfZWgyMW5lTXY4eGdOZjZsRzNhNkhsRlNJYXhNX3pOWWZOOWpISW9NUzdnRlFaTmtNNENRX0F4Ymwyb21EREprejhNd21BS3ZHS2tQREttdFFDNU83QjdiaDFpaHI3N1Y2dzJwd2NTYW9ZZ2xBa2xyZHhlUlp4a3pCXzZvOFHSAYcCQVVfeXFMTi1vdzdJcFd5VGdlc0xYZjh1QU1LS3dwVUxaTmxZb09xXzBOUEwzWTRZOVBvV3p1Z2lWa2dud3BwX29BV1N0ZEZxTldmM2RDUmEzNDNHUlJ3alN4eGUyTGdDWU5US05zNERlNnh6UU1GMlB2LWNkUGotX3dGZ19QMlJMcS13LUkxNkRWcjNtOFlnSjFaZms5N0JMNlZBcklyUjR3c3FKeHlJVUxHMGFzbG5Dc1BJTHJ4YmJlOERQdzdmZTFxVXgtUlhwZXlMcmpseVE4RlpJOW1tcURTVi1WY0FCaUpGX1pWb2lhWHYzRmJIdk1obWE5akpRSE91aDVTNlctOFB6MkU?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Sat, 11 Jul 2026 03:02:42 GMT",
+          "fetched_at": "2026-07-11T19:17:56.687066"
+        }
+      ],
       "filings": []
     },
     "Delhi Capitals": {
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-11T13:45:56.902774",
+      "last_updated": "2026-07-11T19:18:57.746220",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,12 +643,12 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-11T13:46:22.535933",
+      "last_updated": "2026-07-11T19:19:20.895455",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
         "score": 0,
@@ -763,7 +720,43 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-11T19:19:20.895182"
+        },
+        {
+          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-11T19:19:20.895197"
+        },
+        {
+          "title": "BNB Plus Corp. (NASDAQ: BNBX) amends registration rights timing for investors",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNWdQdTAzVkFYdmZTX1l1dE11M05aNUNxMExUcS0wWUpQNjAtZVB5X2M0QkZMT3hMX0NBM0Q3V2YxY0Q3Z09JcXRKbGREbjdVc0k2VDY5TE9wUEN3T2pseENiRFBCUnV0MU5faEhLZ2pOc2dldDhFN0t0b2lvZ3VDd2w1STVvSEhGTmdiMXNmWkVvdUhraGtwTE1EVVJTS3MzeFNESg?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 02 Jul 2026 20:11:21 GMT",
+          "fetched_at": "2026-07-11T19:19:20.895202"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-11T19:19:20.895209"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-11T19:19:20.895213"
+        }
+      ],
       "filings": []
     }
   }
