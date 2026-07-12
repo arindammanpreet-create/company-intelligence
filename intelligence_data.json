@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-12T08:33:34.672030",
+    "generated_at": "2026-07-12T13:47:17.607804",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,17 +14,17 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-12T08:25:16.980952",
+      "last_updated": "2026-07-12T13:38:39.323464",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -90,53 +90,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Aditya Birla Group proposes ₹12,000 crore investment for Kansariguda alumina refinery expansion",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb0Z6Y1d2Rmk4Zl9mTVB5RXJDbWtKX0VBLW1wbTFlMFVQUEdyb3AzS3BoYm1tYlNiUUpEYUhwY2I4NGtfLW5vd1IwXy1SLThfV2RHaVJwUGdlMEYzVzN5NjExNU80SUJvMDZadFdZU1J4X3pmbHl6TGFnVVlESEhqTlF4cUppM210alF3a0prdmRucFdlOXB3TW4zUThDSGJ3cVFoU2Q0Z2hLTW45YXhoc1h6cFZ3d2xhZWxSY1ZKWG11dXBkWC1OWWlXV2NpRnRhLWlOU09FMDliemFtZ2pjckY1UkIwZ3lHay1yedIB8wFBVV95cUxQR25IQ0JtVDN3bWtCWjFBWmZPdzE1TVd5emhQZjRFNW1wbUloRFNGTjBqa3pHLUFPWFNyeWE4Z2hRbzN2RzF6MlNuWkFtU2xBdVdXUjRyb2RFa21BQXotSDRqU2pfdEFtRm1EV0hGQ3V5bzlDSlJxak5LcnpQcm91SGtpMVpKeE5rOXZqX202TDliUGtMVGIzUzJIbkk4cjdiUGlvMUF4ZDF3a2tLWEM0MlpUN0pQNThhY2NlVDJ3eVRNcTNmQWI0MzFwZ3ZuLXVBM20xN04yRzFBNVVOZFpsZy1ZMlJMdnh1VEtFd1cwQU1VZzQ?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Sat, 11 Jul 2026 17:49:17 GMT",
-          "fetched_at": "2026-07-12T08:25:01.968891",
-          "related_to": "Birla Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Aditya Birla hospitality arm targets Bengaluru and Hyderabad for expansion",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbS1FVXE2QkRJeTdHd3ZFUmNBOXIwc2FOX01rUmpDb2E3Y1NraDBtelVHdkExNURBTmhJa2VzVUQ5UmVqSHR0MmFQYVRmMVNhMW54NTBOUUxBblhadVBocmhiTUhUTUNSbVVWbW9HS1U4Wk5TN1F5ZHkyTkdaX1k3QUlmZEM3dE1aZmg0OXJEWWZKNlowOFVIeWhwTkdWUTZROW9pN1hDUHVKenFic054ZHFuTEpOQVhZWWtnamczWGI3ZE9fWnc4TTRWNUNVM1N0UGs2VEdzSW_SAd8BQVVfeXFMUEtYTXo2MFdwN3o2c2ZPc1l1d2cxVUdSeGFCMW1sb056dXFzWXpSYjFsSjdGNDduamdVSWFXdTdEVTB1OVFMbFVNYlhJTGZ1RmVuZFMtbnBhcDZNSTVxOXFBaUQwOVJWVkIxMGNVaGZjejhDNnV0YTBNTWtFSFZjcVF5MUFqMGhIMUQ2S09lUnFaendUcUxnSE8yT0xoMXdWWS00ZmdFYmkxay1YeWZsYjNtd0h1dDVKOEktLXY1eHdXanVsQmZYNnpIWTExWWRNUzUxYW9SVHFDV1RjdGhhcw?oc=5",
-          "source": "BusinessLine",
-          "publishedAt": "Fri, 10 Jul 2026 14:53:46 GMT",
-          "fetched_at": "2026-07-12T08:25:01.968906",
-          "related_to": "Birla Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Aditya Birla Group Proposes Additional Rs 12,000 Crore Investment In Odisha Alumina Refinery",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTFJ5OTFVQ191SHlaRVpCNDVfSXcxVk1IZkkzZk00ZFdHdEI4dGlERlBFbnBMdXlrMzFvNlNzMnN5eTNJZjRrMWdCekNEaTF3WE9OT0JCYWZYQXUtR04yWEVaa051VzdsRk1lWkpJLTd0dFdJNnlUOW1NY01KbnhkVDdXMDJmS2RtSEdTMFNtc1Zjc1VRWWxvcXhFNVBpOU8zQkJmUDk1WHotVUtqZlotUjFFOHNVX3pqNUh0NE1rZldJMDY1RWRHQnVyeFZVd0UzdjVjbk1QbHhRZ9IB2gFBVV95cUxPTFJ5OTFVQ191SHlaRVpCNDVfSXcxVk1IZkkzZk00ZFdHdEI4dGlERlBFbnBMdXlrMzFvNlNzMnN5eTNJZjRrMWdCekNEaTF3WE9OT0JCYWZYQXUtR04yWEVaa051VzdsRk1lWkpJLTd0dFdJNnlUOW1NY01KbnhkVDdXMDJmS2RtSEdTMFNtc1Zjc1VRWWxvcXhFNVBpOU8zQkJmUDk1WHotVUtqZlotUjFFOHNVX3pqNUh0NE1rZldJMDY1RWRHQnVyeFZVd0UzdjVjbk1QbHhRZw?oc=5",
-          "source": "Swarajya",
-          "publishedAt": "Sun, 12 Jul 2026 04:09:10 GMT",
-          "fetched_at": "2026-07-12T08:25:01.968911",
-          "related_to": "Birla Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Birla Group head Kumar Mangalam Birla Meets Chief Minister ,Mohan Charan Majhi |",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONEVkbWRJc3FCZW9YR0Fab042YU5MT2w0UkhYNlV3SS1DSGJaNFRMODFVV0VTYkM1UEhLSUZuVTFFNnN5dDFIcmFtVkFLVEZmajRJYWxucW5Dc2tTWFNPM2kzWUZHOVpwb2luZ3J0YmVCdjd2U1c1bDByTDZUV29pdnZQM3p1QWxsN1RZNGxBQkJETGpOUi1uckxWSTFYb19vdEpyVw?oc=5",
-          "source": "odishabarta.com",
-          "publishedAt": "Sun, 12 Jul 2026 01:35:16 GMT",
-          "fetched_at": "2026-07-12T08:25:01.968916",
-          "related_to": "Birla Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Aditya Birla Group Proposes Expansion Of Its Alumina Refinery Project In Odisha",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdFdkMWhHWnM0QmR1SFFwMHRSdkZ4ZklLN3VLbEMtWVVlWEhFcjFDak1PX2hySEFLS2tMYS1UV2NDX3dnZUhQbUVMSTlzOXlCSjZDc2M0cUo1LXJjOEQ5TTZiQUNKd2U1X2o1MHppYThZQ0ZLcWJHRUswWVFOSnMxTUdoTWlfd0V2cFZsS0RmSVprQUpEd0NtTWozOTYzcHBvNkw0ckUtOFBPNkNaUzBKNDBzM3hScUhSY3VwbWRHTXV3NVNXM09IatIBzgFBVV95cUxPRG40VmVBMnJMcVE3RzIwZjNnN1FXY19lcWZLTjNIV3plVjlhV0dKVTZLbHd3RzNMM3dSVHJHRXlKejZVUmpoNndNdGNNRWdISFVqbUdBRElHRlVONFcwTzVvVHVGTFJ3c0NiMEFMQUUwMXpVU2dncFJJWUFJdlB2X3Z6akhmdktfREVMU3c0RzhSalBkaUZGZUpITXZNc1JsN3VwM0ZxeE0wXzZZVXd6d0ZtS1dYcXFJWDZULWlkdHRaOVBjeTd6aVVDVXBLQQ?oc=5",
-          "source": "ETV Bharat",
-          "publishedAt": "Sat, 11 Jul 2026 12:13:45 GMT",
-          "fetched_at": "2026-07-12T08:25:01.968924",
-          "related_to": "Birla Group",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -144,18 +98,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-12T08:26:41.635625",
+      "last_updated": "2026-07-12T13:40:11.049558",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 4,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -220,7 +174,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Upcoming Q1 results this week: HCL Tech, RIL, Jio Fin, Wipro, Kotak Mahindra Bank, ITC Hotels and more",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRzk1aEpvSkFWRjVZQ3VTRFRJRVFCcnNmX0VDX3VOeElNZHg2NGkyZmo1WUs1S1gyU3FBWTNmZ09XMFUtQ2VSRDE4Z24xa1dEQVFZbjNRUEtZblZybGNZU2ZQc2EtajZOVHRLakhaOXZTcDQteEFwdzRiRm5zWWRCX3BVQnYzVXRBdGZBTTN4bTQtMDFmUVlYVFp3b3VSQmhxcUpxa0NNSUZucjRKNHVBUnZsSVJYOUc5emZrQ3RzeHFGcmktNEI0d1dqYU1IZzB3c1RxY2ROZHREc0E0czFiUEsxdjQ3Y3F3aTctWmxn?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Sun, 12 Jul 2026 06:37:48 GMT",
+          "fetched_at": "2026-07-12T13:39:41.289436",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HDFC Bank, HCL Tech among 143 companies to announce earnings this week",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV1hveWVwNG5ra0RQSmVnRGEwOW51ZHhieFZmWHl6X0ptbjFlbndsbWFRUjFkQ3R2LW96NUxDeXp6eG9BNnBxYWdZblprekt1OHctcUwtejdHWEZoN182ZU5GSThuVklISWppbjhWUkhmajI4Z0J6bGc3TEtiaVBqVm8zUGFIVTB6TlR1V1gtSXM1VkZwOENGdHlmTXE0bmYwNHBGRHlHYmJ1eUw5SmRYQ2tiNWhBd3E3RDVGZGFBYkRyLTJpNWpSWjVWT0wwRW1jSmUzSDJtbmtfME3SAeABQVVfeXFMUG9tY3VDRHR6YjRyQzh4ZnBKSzhjWFl2NGpTakFORmJIWE5LSnhLUHU1X3V3Tk10Yk5GdDYxWkRlb0lGZ3hoMmZ6ZDJjR0xtZ2hPU1ZKVVNJZzVxNWt2cnNxOVpJWkxFYW04anQwUHpZaEw5aE5fa0lTdk9iWUxab1o3R0tjQnFubU9vVGI5cklyVHpQYnFnblAzbGlidjF5RlByY2JVeXd1N1lQbGlNUVhNVElhaFc3eTZWTE5lbkZWNllRNU5WbW03WXRtWUpFejVPNjVHTDJEVi1yRTFhRmE?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sun, 12 Jul 2026 04:19:30 GMT",
+          "fetched_at": "2026-07-12T13:39:41.289453",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCL Tech Q1 preview: Revenue growth to remain weak, guidance cut likely",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRDgzM1FoZmV4SnB5NE5BUHBJUFRiSFRpS09DNy10OS0xQjZQQ0tlZkZOZEdRVXQ2UEJFSlBCRlVqOUYtV3ROUUVGTzRIREtJU2dTWnlfUERJVU9fZGpMdDFvSDIyYlMzUkkwQXZUcHdINmFrT3lBYnJTcjVadE5RNXotYnI1WmNMa2NDczdiZVd3T0p0LUNEZ2tBR3NuTmkwSHBXMzBIMThsQ0g0NkNhVHRVVDVKTFV0MmdVYkkxMldzNy1tWGZtVUhiM052SEdkd1HSAdcBQVVfeXFMUFBGRjRTTTlMWUhjSmYxRERYQTdsdUg5MmFmR09rRVBxT0FxYUp5NnFGSWpRUldfVVI0c2dLZXBQRXNRdDQ5U01ObXpRMkxZYzJsaHNLLWtpZHFNUHRWMF8yTkh0cDBldFFKdVYycGtzNjRGS0xwVGwtOW9LcGYwN2QtdWtoTlphQlFUNS1UWVZtM3ZpLXpqX3A2MUpRVXlrZDlDMVhVMGlDemdjcUhhcUdRZ1RFOG1jSi1CLVQ5Y2lkX2FiSjgwSl91emV3ZFlWTzMxbW1pY1U?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Fri, 10 Jul 2026 03:37:34 GMT",
+          "fetched_at": "2026-07-12T13:39:41.289457",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys, TCS, HCL Tech, Tech Mahindra: Two factors why IT sector shares are rising today",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdkRIUXpwRkNGbWprbVR0MDRMOVdLYVNCZzdtc1J6Z3pPdmpicXBPcXZ2T1JvRm5SVUl2a1RaTXJsbDczbHE4Tkg3WDlKckJQZzJya3pSU0FPYzJyaDJKbjdsSkRsR3hZRE9PczBQdm93WU5qbU5ja3k2cU1WbGJ4VlRSNEJtTUUtUnpTTktmUEtVZXZVWVlWSFhzd0xuaVNzQzVjVHdXbWpiaFJIbFlkcmZWQkQzRUt5WXhBc3lyLVZCaGE4aDBuc2dIM2pKT2NIVVFLLVJPLWlTNnlhc3hTRHJpdVdhcmPSAewBQVVfeXFMTkp0S3IwT0JJUFg0V1JDZkZOa1h2OFZXT0h5c2VzWkU0azdoLXAwWXFRLVo5c0hVb1VUOW1JVGo2cFN3bER2V1RHQ3Z1OVJZOGJnb2xRMElKVWphcFQ3RV9uOFNLTGl4WWVIZmdtY1oxRzBDZkZsanNBRVdETjh2aWlfUlVGeXp4SUZ6ODAyX0tua1J4dXZxWmVMRmZ4YVZKZHFwb1FfcXpaRWNqb0lGV3g0YlpsTjkySEZwczdBbHEyT2M0U1VFX2lBaWR3ZGprSFN5dndDdDB2LXlVYlljYllFOGVadVZHWVh4NkY?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Fri, 10 Jul 2026 06:31:08 GMT",
+          "fetched_at": "2026-07-12T13:39:41.289461",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Q1 Results Next Week: Reliance, HCLTech, Wipro, Tech Mahindra, BHEL Among 140+ Companies Reporting",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdzVZUlIwNHdiMXRNSWd5RFc2UnFDQkdDS2ZzZmVDbnhidkxQR0loUkhCZHVFblZELXNNeXNudnh1S2xlTHVFZ2Z5YkQ4WW4tWkJOSXBWN3JCRWJSbkt5UEp6YkZCYlc2Ym9YZG5sTW1xZTF4OGhkSTljdDlWM2llQmxnSlJXWUF2UlVpbjFYUlpoN0tzVTdSS1VRYWVpM0ZDbEhra2g1Z3AwWUk0VEQ1T29iT1kzUE0xdW0xajYwUXFaRW5hYXlwaGpqTGx5R0dKaVHSAdoBQVVfeXFMTkg0aWFBUWU3LTZRRUIxTFhNUFFaT2JDWThaMXBRS2dQZjRsVzk3X0hsX2ZWTDdTZzIyQkxCOWo4MFp3eHdrb3RXSHlwbVVnNm05Sm1zeWtFVFNxV1ZKcXpVM2IzMHBQQVlqRVFnLUtuNWlteXVnZUpXaGtMQ1BjUnE0djhETXRhVTJzdl83c2ZMVy00VUpva0RSclNtWnE2a2lxLTBNVVZGVzZoTThNZWNQdk9TSGFqdTJyUkRjb1Y0R0dLclItRVB6MWtTejhCQ2h6ZUZaTVUyU3c?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Sat, 11 Jul 2026 11:00:39 GMT",
+          "fetched_at": "2026-07-12T13:39:41.289466",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -228,17 +228,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-12T08:27:58.217042",
+      "last_updated": "2026-07-12T13:41:26.259690",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 3,
         "neg": 0
       },
       "news": [],
@@ -304,7 +304,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "He left his engineering job at Tech Mahindra to pursue his passion for cinema; two years later, his debut",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNODQySFpyaWFpMW1GLXBzd29kdWtfWkNIcjJrYXI1NXZ6dWV3eUR0LVVoNXF4WXdvWlJXd3RZbmRGNkpzQmdiaEZVSDhIc3V3MkN3YlJ3U3huLXpOc3pfTElOVnY3cWNfX2tjTmw1cjFzY2VIeWo3YkFTMWthQ1JKUTdSRFYzOUw1UTNzaUVWOW1kTWdZUDhGTGZ3Y0pDWEY3Y0s4Sm5fdlpfQTMyQnBpRjZOTFhWSDFtYmsxMEhOSUV6QUZTUDJFZUxCbjE5Ty1sNEc4VnRuRDFEbEU1SFJ6aGp4QVlUX2RUeWMyS1B5MlgwY3Nldk1NdF96c3o2X0VJVHdVQ051eTdOdlktckcxRlUwVXRnd9IBmwJBVV95cUxPay13T2d0cm9URGRxN0VvenhWOXZEcVNiUG51NElyNDNONVJ6UUxMYXNBYlA0UWdqSmgxN1VTZGwxSGphRXNvSUVrX3cxdkJIUnRGbG9lUmd5NU9GTF9QWkg4b3huVUpHOXBEU1kwWFBsVWt5TFhybjhaOXlOcjhSNzN4RU84RFVLVXJlMnFFZlZ5V0lQMTYwd2FqUUNraVhfUFRrSmF6bzJ6ZS1naFU0WFlGNzY5Ym1IUE9JS2tqN2ZkZko2UWQ3LV9MaHNUTE9LZlJrVmIzVXZzZHlKYlM5cXJuekxJdEYtblJ3a1VoWU50eXU1RWNBYTJwSjl3R3dCUURfMF83SGhaTW1ZNmRoTmp0R0NEZmNXSTlR?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Fri, 10 Jul 2026 06:02:00 GMT",
+          "fetched_at": "2026-07-12T13:41:11.234151",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CloudSEK and Tech Mahindra Announce Partnership to Enable Predictive, Regulation-Ready Cybersecurity at Scale",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSnJNWFpTNnpCUTB4dmVUcWZmaXFBNnJzQk1leDFJZjVESTNNLTFhdDVDaHdKTXN1V0xKdTZYOVJjeFJCRWwxNzBucFo4TGdrOS1hZ3VrOWhLOE5MTllQMEJVUks5QktvS0RWOWdwdFRad293b1QyOEZuX20wOXIwQy1FeEZXUWM4ZEE2NkZzQmhFZ2dxSXlZQzFWR1RnODFEenR6YUFFYk9BdnR2aEs3aTVSczV1algwVHFqTW8xUUp1emY5UVF6UlpMdDRYT0FrNkQ5RGFB?oc=5",
+          "source": "CloudSEK",
+          "publishedAt": "Thu, 09 Jul 2026 10:42:37 GMT",
+          "fetched_at": "2026-07-12T13:41:11.234168",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Q1 Results Next Week: Reliance, HCLTech, Wipro, Tech Mahindra, BHEL Among 140+ Companies Reporting",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdzVZUlIwNHdiMXRNSWd5RFc2UnFDQkdDS2ZzZmVDbnhidkxQR0loUkhCZHVFblZELXNNeXNudnh1S2xlTHVFZ2Z5YkQ4WW4tWkJOSXBWN3JCRWJSbkt5UEp6YkZCYlc2Ym9YZG5sTW1xZTF4OGhkSTljdDlWM2llQmxnSlJXWUF2UlVpbjFYUlpoN0tzVTdSS1VRYWVpM0ZDbEhra2g1Z3AwWUk0VEQ1T29iT1kzUE0xdW0xajYwUXFaRW5hYXlwaGpqTGx5R0dKaVHSAdoBQVVfeXFMTkg0aWFBUWU3LTZRRUIxTFhNUFFaT2JDWThaMXBRS2dQZjRsVzk3X0hsX2ZWTDdTZzIyQkxCOWo4MFp3eHdrb3RXSHlwbVVnNm05Sm1zeWtFVFNxV1ZKcXpVM2IzMHBQQVlqRVFnLUtuNWlteXVnZUpXaGtMQ1BjUnE0djhETXRhVTJzdl83c2ZMVy00VUpva0RSclNtWnE2a2lxLTBNVVZGVzZoTThNZWNQdk9TSGFqdTJyUkRjb1Y0R0dLclItRVB6MWtTejhCQ2h6ZUZaTVUyU3c?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Sat, 11 Jul 2026 11:00:39 GMT",
+          "fetched_at": "2026-07-12T13:41:11.234174",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS leads IT rally, jumps 4%; Infosys, HCLTech, Tech Mahindra gain as Street backs Q1 earnings",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYno1cHlab2xLVHhJMlY0Y0dla0NCa2pLbGhSWEt2eHdaeGFBYlB0TktWNHBfSUlEaW9UWXkxRlI5ejgyME1IaWRjUjBtLXo0NGVTd205WUZ0SmtzSEhzRUlhVHNBVHdkM1JFd3FmVGtmY1lLYXdfMHhDN3NuV3FzcjFpR2F2c1N2S1BTT1N5NVRSb0pOa1B0TFhVVHU5bnI5NUJ0RVoxUXVpYk4xX0k2QmRrVmswVXhfdHE2LTJIWGFuOEU0NTRXUVRrakNFZ9IB2wFBVV95cUxQak9salBleFBfNmJQNWdlaHJlY1U0MWhyQXFNMGR4MkhiS3kxN0NRZXljT251QVVqclpTamdRVmoxQlRnYk4xZWFIT2VoRGthMUh6QVhYTk41QWVuZ3pfRXBWbkZ2dlFRY2xSSW5hcEI4X3Vka1dOM3BHcEl2dDYzSEtwSFlmcEdlMXd1U2dTT0lVVzN3Z0VUMUd5Z3gzaEtUNTNBcV9raTZOaTFwM3JyNEEtVFFLemRqVWVDZ1NqZUZJak1IaFhid1ZlRk9pdnU3NmVXc0hobUw3UEk?oc=5",
+          "source": "Fortune India",
+          "publishedAt": "Fri, 10 Jul 2026 04:11:07 GMT",
+          "fetched_at": "2026-07-12T13:41:11.234177",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Receives Frost & Sullivan's 2026 Asia-Pacific Technology Innovation Leadership Recognition for Advancing Agentic AI in the Business Process Services Industry",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdEtaTE5XYms0MXpHN3hldm9SR2hNbVFreVl6QnBNWV9od081WDdkc3oyLWNJRktNcVlMYmk1Mms4ckN1cDh3aGxDSW1Jb3kxMWlXWjlObHNodlZKTThjMFlyeFVwN21FQ2RIbUQ0ckhMbmdwUmJLa1l2NE94Y0ppZ0otZWpBQnNtY2ZKUmdLc3RnMHNCbmxjWGUtUElEX1lBQXcyLQ?oc=5",
+          "source": "Yahoo Finance",
+          "publishedAt": "Fri, 10 Jul 2026 05:00:00 GMT",
+          "fetched_at": "2026-07-12T13:41:11.234184",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -312,7 +358,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-12T08:29:13.744088",
+      "last_updated": "2026-07-12T13:42:46.149135",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -396,7 +442,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-12T08:29:41.980885",
+      "last_updated": "2026-07-12T13:43:17.834099",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -480,7 +526,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-12T08:30:46.284711",
+      "last_updated": "2026-07-12T13:44:39.937992",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -564,7 +610,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-12T08:32:02.750050",
+      "last_updated": "2026-07-12T13:45:39.014468",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -648,7 +694,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-12T08:33:15.094613",
+      "last_updated": "2026-07-12T13:46:51.869657",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -732,7 +778,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-12T08:33:34.672014",
+      "last_updated": "2026-07-12T13:47:17.607789",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
