@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-12T19:21:14.141293",
+    "generated_at": "2026-07-13T03:38:52.831085",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,17 +14,17 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-12T19:12:47.546679",
+      "last_updated": "2026-07-13T03:29:51.788101",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Tata Group Targets $100 Billion Revenue by FY31: Report",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNkdwM1E0ODlnUm5jYU8xOXpER2NlU0E3cE9TWGRBSEZiNkh2Z3FscnFhYTQzOFRjOGZBb0NIT3RWNTFnMTI2R1Z4NmxuVkNnbEk2NDdtZUhvaFZScWRzeEhxblFEaGIxWmRtTmZuYnhfYlFHeWRjV0E5eWNoenQxTDJybDZFZXJCWTlMRFVBbkxIZDJzMk8tRA?oc=5",
+          "source": "ACKO Drive",
+          "publishedAt": "Thu, 09 Jul 2026 07:12:52 GMT",
+          "fetched_at": "2026-07-13T03:29:14.782914",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tata Group targets $100 billion from auto biz in five years",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMzRLMmU5SWJLSzhRdm9hU3djYm5NZE0tVnR0X3ByZHZqajBHdFA4dVZVTEJJRlh0UEQxc0pVaGpYSkM1UWh5UFk2Q2dsZW1ubkdySnpGdFhXV2pmOFRONXBpR2RxYmpZbXVsY3lyZmVQaGZrREhWallGT0ZQc1lXd1dzYklDbF9rMjJnRzZMV2RzcnoxbkpUR2tTTURkQU94S1ZaeTZXeHkyYUwyTUxxaThn0gG_AUFVX3lxTFBsYkZRSTNWUGdmbHBpV2d3d2ZGZWx6ZHNhS1hXUTZhV3pGX1ROVGx6UmlGd09hRlRIVm8zVjJjX3kwaHVKa3pyWVU5NDVUUG1wb1UzUFlORVQ4Y0ZITkNoQ055WVRVQy1rQ2xnTWNfTGZmaTJRckZUNDVPNWQyS2pEakdFZ3NZQ0R4SXhGc1JTd1paOWN3M0dLM25CUDg4bjNBcV9CX2VVY0luNkF2dVlwRmZRVnRRMnJtT18zRno0?oc=5",
+          "source": "The New Indian Express",
+          "publishedAt": "Wed, 08 Jul 2026 16:12:46 GMT",
+          "fetched_at": "2026-07-13T03:29:14.782929",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Is Tata Group Which Is Bigger Than Many Countries GDP, Sinking After Ratan Tata?",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYkFJd1U4ZU9LM3JaSDhPQ2pWNE15MmxmU3dja1JJaHJwRHoyOUg4MmFUYUdZOGFpWGNOeGg5RUs5Y3o4LXduUTRJUW1qZDV4d09XUWJkV1FGR0QwWjNBQnZwTFhtdFZDLWJwNXV5WGFlWVZtc1RIRWhhVHVXcWFQdF84c2lvbnVvMzJrdXlxUWNfUEtpZXlCNVBaajVhUHlGMzVFcTBRclNSa3JGYU1rdnhVTGZMT0lNdEJQRHdMMTd1ZUNYOTBnSDYzaDAyTS1PdHhMN2VIb0NOTEJhNWc?oc=5",
+          "source": "Goodreturns",
+          "publishedAt": "Fri, 10 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T03:29:14.782934",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'Tata Group eyeing $100bn in auto revenue by 2031'",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeThNZFV2SzNaQlBIM3hQbXNKQldJNFktYXg0UEo1UTVNcW5oVVdQNkd3TThmU1N6Vlp1OG55YWVpYTAxb05nNE5rbGw1ek5rSU1iYm1ZalBCeG9oMHpQTk1WdlNEU0Jndk9udkx4aW1vbmsxdkRKWmZYci1wQ2F6NnJnMWtLbVcybFRocERnS1FsTGVQa18zMWJ2d05kWGM5aU03Vy1XTExNQ2VoUGN2cXpEdVo0NTFpRThXXy1HcFB4SkZWaWJJbHNLVHlYd9IB0wFBVV95cUxNZmdESk9RSXV3aWRQelNQM1N1R3VpYlpSdXoyZmJkY0ZGU3laYXY2Z2plR25QVDVTUWpvNEFhMDBxdnYzVk43aWE2eEdWYy16dy1CSnpDb29mak13N0lRWWE3Y0hDS2hzUVI5TWZGcllJYklYTTZ2dk14TlNjd2pMZ0xtSXFoY2t2OUpwa0EzeHdRRTdhdUVXcFhIWVBya3hDbUx4MWMtSHYxNHVPT3ZsZFVxRGFfSVNvanZIRW1PckVTYkFQNFJkZXU1OWdDYkZpb3hF?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Thu, 09 Jul 2026 00:39:00 GMT",
+          "fetched_at": "2026-07-13T03:29:14.782937",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tata Group Eyes $100 Bn Auto Revenue By FY31, JLR To Lead Growth",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY1d2eUUxR1pDTTlLdlktWW9jeUh2RTVVbW5TTkNjaU1UeUFWUFd5dDlKTmdrTHVaUGJ5dVVaWXRfX0R5YzJZdldZandMOXZFYXRFWDRqQmdZcWZKdnNVSjY4M3NrTmtmNEFSWEllRmhKa2lTeUw0SHBsdGFmMGt0NTEwMjhBWF81NjFRZ1h2TUMzTkRBMTJZYmlYX3dsTGUyYmE2bEViSdIBtAFBVV95cUxPUWVNTk5McTh2STQ2dGtuaHY1bWctREwwdVlmU0REYXh6MmRRcmFHY1R3TFF5R19UR1Rvd3pYZmZob2FWbFlvYzhMVUk4czFhc0swTGVQSTIwRTRsbm1DZ0xueVF5dHJnaWFPUTZHTEh5RHdfWklReWQxeFEwNHpVQVhxYlBKT3VyZFVVOEl2TU9tZDFvRVZsb0ItT1NPcndzanV5TWZKSzdlREJ1QmVYbWZnaGw?oc=5",
+          "source": "outlookbusiness.com",
+          "publishedAt": "Thu, 09 Jul 2026 11:31:32 GMT",
+          "fetched_at": "2026-07-13T03:29:14.782941",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,20 +144,91 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-12T19:13:39.769556",
+      "last_updated": "2026-07-13T03:31:09.373194",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.2,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 3,
+        "neg": 2
       },
-      "news": [],
+      "news": [
+        {
+          "title": "India's Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZHVWMTZfdlZoNHBPbVhNSTktYk5yTzBaN3BOTWc2NjNhczhUWVJVTktLZld3WC0zeGEyREFDZk1kWkFjNzBFaXV0M3JSMC1mNFlPQU9DYy1palFFbTRoUFYxR1JZVDNRVmhCQzREYnMxOGd1cEFhNE9aeTFOVzhDTjF6UVY3b0RzUm5ReWIyQkQ2ZjF2OC1kNG40clpPNzhkTTJZOWJUckc0SUlaWVhaa1VFOVpkVXA3am9aY1I2bWlqODM3N2c?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Sun, 12 Jul 2026 08:37:43 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378327"
+        },
+        {
+          "title": "Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONWs3WF91eHNfRE1fUGh5bFROZ0ROOVdWSkpuc2M3OUw3SU1EY1JoNnl4eW9nNEhEb2ozZmJFTl9ac2dCQ0plaDhEWmxSVElEUmlsek82X3NoRjI0UnMzRXE0MkxDQXdJMk1CMzRWNlRLdkxiX2ZOOEpwM2dJTzV0cUtkYlNUY1NpQkZuZEZFVWJWRVlkRGg0NjZkTUxyRWFnSFpqbUh2ckFtV2g3WXk0VmgxMkJmREpsVTZHZnpCWXA5SEFNOE5QNC04Z1pJeXNJZnVLbzVTT084cERUVWxTZnN4N2d4TGYtcDlkSNIB8gFBVV95cUxPQVJRWWRaQVhuMTJ1bk5nckoxdVBROU5OZVh2MnRnZDZqdTVOb0ZhMVZCdVRtbkZESXJZM1VMdnBBOFJIZ1FPbkZyd01YRzZLM0I2eXJUbk1fcXdoWGRaN2g3TnV0eTBkZmlFZlFkTjhLZHFMNFphLWJBVXByTnVCU0UzRUZVUTBnMldpODRMNU1zeC1pSk9wUkNKRmVoZDZpdzJvRkVVRk1QNVJ6bGFVNURqbFJsV01tVXN3bHg5emVDamREcGs5dTctRUpPOGw3bWo4bVdqeWZrRkMzQXdqanZpMEozUEhTZTYtY2R6Qk9jZw?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Sun, 12 Jul 2026 09:08:36 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378340"
+        },
+        {
+          "title": "TCS announces new Global Business Units amid AI-led transformation",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ0pLZWZHLVg2X0M3OFl3VHQxYVo4dUlRbkhuOGxjQU1iTDF5YUYwRlotbDNSYkhLMm5zNFNXMnM3U2tPWUlqbUhQVktuQUFYeHJtNVdVSzJXZld6a2tzMmE0djZXUlREYkJsN0c0WWlTRDJvMG1Ia21PQlh4YjltR3RpVU5UYmNCc3BQcWtUWGxvTTJ6Yk5oX2xSMnJ2OTdfZ0JGS2JSd0l0TmFSUDZzMHg4X0NrSWNLbldvX2N5emZIZXJjT3FXRXRBWVZqZ9IB1AFBVV95cUxPUlpJTmp1d1ZIY2tCNE5Ka0JMZWwyWDZERV9zYlpEM25mVFcxTFZBRmc0MTBxdXEzMXNzbXRsSW40NHFKWm9VZ0d4RGMxVUFzSktWR0hHQ1J4Zl9XLWNnMDdfM3pTTkZORm0tYWctOHdxaDJnQlphT2FYUTBvWW1IeEEyVEdmbEdHQTd4MFUweHptbmdCSXRndk90RlRGSEx2a1ZYZVlkVURpVFZpT0FFS3RHNmtWUVVXVzlZTXV4UmczRW9Vckp1dVpnSkp2Q09jX1puYg?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Sun, 12 Jul 2026 14:54:34 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378345"
+        },
+        {
+          "title": "TCS begins FY27 with continued growth; wins multiple AI transformation deals",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQ1pzMm5DVEZnd1J6WjRVSmZjTVlFZkhIV0ZDYlUyY0hLMU1tbnJJT0pUb1NhNk9pRjM2bW5XNlJqYkNWMWZuQmdlcXYwbWwtMkZoSGZieFYtWnFvSWdiLUJaLVJxTFMwbXhPMk0xR0k1a2t2eWt6RUtSYUYta0l2THlfVWNBUVpJeGU0VWp4aw?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Thu, 09 Jul 2026 11:33:53 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378349"
+        },
+        {
+          "title": "Tata Consultancy Services Limited (NSE:TCS) Just Reported Earnings, And Analysts Cut Their Target Price",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPOG1HckVuazRXeE5mT1RoNGxZZmJ0UlZGQXBPTkdEaXJROGVLdHpJWkNCWFQ2RG5CclExckRmd0lOLUVISFh4SlhBUDRjYVVMTWZ2YWxpaHZ5RHU3M2NLQWs3YWJ1NTZBTUI5NG4yMWltY3AyTGJGaG1xbUlScUVyQ1RrMUVmdmZGSnBaOUQwWE1wX3hDLVd5cUpWcmdnVlJxekhNNVFWZGluUzRZaktCRGxqN05BTEFFMW1GazNWZU93OUJ6ekNKWlNqY2MxNzZvTW1ib0ViSlcxZ0F0R1pfeDg0NTRtQdIB5gFBVV95cUxPOG1HckVuazRXeE5mT1RoNGxZZmJ0UlZGQXBPTkdEaXJROGVLdHpJWkNCWFQ2RG5CclExckRmd0lOLUVISFh4SlhBUDRjYVVMTWZ2YWxpaHZ5RHU3M2NLQWs3YWJ1NTZBTUI5NG4yMWltY3AyTGJGaG1xbUlScUVyQ1RrMUVmdmZGSnBaOUQwWE1wX3hDLVd5cUpWcmdnVlJxekhNNVFWZGluUzRZaktCRGxqN05BTEFFMW1GazNWZU93OUJ6ekNKWlNqY2MxNzZvTW1ib0ViSlcxZ0F0R1pfeDg0NTRtQQ?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Mon, 13 Jul 2026 01:16:25 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378353"
+        },
+        {
+          "title": "TCS reshuffles top ranks, reorganizes business units amid growth push",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVljTWhXSDB2WFV6bzYwb205RGs1eWktSklnSDB2WnZqUWZCbmVXVHBvZURLOVl4WXd5aFdNQkhkZUR2eTdsNFRZUFZURUZqS0x2OE9zRXlJSVF1UUdSRnNEU3V5TUlFVXNIbzVjR002TUhxald6ZUtlTW4zRjlMa05rYzNlZWk4M21mejRSZDE5ZWlubzZQYWpoMlFuang3YzFSTUx5ZXBRT213b2RaQWdOZGU2YnRRa0JxeUJTUEPSAcYBQVVfeXFMT1Iza0xCSVQyZXlKM2NpeDZtZ1E2SGJKUU9LRFhyekkyejFDZDNCdVNvVmo0cXhCcXhsdER4TzVCVEdkUEpFNTN6OFVpazIxbkVYTUZvbEF2cVVvWWk0MkZBV1FpUVQ2NVc3SzNlS3FZay1qbGhuRDU1UjJWTVphenEzUTF4Szh5YWJ6WF80dExldXdCN0tSNTJRQ2lCY0wzUE8tSTZLd2loWEJvVkd6XzlIZnF6RXg0RlFIZmxIY2RMTG9vYW9n?oc=5",
+          "source": "livemint.com",
+          "publishedAt": "Sun, 12 Jul 2026 13:42:58 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378356"
+        },
+        {
+          "title": "Token costs a concern for many customers, says TCS CEO K Krithivasan",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORUM5V09tNWloTjdmTUp2ZnNSRDg0R0s4YkZCdlRKZTZuTHBjdVR2Qnpwb2toMzVwN0pRSmJjbmtCMkg3ZlQyLVJPeXUtdVVWaDhtSVdzdy1YcGFkUE5uZ09HazRZd0l2aURWQVRFWnhLeG91X0VpZzJ0UEJmQzA4QlF4MEw5ZFpBdUVaUkZOR3JtdUxpOThfTi1oTWY4RTh1RUt2SHZmdjkybW9Uc1lMcE15TFB1c3pQX2NKM0d1Nlp5UXNhR1BmWWZjYlFPR1c5bVhCbNIB2gFBVV95cUxQZDdsaDBkeFNkaUJQWmM4UHB2ZzZBNEdNRmE5Q2VGblJ0ZHhySHUyQWt6QmNlOVNLbWMxeHZCRDlyUzNidGZQWHdBX0k3Ymxselh2azcwNDA4bzFHQmY3em5uYV9xQURqYnFyNnJjSHBxVzNuNlFQaWJBem1CWGVsUGwwMmJlMC1VbnUtQXlWemZZSDdOQWs4SVVOVnRVc0ktQmt0RHlsUzczM2VYY19GZnRVMkE4LW9uUFVrY2NCOHBNSmFUWDdiM2NLME9IbmdpNW5tMmdxVmYzQQ?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Sun, 12 Jul 2026 18:35:58 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378360"
+        },
+        {
+          "title": "Tata Consultancy Services Shares Climb 4% As Q1 Earnings Exceed Estimates",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONU9yWlo5RUlIZ3JOR0VZUmdaN2J5RHVGalMwX1BuUUhHUTMxM2ptT2doeWtyNWtydktZVEhvVWxfRWdkTDl0OW5RV21pWDlUUloyRTRlRVBHdFMwZXBHY3ZzTmJndm9SM2tSd1NtX3JsSlVPVjQ3WVo1cjUtcEp2NUtWSU5jQQ?oc=5",
+          "source": "HDFC Sky",
+          "publishedAt": "Fri, 10 Jul 2026 09:34:42 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378363"
+        },
+        {
+          "title": "Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPam13VDR4UXFkcTF2dDk5NUtkNkhBZloxc0NacFV2bU5NQnJUeDJXNm9rMjVxMDVMUFNCczFMWXdVdzZpY1dDdWdZQlpFQkFtV2NSRlBiT3UxR0FsSGc4RHVUbnpHdTI3VWtlMkhnWmdXa2UxMFBRTmIwbG5lZDdLTzlpb0tvd1RqR1ZXdTdvSnB6VVJmTG5qdzVzLTBtMGxXTEIzUHpTT0l0eUVqd1hlUnBUNXI5MmNfOVVqSGdURDhDUTYtVTZ0SEpIeWlGSHh6cDI1SW1NWkhqWmRpVUlqUndxQjVVTVU?oc=5",
+          "source": "TradingView",
+          "publishedAt": "Sun, 12 Jul 2026 09:08:36 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378367"
+        },
+        {
+          "title": "Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSU1iaGFOSEVSeXg1QXVGdktHQ3FldWJkVXE0OG9nTnJ1X056N3ZvY29lR1JxdWZEWE8tdk1RMnpVelRBTF9lbTBwdkFqNkxCZkZ1aHVuV0NyWGRRVkV1RExyZ1dvUlVod3RGQnF5ZzJzelhmalNuNzhPV3NKTXpKYVkwRVRNREFrYXhZQjRpMnlqRUtrUUU1NkI5aUVzSGc3M2U1Q2dmUEpfYlhTZjloczNZQWJadWk4LWxHLTdXbTBvZw?oc=5",
+          "source": "India IPO",
+          "publishedAt": "Sun, 12 Jul 2026 13:00:24 GMT",
+          "fetched_at": "2026-07-13T03:30:05.378370"
+        }
+      ],
       "research_gaps": [
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
@@ -182,17 +299,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-12T19:14:43.441137",
+      "last_updated": "2026-07-13T03:32:23.837694",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 3,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -258,53 +375,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONWs3WF91eHNfRE1fUGh5bFROZ0ROOVdWSkpuc2M3OUw3SU1EY1JoNnl4eW9nNEhEb2ozZmJFTl9ac2dCQ0plaDhEWmxSVElEUmlsek82X3NoRjI0UnMzRXE0MkxDQXdJMk1CMzRWNlRLdkxiX2ZOOEpwM2dJTzV0cUtkYlNUY1NpQkZuZEZFVWJWRVlkRGg0NjZkTUxyRWFnSFpqbUh2ckFtV2g3WXk0VmgxMkJmREpsVTZHZnpCWXA5SEFNOE5QNC04Z1pJeXNJZnVLbzVTT084cERUVWxTZnN4N2d4TGYtcDlkSNIB8gFBVV95cUxPQVJRWWRaQVhuMTJ1bk5nckoxdVBROU5OZVh2MnRnZDZqdTVOb0ZhMVZCdVRtbkZESXJZM1VMdnBBOFJIZ1FPbkZyd01YRzZLM0I2eXJUbk1fcXdoWGRaN2g3TnV0eTBkZmlFZlFkTjhLZHFMNFphLWJBVXByTnVCU0UzRUZVUTBnMldpODRMNU1zeC1pSk9wUkNKRmVoZDZpdzJvRkVVRk1QNVJ6bGFVNURqbFJsV01tVXN3bHg5emVDamREcGs5dTctRUpPOGw3bWo4bVdqeWZrRkMzQXdqanZpMEozUEhTZTYtY2R6Qk9jZw?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Sun, 12 Jul 2026 09:08:36 GMT",
-          "fetched_at": "2026-07-12T19:14:02.711530",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Pulse of the Street: Sensex, Nifty rally on TCS earnings after midweek rout",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd25DeFdMSThsblVZYWFQT3UzeWd0YUxFLTBZRXJidkdkeVVrcFN4VU5JemNvcmp6ejFaNHRaVVF6WnVFOUQzUnVuQ2JDemRSRU14WElIN1NJQ3JFOHY0ejQtLVlBdmU1c2xNTjNlTDdSMGV1YS11MTBXYm9PcnRzRW9xWUc4dGpKUFhETEZkYzl2VGtTZER5Tm1UeF9lWmNkaUJyc2V2ekhodVNFNmxMbTBYTXplT1ZNUUFrdUJFNHJYVUhyV3FTTS0xbEFubnlSME9mY2tnSXJMQdIB3wFBVV95cUxPQi1mQWdkX2lzejhLY0NFT2dYaEg1c0VHNWh5ekl5MlVzY0NzbkhGdjJoc3dETWtXUy1fQzlyZlZSVnRha1BZRzdWakFmUEM2dVU0dENYcFRNR3Y0b21hRC1PY3hFZm5JZUpySWxJT28zejZmVFJHWXpYZlFnTkxpX1oyWmFBc0pUOTV3VWNqQjU4U1FBeGYyTzdIclA0WU9ra2ZKVE5mTk5vT1pKUnp0TlI4Q3Q3eWswUmIyXzQ4Q2JwamVzUzd2QmpCVi0yTGVjZW1YR19IelVMZEpuckJ3?oc=5",
-          "source": "livemint.com",
-          "publishedAt": "Fri, 10 Jul 2026 15:01:24 GMT",
-          "fetched_at": "2026-07-12T19:14:02.711544",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS announces new Global Business Units amid AI-led transformation",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ0pLZWZHLVg2X0M3OFl3VHQxYVo4dUlRbkhuOGxjQU1iTDF5YUYwRlotbDNSYkhLMm5zNFNXMnM3U2tPWUlqbUhQVktuQUFYeHJtNVdVSzJXZld6a2tzMmE0djZXUlREYkJsN0c0WWlTRDJvMG1Ia21PQlh4YjltR3RpVU5UYmNCc3BQcWtUWGxvTTJ6Yk5oX2xSMnJ2OTdfZ0JGS2JSd0l0TmFSUDZzMHg4X0NrSWNLbldvX2N5emZIZXJjT3FXRXRBWVZqZ9IB1AFBVV95cUxPUlpJTmp1d1ZIY2tCNE5Ka0JMZWwyWDZERV9zYlpEM25mVFcxTFZBRmc0MTBxdXEzMXNzbXRsSW40NHFKWm9VZ0d4RGMxVUFzSktWR0hHQ1J4Zl9XLWNnMDdfM3pTTkZORm0tYWctOHdxaDJnQlphT2FYUTBvWW1IeEEyVEdmbEdHQTd4MFUweHptbmdCSXRndk90RlRGSEx2a1ZYZVlkVURpVFZpT0FFS3RHNmtWUVVXVzlZTXV4UmczRW9Vckp1dVpnSkp2Q09jX1puYg?oc=5",
-          "source": "BusinessLine",
-          "publishedAt": "Sun, 12 Jul 2026 14:54:34 GMT",
-          "fetched_at": "2026-07-12T19:14:02.711549",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "India's Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZHVWMTZfdlZoNHBPbVhNSTktYk5yTzBaN3BOTWc2NjNhczhUWVJVTktLZld3WC0zeGEyREFDZk1kWkFjNzBFaXV0M3JSMC1mNFlPQU9DYy1palFFbTRoUFYxR1JZVDNRVmhCQzREYnMxOGd1cEFhNE9aeTFOVzhDTjF6UVY3b0RzUm5ReWIyQkQ2ZjF2OC1kNG40clpPNzhkTTJZOWJUckc0SUlaWVhaa1VFOVpkVXA3am9aY1I2bWlqODM3N2c?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Sun, 12 Jul 2026 08:37:43 GMT",
-          "fetched_at": "2026-07-12T19:14:02.711553",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS reshuffles leadership across key verticals, markets",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPalJ0NnZEaGp2eUp2OG1HSWNUNDJJUVZQWmMxT3NNOFlUVmUtTVd3ZEdEY3A5VXRKRGJvaEtmVUJUUU91ZnU4YVZKM0lrS29tbkVPaFc1bjdsenc5LUtyUUJxbV9DZ05SMC0xaUtFMXVTSklPa1JGa1JFQV9yYXFjWkxJSTF4VlBVblprckxjMzMzMlZQSFlad2phOEtXNkVFT3RORHRTWm9qU2dySkV2aUZnVTR6M3Y2X3E5MW9NVldneEFSc0hNdjNDVdIB0AFBVV95cUxQZDZCT0Z2Ymt3aTUzb2tYLXF0QmtVUGdmQjR6M3Q3ZFZzek5CcGRMNU9kdDB4YTRZYXdpckc2RVVqRHpwd2FuaWlvM2g1VURsb2lqa190WFk3UlhfNThscm1qWVBxSTZzTzgxeDVaWVNsS09zeTR3aEhHUlAxS1JkVzJYSmV1bEIwVzE0RmUwMHo3OEtCNDNqOTZoNXFDeUVRbVFRU21nbFdIcDFmUDJzSm9HQXZRRFM2WEhwVlhwSFBQelBzc2lpcHhOYTNXSWRY?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sun, 12 Jul 2026 17:37:00 GMT",
-          "fetched_at": "2026-07-12T19:14:02.711557",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -312,65 +383,21 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-12T19:15:46.861117",
+      "last_updated": "2026-07-13T03:33:51.682336",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at HDFC Bank",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at HDFC Bank: resignation. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "HDFC Bank CEO Sashidhar Jagdishan's remuneration rises in FY26 to Rs 15.13 crore  Resignation of part-time chairman a challenging event; raised questi...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "resignation"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "ESG Compliance Gaps at HDFC Bank",
-          "severity": "Medium",
-          "description": "ESG red flags detected at HDFC Bank: governance. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "HDFC Bank CEO Sashidhar Jagdishan's remuneration rises in FY26 to Rs 15.13 crore  Resignation of part-time chairman a challenging event; raised questi...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "governance"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -390,63 +417,67 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "HDFC Bank: Competitive Intelligence & Win/Loss Analysis",
+          "severity": "Medium",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "HDFC Bank CEO Sashidhar Jagdishan's remuneration rises in FY26 to Rs 15.13 crore",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTDZ0SmtfNHlXcmg2dnZ0eUpULU9YZEluMTJydi1pSGtfNjI2R0tzRkxkQzZLSHVzMWNqWkpRQ2JqTW5fLVNTTFlNNWxWTzRIeDA0NXlwaTk2QU53M1BDMzRSRzZGaGEyUGMyM0JkS3BEOFZVVG5aNGxDM0k4aHBFV3RhSExyUm9HVjZPSGg0Njh6RVRSQnBDUzg5dGE4dXpKYmtkZ3dwLVZDd01JX1AxZFhVMVFoN29IZWY4YThSS1FScDRhT3N2eVc1OUdmMUR6Uk91czRtVzFlbk3SAeABQVVfeXFMTW84eWJPeXBUZW5QTXVqMEtBZmRuTDRkbmFENHNLVGxDREk4dTFMWHl1UkUtQVRBZ2Q4REI2amszYU94a0MwYzZOOW1uZTdOcGRhOHk1YjlUS0p3bGs3M1ZsTWJ4UV9XY1phUFA2MWV4c1FVODBzVDFMdkU0cnJ0bWFyak9WSVVoTkZrV3JLVXVGMWdnckE5TjZEbDZDSmxGb2hpYVhsU0lQUURiOFBwMUxvV2pTRVJHQkJBdjJfR0hOZnBMdWZYTEtndWtqbmI4RjQtSU1jYXhiWnU4T2RvMmU?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Sun, 12 Jul 2026 07:37:34 GMT",
-          "fetched_at": "2026-07-12T19:15:46.860763"
-        },
-        {
-          "title": "Resignation of part-time chairman a challenging event; raised questions on lender's governance standards: HDFC Bank MD and CEO Jagdishan",
-          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOOEZmdG0wVHlrMG1Ea1FGV1FoVG5XcGtXbm81N1ZIQUFBOHhZZVRNakdGWlo4RmdaWTdLME9lMDdDS3E5Y2E5NkpiVjFSQlFxY19sZDQ3TmRwTWJBV0NfbklGRXNqTjN0bHNzXzlHNDQ0Yy1DMjduWkY1M2dFRTA4Z3F0WUxzU3AtS1ZVWi1SeGN0SEkyS0JvVmdjVzNBSV9Xb2tsSVhleW9Ec3RaREJaLV9HN3pDYVRzcmlqVFYxVlpiX0h5S2Naam5NMkxkT0NDNEtKVy1PWXBQMlAxWDkzNGZlbVpCVk5QUnRhNVR1VDNCN0I4am5fQzZReG1mcWc5NVJnUzBzdmt1YWlnS1hkVUVOTXF1YmxPNXdTdHQ1Y3QyeXR6ZnFtem0wONIBsAJBVV95cUxQZUFNU0hfTUNJY3dFSXkyeHh4Rm52bFpRSG9IZmpYY3NBcUExVXhaMGRsQ2hreU54SFhlYUFTOEZnWkpMWmdXWjY5ZnZxdVFtZl9IeXl2NDFwOC1VVHA1ZWVRUWlpU3ZpbkNXLVVWQUhlbTFRTjYxeGsyTVdCMXF1MGE2blNwWHNhWVdTVEhTWFVLa1lLbGlheFdSVHZjZ1BiNVJ0V3ZXRUpDYlY4ZU5jeWtzOVFQWW1BWU1WNTRMWkVlTXJRcE9mdlkwSVhQMFFxSmpUVWFiQUNwZThWWXVSc1pSaDk1NVBES2ZPRV9TRURUWlAtazZZcWlBWTZmS093c1dQaC0ySTFEWEhJeWhIN3RiWkpWRUdhSHJfaU4wQUhIaGs3RjBDdkxDSXBVNTRH?oc=5",
-          "source": "Business Today",
-          "publishedAt": "Sat, 11 Jul 2026 07:46:40 GMT",
-          "fetched_at": "2026-07-12T19:15:46.860778"
-        },
-        {
-          "title": "Chairman's exit a 'challenging event' that raised governance questions: HDFC Bank CEO",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVW11YlhkaU9MeE0zMGJROGpYUFpnYTRuYWZ0QWxLYy1BMzRScmRkWTIyRmtKcXBFQkx5NEZNbDNrYmgwMU52YXAxeU9LeGVsYVZFeTFVVnJxNmRaeU1YWmZHa3g2bjZCR0VESTZSUmF0SUxXbFRoMVBDUGF2NlZ4VDBwRURPcEp6OUVWTWlILUt4SWhlRVZ6a0MydXlqOU40azVNVUZITk51S03SAbABQVVfeXFMTmV3dlJlN1BTbVo4cFhzVVNGam1vOU1RSnpoQXJoVW5yNXZxU2ZtQXE3UzMyQTFiZHNiM2dUZGs5Zzl2eGkwTDBMT0huQ0hGem81RC1PUVZXcmhadzNmeDJfZkwzQ0pVcnZhbUg3LXhObk5DYXVmNW9NMC1hNXhxbTFsYkNub1JUYl90REUxelBhaUUyZ19UV29tNzdXOUkwZmpLYldpdmJ2WVNzalJOdTM?oc=5",
-          "source": "livemint.com",
-          "publishedAt": "Sat, 11 Jul 2026 05:35:54 GMT",
-          "fetched_at": "2026-07-12T19:15:46.860783"
-        },
-        {
-          "title": "Challenging event that raised governance questions: HDFC Bank CEO Jagdishan on Atanu Chakraborty's...",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxObmpFQi0tUEVHc1dBaHNscEJRdm14NnB5TzhnaDM3ZmdVcnQ2NXBoX3dsbnIySjh6eExhOVdGXy1KbGZXcjhRd3dPanIwVzZXVDlpSTFsSUVEdTRkWFByZ0ZtVEJTc1YwOXgtOU9iR2RBYktNSjJnczNHb05wQUtIY3J0RV9VdFhPd1ZiS3pKbnhpSzE0Y3RwNTNDc1R5blpaeVlZWV9LQ3kyeVhTYWhsT0RzUU5zMHFJR01zUVFHb3RPUE8xZ1RNTWppVnFwd2FEM2R1X0hqamswLVJrVWVwSFdJcTJJYl9zay14WW1mcjlYcmtXOGwyWDZ0dEfSAYICQVVfeXFMTmpIc1I3bGE5bDdyLVMwLUpjSnZMb0VmSUtjQ09pTmprWFlhYUU3RWViaHJtZU1Ta3dKdzhSWHRGOE5PRERjMnZnTWNaaVRWSWE1c2k2bHR6NU15MnJ6NHgxQnZtMXRPMjl5UnBnTTFrOVdkX3lqWHNfUkQxUUR5bGd5aXQwYXRtQ3JiMjU5NFVpR1V2Q2R1UlZtSXAzbXFiMHlWZ1RnbW45d3ptclBzX2FLYWNqSGY3dmo1UVhZOEZOMnJxdlk2LUxtTTM2ekZEbzIwTUU2QmJtT0llR0FEbU1Tb1RkRlc5MHVULTNSVXlFM2tHYXZDaV9vazc0eHg0RE53?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Sun, 12 Jul 2026 06:56:04 GMT",
-          "fetched_at": "2026-07-12T19:15:46.860788"
-        },
-        {
-          "title": "HDFC Bank top brass get hefty FY26 pay hikes; Deputy MD's ₹17.14 crore pay package tops CEO Sashidhar Jagdishan's",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQT0U2Zm5CRUFyMHA2S1B3WjgyeTh1amFNTElrZ1UtWU1zaHo5STgxVW91dVU5WmRaNUlWNmlVam4xXzFtYjlMM3BLTU9DNXlWeVFnOTJydnpCRWR4X2l4SWExQlZSNUQ0cFA4VzRwR25icWU5WWRTMHcwazMtOC16cTdoN0xGMG13dzlVaFJiUG1VYUVicE9mSTlJN2o2UkdmamxfVHpNSThhaHZqQWEtWGxEeFRfSHZvM0xUdTRGX0JVLUJxOEN2RHlNR3kzc1JDNDc2cXNZNDNKS0Z4R1pKY3ZZYXllb1V1dV82bVp2UEpjcHJyV0c1bGRuMThlY05fYnltSGh30gGLAkFVX3lxTFBOSEpmcDRPVk8tS004VnNlcG04aVFHdjBWRUdzWU1pVDg3VFJkN3RCVWpGZzduc2w2U0dhbnUtejhCQ0c3UzA2TnluT2MyLWhpa3lvd1VQRXhjZ1NrNUZiV0U3TmMyQmhWRkNJZFZjNHk0R2tTQlJrUzJXdWo5M2pXTkZqLTJnRlM4am1yWUhRYUJ3UEZ3aGJOMVpyRHAyU0ZVNWdJWWNQbGFVZUU3LTc2LUtWUE5yV1NBSGxpRDQxQXFNemJSV2JSU2lmMndINWY1dldFa3BvVkFJNC02NnZ1RzF6VnZBS00wUGhDN1g5bVNEUlFMOUpxS2V2Rlc0T0xFQWVoamE3SGFfaw?oc=5",
-          "source": "livemint.com",
-          "publishedAt": "Sun, 12 Jul 2026 10:16:15 GMT",
-          "fetched_at": "2026-07-12T19:15:46.860798"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "Bharti Airtel": {
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-12T19:16:38.120536",
+      "last_updated": "2026-07-13T03:34:59.459640",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
-        "esg_news_count": 0
+        "competitor_intel_count": 0,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -512,61 +543,51 @@
           ]
         }
       ],
-      "competitor_intel": [
+      "competitor_intel": [],
+      "esg_highlights": [
         {
-          "title": "Upcoming Q1 results this week: HCL Tech, RIL, Jio Fin, Wipro, Kotak Mahindra Bank, ITC Hotels and more",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRzk1aEpvSkFWRjVZQ3VTRFRJRVFCcnNmX0VDX3VOeElNZHg2NGkyZmo1WUs1S1gyU3FBWTNmZ09XMFUtQ2VSRDE4Z24xa1dEQVFZbjNRUEtZblZybGNZU2ZQc2EtajZOVHRLakhaOXZTcDQteEFwdzRiRm5zWWRCX3BVQnYzVXRBdGZBTTN4bTQtMDFmUVlYVFp3b3VSQmhxcUpxa0NNSUZucjRKNHVBUnZsSVJYOUc5emZrQ3RzeHFGcmktNEI0d1dqYU1IZzB3c1RxY2ROZHREc0E0czFiUEsxdjQ3Y3F3aTctWmxn?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Sun, 12 Jul 2026 06:37:48 GMT",
-          "fetched_at": "2026-07-12T19:16:00.149873",
-          "related_to": "Jio",
-          "relevance": "competitor"
+          "title": "Gopal Vittal: The future of the Airtel brand will be built on experience as much as network",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeEtaLWtTNTFfNVV6Nm11YU1rVF8wUE5pWFJUWExwRERmcTFCYkxzVW8tZjdIQmlWdlVRWXB1N0RIMzFlNm9oajBHc3BIWkNrVVd0RmtCM0JBcHhXbGcyU293MkRyR1BTQ0ZMTEQ0c3R3YTUtNWZ1aXdzR2NHRzNTLUU2SXpYeGdpZzQ5TjVsM21QOG82X0t0d29IUHk2VU50X0VYUXJtRjVSMFJoaUd6WDBMLXJ0RjJFamFQdG9aUGVza3BidUUtQmNQS0pyRlJjb2RKWmR0OWdadFnSAeABQVVfeXFMTS1YSDY2YlJ1ck8zQjBnMVozRDJEc2xReGNXZXdhMjhMUEljSmJ0UkRNRm9Ub3pLdnM5ekZjOHQ1dDVjd2pkUjVSWENzdWM4c0RUVF96OFB6X1NXbGVfdUczbUhzM0lXNlpqeHBJQmJMaEZ6MEpVYi1VTnhKRmRaeTdHMUtocFRUTEJVVkhZY0QxdnNfY3NQeHVsd0pVdUVPQ1lyTTlpMXZMbDVNQWNJV1BDOVRES2NxaVlla2s4dV95LTNZVTAxZzZnSWxfNXJ2UmJiLXFSN1V4a3J4UUdrQms?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Mon, 13 Jul 2026 02:07:00 GMT",
+          "fetched_at": "2026-07-13T03:34:59.459329"
         },
         {
-          "title": "Jio Medium-Term Validity Plan for People Who Do Not Want 5G",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pb0MzMDBtU3pqVkZWczdBU1U1bDVJcHc5bEZNQ0hQY0NBT3lnNER5QWZsLS1ZVGpaNk1XZ0djTDBpdXZyaDl6MGNKRTJ3cVMzTXkwODVkNFozdzJjdkJWU3NRMlo0OXZ5X1dzYkIxa1kxU3VkUEJqTEpQXzdMeDA?oc=5",
-          "source": "TelecomTalk",
-          "publishedAt": "Sun, 12 Jul 2026 01:31:30 GMT",
-          "fetched_at": "2026-07-12T19:16:00.149888",
-          "related_to": "Jio",
-          "relevance": "competitor"
+          "title": "Airtel discloses FY26 pay: Gopal Vittal at Rs 21.73 crore, Shashwat Sharma at Rs 1.88 crore",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaVpIWVlseW13X19jdjE5QzdFVGowQ1ktMXB2UWxKZl9MdkxNc1lhcDlzaUo1emU2UmI3NmFEOUhYMWl5WnZ5alBFYUNYTXJVQ3QwcnpVaVFuNmgyVkx1UkQ4ZmpHOGV1TzAybU1TRGNmMFptT2dnVTZpVktJWkExc3llYnZXMG5pZmFpOXJ0OHRmMzViQ1dYZzZZVEk5MWp1Q0g4VTdGZnVjUHZqTE9qOXZuQmdtUDZSUW8yUXFDTG0?oc=5",
+          "source": "Indian Television Dot Com",
+          "publishedAt": "Mon, 13 Jul 2026 03:04:07 GMT",
+          "fetched_at": "2026-07-13T03:34:59.459341"
         },
         {
-          "title": "Reliance Industries, Jio Financial announce Q1 earnings dates. Check details",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRzRHRVNFSlkyUndwU1M1c1lsdWJUbDVhQWN3aDZnRmJWV29YWURNbjA4UGFMVmxKREVKT2hIbmxKekFsN25RbTAtZDV3V0tEV2VkbWlsWkZZbWp6RDBsVHNuWV9PcktfOTAyVk1Pay1CbW9EYUxHbHY0ejY4M1NYZFFtYTEta1h0M0pkYjU0ajI3S0lOQ0EybE1zWHNWU2RWbmk5TGM3S09LUmZGYklXWmVxYlJVQ0lQeTA0NGZiSFNkRTI5X3A3ek04OUxDa0tHTlhmcnpVc2VQclUwM0FHXzZvMTlIM0XSAewBQVVfeXFMTjkwZ2Y0MjZKdW9YUi1SYmJyREYxSFFRbVpLZ0Z1RHk0RGtBSUkxeTJ3NHA2N2d3dTgwUUx5enVEZHpqdWxZV2NvZ2RWYnQtSjNkZS1CWVAxYnBmeTV5YXJ6U2cxSGlIN3RzU1pKWFVQcHJhMTNub3BPWlM3dlVhZFZIYVRObzhzX0VDNlA4cGtSUGUtTzRIRElyT0RaM25Jck9YaVc3cEpwNHNPb0pJaDNxVk16SnZneHlpdm91ck5XYnNrMUFVcFJtcU93Z0Y0U3kxMDQzbXI3Y2pkR2gzNktMb3BqSm9VZEg3dzc?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Fri, 10 Jul 2026 12:57:39 GMT",
-          "fetched_at": "2026-07-12T19:16:00.149893",
-          "related_to": "Jio",
-          "relevance": "competitor"
+          "title": "Gopal Vittal's pay rises to Rs21.73 crore; new Airtel India CEO Shashwat Sharma earns Rs1.88 crore",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeXNmSmw5S0FSTWlUQ2dSbThZZHg2amdaODk1NzE3Mk56Skt1OTZrSlNvSGVxVllITjh1TGJJSDduc2VEVlNlNklLN0RFZGdXa0tWdHZJRzYzekRkQUZxMlllZmMtV0dVRmZTYnlQbVlPSlZPNzRLbzRlYi1fcl9MRXVnQjlsNUtsdGtPVllwTDBScTUtVVNOSUNNcEVNUHh4QjFsYXVqU2t6bGdBY0hQTFdERDFNSnpxLTZ6bnh4Zk1SQU0ydUp6R0hvLUl4YXhMa002WlVkRnQxNTJBOXpXdE5ueEJWblpP0gHoAUFVX3lxTE55c2ZKbDlLQVJNaVRDZ1JtOFlkeDZqZ1o4OTU3MTcyTnpKS3U5NmtKU29IZXFWWUhOOHVMYklIN25zZURWU2U2SUs3REVkZ1drS1Z0dklHNjN6RGRBRnEyWWVmYy1XR1VGZlNieVBtWU9KVk83NEtvNGViLV9yX0xFdWdCOWw1S2x0a09WWXBMMFJxNS1VU05JQ01wRU1QeHhCMWxhdWpTa3psZ0FjSFBMV0REMU1KenEtNnpueHhmTVJBTTJ1SnpHSG8tSXhheExrTTZaVWRGdDE1MkE5eld0Tm54QlZuWk8?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Mon, 13 Jul 2026 02:17:26 GMT",
+          "fetched_at": "2026-07-13T03:34:59.459345"
         },
         {
-          "title": "Masterstroke by Mukesh Ambani as Jio announces prepaid plan with 90-day validity, 200GB data, unlimited calls and…, check price, benefits and more",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOMHZRTno1S0lqem1TR0xBMFFFMVRuMU52YlFlNHl3aFBRbWlTelVrWldMTWJQWnlhMGVuWkI5a1VCNDdZZXR1cVptcWtIOFhzR0ZYMngzdDJpTzBnekJwYXZabzM0RFpyN1hYRHl3dXI3Z0UyajI1WW85WHN2QnA2TEM4SVFZVjlmSzlTeDJpTGZyWENQeDBVZXJ5ZFpCMGJpeXBoemhjbktodXBjbDF2em02cE5pWHBtWmk3SnAyeEJNS1d3a2tiMl96aGF5ajhjVm1qSkgxSk5hYWRNYlhuQ2NsMXRoRks3WVNXLXRWSG9OdjdnWWhleEhMelB3b3IyaUxGNnY5TQ?oc=5",
-          "source": "news24online.com",
-          "publishedAt": "Sun, 12 Jul 2026 04:03:04 GMT",
-          "fetched_at": "2026-07-12T19:16:00.149901",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Q1 results 2026: HCL Tech, Wipro to Jio Financial among companies to declare Q1 results next week; check full list here",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNejhicVR1NzRVTFJjbnVma2pfZlhUdE5yVzFtR05YbHhNMXV3VGNzYXYzdlNLRHhMSWIwRUFtM1lWRTNLSmdqMllfUk9iZEZMRExwdHVrNk16NlVNbl82WFk1Z0RiWDJOVGNTRXQyZW9yc0hTTV9ieWhxUVJ1WjJxRGtpX3J6b0tHM1ZMTk16MnpUVVExR3p6ZHhUSVlESkdQTmRWbzdianFqTFpuMGhTT1FqNkEtajJNTEFhWWpjdUlfUDdDVnBiblo3QUZzaGE0cVNXZ1BJRXFvSFlnQl85OEJhSV84WFI5alN3NmlpRVU0VjIyX1Z2TS1zZTBzVHo5MVFiSkpmR3Jpb0Vvc19PT08wLTnSAZoCQVVfeXFMTjNQUzlOcmhBaXl2NlIyY184dXIzSUhQdlNocTNIU3pXYW5DeDVaejBHQ0h1aGhEUFJCV0JMUGNQU2pJTDZCMzk4X1p5a0s1WVhFUnYtdGZKczgxby1CdnlBUUxMYnEzSWhGMXdQUnRPNjR2cUh1ZlA0cU9NdW45Rkc5VnI0X3BBMlhOZXJpNWdpNEEwc19HUTJ1cWsydU5yNXR2bkpvQ1cwYjlKTzFLa3lBTW5IdzJUWDVhZk9Jb196Tnp2RE9PUE1jbjhpVUxlcWVJMm5xRENBUEs4WGM0SlBFV0hXUXBXb05penNLWkhXcHZxVnYtTjRndTM1ZG9qWFB0RWVvdEhDMkVtSFRhdzJ4N1hCeWxlSVN3?oc=5",
+          "title": "'Tariff repair remains important': Airtel VC says as Sunil Mittal charts next big bets — financial services, data centre",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxORzFUdHkzUXhfb1pBMXRsUFFwYy1iZHRBUkF3eGhoWFFtNkU0aDBMdnNzSnIzSDg3TjFhSHRScTFsLUozRDBFczNtTk9EZ3lHWlM3cm1NdE4zdmVfUDlobWVLMTh6SlVtaTBwNTJ1MThFc3dRSmJXQ1Joc3FFWTd2ckM3TGV6TTJyb0JKMDVCWkdNVWllWGp1TE9jX3dyTHBJUmYybWFJQTlrSEtCaWIwTmpMamtmZXZMd0wzMVBVRUJ5Tmw0Yy1qNm52d0l3aXAzVHQxUGtXY0dfTm5Mb0ZsdFdnRGlsMWpzRGdYOU13aWhyYnRDb05UTVU1SDZ6dVlhU0xlRNIBigJBVV95cUxNRmxCQ2hrUjgtUzlVUnFJbTNTUnhTR3VXZHlhZk84emFyeFZKS19YSlNoM24wRGFYNGR5U0ZRVWxKak5KZ1BWcVVGb1hfbUc0NFVtRHU4Yi1Gc2F6UGpDeEVCVkR0QzR1QU9HLWt3R2hpNTQzREczQjhoa0Vta3dFN3BkMXVHRmxVLS1kazNOa19JZzF5NGFIV21jVFluWEI0X0xHZWpSV0QtQ05Dd2V3OHAxbUQ1c3dJR2JReWFlYXRkcG1LV1YwVGt2Sk9NLTlRUTFSNW5NSWpLT2ZkZkxHSFF1dW1jancwY1QwbkN0aE9qU2pZZ19wejgtTzZYSmtIWlczbjdlOUFTUQ?oc=5",
           "source": "livemint.com",
-          "publishedAt": "Sun, 12 Jul 2026 06:10:12 GMT",
-          "fetched_at": "2026-07-12T19:16:00.149907",
-          "related_to": "Jio",
-          "relevance": "competitor"
+          "publishedAt": "Sun, 12 Jul 2026 12:03:04 GMT",
+          "fetched_at": "2026-07-13T03:34:59.459352"
+        },
+        {
+          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
+          "source": "EY",
+          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
+          "fetched_at": "2026-07-13T03:34:59.459356"
         }
       ],
-      "esg_highlights": [],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-12T19:17:49.081721",
+      "last_updated": "2026-07-13T03:36:14.643622",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -650,7 +671,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-12T19:19:14.010709",
+      "last_updated": "2026-07-13T03:37:26.375993",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -734,7 +755,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-12T19:20:44.094413",
+      "last_updated": "2026-07-13T03:38:35.006340",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -818,7 +839,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-12T19:21:14.141276",
+      "last_updated": "2026-07-13T03:38:52.831072",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
