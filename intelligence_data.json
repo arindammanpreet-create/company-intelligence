@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-13T14:55:08.417563",
+    "generated_at": "2026-07-13T19:42:40.964983",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-13T14:45:49.976552",
+      "last_updated": "2026-07-13T19:35:43.281703",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-13T14:47:11.304026",
+      "last_updated": "2026-07-13T19:36:53.426674",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-13T14:48:03.294358",
+      "last_updated": "2026-07-13T19:37:51.501154",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-13T14:49:26.952564",
+      "last_updated": "2026-07-13T19:37:58.066503",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-13T14:50:41.688604",
+      "last_updated": "2026-07-13T19:38:32.648268",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-13T14:51:38.232350",
+      "last_updated": "2026-07-13T19:39:37.153034",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,20 +518,91 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-13T14:53:07.913496",
+      "last_updated": "2026-07-13T19:40:59.150576",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "'Just a shame': RCB star reveals Virat Kohli was secretly photographed during private meet",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPWlltM3puX2xOYXN4eTM1MXYwQXZzZFZOMHBXdlRRRkpHME1EYldtQ1hBZkhBMW5RTGpaSHljQlBna1pGQWVaTF9MV3RsNGhSUVdHbXlZN21Bdk5yZnFlYmJ6MmlVZDJOUnVOR1hWQk1ablZYV0tqUXNWMHd2RldBcjJVeWpHV1l3SklFQk1MSjhKSWZCOGEwVTdyN2xGc3VXWGdfMG52czVRUFlXYnFjeUIzOEFScHBRUWtkb0tlS3Y1b3AyMDdHbG9YQmlZR2l0VWthNGdDTm9sSm9JbzlSSTN5UEVnMHlua1BFMDVSYjFoZDRHU2JHZUZuY19kQklnUU5hc3ltdF9iX1lMMjR2bUJla0_SAZoCQVVfeXFMUGdyZ2VfSk81Z0RlVGJnZzlmMWg0c01CaDMtcDV4OFBaY1dYWXdBZGFEbXlqcXFicFAtVWJRRjRHazVERkxBM1MyS1FweDdpYVpWaW1Ebks0U1Y3dTE4SjVHWlU1eXhpT0VDRWhUOTdNQ2UzUWJMYmYtal9ZWWplb0dBb080c2pVVkRpZ3ZqVkJFVC1ISkFjYkFCS1pNNG42SFdSNDRtbzcwMktGRzd4WGV3X0NaYzdlWkpuWnJFazNqQW5OTWhZZTVFYkQtdk9XZTlIQ3NTSDd0R2ZRNWlFcGhfYmxoVHpBZFRldm90bGlremVhTmlCc21nNnZXYkNpVTVTZi1zZGNnSldiX00xQ1QxQzJzX1BOM3l3?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Fri, 10 Jul 2026 13:34:00 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703825"
+        },
+        {
+          "title": "Virat Kohli's RCB teammate reveals chilling account of India star being secretly filmed in UK",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRTRKc01lSWJKVVBTTUtyN2hPak9YNVJVZjhnNTR4NVNEaW5NQ1dhTmp0ODQxaE95UWFFZmQ0RGpMVUFPWUJ6eUJxQ3JCRWg3enRjMXFQRTBaeTBPY1gzaGh1bnQwNGVlYXl5ejVlTnhsYTN4ZVYzdmRBaDBEMVhmVlFCeFloYnA4MjdwaEtuVEoyTnl0ZHpFcE1YWnZCb0ZXc2VFRWRPM18ydWV0ck1XbVVfQmlUU01aQVdWOTlwdHNLVFlyM25mY1dscm54RDNKRnV5ZW5PR1ZiNlhNQWfSAeMBQVVfeXFMTm9zNE5fR0J1NTlBTVVySGtkamxRSU5MclZxSHNsTnhPRFV4M2JXSU15SF9qV3NSeUFjSnl5Qm53TExONmlSbWRLUFBJdEFHZW5JX3NFZnpTSE42RzFOOHFQakVlcUxDYmtDTFRucEdkWDBCVUU3bjVGZ2locHdIcnRFVmRJcUEzSTNWb2U3ck1Wcy1NQVhyUHVJUTNMLWZsejlRRWdoVi1zMkxiLWFKUEliNW5TWF9ZelRjbWYxb3pFVFNBcVAtVHBlRXp1ZzdWQVZmZ1R4eHUwQ1E2czBuTU5fdkU?oc=5",
+          "source": "Firstpost",
+          "publishedAt": "Sat, 11 Jul 2026 10:24:07 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703838"
+        },
+        {
+          "title": "Thus far and then a little further - Kohli chases his dream and catches up with it",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTUNEMHZEcUxFRFlSSm1mZkpXZUxQV3RmcTdIdTNzaEJYV2g3OVVIOElEVEFzQVVBR0pGV2o2R1loelBnRzJJS3AyMVM2Qm5pQUFGU2RnNThxdTRob0tjdHd1eW1INkZ3Nm0yX3FIVzIwR2JUTGQyUFNSOVdJNkk0S25nc1Fwc05VRHlnSjB2d1l5M2FNckdvQVZadV9LTGFu0gGyAUFVX3lxTE8tbDBDTjlYcnZldEgzcGNLQ3RIS2hHMVRwZE84YmtCb1cycS0yaE1RQU50MGdqOEUzT1Y5V1FjbFJXMTdfQ1NRMUROUnp5bTNWOXZpMFpBejJMQktWNHp2cmxGeFNaX28zVExsWGNxYXh2amkwdnZaUDJndzhHdU9hSnFCQ3BZOWNpYk92YnBoUWFKTUQ3UF9xT2FNY3NHcDdBR3RGTVR1dlVNeXJSZlNsY1E?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703843"
+        },
+        {
+          "title": "'People want a piece of him': Virat Kohli's RCB teammate shares surprising details behind viral UK photos",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSnRTSEJyTk1xeVl4bms5UnM4WjNjbTRGYWE0eklfa3RXRXRRYzJjX1JfNWg3ZEs0WkZOZDRjWjY1ZTlUTzdZUEtMaGx5ZFJDTTZORkFRM2hCUDNCSUlDQl95MWRwcDFFUHBodkdIT20zQ1FDOXhralhOSjJTQUtKRU8yNjNLbXE0ZFZzVEx3eTJOcEJxTWlWQnNYTzlPSnNmOGRUSi02d1dEY1E0T2ZoeF9sOHBzeDI4Q3NUMmVHeVpGTTVoOUo0bWRWck5QLVN1ZWMxNkVUZWt3Qmo3R3l1VHd4c28tdUJ1Tl9iWVhlbGxWZUZweE04OEplU0HSAYICQVVfeXFMTzRCaFd4M3pDZ2FGd1ZrSW5FYlpQa2tBbHBBekI4MDlIMnZIZFNpNlFYR3VuNUJqbEV3M0QtZFJzYXZxcGR6QlJ5eWtscUZ2eGFUVU96QzZ1cDJlcmF2T3ZvWUVxZVNYbFhkZE9tOFBCMnk2R3hIQTlEck10UXR2UU5lVVBOeFo1TGxkbGt6bzlvRWJ2VHFFbzZkVV9LTjVnZ2ljUzhLdmtZUkM1TE1DMmc5QVF6TWNxQkVhTjhPZFhGeVNiTXZmQXhoSF9RdnV5ZmRyQ2Q2aG5mWkpld3pDV1lWRXNrV2x3SE1KUWdYMC1yNUZlRnFBZFBSdTYyMmh6eEl3?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Sat, 11 Jul 2026 05:49:05 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703847"
+        },
+        {
+          "title": "Catch him while you can: Virat Kohli brings stardust to ODI series",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1IwVVdET0EzbkFWN0dyd0Fiejd5SkdkeWFBZHFTTE5qYWxUZnRZaGZ1ZDJWX1h5MklKdTkzZk9fcFQ3aG9TSHJHN01lcE84aGNYVF8xUTlXNHo1QmJBejduSk5KYUtUOTlmbVZvWXpBYkFOeG1aRDhWMm1JOEd1c3BFYzJCRXBTdjNkMGFYWVZabWlFZDJv?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Fri, 10 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703851"
+        },
+        {
+          "title": "Virat Kohli secretly photographed in UK, RCB teammate reveals never-heard-before details: ‘I was like what the hell’ | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPc2lMWFNGZm9vVG5EOG5paTNQbV9UNWRpT0xLMDJIZjltSU5iZEhtV1ZOYXZVLXpNaHNjQ0tEdnVhMS1OTkFMWmkyR0pJWDVkUGNrdk5tNEdyLWNlZ3lEWWFqZzVQVVhvTmhqdi1VSWlRX2hSNTFUaUwyOHZUMlNRWGlYQmxfZWgyMW5lTXY4eGdOZjZsRzNhNkhsRlNJYXhNX3pOWWZOOWpISW9NUzdnRlFaTmtNNENRX0F4Ymwyb21EREprejhNd21BS3ZHS2tQREttdFFDNU83QjdiaDFpaHI3N1Y2dzJwd2NTYW9ZZ2xBa2xyZHhlUlp4a3pCXzZvOFHSAYcCQVVfeXFMTi1vdzdJcFd5VGdlc0xYZjh1QU1LS3dwVUxaTmxZb09xXzBOUEwzWTRZOVBvV3p1Z2lWa2dud3BwX29BV1N0ZEZxTldmM2RDUmEzNDNHUlJ3alN4eGUyTGdDWU5US05zNERlNnh6UU1GMlB2LWNkUGotX3dGZ19QMlJMcS13LUkxNkRWcjNtOFlnSjFaZms5N0JMNlZBcklyUjR3c3FKeHlJVUxHMGFzbG5Dc1BJTHJ4YmJlOERQdzdmZTFxVXgtUlhwZXlMcmpseVE4RlpJOW1tcURTVi1WY0FCaUpGX1pWb2lhWHYzRmJIdk1obWE5akpRSE91aDVTNlctOFB6MkU?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Sat, 11 Jul 2026 03:02:42 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703859"
+        },
+        {
+          "title": "“The most complete player” – Phil Salt heaps the ultimate praise on Virat Kohli",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZUlVRVZfaDF3RTF5R3JIQk5Vc3lzNEJ2R1lORnFJcG9jSV9adEQxMXlSRzRfRXZ1R1NxYjRfQUFITGs4MVFLdU50ckdvSkdmNDRwX2JucHEyVWpIQWxROTFzMWtkSE9LdTFwWXhQRllkb3dwMEJhemNxai1wc0RMNVZSQ29ISmpEZ0xSaWVyTXVXWjNYMUlMR2EtdGNJWF9zbDVTWmp5NjBWdTVPUzhhQWowQQ?oc=5",
+          "source": "Royal Challengers Bengaluru Official Website",
+          "publishedAt": "Mon, 06 Jul 2026 16:30:21 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703863"
+        },
+        {
+          "title": "Virat Kohli 'Secretly Filmed' In UK, RCB Teammate Shares Harrowing Details",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNS0QxVG9CRG91OFdtS1Mydmg0NzEyUEtyZWRaWUxvcGdiWVhyS3NXQ3NaU1lBcEJjMjRSaXphaW82bFRLOGNUOUcteGJlZmhidDRhaGJ3cHBmbmhBYWFwVE94MXRwRTNMdTN4MnZGMGJUVDNDc1JXQW5LdVFvdEVuZTJ1M0psYkJ1QXNMaEYwRzJrV3N1SnhJenZsQWU5bnJsZ1doRFBZT29JeTNsX3ZfNE5xRnFlLWFoY29pdEYxVDdOZ3hh?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Sat, 11 Jul 2026 05:03:27 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703868"
+        },
+        {
+          "title": "Virat Kohli wanted to stay under the Radar, but THIS happened; RCB teammate reveals all",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPU2ZHc25tdEx6YTd4Z3pxcHZCU1I0a3BfekJPWVNUX0dPSFpMVEY0WUJVdDRxWnVOY1U1RmhoSWlYdWVvQ1RMQ3Y5YVVzdkVIZ1ZpQ2lLMzkwV0FLR2xBczhsRGVUMlE5QkxtazVhLWkyR3ZCVzA5ZVoxaUNETDhUT09UZHZHTC1kRGV3dDRndldkSENhaGs2YVgtbEhzc2V3UWxxeHV6dU9pMlJDS2pscUk1SGVWQWZnc0p3QWg3MjhNcDVBYldZclln0gHPAUFVX3lxTE9mVlNvRDk0WkNDZXJRekptdnNDeW03UzNsWV96QTV6LWN2aTZmQXVBYmcxODdXLTVhWlFJTTdNdDZrZXJhM3ctSkZEbGF2RUsyMXJhaEhzRlU2V3FHRlRPZ1pwV1FvaU14NGpKTW1LcTlVTl95QWp5QjNnSEl6dGVtcHRxZG1YaTBZZ2R5S0VONkZTWWhSRGxyZVNrTUhZZExKdE9Ma2dtM1ktRGQ1bTA4WlRTMFdBMHlZZ09wSFktdE9XbUNid1VPVnhjLTl0SQ?oc=5",
+          "source": "Cricket Country",
+          "publishedAt": "Sat, 11 Jul 2026 12:10:00 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703872"
+        },
+        {
+          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:39:51.703876"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Royal Challengers Bengaluru: Strategic Market Intelligence & Early Warning System",
@@ -594,7 +665,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Qualifier 1 | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOXzA1RzlpQmFQdUs3VklCZ3NNN0o3MER0UWx4emRScTF5Wm1FVU1LMW9waUlCNGt5QTk2M0dmV1BZV2o0dWVaQUEtOFVmNzMyUmpWTTBOMU1qbkpiYm5QemFvUktnNzRFR3Q3ZUQ4R3ZhMjBfME5mUU91em1abGRzd2M0RWZ3NWVFSkFGcm9pS3JwUjd5VUl4RUNuSlVXUUc0Tnc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Mon, 13 Jul 2026 18:25:44 GMT",
+          "fetched_at": "2026-07-13T19:40:20.941697",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'I would be very surprised': Dinesh Karthik doubts Andy Flower will leave RCB for England Test coaching r",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNdzItdmVRNzdKRFY2OVFrSVRLeHliT3FSVFY5ZTk5N3R6eUtYZG0td1F0UlAwTXpnclFreGJlRmRMRUFmeVdEOVFzZEkwZDZKbk5Va0JROExHdWliNEZPSFY5RHhPaTVmcHRPLWhadHBGdlJuUWZkVW1SVUNwWWI1c1liX0g3bmdYeEk1TGx6U0FvZnNtOUthZHA3dUxUcFB0bTN3QVJ4eVU2VV9GandnVnJldl9DNDJmR1NYWThkWEpnallKYUk1Y1VXSU9ScFJoTjhjampCRFVNZjlXX3RvZVptMHVvaWlhdzNEWmJzZkJQWkdxLURhRmpGM05NSFg4QlR3TmF5Yi1wSk5CckpZb1NqazRyd9IBmwJBVV95cUxNR2JFOVdlSEpXTjB0eDJ0TE5tY0pnaGtCWGxPRVZUNWhONXF4OU1QdHFQbml1aVpGRnJ0SlJycExMNkRuTm9Rc0ZfUG9UVWlpVkNVU201NXhhRU53QmVrMmhXb3hMeEhqLUwyclpqa0xjMkxkQjRrcWk3MVdLY2lJLVBpLVFLclotd3lJRDZVZTJQWHh5TEtmV2t4YVJqR21KZ3QzQk5nNXROa2ZLNmhoc3VVTW50a0h5ZUFuel9aTUZ0dVdBNHlLOHJlVHBhdzlrMDN2cWI2dk0xSi14R1hjLWg4c2dmY0tqLUI4NzJfeTZhWExkVTlBQXNQVnVwV0FXRXFWXzF5QlVxczV2QXIxZzh2LWtLM1lrN2VF?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 13 Jul 2026 16:12:00 GMT",
+          "fetched_at": "2026-07-13T19:40:20.941708",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB coach Andy Flower will not leave IPL to join England Test team: Dinesh Karthik",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSjZSbm5BVnNkOVF3d1RNOHVtSUE4cVpKWXJmTnlGdW92RWk4V2Nxd0JERXVhWmZ1R3NtTzlLY1c5V1dLYUJQcjcwc3p1MnhwLUtaUFFBTmtpSFZCZ1RMLUJhdWJtWTR1LTJ0dXJURXFvVkFsZHh4ZERXcDdiYnFZYTloZ0J6ZW1NWlloRG95N0xFV0VES2JOeTRBVUtBM1VRMzRGLWFNOWpxTThHb0HSAbMBQVVfeXFMUDdjLUhaaVNSUEVHclVXb0tlMmRWcGVrcE5yLUYwZ2RSUXIwOXF3OGs0ejJHZE1UQzRVOWpENkFWYURSQUI0S2k4dVpyUmJfVkl0bHdwV1EzaDd5dEE0bHRKWE9KNWtkZGdUOXd3YXNrSUVMSy1pZndIckZ5NHFvS2EyWnlKWTNSR3FBc1BHUGtNVE1tcjZpM1haZ2ZvQ0pPTy1qa0Y5MHh6dnZPd3E5ajhrVk0?oc=5",
+          "source": "India Today",
+          "publishedAt": "Mon, 13 Jul 2026 16:15:18 GMT",
+          "fetched_at": "2026-07-13T19:40:20.941712",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT Highlights, IPL 2026 Final: Virat Kohli Takes RCB To Title No. 2, Achieves Huge Record; Shubman Gill's GT Runners-Up",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeWJzTmcxRFFyNTdxUkdfeVY3RzBpYlZ4WDRKN2o2UmdkdURtZkRmRDFpS2R2THZuc1V5Y25iSGQ3YThqVTNRVnlhVDBJNG5sMXVtMTcyR19SdkdUXy1vU2JHcDZySnpuY2pod0x2VmdXV0w1U3I1NXpVc1c0WEVFS3VIMzdtbVc2MUFYZmQxbkdBR25ZTnlsMVR1RnNScjhJM2tEZW1kUW1NSmExdzNXbzNLbDhfd2NIclNJSHJzY1NLdF90QjYxS2lQVXdzMklLRnFBR3ZOTkJpS1JvZ05CU3ZPRXVqWnhDYk5zZm5HZzlmXzR2akxyVVMyT0xnM0M3dEN6XzNnYWFydHNNZmlCQllqRnlhQQ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:40:20.941717",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "England Going 'All-Out' To Scoop RCB Head Coach As Brendon McCullum's Replacement",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb3pQZUdRQ3RKQk5vU01SMjVFd2FzY19ZZGhsRGVRSlNZbjN0Z2lBWllSNE5pRGhEcjN6WDUzc0tweUVxeF9scmlsQjNLYnJ3ckNJNTh1T3hmVFo1c2h5TFpLeVdQUEVzZW0wWmhlMnBIWmUzdE1PSXNocGo1MVdJTE5ZUWJyZHcwaVVkNXJQN2Z4cDM4Q2JaNjlubVg3Mkt2UE1ocklaY1VpWFNlVTR6MG9zTTc5ZFRZMVhpTXM2Y2M2YTU30gHKAUFVX3lxTFBPc0F1X2l2WnlLYXJPUjFIaFNQT3dzUGs2dV9MbDhiWEw3Vkc5Yl9IV1NleFZOal8xM0hQX3hkNDd1SVNWbWV1LVZFOTNPUWh6eU5pVTZYajRmRHVTLUd3X1hLdlRHeWU3SjVQWTNOdkJJLW8zZHZHNzJ0azEwbE1acTZLcndpdmUxNFVSUnF6cHJXcUVfcnVQdnlmd2ZSVUtMYnJOWndSZHVZVWltNm9UYU9KeUVwY1JVcm9RZXJfTW9aYUdydGJPTlE?oc=5",
+          "source": "News18",
+          "publishedAt": "Sun, 12 Jul 2026 14:33:13 GMT",
+          "fetched_at": "2026-07-13T19:40:20.941720",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,7 +719,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-13T14:54:45.410467",
+      "last_updated": "2026-07-13T19:42:18.072469",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,21 +803,114 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-13T14:55:08.417547",
+      "last_updated": "2026-07-13T19:42:40.964969",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "[8-K] BNB PLUS CORP. Reports Material Event",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRWlDUWlfbEZFTWNER0psczdSYnhhWDJSUVJyQXZWRElKX0U1UTlYZEJ0aVdnUk1JRTRHS1dmR0tGSURXOHdMNHdjaXJLNms4YmFKc3BPNTZiM0o3M1lramhVc2dObjZoUUh0ZmpHZHRjRHBJWEJGdFhzTFNaTVRKNjgwQl84c1l0MkprbDEyb2o5UUNkZjJYTE54LTJ4d19YVlVuYQ?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Mon, 13 Jul 2026 12:06:08 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948010"
+        },
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948024"
+        },
+        {
+          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948029"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948038"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948042"
+        },
+        {
+          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948046"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948052"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "WVUA 23",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948056"
+        },
+        {
+          "title": "Premium Quality Matting Material Trunk Mat for Jetour X70 Plus 2025-2026 (Washable) | Perfect Fit",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUDlKVWJvYnAtci1wc3ZGNTlYd2VhTGdiTVY5Wnk3Z0lLR0VBSFRKeFlJcXlLT2pRc0lKcTRWRVk4SzdRWG5mQzF4LVdPXzR4aUgzb3YzUG0yblQ1UXZTbmVuVV9lVWRyOXdwbTQwMzVoUlM4WHFERkNUMlREZXRVaW9vcm5NUjdTUzBieER5dXBXUXFtNTBGMVdhdk1jbG5CdnB0QXNDdXIybGxRRXZrY0ZWbDEtWWNXOW9VeHpQTnFPallBbk1iVkQ4X0pyalUxWHg5WDU5M3dfVURUOWl1VUxSM1k0SzQ?oc=5",
+          "source": "Pakwheels",
+          "publishedAt": "Wed, 01 Apr 2026 09:48:28 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948059"
+        },
+        {
+          "title": "BNB Plus Corp. (NASDAQ: BNBX) amends registration rights timing for investors",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNWdQdTAzVkFYdmZTX1l1dE11M05aNUNxMExUcS0wWUpQNjAtZVB5X2M0QkZMT3hMX0NBM0Q3V2YxY0Q3Z09JcXRKbGREbjdVc0k2VDY5TE9wUEN3T2pseENiRFBCUnV0MU5faEhLZ2pOc2dldDhFN0t0b2lvZ3VDd2w1STVvSEhGTmdiMXNmWkVvdUhraGtwTE1EVVJTS3MzeFNESg?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 02 Jul 2026 20:11:21 GMT",
+          "fetched_at": "2026-07-13T19:42:25.948063"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "[8-K] BNB PLUS CORP. Reports Material Event  we+ explores craft and digital fabrication through material intelligence  [8-K] GPO Plus, Inc. Reports Ma...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -737,26 +947,6 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
