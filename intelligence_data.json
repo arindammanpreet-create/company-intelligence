@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-14T14:06:11.825920",
+    "generated_at": "2026-07-14T19:35:23.810849",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-14T13:56:49.524386",
+      "last_updated": "2026-07-14T19:27:26.382996",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-14T13:58:02.303190",
+      "last_updated": "2026-07-14T19:28:25.004765",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,21 +182,136 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-14T13:59:09.755121",
+      "last_updated": "2026-07-14T19:29:32.922613",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 2,
+        "neg": 1
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Infosys stays silent on CEO succession at AGM",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZU9xbDE3cnJRU3NDY0tZNmVpRnR0RG4tSlpJUlAyelI5Ung3WWdmZFRVVGRLdGVrMzljZExXZlYwLW1ocUxzZ1BIRGQ2dnBZY050WV9LZXdPb1dBdlpqZlB0ckVlU0pFbDNOVU9XMmNkU045bXduZUVSOGJQMjhQMkh6b2tNRW9ndmVRbVQ1MUllUFdBSmdlZ3NlWkFoNEJsV2tOaUdlaWcyOXNxd2VGR2NvRjhvMERkVUF4ak5FWmtmSUnSAcgBQVVfeXFMTlQ4LXVaOUJwUVFvckZLazcyQ29GNnpFQlY3UlNjQXVfTW5DcjRucU9jSTllNXNvcWRpdGtiUnl1M1lNbzZyX05iWmNjYXlBcnVXdVlvN2FBWWFtbE54Y2Mzekt3YU1ER2RCZzdCV2hRbjJ1UzFhRC0tTlpyWkdhM0FCa1FfMmJrbnRPaDUyWlFnYkhKSTN6MnJvZDRvT2hsVWRZTWk0XzRKV3E0QmtFa2RVM0hxck43cU1kQ2diNXFrX1hvQVBINTc?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647640"
+        },
+        {
+          "title": "Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaUxkNUdzTGR2ZWZiN1dOV3h4STJEV3FwMHMxaGJKdURvM0x0aUxaVnhxcFJuVkRxQUU2Z3RmdHhPNE16OTctT01WZ3FxSEhqbllfN1JOVVRPMEs4TVAya2hkVVVQTVZhdVJRZkY2bFhVdDVVazdVcHVKZXo0Tm1DU3hVYURwV054S0I4MTk3ZEh4MndadWx5VjN4WkhnbmhxcXlBMWh2SXp5cmx0MURheUFVelZkY2Z2SnVHVzY3SFZLSFd1SnR0TWhQV2lYMlpWM0JuVXdTLTFkdHF6YXREX2tYNkwtUTRl0gHuAUFVX3lxTE9WTHRzc0lQLUIwdGRMRGlQMlRrbUgyWEx3ZVZDVnZUMkEwQk9yLWtMMFlJUkExWDMtVDJrSVRLV2ptY1BtYVNDQl9odWg4UkR2cWpTZ2xGeUpXbk1VTTd0THh6cjYzQlByWVo1YzRVMVBiVkZiUDkwRmpiVkx0dDdiVjlOaG1lN0g1Y2xoclNNN1h1T3BRM3B1QkNxWWFGcWszbmZqS3BTZE5GZk5fQS05dGpGbFVicEMwbHpLYTRtLUV3WUFzZmN4bXl2V1JFNjIxcHpJRlNXUk91RzlIMGRNZjdsZWxYYVhOcExFTGc?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647658"
+        },
+        {
+          "title": "Unlocking AI Value: Salil Parekh on ROI, Jobs, Data, and Governance",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oWDVGNUVCeU14Y1I5dVcxOXJBb2xwVzYwdWdxWktNSjdzdmFiRFdYc2NNNWFpM1o2bmx1YmdwOW9EcmZPXy16ZFdPWHBEdkJjYTN1LVJBajVDbkJsZ0I1M205cWlTdGRRTVE?oc=5",
+          "source": "Infosys",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647663"
+        },
+        {
+          "title": "Infosys (INFY) AGM 2025 Summary",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zR0hMcDZxQk1pejctVWVjakMxekVUWmJzZ1o0NXpYb0dyMzhKVzMtVkVYZkpKa2E3REs4MGxzZXFTS0JFclc1UUVKT3VsWnNSc3RLaTVVMHNWVExuQi1iczRUXzZuN2Q5akRzZER4SUFsZw?oc=5",
+          "source": "Quartr",
+          "publishedAt": "Thu, 09 Jul 2026 23:06:47 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647666"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh on AI tools replacing engineers: It is not that overnight everything is going to",
+          "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQX0dkNTFfZ0hteHBsQVhMbDBqSUh4V3RYbjRMZ21Xa3NTa0pOWEFmUVBQOTFhdHUybnp5MmlsMWlCcUpDNXVhVVMyTFFGdkxIbEVGRG94NEJoQl9fSUVCODhnenMta01Fc1BWa2ZlUHVhSUdpMmNadm5hRHZ3S19kMkRNbzNrYnpDVThJbmdOQllFMWNYMjNqNkJGTFlNc1l6THQxeDM3a3lSdzBleGpaVUcyY3FuZXVUc1kwYUktRjA4ZHExZVpPaGF4RDZ2ZC1VY19FcUlCZmo3YzFyR3hLY0paX0VoUEdHWWVrZzJIdmxVS1Q2VGlFd2xnTHRfX3k3VXdQcXg2R2kxNG9CVEE2RlhEWERoeGFsekhTcXlqSmhRU3RXaVllOXBmNzNXYlB5T0p4QlhjNUFDNFlYbGVpcjdCUHjSAcoCQVVfeXFMUElweEE4SGRrb1JSVkVsa2hqNWluWDdadm85X0JjOEhGNnVfZDFGUG0yN0VhNWJrQWFPTXpKVUpNelowV3ltZkFBVzRjbE5TTjk3TGFEX3R0REd3aVcxTTNNMFFndHJHSGNRVE9YZHFyVUxsaUhWdDdkcTJWMC1lU1VOV05rWjg0NWttZU1WOXhacmVkbjVuQjRDZ3JTbGZZdldLbXppTVZaSksyMWVKMlEwVkxUelhIVzkydklMZHk2XzlaTi16ck5nTS0waUxaeFd1S1lYQ3AxLXBQQVYyUGpaV3JfYTlWNjJPUE5jOEdhWDdITUdRZWE1ZGs5bzBFbjRrcjEzdV9mRzBHOGFMREtjS2w2eDF3cE9NakliOFBnR1IxcEpBUGxyeWpCWWRYVE5MYXgzdDhxWE9sb1BNb1VGd0RPbnZjZFBR?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sat, 21 Feb 2026 08:00:00 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647670"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh earns ₹82.6 crore in FY26",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcy1Pd0hMa0ZtS1FWSHlDRWwtdWF0NnY2VkZyOWZKSnh6bUZqMkg0YkZwLTNoYkF3ZVpwTENtd0pWck9UTFEzM3hyYkZHc1ZCWG5ROTYxbF9qQWZ4cG1DUDFNaU4xTkRGbkF0cktNcjRyN3htSlZRWW1KWE5iZWlfMXZOX21SLWROUmI0MlFXSVRhdmI4Y3BKMVpQNTkyVTU3a3JEeWlKVnRRbmlHZlJxb2lEdXBXLTlESlVWcNIBwwFBVV95cUxPcTVZRXF5aW5FREZXaVNqQUdLVFFOZlJuMUNUSUZCa0xhNExMQ25UeXB5akRCWWlVcjFWZUY3eFVRTG1jSUdrQU5LV00xeDgtck5vM2s4THYzMEdweVNhRTdQOXpFdFNDWFF2NzVLOUdkS01uX3YxdTA2SnY4dGlUWHMtOVllaV9EblNDVTdZMjlhTDY1eEY5M1puYXhMSzNjSmJsa0JPcnctY0J3T21oTlBaTko0dHhwWGl1RXFjLW9wZU0?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647674"
+        },
+        {
+          "title": "#MCTech3 | Infosys CEO Salil Parekh interview; Dreamteam in funding talks with Accel; and more",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSHFzRWlQa2hpU25TTENjc2d4LXdrbzlQOG9kOVpYYWJPb0VfNXdTdWtLTWc1UUlZREJaTVFsSjIzQndXOXFwUDhpbVB2RFZweVBPeDZwbE5SNnRVcXg3Y2t4RkZVVTUwdWo3MUpFZFkxamdIcHRLcVpEZVFfLWNYaHMtUVVlMXFTOTZjQk1kVmVUTlJkdXROY3hPbTBpQQ?oc=5",
+          "source": "LinkedIn",
+          "publishedAt": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647678"
+        },
+        {
+          "title": "Infosys CEO Salil Parekh’s FY26 pay rises 2.5 pc to Rs 82.6 crore",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOVEtNGlUUG9VUlBtYVJQOWZCOW1CNE9zcDRIcTJSN0NBVzhTM2p3LVUweVctQ1FSaXNQbnVlVjRjNTZrQkgyMUo1Wm1hNEktQWtnXzBrU0RINlF1LVhCMmE1bXhiRDM0c1FoRnZ4Y0ZPY2NDWFFIaXFRZnI0bFZxaUdkNGpwNENsY3A3WUdTUGZKNjRUelZxLVZldEgyZ3Y5bk4zODgyWHA3dERZZWdUVmdaZFNtazDSAcQBQVVfeXFMT2xtUUltTjJVSENENmU3ZENJSjBScnB2eXpVaGVNWm40TmkybTBSZnJNWFFXVjI2dE5sbzNRcDRGdVU3T2JsLXE0NW0xdmRLc21HQXlPU3psSDhmMENwNVpPMm5LTmdDN1d0X3dtTXBkUXFUN2JjZXFEVno2dDFRa2lrYnE4eHJmNUs4UURBVHNrZmlHNEFLcW13T3J0OWNlblAzOE9YYW1DaldJT1ZzVzFfeFhsNHUwZ21WcjhRV2UxTzdteg?oc=5",
+          "source": "The New Indian Express",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647683"
+        },
+        {
+          "title": "Infosys Clocks About Annualised $1 Billion of AI Services Revenue, Says CEO Salil Parekh",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPamdqY01sZHQwZm92Um9lTXBsU2E5WlZGNXZicWVBczZOTWdJVm9YWHdSdEQ1YXpPN0hxWDlZd0YtOW9tamphZmN6WkQ1S3N6cHNnYktFd0xUUk1NQnlObDUtSmdsWFU3U2lPLU12RUx1ZlhGcS1TN0xqZDhob3lVQ0ZMYllZZjMwOTRsZ1RYRjdyQlhJLTlTTExQdE9jWklhaXYzSW92ZG5zaUxQbzdlcA?oc=5",
+          "source": "HDFC Sky",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647687"
+        },
+        {
+          "title": "Infosys’ Salil Parekh vs TCS’ K Krithivasan: Which Indian tech CEO earned more in FY26? | Trending",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQlYtVVg1dTZfZU1kS2tGbTYzWXJoYlFvLXhUdFczM09UR0dqZ3VQQ2RENGxfZ3pPV0tQZWVtZ1Y0ZXdvSXR5dTdfa0RfMzJfTEJNbE5FLUktbERwOHNWbFFoSmc2c3p0azFfYjZZMThsSXhVWGQ4aGFoZlh6ZHctN3FVVGR5TWlvVjVwZXJtZWpyT2NJZHUzeVpLVjZxZWdMN2Q4RTRxYl9FNGFsenl4V1YzaEp3M1NxX0NvWUg2Nzd3UXNsUncxM0x2MWRMSG93SnR2aW5jY0NzMVJl0gHiAUFVX3lxTE9VSTQ4ZmVwM1A2bDBtY3B1OUYtYm8wbi1NbzlLa1plZktBTlgyZmR2YzNHTFZtUjIwNUpLVkxlVl9PSjJwOWZzNTJSRHlZaThKblk5OS1tcGFFcjZmZC1IS0dNU29KQWVwbm1SSV90R1RzdFdCNGU1Q1JJRVFreUQ2U1Bmd19ReFA1U25tWlZwSjhOYUdGR09teUVCMWdmVXZ5MHk1X0dNWGE0N2x4azYwbG50UWVZRmZJOHI4bXFhOVg1N1I1djUyRHF1cGl2aS1QVFJma3V0WnpWNkhZSEQ2VEE?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Tue, 02 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-14T19:28:40.647691"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Infosys",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Infosys: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "Infosys stays silent on CEO succession at AGM  Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made  Unlocking AI Value: S...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Infosys: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "ESG Compliance Gaps at Infosys",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Infosys: governance. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Infosys stays silent on CEO succession at AGM  Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made  Unlocking AI Value: S...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "governance"
+          ],
+          "solutions": [
+            {
+              "title": "Infosys: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -216,46 +331,6 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Infosys: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Infosys: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
@@ -266,18 +341,18 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-14T14:00:31.464549",
+      "last_updated": "2026-07-14T19:30:43.597041",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -342,7 +417,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Q1 Showdown: Analysts pick top bets as ICICI Bank, HDFC, Axis, Kotak, Yes Bank gear up for results this we",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNMFBRcnd1dkhrZVMwbnBtbDZHc2dscVFLNzJhbXBRb2pHeWp0YTNESXg5eUpfVUx5R2JpQ09tSExJc3ZSQ1JYUkVNZ0h4Vm5EZGlnY2hZWjdsbHhoVEVUQ2p6YVNhZnhpNkdFQ1JQTHVsWXdsQjIzSm5jSUY3SzI5T3dtaUFQZU9kYzVTSDFGRTdnSFAyVFZYSzNiSXBJR1VudGgxRU1kM0JocW9IWHJ1N2FOZk11dUhucFRkZUV6enVaZVZ3T0l1VjJqSzlVeE9CN0NiaVhrQ0hYLW11SWw2SGllYTdaLUVLRXdxT3ljb1dfWndTcHYzWEM2ek0xeXNkbHVMRXEzaFrSAY4CQVVfeXFMT3ZZSjBucS0wcVFZV19JQkI1QVdjNmJaejBFelA0eWllenEzNWF2WWZTRzNBckh3VmZ3VGdVdVl2WnlvU19BdnRiN0FOSjZ5WVVLNmtxaDVwbGozN2MwRzNTOWpFblRncHhHQnlXanYwTkUtWHpRN3NMSFVrRXhwSUd2WHo5RHhLZExVd1pZOVZUeFdGcnE5dnNxVFdaVEM0bkVKOEhGX19oSVU1bFF0YWZwVTZhTHlSa3ozUXFraWtrcHRLZkxSZ1FOQl9KX2RiLXh4TVFoT3YtcTRDempHMlJnd19mbVBvUWxucTNNeFJrcElUaW8wVGF1V3JXTExpX29JQmVEdjh3cUVQM2R3?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Tue, 14 Jul 2026 03:56:28 GMT",
+          "fetched_at": "2026-07-14T19:30:03.464076",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Morgan Stanley names HDFC, ICICI Bank among top picks; sees 42% upside for select financial stocks",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSEpDcUhxZTRUMGNtN3hMdTQ2R3RDNkpyUmlxeDZGdFhkaFlRcE9rU0RidmJXR3VWa09TTlh0NXlGMXo5RnlMdjJZb3R4cVZQTVdLclVrN19hUW01UDZmOGg1MmxjaUNubUFzbXk3ZmFtbFRGVndZSjNmeXRkWThLV1piSmtHYjJjaHlaQk1ZV05GbjFLcVFyaDQ1RHJ2Nm92Y0V1bjRFckdoX29vRWJ3aTFOMW9hX1ZkczFYVjFYREhPdHkwQ1ItVWNzNlBNSlZVeC04eUNnZ0NaOVVB0gHjAUFVX3lxTFA5Mm5qWFh4ck1telhIU3pDcDFBTnlURXRfVjFoM1NaamRtNlY3SHZPa0huMXBjVWk2dWhFdmpNQ3NacjJnSjN5WkNjbnJTaHV3WjFPQ05iT3A0cmVNOGpmWlFjd0EyNmlLLTNuUGRHaE9fS29BOXoyS1d6U2swekdoRkpBVXV1RENLTEcyUm5vWk5sSEtmZUVZM0dyNS14M0hYYzlnV1hHSy1Icjd5TVZxVkZRS2FCVzlWVlc1WWpHVFdTNHlOZ1RUZlU5TXQ0Rzdua21vNVNidksxMFNmSnhObEg0?oc=5",
+          "source": "financialexpress.com",
+          "publishedAt": "Tue, 14 Jul 2026 06:59:25 GMT",
+          "fetched_at": "2026-07-14T19:30:03.464092",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Why are HDFC Bank, ICICI Bank, Bajaj Finance and other banking & financial stocks falling today?",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT1hfaUlvNVRYbThDLVZ4di1mSTBzQW9GTTdzV0lmaXcxVHZzUm93YnlxUlpoMUJNTXBWUndZWDRGcUl4N0ZsdFdaVE9wMmE4NDBWLWp2eGM3MzI2Rk5wTmFHRFd4ZzU3YUtDVWU0Z3hqRkxaSG9wMU9lUndndWdXUnZLX0dHREVSRFB2RmMwRnlYZ2tFMXJLNWY2RnV1VHpfOXJmTUhSSTBmMjVhVXZaYThlOWJyQ3VVVkt4aEQyY1JzV1NLSDUySVRxX3ZLYUhKeUtqMw?oc=5",
+          "source": "Zee Business",
+          "publishedAt": "Tue, 14 Jul 2026 04:50:15 GMT",
+          "fetched_at": "2026-07-14T19:30:03.464098",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Q1 Results This Week: RIL, HDFC Bank, ICICI Bank, Axis Bank among 70 report earnings",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWVRaWkh2dTJ3RFZOOGtTX0Y3WDFWR2ZTLU9MSWppOWF1cDlRVnVZQ1pQcG02TzBNV09sSUdMclFUa2ZMbHRaWWFDenduTi1HbEF1TEZJaWREbGMzUjJ2dWNmSlptWS1CMVBMQ3dhS0JBU19PRTVJXzZEakFhbGRqYXhvRG9ucGNGWXRvdWx0b0dMMDdlUjlhb3pfaURDeGJRTzR5OWEzLXJ1SkJjSUhWVmdZR0FHQlR1OXlESHppaVJGZDdjaTVZQ1Qzc0kwQmJPODRYbnEtTDZ2ODDSAeABQVVfeXFMT2JwRnFMSFpjSmhYRF9iMzFxWFJtc3VDSWdoSjVfWmpidTFMQjZ2VXp0TDA3MlB3NDNZZmpyMHl4MTJfRXVSVUwxcnJlX2NQZkRmLTQwRXFldnpiWnlKd1kzbUdfX3o0Ql84YjNfM1RPWjZWX0hUdnAzalFMcWlVT2NFbEE4b2lNYm8tYzhBZWp1cDhTS044cGd3clhrZldmSjlQVnBwVk5hTWJUMndrSWFwdkxZbUwxR2J3TWNDYTFlaENzNG1HTXl0QXdzVW5idzN3V1MxcGozOUc2bWd5cXk?oc=5",
+          "source": "CNBC TV18",
+          "publishedAt": "Sun, 12 Jul 2026 04:42:21 GMT",
+          "fetched_at": "2026-07-14T19:30:03.464102",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HDFC Bank and ICICI Bank - SBI Mutual Fund: SBI, RIL, and Infosys among top 10 stock holdings in June",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNU19lbW5Od1J4dTBFOVp1YmM0Z1lpSGpaSmFkUkNYU0lhOG4wcW1OUUJ3MnptcnRZQjc1bklTeExheFV5M2lIRktFU2dLejFKSXhJbGZ6S2gtNHlJYXVSQ2daVlZFSklFZUI5QmFlODVNVEhXT3Uzb0dQTXRjQ2RIUVVmUnVqVjNyNTg2X3RHa20yeThoNHNfMnJqb2ZZWmFwQzhveEpkbll1UHZyLVFZUC1YWm9HcVpsbndFTEpjb0I5NUU2WEtOWjRvc0U4aTF3NG9va29Pc0lRUjg5RXFRMDA4RjRkSHdlNUs3b0ZZTzlxWXlNX0Z1Nl9QbjV4dw?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Tue, 14 Jul 2026 08:50:16 GMT",
+          "fetched_at": "2026-07-14T19:30:03.464106",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -350,17 +471,17 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-14T14:01:47.345358",
+      "last_updated": "2026-07-14T19:31:34.201835",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -426,7 +547,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Jio Platforms names Pankaj Pawar as new CEO, ahead of IPO",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbXduSXgxSXJqM3hVLXdTd1NRYXpMOUpsWlZlbWRGeHIzdjNGYXY0RGhNQ1YtTmxiQ1h5WDdGcmVVX2ZNSW5xR3VXNWlYOEs4SmNhbHo1VXMzX1Z5RWp6bnZJOFRYWXNVZnNQbkFIVm1fZl9PTXZVY3d1V0ZzVTFNbEt6Z3dhdEhLbEtGazBobTh1SFRKZi1fUzUxeGVDanJWNUVXUC1yR1FBcnpvYTVJTWJjb3FVMEtXZDBFeQ?oc=5",
+          "source": "Exchange4Media",
+          "publishedAt": "Tue, 14 Jul 2026 03:24:47 GMT",
+          "fetched_at": "2026-07-14T19:31:06.005707",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "How Many Wild Bean Coffees Can You Have While You Charge Your Tata Nexon EV At Jio-bp Pulse Charging Station?",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVkg0VVhnREppY0JVbFpZMUFkYV9nakRmSThVb2tsNWNOQ0EzWDNhOXhFVHppMTNZMXV1cXYwTHpDNEpIcWE1UFhJSUJqejRxaGZJYTJvcWk0OUl6dE9TXzBfWlAtUXowSWM4XzdFekRFTDd0YlVVTDJwWEJIM1NOY3puTmhldTc3VkZaQ2NjQmhXRjdMV25maDI1djlVMFNtanZTSFVRQW5FUmVmR2hBT0ZwVkl5TGFTcXd1R2xUWUdiTHNUSk5zc2pTbUhkY0owVS15OXk5a0Zlcy02VjBDNkJMZ054UFJNVzh6c3lB0gH2AUFVX3lxTE4ybkR5SEpadENfNmxvbXJwS3A0TUNfeWhROG9sSldzN0hQblZPSVBoMWJ4TGxZN0lWczFxQ2lpVmM5a2xMOTN0dXpLNGxxRGRFejhlS2JOVDk0YWFBdl9JZ1V3b2I4QkxLbFVDai1qVi0ydUl2REFrV19LMjRtM1Uyb1lMb0xUbk1IN2oyR29vaUFxZWd5blhGejQzYmtPeWtCRXZuZEkya0ppd0xBWVFlcU4yTW5xRUdINWVFQWVFelNvcTRjbXJQZkxhRlZldDlHQ3VVd2VVTUR5ZjFEd1FORFRkS0NzUzJFemhFVFJIaDBLbFI3UQ?oc=5",
+          "source": "CarDekho",
+          "publishedAt": "Tue, 14 Jul 2026 04:33:00 GMT",
+          "fetched_at": "2026-07-14T19:31:06.005722",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Upcoming Q1 results this week: HCL Tech, RIL, Jio Fin, Wipro, Kotak Mahindra Bank, ITC Hotels and more",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRzk1aEpvSkFWRjVZQ3VTRFRJRVFCcnNmX0VDX3VOeElNZHg2NGkyZmo1WUs1S1gyU3FBWTNmZ09XMFUtQ2VSRDE4Z24xa1dEQVFZbjNRUEtZblZybGNZU2ZQc2EtajZOVHRLakhaOXZTcDQteEFwdzRiRm5zWWRCX3BVQnYzVXRBdGZBTTN4bTQtMDFmUVlYVFp3b3VSQmhxcUpxa0NNSUZucjRKNHVBUnZsSVJYOUc5emZrQ3RzeHFGcmktNEI0d1dqYU1IZzB3c1RxY2ROZHREc0E0czFiUEsxdjQ3Y3F3aTctWmxn?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Sun, 12 Jul 2026 06:37:48 GMT",
+          "fetched_at": "2026-07-14T19:31:06.005727",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio post highest growth in Active Mobile Subscribers in Kerala",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQenRUWDk1dW9ROG54R2E2Ul9FMzFacVViaHJWcnNYbXhBVjBvWVd1cGpPVlFJOGo4Q3ROdi1lclhaM3VCSnRCTk8xa2JkNl9NSlBtYkVzVjhLUi1KWFFwc3NsVVVEUTdTM3FGblM2VXVzdURyRVd2bkR6N0w5akZjSi1CbjN6X1JuSC1DRWxBcllKUGhLWWNwazdNRzE3X2dWSUlTX0M3cEZxYWFXVXV6dzlZeFZadXY1NTZ1djZrYktTZElOTjlYaNIBzwFBVV95cUxPVFFBYnFtV3JWbGJxVTB6Q0YzTUwxa01UcEJjSmpjYXlJazc1TTQzRUhabk1fajBUbFNDbzRrYjNtR1R4TUJSb0JLb3d0WnZYLVZWYVlNdnZyMThIMjJKSzJsTDc3Mk9JUU1za3V2cFVSeUlMU2xpd0VORE42RUxkaGpLSHBtdWg4Q1BKWEZtMUZRa2x1a2RwbFpNRnU0dU5iMXNXWEZ0eEkxTnA3cnpaUW1LWXlaNlctU3U4YU1lSzk2NWVUT0c5TFNCOFJ6ODA?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Tue, 14 Jul 2026 06:57:50 GMT",
+          "fetched_at": "2026-07-14T19:31:06.005730",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio Plays the Scale Game Better than Airtel",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdWJ5cS16WG5xcWJrcFd0MDlmR3lfeF9DekNUSUlDTHJZZ3o2NmJHUnktNTVqXzhBaXNlS2dDQUNaZy1fWEVqaGJfZ18zNFI5Qy1NbWo2bEZuT2JtcnRaUWN6QTNFNXlqRFhidGpCYjcydGJtYmpYU1RoUWVBajVXWXJXVFlkSk5Md0FEb09EZXBvYTZSS3lkTThtNWprTGdiaXBOUA?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Tue, 14 Jul 2026 06:59:27 GMT",
+          "fetched_at": "2026-07-14T19:31:06.005733",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -434,17 +601,17 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-14T14:02:47.923150",
+      "last_updated": "2026-07-14T19:32:47.365573",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -510,7 +677,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Will Andy Flower leave RCB for England's Test coach role?",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbnoyWEkzel9EZFR6bHpMY25ZOHY4NG1DcjVpZ3pMUmhhOUdrMEdVZE1aNk9FZ1JPQ0FqUzhIRl92M3EzNlJ3c29XYmk2Y2NWUlczbXl4X3VYeUlCY0hkUlJacWhTWEVoT21LREdqNW5CLUJmWkNUTDhzYnhkQUFjVFptdUh6NU5uV1VJOXRtMm1Fa1dXSllDNWFR?oc=5",
+          "source": "NewsBytes",
+          "publishedAt": "Tue, 14 Jul 2026 04:53:35 GMT",
+          "fetched_at": "2026-07-14T19:32:12.625483",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'I would be very surprised': Dinesh Karthik doubts Andy Flower will leave RCB for England Test coaching r",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNdzItdmVRNzdKRFY2OVFrSVRLeHliT3FSVFY5ZTk5N3R6eUtYZG0td1F0UlAwTXpnclFreGJlRmRMRUFmeVdEOVFzZEkwZDZKbk5Va0JROExHdWliNEZPSFY5RHhPaTVmcHRPLWhadHBGdlJuUWZkVW1SVUNwWWI1c1liX0g3bmdYeEk1TGx6U0FvZnNtOUthZHA3dUxUcFB0bTN3QVJ4eVU2VV9GandnVnJldl9DNDJmR1NYWThkWEpnallKYUk1Y1VXSU9ScFJoTjhjampCRFVNZjlXX3RvZVptMHVvaWlhdzNEWmJzZkJQWkdxLURhRmpGM05NSFg4QlR3TmF5Yi1wSk5CckpZb1NqazRyd9IBmwJBVV95cUxNR2JFOVdlSEpXTjB0eDJ0TE5tY0pnaGtCWGxPRVZUNWhONXF4OU1QdHFQbml1aVpGRnJ0SlJycExMNkRuTm9Rc0ZfUG9UVWlpVkNVU201NXhhRU53QmVrMmhXb3hMeEhqLUwyclpqa0xjMkxkQjRrcWk3MVdLY2lJLVBpLVFLclotd3lJRDZVZTJQWHh5TEtmV2t4YVJqR21KZ3QzQk5nNXROa2ZLNmhoc3VVTW50a0h5ZUFuel9aTUZ0dVdBNHlLOHJlVHBhdzlrMDN2cWI2dk0xSi14R1hjLWg4c2dmY0tqLUI4NzJfeTZhWExkVTlBQXNQVnVwV0FXRXFWXzF5QlVxczV2QXIxZzh2LWtLM1lrN2VF?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 13 Jul 2026 16:12:00 GMT",
+          "fetched_at": "2026-07-14T19:32:12.625499",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB won't lose Andy Flower to England, insists Dinesh Karthik amid Test coach speculation | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRDVCWTlmVC1VOWxvQUhsaVdCV21zQjlrQzQ5dm5KT3IzN3VJS2tsZWc1VEdaVk1NaGFTQnZreE5RRGFBTzBWR3dQTFVZVTZ3UUxjQkp0V1JfVVRfS3lPaG5hVEdUVE04bE82WnNKeDhuSEVPbHk4QmYxS0VDSmJWbU9sN3VXMXVWbi1IWmxRSkxZODFEUlJjZWpQOU9jWVhORDhlMGl5LVU1akxaaEYwc2tsb21GNEkwOFFQZ1IzTTR0OU9KeEJfVnBYXzhxcUFhZE1XZW1qZEp3UmY2MXZvMtIB5gFBVV95cUxNQkY2QWpXNHdZSDdVblJmSWYtNlN1ZjdyWmpzc2I1cmFYbUVOQV9NdHc5VzJkRFZjTkhyd0hKLVM0bldTZUtMMEkxZHg2bmNaQmpacm9rRU9qMkNVTHVRLVpFRXloZ3dvOE0xUE5ERTNMYWdKemNCZ0N4OVRkRDFwZkU2Z3RGTzRiR0FRaERRVkRTSHZKYjdYeEN4REhGT2k5Rk0tZjBqV3p1c0xQRHR4ZF9WeFM0anhFd0kwZ0E2ZEhENmJkbXVMTlY2eFlVZ2RFenJ5RVg4Z1lNY0JGYnlqV0tkcXNQUQ?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Tue, 14 Jul 2026 01:34:39 GMT",
+          "fetched_at": "2026-07-14T19:32:12.625505",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Qualifier 1 | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOXzA1RzlpQmFQdUs3VklCZ3NNN0o3MER0UWx4emRScTF5Wm1FVU1LMW9waUlCNGt5QTk2M0dmV1BZV2o0dWVaQUEtOFVmNzMyUmpWTTBOMU1qbkpiYm5QemFvUktnNzRFR3Q3ZUQ4R3ZhMjBfME5mUU91em1abGRzd2M0RWZ3NWVFSkFGcm9pS3JwUjd5VUl4RUNuSlVXUUc0Tnc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Tue, 14 Jul 2026 18:32:55 GMT",
+          "fetched_at": "2026-07-14T19:32:12.625509",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT, Final, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWVlmckVCTjdER2tLTkNfNER5dGhkMjdzOThDUHF2M0dxc09DMEZ6Rk8wdFE5ZDJVd3Z4aUJDZ0dwcXFuSmVVbHg3TjVWWTFHcjJHWlViQkRiTGhsOVl6ejZWVFhBZzVyWDVQdTJsTFRnQlhoZUttY20xUFpJOENjVkh5Ym56NERiZklGWXVBNFl3U1E0OXVMRVZlczdYdw?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Tue, 14 Jul 2026 16:17:43 GMT",
+          "fetched_at": "2026-07-14T19:32:12.625513",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,7 +731,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-14T14:04:03.390609",
+      "last_updated": "2026-07-14T19:33:44.385715",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +815,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-14T14:05:41.724696",
+      "last_updated": "2026-07-14T19:35:18.120856",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +899,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-14T14:06:11.825901",
+      "last_updated": "2026-07-14T19:35:23.810836",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
