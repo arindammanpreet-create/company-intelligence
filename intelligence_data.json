@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-15T02:58:00.028227",
+    "generated_at": "2026-07-15T08:30:32.924495",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,17 +14,17 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-15T02:50:57.855118",
+      "last_updated": "2026-07-15T08:22:56.124610",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Aditya Birla Group to acquire Sprng Energy from Shell in ₹17,200 crore deal",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPODVDYUIxZk44RFloV3RrVGhIcFlIcFpXOE0zcHhUSXY1a3RUY1RBSXhuNlVTT2xyNWFodGw2RkJRd192My1OSVJIdU9aWjRyY3owMUR1SnZPWWJJLU5ENGx4R3M4Tnc4YWU4cF9jX1JrWHlMUXpCTVJlYXB3ODJZZm9LM0RiN0lIcWQwZDlxWGd1VXFLaWlNUDhXaEZsMHlXQVhhVDg5cHRYN0RiaFVBNDJtOGwxcUNwYVlXTmNPb1YxS1JfNmfSAcwBQVVfeXFMUEk4Q2w4WjlSRkhxa0hkazlYaXJYM0J5MmRmYnVnNm81R1h2TEI4OThrMFlwSmF4a2U4RGtNbmV3SGlvbUp0VHNmdkQwaUxqZmNTMWp5VkFwWHphZmN5RUQ4QTdUZWpaWVV5NGJLUVV0SUh6X1FqMzM1azBLR2ZZUnpvUEVHZUdoWG1DT0pOQ1o3MEhYS1dOaUo0VzNNX0ZSSU9BTndXbGtQNlNDYzMyT0FtTEtkb3dxdWZQSUVRTlgyT1o4VWJnLXdWMUpP?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Mon, 13 Jul 2026 17:09:05 GMT",
+          "fetched_at": "2026-07-15T08:22:50.130953",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Aditya Birla Group proposes ₹12,000 crore Odisha alumina refinery expansion",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcTZqNkNaVVZrQ3ZXNmhoaW5TV2MyY0RJTXV6RXRZXzZwckZyVkNIRXk0LXpSRE5ESUd6ekNvdTVBU1FrbzJoRlRNcU9BbFlGSzhyLV9uTE9neGRkN1oyS01sVnI0SEFCa0tFZHBNQzFEa3VhZ0FDQXh6ZnplajNreF9DaS1rOURzMTRrbkV2R1lOT0ZrdUxXMFZyTGZrblltWENkUGFPeXJRRzVKVWhJSUpia0FxeVl2QXlCX0syNHpIa3BxWTN1U0J6ek82eWp5VC1PdTRRTU0yTW830gHiAUFVX3lxTFBHWUh5eEhIc3NCRTdMaGgyVGpsNmVuVy0xQVllN2FDZl9OU0Fpa3FJNmpKbi1oa0RneEhlM2Jyd2lQZHdpQUgyQ3NqcGlaQU5vNVI5bXJFdldBSXNQZ3FLUFcxdmx1WWhJTUF1OFJ2Z0dnbUI2NU1fdmhiU3BpVHFZUnBVUFFRYXk1Umk1N0hDeThieEdHYzlZXzFaSzRMdVdFR2ZZVDlTYTVJSnZYMlJsbGJIOTJ6TUlvM3BzSlVUaV9jTmdhdTNXZDRUWkxOM0hHV3JjOVR6LXUxZ1VzNHdrb2c?oc=5",
+          "source": "ET Infra",
+          "publishedAt": "Tue, 14 Jul 2026 02:37:16 GMT",
+          "fetched_at": "2026-07-15T08:22:50.130969",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Aditya Birla Group Buys Full Ownership of Royal Challengers Bangalore",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODJfdm9iWWVUOEV4RC1ZMTN6MENGLVp2R01wc3Uzd252REprVHJOR1NoSFpNVUhiNFQ2STJBX2htUFg2STgyTFh1UDZhVmRSblhxNjQ2SnZMMXNnelFNQjFLcEFYdUJ1VUNtWk1zWUxaem14OG9fTTlMNDJnaV8yNGwtem5LZmVmR050M21RT1p6VzdZMDBlSDEwUQ?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Tue, 14 Jul 2026 23:43:00 GMT",
+          "fetched_at": "2026-07-15T08:22:50.130975",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Aditya Birla Group acquires Shell’s India renewable energy arm, Sprng Energy",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUndNUFJRemE4UVYyVkUwMW9BUkNueDR2LXVFUnVneXo0bTZlcEtzVVlOOU9ZRFNHMzVQZ1c3Vmd2R05LRTVXLWNDZmhkRWl6azBxM0ktd3cwbDFONmxpeXNDSlVBS1JmWTRDUHZrbTN4TE5nTlVuMFRhX0tSY0xvT2hjV0Zzb3pIZ0RVZlpMOUNiNXZqNjBhN1p5Z19LM0tZZU5MU1J0NVVoOW15YUdmZ3EwUTBJUTUtcHpodFJSbm16RjFLWV9Cek5qalpkenNyZmVCdGZVeFcyUGY10gHiAUFVX3lxTFBaVUI3TmJKT1IydTVqcWxsTTcxeVZIWW9MaTc4WndyaDBPVTRDa2FNbjNBZ3g0ajkxSmhBblJkTmFWekpHQW9Gc2NJNy1fMDRVcDhOQ2t5QmpBbnFrdXdCc3hDMGJjRG1HN0RtWl8teGJuVVhOOFRBS0ZkT1hXMXBlQTdCb2lPM3lEN2ZMN3FXQ19OTUs4WVg4dXN2X196OWRQM245cHkyUGR3elJRQmYtdzBNU0MwLTQzcmhZejZUQ1pFeTBpN0l6MzVKaXh4VnQ0bzFiWDFRNmNneEFXU1gxMGc?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Wed, 15 Jul 2026 07:31:11 GMT",
+          "fetched_at": "2026-07-15T08:22:50.130978",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Aditya Birla Group's biggest acquisitions: RCB, Shell, India Cements, Sabyasachi; All you need to know",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY0NoNFRpLVF4TV82QzNCRncyX2Y1MDBXeTUxQktudXFpdG9jQ2dUNEU2aUFZblBNQ1h5THZMUFplNTUzWkVnSk54VE5Kbm55R0xDYlVUZXdrZEN0WWhTN0tJN3ZxVDhUU3FRc3FiSXJxWkE1UmhMV3BhYnFzZXZaNnRJcXJBcVFIZmhkTG5Lamx3eThvbVhxR09PT1FLQnZmNl9QM0U3Qy0xM1AyWl9Sd0ZRcTNvQURKdElKcjgxZHpJU1NDYmNB0gHHAUFVX3lxTE1jQ2g0VGktUXhNXzZDM0JGdzJfZjUwMFd5NTFCS251cWl0b2NDZ1Q0RTZpQVluUE1DWHlMdkxQWmU1NTNaRWdKTnhUTkpubnlHTENiVVRld2tkQ3RZaFM3S0k3dnFUOFRTcVFzcWJJcnFaQTVSaExXcGFicXNldlo2dElxckFxUUhmaGRMbktqbHd5OG9tWHFHT09PUUtCdmY2X1AzRTdDLTEzUDJaX1J3RlFxM29BREp0SUpyODFkeklTU0NiY0E?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Wed, 15 Jul 2026 06:45:04 GMT",
+          "fetched_at": "2026-07-15T08:22:50.130986",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,17 +144,17 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-15T02:51:51.701856",
+      "last_updated": "2026-07-15T08:23:43.266275",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -174,7 +220,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "SOA Pacts With Tech Mahindra",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nRU1EcUhxaGRmRUtsN0ZQVV9mQkFaVDJXR1lhdVVVT29mc0VtZ1I3Z3hQWEdPNlV0V1llWFBHOThiMmxfNVdnTjVnZVVBSU9zaUFKdGhfSEExWFE?oc=5",
+          "source": "tathya.in",
+          "publishedAt": "Mon, 13 Jul 2026 12:32:45 GMT",
+          "fetched_at": "2026-07-15T08:23:43.145285",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Q1 results preview: Margins seen rising up to 50 bps on cost optimisation",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSFp2eG9PT2lIcTlRdTV4alVYNHJnUElraXZKVXgxVmwwYUNPTWJaR0JfWHU2NFBTUmV0bEt0d2RUWXJBRF95eWQyLU5JYjRicGRFbWl6YUdLdi03RFRydldnN2J0Y1ZHU2hHV3o5SVVCTXNYT3kzRDdBSk5JV2M5M3laQ1FLbkM1NzJrWWx5WTEwSDB1enZsY2tWd1doc1NkcEZGalE3ay14OGZCVXBiajhLYXd6VHlUU3F0dTJVcnZ0R1FncGl1MmRMZjZxRmVPVEhF0gHaAUFVX3lxTE53U1Q5YW9jVzlzcVJITTZTNlljY3VBcEZ2SzNsdHBEV1hiNklkenN0dkRyNHZpNmdiQWRkNDJnN2s3NV82MmRKV21oSnN6ZWtFZFNVT2p6UXVDbVN4MDZKSUlYTzVJVVRNY2tGYVZPVm05dFUxUFFnSTVkU0ZCSERBRDIyRmE3Q1gxYnpSU3kyT2FlV3c5YjR0WXJ5cWJsRENWMDhmblh1dXhsSmRaY25WLU5KRGl3aE5XeTVPOHNncXVMV2VpeE12WmhVN205ajNHWGVPSk5fOHV3?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Wed, 15 Jul 2026 07:03:28 GMT",
+          "fetched_at": "2026-07-15T08:23:43.145298",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra - Negative Breakout: These 12 stocks cross below their 200 DMAs",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdmh6MFNZWWlVM0M3Z0tHMWVfbWE2cVhkT0haNldrNGxnSWNyMVgtM2cydlV4aXZnNFRNSkJ3b1d3NjJEcjRLNFdTZ0s0eEh6amt2TjJ5cnc5ejdvdlB5eENSQTIyS0E2Q3drd0NyVmhRN1pSdlhFM3pSSFBPMXduaVVSTHhrd0s5RnVBVjVTRkxBQXI1dEhMWWUzRVIzb0NkM3RIQ05YcEJGVFZPUDR2RV9heFVoYUl4azRHaUFmTnRQekZBOUZDN3Y3Q3NRbnZ3S1VrY054R1RkZmZfVTNN?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 15 Jul 2026 05:27:27 GMT",
+          "fetched_at": "2026-07-15T08:23:43.145303",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Q1 Preview: PAT can rise over 40% YoY on firm revenue growth",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYU5qWUZ0cmo3ZnR5VVcwdjgwMWZEM2dMWC05ZjgxV1Z5dEVzajU1T0RLS2dweFpMSnpOcUxEWlhhT0NKVWJGQk1yaE8wdERVWFdkdDZ4d0tEM25ISTNNckh1QVhFRHRMaEFVY2pYYjF0NUtsQTR4UWVzUWozNmNkdU40Sjc5STZ5UWpjeWVtc2thcDhod3ZqQWl6RlF4ZVZIcjA4WkcydEtSempOclZPWms2cWU4bXYtNU5qS2t4dXZiTE85NDZvM3lYTnFwTkh4YVlRRTZ30gHbAUFVX3lxTE5QVDhnYmV0Q2F3OEhIYW13OVpDUDViXzJKN3JaaHBFNkJyQ25wWlpZUVRfYkFSVVNCTjdHV1BXUks1dFI4alk4OTF1WncxYW5DNXRFYjI4cGFPVnlBOWpwdV95TUs4SDB5eXBSc2txM19wbXFnWmVkWFdmVlNDeGNIelBIbVdCcUViOFQ0MFVKS3FSQlkxQ1c2M0U1YWVLbDgtWkRLa1RHTVpHTlUwbHUtUUFaamt3ZmJkcWFVV1RCc25JSmRncEN2dHVoUzBYU0pCdkpiUFI4VTZlYw?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Wed, 15 Jul 2026 03:54:58 GMT",
+          "fetched_at": "2026-07-15T08:23:43.145306",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra's Trading Session Conclusion",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaFp2NGxLYS1jVEMtcWtlam12eVUzemhuZV9JSVhLeHF2d3BFamdPeGhvMFF4OXpjYjRtci1RWHdlSGFkQjkwUjNXZEFoN1FXR0JlWXFqcjdnMXllaTJCaHNOUUdLY2lyc0syckhOUmdkckw5dkpPYXQyNWtLQVB6X3ZlbnM4cldhajVUVlF4TmRmeHpqMWpEUERNakwtdmppcS1BbVNJWF8zZDhIMUlUdlRFbEVvaGFUel9QOXZubF9iSmJLQTN1dldSbW53b3pLa05ILUk2cHFlaHJuMHVTejhxQWpFQVRn0gHuAUFVX3lxTE5LcWJxdVYzLUExUURwMXFwTGU3RlZ4VnJILWlBVlFLQXdpc2o3X015WjhmUnFyQ3hobFNPVjZSeEw5MjdBR3dfNVdGVTB4azBBNWhUVHlveTNDd09CLUJtanBaLVFxUWRDaVVYSDFFWTQtY19mclpURHpTeXRqa0tCUXFvTDg5anlzZWs2LWtPN3U1aVZVYjlSQUQ5dndOQmpoUXIxLXdmcV9XampKY2JwQjNIVXRmYzF3MjRnODRhb19laEw4VXdjcHZlSWFjN1ctc2pnbk0yQnZkQ3BJWlJoUVd0LVRlUUVXQ0wxUVE?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Tue, 14 Jul 2026 03:11:50 GMT",
+          "fetched_at": "2026-07-15T08:23:43.145309",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +274,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-15T02:53:02.990280",
+      "last_updated": "2026-07-15T08:24:19.595788",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +358,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-15T02:54:04.561458",
+      "last_updated": "2026-07-15T08:25:35.400292",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +442,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-15T02:54:54.372937",
+      "last_updated": "2026-07-15T08:26:20.645830",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,17 +526,17 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-15T02:55:52.424044",
+      "last_updated": "2026-07-15T08:27:09.118269",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -510,7 +602,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Andy Flower to leave RCB for England Test coach role? Dinesh Karthik breaks silence",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOajA5MTQyS3VKZ3o2SjdEVlJGRFdKUDhDSldXX2MzRUZ4dFpBMEJDTi03al9QUjE5VVQyQmJQZzFCX0ZGNEw3ZC1CTTZlMzJLSUoxeENaVFBjZ0RJdGFsTDRkU3lzS0c4Mm9FOENjU2ZUN3Nhci01NXZUUG5sNkJzTjl0ZFhQVWtsd0t5clRVTXBHNWE5LTRKQVhSSzdaTzRvZ08xdEdybDhla1VSb1VoR1l6elFuY0FNRmJucnZDRnB1ZFFXYTJtdHZOZW5DOG9PUHJNaUk0ZFQ2X19aTmdCZ3dZMWRXaTTSAewBQVVfeXFMTXJ0UFB4T0V2bTJTWmhtWDJ0WHB3RTIxNzhZZkRlS1NQWEZuc1RDcm52SnhSQU91UzRWTV9rNlY4ZDN4dWlkazZZclZ3UERvSmxSdmdEOWFtemNWQWxqYTUyXzBmX3lvV3JkeS1aMThBS0RzS0NnTmtNV3Z0d1lZaXVmQklfTS1xUHVCT214SEJ4dDRWUjZHSUlOelhkbndIZFE2WERlSV9kT3poMGpjSEc2Q0psMWhhc1VRLTB5dnFoQXNIMWtvRElBci1CZm1HZEFaNDlPSEtqeDRvSEw5SE8xUlhFQmNuM1ZINDU?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Tue, 14 Jul 2026 10:23:12 GMT",
+          "fetched_at": "2026-07-15T08:26:38.888844",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB won't lose Andy Flower to England, insists Dinesh Karthik amid Test coach speculation | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRDVCWTlmVC1VOWxvQUhsaVdCV21zQjlrQzQ5dm5KT3IzN3VJS2tsZWc1VEdaVk1NaGFTQnZreE5RRGFBTzBWR3dQTFVZVTZ3UUxjQkp0V1JfVVRfS3lPaG5hVEdUVE04bE82WnNKeDhuSEVPbHk4QmYxS0VDSmJWbU9sN3VXMXVWbi1IWmxRSkxZODFEUlJjZWpQOU9jWVhORDhlMGl5LVU1akxaaEYwc2tsb21GNEkwOFFQZ1IzTTR0OU9KeEJfVnBYXzhxcUFhZE1XZW1qZEp3UmY2MXZvMtIB5gFBVV95cUxNQkY2QWpXNHdZSDdVblJmSWYtNlN1ZjdyWmpzc2I1cmFYbUVOQV9NdHc5VzJkRFZjTkhyd0hKLVM0bldTZUtMMEkxZHg2bmNaQmpacm9rRU9qMkNVTHVRLVpFRXloZ3dvOE0xUE5ERTNMYWdKemNCZ0N4OVRkRDFwZkU2Z3RGTzRiR0FRaERRVkRTSHZKYjdYeEN4REhGT2k5Rk0tZjBqV3p1c0xQRHR4ZF9WeFM0anhFd0kwZ0E2ZEhENmJkbXVMTlY2eFlVZ2RFenJ5RVg4Z1lNY0JGYnlqV0tkcXNQUQ?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Tue, 14 Jul 2026 01:34:39 GMT",
+          "fetched_at": "2026-07-15T08:26:38.888858",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'I would be very surprised': Dinesh Karthik doubts Andy Flower will leave RCB for England Test coaching r",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNdzItdmVRNzdKRFY2OVFrSVRLeHliT3FSVFY5ZTk5N3R6eUtYZG0td1F0UlAwTXpnclFreGJlRmRMRUFmeVdEOVFzZEkwZDZKbk5Va0JROExHdWliNEZPSFY5RHhPaTVmcHRPLWhadHBGdlJuUWZkVW1SVUNwWWI1c1liX0g3bmdYeEk1TGx6U0FvZnNtOUthZHA3dUxUcFB0bTN3QVJ4eVU2VV9GandnVnJldl9DNDJmR1NYWThkWEpnallKYUk1Y1VXSU9ScFJoTjhjampCRFVNZjlXX3RvZVptMHVvaWlhdzNEWmJzZkJQWkdxLURhRmpGM05NSFg4QlR3TmF5Yi1wSk5CckpZb1NqazRyd9IBmwJBVV95cUxNR2JFOVdlSEpXTjB0eDJ0TE5tY0pnaGtCWGxPRVZUNWhONXF4OU1QdHFQbml1aVpGRnJ0SlJycExMNkRuTm9Rc0ZfUG9UVWlpVkNVU201NXhhRU53QmVrMmhXb3hMeEhqLUwyclpqa0xjMkxkQjRrcWk3MVdLY2lJLVBpLVFLclotd3lJRDZVZTJQWHh5TEtmV2t4YVJqR21KZ3QzQk5nNXROa2ZLNmhoc3VVTW50a0h5ZUFuel9aTUZ0dVdBNHlLOHJlVHBhdzlrMDN2cWI2dk0xSi14R1hjLWg4c2dmY0tqLUI4NzJfeTZhWExkVTlBQXNQVnVwV0FXRXFWXzF5QlVxczV2QXIxZzh2LWtLM1lrN2VF?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 13 Jul 2026 16:12:00 GMT",
+          "fetched_at": "2026-07-15T08:26:38.888862",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT, Final, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWVlmckVCTjdER2tLTkNfNER5dGhkMjdzOThDUHF2M0dxc09DMEZ6Rk8wdFE5ZDJVd3Z4aUJDZ0dwcXFuSmVVbHg3TjVWWTFHcjJHWlViQkRiTGhsOVl6ejZWVFhBZzVyWDVQdTJsTFRnQlhoZUttY20xUFpJOENjVkh5Ym56NERiZklGWXVBNFl3U1E0OXVMRVZlczdYdw?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Tue, 14 Jul 2026 18:53:41 GMT",
+          "fetched_at": "2026-07-15T08:26:38.888865",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Qualifier 1 | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOXzA1RzlpQmFQdUs3VklCZ3NNN0o3MER0UWx4emRScTF5Wm1FVU1LMW9waUlCNGt5QTk2M0dmV1BZV2o0dWVaQUEtOFVmNzMyUmpWTTBOMU1qbkpiYm5QemFvUktnNzRFR3Q3ZUQ4R3ZhMjBfME5mUU91em1abGRzd2M0RWZ3NWVFSkFGcm9pS3JwUjd5VUl4RUNuSlVXUUc0Tnc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 15 Jul 2026 04:28:58 GMT",
+          "fetched_at": "2026-07-15T08:26:38.888868",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,18 +656,18 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-15T02:56:48.279972",
+      "last_updated": "2026-07-15T08:28:44.510041",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -594,7 +732,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Stephen Fleming linked with England coach role after CSK exit",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTHJYZzF0dzNFSjdlcXJZdU51SzhrQU1IM0VnaXBCVTA1UnpuYnFKVHdFdkttTjRrMmZ0N08xNXMzTkt5c1ZSOGJpVk1BNnhvWG5Mc0xkRlFVdk9IT05iUW5mY1diV3hFQmhkSDFQOHJROUZDa1l1QnNJWHRqc3FOLVl1RXZjZ0hSdE0wcTdLUmJkdWVCaWxHbFo3WUhtWXZaVmlOSERjOWhmd1k3MUM2SE1MYzBQS2lmdklIWtIBwwFBVV95cUxNY1dBX2RhQ3B6N1BNT3U5VTZCU0dreVBTTXFZc29SMF82dUZZWGR3bVZiLWtCTjViMkE0dl8yck53bEwtTkJFWTBjRXRSeFgwdUNxNngwMzd6WGpuOFAyQ2VKSFE3TnROaU1MQ2pqYmtwQzNGRlpwUjRpTmpJMFZ2U05BaGlZT1gzYUhmM2hoRzRwYTRHdGRsNl9rRzY1R0hZUW9SV1V2d0dINnZRelpmRVVtc2NvT01ObWpaT2RmdzZKbFk?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Tue, 14 Jul 2026 18:08:13 GMT",
+          "fetched_at": "2026-07-15T08:27:52.911245",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Why did CSK let go of Fleming as Head coach?",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTlgzbGhlalpYRm00RFpyOW1NX21seG9qVzRCemhGZzhpb1RuNUg2UGVOTHFTbUdzNTZCT09ZSjBubnpVdnVaOHNMSTNldkROTVJPYUJieUFNYWwwT0Z6WnRLei1Wa2hSSkZ3TWVtdTllQ3piS3hfR0NCTXNuaUhZSkp3dnd3ckg3S04xNUcxZWExY3Bv?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Tue, 14 Jul 2026 16:45:34 GMT",
+          "fetched_at": "2026-07-15T08:27:52.911259",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Gujarat Titans",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVJqSVMwemp1TGctcG1XYWNqdzNfa2lIZ2taSHFmcEZyYW9BQUtxUkhpM00yNVhNWFpDd2Q1UXlXUTFLcGNkblVoTW4tT0tyUGVpdXpjaE1vMmhjbmNoSTh3a055LWxmU2xBb3h0RDIyQ1VBNFAxcmVWM1Z1c05LVVo3R1pIVTI5Q1NsWHZXeE81SXo3Uk8tZkNqZk9oam9EZ2QtRXcxVmU5MUhGQVFVamF5N3dfM0xSR3VCZndLS21uSjBOUGMtUFpIclhZRkIxbDQyTElkMS15SjZZMHV1clBZU3dxbnNXcXp6eW4tSGVtODVHT01fYk10QXg3LUdoZmc?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-15T08:27:52.911263",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Is Hardik Pandya Headed To CSK?",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2dCMmJWRnpabDRNeEZvbllOZkJ1ZWVFbDJKZzdhZUQ3TzcwTzJKVXhlOHZQbjJXWERXYTNPanRxUDBpUVNPM0k4QjlqR09tZjdhMHA0eVRGbVVXME9hdXhkWW1Fem8xX2M3dnlTNXU5TDg4WEQ2Q2xuUkFEdHpKTUZqNHozaC150gGLAUFVX3lxTE5wSmo5eHIwZFFrTnNnMUtySEQ5Y0QwUmpLeWxuZFpNN1ViQlA5VmZ4c0xXNHBiS2FFTWg5S1Y4MHMzLXB6MEVDVVhVUzFuaTJtc3c3bFo3R0lKOVQ0dVFhanR2NF95eV9qNzJEbUtWZzNWNUpSbzFQZ1FvMkFza05ZNjFyYjlfX1lqdXc?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Mon, 13 Jul 2026 08:40:25 GMT",
+          "fetched_at": "2026-07-15T08:27:52.911265",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK Part Ways With Head Coach Stephen Fleming Know About Him",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLTBMOV9BRHBPY1VueFZxNWJPeWNtOTRuanhyUmhjb2NmaXNGR0piT3Rtby1Jb0h3UExCQjEwZlVqS1pQTGRPSjg1clpfTmJweENHZGpEVDFPN1g3WmxBaGdBMENTNF9iRHl2M1ZvOU0xRDlQamlLSlZOMWFtUUx2Z1JNYURlS3RSQmZJQ1hqRERHTTY3Y0dObXRLNEp6a21GZ09NVWN1bnU?oc=5",
+          "source": "Sakshi",
+          "publishedAt": "Tue, 14 Jul 2026 13:52:10 GMT",
+          "fetched_at": "2026-07-15T08:27:52.911268",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,7 +786,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-15T02:57:47.065956",
+      "last_updated": "2026-07-15T08:30:14.872445",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +870,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-15T02:58:00.028214",
+      "last_updated": "2026-07-15T08:30:32.924482",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
