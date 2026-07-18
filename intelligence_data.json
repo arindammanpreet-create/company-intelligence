@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-17T19:25:22.882529",
+    "generated_at": "2026-07-18T03:00:45.902234",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-17T19:18:28.516113",
+      "last_updated": "2026-07-18T02:51:55.489230",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-17T19:19:33.132883",
+      "last_updated": "2026-07-18T02:52:45.360570",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-17T19:20:41.664851",
+      "last_updated": "2026-07-18T02:54:04.305231",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -264,14 +264,9 @@
     },
     "HDFC Bank": {
       "company": "HDFC Bank",
-      "error": "'ai_disruption'",
-      "last_updated": "2026-07-17T19:21:29.399738"
-    },
-    "Bharti Airtel": {
-      "company": "Bharti Airtel",
-      "ticker": "BHARTIARTL",
-      "sector": "telecom",
-      "last_updated": "2026-07-17T19:22:21.708612",
+      "ticker": "HDFCBANK",
+      "sector": "banking",
+      "last_updated": "2026-07-18T02:55:30.253996",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -285,6 +280,161 @@
         "neg": 0
       },
       "news": [],
+      "research_gaps": [
+        {
+          "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
+          "severity": "Medium",
+          "description": "Continuous macro monitoring, competitor tracking, and early signal detection for strategic pivots.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "monitoring",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Strategic Market Intelligence Subscription",
+              "impact": "Medium",
+              "timeline": "4-6 weeks setup + quarterly",
+              "price": "₹12-20 Lakhs + ₹4-6L/quarter",
+              "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
+              "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
+              "gap_type": "monitoring",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "HDFC Bank: Competitive Intelligence & Win/Loss Analysis",
+          "severity": "Medium",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        }
+      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
+      "filings": []
+    },
+    "Bharti Airtel": {
+      "company": "Bharti Airtel",
+      "ticker": "BHARTIARTL",
+      "sector": "telecom",
+      "last_updated": "2026-07-18T02:56:17.690324",
+      "data_sources": {
+        "news_count": 15,
+        "filings_count": 0,
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
+      },
+      "sentiment": {
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 2,
+        "neg": 1
+      },
+      "news": [
+        {
+          "title": "Gopal Vittal: The future of the Airtel brand will be built on experience as much as network",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeEtaLWtTNTFfNVV6Nm11YU1rVF8wUE5pWFJUWExwRERmcTFCYkxzVW8tZjdIQmlWdlVRWXB1N0RIMzFlNm9oajBHc3BIWkNrVVd0RmtCM0JBcHhXbGcyU293MkRyR1BTQ0ZMTEQ0c3R3YTUtNWZ1aXdzR2NHRzNTLUU2SXpYeGdpZzQ5TjVsM21QOG82X0t0d29IUHk2VU50X0VYUXJtRjVSMFJoaUd6WDBMLXJ0RjJFamFQdG9aUGVza3BidUUtQmNQS0pyRlJjb2RKWmR0OWdadFnSAeABQVVfeXFMTS1YSDY2YlJ1ck8zQjBnMVozRDJEc2xReGNXZXdhMjhMUEljSmJ0UkRNRm9Ub3pLdnM5ekZjOHQ1dDVjd2pkUjVSWENzdWM4c0RUVF96OFB6X1NXbGVfdUczbUhzM0lXNlpqeHBJQmJMaEZ6MEpVYi1VTnhKRmRaeTdHMUtocFRUTEJVVkhZY0QxdnNfY3NQeHVsd0pVdUVPQ1lyTTlpMXZMbDVNQWNJV1BDOVRES2NxaVlla2s4dV95LTNZVTAxZzZnSWxfNXJ2UmJiLXFSN1V4a3J4UUdrQms?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Mon, 13 Jul 2026 02:07:00 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034164"
+        },
+        {
+          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
+          "source": "EY",
+          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034183"
+        },
+        {
+          "title": "Airtel discloses FY26 pay: Gopal Vittal at Rs 21.73 crore, Shashwat Sharma at Rs 1.88 crore",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaVpIWVlseW13X19jdjE5QzdFVGowQ1ktMXB2UWxKZl9MdkxNc1lhcDlzaUo1emU2UmI3NmFEOUhYMWl5WnZ5alBFYUNYTXJVQ3QwcnpVaVFuNmgyVkx1UkQ4ZmpHOGV1TzAybU1TRGNmMFptT2dnVTZpVktJWkExc3llYnZXMG5pZmFpOXJ0OHRmMzViQ1dYZzZZVEk5MWp1Q0g4VTdGZnVjUHZqTE9qOXZuQmdtUDZSUW8yUXFDTG0?oc=5",
+          "source": "Indian Television Dot Com",
+          "publishedAt": "Mon, 13 Jul 2026 03:04:07 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034188"
+        },
+        {
+          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0HSAeMBQVVfeXFMT0pkU3doaGNTbElsQ2UwdGFYQzhBMWQ1dzQ2UHBkQmtaWUVKRFRhTUU5d1dUazVOdnhMQTFsdFh3dS1SQkVSZU9ZRnozY28yQmlWRk9TdGN6bVlCeWlzMHQ1cUktampBMUtib01DZnlOVFJiLVR3UmhxWGVlRlFXRUFKRFMzbGZvR1RWN1RTX1BGTUdvM2hOenBrYnowMTRfRTJEUzRGYWZhams4Rm9odXBVVUZUMlYwWGItZkt4eUQ2SXY3X1MwWGt5UW9HS3NlbkhXaklVMkV1TGRQNGdreVZ5Vnc?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034193"
+        },
+        {
+          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
+          "source": "Forbes India",
+          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034197"
+        },
+        {
+          "title": "Sunil Mittal to step down as Airtel Africa chair in July; to be succeeded by Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYmxIY1hRTVRKcUc2aTU4NEFFamM0STZzX0x5anNGMDdqV2J5TTJUbHFFS1lsQ3ZRcHpWRjZ4S2Vfb1JSQy1OVlMxdk5Bc09zbGJfLXJJX2t3Q3NrS3B2WUdEWXhhVW9ENFJVTjlXUGVYZ3liR0FKOFJCQ2VTWmRfeVFMdnkySzBoSUI3M09YQXJTY2Jqb1JQVWxMTzhsMmN5UzVObnl0akZPcTlqQWYxejhkcDFhZDM0Smlmb0ptYVNDUHNOLUIwand4SDFIOWE1WEFQeDNzc2RTMzRkVHU2SVN30gHnAUFVX3lxTE9VR01ZaXlqWXlYNmR1SEJyWEw4YVh3bkJxdHJTamJTdEtVUmRtUm1uQWdlZFVONklJOS1yUjA0cTRmRElrVHJGSmtPY093VnVvVkZTaVQyRGVuU3o1Y3dWTzFRNzJVMkM2V05OM2poZ2E4LV9kSmVyR2tJOXBIY1VKamhwSWN3a2tzQllIYXV4VUwyczFGbGNManBCbnJnLUVSRENUMmVUVUV3Yy1yOVZXVUh2d1U4ZFR3TmJEYW9Dc0d5UHBaQVBjeVZ4eUwydHJXNFF3aWVxdHA5RmloVHkxMzZ3Z1lTTQ?oc=5",
+          "source": "livemint.com",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034201"
+        },
+        {
+          "title": "Gopal Vittal's pay rises to Rs21.73 crore; new Airtel India CEO Shashwat Sharma earns Rs1.88 crore",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWnU4NWl0YmhHbF9oN3I5OFd4Rmk4VVdWcEhadDVJYWVOTDJDYVJUY0V5amFCODhRLXk2M1FMQzBpVDN4dTExbWhKUGg0TmRSZUEzbXlnVWJxUktaUFFvTFljOGRwUjBFdTVTc0kyUmc0LVRFaTdQZ09sRVFsTlpaVmRCd1dDOGhNaUFwX1BVMU9JdFRKVlhqZUZuMkdKc3l5TVFsNVRDZ3ZJYlVlZVRCc0J5eThqNW5IaVFmOE1hd19OY3V0ektRcmw2cUpTVTlSVldZcUtaYUpfejk2dmRQN2tnUdIB6AFBVV95cUxOeXNmSmw5S0FSTWlUQ2dSbThZZHg2amdaODk1NzE3Mk56Skt1OTZrSlNvSGVxVllITjh1TGJJSDduc2VEVlNlNklLN0RFZGdXa0tWdHZJRzYzekRkQUZxMlllZmMtV0dVRmZTYnlQbVlPSlZPNzRLbzRlYi1fcl9MRXVnQjlsNUtsdGtPVllwTDBScTUtVVNOSUNNcEVNUHh4QjFsYXVqU2t6bGdBY0hQTFdERDFNSnpxLTZ6bnh4Zk1SQU0ydUp6R0hvLUl4YXhMa002WlVkRnQxNTJBOXpXdE5ueEJWblpP?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Mon, 13 Jul 2026 02:17:26 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034204"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chairman, Gopal Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVFVzUnM4cGFuMUJZbFlHN1ZDelpCNDJrcGhqWDJlb0VjZXIzWUFhRjQ1azdYYktnb1J4cXVkT3R2NmxoaVFkS2ZtVWszMFlaQ0tNT1JlOXQ2eG13OElKc3pXcmlXcFlueW5kVWZCWUwteHkzLXN3TEZIa3ZHZnRib1VhZjRWaTUxUldQa0JZZnZPdDEweTgzN29WR2lxX0p0YmZZczRzY2ZCUEstTGNWZjlGU0lOT3RuNUxXcHN0M1ZPRXBnby1Sei1aNzRwUU0wblVyWXgzVkfSAd4BQVVfeXFMT2djNmxzWVh2TmxSaV9TdjhkVnU3bnZYZ3VhTENQYnUxclJMRXF4ZmtvR01mc3dINUtCSzNDMXFmVnJmdzF0ckV6LWoyOG1XQ0pOSWJHRkljUzN1aUVQc2cxRkVJbVlJUVJnSXI5SjhlR2xiR2pGcW1fbzAxcTBOTkx2NDhjdzlQbURzLTVnN05GZnRfenREb19Xc0VPZzIzYWlXMXA4bnl5b1p4bS1JRThKVWc2S3Nma1M1Y2dmTy1TdDlJQXJodlM5bVNJMTNFckZpMTFJN3JmRW9tc1pn?oc=5",
+          "source": "Telegraph India",
+          "publishedAt": "Thu, 26 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034209"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chair in July; Gopal Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNHZLTDlMX3ZqeEotRWwwN2NTWkVsTm1xT1JiQ1JQYVJKUW1JWmpSN0xuaW1uZHRyc24tLWpBNnUxOHdlTXlfRmsyQWV3R0RBSXYyek1neDZ6TXlVaHpUeHNCWkxhNEtDX1N0MUpJdVk1UE9KYlh0dmw4aUI4ZHhuakdIaXY1S1FyNkpGRmQwYnJKMTh5SDBIS0tXeGloQ1dGeGlOWTFlVUhEcWdzWjQyOVhiRmd3LVpiV1RjbnRZUTBmeXlWNWFzV096OHNCSC1jNTA2ZEVtWFhhWTc5NUHSAeMBQVVfeXFMT1NxUzNxZGUySVRjYVl0eTJ0TWEtdm5ET3I0S1IwV0ROaVMtSkI4SFE3YmFIRWN3SHBuVTB6YkNMY1ZaSXR6MFROeFRNVkhQSDA4ZXhrRnQ0TkVYM3V1d1haaXBxbmw0bGV3UnJ1aWdlakR0SFRBVk9DVDRNWHRGWlhCRDQ0eWdFOXVWNzZaTl9Da0taMmw0V0JPVUpUeHBFZm1HWnM5NlVRWl9CZDdvclVqMTlNZTIxU01za3dDald1LXlXcGxhck9kUmsySTNwYWJ3RTEzTWZFYVk2MXQwOFB3YmM?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034213"
+        },
+        {
+          "title": "Sunil Mittal to retire as Airtel Africa chairman; Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNM0t2OU16d2JIaFNUT2FWckFuREV6Zm02SzczaE40V0NnaHBCY09DWDhEY2lGWDhELWFyeWVKdk5oTl9BX25hOUNnb2NiVTNPNVFLNlpVenJONFRhbEt6RXk4OGM2MlV2LWVpWDVlYVU0UHk4SUx3b1gxNks1d0dWakh3ZUVWT29USFdMbmYxVTkyZEY3d0tiZks5UUhPcHZ6OGtrQS05eU4wSmx4R215WHhtbTJmRFBQbnZKYkJJcndQaXVXY0Nuc0pjQVhyRFd1ZW9fZ2FFMNIB3AFBVV95cUxPaGVtWDRmQzdFWUZqWlBhTmhaQjZkSlFvOUJRNkVoM284TFpSbkNaaFNEcEJJZ2VUb0Z2UTJnYWxscFVrUTVaNG1DTjZCX1NVWFN2bnBWTGRVZjM3OWJrWEhieHh4akRaTnA2dVpWUDdyd2RJZkxweWducUlreFQ1RzhVckxFNnR5THNlRC1Oc003M3ViTFVpekQwbk50T1hRcXpDRXQxbXJyQ1dBWG51OHhlbnlVREFLbElJa0NkMHp0RlBxUDFYLURrRXJHalIyNnJGemhsZE5sNGR5?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-18T02:55:46.034216"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Bharti Airtel: Strategic Market Intelligence & Early Warning System",
@@ -355,7 +505,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-17T19:23:05.313035",
+      "last_updated": "2026-07-18T02:57:37.386819",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -439,11 +589,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-17T19:23:58.290451",
+      "last_updated": "2026-07-18T02:58:53.739200",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -515,7 +665,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Who Will Become New CSK Head Coach? India Legend Picked As 'Best Candidate'",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM3R1N3JPdXlJVldNQUowTVV6dzJ5Q2VPcF9WS21XZmczbHB6Q2JsLXByclc3VGpEWkFlbGUzVzBWUzVXckxMMjJYUGktTlUwQlB1dXpmYThoVWcyeGFkSzVHYWYyZ2hCM3VTckt6NDJlNUZFRTQ0WVBSVFlvaE1aeUVTeWVvbF9pOWRtMkVwbVJiN1lkbUtiNlBFem5sVXJRVnRaVC1sU0tLVFRpdTlGSXFNWQ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 16 Jul 2026 18:23:57 GMT",
+          "fetched_at": "2026-07-18T02:58:11.771147",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK, 66th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVJ5OTNfaWNQMGhnWDNyM2pOT2NkbTUyczVwS3Q0TW0zZTA2aU41amZXVGxhd3ZIYy1mWlhmXzd4R3VqaUhpZFNZcVNqSHpQSjBNM1BCSUZUX1JlR20tN3A4V3pTeWFORWMyODlQM2s2TExZcDdFOV9UbVBKOGI1akRxTWhFRmZNMjhZNnNfSnM2U0dfT1RJTkJTSkdrTVpQ?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Fri, 17 Jul 2026 15:18:43 GMT",
+          "fetched_at": "2026-07-18T02:58:11.771163",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'Leaving Rajasthan Royals was tough, but Dhoni, Ruturaj made CSK move easy'",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYTFFSzdQMXhDUUNhYVV6U2tZMzVvRDlhUmVKTlhUMXVVTG1GMjB2Mk5uVVpsdVdKQ0VhZ1hsRXhaQU9yS3M3VzZTS0Z2Z2FTQkhadDNBWjF1dEdCdEJuTDZQS2dkTE9mODBSQm0xY18yX2tVZHRuYnp3WVRjSGRNTVRBV2lycXFxLV9wN3V5ZmoxY19vY1JrandHSk9Fb1c0WWk2NlFzVGh3TGRwRlg5TGlYWHJzLVZMNDcxQkU5dDU1TDNKWW1PUjBWUVFhbXYzUkHSAdQBQVVfeXFMTVM4YlBLNnJ5N25MUlJwV0szZnJxU3RsQVNUd2JOZEFXVy1HOUNSaDBKS094akdsTDlnaG5wVEdGMnpMV2Z6SWNLQ3JIYklTTkwtTjh6YTd2TUhaVWo0ZFNXcklpV0NFNUVFSzZhVGV0OE11Q2N5Wk9yMXRUVGNJUUp5b0pDbDl2WDNVWk9yRVFxal9mOEFhaG9nUy1YTUVOQkxleUx4UUN2X21aYVoyMnNVb1pQU0JEUV96cTdLSGVXMEhseHZJV3dUakw1U08zcDJTdk8?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Thu, 16 Jul 2026 11:08:00 GMT",
+          "fetched_at": "2026-07-18T02:58:11.771169",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Stephen Fleming shortlisted for England Test coach role after CSK exit",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSUVQVDd4TFNoT3ZJcVc3UWo1aERCMnZJazJ5V0d3bXo0dm41UzlieFllYmc0Qk8wbEFBVGwtMFltc0tfVFBhYXhUSjVoVjZ0OHRWcGJudmo1WTNfek03LW9pcENYSnBjdU5fOGtGck9xajQxeUJpZ1ZEa3FBcUtFQUM3SmFxaHhIUjk2bGE3UW5RYzZKWkNZRFo0cm1ua01GMWR1OU9HODMtM2tjWnJNbEJ1ak13cFhZVmoxMzkwaw?oc=5",
+          "source": "MSN",
+          "publishedAt": "Thu, 16 Jul 2026 11:50:20 GMT",
+          "fetched_at": "2026-07-18T02:58:11.771173",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK Sign Akash Madhwal As A Replacement For Ayush Mhatre",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIUllGQ0lObmI4Rk1IRW42VmdlOEVTQXZ1ZHRhQ2tZWjRmOUZ0TnVycXNYay1abUF3WlpqaUlEQ1UtVnotaUhaY0VnbkdhNFU1?oc=5",
+          "source": "IPL",
+          "publishedAt": "Thu, 16 Jul 2026 06:32:23 GMT",
+          "fetched_at": "2026-07-18T02:58:11.771176",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -523,7 +719,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-17T19:24:52.831738",
+      "last_updated": "2026-07-18T03:00:30.755036",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -607,7 +803,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-17T19:25:22.882514",
+      "last_updated": "2026-07-18T03:00:45.902218",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
