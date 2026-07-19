@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-19T08:37:10.687654",
+    "generated_at": "2026-07-19T13:37:19.850424",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,21 +14,43 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-19T08:26:50.550921",
+      "last_updated": "2026-07-19T13:28:09.779571",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.43,
+        "label": "Positive",
+        "pos": 5,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Merchandise Revenue & Licensing Gaps at Reliance Industries",
+          "severity": "Medium",
+          "description": "Merchandise revenue underperformance at Reliance Industries: retail. Product-market fit and pricing research required.",
+          "detected_from": "Aditya Birla Group Buys Full Ownership of Royal Challengers Bangalore  Shell to sell Sprng Energy group to Aditya Birla Renewables Limited  Aditya Bir...",
+          "gap_type": "merchandise",
+          "keywords_found": [
+            "retail"
+          ],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Merchandise Demand & Pricing Research",
+              "impact": "Medium",
+              "timeline": "12-18 months",
+              "price": "₹14-22 Lakhs",
+              "methodology": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking. **Deliverables**: Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy.",
+              "gap_type": "merchandise",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -68,50 +90,183 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "Aditya Birla Group Buys Full Ownership of Royal Challengers Bangalore",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODJfdm9iWWVUOEV4RC1ZMTN6MENGLVp2R01wc3Uzd252REprVHJOR1NoSFpNVUhiNFQ2STJBX2htUFg2STgyTFh1UDZhVmRSblhxNjQ2SnZMMXNnelFNQjFLcEFYdUJ1VUNtWk1zWUxaem14OG9fTTlMNDJnaV8yNGwtem5LZmVmR050M21RT1p6VzdZMDBlSDEwUQ?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Sun, 19 Jul 2026 09:34:55 GMT",
+          "fetched_at": "2026-07-19T13:27:54.277026",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Shell to sell Sprng Energy group to Aditya Birla Renewables Limited",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZzVhTG5tQ1NQZURHMUJXUlBza09CTXl4dzhndTc0VEZ5di1VYjQ4anJQVTQ0SUh3SW5tc05ONHFEMm1qOEtjWGtyWEtzckhmQlkzWHhVVTlBd0RILTZOYWxyWDRhTFBOYkR3VGdUaUpnWXhFdVYwTjJoOXZlRzktQXJGcmJYMTA3aERRaGVZX1I0Y2xud1dRdGplaWt6a1pzMEJQLWd1Y0YyaEt6MVlreFAzTmFGdw?oc=5",
+          "source": "Shell Global",
+          "publishedAt": "Mon, 13 Jul 2026 12:30:00 GMT",
+          "fetched_at": "2026-07-19T13:27:54.277040",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Aditya Birla Group to acquire Sprng Energy from Shell in ₹17,200 crore deal",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPODVDYUIxZk44RFloV3RrVGhIcFlIcFpXOE0zcHhUSXY1a3RUY1RBSXhuNlVTT2xyNWFodGw2RkJRd192My1OSVJIdU9aWjRyY3owMUR1SnZPWWJJLU5ENGx4R3M4Tnc4YWU4cF9jX1JrWHlMUXpCTVJlYXB3ODJZZm9LM0RiN0lIcWQwZDlxWGd1VXFLaWlNUDhXaEZsMHlXQVhhVDg5cHRYN0RiaFVBNDJtOGwxcUNwYVlXTmNPb1YxS1JfNmfSAcwBQVVfeXFMUEk4Q2w4WjlSRkhxa0hkazlYaXJYM0J5MmRmYnVnNm81R1h2TEI4OThrMFlwSmF4a2U4RGtNbmV3SGlvbUp0VHNmdkQwaUxqZmNTMWp5VkFwWHphZmN5RUQ4QTdUZWpaWVV5NGJLUVV0SUh6X1FqMzM1azBLR2ZZUnpvUEVHZUdoWG1DT0pOQ1o3MEhYS1dOaUo0VzNNX0ZSSU9BTndXbGtQNlNDYzMyT0FtTEtkb3dxdWZQSUVRTlgyT1o4VWJnLXdWMUpP?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Mon, 13 Jul 2026 17:09:05 GMT",
+          "fetched_at": "2026-07-19T13:27:54.277050",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "India's Aditya Birla Renewables to buy Sprng Energy from Shell",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazVPeUZhWVdoT1dOcTBoT1liYnZMaV9nNlBkaldjd2UycXlLZmRzZFk2cXpNWkNoZEtQbzhZd0prdTdPX2NkRU9vUmlWeWRMWmFDMzRIaUxzT2NBeHJmeFpScldnWXJMN0tNZlRDSzBoWVRHd25mc2E1NDZ6bHlrNVd2Z2Zzd0cySkVnQlh0YnNwWDVDc2duYVV4Nng1UkV4N2xKV0EtbzhoSnZLN2tVRTVONWxfNTQ?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Mon, 13 Jul 2026 15:55:45 GMT",
+          "fetched_at": "2026-07-19T13:27:54.277054",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "How Birla Opus Disrupted India's Decorative Paint Market",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNURIWWRmUlpyWFpTanhZU3d1NjZGYktBLXh5SlJnVGNHQ3lFZnBId0Jya0JxYUNsVFgxd1dSX01SVEIwWi14eGFFdG9wajJjaWlzQ3U4Wkx5MzYySGNVQU12cTdxZHRyelo5M2NjdmJqb1dBSjZ6VnFzekpxa1Z5MWhlSXNyUV9YTm1rT1NjQm8xOEdiNERlZDhMVS1pNkJGXzQxcTM1d1A?oc=5",
+          "source": "adityabirla.com",
+          "publishedAt": "Thu, 16 Jul 2026 08:09:22 GMT",
+          "fetched_at": "2026-07-19T13:27:54.277062",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "Reliance Retail to rapidly expand JioMart, dark stores, omni-channel business",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLVB6dWFleWcxMnl6bmxGU1d2Z1YwQUZDZExwVUZnWjl6SENaU0xXN0EtMTVUdFZ3T0I5MV9XbnlJOW9MRGZXYVNEX0VpZ0w2X190THFoNnhISWIxWEZZaE0xVzFFdzlzU1NXckVHclpFT3FTWWlNVW1XTHdNN1BudEI2M0ZLUDdoLXdreWJlYTZLbkxZbUx4RHcxQXNvUXNVZ2ZrcQ?oc=5",
+          "source": "Telangana Today",
+          "publishedAt": "Sun, 19 Jul 2026 10:16:32 GMT",
+          "fetched_at": "2026-07-19T13:28:09.779193"
+        },
+        {
+          "title": "Reliance Retail continued to expand its footprint across India, driven by a growing customer base, deeper omni-channel engagement and sustained network expansion. Watch the key highlights from Q1 FY 2026-27. #RILresults #RelianceRetail #Retail #India",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZmNqQlFiUTNzMjFzTElGQVZySmx2bjNaOUJDWkE0cjJSTVd1NnZJLWJkdXpJbVM0SmxvR2JkUzZpTUlKTklwQ2E3M0J6RjRIV0FhRVpHY3RIaTdyS1pHcEJ1X3ZqTG5rOEJPVF9wcDhLMUhib0lrVlo5RlMzY1dUaFVYZGU1QmJDenFVZ3NTZjBZUGwtaFdXREZwbUs4QmYtZ0hEMl9HWGtMSGQwTE1GS0thZ01GMTVxWmc4cUFwMzdzd0RpdXhQb01XMmZaUVVQNHlvTnlaVzB0czhTWFNGUUxLdHczLVI4QmFkMA?oc=5",
+          "source": "facebook.com",
+          "publishedAt": "Sat, 18 Jul 2026 05:16:59 GMT",
+          "fetched_at": "2026-07-19T13:28:09.779210"
+        },
+        {
+          "title": "Reliance Retail Q1 revenue rises 7% but profit drops 14%",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPd0IwVkdydU9DSllqTE5fMXVjTHZzWFYybWZFQW5BeHotbWxVMTJiMEhDZmRkYnk4dXNmdTFNdEdWOEt5a3ZOVnBSSW12M3N5UzhLYjhEUUN4bERHTWpuQjVESU9jVzRzbFc4bkdqd3kwNVdDNHFkTU5MOEtDOGxCeWdqVjBYVGJZZlV2Tnp2b3FJM2V5My0xX2VZVnc0ZHRhaV9YbUdUbER2MTRmVHcycHpwNTE3N3U3Rm5wSXM3YWkyejRUbmJxYnVRYUJHd05tWkhhc0oxbVY2N0dRa250dUtwanRmNG90M0x2bg?oc=5",
+          "source": "MSN",
+          "publishedAt": "Sat, 18 Jul 2026 19:52:01 GMT",
+          "fetched_at": "2026-07-19T13:28:09.779215"
+        },
+        {
+          "title": "Reliance Retail bets on JioMart scale to drive margins, growth",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNclFYZXRGX3VnSjQ2cFhKWjJmQVhOaUctbmNtbmEzMTBWd1dvRk1DUTZwejBHV0dZa3hrTFJEb1MtdlpuTHEydkF0MlI1WGN1TF85U0pVRllRN1ZOaEpqZEZ5SFdEYUk0RDJQUUcwNjlGOG9wMzFHZDBfSFBDajlNNEZMUWRaZHRaTnJ3N0s1ZEJOdXhPRzdrV0NSY055RXZjRXVjUnlUN3A0WE0tLUxDelNvcVRUa0HSAbwBQVVfeXFMUFQ1bGc2QzEzUTBZbzd0ejVEMGtremduenFGX2ZfZV9CZ0Vick1OMzBTdFJ1YmVqREwwWmgzU3V0cE1VU2JmdUFudkh1N25lUG05d192QlpQem10dVRDdVR3cGVDUk94TTF2eTFXUWctZUtmWnVrMnFRLWtKRHp2MzJFaE9tMC16WTNQWm1kWWVtYUJ4cTZpZ1JLSE9ZSEctR2FQX1ZBYlJIWUQyM200dlFvLTBoc3NiR0JqNEc?oc=5",
+          "source": "livemint.com",
+          "publishedAt": "Fri, 17 Jul 2026 17:15:03 GMT",
+          "fetched_at": "2026-07-19T13:28:09.779219"
+        },
+        {
+          "title": "Reliance Retail Q1: Strong demand across categories drives revenue growth",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUVdzNkJhQm9iano3MGxkbHYzUGVqazVVdFNuUXhEempIWDdmTzJaMUZDcE9QVTdnamRYRjM5OU5FNmtDU3lNQnZ6a3lHcERlLXVEbXVvMTkwWmJCQm5STlhnXzRick9Jcmd4SkJETVV2YmIyMWRwRlMza0E5ajVTbFRYVmZhMXByS2t3eW1iTnhrcHR4ZXc4Nkl6LVRNZWQ1SkZlNWkzcV8zSUZYdXlWOHF0Rm1VdVcyQzVzQkdhX1R6ODJaNmcxQdIBzgFBVV95cUxQNVhac0VnbGpfRWo1a2ZaT0RQYjFmVkRUZ3Zweks5LUtldzN2OFlsa2I4Y2Q3VWJLZ25femVYNmUzRFlQYjdCVTljN1JBNktIQkVLRE1Idk10TkItVDVhUnpJb1BkX29NNTVzdkthVlR6bmhmTVlJSnFOdHBTOHRCTU4xczRjR21lRE14UHB4emZCMG5tVkg0bFZWSmNpZ2NUOFdaVlcxTEdheC1FQlBMZW9Nd0gtd1QwNTJ3U2U0Rmpuck1wMnFOY1VUWVVXQQ?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Fri, 17 Jul 2026 14:14:40 GMT",
+          "fetched_at": "2026-07-19T13:28:09.779223"
+        }
+      ],
       "filings": []
     },
     "TCS": {
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-19T08:28:09.894169",
+      "last_updated": "2026-07-19T13:29:06.211930",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 4,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "TCS and Google Cloud launch Gemini Experience Center in Kolkata",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWjR6VmhZV2hDczByUnpNQzJyNndRdDNic203cmEwc1JIcGItV3VCV3BPSVFHSEU4TEdtYjNoQW9fS19STmJGanJYZ3U2OF9sMEFMLTNkUkplT1VGYnp0SkxOOUhfWUloRTJLRngya1ZOcXdtSGRCUDVrSnRiMmJzNkcxbkFRTWdRUXNQZF9HUWdmSGxCSkJuM2EwaDF2cnBISnF6SjRIQTlDV0lyckxV?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Thu, 16 Jul 2026 08:58:28 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946318"
+        },
+        {
+          "title": "Mcap of 5 of top-10 most valued firms jumps ₹1.54 trn, TCS biggest winner",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcUdmZG1pZk1sSXVyN1RTRTVHU0dDSHp5WFFrX1c4T19lRVYwWmFscnRDWVdrQ0drLV9HNDJMUVlqOGUybXlGZUh2eGZNOTZZa0VkOS1RcW9ncWplMTMyb3FXTzhCbDRQTVZXSjBPWVJIZDBEb3J3cFBZbFJoTHlMNDFOYndRbWYyeE9ibDBGSXN4cmYzVlR4WkdNZFowM0JWM0ZGT2xIMzJIdk9fVFN5b0g1bS0tMXRUVElBNktUd1ZQV0xhTW83aGJFSDdVRWlUdDJ0b9IB2gFBVV95cUxOdlRVSklzOHVBa19QX3BsSkRjMlFjRUVIZy1MZFJtY1lUOUJvZVEtaWlReFVIaFZMZHoyUVo4V0JRVE42Z05IVm5xX3kyTGsxZzVackpiZ0p5Ulg3cm1TR1VUSlFVaW0teFgtM3FWZ1dMTE85SnA2QXg4UDluYnU0WlVSODdieG1OZ2lFbnlsTE5oQ3ZRUWhvSThzTjh4SXFqYnBmR2JfNUx1SnQ2SnJUcEl3bWtBcGE5Wm5PRXBxeUVXZjE2NHhSU0IyZVktWjZsS3lVZjRjQVpjZw?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Sun, 19 Jul 2026 05:37:00 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946335"
+        },
+        {
+          "title": "Hero MotoCorp Stock Tops 3 Indian Dividend Shares With 5% Yields",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSW5wT0RRS2syRXBaWkcyOXJRSWFFVUtxem9wQnZydXJ6UFVmdDV3R0tSa2t5YUJqQmhHNWdJaGFUeFhDdjZsak15UXBpcVhGcVFMdk9sbGdoc1NHMHlTSnRYMHc1c2FaUWVOZzJobDBIVGxIdDZqelZGZ2NFaWZxUnU1RHBCMHRVTHZNcXcwUjVpUUdTUGFITXhMbVVSVjZ2Q3JXY2p0dkU4THR3RzVLUk03dHpNUVNNMTBXZzJFejBYei1FUWRSc3RQeWtycWZrQkVkcDFfMnDSAd4BQVVfeXFMTi1Wck1TWk5fWE5nSDBaS0dHX3ZXWmVBLWtINHR0aFRQZkdTZF9pNUdxR3BnTnNQMF9JRnp2R0Rvd1dWX2REcnBEYkVHOEE0QlNQODhJRmV1cG1PeHBiU3EyZDU0N3hUbjN3NnhxazF5WlFZZTRBcGJTME11U2NhVjNfblBLYXFYcmQwS3NaaXhIYUpvZHIxUzVCUFUwR20xbldDVlBsVW4zMlZLcTRPQ2ZRN3BUWDlRMnlQM3ZNalU2TkxvWWIxM0Yxc1h4TkZPQnRSVTloU2NyVjF6YXlB?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Sun, 19 Jul 2026 09:04:48 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946339"
+        },
+        {
+          "title": "India's Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZHVWMTZfdlZoNHBPbVhNSTktYk5yTzBaN3BOTWc2NjNhczhUWVJVTktLZld3WC0zeGEyREFDZk1kWkFjNzBFaXV0M3JSMC1mNFlPQU9DYy1palFFbTRoUFYxR1JZVDNRVmhCQzREYnMxOGd1cEFhNE9aeTFOVzhDTjF6UVY3b0RzUm5ReWIyQkQ2ZjF2OC1kNG40clpPNzhkTTJZOWJUckc0SUlaWVhaa1VFOVpkVXA3am9aY1I2bWlqODM3N2c?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Sun, 12 Jul 2026 08:37:43 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946344"
+        },
+        {
+          "title": "Tata Consultancy Services shares rise 2.35% in today's session",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObzZTQVRnMDFDQVdlWFZTZFp2VTJyb1JsVFNUaXd5ZVFkWHk1S2F2UmxsQ2JhMW1TM0M4SXI3cFNGTERacElIZW5hNWhDWU1yQkpQT181MXdybjZXZjFReEh6c1dkZnd5eWJULU5kbGEwaUR3aFRzUTMzMmcxZmFsUjVCVWhaZjQ3ckkxYXRxZXZoNnprYmdiTktsMnZYOVN4NGFzMXNVSElQWGhDTXVaSmFwel9ZVG5WeVZuc1lqdXhmQQ?oc=5",
+          "source": "TradingView",
+          "publishedAt": "Fri, 17 Jul 2026 05:36:00 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946347"
+        },
+        {
+          "title": "TCS News: Tata Consultancy Services Chosen as Strategic Technology Partner for New Terminal One at JFK Airport",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPS0VFMWZnQmJtMVh2UHRKTnhEcm1MU2llcUZMTDBNVWZ5ZmxxdW9lMDZETEc0NE9SeXZ0NnVGeldWRm1rc3lpenlvcDlOTzdWamJSYTNDS192ek9zMEhBRFdyLVRtc1FJRHcyUUwxSGJaa0w4cEtCVHpuQTIzVWtNTUpQNE1JeWZtWFdtb0JlUTRacFRUS3R2b0NURmVta1JjTHp0d0pXYzBLcWFxVUhpT1ZzY09FR1VOWHIxWVBMRlRDOVVQcnpEd2ZUN3FjaEUtWTN0ME5QOEUyUElSNHdEVWlVYlpzYjU5MHc?oc=5",
+          "source": "India Infoline",
+          "publishedAt": "Tue, 14 Jul 2026 08:42:15 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946351"
+        },
+        {
+          "title": "Tata Consultancy Services and Google Cloud launch AI-focused Gemini experience centre in Kolkata",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPb2JkQk5ZbDJZNzlOMkU4YjhBRmhibzhjMjRJNmcyZFdmemlaRnAxLW9QckVURXQxVnE1Ykx0TFJKQ1h3UXFBRzRFZElTR0pvUGV6UnVCLVowN0M5cHNNSXJwZHFxeDFMNzE5RjBTNjVpWGhLci1CQUVlVHVXSm9RRjY2b1VQNG1LbGZ1Q1puajJrTGJrbDJzdVppb09yTEhhdzBHQk9uUTNEc1lmZDI3bmxPNGJTWXdpTnJGSkRXNkZJRGx1eEF6LXlSU0ptNkwyTmtHcUpHMTQyMlktVVV2RnRn0gHnAUFVX3lxTE1Td1lSWGNMaVczM043eU5meFV5SHJNN1pra0hteDdhMTZoNVN6dU5iajNBZVBRVVJEZW5iMVFrZ2ZjSi14NGxWdlE1WG9YYXRUN3kyM1I0NkVCMUZpeWYySHFyUVZkNUN4TEJ4QjFqSmZkTXBveGpQUzdJRHA4U2RhY0JUeGI5TTlVbDFqejBRbUJkYW5tU3VBUE5jNXFWeGppcWdmYWVha2dBY0lmSVd3aWJGUDR6Slo5WjdtU3cxOFFiV3ZYU3FJXzJ4YlN5T3VVb2g3dkdvekx3Mm0tS3ZnRGZYZWZVQQ?oc=5",
+          "source": "Telegraph India",
+          "publishedAt": "Thu, 16 Jul 2026 08:18:02 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946355"
+        },
+        {
+          "title": "Tata Consultancy Services (TCS) has been named the strategic technology and innovation partner for The New Terminal One at JFK International Airport, tasked with building the digital foundation for what is positioned as the world's most advanced airport exp",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFNEd1N2VzJxZ24tZjRKOHFoeGl0TG5kelNrb0Jsc2ZoYTk1RW9GWVpfMVYtOGhLMWRUTVFCUUZRVEdlVWtiaXhKREhtZDlvc29JUllVYzU0ZzlaWnYxS3F6U3Y5WXVhbkdxaFdxLXgyUDE5Yzh1Z1FubmFFcDlmWjVZSk9JS0hMQlVnQkFzWk5BdENZeERKNzg4RC1tNlowUUtmT2ZEUjNnLUc3X3R2RDJR?oc=5",
+          "source": "LinkedIn",
+          "publishedAt": "Tue, 14 Jul 2026 10:00:17 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946361"
+        },
+        {
+          "title": "Tata Consultancy Services shares rise 2.35% in today's session",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTWtsalcyeURLR01RaXhDRGVtOWxzemxkTnd1QUZiOFlsYVNiSURJVFVvdnNfYkJpUHdiZTBUYm5PN1hETDZxbGdfdzJ0WmFkNVhjclVBbFJIWkpQTGJuNThIRTMwdkhBeWRlUDhVenlPZi03b3U3Ry1SN2t6aWlGMlkzaUVGRzEyWVJsclhqTEx1bjhkMnhlQmNhRGRyTGgzVldpb0RndDM1VDFBQ2ZyNE9scUltWGd2dVVaQmdGNGpnMkFBdTRyLW9PcmwteXpKbDBSUnp5WWcyLUnSAdsBQVVfeXFMT01rbGpXMnlES0dNUWl4Q0RlbTlsc3psZE53dUFGYjhZbGFTYklESVRVb3ZzX2JCaVB3YmUwVGJuTzdYREw2cWxnX3cydFphZDVYY3JVQWxSSFpKUExibjU4SEUzMHZIQXlkZVA4VXp5T2YtN291N0ctUjdremlpRjJZM2lFRkcxMllSbHJYakxMdW44ZDJ4ZUJjYURkckxoM1ZXaW9EZ3QzNVQxQUNmcjRPbHFJbVhndnVVWkJnRjRqZzJBQXU0ci1vT3JsLXl6SmwwUlJ6eVlnMi1J?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Fri, 17 Jul 2026 05:36:11 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946364"
+        },
+        {
+          "title": "Tata Consultancy Services advances Friday, outperforms competitors",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcWxjbHdIWThiQmdHRklLYWJWZVcwcERVZjQydjcxd21BSTZoU3Y0SFFiQ1pHLWxReFVjSVRYcGpzMnQ2Nl9pb2Itd045Q08xTkI3V1QxMjRSRHZ6TlBid1Rid0VzWjl0WVBNclR2eU5tYmNRaUFoSFUwamhyVmFsR3U4Sm1Hay1fUzF3U1VwLXl2VlpsZ2NNVEJiUG1xSmdVZzFoS1JDbGZOMTBDVmppc3E2ZWgxNjlkWWMtNWRRRWRzeTdfY3A1Y3hhZmlwSUNzWFBpdGxkSUVBMzg?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Fri, 17 Jul 2026 10:33:00 GMT",
+          "fetched_at": "2026-07-19T13:28:23.946368"
+        }
+      ],
       "research_gaps": [
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
@@ -182,7 +337,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-19T08:29:34.628224",
+      "last_updated": "2026-07-19T13:30:21.812801",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +421,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-19T08:31:05.193261",
+      "last_updated": "2026-07-19T13:31:36.802826",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +505,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-19T08:32:14.077764",
+      "last_updated": "2026-07-19T13:32:52.349129",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +589,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-19T08:33:37.292980",
+      "last_updated": "2026-07-19T13:34:04.626880",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +673,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-19T08:35:16.774126",
+      "last_updated": "2026-07-19T13:35:23.981927",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,43 +757,21 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-19T08:36:46.817813",
+      "last_updated": "2026-07-19T13:36:49.784665",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": -0.33,
-        "label": "Negative",
-        "pos": 1,
-        "neg": 2
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at Delhi Capitals",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at Delhi Capitals: layoff. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "DC vs CSK, 48th Match, Indian Premier League 2026 - Commentary  IPL 2026 UPDATES: GT vs CSK: GT thump CSK by 89 runs  Dhoni tipped to shape CSK's post...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "layoff"
-          ],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -678,99 +811,37 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "DC vs CSK, 48th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEt5MGRMeEdUSFdlUVJuZklMYTh2bi1HaFFjbVRFYzN2OTloUGJzdmRoQ0Z2SFBVY1RZQUc2bU4wejk3LTdTQkZpd09DODZzMGlFNXVCMFNKdW1KRllJUWRQaVg0MHhxYlV1dEhmclVNNGtySTFYcE9DYWtfblllV3NOZ250NUxmd3Q4VjZ5Nm5vN2JvaUdLbU1WeVhWR3pF?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 19 Jul 2026 03:28:07 GMT",
-          "fetched_at": "2026-07-19T08:35:48.658603",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "IPL 2026 UPDATES: GT vs CSK: GT thump CSK by 89 runs",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wRUFIV29SUmhYUExaTzZrU2JSUkYzTS16TmVhRnR2NjRMcVdoWDlYUXM1RG50SHgwTWRwYzlMNWZWdUFLQ21LQ3ZWWk9CclNzM05CdE53b1F4aUp3eWZsd202TTlWaE5abVktMHJCUFpEeDhrRUo4ZQ?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-19T08:35:48.658619",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Dhoni tipped to shape CSK's post-Fleming coaching era",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb2VCWVFMOHQ0RkF4Y2k4QkFiVUZSY2FQejZUMzZ4TzV5SWNGcElVcTVMdWlBc2NHLWdEb0VldVItcW04T2VMMHdnRUQ5YXBjaVA5NGp2VlBQQ1VQbUZnUllwZzBESE5SX1NyS0YzcFc3WDllTnBvR3dJUVhmRVRMUjAyNGlmdlVXRDBJZFVfVHlMeWVSVW9sWGRvTTRHaUJESzBQd0M0NHc?oc=5",
-          "source": "MSN",
-          "publishedAt": "Fri, 17 Jul 2026 06:37:45 GMT",
-          "fetched_at": "2026-07-19T08:35:48.658624",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "The Wisden Weekly Cricket Quiz: Who was the CSK head coach before Stephen Fleming?",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRWlTMUJ5X3h1a1BfWG1PM1J3bTdUU2o0ZzFPd1AzSEZPRWZvOGtPeUJfZnc4dm5FSjcwdEd4enhFWDdGM0lDWEkzUVJYYlBWZExDcldjTmo5WXBaelVEUzlnY3Q1RkpWcWpkUE1Oa0VVSHE1OW1NYUNTbjA3S3poNkJQLVRubFo2LVA4eklXTnVuNktDczhvN0V0cFhxbE5lMWE1SHZ5dFVmVUpQeW9RSzFxQU5jYVk4d1JIT21ZUHNLUQ?oc=5",
-          "source": "Wisden",
-          "publishedAt": "Fri, 17 Jul 2026 11:13:46 GMT",
-          "fetched_at": "2026-07-19T08:35:48.658627",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Gujarat Titans",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVJqSVMwemp1TGctcG1XYWNqdzNfa2lIZ2taSHFmcEZyYW9BQUtxUkhpM00yNVhNWFpDd2Q1UXlXUTFLcGNkblVoTW4tT0tyUGVpdXpjaE1vMmhjbmNoSTh3a055LWxmU2xBb3h0RDIyQ1VBNFAxcmVWM1Z1c05LVVo3R1pIVTI5Q1NsWHZXeE81SXo3Uk8tZkNqZk9oam9EZ2QtRXcxVmU5MUhGQVFVamF5N3dfM0xSR3VCZndLS21uSjBOUGMtUFpIclhZRkIxbDQyTElkMS15SjZZMHV1clBZU3dxbnNXcXp6eW4tSGVtODVHT01fYk10QXg3LUdoZmc?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-19T08:35:48.658632",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "DC vs KKR, 51st Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdy11c3RoYU41WFcySTRLUzJVWGhabE9iMFRVS2ZIOG9LcW9zUHNmeGZaM3NxWXF5MDltSmtGYXZyb0NJZ2Jzb204dldKenZpbURoVkE0VHpoczZGRzlKNW5SVFg1S0o1ek5SQ2UweXBqY1NZLTNQV2h1cGxORG9VT1lnVXN3TnpQUm9HdGl2UWFKRktkejFGZHRjQWNUOFAt?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 19 Jul 2026 03:56:49 GMT",
-          "fetched_at": "2026-07-19T08:36:46.817449"
-        },
-        {
-          "title": "DC vs RR Highlights, IPL 2026: Delhi Capitals Dent Rajasthan Royals' Playoff Hopes With 5-Wicket Win",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMko5Wjd3bHdVUlRBT21UWDIybzNzT1o4VEt1RnFyOGhEVmItcVRuZS1aMEZYTWpMdTNRcG1YU0VraUJORjVWTmpfY3VnTlF0RWtaRUxqNndVSHdmSmJxMkt1c0tjSkwzMlhxZUlhTWJqT1JObFk2VWg1OFdINjl6ZGRSYi1wNzREMEtBbkhXRElxUmwtek9fUEVsN0h2MW83NXFiX001RjMyaUJtbTJvdWpEeFFCVG1JOFBTT2s5RVVKaDRNX3F6LVNtQWFQTlJlS2ZNTlR2MjZOcTY1ZTM4Q3ZLRV81Vnh0Rk5Rbk53ejNGQWJsTi1PRzVCQjhnOUtUa2c?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Sun, 17 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-19T08:36:46.817466"
-        },
-        {
-          "title": "IPL 2026, KKR vs DC Updates: DC beat KKR, end campaign on a high",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tNWpOWE9IRDdpZ2hPU3hzWHZsQjJqNk1heFNwNXZFVDZNaTlaMXFIMEhiQVRHU0cxZGd2aTRldlpBc3ZGcUlSR3V0cXJ6YkhPZmJrTElvcUN4MURZc3JJX3N1aEJHLXVFMXpMbXNhZEpWLXZEczFndg?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-19T08:36:46.817472"
-        },
-        {
-          "title": "DC vs RR Highlights, IPL 2026: Delhi Capitals beat Rajasthan Royals by 5 wickets",
-          "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNN3hTVDUyN0dCZi0wV2hZQThOejl3UFZwdGdlZEtnS0dXWHhDdjNWcFVfOGRkR2pKclhZSDFFd0pCTTg1OU9ITmhtdUg1alV3ZVlGREwtTzMyaUpkT2RyNDJYQWtGMlJEMG9TYjA3ZFIyVFh1M0g4WWN2Z2p4WmlYeGZFY21vRUh1T0Z3aFhaV2RlU2dSakFwTjlXdGlCMlhycnE4bUhVUEtRc0dQc0pfdnVQQmZ5YlRsN2VQTnFSY2gwRmFhODFWS2JfblJUYmV6STd0Rk1uNGJMemtjTnNWdVNvUVJNTWtsRDlMRGk5RlQ5QlI2SWNiQUt4UjRSR3g1ZUltWHB5Z2tyMlVjRXZiUjZYdkkwY0ZxaHViVy1sR2g2ekhRb3pmMjNJODU0eVlHdnJla3M1QTRtTzNDRW1oTnNrQ2NZc0l0bl8ycjVFU001a01EQnVKMHBZcXlmeGswZ0dNQWx30gHrAkFVX3lxTE9oaXQ2Rm56UXdmTF80cGZxOGpRejFhNGpZenVUZS16UW9LOFd1bGRiZVRhT2FJQVNmZ04ybV9FWEpGUGZvVXdnemtVX2FKZnAwaXFUUmdna2puc0ttWVExTVlUZi1SbVFXV1FpRE9QbjlZX25iZ2p6ODFra18tczlmZWh5UGxVSmpUTXBCTUt3SXRJQjJ1a0ZyU00wczNHTnpwQ3oxYnFobnpSZllhMzBCZW9aYlB6dlMyLV91RXhoWGpKYVUxOHczaHRuU2ttX3BraE5XSXBlUmU5R3Z4X00yN29HMTBDSkpaMXlIMjRhYnZVQll6aXNWU2lFcXkydm53bUxfbE9LcWphUUJ6azhsQ01Ibl9GM1pEcnJmMENoSnRuVnRJRUFMV3JfVkQtUjBNeEhHQ1Y4QmNGSzdobGVLeUtYYzBha2dCU0RpLTFtVHhpTG9faTR5NDMxVVI4bXRzaEdrTmJPTzQ4SQ?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-19T08:36:46.817476"
-        },
-        {
-          "title": "LSG vs DC, 5th Match, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRk1uWXlvYmhNRnJPc1pTZWxVTDAwMHk2Z0JXVHdmZTJaRVFwcWdWUEkzTmpaQWxwVVFKeExIN2VSeGpMMEREczdMeXRLVXBSX1o2WkZrcm5fQllxbUpqQzJzZE1XNnVIejB0dHNHYlFybWxMb3pOVTA0VDlWQUJuNFZZRnA1ZHVNNkFQdWFzZ19mM2RoS2IzWHBsTXVmMjZVcURB?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 19 Jul 2026 03:33:21 GMT",
-          "fetched_at": "2026-07-19T08:36:46.817480"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-19T08:37:10.687639",
+      "last_updated": "2026-07-19T13:37:19.850409",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
