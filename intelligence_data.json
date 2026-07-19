@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-19T03:31:10.062719",
+    "generated_at": "2026-07-19T08:37:10.687654",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-19T03:22:33.951037",
+      "last_updated": "2026-07-19T08:26:50.550921",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-19T03:23:54.797259",
+      "last_updated": "2026-07-19T08:28:09.894169",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-19T03:25:12.781941",
+      "last_updated": "2026-07-19T08:29:34.628224",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-19T03:26:37.704993",
+      "last_updated": "2026-07-19T08:31:05.193261",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-19T03:27:20.772797",
+      "last_updated": "2026-07-19T08:32:14.077764",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-19T03:28:31.051536",
+      "last_updated": "2026-07-19T08:33:37.292980",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-19T03:29:51.853638",
+      "last_updated": "2026-07-19T08:35:16.774126",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,21 +602,43 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-19T03:30:47.377012",
+      "last_updated": "2026-07-19T08:36:46.817813",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.33,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Delhi Capitals",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Delhi Capitals: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "DC vs CSK, 48th Match, Indian Premier League 2026 - Commentary  IPL 2026 UPDATES: GT vs CSK: GT thump CSK by 89 runs  Dhoni tipped to shape CSK's post...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -656,42 +678,104 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "DC vs CSK, 48th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEt5MGRMeEdUSFdlUVJuZklMYTh2bi1HaFFjbVRFYzN2OTloUGJzdmRoQ0Z2SFBVY1RZQUc2bU4wejk3LTdTQkZpd09DODZzMGlFNXVCMFNKdW1KRllJUWRQaVg0MHhxYlV1dEhmclVNNGtySTFYcE9DYWtfblllV3NOZ250NUxmd3Q4VjZ5Nm5vN2JvaUdLbU1WeVhWR3pF?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 19 Jul 2026 03:28:07 GMT",
+          "fetched_at": "2026-07-19T08:35:48.658603",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL 2026 UPDATES: GT vs CSK: GT thump CSK by 89 runs",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wRUFIV29SUmhYUExaTzZrU2JSUkYzTS16TmVhRnR2NjRMcVdoWDlYUXM1RG50SHgwTWRwYzlMNWZWdUFLQ21LQ3ZWWk9CclNzM05CdE53b1F4aUp3eWZsd202TTlWaE5abVktMHJCUFpEeDhrRUo4ZQ?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-19T08:35:48.658619",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Dhoni tipped to shape CSK's post-Fleming coaching era",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb2VCWVFMOHQ0RkF4Y2k4QkFiVUZSY2FQejZUMzZ4TzV5SWNGcElVcTVMdWlBc2NHLWdEb0VldVItcW04T2VMMHdnRUQ5YXBjaVA5NGp2VlBQQ1VQbUZnUllwZzBESE5SX1NyS0YzcFc3WDllTnBvR3dJUVhmRVRMUjAyNGlmdlVXRDBJZFVfVHlMeWVSVW9sWGRvTTRHaUJESzBQd0M0NHc?oc=5",
+          "source": "MSN",
+          "publishedAt": "Fri, 17 Jul 2026 06:37:45 GMT",
+          "fetched_at": "2026-07-19T08:35:48.658624",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "The Wisden Weekly Cricket Quiz: Who was the CSK head coach before Stephen Fleming?",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRWlTMUJ5X3h1a1BfWG1PM1J3bTdUU2o0ZzFPd1AzSEZPRWZvOGtPeUJfZnc4dm5FSjcwdEd4enhFWDdGM0lDWEkzUVJYYlBWZExDcldjTmo5WXBaelVEUzlnY3Q1RkpWcWpkUE1Oa0VVSHE1OW1NYUNTbjA3S3poNkJQLVRubFo2LVA4eklXTnVuNktDczhvN0V0cFhxbE5lMWE1SHZ5dFVmVUpQeW9RSzFxQU5jYVk4d1JIT21ZUHNLUQ?oc=5",
+          "source": "Wisden",
+          "publishedAt": "Fri, 17 Jul 2026 11:13:46 GMT",
+          "fetched_at": "2026-07-19T08:35:48.658627",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Gujarat Titans",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVJqSVMwemp1TGctcG1XYWNqdzNfa2lIZ2taSHFmcEZyYW9BQUtxUkhpM00yNVhNWFpDd2Q1UXlXUTFLcGNkblVoTW4tT0tyUGVpdXpjaE1vMmhjbmNoSTh3a055LWxmU2xBb3h0RDIyQ1VBNFAxcmVWM1Z1c05LVVo3R1pIVTI5Q1NsWHZXeE81SXo3Uk8tZkNqZk9oam9EZ2QtRXcxVmU5MUhGQVFVamF5N3dfM0xSR3VCZndLS21uSjBOUGMtUFpIclhZRkIxbDQyTElkMS15SjZZMHV1clBZU3dxbnNXcXp6eW4tSGVtODVHT01fYk10QXg3LUdoZmc?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-19T08:35:48.658632",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "DC vs KKR, 51st Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdy11c3RoYU41WFcySTRLUzJVWGhabE9iMFRVS2ZIOG9LcW9zUHNmeGZaM3NxWXF5MDltSmtGYXZyb0NJZ2Jzb204dldKenZpbURoVkE0VHpoczZGRzlKNW5SVFg1S0o1ek5SQ2UweXBqY1NZLTNQV2h1cGxORG9VT1lnVXN3TnpQUm9HdGl2UWFKRktkejFGZHRjQWNUOFAt?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 19 Jul 2026 03:56:49 GMT",
+          "fetched_at": "2026-07-19T08:36:46.817449"
+        },
+        {
+          "title": "DC vs RR Highlights, IPL 2026: Delhi Capitals Dent Rajasthan Royals' Playoff Hopes With 5-Wicket Win",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMko5Wjd3bHdVUlRBT21UWDIybzNzT1o4VEt1RnFyOGhEVmItcVRuZS1aMEZYTWpMdTNRcG1YU0VraUJORjVWTmpfY3VnTlF0RWtaRUxqNndVSHdmSmJxMkt1c0tjSkwzMlhxZUlhTWJqT1JObFk2VWg1OFdINjl6ZGRSYi1wNzREMEtBbkhXRElxUmwtek9fUEVsN0h2MW83NXFiX001RjMyaUJtbTJvdWpEeFFCVG1JOFBTT2s5RVVKaDRNX3F6LVNtQWFQTlJlS2ZNTlR2MjZOcTY1ZTM4Q3ZLRV81Vnh0Rk5Rbk53ejNGQWJsTi1PRzVCQjhnOUtUa2c?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Sun, 17 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-19T08:36:46.817466"
+        },
+        {
+          "title": "IPL 2026, KKR vs DC Updates: DC beat KKR, end campaign on a high",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tNWpOWE9IRDdpZ2hPU3hzWHZsQjJqNk1heFNwNXZFVDZNaTlaMXFIMEhiQVRHU0cxZGd2aTRldlpBc3ZGcUlSR3V0cXJ6YkhPZmJrTElvcUN4MURZc3JJX3N1aEJHLXVFMXpMbXNhZEpWLXZEczFndg?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-19T08:36:46.817472"
+        },
+        {
+          "title": "DC vs RR Highlights, IPL 2026: Delhi Capitals beat Rajasthan Royals by 5 wickets",
+          "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNN3hTVDUyN0dCZi0wV2hZQThOejl3UFZwdGdlZEtnS0dXWHhDdjNWcFVfOGRkR2pKclhZSDFFd0pCTTg1OU9ITmhtdUg1alV3ZVlGREwtTzMyaUpkT2RyNDJYQWtGMlJEMG9TYjA3ZFIyVFh1M0g4WWN2Z2p4WmlYeGZFY21vRUh1T0Z3aFhaV2RlU2dSakFwTjlXdGlCMlhycnE4bUhVUEtRc0dQc0pfdnVQQmZ5YlRsN2VQTnFSY2gwRmFhODFWS2JfblJUYmV6STd0Rk1uNGJMemtjTnNWdVNvUVJNTWtsRDlMRGk5RlQ5QlI2SWNiQUt4UjRSR3g1ZUltWHB5Z2tyMlVjRXZiUjZYdkkwY0ZxaHViVy1sR2g2ekhRb3pmMjNJODU0eVlHdnJla3M1QTRtTzNDRW1oTnNrQ2NZc0l0bl8ycjVFU001a01EQnVKMHBZcXlmeGswZ0dNQWx30gHrAkFVX3lxTE9oaXQ2Rm56UXdmTF80cGZxOGpRejFhNGpZenVUZS16UW9LOFd1bGRiZVRhT2FJQVNmZ04ybV9FWEpGUGZvVXdnemtVX2FKZnAwaXFUUmdna2puc0ttWVExTVlUZi1SbVFXV1FpRE9QbjlZX25iZ2p6ODFra18tczlmZWh5UGxVSmpUTXBCTUt3SXRJQjJ1a0ZyU00wczNHTnpwQ3oxYnFobnpSZllhMzBCZW9aYlB6dlMyLV91RXhoWGpKYVUxOHczaHRuU2ttX3BraE5XSXBlUmU5R3Z4X00yN29HMTBDSkpaMXlIMjRhYnZVQll6aXNWU2lFcXkydm53bUxfbE9LcWphUUJ6azhsQ01Ibl9GM1pEcnJmMENoSnRuVnRJRUFMV3JfVkQtUjBNeEhHQ1Y4QmNGSzdobGVLeUtYYzBha2dCU0RpLTFtVHhpTG9faTR5NDMxVVI4bXRzaEdrTmJPTzQ4SQ?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-19T08:36:46.817476"
+        },
+        {
+          "title": "LSG vs DC, 5th Match, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRk1uWXlvYmhNRnJPc1pTZWxVTDAwMHk2Z0JXVHdmZTJaRVFwcWdWUEkzTmpaQWxwVVFKeExIN2VSeGpMMEREczdMeXRLVXBSX1o2WkZrcm5fQllxbUpqQzJzZE1XNnVIejB0dHNHYlFybWxMb3pOVTA0VDlWQUJuNFZZRnA1ZHVNNkFQdWFzZ19mM2RoS2IzWHBsTXVmMjZVcURB?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 19 Jul 2026 03:33:21 GMT",
+          "fetched_at": "2026-07-19T08:36:46.817480"
+        }
+      ],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-19T03:31:10.062714",
+      "last_updated": "2026-07-19T08:37:10.687639",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
         "score": 0,
@@ -763,43 +847,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-19T03:31:10.062481"
-        },
-        {
-          "title": "TC Man Arrested for Possessing Child Sexual Abuse Material",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVWlSQktaYnB0TTVZNlM0WEVWVFBKT2FwWWRBS0xGb2Exb1JyUURHclAzZWUweWptTkJIZTItQ05JcU5wVllEd09sWGhmUjg0MDdHZV90Y3dISF9iRHUxUmliMWJwdHhYS0FSdXRHdmZIN1M1bnhfZWRLUTcxR0VZS2hid0JUZ3plS3dsVDd6d0lOYU43bFotcWNqZW9mUQ?oc=5",
-          "source": "The Ticker",
-          "publishedAt": "Thu, 16 Jul 2026 18:41:29 GMT",
-          "fetched_at": "2026-07-19T03:31:10.062495"
-        },
-        {
-          "title": "BNB Plus (Nasdaq: BNBX) to trade on OTCQB after Nasdaq delisting",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRWlDUWlfbEZFTWNER0psczdSYnhhWDJSUVJyQXZWRElKX0U1UTlYZEJ0aVdnUk1JRTRHS1dmR0tGSURXOHdMNHdjaXJLNms4YmFKc3BPNTZiM0o3M1lramhVc2dObjZoUUh0ZmpHZHRjRHBJWEJGdFhzTFNaTVRKNjgwQl84c1l0MkprbDEyb2o5UUNkZjJYTE54LTJ4d19YVlVuYQ?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Mon, 13 Jul 2026 12:06:08 GMT",
-          "fetched_at": "2026-07-19T03:31:10.062499"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-19T03:31:10.062507"
-        },
-        {
-          "title": "BNB Plus Corp. (NASDAQ: BNBX) amends registration rights timing for investors",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNWdQdTAzVkFYdmZTX1l1dE11M05aNUNxMExUcS0wWUpQNjAtZVB5X2M0QkZMT3hMX0NBM0Q3V2YxY0Q3Z09JcXRKbGREbjdVc0k2VDY5TE9wUEN3T2pseENiRFBCUnV0MU5faEhLZ2pOc2dldDhFN0t0b2lvZ3VDd2w1STVvSEhGTmdiMXNmWkVvdUhraGtwTE1EVVJTS3MzeFNESg?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Thu, 02 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-19T03:31:10.062510"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
