@@ -51,6 +51,7 @@
 <base target="_blank">
 <base target="_blank">
 <base target="_blank">
+<base target="_blank">
 </head>
 <body class="bg-primary text-white min-h-screen">
 
@@ -626,6 +627,53 @@
             "diversity_score": 68
         }
     },
+    "Cinepolis India": {
+        "ticker": "CINEPOLIS",
+        "sector": "Entertainment & Exhibition (Multiplex)",
+        "market_cap": "Privately Held (Cinépolis Global)",
+        "revenue_2024": "₹1,750 Cr",
+        "employees": "3,500+",
+        "founded": 2009,
+        "headquarters": "Mumbai, Maharashtra",
+        "ceo": "Devang Sampat (Managing Director)",
+        "description": "Cinépolis India is the Indian subsidiary of Mexico-based Cinépolis, the world's 4th largest cinema exhibitor. Operating 489 screens across 41 cities under brands Cinépolis, Cinépolis VIP, and Fun Cinemas. Known for introducing the 'Future Ready Cinema' model with laser projection, Dolby sound, and premium recliner seating. First international multiplex chain in India, focusing on Tier-II and Tier-III city expansion alongside premium metro offerings.",
+        "financials": {
+            "revenue": [850, 1020, 1346, 1750],
+            "net_income": [-45, -12, 32, 85],
+            "rd_spend": [25, 35, 55, 80],
+            "years": ["FY23", "FY24", "FY25", "FY26"]
+        },
+        "stock_price": [420, 465, 510, 485, 540, 520, 575, 560, 610, 595, 650, 635],
+        "stock_dates": ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May"],
+        "research_gaps": [
+            {"title": "Post-COVID Admissions Recovery Gap", "severity": "High", "description": "Admissions still 20% below pre-COVID levels despite strong content slate. Need to understand barriers to cinema-going among lapsed audiences and Gen-Z preference shift toward streaming and experiential entertainment."},
+            {"title": "OTT Windowing & Theatrical Exclusivity Erosion", "severity": "High", "description": "Shrinking theatrical windows (now 4-6 weeks vs 8-12 weeks pre-pandemic). Direct-to-digital releases cannibalizing box office. Need data on optimal windowing strategy and consumer willingness to wait vs. pay for theatrical experience."},
+            {"title": "Tier-II/III City Expansion Viability", "severity": "Medium", "description": "Expansion into Tier-II/III cities promising but mall infrastructure shortage limiting growth. Need granular market research on screen density, disposable income, and content preference in emerging markets like Indore, Lucknow, Coimbatore."},
+            {"title": "F&B Revenue Optimization", "severity": "Medium", "description": "F&B spend per head at ₹95 vs PVR INOX's ₹148. Limited premium snacking options and digital ordering adoption. Need menu engineering research and pricing elasticity studies for in-cinema dining."},
+            {"title": "DOOH Advertising Revenue Scaling", "severity": "Medium", "description": "350+ LED screens deployed across 101 cinemas but advertiser adoption nascent. Need media buyer research on cinema DOOH vs traditional OOH ROI, and programmatic buying readiness among Indian brands."},
+            {"title": "Premium Format Penetration", "severity": "Low", "description": "VIP/recliner formats limited to 15% of screens vs 25% at PVR INOX. Consumer willingness to pay 2.5x premium for IMAX/4DX unproven in non-metro markets. Need format-specific demand forecasting."}
+        ],
+        "solutions": [
+            {"title": "Lapsed Moviegoer Reactivation Research", "impact": "High", "timeline": "6-12 months", "description": "Segmentation study of pre-COVID vs current audience base. Identify churn drivers (streaming habit, pricing, content quality) and test reactivation campaigns. Quarterly audience recovery tracker with cohort analysis and predictive churn modeling."},
+            {"title": "Theatrical Windowing & Release Strategy Intelligence", "impact": "High", "timeline": "8-14 months", "description": "Conjoint analysis on consumer willingness-to-pay for theatrical vs. digital release timing. Model revenue impact of different windowing strategies across Bollywood, Hollywood, and regional content. Quarterly release optimization playbook for studio partnerships."},
+            {"title": "Tier-II/III Market Opportunity Sizing", "impact": "Medium", "timeline": "12-18 months", "description": "District-level TAM analysis for 50 emerging Indian cities. Map mall pipeline, disposable income trends, and regional content consumption. Quarterly expansion priority matrix with site-selection scoring model."},
+            {"title": "In-Cinema F&B Experience & Pricing Research", "impact": "Medium", "timeline": "6-12 months", "description": "Menu concept testing, pricing experiments, and digital ordering UX research across 20 pilot cinemas. Track F&B conversion rates and average spend per head. Quarterly F&B optimization dashboard with SKU-level demand forecasting."},
+            {"title": "Cinema DOOH Advertiser Perception Study", "impact": "Medium", "timeline": "6-12 months", "description": "B2B research among 200 media buyers and brand managers on cinema DOOH effectiveness vs. traditional OOH and digital. Test programmatic buying interfaces. Quarterly advertiser confidence index and media kit optimization."},
+            {"title": "Premium Format Demand & Pricing Elasticity", "impact": "Low", "timeline": "8-12 months", "description": "Willingness-to-pay research for VIP, IMAX, and 4DX formats across metro and Tier-II cities. Test dynamic pricing models. Quarterly premium format ROI analysis with seat-mix optimization recommendations."}
+        ],
+        "competitors": [
+            {"name": "PVR INOX", "market_share": 43, "strength": "1,745 screens, market leader, IMAX/4DX dominance, F&B innovation"},
+            {"name": "Carnival Cinemas", "market_share": 15, "strength": "400+ screens, Tier-II focus, value pricing"},
+            {"name": "Miraj Cinemas", "market_share": 8, "strength": "Rapid expansion, Tier-II/III presence, regional content focus"},
+            {"name": "INOX (legacy)", "market_share": 6, "strength": "Strong East India presence, merged into PVR INOX"}
+        ],
+        "esg": {
+            "carbon_neutral": "2030 target (Global commitment)",
+            "renewable_energy": "Solar-powered cinemas pilot in 12 locations",
+            "recycled_materials": "₹8 Cr community film education programs",
+            "diversity_score": 58
+        }
+    },
     "TCS": {
         "ticker": "TCS",
         "sector": "IT Services & Consulting",
@@ -1106,6 +1154,14 @@
             });
         }
 
+
+        function updateOverviewMetrics(data) {
+            if (!data) return;
+            document.getElementById('metricGaps').textContent = data.research_gaps.length;
+            const highGaps = data.research_gaps.filter(g => g.severity === 'High').length;
+            document.getElementById('highSeverityCount').textContent = `${highGaps} High Severity`;
+        }
+
         function selectCompany(companyName) {
             currentCompany = companyName;
             const data = companyData[companyName];
@@ -1140,8 +1196,7 @@
             document.getElementById('revenueGrowth').textContent = `+${revGrowth}% YoY`;
             document.getElementById('profitGrowth').textContent = `+${profitGrowth}% YoY`;
 
-            const highGaps = data.research_gaps.filter(g => g.severity === 'High').length;
-            document.getElementById('highSeverityCount').textContent = `${highGaps} High Severity`;
+            updateOverviewMetrics(data);
 
             renderResearchGaps();
             renderSolutions();
@@ -2239,15 +2294,8 @@
                     renderSeverityChart(companyData[currentCompany]);
                 }
 
-                // Update metric card
-                const metricGaps = document.getElementById('metricGaps');
-                if (metricGaps) metricGaps.textContent = live.research_gaps.length;
-
-                const highSeverityCount = document.getElementById('highSeverityCount');
-                if (highSeverityCount) {
-                    const highGaps = live.research_gaps.filter(g => g.severity === 'High').length;
-                    highSeverityCount.textContent = `${highGaps} High`;
-                }
+                // Update overview metrics to stay in sync
+                updateOverviewMetrics(companyData[currentCompany]);
             }
 
             // 2. Update MR&I Solutions (LIVE)
