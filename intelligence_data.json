@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-20T03:44:53.444487",
+    "generated_at": "2026-07-20T09:35:04.608967",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-20T03:36:56.803780",
+      "last_updated": "2026-07-20T09:24:41.617832",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-20T03:38:06.176609",
+      "last_updated": "2026-07-20T09:26:21.814847",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-20T03:39:01.146047",
+      "last_updated": "2026-07-20T09:28:01.513336",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,17 +266,17 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-20T03:40:21.939444",
+      "last_updated": "2026-07-20T09:29:31.793003",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 4,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -342,53 +342,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "The world’s best bank transformation 2026: State Bank of India",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVUpQMnJBVVRic0hOMTctTkVodS1jMlFPMkdRbFNzajdFdDNpWjZFSVJXLUE0NUFZT3dDLUcwTTNLS2tfbmh3MmVQMXRTdGg0R0F4WVVzcUtMdlhPY09nOXdFQ2pSLXZaM3hOc2cwems4VU85LWNYRWJIQlQxRkc2b3o0UDZfZHhhRm1rN3lKcXlDakZKLUVrTFlqZWNmWjMyOEdFazk3ZnR3QnNIVXltZENNaHJmQXFGbDBMb2J1QlFaX2xGY0FkSw?oc=5",
-          "source": "Euromoney",
-          "publishedAt": "Fri, 17 Jul 2026 09:42:38 GMT",
-          "fetched_at": "2026-07-20T03:39:38.128321",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SBI Funds Management IPO GMP surges to 16% ahead of market debut",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVi1wdy1vUno2SHBZTjUxcjFTdFl0bjVPdmN0ZnB5TTFJZDVqYlBsRkd3bUFEX2xacHNVNDVLWEZEOWxfR0kzYlZqMEdhSmVCYWFNVlJpSmdzU2I0NEUxVUVoNFRZVXRKRERsRWxTdFoydTUzUExtQ1c0U2VtTnlMaXl3VDd0WUFuNXdIRExSTGtkcmx4RjlxaHhuMWhBQmVFMF9PRjk3YVpZVmR4blltc9IBvgFBVV95cUxQN2t5Wk93U3pwY0Y1cW81S1ctRkFEX0Yyc1AwZmJkYmlDekZab2R5MG0xbWpLQ241MEJtdHVlQW1xcnVfTlh2SHJ3dHZna3dIOFNGeGRmakxrRlBNUzFySjlma204Q3M3QXRhRDdFNU1LYjF0OTlQR19aRE5BRlJUVHAxSjByMEhUUTFPNExrVjNncVBCWVJZMlR4dHdqWXVLS0dvbENWOVZJeU1QeWxQQ0RzNS1Za01aTng1RmZn?oc=5",
-          "source": "Fortune India",
-          "publishedAt": "Sat, 18 Jul 2026 05:17:42 GMT",
-          "fetched_at": "2026-07-20T03:39:38.128339",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Bank holidays this week: SBI, HDFC, ICICI, PNB to remain closed for upto 3 days — RBI calendar here",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUlB4cWtkUjlyME1QU0M4eWlsbnhkczV0dkU3MVd6WFhvQWJfQVhUVHRNNFQ5TU1hNk5GWGNMVnBGOFRySElxTUVIaWo5c25RN3lGV010X0hJaEI5Y09Gd3d0QVI1SjdxR0dTMEpYTUFxME9leVZxOW5PRDRrbWs0bDZlZmFqTEJDUnp4TklHMGJ5S1I3VFJyR0R5YUVBbVFXUnF0MlRYcl9nQ2xaT3RLakJKc2JET1dQb2lJQmNHMUdZajBmTFdkQ0ZKYkdkbUlVVzY0bDBZaXdHQTcxUXNpRm9JUnlSMm5EUVVZcWtFbGx0WnfSAfgBQVVfeXFMT1ZYZEJXQWx6ZjVrNGpOM0V0ZHR4bDkwODYtZERWT0dBaUhjZTRJcm9wUjZENU5vcW9jcXpJU1BCWE8zeEc3a1NZN2EtMVdxQ0VMN25Wek9USTZnNnBDcldJVEpTWWVmM1lxNXdRUk9wb3RfUFBwZmpOR2hmSk13VXlfdVJ5TDgwaWoyMmw3cjlxWnIxZ1ZUSW91Q29tajFBYmZJeldDZFdJNDlwZEdsbFMxR2x6eS1qUHBpZE9kN3JMSWVnd2ZIdzY2bm15UWdHTmtzQ1gtU3JaYWQzYU1YY2NJc001ZC01YThmTHZENEF2WGsyVnZIZXM?oc=5",
-          "source": "livemint.com",
-          "publishedAt": "Sun, 19 Jul 2026 01:24:46 GMT",
-          "fetched_at": "2026-07-20T03:39:38.128345",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Buy, Sell Or Hold: Vedanta, Paytm, Bajaj Auto, SBI Cards, And Zee Enterprises — Ask Profit",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmo2aTdxVm55NExmRVg0S3NUaHdNWExzcTJJZEMwWF9tTVlRWGpmdFpiSWEyaXk3U3diTmNOR0xrWEhYZjhHNGFEbzhNMHR0LWtiNDZDQTZYU1d2enZSNXY0TWdYblpxcjNjaW9QbThVR3VhUXZFcm4yMlNPSWU3el9NZWtUaFFBLU1nTlNCdWVfZzhHVzRuZHh0amd5cHVoSDVvNWRlLWRaWE9vUkd1WDJ4TGJaengtdDlTcjI4bGVYR3JU0gHMAUFVX3lxTE1tM0JUY3dwTnlfdG1lM0dGNm01N2FCeG1IVXo1YUs3T1hkbzJ1MzItbEIxdmdERlRCdmhCM0xfMDV1ZlRrZS1PWEVaYWZGX1YzMFVNd1dmWWxsZ2gwNVpYeW9IRWtmSFdHZFczclFQbWprdHFaX2FVbU9oZ2tQYXRUMW5xR3RBaE1iWjdsd3k2OUtlSDNIZm92VTAxdmZjRVdsR2hEa2FrNGtkSHBZeGJ1cjZFalg0OE03aWJFQk14QzctUFR0LW5RdFFrYg?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Sun, 19 Jul 2026 15:14:53 GMT",
-          "fetched_at": "2026-07-20T03:39:38.128349",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Builder Received Home Loan Amount, Defaulted on Repayment, Yet SBI Proceeded Against Homebuyers: Rajasthan RERA Steps In and Restrains Coercive Recovery",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOUdwYlhfa3hBX3lqRi1EYXpqLTIzcGI5TS1PMlJqbEZ3QVVvV3RXa1VNX0FnenBPY1BTMlg2Q2p3TGE2TWVXaDlEVVo2d3NyNEJCMXNrVHJ3VTdFVldIVWNEd0x6Mzh5X3pjSk9fQV9LRzBvMVByVzNKRUZ3NlhXaFNPYzY4bElkY3lBSWhHNWtGOWZjZ1BBREx4U0FWd3hiUDEyTXIxbkh2SV9J?oc=5",
-          "source": "SCC Online",
-          "publishedAt": "Fri, 17 Jul 2026 10:30:14 GMT",
-          "fetched_at": "2026-07-20T03:39:38.128354",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -396,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-20T03:41:11.779773",
+      "last_updated": "2026-07-20T09:30:22.432720",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -480,65 +434,21 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-20T03:42:15.029076",
+      "last_updated": "2026-07-20T09:31:42.985919",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 15,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 2,
-        "neg": 2
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at Mumbai Indians",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at Mumbai Indians: layoff. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "RR vs CSK, 3rd Match, Indian Premier League 2026 - Scorecard  GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Guja...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "layoff"
-          ],
-          "solutions": [
-            {
-              "title": "Mumbai Indians: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Sponsorship ROI & Commercial Valuation Gaps at Mumbai Indians",
-          "severity": "High",
-          "description": "Sponsor attribution gaps at Mumbai Indians: sponsor. Brand lift measurement and commercial valuation framework needed.",
-          "detected_from": "RR vs CSK, 3rd Match, Indian Premier League 2026 - Scorecard  GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Guja...",
-          "gap_type": "sponsorship_roi",
-          "keywords_found": [
-            "sponsor"
-          ],
-          "solutions": [
-            {
-              "title": "Mumbai Indians: Sponsorship Impact Measurement Framework",
-              "impact": "High",
-              "timeline": "6-12 months",
-              "price": "₹18-28 Lakhs + ₹2.5L/quarter",
-              "methodology": "Brand Lift Studies + Jersey Exposure Tracking + Social Sentiment + Recall Surveys",
-              "description": "**MRA/ESOMAR-compliant study**. Brand Lift Studies + Jersey Exposure Tracking + Social Sentiment + Recall Surveys. **Deliverables**: Quarterly sponsor ROI reports, Brand lift index, Competitive benchmarking, Attribution model.",
-              "gap_type": "sponsorship_roi",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -558,99 +468,57 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Mumbai Indians: Competitive Intelligence & Win/Loss Analysis",
+          "severity": "Medium",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Mumbai Indians: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Mumbai Indians: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Mumbai Indians: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "RR vs CSK, 3rd Match, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYTlHZFlGLUlxVFhOdUZEMF9oVllMQzJSdElKUjFoM1hIT0NwTTkzNmpKcUtoV3p6TkVkbTVRUmVncDZvN2N6R0JjMU9XLUZOeHE0QmRERkM5Mjg1ZHBGZ0tFc2hXcHFDdDNtSDJJMU1Qd04zM0w3ZE53WkdzQzRaOENHTXZDaEhfLUx2RDQycmtfbGY2SGhOZXluTEtHWjB6TXNr?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 19 Jul 2026 17:12:56 GMT",
-          "fetched_at": "2026-07-20T03:41:29.888122",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Gujarat Titans",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVJqSVMwemp1TGctcG1XYWNqdzNfa2lIZ2taSHFmcEZyYW9BQUtxUkhpM00yNVhNWFpDd2Q1UXlXUTFLcGNkblVoTW4tT0tyUGVpdXpjaE1vMmhjbmNoSTh3a055LWxmU2xBb3h0RDIyQ1VBNFAxcmVWM1Z1c05LVVo3R1pIVTI5Q1NsWHZXeE81SXo3Uk8tZkNqZk9oam9EZ2QtRXcxVmU5MUhGQVFVamF5N3dfM0xSR3VCZndLS21uSjBOUGMtUFpIclhZRkIxbDQyTElkMS15SjZZMHV1clBZU3dxbnNXcXp6eW4tSGVtODVHT01fYk10QXg3LUdoZmc?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-20T03:41:29.888136",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Sanju Samson Opens Up on Emotional Rajasthan Royals Exit, Says CSK Move Felt Right – GOA – 19 July 2026",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlZQampKUzVodjc2VEFIV0FYNVdzTWJuV2NTSzFHaThlRG9qb2JDekMwVDNma2RvNERvVEN3dTB1RHIwVUJudGtyeVZDM1hHbUhDQVB5M2gxdmVlTTVqNU50OVNUNVgwOGZ2UFd2dEUwVjNqQ1RfZ1V1R2g3cTFrWEw2TDNHMUlxR1dUemVteFF4MDRGc1FlQndOaGhCRG8wRXBLMWxBV25Ja2pQdzRfblloaDUtWmxxWHc?oc=5",
-          "source": "heraldgoa.in",
-          "publishedAt": "Sun, 19 Jul 2026 10:21:49 GMT",
-          "fetched_at": "2026-07-20T03:41:29.888147",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "The Wisden Weekly Cricket Quiz: Who was the CSK head coach before Stephen Fleming?",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRWlTMUJ5X3h1a1BfWG1PM1J3bTdUU2o0ZzFPd1AzSEZPRWZvOGtPeUJfZnc4dm5FSjcwdEd4enhFWDdGM0lDWEkzUVJYYlBWZExDcldjTmo5WXBaelVEUzlnY3Q1RkpWcWpkUE1Oa0VVSHE1OW1NYUNTbjA3S3poNkJQLVRubFo2LVA4eklXTnVuNktDczhvN0V0cFhxbE5lMWE1SHZ5dFVmVUpQeW9RSzFxQU5jYVk4d1JIT21ZUHNLUQ?oc=5",
-          "source": "Wisden",
-          "publishedAt": "Fri, 17 Jul 2026 11:13:46 GMT",
-          "fetched_at": "2026-07-20T03:41:29.888151",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "IPL 2026 UPDATES: GT vs CSK: GT thump CSK by 89 runs",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wRUFIV29SUmhYUExaTzZrU2JSUkYzTS16TmVhRnR2NjRMcVdoWDlYUXM1RG50SHgwTWRwYzlMNWZWdUFLQ21LQ3ZWWk9CclNzM05CdE53b1F4aUp3eWZsd202TTlWaE5abVktMHJCUFpEeDhrRUo4ZQ?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-20T03:41:29.888155",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "Mumbai Indians owner Akash Ambani talks to Mahela Jayawardene during the IPL auction",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZ0RhSUpXbS0zRUcxS1J2cl9OUjd1LWpsRzRxSC1qNDJZck9CS1paNnpiNU9rZzZ4eDZfVUtEbTlCM3NDY05HSUtGUmUxNV9mcHBUUlpQSXJnM29JRUpkbGlKaG1VZFhxbUtEaUdibFMxckdTRVlOWFJMODA1alRscXJBOVk5bF81cnEzTlZGaTJOR3RNWEloS3dHUUdrQXN5aF9YcDVtLUFJU0kxX1NJRFNWSHJwdVpLRzZFUTZhdTNpcklEV2JrTTN6OUZIQ3hlUklIWg?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sat, 18 Jul 2026 12:22:36 GMT",
-          "fetched_at": "2026-07-20T03:42:15.028472"
-        },
-        {
-          "title": "Team Owner, Akash Ambani, on the Quinton buy, base-price picks and planning the MI-way",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQXJJYUt0ZjZWN0xva2JZU0ExZTg4aWhTeHVFZ0J5ZXlDYzZqRHotSEVJR2RyZHRwWEozdGUyRWZwU0thd2VmdGtNdGFFSVd3bGVrRXdMWTh1YUwzTmwzdFNjMldBMzB2VGt4SVBQYTBIcjNlRmxCc0J6RGxDVUVtLXhkbWV1eHVKbHZnRGFBTzZOU0V4cDF2SGRPYjlRUzJNendUa0tCcDJFNHlIdzQ5aEJxcFh1VmdjNXc?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Tue, 16 Dec 2025 08:00:00 GMT",
-          "fetched_at": "2026-07-20T03:42:15.028488"
-        },
-        {
-          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-20T03:42:15.028496"
-        },
-        {
-          "title": "Not Hardik Pandya or Suryakumar Yadav, THESE star players in line to become new Mumbai Indians captain in IPL 2027",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNZE5qQlp2V3ZQdGs4WE1oQ004eXM0aXAxcTZ1bmM5dVVoWUZBeGZyNmhDU2xzekllZ0JRb0YtYmlZZWJGQXBXMlR0M1BXME0zdml5OEJzTnVGVnI5YkdnNnZfZkNqWkk2QUx3a1AyWURIdTE4M3QyM1g5cmhySU82MlpGNmRrU1pYSVdQOE1tTS02UDlwZ3NvX0NlZVN6bmFScll3MFlXU3EzMjhTUk9hRVFRX1RwZWQ5ZHRvMEhuQTZlaFBPNXNmWTd3amRyeUVyRTdfWHFyNnNRZFNpWEJ0N2xnb2tfN0c1dk43Y3hjbXdxTWFPWVdyaENtZjNzU0tjNHN0VnZid2dfWC1NclR6VGRB?oc=5",
-          "source": "India.Com",
-          "publishedAt": "Wed, 15 Jul 2026 11:22:33 GMT",
-          "fetched_at": "2026-07-20T03:42:15.028501"
-        },
-        {
-          "title": "Mumbai Indians owner Nita Ambani fails to recognise Rohit Sharma after batting great’s unbelievable transformation | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdWN2MWEweHFuLWdadDNBTDFTQVdzVnRYTm1vOFowcEtvQjhCWWZ1aHN4MXNTMDd3aUlxdVFaZWhwY3MycUZaUHNBVi1vUTRFZUJINHlqcXdpdE0xc0xZLTRLc3Y2SWNqRUpjeTBad3lnVWllZHV3TWRJVjNlYmE0RHFVYVlqcWxqTGI2bFdaNmRaWnRvY3lrM09WOGpGT3hPSmpIbWc1S28tTklHT0RtNVJ0NHpBcFhfWlF0THhJYWZFSmNsTFNCVEtEU1owZVpfSWx3ZF9ZOWVHTU8yTlBqX0JsRkpNVE5OUF9PSkxuYzB1N3JxS2RHWlFUQnEtMkY1Ym5rb9IBigJBVV95cUxPa1lnRlI5RmJlOUdybEtKUVVzaEdjQUlzcU1RaUptSWI3YXVpNnBJS1A4WVhWekotM0dabUxBMkE3UHpWVmVWWFhMalFOU2ZpYmREWU9Rdi1MeFZIbnVSX0V5LTRvMlpjelp5NU5odFNXMWtLRlBYQUk4Znk3SDdqR0tlOUhHa0Z5alI3enVmLU1vNlVRdVlxZTFsNDZJQW1pVkFKQmlwUG5ZX3FTRUppSUlRV1NKc1R0TXIxZjJXZGRiYnI0R253YjhkbTgtWGgycTByMWlidU9IV0tJZEhEQjZ0QlFWOU9uSVhJelczckpQVi1fZzB3MUUzVHMwdFdJNmpoSFNlNUgzQQ?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-20T03:42:15.028505"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "Royal Challengers Bengaluru": {
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-20T03:43:12.728242",
+      "last_updated": "2026-07-20T09:33:19.727673",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -734,21 +602,43 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-20T03:44:33.003842",
+      "last_updated": "2026-07-20T09:34:34.569081",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Delhi Capitals",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Delhi Capitals: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "GT vs RR, Qualifier 2, Indian Premier League 2026 - Scorecard  MI Vs RR Highlights IPL 2026: Royals Qualify For Playoffs After Clinical Win Over Mumab...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -788,29 +678,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "GT vs RR, Qualifier 2, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTjBZdUlBNXk0bzBDTjhBUFh1OUNRUnUzRXFfVDBaZ3ZRREpya3RmUHpScVRsaF9icXZuUHRKZ1NTN3AxVUxySUQ0YU4zWGo4TERfWXRSbnVlUUllanQzU2FXOHBiSlJITWU5NUROa2JoZjVWWlJrSFNncUpvTGZzclVadUs0N29vMG41R1BSRTZZQjNkMUFmRTlFdkJFbkd1MlpVbw?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Mon, 20 Jul 2026 02:52:26 GMT",
+          "fetched_at": "2026-07-20T09:34:19.547486",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MI Vs RR Highlights IPL 2026: Royals Qualify For Playoffs After Clinical Win Over Mumabi",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQaGFiQmZUSERBcmlEdW1odWN4RzEyX0Z0c2ZIOHVvdHY5d2NOd0M5ckRvVjlhcmdCWHNxUU10NHNYQ2ZZQjRPd3BjVXhRVVdaRlVqX0hZYkUxZzBGSXZJbmNZdWwxQjFIcUhrZEI1a1B0eG03NHFsWXdfcjFma1ZUVTV0NngzcG9VaU1KOEdsdHBPNVBOMTNzOXVjV0Y0bHZpcnhKV2dCby1XVGFwMUNfdl9hT0VTQ3JqUXFlUHczd0VmcE42ZzFQRmdXX2hNeDVuWWRYNGhHdHVZNm5zQ3RGMmVOMzUya0JMUG5VMFk2X1dfT01GcU44Vm9SX2ZOaFFrb0NSZNIBigJBVV95cUxOSzRjTEZiRUItb0hOT2V0S2xJMjdEV19ZTmk3elVnMU90MkNpdTEwcWtKblQ4VjluU1dUTU96N18xTmljSU9KR05VNzdENHlkQ3JKNS1HdUZUVWhzY3Q0S3N4NVAwQXJ6bXlCYVZuOVhWWE96M055WEp3MHVpYWFaUG9zeUFtdFRMQ2VNRnNPNEV2bzNVeEM1eTgyS1BIeTBSTFhNdmg3UU9EZ0lzTXdoNDNTU1hzRHk2a21uTXhTamRPS0F5MHkxSEtWOVdWTU1OYzFtRjJ5b2Q3dzRNVFlXVjBnemZHdDc1MVk2ZjJMOU5YZ1FVbmFsaTRQT0NwVFd6REMyWWRrd2lTUQ?oc=5",
+          "source": "News18",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-20T09:34:19.547501",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL 2026 Qualifier 2 Updates: Gill masterclass fires Titans to final",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zOWhidFdyMmoyWWV4cVJ2Umx2bUNrdnNCc2xYQnBtUGFiQ0N4ekxDdG5IbEJKZndDX1kxNnJZZVo2UXByeDJ1bGNRMFNNeDZqc0ltdGZCRjhkZWtXZjBwZzRfaTNiR29DN3VfOG1sbWpsYllZalo0Tg?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-20T09:34:19.547506",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Sanju Samson Opens Up on Emotional Rajasthan Royals Exit, Says CSK Move Felt Right – GOA – 19 July 2026",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlZQampKUzVodjc2VEFIV0FYNVdzTWJuV2NTSzFHaThlRG9qb2JDekMwVDNma2RvNERvVEN3dTB1RHIwVUJudGtyeVZDM1hHbUhDQVB5M2gxdmVlTTVqNU50OVNUNVgwOGZ2UFd2dEUwVjNqQ1RfZ1V1R2g3cTFrWEw2TDNHMUlxR1dUemVteFF4MDRGc1FlQndOaGhCRG8wRXBLMWxBV25Ja2pQdzRfblloaDUtWmxxWHc?oc=5",
+          "source": "heraldgoa.in",
+          "publishedAt": "Sun, 19 Jul 2026 10:21:49 GMT",
+          "fetched_at": "2026-07-20T09:34:19.547514",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Rajasthan Royals Rajasthan Royals RR",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEU1Z3AzcWNqb1h1MUZxSEU5dl9taktpRlNqdGtKN2NTbEJLczFDZVFyZEh6Vl9BcHltdEZvcnpDR1JOTHktV0ZsNmZ1bDdnbk9CRGRwd1VRUENlR3hMNDdHSW5qY2h4ZzVidTdid2JWRjZ0TkJra2F5Rm01cXMzVkxKclBYRWxCYzRBZmt0UVZCRmdOMzVqMEI0eVJ6VU4tSmVBajEzYzNENGxBS000Vk1FZ3VEWEJucWFnUnFNMlBmdnk5ZFE?oc=5",
+          "source": "ESPN",
+          "publishedAt": "Wed, 27 May 2026 19:10:38 GMT",
+          "fetched_at": "2026-07-20T09:34:19.547517",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -818,7 +734,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-20T03:44:53.444473",
+      "last_updated": "2026-07-20T09:35:04.608952",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
