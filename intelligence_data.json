@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-21T03:25:25.836947",
+    "generated_at": "2026-07-21T08:45:01.760549",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,17 +14,17 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-21T03:17:16.011040",
+      "last_updated": "2026-07-21T08:37:00.126338",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 3,
         "neg": 0
       },
       "news": [],
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Aditya Birla Group to Acquire Sprng Energy from Shell for $1.8 Billion in Major Indian Renewables Deal",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTUpnME9hUkViYjN4MDg0VHMtcVFUWDdOclA2b1VRaGwzN2dialBvcmZ1bXFobDRSSzduZUs4eGczRkhGRDJfODJBTjk0aF9rVTNfSEY4Q09iUWNEZmpvN0hDd3N6YlBydjJ1UWV1d2xRdlRyeGE2b0d4QnNELVdwTDUyYWVjMVNlT1VaNUFxdUtib09FLUp6LWJBX0xuV1hKZWlMVXRMTkhsbXpOdElpVXpiZzBGRmhGcnl2S1pYUQ?oc=5",
+          "source": "ESG News",
+          "publishedAt": "Tue, 21 Jul 2026 01:57:40 GMT",
+          "fetched_at": "2026-07-21T08:36:51.501752",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "The Making of a Modern Indian City",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRjVmRU9Yb2FUN1RHX284ZFotdEZ3a05ub213MkFoZUEyT3B2c21scVhqN3hOb3hhVE40ZW5SODU4bjBJWUd4SFVpaG5Jb2VLbzFmVnFsX2FrRUF4cUF0RXRQYk1FWkZfM28wemhjOWs4M3kySWI2ano3Q3k5akV5Q04zVQ?oc=5",
+          "source": "adityabirla.com",
+          "publishedAt": "Mon, 20 Jul 2026 06:58:20 GMT",
+          "fetched_at": "2026-07-21T08:36:51.501765",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Aditya Birla Group Cement Major Reports Q1 FY27 Results; Profit Rises 17% YoY to Rs 2,604 Crore; Check Details",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSnRlQlFPcng0NXlNcFdoWjYzMExYaDJvcFRib3BsM094NENFRFJ2Yl91QUs1dFZtRnlzejZPNW1qcTRvNS10SkdSa3JoNGFBZGc3bmFkUkhZX1hWZUZhcHN6aWlrWWV2d0ZVX2VLd0hrXzVDbFY2WmoxcXFqRDdpSHhYX2Z0QWZOdFhvZlFpV19TNUtxSGQ3MVhzay1JODJ6SHBMYVJ0bXJkaVZ0NGtYcVlwNUdGSjQ0dGgxTUZKdjRUejQteTNUeXFHYUo2Qm1zNWpwa21UaEF3bGtHcU5SOXdyZw?oc=5",
+          "source": "Dalal Street Investment Journal",
+          "publishedAt": "Tue, 21 Jul 2026 05:04:28 GMT",
+          "fetched_at": "2026-07-21T08:36:51.501770",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Aditya Birla Group proposes ₹12,000 crore investment for Kansariguda alumina refinery expansion",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb0Z6Y1d2Rmk4Zl9mTVB5RXJDbWtKX0VBLW1wbTFlMFVQUEdyb3AzS3BoYm1tYlNiUUpEYUhwY2I4NGtfLW5vd1IwXy1SLThfV2RHaVJwUGdlMEYzVzN5NjExNU80SUJvMDZadFdZU1J4X3pmbHl6TGFnVVlESEhqTlF4cUppM210alF3a0prdmRucFdlOXB3TW4zUThDSGJ3cVFoU2Q0Z2hLTW45YXhoc1h6cFZ3d2xhZWxSY1ZKWG11dXBkWC1OWWlXV2NpRnRhLWlOU09FMDliemFtZ2pjckY1UkIwZ3lHay1yedIB8wFBVV95cUxQR25IQ0JtVDN3bWtCWjFBWmZPdzE1TVd5emhQZjRFNW1wbUloRFNGTjBqa3pHLUFPWFNyeWE4Z2hRbzN2RzF6MlNuWkFtU2xBdVdXUjRyb2RFa21BQXotSDRqU2pfdEFtRm1EV0hGQ3V5bzlDSlJxak5LcnpQcm91SGtpMVpKeE5rOXZqX202TDliUGtMVGIzUzJIbkk4cjdiUGlvMUF4ZDF3a2tLWEM0MlpUN0pQNThhY2NlVDJ3eVRNcTNmQWI0MzFwZ3ZuLXVBM20xN04yRzFBNVVOZFpsZy1ZMlJMdnh1VEtFd1cwQU1VZzQ?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Sat, 11 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-21T08:36:51.501777",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Birlasoft to host Q1FY27 earnings call on July 28, 2026",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZWR4R0dWS2RmYW1UeXQ0TGRtaFBHTTZadlBqTFpXcGsyTDMwUlo0Q3FFMlgzek50Um1WZ0dyWUdVd2ZIRmdiajk4U09VVGthVl9qcXB1UWE0S0JJeld5MmNISVM1N2lvZ25jUENUczdLcTJPM2dWZGNKV0dmdnh1a00zOENmRTd5b3N2ZmNYNXJlQWs5TVFpOTVXc003MG84YjRJR0N0czdNXzFfaDFMNA?oc=5",
+          "source": "scanx.trade",
+          "publishedAt": "Tue, 21 Jul 2026 07:40:43 GMT",
+          "fetched_at": "2026-07-21T08:36:51.501785",
+          "related_to": "Birla Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,21 +144,43 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-21T03:18:13.516369",
+      "last_updated": "2026-07-21T08:37:56.278022",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 2,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Player Retention & Auction Strategy Risk at TCS",
+          "severity": "Medium",
+          "description": "Squad stability concerns for TCS: contract. Auction strategy and salary cap optimization research needed.",
+          "detected_from": "How Infosys drivers became crorepatis in 1999: Narayana Murthy's one decision that surprised corporate...  Infosys Q1FY27 preview: Sequential growth l...",
+          "gap_type": "player_retention",
+          "keywords_found": [
+            "contract"
+          ],
+          "solutions": [
+            {
+              "title": "TCS: Squad Strategy & Auction Intelligence",
+              "impact": "Medium",
+              "timeline": "4-6 months + ongoing",
+              "price": "₹12-18 Lakhs + ₹1.5L/quarter",
+              "methodology": "Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning",
+              "description": "**MRA/ESOMAR-compliant study**. Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning. **Deliverables**: Auction strategy playbook, Retention priority matrix, Salary cap optimizer, Competitor squad analysis.",
+              "gap_type": "player_retention",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -152,29 +220,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "TCS: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "How Infosys drivers became crorepatis in 1999: Narayana Murthy's one decision that surprised corporate...",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNYlNuNFhBUzZrcmQwSjBubWE1TDktSkRzQk5pbHE5NlExdl9WS0NMUWY0RXNZT2luaXc2S0xidU9iaDZISFl5ejVRSHlHZV9XYy01Z21fdDNZMktoSUdaeFIwMzAxZWNwN3hFZzR3NGlHeVVhR0lSVi16cloza2RQNENVb3NNWFdwRkJoanpDNG5XLS1iaV9oZl9wRmg1WnQ5VGFIXzB0VnpyaEdmRFNHeUJWUkRtVWNEMWdCS3FOQzlHVDRPMGphUUpLb25PYjc1Y21CWlBLY216NUJOWHRQQkY1R2dhZjRhZjVwanJ5eVdBLWNnLWo1ak9HRW5UZUQtLVHSAYcCQVVfeXFMUG5JZ3ZVcEV5WG1EQmp3T1ZGV0tzd3dpZTlPMzlBcmNYeDNRTm9wb1h1c0Y0d0ZjRWhIdTRqMUZIY3RLVkhGZUwyTkhCTjdMNE56Zk9EdkNZN1JKN01qVTFfc2hOamUyRGZUZW1CREJqRVR6TVNHX19PcG9KU3lhdXNXM21sOXVUQ1RpaFI1YnhTVXZWVHN5SUY3cjVnNUh3eUFjWHZZbDlOYVhHQkwzSlB1RUNCRnJtWXV3Nm53TjJGSkdBNm4xY2NUenZUdlc4RDNfUlRERTVGZFIzdWtoMGNSVVNsclYzcExvbFZOS0JSUGgwR1lfd19WSjM2NEpPX2lDel9sWkE?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Tue, 21 Jul 2026 06:55:21 GMT",
+          "fetched_at": "2026-07-21T08:37:16.991431",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys Q1FY27 preview: Sequential growth likely to be aided by acquisitions",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUnJwMlY2cmQwT2kwUG9TMmVfTU1FNnNWTkNDQm1CZ05OR0FIV2Q4ZXNhX1dCbldqMHgwR3UyYWJ6OGdOS0FnZDM1R01HRHF4SmRpNzFNYUE4SEN5TGVLWklNR3pSUEp6akJycU1VdjdIYlNWUkx0ZzZINU5UUGtJb0laV1A2d19QZW5TdnpIS0NlN1FqbktRMEdmTEtQajdmQmNfWTFLa2J1ODdYUFVjSDQ4VXNMWjNCY0JpVWRJbjJ3dHJBWUpDRkxRd05JUVVVTzluVWg0ZzVoUdIB4AFBVV95cUxQUk5UZ0V6QU9PdEgtVzhfNktBZWpGTnA2SVRrM0dMME9qRzNsN3ZZdVVIQklkZzZvR0otOE9tRVhCbEVDVVJHMFlGMWYyUDRlaGppdGJYTnI4WnlkMTBOYlBQdnB6d0hiV0NZWFliZE10X1d4UnpIRlI3Nzd6MDk1ZHdQTHdrY0MyTkFMTnV0ZFlYSURCRkc1blBvOVNMUDJqSkdXUnZMTU9DLXF3T0VrcnRUbEdFQnltaHZlaUtKb19aSHp5UTREWlVkbXhkS2JCYVRQMG9Lemh4N1pUdGF1dQ?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Sun, 19 Jul 2026 12:07:29 GMT",
+          "fetched_at": "2026-07-21T08:37:16.991444",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys Share Price Live Updates: Infosys's low beta signals cautious trading",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT21MT2pHNnRMejl0RE93QUpsUklLbmhQZ3NsTXdnam1tSVNQMEk1bTFwU1NGVXB6Z2xSOTZLM2NwOEYtcklSLVdBZDVTVTZEREpMcFhIOFB3dFc1dXlsTml3cF9lZlFYeDlhTnFleENRelliMWdWUEJjZXNta1Q5dnVmNnhrbVNSNk5ndVdXbzR5Sjh1LUJsT0xLcURzU1ZjQnVaUjJrV2FUZmRuSmUzVWxEYXRHdmJqX0s2RTl4Vm9NNDDSAcgBQVVfeXFMTzdnVTR2em5mdHhpZXY1MWhCdWRrQ2V2dEctMUJOT05YNFcwN1ZPY3MwRWp5STk5SllCQjFHUTVUVUktTmUtSzNiZ3JCeUtPNGQ0VkEtOWNrSjlZbDk1UzRYQlVYdHAyT2tmZi1HaXlKVzUxVUFxZ3JQeXlSSzYwenNwM3NTYVVod3RyZHBvZ292SHhXcW9oYllhejZvTm40UUo5YVlNYnF1aHczUS1FRV9SQWQ2UGI0VEdRNklxcnlQdGN3OHlFckM?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Mon, 20 Jul 2026 03:12:29 GMT",
+          "fetched_at": "2026-07-21T08:37:16.991449",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Q1 results this week: Infosys, IndiGo, Paytm, Bajaj Auto, Eternal, Meesho, Adani Power and more",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTWtXMElPblNoNlVHaGxVRDk5S0RxOF9HODFvdVJmN0NxMW13bXNGWWVCaTdMRHA5YS1GVllzeFpyRlhzS3RKYk9IRkpGUWpwc2NBYUVVR2JEQjU1bEJldFo3LUo2QThVVXJOOGgtZEZIMHh3LTYxNUZZTzJ6cnFyYjJDMXhYSzRpbTIxX1cyZkdNb3BTdURDNDljYURuN19GWlpOS2VHc1FycHhQS0g1R3lUQmtid3VRek14VHcwU2NNY0lBcUN6OWppRWR4Z3hQUEZtSnEzOU1wd2dBUUhKOExBRmU?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Sun, 19 Jul 2026 06:23:03 GMT",
+          "fetched_at": "2026-07-21T08:37:16.991452",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "The Week Ahead: Infosys Q1 Results, US-Iran War, India PMI Data, EU Interest Rate Decision, UK CPI Data",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSnd5TVdTME9mMFhuX0U1c0xVTkhmVFA3eGxSZVY3b0NCQ3o0dmRZQkhyODlxSzlVSVhIRE82c21qaFlvWVI4ZVp4Q0pyM1JZekNUQnJBbU11NmlMazNfZkx5MTVScVhKUnIySTVRckQ4R1RtWFBtN2ZTNmZWYU50YUROZ0RRWXRiajFqZlFKSnJ1LVo2dmNIUTB1ZHF1cmg0Q2szTHR2Y1lCMTFucWx6dGNBblBqRjNTRGdXdzduTzN5QjBVX0w2R1VMaXhRSkVTeFJlME95WkoyTUgxUGdiVjBucVQzc0l5bmxRVms1ZDRmbWfSAfsBQVVfeXFMUHc2S1VjX2dTNkJiSHFIWlFDNlBiV240ejhOT3RBUWJwVWlYcU13WGxXRmpfd3Nqd3BCTGFEcVJ0d0xwMS1YZzZtTlItV3I1N0F5aV9tUThHM0hOZHk0bmFZd2hOeXc2TnRsbDJWSkM5M3ZiSVFHdU52Szc5SDdQdF9YeUd2RFBqbDFWSmswMXFrSG14enJEa3dKZVJKLWVGc3FzQ3kzWjMtVHMyNUUtTWdXYVo5c1NNSkI3Zk9BY083TUU0SVdaOFBTUkw2bUpwVmhMZmJLYTV3U3U4ZDN5TWt1dkhKODI5UVpZVFVWb1dkUjZPS0dVMFJXNk0?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Sun, 19 Jul 2026 12:59:40 GMT",
+          "fetched_at": "2026-07-21T08:37:16.991455",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +276,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-21T03:19:32.758874",
+      "last_updated": "2026-07-21T08:39:21.612528",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +360,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-21T03:20:51.566722",
+      "last_updated": "2026-07-21T08:40:13.885998",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +444,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-21T03:22:04.014766",
+      "last_updated": "2026-07-21T08:41:17.193492",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,11 +528,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-21T03:23:06.920799",
+      "last_updated": "2026-07-21T08:42:48.294639",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -510,53 +604,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "KKR-Backed Serentica Eyes $450 Million Loan in Renewables Push",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVnczLU51b3JNVkRkSkV6S19sVER0c2l4SVUzOUVSYWhEcFBtMERobzI5Yi1tSjFxbzRrYkNwR3V3VkNVS2p3b0VjMWpGRnhFYUZBWG04SzdtVjlNV2R1c0lxX1R1eFNvYkJTWXpXVUxtbUFubFBPdl9qOXVDeGRUWjRTeXR3ZllQSVFDdkY5SzllaE9ZWUF4U3RuU2FiRklKTGtPT1FPNjd3U3RfRGtTc3pn?oc=5",
-          "source": "Bloomberg.com",
-          "publishedAt": "Mon, 20 Jul 2026 10:30:51 GMT",
-          "fetched_at": "2026-07-21T03:22:40.712447",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR and Vauban compete for stake in Portugal’s DStelecom By Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLWF0WWd2MFZCSVBrVFBsU0Z4b3NEc0tnSzF2ZXJ3SUgzTGl2YzZ1VHg2VkdSVUdheWdpWjJCLVZ6cFNMMnZQc3FpYm4wZ3FJTnQyR0poN1pqTHBMRXJNR0lTNHZlUE5Tako3di05bGlUUlBzWEtVV3ltM0VDWkJPWWpSRGpwN3V0V3BBNGExcHR3M3NDaW1uUmRLVmFMaWpmZl9LdWtXRnBMMXlBc183b05NSEJEYzA?oc=5",
-          "source": "Investing.com Nigeria",
-          "publishedAt": "Mon, 20 Jul 2026 15:49:30 GMT",
-          "fetched_at": "2026-07-21T03:22:40.712463",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Why is KKR & Co stock sliding today?",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRHFZVk16SWc3bERnNDB0b0IxdDZNblEtMjBkM05kOUdXc1dLYWJGZUNLanZPZmtiaXg0azRxSFBxMWFFeDJSbFpnWXdBUktzRFFsd2M1XzVQQU96LUJiWHEyR09sa2JmOE9Xc0tTSld4VktjMjlfYTN3U3BPSWNxT3ZhX3hWclhoZkdLVEdta25HRW5RcHRlNHFXaG4?oc=5",
-          "source": "Investing.com",
-          "publishedAt": "Mon, 20 Jul 2026 18:42:42 GMT",
-          "fetched_at": "2026-07-21T03:22:40.712468",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR, AEW seek buyers for China property assets amid market slump - Bloomberg",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcmZRazhjWEFZSmlIamxwdFB2RHRHMzVzaVItb05iNXNVcW9WWkYzanFHTVJPNlZRM21wS1dFVDB1SFZYOGtfZUNaSTR0eEpNY3VBYXJrNUU5eW1LM25ZS3l0Z19MeldaY3JqckZwRVFpS1VVelZRLVlRTm0tVXl0TVF4VWx5UTJldkh4RDhMa3d3bF96aFlGVUlJOWpxSm1Bcl9ZQ1BSemEtUkt4cmVyNE16VF9qQkZDVDdYSUlEVmNkd3p6WF8zTEZ1Zw?oc=5",
-          "source": "Investing.com",
-          "publishedAt": "Mon, 20 Jul 2026 02:28:30 GMT",
-          "fetched_at": "2026-07-21T03:22:40.712472",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR, Ares, Blackstone tumble as Partners Group caps private equity fund withdrawals",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbENBRWZucnlITzVQWEZVek9oV0ZZQTB6UHZoMEJBYm01bEJfbEpRYXdPVlF1NEJtRVRQTG5uaS1yMkxucGxSUXEtSkI3RmRDT293T1V0ZjNUSzNVZkRLYjlZb3BEOWhfR2xMeUhEQmRhVERxSVlEazZibjkyV2ZnRXhBNEFSeXdQOG9OcVV2bjlCbkdMcnJuRlhmNFRWbDlfUFlGUklkbkhmMFZHTGJyVUx30gG3AUFVX3lxTE9KLWFYTkczY3VHUVR3TUxFNVlvX2w4SVh3LTBXNWliSTVfeFZHdGxDaTRUT1NpQzZ4U2p4WlNwNEpWcldHTVdGT3V5N0wxRS1jLTJGYjBrYkJRemNiWFNqOVBVeUs5UnBmX3BaVTQzbi1pTGFsb21uZnVsZjd5b2hlVmJwcjVFamVFOWxVZHlPWF9WczA2YzRVQlBhaE95RzI3eDhjSV9jMl9yczlyX0tfWkhlQ19tZw?oc=5",
-          "source": "CNBC",
-          "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-21T03:22:40.712476",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -564,17 +612,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-21T03:24:20.409459",
+      "last_updated": "2026-07-21T08:44:34.588849",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -640,53 +688,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "“If there is no noise, there is no fun”: Rohit Sharma post Lord’s masterclass",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbUZfaC1STUtadFFON1FYMWp6Zl9YNEZQZEVwRjN1a2JBMGNsRUFiODhLMDN2X0VxZktjUkdQWUR1WGlVSHA0SVY5dHkyemNzWHF5RXBxMm9BMzg2LXlWajRsSTdKVENETlR6STdfLTRaVUI2TGYtNWZpTkZTTXl5ZFZ3XzgxRTBzTmM2ZWxaUWFhRnNSMmVsRVV5TURSUFFnNHRBd0FidjAzWmM?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Mon, 20 Jul 2026 10:52:45 GMT",
-          "fetched_at": "2026-07-21T03:23:29.828926",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "MI vs CSK, 33rd Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeGZrMGdtY3p2VVV4M3JuYzgwb0dkcUF2TnhDLTJUaVhFUFIzZ1B5TXJ6eVYwSUVTVUlfNWxIYUFvUnlFTmhTa1hMWmFmSlRTZmV3QzF3UjZCUnZmanJZakxpc1E4OHZRTHI2ZV9RU3Y0NThlSjlYWm4yR2I2blJYdG9zT1RwdUwya3RoU1h4NE54ZVBLQWRDVGNJWnJndDdp?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 20 Jul 2026 21:43:30 GMT",
-          "fetched_at": "2026-07-21T03:23:29.828939",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "PBKS vs MI Highlights, IPL 2026: Tilak, Jacks lead Mumbai Indians to six-wicket win over Punjab Kings",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVEd0amU2ZFNyeUgtVXM0aW9VbVpnLUQ5SE5JeWVUeHFyQTl2VXhsVVhzZWt4NFVvazFXcnlxZHFUelRSRG10QkdiUjFxMkNXMUlpVjY5VG54UGtXdzRqYmxQT1V3Rmxfc3JJclRfdEt3LUktdmY0N1NheC05dWNocWtGa0hES1RZVmpudGQ4Q3FsZ25mWEo5MGpiYVkxbTdXTk92elBGTnk4UWJKSDVFbGNVQ1g2Q3JtZ0NCQm9ONzRocHJEOWdvQ1ZGeF9HVVVtVk1oMnV0RVXSAd8BQVVfeXFMTnRxT3Q2V1ZpQ3MzNjVaVXh6NklMTm95WDRCZzd2RjRhSGl5MFVVM2ZWVzJMejNzV1lCaDFBeDFUQTYybUh6M19SSEZkaXlwOFZnN0M5RUNlTG5fR1BSclVCMHdzbkx5Wi1sZF9zYWh6cnZZXzdfMF81WS1IU3A3WWtUZ3RDaXYwV3dQN29XMm5tMkhhN0Y0S3JBUkFMcXVoa0pRVXI5SFp4TUpMLTlwRWhJTlB0Mk85Ty1sSi1RSXN4YlFZTmUweEsyZTVhSHpqcFpIM3l3Y2xlaFItQ3VsYw?oc=5",
-          "source": "Sportstar",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-21T03:23:29.828945",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kolkata Knight Riders vs Mumbai Indians Live Score Updates, IPL 2026: Powell sends it soaring for six",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa2tvTm82VGJXUVEwRzhGd1RBVnlUdEY4eDk5Y3VpT200UW16Q2NoWWVGVXVpamtrNHd0ck1fcklubkg2aUtOQ01UZm1BalJuTGRSeDc3QVdsLXd5Y0oxclpFQ0JnOUFBN09XQjc2UHRkTV9tUnF3R1FkWmI4ZFRNYUVyX01Yb0w0ZS01cmJyUElOT2NCdGNVbDJ6TVR4T3RYV1pEenBsLTVpMUdDblFwa2t1cGxZMzFES25aekd2SHBzMTVoNkpkZlY5UzgwNTBnWU5qLXdVV3N6Qy1uREYyMmVPM19TQ1MzdkxWVmptTXFuS2RsbE1aR1VGNDV1NknSAYQCQVVfeXFMTTExV040YmRCcnNyVFZPUExNNnczdklaTmFPU1BYSnF3QnVENEw4MWNFYWtsU2pURDZrRFVDazB3VXhISEJLV0Y4clBBdE5mSEhXY0ctTFFSWHRuZERWbmlqZkdnNk1YaHppbHEwWkhjakxmbFZHMGVGRjBSM0xZeW91R2c3Vkh5YWZXMHFpdGNKbHNYNWJ6SklVenNLRzRkR1Y2RElSYzV5X01SQ1BOT2w4WVNTendGYXo2NWZOSVY5MVItR1hsWVFVVEdIVTVCbHNZZEVNMlBCUlQ5UURjNFRuYThQeXoxUjMxNXJWUUtWS2tsaG9JMnN3ZTkxdDI2WHo5TFE?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 20 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-21T03:23:29.828950",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR vs MI Highlights, IPL 2026: Corbin Bosch's All-Round Effort In Vain As KKR Beat MI To Stay Alive | Cricket News",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNR1JETVIxTTQ2V2xsRnBRTjMxNkEwSUlkVl82ckZCMXhKeGZXSDJQMnNpTWFHVUhEQXJObm5XTDhZanRTWUJIYndNak1OU3p5NnpMSzBDdDY2anM1YmFjemhpTEhCS1JLT0pBT2F2YmlBZjc4aFRqYmtWV1M4N0c3M1JCVlFqd2RyUGdCOU1LbWVGNVgxVzdvSG1vQTBlLXJVNy1SYVB6ZmstejQzSnZ2VEZWYzNTeUZiaTVyQmloUjBHekNTYTRteUJ6U0pIMlY0aFFFY0FKMWhFYWdzTjhIVDFuUTRkRXZvenpEWkFDa2xnenNmN1VoNDNsV1Y4c1NZWndJ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-21T03:23:29.828954",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -694,7 +696,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-21T03:25:10.759736",
+      "last_updated": "2026-07-21T08:44:51.109028",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -778,7 +780,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-21T03:25:25.836933",
+      "last_updated": "2026-07-21T08:45:01.760539",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
