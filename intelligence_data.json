@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-20T19:58:29.175264",
+    "generated_at": "2026-07-21T03:25:25.836947",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-20T19:49:35.020090",
+      "last_updated": "2026-07-21T03:17:16.011040",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,17 +98,17 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-20T19:51:03.912587",
+      "last_updated": "2026-07-21T03:18:13.516369",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 3,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -174,53 +174,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Tech Mahindra, Wipro Q1 Results Live Updates: Tech Mahindra beats quarterly revenue estimate; 41 cos to r...",
-          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOcUVwME9Oc3NDYm5xcmZpUlZuZlNSYjd0TllHb0E1LS1VWXdOdnN5c19aQWJVcnpzczJNR2drY1A4RVl1dVgtdS1HLUo4VnVJS21WX0dQYmlaajBjUmRudDJaWDk3VE10WlFrenpkZkx3WWdpRzI1NGd5VXVyNWo1UjBFMTFDd2lqQ25kRTdUVFA5eGUzUWZVbjJva0N4Z1YxOFc5SGxxNmJmRWNVZ3JtZThicnpHYl8xcy0teHlkNl9MNVJoQXFROWFQNHdQT0s1b2xDOEdhTm9xc2hWYVgzNUVTay1pcnE5Unl2Ymw2dm8yeXg1cGttQWhndDBxVjdfQ2NzY1c1LVRMamV1RTdfS3UtMEJzcTctMlHSAZ8CQVVfeXFMTlRCbk9FbEphLXE1MXRYaFFUZFBQTlJ1UGE2SjdXX0RzOXFCLVcweDktMjlxSXlPcnppX2p1UGxQUjRkU1Z3QkNIR2MxTUdNYWc0eXRtQm1LVExiWTdnaTRSX0t4MWdZS0h2ci1ZbUpGdGNPSWJJcVFvbEZxa19iNWZfR2xsWVN5MDRrX0tUVE01Y1ZhbE40Umo4akJhbDMzaTRVZFhrRHBJU013UHAwVV9OTU9iX2l3NVdTck03N09SRVVMMERaMUR5YzRDN3dQSEpOY2ZOYnkzelRtVktKckNCX1VJRWNibjkwNTVmaFZDbmR0RXNiUm9NcEhHdlZfN2QzZVRzN0tndzhSeFNoN3cxUWRoUmFyTERLTWdBUUE?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 16 Jul 2026 10:55:34 GMT",
-          "fetched_at": "2026-07-20T19:50:18.808253",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS, HCLTech and Wipro split workloads across SLMs and LLMs",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSWJKYVpWcXpCVnNwZmtSR1prRzRBRmFjS1ZmTndhVTlNYzFtd2lMLUt4bzM2c1ZNSklQRVdnZWM4TnowWVpFUXFsTTc4SnNsbUp6UVpPUXJXV2JVOEhhejZmNURrU1I1dU5nTEhwWkg4MFpLVk9PUVM1cERiQVNncm9RVnptTE5yR0NjM1JSRUtvNzI5bEtNYkMwa3NqRktRbmh5aHphc1BnZw?oc=5",
-          "source": "NewsBytes",
-          "publishedAt": "Mon, 20 Jul 2026 05:34:57 GMT",
-          "fetched_at": "2026-07-20T19:50:18.808269",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Why Wipro's Q1 Net Profit Was Flat",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxON180dFJyQzYyYktlQl9MUFNtUmNIelZIcGM4MlJyNjl5LWJZR1R3TGNTLUh6N0g0a1RwSGExV1Q1UmJBanlKckhnVTNfQXZYNFNGMUgtRWVtdDNOY1hoWW9NbUc0TjdncXNka3I4QVVwVjF1NmZCNkhZWEkxNjVyOUoyczlnZHJ2a0s3Y2JMVlBTaElhcFd1dFpaTnFXeTR6RGFKSnNjbnJnd0tudDhmWWJKdFJPV1dDa1RVd0VjcEd0ZjNw0gHHAUFVX3lxTE5haTIzV09hOEdidjFzYzhvOUNxbGl2aUtXT1VkVmpwSkpUVTIybGVQRHVnQUJQeWY4Z3EwV3ppb18tRU5qUmZ2bEd6ZUZnRGJ3Q0lvaXBsbVQ5OW80S2dPUjFPZWpjNDUtX09lSDlMTVdvNUlQZ2NKT3Rxa0dUWm1oMTB3cXZDVWJYM3ZzcHJmVVdDSzcweFFVSFN5eDZ4QnNfWWwzQnpmUkZ3N0xaYW1UWGRJeTMyVmdDNkdCR2F2ZzlmQlJYbDQ?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Sat, 18 Jul 2026 07:07:17 GMT",
-          "fetched_at": "2026-07-20T19:50:18.808273",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro declares interim dividend worth Rs 2/share, fixes record date. Check details",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcU14TDNDSDFsVWl5eGloemIwS1BhS0NTX0JhMTNhZDhTQlZ4Q25IRHpnbjFfNXp4SFN2X21jbmYtYWZsZ3NFUEFEU2RITTR1aFQ5T1hLNWRaTDVld2dURU9fSTlqanNjcHB4aXN0UjZodXE3N3BZWkN4TDJNUkRDOHNKVi1SLUZ5dHlzWU15c3ZFYmROZHVrc1JxZzNRRjFoMjZDVjFuWTktN0x5Q0RBd0p3aEEtSmFkS3drZjFUUkt1YU1JTUNFbVpB?oc=5",
-          "source": "MSN",
-          "publishedAt": "Mon, 20 Jul 2026 13:25:03 GMT",
-          "fetched_at": "2026-07-20T19:50:18.808278",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro Share Price Highlights: Wipro Stock Price History",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2FxQXdLQmtZcGszWmJQQzZNUVVVOTBISGR6Smd6QWdPSjNuNWxTR1dJd2tDeVJBeEs5Ym44Z1VPckt6azdJMUlWRnVmbkNXLUxfYUZBMlVHbnAwLXc4RlBzVF9lXzNyQjVyNHBqT3JNUkI0S1lRODJKT1g1RFlyR2xYMHBpV0JVc3dyMUxCUGZ2VFpfV0xORlNCcng4Y3RJeS1TNF9aR2J6bXc5U3h1dFo1MUstYndOcUtjazBR0gHDAUFVX3lxTFB2Rzk5dDRSWWF4bXFoNzRycnpyRXAyMURfazBlOWNsampvYW5MR0dKWmpXT3NKNk1Ub1lSMlk3SlVYLUlndU1YeEJPc2R6Ujh1ekNMYWpGQ0hwNVRETHloeWF0ZXowSmFiWEtyLUNqZnBMZGQtQ3Z1LVhpZzZrVGJYQVdva2FQcXNJR21EWVU4VmtaNWRZRXdUYlF6bXZtdVpSd3B1Y2RKaU1JTWZrQ0dQLW5sYkxLTVRQQzZTc203QUtyMA?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 16 Jul 2026 13:00:25 GMT",
-          "fetched_at": "2026-07-20T19:50:18.808282",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -228,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-20T19:52:23.002125",
+      "last_updated": "2026-07-21T03:19:32.758874",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -312,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-20T19:53:15.074273",
+      "last_updated": "2026-07-21T03:20:51.566722",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -396,17 +350,17 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-20T19:54:30.326818",
+      "last_updated": "2026-07-21T03:22:04.014766",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -472,53 +426,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Allianz Jio Re hits ₹266 crore gross premiums in first full quarter of operations",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbUg5UUd1V0lZTGNITHpXaWpXZzN6QWpYNjJ3YkZHVFYxV2dJdHdYVUN0SklZRlhxRkhZeHdxRS1DNmtCTjQxd2RWTm13VUpVaFpYYXE5OXNwUTFWa2FTY3FYeVJiZjRJSFphQmZGMmxNdHRWTTJTNzVscVM5X1Q0Ykl2a3NjWFU2OFFtc1U1RFZLaFN1S0E5T09sSXJRV2d2Z2QtYXNieXJyeTdJZC01QTVJRU9OanZVWF80?oc=5",
-          "source": "Reinsurance News",
-          "publishedAt": "Mon, 20 Jul 2026 08:31:53 GMT",
-          "fetched_at": "2026-07-20T19:53:45.225722",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Investing before an IPO: As NSE, Jio Platforms prepare to list, five early investors reveal the rewards, r",
-          "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOOHZ6M1FQeFh0VHZPYl9HZEE2RExPTEEtdDN6YVJsVmk5SEJubV9jTTJ0Y1V4bWZFeVY3clZQZnZ3Z3VPVVBEdWdSV0ZCNGlNTmM0LVg2MEFuQ294Q0NGdUNKbm9vUFBwcVhQQkl4NVdya3ZzcWFOMndrLXItQjU1c2RsRnZkeHpxTzVUcVp1aXhDSFlqYjA5aDdCQUV4QXB4RmNmcEpCaUFwYU9XYU1YRWg2UmN0TnJEQnh0c0VMT0RIUTBndHVfWU5UUjJweWpTSEQ4X25LRDV1WldhUFhsbzU1b181ODdaX3Fzb2l2S0RYTVdmMHYtdDgzc3lXT3VUbTRLeFJfNF8tSF9HV3NobFd4WVQ4eFFyVktvTjQydVlvd9IBpwJBVV95cUxPa1FYb0xuQXR0VVRSajdqcHZwdUFQNFBhajNrY1hCTjFjZWVRd084dnpWUjYydzZsNHE3QWNQeGhmMTBzUUN3YkJ0SS15OFZZV2l5RzcxM3BCalR0aTFmZWlBR203Zld3VUFQSVpCV2hNLThQblRweVhIcGhMa0Q2TFM1WjhxaklVRWJ2SGRYT1NuekRFelU1Z3R3M29OcHpxZ2VvZlhRZ3ZFZGZpS3FVcHJQcU1xRW5QMmlTYm5GbWlkejRobks0RE5OdjhFMEZjQ05zdGpOTkVKYTNHdU1vMWtKZkhZbGNHLUItT2dPOHQwOXNnQWRVa3JZUTBhdlZuWFlXVWxjUjVqX0stbzEwbW1rQ256R0NfMlltYUpncWl3ZEpPWGVR?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Mon, 20 Jul 2026 01:00:00 GMT",
-          "fetched_at": "2026-07-20T19:53:45.225740",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio IPO, new energy to power next phase of growth, says Mukesh Ambani after Reliance Q1 results",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZG8tV3VfdEd6NjFLaW1sR25DNzR1UWgwOGlILS1PSEdUR2cxYkxRYUxfLUFpMmJacFkwUVEyMVJSNDRSVFZSOThSOFZzRzlmVjdKUElEZVJtUWp1MmhYWU1OT2hUVlR2RWR6clQ4MW9Lak5YclJXZy0wSzZWdVF4dmdXWnN1VmxlU2s4NmZJT3pBd3dtdjF4ZVdYb09mZjFqVDd6N0lfejhZZE1vWmJHRFpvT2FQWTRacW1LaXRCbElsclM0S0RnOHhqRV9KSE9yT1ZZVmk4TFTSAeYBQVVfeXFMT2RrUXJhS0ZFeXluaHBxX2d0ZE84bVJFQ19QREEySkpKQS1wNENkLUpZMGJ1QzVfa3BoTnFSVnBzM05aMS1XTjNpVDZxMHlXYnVhVmJBa19zZ3kxa0lITnJ5ZVF0WjcwSFRYMXM1U0ZSYkhNZnp0SnlteDdkNF9hTTZzX21kTGwwTjg2LTU4eThvNkxIcWJJRWpibHlDdVRwaWRlVngwYlV5QWNFNm53QTNqNl9HdkVPYUtjR2lEVFhXekFxQnJ1OEx4U1JsZ2ZpcVdxZ2dDZGd6MW5QekxZWWJKc3ZMVlE?oc=5",
-          "source": "Fortune India",
-          "publishedAt": "Fri, 17 Jul 2026 14:29:07 GMT",
-          "fetched_at": "2026-07-20T19:53:45.225747",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio says Arpu is not under pressure. Analysts aren't so sure",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNX2gtWmw3VFhtTFd0Q0F0bDFUUFR2V2ZycV8wWGZTdEZqS0xqa19za1g5TUs0V3RwZEhFMFREaXVyampXUGlMcTl3dW1iZTluMW1jdWlzRmVkaTJ6TFVwcWgxTlVMTDdoSHZ0alJ4R1VZT1Bhczd6MFAzTExrMzJEX0hGYXFjNHp5TTh5eHp3Mk9DbDJyenlqb3h4Z0Z0RWRib3ZRNUEzRUFiY3AyNjVHamJLNmRxY1lBWXYwc3JRcmhKZDN5b3R4Q21icVZ3SXFHaTZn0gHYAUFVX3lxTE16MmNjajBMTHp2UzZRRHdCMEpwYzIxc1UtR1dNc0pxNDlsa0NPand4aExZNHhrM2ZrTS00LXFUUENBZEcxRFFOM3hNbHk5Skl5a0dQOWZfanA5eTRVS3lvNzZyRUFmRU15QXN0Z1dKYi1qWGotRnZhVVAtcVVvRFMyYnltZ3ZrdTAyRVlhcFBJRXJROWdxOXJCMHE2YjZXQXczajFHZnNOMFZfTmVpeks4aTBXNk5QMlExb0JPU2VxVF9PblVqRi12aDk3dS12cE9kcFg3RXFIMw?oc=5",
-          "source": "livemint.com",
-          "publishedAt": "Sun, 19 Jul 2026 08:37:54 GMT",
-          "fetched_at": "2026-07-20T19:53:45.225751",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio adds 8.9 million users in Q1 FY27, profit jumps 9.2% | Tap to know more | Inshorts",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMTM0X2RwUkpWTVRSV3ZZN1hNTlpWcEQxVWVFcVpZQjdsTWlJbU9XNERWU1E4RkFKZld3YThsNkNHQjM5NTlIUC15WnZWb1pfZXlUTnBkQ2J1VzRIRFZIOGtoeUd4ZnpaV0J2OGFYTXV4aWRUR2FQcnhoMDg5N1lVU3F5ek81bmdQZ19YSWEzdHRRaExQT19VZHp1bU9ZZmV20gGmAUFVX3lxTE1YRlBOdWs3OC14YnZ0SV9QV2N6Zk41Vk53SUcyQkp1a3RMbXd2SkFrdktfSnphTUQwUVVlUTdqYUhMSUR1OXZBQlhxZ3NZQW1oam5Mb2hzTklnUlg1VUs5bmZoTWhUVlNUd0VTM1hZUUdVVG5iYzdZdnVacnVoYk5rNGFLU0VXdTA3Rml6d1NEUHdPVGgxTTRhcVBhM0NiblctU3lCUnc?oc=5",
-          "source": "Inshorts",
-          "publishedAt": "Mon, 20 Jul 2026 04:39:19 GMT",
-          "fetched_at": "2026-07-20T19:53:45.225755",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -526,11 +434,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-20T19:55:43.677398",
+      "last_updated": "2026-07-21T03:23:06.920799",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -602,7 +510,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "KKR-Backed Serentica Eyes $450 Million Loan in Renewables Push",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVnczLU51b3JNVkRkSkV6S19sVER0c2l4SVUzOUVSYWhEcFBtMERobzI5Yi1tSjFxbzRrYkNwR3V3VkNVS2p3b0VjMWpGRnhFYUZBWG04SzdtVjlNV2R1c0lxX1R1eFNvYkJTWXpXVUxtbUFubFBPdl9qOXVDeGRUWjRTeXR3ZllQSVFDdkY5SzllaE9ZWUF4U3RuU2FiRklKTGtPT1FPNjd3U3RfRGtTc3pn?oc=5",
+          "source": "Bloomberg.com",
+          "publishedAt": "Mon, 20 Jul 2026 10:30:51 GMT",
+          "fetched_at": "2026-07-21T03:22:40.712447",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR and Vauban compete for stake in Portugal’s DStelecom By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLWF0WWd2MFZCSVBrVFBsU0Z4b3NEc0tnSzF2ZXJ3SUgzTGl2YzZ1VHg2VkdSVUdheWdpWjJCLVZ6cFNMMnZQc3FpYm4wZ3FJTnQyR0poN1pqTHBMRXJNR0lTNHZlUE5Tako3di05bGlUUlBzWEtVV3ltM0VDWkJPWWpSRGpwN3V0V3BBNGExcHR3M3NDaW1uUmRLVmFMaWpmZl9LdWtXRnBMMXlBc183b05NSEJEYzA?oc=5",
+          "source": "Investing.com Nigeria",
+          "publishedAt": "Mon, 20 Jul 2026 15:49:30 GMT",
+          "fetched_at": "2026-07-21T03:22:40.712463",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Why is KKR & Co stock sliding today?",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRHFZVk16SWc3bERnNDB0b0IxdDZNblEtMjBkM05kOUdXc1dLYWJGZUNLanZPZmtiaXg0azRxSFBxMWFFeDJSbFpnWXdBUktzRFFsd2M1XzVQQU96LUJiWHEyR09sa2JmOE9Xc0tTSld4VktjMjlfYTN3U3BPSWNxT3ZhX3hWclhoZkdLVEdta25HRW5RcHRlNHFXaG4?oc=5",
+          "source": "Investing.com",
+          "publishedAt": "Mon, 20 Jul 2026 18:42:42 GMT",
+          "fetched_at": "2026-07-21T03:22:40.712468",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR, AEW seek buyers for China property assets amid market slump - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcmZRazhjWEFZSmlIamxwdFB2RHRHMzVzaVItb05iNXNVcW9WWkYzanFHTVJPNlZRM21wS1dFVDB1SFZYOGtfZUNaSTR0eEpNY3VBYXJrNUU5eW1LM25ZS3l0Z19MeldaY3JqckZwRVFpS1VVelZRLVlRTm0tVXl0TVF4VWx5UTJldkh4RDhMa3d3bF96aFlGVUlJOWpxSm1Bcl9ZQ1BSemEtUkt4cmVyNE16VF9qQkZDVDdYSUlEVmNkd3p6WF8zTEZ1Zw?oc=5",
+          "source": "Investing.com",
+          "publishedAt": "Mon, 20 Jul 2026 02:28:30 GMT",
+          "fetched_at": "2026-07-21T03:22:40.712472",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR, Ares, Blackstone tumble as Partners Group caps private equity fund withdrawals",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbENBRWZucnlITzVQWEZVek9oV0ZZQTB6UHZoMEJBYm01bEJfbEpRYXdPVlF1NEJtRVRQTG5uaS1yMkxucGxSUXEtSkI3RmRDT293T1V0ZjNUSzNVZkRLYjlZb3BEOWhfR2xMeUhEQmRhVERxSVlEazZibjkyV2ZnRXhBNEFSeXdQOG9OcVV2bjlCbkdMcnJuRlhmNFRWbDlfUFlGUklkbkhmMFZHTGJyVUx30gG3AUFVX3lxTE9KLWFYTkczY3VHUVR3TUxFNVlvX2w4SVh3LTBXNWliSTVfeFZHdGxDaTRUT1NpQzZ4U2p4WlNwNEpWcldHTVdGT3V5N0wxRS1jLTJGYjBrYkJRemNiWFNqOVBVeUs5UnBmX3BaVTQzbi1pTGFsb21uZnVsZjd5b2hlVmJwcjVFamVFOWxVZHlPWF9WczA2YzRVQlBhaE95RzI3eDhjSV9jMl9yczlyX0tfWkhlQ19tZw?oc=5",
+          "source": "CNBC",
+          "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-21T03:22:40.712476",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -610,17 +564,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-20T19:56:28.097001",
+      "last_updated": "2026-07-21T03:24:20.409459",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -686,7 +640,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "“If there is no noise, there is no fun”: Rohit Sharma post Lord’s masterclass",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbUZfaC1STUtadFFON1FYMWp6Zl9YNEZQZEVwRjN1a2JBMGNsRUFiODhLMDN2X0VxZktjUkdQWUR1WGlVSHA0SVY5dHkyemNzWHF5RXBxMm9BMzg2LXlWajRsSTdKVENETlR6STdfLTRaVUI2TGYtNWZpTkZTTXl5ZFZ3XzgxRTBzTmM2ZWxaUWFhRnNSMmVsRVV5TURSUFFnNHRBd0FidjAzWmM?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Mon, 20 Jul 2026 10:52:45 GMT",
+          "fetched_at": "2026-07-21T03:23:29.828926",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MI vs CSK, 33rd Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeGZrMGdtY3p2VVV4M3JuYzgwb0dkcUF2TnhDLTJUaVhFUFIzZ1B5TXJ6eVYwSUVTVUlfNWxIYUFvUnlFTmhTa1hMWmFmSlRTZmV3QzF3UjZCUnZmanJZakxpc1E4OHZRTHI2ZV9RU3Y0NThlSjlYWm4yR2I2blJYdG9zT1RwdUwya3RoU1h4NE54ZVBLQWRDVGNJWnJndDdp?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Mon, 20 Jul 2026 21:43:30 GMT",
+          "fetched_at": "2026-07-21T03:23:29.828939",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "PBKS vs MI Highlights, IPL 2026: Tilak, Jacks lead Mumbai Indians to six-wicket win over Punjab Kings",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVEd0amU2ZFNyeUgtVXM0aW9VbVpnLUQ5SE5JeWVUeHFyQTl2VXhsVVhzZWt4NFVvazFXcnlxZHFUelRSRG10QkdiUjFxMkNXMUlpVjY5VG54UGtXdzRqYmxQT1V3Rmxfc3JJclRfdEt3LUktdmY0N1NheC05dWNocWtGa0hES1RZVmpudGQ4Q3FsZ25mWEo5MGpiYVkxbTdXTk92elBGTnk4UWJKSDVFbGNVQ1g2Q3JtZ0NCQm9ONzRocHJEOWdvQ1ZGeF9HVVVtVk1oMnV0RVXSAd8BQVVfeXFMTnRxT3Q2V1ZpQ3MzNjVaVXh6NklMTm95WDRCZzd2RjRhSGl5MFVVM2ZWVzJMejNzV1lCaDFBeDFUQTYybUh6M19SSEZkaXlwOFZnN0M5RUNlTG5fR1BSclVCMHdzbkx5Wi1sZF9zYWh6cnZZXzdfMF81WS1IU3A3WWtUZ3RDaXYwV3dQN29XMm5tMkhhN0Y0S3JBUkFMcXVoa0pRVXI5SFp4TUpMLTlwRWhJTlB0Mk85Ty1sSi1RSXN4YlFZTmUweEsyZTVhSHpqcFpIM3l3Y2xlaFItQ3VsYw?oc=5",
+          "source": "Sportstar",
+          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-21T03:23:29.828945",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Kolkata Knight Riders vs Mumbai Indians Live Score Updates, IPL 2026: Powell sends it soaring for six",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa2tvTm82VGJXUVEwRzhGd1RBVnlUdEY4eDk5Y3VpT200UW16Q2NoWWVGVXVpamtrNHd0ck1fcklubkg2aUtOQ01UZm1BalJuTGRSeDc3QVdsLXd5Y0oxclpFQ0JnOUFBN09XQjc2UHRkTV9tUnF3R1FkWmI4ZFRNYUVyX01Yb0w0ZS01cmJyUElOT2NCdGNVbDJ6TVR4T3RYV1pEenBsLTVpMUdDblFwa2t1cGxZMzFES25aekd2SHBzMTVoNkpkZlY5UzgwNTBnWU5qLXdVV3N6Qy1uREYyMmVPM19TQ1MzdkxWVmptTXFuS2RsbE1aR1VGNDV1NknSAYQCQVVfeXFMTTExV040YmRCcnNyVFZPUExNNnczdklaTmFPU1BYSnF3QnVENEw4MWNFYWtsU2pURDZrRFVDazB3VXhISEJLV0Y4clBBdE5mSEhXY0ctTFFSWHRuZERWbmlqZkdnNk1YaHppbHEwWkhjakxmbFZHMGVGRjBSM0xZeW91R2c3Vkh5YWZXMHFpdGNKbHNYNWJ6SklVenNLRzRkR1Y2RElSYzV5X01SQ1BOT2w4WVNTendGYXo2NWZOSVY5MVItR1hsWVFVVEdIVTVCbHNZZEVNMlBCUlQ5UURjNFRuYThQeXoxUjMxNXJWUUtWS2tsaG9JMnN3ZTkxdDI2WHo5TFE?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 20 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-21T03:23:29.828950",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR vs MI Highlights, IPL 2026: Corbin Bosch's All-Round Effort In Vain As KKR Beat MI To Stay Alive | Cricket News",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNR1JETVIxTTQ2V2xsRnBRTjMxNkEwSUlkVl82ckZCMXhKeGZXSDJQMnNpTWFHVUhEQXJObm5XTDhZanRTWUJIYndNak1OU3p5NnpMSzBDdDY2anM1YmFjemhpTEhCS1JLT0pBT2F2YmlBZjc4aFRqYmtWV1M4N0c3M1JCVlFqd2RyUGdCOU1LbWVGNVgxVzdvSG1vQTBlLXJVNy1SYVB6ZmstejQzSnZ2VEZWYzNTeUZiaTVyQmloUjBHekNTYTRteUJ6U0pIMlY0aFFFY0FKMWhFYWdzTjhIVDFuUTRkRXZvenpEWkFDa2xnenNmN1VoNDNsV1Y4c1NZWndJ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-21T03:23:29.828954",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -694,7 +694,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-20T19:57:59.109424",
+      "last_updated": "2026-07-21T03:25:10.759736",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -778,7 +778,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-20T19:58:29.175246",
+      "last_updated": "2026-07-21T03:25:25.836933",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
