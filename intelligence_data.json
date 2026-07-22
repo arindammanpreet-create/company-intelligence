@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-21T19:44:59.072747",
+    "generated_at": "2026-07-22T03:25:33.564930",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-21T19:38:54.377508",
+      "last_updated": "2026-07-22T03:15:57.405398",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,18 +98,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-21T19:40:15.733778",
+      "last_updated": "2026-07-22T03:17:08.028098",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -174,7 +174,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "I-T portal 'largely stable' despite peak load, Infosys penalised for delays",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb1VaMEFyaVpFMjdVLVRjeVc1ZWRsZVJKZ0phSnlESHVEam8xNDZxZktCRjlEZ2pXQlktT3NfMzAybWY2RTJQa2hFa1pGMV9sYlF2RUhHUXhGYVZxODVCMUhQa2FJVTQ5VzduNGxnOXBhZFJVXzR4Zk1McDBSdGc4WDQya2dqQW9hOFZXeTdISXVicm9vM1Bkb0R4VXpyV1Z2eDd3d2hUUm1kNHExVkpmWUUxdXV0OFpBT25NVFU2eWRqMDN60gHHAUFVX3lxTE1RTFhUN28xcWpDVG5oWWViR2dfaVhEaDFscjU1a0UxOU5GeDhOWDFyb0xwU251dkloQUhtR201TzNPOEtKUHZuN3BpcXREbC1ycC1PVVlwZUxMZ3BLM21yYWgzSEhyUU9JdmdILUYzTDk4NWhLeGxURkpRZXBGNkk4NGpRendfR0pVTkJ4WDd3WTl3bkN0UVQwUUxIdnlDcDlxc005RlBoeE1tUk5EX3FSZmVXakVfQmdOS0FNdHRfWUZLWnA5Ykk?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Tue, 21 Jul 2026 06:52:40 GMT",
+          "fetched_at": "2026-07-22T03:16:20.929016",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys Theater at MSG to host NXT Stand & Deliver, AAA Eternal Glory and Official WrestleMania 43 Watch Party",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTlU4MjZZVzNVMjZsYjlrUTNJSVpDblEtb1NiNjhRbzdFXzB0S1R2UjlmTGJ1djJIOEwxUFp2RlQ3MHBLYjdiNmViQmJzVlJ6UFF3RUYzaWVMb2g2UVVRUE5oanRwOGtmajBWQW1ERHpVYk1pVnJ4b01TR2p3VERTWWExYldMSFdVUlNMbV9UX05hQ0V5ZFhqZUFtanBmRlhIMU5VZkI3SWdka0JoeEgtUEwtLWhGSm5JT1RpZ0QydTk5SVN0bklCX1NVUQ?oc=5",
+          "source": "WWE",
+          "publishedAt": "Mon, 20 Jul 2026 13:03:35 GMT",
+          "fetched_at": "2026-07-22T03:16:20.929036",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys Q1FY27 preview: Sequential growth likely to be aided by acquisitions",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUnJwMlY2cmQwT2kwUG9TMmVfTU1FNnNWTkNDQm1CZ05OR0FIV2Q4ZXNhX1dCbldqMHgwR3UyYWJ6OGdOS0FnZDM1R01HRHF4SmRpNzFNYUE4SEN5TGVLWklNR3pSUEp6akJycU1VdjdIYlNWUkx0ZzZINU5UUGtJb0laV1A2d19QZW5TdnpIS0NlN1FqbktRMEdmTEtQajdmQmNfWTFLa2J1ODdYUFVjSDQ4VXNMWjNCY0JpVWRJbjJ3dHJBWUpDRkxRd05JUVVVTzluVWg0ZzVoUdIB4AFBVV95cUxQUk5UZ0V6QU9PdEgtVzhfNktBZWpGTnA2SVRrM0dMME9qRzNsN3ZZdVVIQklkZzZvR0otOE9tRVhCbEVDVVJHMFlGMWYyUDRlaGppdGJYTnI4WnlkMTBOYlBQdnB6d0hiV0NZWFliZE10X1d4UnpIRlI3Nzd6MDk1ZHdQTHdrY0MyTkFMTnV0ZFlYSURCRkc1blBvOVNMUDJqSkdXUnZMTU9DLXF3T0VrcnRUbEdFQnltaHZlaUtKb19aSHp5UTREWlVkbXhkS2JCYVRQMG9Lemh4N1pUdGF1dQ?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Sun, 19 Jul 2026 12:07:29 GMT",
+          "fetched_at": "2026-07-22T03:16:20.929041",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys Share Price Highlights: Infosys Stock Price History",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZjJwQzdlS0hsWTlPczZkSlYwc2dSSHdWMDdaaFhNMmx3SE1JcXNmbF9aM2hhbWU1Y0ZjWDZNRktBZ0U0V3MzcklUZzRfeWpVUmV4bkw5ekZNUUdpYmEtZC1iLWNLODdialh1ZzBJY0hOd1Z4WE42Y2tUMTRkbEd6R20teF9NX3N3UlpQaWZ1cGZpTnZpV0dBSm5WeW9rVTVyeHMyMUIzYjdhcl9UaFV4S0haV2hoa2pvZTdwWXlwekl2bzZJVE5oMHlhVk1RQzNFWTEzd0xSTUpNNjZNd2dmMtIB5gFBVV95cUxOVVlnemdjNThEYllETlhvaC15QzhUR2VETm56QnR1SXNIWi1Bc24wWXNXLWUzNXY1eWExSWZUOWpvNXY5Nk5nWnB1WUwtMk11ZnZHS0NtLXR5TUpJM2xrclRYTVRwV2F6VmFzVE1Jck5HcS1SY09oR2xzbm53VzE4R1o2UWVJMUcwUzBQVnh3TWF5OTd6UktRNl9mZmUzS3kzbXhRelNxS2xxUjVfbmJkeEVXc0syd0gxWU5sXy1TeUNkMnZ5V1hId3czTGVsbV82d193VFIzQUFQUlMzTjl1OGloS2lTZw?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Thu, 16 Jul 2026 13:01:09 GMT",
+          "fetched_at": "2026-07-22T03:16:20.929045",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Q1 results this week: Infosys, IndiGo, Paytm, Bajaj Auto, Eternal, Meesho, Adani Power and more",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTWtXMElPblNoNlVHaGxVRDk5S0RxOF9HODFvdVJmN0NxMW13bXNGWWVCaTdMRHA5YS1GVllzeFpyRlhzS3RKYk9IRkpGUWpwc2NBYUVVR2JEQjU1bEJldFo3LUo2QThVVXJOOGgtZEZIMHh3LTYxNUZZTzJ6cnFyYjJDMXhYSzRpbTIxX1cyZkdNb3BTdURDNDljYURuN19GWlpOS2VHc1FycHhQS0g1R3lUQmtid3VRek14VHcwU2NNY0lBcUN6OWppRWR4Z3hQUEZtSnEzOU1wd2dBUUhKOExBRmU?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Sun, 19 Jul 2026 06:23:03 GMT",
+          "fetched_at": "2026-07-22T03:16:20.929049",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-21T19:41:37.183802",
+      "last_updated": "2026-07-22T03:18:12.326776",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-21T19:42:52.815964",
+      "last_updated": "2026-07-22T03:19:37.139580",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-21T19:43:55.910223",
+      "last_updated": "2026-07-22T03:20:48.962159",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,21 +480,114 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-21T19:44:58.359020",
+      "last_updated": "2026-07-22T03:22:13.570329",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Mumbai Indians owner Akash Ambani talks to Mahela Jayawardene during the IPL auction",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZ0RhSUpXbS0zRUcxS1J2cl9OUjd1LWpsRzRxSC1qNDJZck9CS1paNnpiNU9rZzZ4eDZfVUtEbTlCM3NDY05HSUtGUmUxNV9mcHBUUlpQSXJnM29JRUpkbGlKaG1VZFhxbUtEaUdibFMxckdTRVlOWFJMODA1alRscXJBOVk5bF81cnEzTlZGaTJOR3RNWEloS3dHUUdrQXN5aF9YcDVtLUFJU0kxX1NJRFNWSHJwdVpLRzZFUTZhdTNpcklEV2JrTTN6OUZIQ3hlUklIWg?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sat, 18 Jul 2026 12:22:36 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545504"
+        },
+        {
+          "title": "Mrs. Nita M Ambani: “Hope the kids go back with a lot of cherished memories”",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeHo0cXpDU0tZRkF4RGFVLVhqZlFzRDdod2RSOEViNjRSOHdBb3E3UC1fRjFvdUxSa05yRGt6NU42RTFZcldWTERCNUMyNGNNRmlHVjAyV1NHQ2NIcjc5bG55MF82U1BTVVNsRFNYc0p4aGRqaFpuWmoycHRaX3NxRmphb2lJRFgzVjNUV0JtNUZxdHNjNW5xYV8ya2taZi1hY0RacnA3UFh6RTg?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545524"
+        },
+        {
+          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545531"
+        },
+        {
+          "title": "Mumbai Indians owner Nita Ambani fails to recognise Rohit Sharma after batting great’s unbelievable transformation | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdWN2MWEweHFuLWdadDNBTDFTQVdzVnRYTm1vOFowcEtvQjhCWWZ1aHN4MXNTMDd3aUlxdVFaZWhwY3MycUZaUHNBVi1vUTRFZUJINHlqcXdpdE0xc0xZLTRLc3Y2SWNqRUpjeTBad3lnVWllZHV3TWRJVjNlYmE0RHFVYVlqcWxqTGI2bFdaNmRaWnRvY3lrM09WOGpGT3hPSmpIbWc1S28tTklHT0RtNVJ0NHpBcFhfWlF0THhJYWZFSmNsTFNCVEtEU1owZVpfSWx3ZF9ZOWVHTU8yTlBqX0JsRkpNVE5OUF9PSkxuYzB1N3JxS2RHWlFUQnEtMkY1Ym5rb9IBigJBVV95cUxPa1lnRlI5RmJlOUdybEtKUVVzaEdjQUlzcU1RaUptSWI3YXVpNnBJS1A4WVhWekotM0dabUxBMkE3UHpWVmVWWFhMalFOU2ZpYmREWU9Rdi1MeFZIbnVSX0V5LTRvMlpjelp5NU5odFNXMWtLRlBYQUk4Znk3SDdqR0tlOUhHa0Z5alI3enVmLU1vNlVRdVlxZTFsNDZJQW1pVkFKQmlwUG5ZX3FTRUppSUlRV1NKc1R0TXIxZjJXZGRiYnI0R253YjhkbTgtWGgycTByMWlidU9IV0tJZEhEQjZ0QlFWOU9uSVhJelczckpQVi1fZzB3MUUzVHMwdFdJNmpoSFNlNUgzQQ?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545535"
+        },
+        {
+          "title": "Rohit Sharma unrecognizable, Mumbai Indians owner Nita Ambani reacts to sensational transformation –...",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPcHV4RGRkbWJVR3RvRVpvalpXa2c5VTdIQW5YTWVuc2dqTnVnNE40bEVuLXNZX3BIVWpWeDJWZEdicXNQZUxleDRESl91MHR1WmlTdXFhTVNCQzh0VS1sLVBjLXlBS1RYZG53UUF5bU9pLTBiQVJyUE1QMUVVTE4xOGFKSWQ0c1NVMzNsWVhldlU2SUl3TGFmUE1PYkI2ckphZ3dlc2duQm8wOVd1czdqb2ZNNk1VT0RjZG5VRzAzU25GcG8ycUluR0JicW1pTnhFV2UxUy01NEpKeVY0MDlBam1oUmoxWWtUTHRvZ21VajVBLXRrWE9LMzJrODhxUdIBgwJBVV95cUxNRWhKWnVmN3dmWnhOcC03NGR4SVFaQmY2ZmRxdlhFVTBnNUhzVEl5MzIzSTdWY0pKLWUwdC0wRElyZktXNFQ0emtmdzRfUFJfV05HSElJaV9GNFYxOWo0ejlWb0RkbC05dUR0UFlzR3ZjcXRmUUV3YWRkaUxPeTJYR0FrMkp1Mlk1NFV0NWlBSjVuUHhHakkyd2xnX2stV3lFTUhnRGFCSkpTSkpEclU5WVZENmwwbUxTWjJ2YlN1XzhNTDhjVm5FWFFCUkhYNFJMQWxVbTAzaFJ4RE5GaEd4WVltYjRWM0swSlo5V2M2dEFxOVpjX1dWeEVVTlBrb3ZsX1Fv?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545540"
+        },
+        {
+          "title": "Rohit, I didn't recognise you: Nita Ambani praises MI opener's fitness transformation",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObk1BTGdfTkhycTlmTHBZZ3gybW9WQWRCWEcwRE5SaGh2NFF4OHE4b0ZPbXdZa3NESU40bnRsN2pqbUJ3Mzg0VzBoa2EzTjAtME13ZndSZEVNOTlFSGd0azRKZ2lGdUxCZ3ZYQlpmWHI2eG4wZ3ZCTjRod3JtbW0xb3pIV3l3NDlxNWpzX0JqMnAxMXFnQUZCbDEwS0NvRVYwNUQweVhUWFpqb3o1VmJsbXJxeEFVVzNFOHUyZDU3RHozN0FULVB5cDJIRUl2dmNQazlF0gHYAUFVX3lxTE4yT2ZvNFhfNlRmaUVjRVRoMmtaTnQ4YWpYOVI2NXVDcHV6clROejBYLU9vekgwU0hBQmREYlFTUGowQVNQT3lJV0dDN1NJZTgzbVZFSjJGYndhNWNyZlY1Y0JoOGNhbEYySEhlYkkxTnVFOXVHZ3gtZFR1bWw5anViQ0xNcjRwRjNCR1JsSDc5TklLTmdkWmRtQURrTEFTb0wzQTdjUXZrV0s3amRHcWozNlV1dVdpODFzM2hicF9UcVpYeXNPb1NlUjEyNVpfQl8xTUFpNVhydQ?oc=5",
+          "source": "India Today",
+          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545544"
+        },
+        {
+          "title": "IPL 2026: Ambani-owned Mumbai Indians deepen brand play with 30+ partnerships, 20% growth in sponsorship p",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOclhFR0pUaVh4b2FFTGg2S2tVNVV0OW55bkFGWHlVQVFnakFRMC1fSXR6NWhPMUVyZTRzYTRFV2dKS3Nqal94RkNXXzRfVE1BcE5sUThNTGpIclA1NXU1Q3c4Yl9HMDZvQjI4dGd0ZHlaTF9CdnhHZzI1T1JLOG9KbVkzeXZqbXJnbzk3Tl9DRDZJOHRZMXY1U1VyZTlFMFhtQnJnWWtkb0hpdnN3eEktdWpyazVyVmxoNWtqLVcwcHhiYzhGV2taS0xzUGFKVHdtaGJDZzFSQjJ0VWR2Ynk3SW5pUld5TVo3WjZiR1JHbUxsbGd1SVpDbklUZUVOUmJI0gGGAkFVX3lxTE4zN0lUVXp0RTVmT0poNVFyY0p1a3JNU1NsT3M1UXd5M2pGM3RUOW5nVzNfZ1BHVDZRTUVBS0JMSE1YYmg5SE5aeVF3b1dwVF9LaGZ3Z3BTZUs1NDZnRDFMOUZSWFVVNkNrRlBad3RQTFdZdVc4c0ZXR19fajJUbVp4UDlPVzVHNGxHSEJoWkhKNG96YzN1MlNSSnl3bW5GWVlhRk9OdWkxblNnNEl2QS00RXgxMFV1RGJheFdCbW01VlNzNkgydVozUWFHZmtYcGZsZ05ma3lxX0M1aWlRWUhQOW5ReUUxaFdvcVN3d3JhUUlNREtnR0d2WWZRQVJZdVV0cFV1ZUE?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545548"
+        },
+        {
+          "title": "Team Owner, Akash Ambani, on the Quinton buy, base-price picks and planning the MI-way",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQXJJYUt0ZjZWN0xva2JZU0ExZTg4aWhTeHVFZ0J5ZXlDYzZqRHotSEVJR2RyZHRwWEozdGUyRWZwU0thd2VmdGtNdGFFSVd3bGVrRXdMWTh1YUwzTmwzdFNjMldBMzB2VGt4SVBQYTBIcjNlRmxCc0J6RGxDVUVtLXhkbWV1eHVKbHZnRGFBTzZOU0V4cDF2SGRPYjlRUzJNendUa0tCcDJFNHlIdzQ5aEJxcFh1VmdjNXc?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Tue, 16 Dec 2025 08:00:00 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545552"
+        },
+        {
+          "title": "Akash Ambani has a key role in player selection for the Mumbai Indians ahead of IPL auctions and also directs auction strategy",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYjBpS3NCbnp2SUIteUt0cWpEUzlzLWR0RzBTSk9jTlc1SzhzYzEzcHNTdTFXWm0wS093TG1DWjI0TU5icld2VHVkSUNnd1hXZmY1eGI4a1pReU1CYUVfSm1SOGxWRGpCM01zZ3M4ekV6S3gyckE1MVJ6b0RrNTZSaFlTcHJybkdOSGNEY3RlaFdCN3dQc19vZ2psMnY3SGJONi15VlNUdzRaRkZpdEhDRERxLUlTYUxpQzlhdHVKUVl4UzlxdEpMZVV2c0ZhYUl5cXhtVW0wckFsZ0dVUkd6MjFuRjg5c3ZWdW5rQ1pReUNnRmtzLW5Gcw?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 12 Jul 2026 19:48:53 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545557"
+        },
+        {
+          "title": "Student ribs Mumbai Indians in graduation speech, Nita Ambani is in splits. Watch",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOR1NCeW9mX0RXRjFzR0JRbHVmNHZFNWpBTWpBU1ozcDhFTDFtdE5zbVU0X2pEdFR6MFFBU3RXVV95dUtESUFyQ2NhQVA0ZWpPU1pDdFNQWmdFOC1QblpmT0c4ZlV4c1JMbUZkN2ZPSG5fQkNVWHJMQjFBOE1QTUJBMEF6VmJtVGF1V2EwY1hsX1V5VGxtTlhzanlfWEg0cmxrNGR5bXBodS1CNjdPLUpVb1AwRVJXenM4RXZIeXBpNXI0ZlNSd1o0RENtbDJsa3RBdFR5WFF5SkUzU3NJQmpEMXk2eE9mb2w3YzliYW5GSDdOWHhCaXJQc0o2a3VMQmVPcUg3aTNWNF9CMUxlR3I5T0xOc9IBmAJBVV95cUxPd0I1Y1R1RXVLT3lBVFQ2TnlGcGZic2FCa205RnUwTTZCdEZrWElfTXBpOXFDYkVMc3RWU1YxYjJOLTlCVVU1dTUyQWI3M2Jjc0xLQTFSV2pwaW9TaWF2dGwtSVVvMG1sSDhLQi1UUVlhQkVQSE9tM0VZMVlGT0J4UDlPa3lZZmMyMTFMbDlobzk3eEZmNTJIVFh5UDdkWTdzMnhyS3JXM21mZ19aLXM2bGRkRjFuN2Joc1E5NmtSTU90YmJ1bkdwT2xWaktsM2Y2bjdUR2h4WWlHN1pxajJ2ZmhfRWhvd2VtaFFFSm9CM09uYzAtVWtfWk5haFhucUpTVHZYZ2hieFdSbkdqUnd5WFRLV1k3a3hH?oc=5",
+          "source": "India Today",
+          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:21:04.545561"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "Sponsorship ROI & Commercial Valuation Gaps at Mumbai Indians",
+          "severity": "High",
+          "description": "Sponsor attribution gaps at Mumbai Indians: sponsor. Brand lift measurement and commercial valuation framework needed.",
+          "detected_from": "Mumbai Indians owner Akash Ambani talks to Mahela Jayawardene during the IPL auction  Mrs. Nita M Ambani: “Hope the kids go back with a lot of cherish...",
+          "gap_type": "sponsorship_roi",
+          "keywords_found": [
+            "sponsor"
+          ],
+          "solutions": [
+            {
+              "title": "Mumbai Indians: Sponsorship Impact Measurement Framework",
+              "impact": "High",
+              "timeline": "6-12 months",
+              "price": "₹18-28 Lakhs + ₹2.5L/quarter",
+              "methodology": "Brand Lift Studies + Jersey Exposure Tracking + Social Sentiment + Recall Surveys",
+              "description": "**MRA/ESOMAR-compliant study**. Brand Lift Studies + Jersey Exposure Tracking + Social Sentiment + Recall Surveys. **Deliverables**: Quarterly sponsor ROI reports, Brand lift index, Competitive benchmarking, Attribution model.",
+              "gap_type": "sponsorship_roi",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -488,26 +627,6 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Mumbai Indians: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Mumbai Indians: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
@@ -518,21 +637,43 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-21T19:44:58.808514",
+      "last_updated": "2026-07-22T03:23:45.047448",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.33,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Royal Challengers Bengaluru",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Royal Challengers Bengaluru: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "Raj Kundra Loses Bid For Cut Of $1.65 Billion Rajasthan Royals Sale, Ordered To Repay $4.94 Million  Highlights: Gujarat Titans vs Rajasthan Royals | ...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Royal Challengers Bengaluru: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Royal Challengers Bengaluru: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -572,29 +713,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Royal Challengers Bengaluru: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Royal Challengers Bengaluru: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Raj Kundra Loses Bid For Cut Of $1.65 Billion Rajasthan Royals Sale, Ordered To Repay $4.94 Million",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPM016WEliTDhOd0hRemZXNXpiVmNvRmpLRTlEOTl3M21KcG9NV014UHY1SnpXUVN0NGpKZWRfbzNjTWNsQ3JuYkRiRTBnRDhUeGt0dld0TXdZMVRyMUEwb3MzVmdIMUlHTXJUUXVlSk5ma204MjBmMlBXQXBnSmxBNVdneWFWb3BBSVdFQ25wWGxIbmhEeVhsNG1pT0U2amhaSjlaTWlhcmhJZVVsaUNQZl9zT3Qyc2h6V3J5dWVlRC0wQkdFT29FT09IaE5rY242emlMR3VOdmvSAeABQVVfeXFMTXQ0cFlGNk4yMGtmbUFydXRJbDYwWEEtNEExV2V1SE5KRk1pSUNJZTNEemhPYlc5cU9XNUFoZTBiSmtCLUVVNGh4cXRYNDEyZnJkM2I5Q184TjU4OWZ0U0dQUnRTSng2cmRLcWk2RkVrTXloVDdjNmk3Y1VWOEpnUnhhRS1GZnZ2dEVtVWRPZzNsQjhmLTQ5dGdFeV8yNHNndGZIa0VrVDRWVm8yOHJ6dHZoSU1lTHhBUmZ0YXBxOG13REpmem5QaEhvQ0pDV0U2SmxURjFWbVdjREh4c2dxQnA?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Mon, 20 Jul 2026 10:48:07 GMT",
+          "fetched_at": "2026-07-22T03:23:39.295821",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Gujarat Titans vs Rajasthan Royals | Qualifier 2 | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVENVUDFKUWpTSWNMcVpyVmpoUFlxUDBiUHhIUXBGYVZEQWZVYl9ISjhydkR0ZXhfWVpYSlNfUG4ybTl5QWhBcEpqRU1CSEJaUVhzYlVuNE1CSDh1VU5ZSnBsUlhEVWIyX0UtUTFOeDlhc01rS0pnS2ZJVTRNOXdCazRZZkxTZ2JEOVEtSXZ1Ny1DZ1RlcXlUZGFqYnNNa1pr?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 22 Jul 2026 00:58:50 GMT",
+          "fetched_at": "2026-07-22T03:23:39.295835",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Sunrisers Hyderabad vs Rajasthan Royals | Eliminator | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOGh6enlSRGFmWGhLMGNBWEN6SlBOQWt1aUZucmMtdjZ3OXhJa1VuZUNmcS03Qk9Yak9qT25EakN1aUwyOVRVcEozMlFpbW1hX0hGNHJ6MUZrQ1hBTDRjdjdDN2g5WjR2QnJPZ2RteTAyeG9tZjZfc19aeDRpMFZldUh3TFBhMGV1T054Q1E1U2FIWVZkX0xFSlFGOTU0Vko0?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Tue, 21 Jul 2026 23:53:09 GMT",
+          "fetched_at": "2026-07-22T03:23:39.295840",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Mumbai Indians vs Rajasthan Royals Highlights Score Updates, IPL 2026: Rajasthan Royals secure playoff s...",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdjFNM3N0eUFzeWFYNHFBYWVuLWNoeWFHSU4wNjdzOG9lQk1mckhnQXRhZnZQNm5KamcwWEdQaDZYQkpYRXBOUFlDRHBsOXFHODM4VU1JNXJmR2lzVnNNdDBnU091S2FXendqNGNpRk44UHJMWXp3Q3RzTmQ1M0xOcGJINXlTS2JEaXlrMTlveUpsUTNkSWVfWnZ4ck5GWGpsTW9iTWUwaWotd2FsS0c5QVdDN1BPT1hkVmJhX1dkVFlNZ056MTBPVTl2QWcwd0hmNS0tbkRKc25FZDVETG41WkFnRk42SGtsTENXYVVIbndrNkdYTHhZ0gH8AUFVX3lxTFAtU0huNXE0a1hIejlsMGRwUlU5ZFNBNm0zejBQTDdkajNReE5XRU5tcmxsY0YzTHVCNHVtNnEyN3BvYXQtZk10NkJPWi1NZVdTMGo2UjNRQnIyZ1NrblhkbEVRMFRBMjBEY3NWRHpCS3duZExzbmdpQmR3UGJjWnNXdjJjSGpDTWNyNDlDWDhhdWxzOEotUWZsSkR4Y3FVV0kzVWpsSlM3RnZZWHBVT0Y4YXNNSnFueGFmd2RpUXZwSkNxUHJFYjdfb19WVEl5eVJnVW9ETXZVZ0hMWkozVGFoVjJiNlc5VG9vWjRlblI3WGdBSXVCVTZNN2U1Tw?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:23:39.295845",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Rajasthan Royals Rajasthan Royals RR",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEU1Z3AzcWNqb1h1MUZxSEU5dl9taktpRlNqdGtKN2NTbEJLczFDZVFyZEh6Vl9BcHltdEZvcnpDR1JOTHktV0ZsNmZ1bDdnbk9CRGRwd1VRUENlR3hMNDdHSW5qY2h4ZzVidTdid2JWRjZ0TkJra2F5Rm01cXMzVkxKclBYRWxCYzRBZmt0UVZCRmdOMzVqMEI0eVJ6VU4tSmVBajEzYzNENGxBS000Vk1FZ3VEWEJucWFnUnFNMlBmdnk5ZFE?oc=5",
+          "source": "ESPN",
+          "publishedAt": "Wed, 27 May 2026 19:10:38 GMT",
+          "fetched_at": "2026-07-22T03:23:39.295848",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,18 +769,18 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-21T19:44:59.012316",
+      "last_updated": "2026-07-22T03:25:18.204004",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -678,7 +845,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "KKR appoints former Manulife CEO Roy Gori as senior advisor",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVmxCZV9UWjdueXZNeS1FUEkwbnVsUjdfVy1iZmxBcWR3dWxZZVZMblNxRUp4eXA2aF9pN0NEQ2JyaFBGWUdhVW16RFFBUm1GdWpldUtPMC1hTGhuZm1QTlNDdEVCbGRkc3Q1VDVfN2lKR3VlT1lNZXk4ZDZhV1NKWUZrSi1EVVkycXd3ZG1GX2t5UjZzTEYwSmwxbnROYUEzNUdyZHRDVV9nR1pWdXhPNGtVVkVwTE0?oc=5",
+          "source": "Investing.com",
+          "publishedAt": "Tue, 21 Jul 2026 22:43:50 GMT",
+          "fetched_at": "2026-07-22T03:24:49.169907",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Twist in mega sale of KKR-controlled Re Sustainability as TPG drops out of race",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRzZ1dHVhMkFVQllwQUhrMGwtRWJsRndlQUZzQjE2T0NPUEppRWZtczVxUkh2aWNYa2o2Z2tCQ3pyWEx3NF9xMlJ0NTdZSS03Q3psdld1VUVKbWZGRkoxSGpmSU0tS3M5M0JOTzVOdzM1bkNkY0RTS2V2bE5pV0NUMjl6bnRYYWZ4VzROcDRuSVIxVUc3b2k5aXRnMmtjOVlVMFA1b2piN2tJZG8wZ0hySXZzaUd2ZGpGSHVaTzlISzhPZnJYazMyQVVHR3NpY1JIdmfSAdcBQVVfeXFMTU1xMnB5OHJjVjNYM0d6VVhwMVRzMHhuOTBoWGpNRDJiRHNKLUlKQWhTNnBRcHRWT09xQXM4MDE5R0RvSllHbGUzSWZPeG05YjZwaFFLbmhMY0U1cTR5SGFVaUFVZmJ1TzRpWV90ZGtrYU5GMVJoQ3lmVXB5RTBjS0tua25NTmpHTHNEYnh0am9DQUFraWt6ZEdMaEVFZjM1Q1VHOE5WNWJfYmIybS05WXRXcEdiQ2ZUenVnRENKdzI4SFZiY0ZidjZsRzg4UlkyM2R6clVDWnM?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Tue, 21 Jul 2026 14:09:24 GMT",
+          "fetched_at": "2026-07-22T03:24:49.169920",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Is KKR (KKR) Undervalued Following Its Allyntra Platform Launch?",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTjJvLXEwVjNoU2JHQ3VDT3BxeW44Q2RDS2QxR2U1TGNIRUlfVFMyQXh0RE90UW1zY2NXLVNiZnRXalpFVDNuTDVWdjEwaDg0bkJsWEhnVHdLckRaUWRycDdkZjM2SlpKY0psWkl1UlY4RS1wR0toQVZnUjF2Q25yU0VFR3lCZUJWakZyMVVPMVBlMzNWZl9VQ3luOVVRRzg3ak81OFpONDdCN3NGNGpobHRucE91UXkyUG5wTXdfNkN4U01sY2tJa0RnenZvQdIB0wFBVV95cUxNX3prWU1zeFJpeXlUdmk0WlZ4V1ZVdXNIM01vSTl5Mk5oUml6LWs0aW5RRnlEUHAxUDZRN0N0a2RaUEdwZ2l0Sl9vUGJGTldBZ3RMbDJ5MWRFRnVSVFM0eThoZnlsZHBIMW9vcWp1b2x2MzRlYTlJNXV4YjBERVhxaTZNcTVGdS1pU2NIZ2dtWWdkajh4VVVSV19JdjUtLVNfdlZXb1VqSU00NlEyTFYtcEFlREhSQW5PUkI5Z0E5OEcyZ0JUZ3dUSHZXRzJnUzdnLTZ3?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Tue, 21 Jul 2026 14:44:46 GMT",
+          "fetched_at": "2026-07-22T03:24:49.169925",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR, Vauban Among Final Contenders to Buy Portugal’s DStelecom",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTGpaM1dIVTRGSm9adG5hUGNTZHUwTF9wRHp4N2E3R3ozb1VMazVWNFp6Tm5JQzRseVRyWWp5ejJuaHYxSXZjZFBSOGRlcXdHSllYbm1adS1jOE8xaE00QWRzazdva3dyQmlVMkRuSHc4cGZPamxnZm1pQTZfa2pDaDZxWU1IUzc0MjVjYXlZZmZ1c18tU1ltb2RmcnJqNS16Zi1tVi1vYXBKUW5vR0RuVlNn?oc=5",
+          "source": "Bloomberg.com",
+          "publishedAt": "Mon, 20 Jul 2026 15:04:51 GMT",
+          "fetched_at": "2026-07-22T03:24:49.169932",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR-Backed Serentica Eyes $450 Million Loan in Renewables Push",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVnczLU51b3JNVkRkSkV6S19sVER0c2l4SVUzOUVSYWhEcFBtMERobzI5Yi1tSjFxbzRrYkNwR3V3VkNVS2p3b0VjMWpGRnhFYUZBWG04SzdtVjlNV2R1c0lxX1R1eFNvYkJTWXpXVUxtbUFubFBPdl9qOXVDeGRUWjRTeXR3ZllQSVFDdkY5SzllaE9ZWUF4U3RuU2FiRklKTGtPT1FPNjd3U3RfRGtTc3pn?oc=5",
+          "source": "Bloomberg.com",
+          "publishedAt": "Mon, 20 Jul 2026 10:30:51 GMT",
+          "fetched_at": "2026-07-22T03:24:49.169936",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -686,21 +899,114 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-21T19:44:59.072730",
+      "last_updated": "2026-07-22T03:25:33.564922",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
+          "source": "the packman",
+          "publishedAt": "Tue, 21 Jul 2026 10:18:47 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059916"
+        },
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059930"
+        },
+        {
+          "title": "Simulations Plus (NASDAQ: SLP) grows Q3 2026 revenue 7% to $21.9M",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2FEVW03SEdoU0JTdEdoU0hQMVlQMXBFdnNfSkdnVG0tSlU0RVU1c1dVa21MSXZoZ1haa1Joczh5ZUJTQ1JpSDZ4cjMzR3lYZzlUOXlKWFpSdUxicXlvTnNmM1plVXN2MWhkZ0JiQVhlSktOWFpuWndLVmVCa2ZCWUxlOXdLc3I5Ni1Nc2pjZTdDSEVobUFteFMyLUhuQ0EzWXN0d3pHdkR1aWFy?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 09 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059935"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059942"
+        },
+        {
+          "title": "BNB Plus Corp. (NASDAQ: BNBX) amends registration rights timing for investors",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNWdQdTAzVkFYdmZTX1l1dE11M05aNUNxMExUcS0wWUpQNjAtZVB5X2M0QkZMT3hMX0NBM0Q3V2YxY0Q3Z09JcXRKbGREbjdVc0k2VDY5TE9wUEN3T2pseENiRFBCUnV0MU5faEhLZ2pOc2dldDhFN0t0b2lvZ3VDd2w1STVvSEhGTmdiMXNmWkVvdUhraGtwTE1EVVJTS3MzeFNESg?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 02 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059947"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059951"
+        },
+        {
+          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059956"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059962"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "WVUA 23",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059966"
+        },
+        {
+          "title": "Premium Quality Matting Material Trunk Mat for Jetour X70 Plus 2025-2026 (Washable) | Perfect Fit",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUDlKVWJvYnAtci1wc3ZGNTlYd2VhTGdiTVY5Wnk3Z0lLR0VBSFRKeFlJcXlLT2pRc0lKcTRWRVk4SzdRWG5mQzF4LVdPXzR4aUgzb3YzUG0yblQ1UXZTbmVuVV9lVWRyOXdwbTQwMzVoUlM4WHFERkNUMlREZXRVaW9vcm5NUjdTUzBieER5dXBXUXFtNTBGMVdhdk1jbG5CdnB0QXNDdXIybGxRRXZrY0ZWbDEtWWNXOW9VeHpQTnFPallBbk1iVkQ4X0pyalUxWHg5WDU5M3dfVURUOWl1VUxSM1k0SzQ?oc=5",
+          "source": "Pakwheels",
+          "publishedAt": "Wed, 01 Apr 2026 09:48:28 GMT",
+          "fetched_at": "2026-07-22T03:25:26.059971"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN  we+ explores craft and digital fabrication through material intelligen...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -740,30 +1046,46 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
+          "source": "the packman",
+          "publishedAt": "Tue, 21 Jul 2026 10:18:47 GMT",
+          "fetched_at": "2026-07-22T03:25:33.564519"
+        },
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:33.564533"
+        },
+        {
+          "title": "Simulations Plus (NASDAQ: SLP) grows Q3 2026 revenue 7% to $21.9M",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2FEVW03SEdoU0JTdEdoU0hQMVlQMXBFdnNfSkdnVG0tSlU0RVU1c1dVa21MSXZoZ1haa1Joczh5ZUJTQ1JpSDZ4cjMzR3lYZzlUOXlKWFpSdUxicXlvTnNmM1plVXN2MWhkZ0JiQVhlSktOWFpuWndLVmVCa2ZCWUxlOXdLc3I5Ni1Nc2pjZTdDSEVobUFteFMyLUhuQ0EzWXN0d3pHdkR1aWFy?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 09 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:33.564539"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:33.564547"
+        },
+        {
+          "title": "BNB Plus Corp. (NASDAQ: BNBX) amends registration rights timing for investors",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNWdQdTAzVkFYdmZTX1l1dE11M05aNUNxMExUcS0wWUpQNjAtZVB5X2M0QkZMT3hMX0NBM0Q3V2YxY0Q3Z09JcXRKbGREbjdVc0k2VDY5TE9wUEN3T2pseENiRFBCUnV0MU5faEhLZ2pOc2dldDhFN0t0b2lvZ3VDd2w1STVvSEhGTmdiMXNmWkVvdUhraGtwTE1EVVJTS3MzeFNESg?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 02 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-22T03:25:33.564551"
+        }
+      ],
       "filings": []
     }
   }
