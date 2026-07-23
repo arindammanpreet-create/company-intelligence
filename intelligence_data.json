@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-23T03:30:29.613667",
+    "generated_at": "2026-07-23T08:47:23.495647",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,18 +14,18 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-23T03:22:19.806408",
+      "last_updated": "2026-07-23T08:38:15.057734",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -90,53 +90,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "India Weighs Letting Airport Owners Run Airlines to Curb Duopoly",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmoxdl9aU0JnSGJHdnFqc2NlM3d0Z0xDbUd4dXl6MGktZndkdFRBMm4tb1VJVElFU2djWlFtdERmM0c3UC1fLWl3N2phZFI2UjluZ1lkckNHTnZfNUVxZnJYRk90VVRXX1g3eVFNM1FJNmtUNWE4bkE3Zzc5R2JKU3FJMXVFbkVHNkRhajI2cmZzNllJTHFwMWo4MEJDVHF5dG5sWF9Tb2xxRmpPdnhqSHc4WDdadw?oc=5",
-          "source": "Bloomberg.com",
-          "publishedAt": "Wed, 22 Jul 2026 08:23:19 GMT",
-          "fetched_at": "2026-07-23T03:22:00.100594",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Adani seeks clearance to own airline",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcE9RZVQ0c256eWFWLThIRXdFX0sxSzFodlVNMGdPd0hqb2FZNEZwMlgzZU96TVZNM3hYNHoycVBKMnVueUNpM2M2U0xzcURHNDltcnV4UFRpTzdpeWVGRm9zUUlHcGVhWUZNUElhallzallEOC15OTZBdHg3R3pZdTJQTG5rcm43QVJRdG80MmNrOERhS0RRQTdxanlpS1pnMTNFdzZTblBFQ0NzVTZ6UzM2bHNSYmR3Z3FhN0VXX1BYU3BvWDhEQWVmT19GQUnSAdQBQVVfeXFMT0JmZlA3ZWs0Y21XaUVLS09jbEp2VWVfdUV5andpLWxVSWIxdXBPRDhjSERDdXZ3R29pRnpxUlpFTGVhbFY4eWx5WWRXLXc1YW9MODRVaEJXQ091VUVFT01IVnpYSTE3Yk0zLVB3RXd2ZW42d2VEalJhYXFBQnYxblhJNHQ5elRYd0RxY3RvYjlhVUNRNWZCV05YY2tIS1JtcWxqTFYwbDZwdldud2NGZ1R1OGlfS1hVWEoyaWR1RkIyZmxHRXBqQUVXZFF4aldQZHJfdjQ?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 23 Jul 2026 00:00:00 GMT",
-          "fetched_at": "2026-07-23T03:22:00.100613",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "India weighs letting airport owners Adani, GMR run own airlines to curb duopoly",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTTExdmF0QXAxQWZnc2V0dExlUnI1blFwMXVjVFlEakpSMW9fYkVabDNnazhKa1FpTVdZNnVqNVpHZkNzdU9zZUVvVDVBUllIaHVGV1lvOVlSODZtRmlOX29XZmU4OWs0emU4NFFhQVE4dHNxc3E5WTFVdXo4ajVpVXczT1NNc3dyTnFUekhJWGltREJnWDUzR3gzMTh6d3VKQ1h2S2JHem1CSV8xWXE1WmtnNjFOU01xVWpNTmNINW00RnEydElyYlFaN3E5LUNLRmdxOUdhMnUwaHpBM19vcXpBUQ?oc=5",
-          "source": "ET Hospitality",
-          "publishedAt": "Wed, 22 Jul 2026 11:55:05 GMT",
-          "fetched_at": "2026-07-23T03:22:00.100616",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Adani Power Q1 Profit Jumps 47% To Rs 4,867 Crore",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZDhCckgxcUtYRU44LTFPVC1vQ0lMeEFPT2JNSGFkS1lIU1RZaHktUkdMai1Scm04R1FDTFZIOFd5dnZta0Z1b0dMQXNicXhiZ2ZMZm1oYXdJbVNfQmV1V2x1aVE3dUp5MWNLX2swdUt4ZUhrZVhaT0FQY0lyVkR6Zm5EcmZRdjU0MnZoaFJLZ3Jna3PSAZsBQVVfeXFMT0p1eXVuN0lVLTg5ZXMwTFQxbUZFM0hDRTVWMl8xTVo0NC1uUGlBdklNdlRjdDRnQkZra1F4TUZrRjhabDFBSWtlN1J4Q3Y2LUcxUEV6LVFoWjVhUkFjRlUxUW05T29oMURaQVFCaTVraHN3Y1JUaGl5cV9Ia3AxZ2pPYTJGMTRRUGtWcktXYVNQUGQ0RlNGMGUzRTA?oc=5",
-          "source": "NDTV",
-          "publishedAt": "Wed, 22 Jul 2026 12:17:20 GMT",
-          "fetched_at": "2026-07-23T03:22:00.100619",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Eternal Q1 Results Live Updates: Eternal Q1 net profit falls 47% QoQ to Rs 92 crore; revenue up 17%. Chec...",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQWDdsTEZHU1NZNjlXWmQ5VGpDUWRoNkJ2alFLTFhRXy1wN1dTdXlGWVdibGxfVllycGhhTlNoRDdDcFkzSkxXZ3Joa0tQMDRxcEttVUdmTzZsN244V2UxQmdLQkxqUWFNZ2F2Y0tVYjRjWjY3d1g2cmE1aTV4OGp0TFZLSGFIZzlrQi1hTm4yTU9ucTJicFF2aFNuVlRJY1hkVkR0WmdDVnZGRENCS2ktc1lyODU4bGxwN21kUThiZ2E4UFltQUN4cS1ibFdjTThLN0F3VmRzYmo5d1UzRVAxdlZ3VzBCM3NIc0FnWV9tNjlBTjJPWG1FcFUtMG9DR0w1cFlJN2U4Q3lUZkNwdWpXYTNEaTLSAZoCQVVfeXFMTWpjRGpEZ3BqT2V4ZUQ2ckFvUUg0Y3piQThaNjZQT1dsRDVlbGNLdmFsaWl0UkxkZ1ZOMnkxUXpjWVBxV2hfdjYzQ2lUWjNybDl4VkNaaGpIbGpGWlJ6TnRJaDJERGZWWmk2MGFqUmplNjlBQUtMU2J6X2JWenlhdVVhMk1qRTFUZjBUSDNHeWN1ZFpMRS1uMEJYVVVUaDhhSlZoM1hORmxpYjhESmlfekRnbUxnRGJwTFZSQTYyN01rOUhXaUljbWpYemk5ckkxZl9mUGs1X2VkX1didXhvSWsxNkxHbi1aVTlPUTZiMkZfS25mZlRkSVhCZ01RV18xbm5pWGhUQnBsdGs0bXdHQ0pxTVEwd3BxMTVn?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 22 Jul 2026 11:50:00 GMT",
-          "fetched_at": "2026-07-23T03:22:00.100622",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -144,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-23T03:23:33.915565",
+      "last_updated": "2026-07-23T08:39:35.872792",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -228,43 +182,21 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-23T03:24:37.044354",
+      "last_updated": "2026-07-23T08:40:49.929974",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Infosys",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Infosys: governance. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made  Infosys stays silent on CEO succession at AGM  Unlocking AI Value: S...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "governance"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -304,53 +236,37 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Infosys’ Salil Parekh topped IT CEO pay in FY26; here’s what the big chiefs made",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaUxkNUdzTGR2ZWZiN1dOV3h4STJEV3FwMHMxaGJKdURvM0x0aUxaVnhxcFJuVkRxQUU2Z3RmdHhPNE16OTctT01WZ3FxSEhqbllfN1JOVVRPMEs4TVAya2hkVVVQTVZhdVJRZkY2bFhVdDVVazdVcHVKZXo0Tm1DU3hVYURwV054S0I4MTk3ZEh4MndadWx5VjN4WkhnbmhxcXlBMWh2SXp5cmx0MURheUFVelZkY2Z2SnVHVzY3SFZLSFd1SnR0TWhQV2lYMlpWM0JuVXdTLTFkdHF6YXREX2tYNkwtUTRl0gHuAUFVX3lxTE9WTHRzc0lQLUIwdGRMRGlQMlRrbUgyWEx3ZVZDVnZUMkEwQk9yLWtMMFlJUkExWDMtVDJrSVRLV2ptY1BtYVNDQl9odWg4UkR2cWpTZ2xGeUpXbk1VTTd0THh6cjYzQlByWVo1YzRVMVBiVkZiUDkwRmpiVkx0dDdiVjlOaG1lN0g1Y2xoclNNN1h1T3BRM3B1QkNxWWFGcWszbmZqS3BTZE5GZk5fQS05dGpGbFVicEMwbHpLYTRtLUV3WUFzZmN4bXl2V1JFNjIxcHpJRlNXUk91RzlIMGRNZjdsZWxYYVhOcExFTGc?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-23T03:24:37.043978"
-        },
-        {
-          "title": "Infosys stays silent on CEO succession at AGM",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZU9xbDE3cnJRU3NDY0tZNmVpRnR0RG4tSlpJUlAyelI5Ung3WWdmZFRVVGRLdGVrMzljZExXZlYwLW1ocUxzZ1BIRGQ2dnBZY050WV9LZXdPb1dBdlpqZlB0ckVlU0pFbDNOVU9XMmNkU045bXduZUVSOGJQMjhQMkh6b2tNRW9ndmVRbVQ1MUllUFdBSmdlZ3NlWkFoNEJsV2tOaUdlaWcyOXNxd2VGR2NvRjhvMERkVUF4ak5FWmtmSUnSAcgBQVVfeXFMTlQ4LXVaOUJwUVFvckZLazcyQ29GNnpFQlY3UlNjQXVfTW5DcjRucU9jSTllNXNvcWRpdGtiUnl1M1lNbzZyX05iWmNjYXlBcnVXdVlvN2FBWWFtbE54Y2Mzekt3YU1ER2RCZzdCV2hRbjJ1UzFhRC0tTlpyWkdhM0FCa1FfMmJrbnRPaDUyWlFnYkhKSTN6MnJvZDRvT2hsVWRZTWk0XzRKV3E0QmtFa2RVM0hxck43cU1kQ2diNXFrX1hvQVBINTc?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-23T03:24:37.044000"
-        },
-        {
-          "title": "Unlocking AI Value: Salil Parekh on ROI, Jobs, Data, and Governance",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oWDVGNUVCeU14Y1I5dVcxOXJBb2xwVzYwdWdxWktNSjdzdmFiRFdYc2NNNWFpM1o2bmx1YmdwOW9EcmZPXy16ZFdPWHBEdkJjYTN1LVJBajVDbkJsZ0I1M205cWlTdGRRTVE?oc=5",
-          "source": "Infosys",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-23T03:24:37.044006"
-        },
-        {
-          "title": "Infosys CEO Salil Parekh on AI tools replacing engineers: It is not that overnight everything is going to",
-          "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQX0dkNTFfZ0hteHBsQVhMbDBqSUh4V3RYbjRMZ21Xa3NTa0pOWEFmUVBQOTFhdHUybnp5MmlsMWlCcUpDNXVhVVMyTFFGdkxIbEVGRG94NEJoQl9fSUVCODhnenMta01Fc1BWa2ZlUHVhSUdpMmNadm5hRHZ3S19kMkRNbzNrYnpDVThJbmdOQllFMWNYMjNqNkJGTFlNc1l6THQxeDM3a3lSdzBleGpaVUcyY3FuZXVUc1kwYUktRjA4ZHExZVpPaGF4RDZ2ZC1VY19FcUlCZmo3YzFyR3hLY0paX0VoUEdHWWVrZzJIdmxVS1Q2VGlFd2xnTHRfX3k3VXdQcXg2R2kxNG9CVEE2RlhEWERoeGFsekhTcXlqSmhRU3RXaVllOXBmNzNXYlB5T0p4QlhjNUFDNFlYbGVpcjdCUHjSAcoCQVVfeXFMUElweEE4SGRrb1JSVkVsa2hqNWluWDdadm85X0JjOEhGNnVfZDFGUG0yN0VhNWJrQWFPTXpKVUpNelowV3ltZkFBVzRjbE5TTjk3TGFEX3R0REd3aVcxTTNNMFFndHJHSGNRVE9YZHFyVUxsaUhWdDdkcTJWMC1lU1VOV05rWjg0NWttZU1WOXhacmVkbjVuQjRDZ3JTbGZZdldLbXppTVZaSksyMWVKMlEwVkxUelhIVzkydklMZHk2XzlaTi16ck5nTS0waUxaeFd1S1lYQ3AxLXBQQVYyUGpaV3JfYTlWNjJPUE5jOEdhWDdITUdRZWE1ZGs5bzBFbjRrcjEzdV9mRzBHOGFMREtjS2w2eDF3cE9NakliOFBnR1IxcEpBUGxyeWpCWWRYVE5MYXgzdDhxWE9sb1BNb1VGd0RPbnZjZFBR?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sat, 21 Feb 2026 08:00:00 GMT",
-          "fetched_at": "2026-07-23T03:24:37.044009"
-        },
-        {
-          "title": "Infosys CEO Salil Parekh earns ₹82.6 crore in FY26",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcy1Pd0hMa0ZtS1FWSHlDRWwtdWF0NnY2VkZyOWZKSnh6bUZqMkg0YkZwLTNoYkF3ZVpwTENtd0pWck9UTFEzM3hyYkZHc1ZCWG5ROTYxbF9qQWZ4cG1DUDFNaU4xTkRGbkF0cktNcjRyN3htSlZRWW1KWE5iZWlfMXZOX21SLWROUmI0MlFXSVRhdmI4Y3BKMVpQNTkyVTU3a3JEeWlKVnRRbmlHZlJxb2lEdXBXLTlESlVWcNIBwwFBVV95cUxPcTVZRXF5aW5FREZXaVNqQUdLVFFOZlJuMUNUSUZCa0xhNExMQ25UeXB5akRCWWlVcjFWZUY3eFVRTG1jSUdrQU5LV00xeDgtck5vM2s4THYzMEdweVNhRTdQOXpFdFNDWFF2NzVLOUdkS01uX3YxdTA2SnY4dGlUWHMtOVllaV9EblNDVTdZMjlhTDY1eEY5M1puYXhMSzNjSmJsa0JPcnctY0J3T21oTlBaTko0dHhwWGl1RXFjLW9wZU0?oc=5",
-          "source": "BusinessLine",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-23T03:24:37.044013"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "HDFC Bank": {
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-23T03:25:38.527905",
+      "last_updated": "2026-07-23T08:41:54.151585",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-23T03:26:26.108537",
+      "last_updated": "2026-07-23T08:42:56.604587",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-23T03:27:45.443307",
+      "last_updated": "2026-07-23T08:44:08.129405",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,11 +518,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-23T03:28:57.598562",
+      "last_updated": "2026-07-23T08:45:43.577577",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -678,53 +594,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "GT vs MI, 30th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMU5qYkVUNzlLYXlXMm1WU3c4RWZJdFg5RzhKdEQ0TlBjNEUtdTVrT2dTM0VQcEVuOXZ0dVJTYWRDU0RQejVxUWU5WDRfS1F6NDR3a2pRT3JDZTZndFBnVkRxbi1sTkFjMmp4WWJKMHZrRk5PMkcwMzhpRzJfY0pxXzhTYTExek9nbmhPWDFXNkZsNTRUM3lvRm54dS1idm8?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 21 Jul 2026 02:27:10 GMT",
-          "fetched_at": "2026-07-23T03:28:12.972825",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kolkata Knight Riders vs Mumbai Indians Live Score Updates, IPL 2026: Powell sends it soaring for six",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa2tvTm82VGJXUVEwRzhGd1RBVnlUdEY4eDk5Y3VpT200UW16Q2NoWWVGVXVpamtrNHd0ck1fcklubkg2aUtOQ01UZm1BalJuTGRSeDc3QVdsLXd5Y0oxclpFQ0JnOUFBN09XQjc2UHRkTV9tUnF3R1FkWmI4ZFRNYUVyX01Yb0w0ZS01cmJyUElOT2NCdGNVbDJ6TVR4T3RYV1pEenBsLTVpMUdDblFwa2t1cGxZMzFES25aekd2SHBzMTVoNkpkZlY5UzgwNTBnWU5qLXdVV3N6Qy1uREYyMmVPM19TQ1MzdkxWVmptTXFuS2RsbE1aR1VGNDV1Nkk?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 20 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-23T03:28:12.972846",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "PBKS vs MI Highlights, IPL 2026: Tilak Varma Slams Heroic 75 Not Out, MI Win; PBKS Lose 5th Game In A Row",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPT0VxcVR5cUpuYUJPRHdTM0VZcG4yaS00UmRlRVMwcGZtX0VNNFFZYzJrUk1hUUFSdGZ4ekd0bEtzeDE3MU5HRHNiN2ZDQVhwZHpHY2hydHB3MXE1akQtdjRON1NOR2FXb1BLRGkxRkdLU09OajNoRU9IZEJ1N283NXdhVm1uMTNMYldhUzFuNEVfY2Z1MG5LQlZtQWNPd3pkbElUdlNWWU9LNC1pSUtGSHJqY21ma25BeUx2MG1YUTVLZjdDbDFLd0Y0aGVzdUVRZWxYakk5eXhVazJjdFczZ1VRQkctc2ZJY2lRZS0teU5mNExHenp0dHNn?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-23T03:28:12.972850",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Pooran makes MI London his own in latest stop-off on global franchise tour",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRGdENEdfSmxpQy1BNWk4a3RjSnB4Y2VILXE0dTZUR1dMRGg1U1RmN2Yyc0x5cThoenFvOTRLOGV5ZS0tbG1wdTQ0RUhReGtNdzIzdFRwbEJVc2Y2a2JacUR1dUtmNzFmVlFDbWhnZmxkSXpDbjJHTVUtYmlkSHQ2NTVNWGtfaXR1LWhwLW55UVVnNWFqbXhzNzlFTHdTZEd3VVVDV2w1d19fNjZlOGRZNFN30gHDAUFVX3lxTE51WDM2RWJodnBpdWNxYl9seGdiaUtKMndYVjZmZnlCLXA1NnRaYjZLN0ZNQThvQjJCY0NaSzZFUTRhRGQycW9iSUpKQU9WdlJQdTEzVFQ2ZjJBTXZDX0ttbGF1ZzVucVdwS0JRNTJ3dTFDSV96MGNneGdMLWNxd250OUNJOWRRQWEydzlHblBVVnFTOEZHdVFNRVZDZWtRb0hLTUsyeDUyZmppYmlMOS02SUJ6cVZEVzBZVENMZXk1LXBnaw?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Wed, 22 Jul 2026 09:23:48 GMT",
-          "fetched_at": "2026-07-23T03:28:12.972863",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "“If there is no noise, there is no fun”: Rohit Sharma post Lord’s masterclass",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbUZfaC1STUtadFFON1FYMWp6Zl9YNEZQZEVwRjN1a2JBMGNsRUFiODhLMDN2X0VxZktjUkdQWUR1WGlVSHA0SVY5dHkyemNzWHF5RXBxMm9BMzg2LXlWajRsSTdKVENETlR6STdfLTRaVUI2TGYtNWZpTkZTTXl5ZFZ3XzgxRTBzTmM2ZWxaUWFhRnNSMmVsRVV5TURSUFFnNHRBd0FidjAzWmM?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Mon, 20 Jul 2026 10:52:45 GMT",
-          "fetched_at": "2026-07-23T03:28:12.972873",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -732,11 +602,11 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-23T03:29:59.520046",
+      "last_updated": "2026-07-23T08:46:53.436334",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -747,28 +617,6 @@
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Player Retention & Auction Strategy Risk at Delhi Capitals",
-          "severity": "Medium",
-          "description": "Squad stability concerns for Delhi Capitals: contract. Auction strategy and salary cap optimization research needed.",
-          "detected_from": "IPL | RCB 161/5 (18) vs GT 155/8 (Virat Kohli 75(42) Jitesh Sharma 11(14)) | Royal Challengers Bengaluru vs Gujarat Titans, Final, Indian Premier Leag...",
-          "gap_type": "player_retention",
-          "keywords_found": [
-            "contract"
-          ],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Squad Strategy & Auction Intelligence",
-              "impact": "Medium",
-              "timeline": "4-6 months + ongoing",
-              "price": "₹12-18 Lakhs + ₹1.5L/quarter",
-              "methodology": "Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning",
-              "description": "**MRA/ESOMAR-compliant study**. Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning. **Deliverables**: Auction strategy playbook, Retention priority matrix, Salary cap optimizer, Competitor squad analysis.",
-              "gap_type": "player_retention",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -808,55 +656,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "IPL | RCB 161/5 (18) vs GT 155/8 (Virat Kohli 75(42) Jitesh Sharma 11(14)) | Royal Challengers Bengaluru vs Gujarat Titans, Final, Indian Premier League 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in U",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazMwV0lObFpLSzZaSXl6d1hwYkFsZ251QW9Rb3R0cjEwUzhISUlZMTB2SmJUX1pWU01QSmpsSl9FcE1JM2V6NHV6SlpZVm9KOTJZS001OUM3V1g1dnB0UHhyQW91WnZWemZ5NGF3c1FSRzllYWxuR3d3ZFk3SFNaRjdZWnZTcVVxQVhYZU5SSkdPV0R4TUE4Snd3?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Wed, 22 Jul 2026 19:17:17 GMT",
-          "fetched_at": "2026-07-23T03:29:28.427433",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RCB pacer stars with four-wicket haul for MI London in The Hundred 2026 opener",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZmdGR1RhQk5sOE1xN0xOVndEMlhVbV82dW5nT05EcDVUQWV2dzJwNkxid2VaRkNSSTgwVGFSLTRjSUxSaTI4QTktUTdwTTZ0R1kyZDZNVzlhU0IxQVRFVzZaWlBIWFEtUG5xVExLLUhlejR5WHUyY1R4NTFJeHI4cDVUN0tDdXhlYWxyaHp4RHVOVk5BM3pYY0Z1LUcxRGp5bkowdkp0Vklra1IyN3dnR0lUYTVHaEpBVHRFa1BwT3JsSTYzdEpCS212SjVVUjBhVW9reEl3a3FwNDRHanVZc2xZYlhpNmdSbTBydy1VQkJQWkNkZnNJNXcxb9IBgAJBVV95cUxNVjBZOUh4ZlJ0THdjNEk4MW9JMnV4RjByeVJDSDJPckRYck5MU2FpbDRyRDdEeTlrRVc3VkN3WVg5SXhLVkJJUi16Rkp0ZU1yMFR2ZWJaZUVGTjdXWTVuT09oSE91S2tieU5nWkxRRjNwZjhJQmtfVF92T3lVQmZyLWIwbWl2cjhBcXBBbTJ3NzlOMXB6dEVDWnlYV0loMy1ISWFTcDhZUm41SXRRaEFtTXlGeTAyR2htNHJyUFhsRWM3OVY1SkYtY3pTeDRQRFFwZGRVMjdfVkRpay1aTjQtaHZSOWZWWS14UnIxenlwci0xT1YtOE41cVNuTnJJTzd2?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Wed, 22 Jul 2026 12:08:00 GMT",
-          "fetched_at": "2026-07-23T03:29:28.427453",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "'English cricket is more important than IPL': Alastair Cook, RCB director clash over Jacob Bethell",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONXlYZ05NMHc4SWx1RUQ0SDlFTjdSb3llLWJ4NDJoMkFlNW5TUFJVZDh1dWF4bmFKSXFpelhXT1ZzSHZ0NFA5SGpkdm95empacDl6MHV6WTd2eWVnQkRXQXVNN29Ja2MyOHF4b01PT0dESUFGN0R1UWl3cTlXYzdTaXBlLTI5TlR4VkNXWG5FNFFORmIwVmF6MjlGcXUtX1NpYkgzcWxWUnFaR1pIUWxpamZaOHFMQUpfUmlyQlJLWUJfcFhTVjBJZUNsblBZamtPMmJNU3hQUVc3VXMtZEZ1ag?oc=5",
-          "source": "MSN",
-          "publishedAt": "Wed, 22 Jul 2026 20:20:17 GMT",
-          "fetched_at": "2026-07-23T03:29:28.427457",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jacob Bethell on Virat Kohli at RCB: ‘Off the field, he’s very chilled’",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVW9nOHYyNGlaaVdybUtNS1RPTUFueF9FOEdjbGE5UENsZjBlTjh2ZzduZkR2SXVNOTNfTVFBVDlZOVdkQUxxQ2NzaTFxR0gzVngxWDF4cFVkN291ZXJYSVFDUmppN0N3VEZVLVJTVTA3d3FXVjhFZ0RGaXBBSEMwcnNzT1QwY1N3dTBGVXRMc1l5OHRCZ1hfVm54WGNubFItenNnRXpWVjhvb2NHaVFORkRXVFJGSTBFVmNfbtIBwwFBVV95cUxOR0RCTWktTk1ocWgwR25iVVlQanlkSXR3c3Z1TWhOZjl1ZGk5bzVvVW9kam1uS21qNUNwUVlSZVN0V1pFcG54RGx3bVRZQWZRTnhaRmZiLTV1Z3dzcWU1U3V5bUkyaHZzUXVyLXVnRkkxUUotd0lKVk9YMGNwQ0ptaG5fTkJheExvc21YT0xIZjFRNVQ0LUpQWEpUdXZQZlNYZzR0T09RT2FzbDRYQ3lINE9MYzAxRHFHbEdHSW9aYW1vU2c?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Tue, 21 Jul 2026 07:39:13 GMT",
-          "fetched_at": "2026-07-23T03:29:28.427467",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Dinesh Karthik, Alastair Cook clash over Jacob Bethell's IPL stint as RCB contract sparks debate",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaU5Ud1BCeTAzMDRaRkR2N09qbFdrcTdvWjlqbE1ZQXM1eXV1SUVCZXdvLXctcENBQTVBMEt4UWZjN0Z1N2xYMVYyZmdSVGpRQjc1ZnZ1RjFxYzdCRFdJTDhiQlhXaC1lZjZHU3dqQ0hjaFZEQlNLM3FhWG83ejNfeEdnV1pHbXNqcTJ6dC1LMWFyOXYtQ1hORUpwbzc2aFUtamZpbGd3MU9iU2paZEZwb3FjM1RKSk5xZWpyOHNSQS1PNFBldHNqU0hBQ2Y4Rk43MzA0d0tR0gHbAUFVX3lxTE40NDUwX3ZuYWgtalpTWUFBMXlfLTNFTFI1QXhyTmw5ckZTZnFmUHNTeDBQU1VnR01ubV85ajlwYktiRklQeThIbU5TZy12YmZ3eGtHSno5a2NEY01kYXU3S1BDQnZLOFU5d0VkNldkbUZ3clRKQ01Ud3FYUmVZY01zSk1IUWoya3FIMUZkMUltYng5SzZfdHRNa1JuNjM3dzlkcUJZSF8yeUVrVnpZLUNvMlZHdmtGQmRwNU1faFdhQUlzVm5LaU1zbUpsc1pHcXV6anl6ZFpucGhrWQ?oc=5",
-          "source": "CNBC TV18",
-          "publishedAt": "Wed, 22 Jul 2026 13:10:24 GMT",
-          "fetched_at": "2026-07-23T03:29:28.427471",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -864,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-23T03:30:29.613643",
+      "last_updated": "2026-07-23T08:47:23.495630",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
