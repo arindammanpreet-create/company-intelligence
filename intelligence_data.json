@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-24T14:02:24.458923",
+    "generated_at": "2026-07-24T19:46:15.976656",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-24T13:54:49.278870",
+      "last_updated": "2026-07-24T19:37:02.849257",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-24T13:56:03.314832",
+      "last_updated": "2026-07-24T19:38:14.527260",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,17 +182,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-24T13:57:16.896205",
+      "last_updated": "2026-07-24T19:39:25.366029",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -258,7 +258,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Wipro Consumer Care to acquire TTK Healthcare’s Good Home, Eva brands for ₹256 cr",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNzRfLTUzUnVoWWViUjFNZU1hWjRwZ0Z1NTZkRG1WU1FRS3FQd05uNW5nbEwzclA1SERlTDk5UmFpVnZveURjSXVCWjlJMXRyalJldU5EWDdGVEs4SUhQSUlWd1ByM2kxYzdzXzZiZ1RwRlk1REMtQTVuWE1oSzN2bHVQREp1d2dhQzc2Y2N3aWVzN1ByNnlRT2twQ3NKVnh2VHdGTWdfdl9YeWd3QzZLNG5KNENJbFlpbWxOWk9sYmI5NE1KUi1fQzVBbXJyNnpYU0pWMnNtMVnSAd8BQVVfeXFMTlMyN3JHUmdtS0pGOGZ1Z2RPa1hpYzVNbG5TQjhnUVhETUQ3MjRtbk11cklKT3RSS3laOC1aY1RRdldWVEpJOE9kdUx3MWYxellIRDNaNndUSDJtWEZyeDIta0FuMkgxRXhpMl9NNUFJU0JYTWlQbU91WTFfZ1JieWdwS0dPbGEyUWtxNHR5TnNsNm81WmxOSW4yYUlBdS1La1BjSlhOdTJ1YnVGRWtMY3loajZsNjFMNndKZWIzS1Z2Y0lNNUhBdWVYYllGdDYtd3E5cVhneDV2X1FyWjhTQQ?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Thu, 23 Jul 2026 12:19:36 GMT",
+          "fetched_at": "2026-07-24T19:38:56.018419",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IT stocks Persistent Systems, Wipro to turn ex-dividend next week; today last day to buy",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxON3NwZXZmMm9iQVNmczVQUmxjZjNiRHV3REEzR1hqVnRHVVV4S2VkVXdrQkdZN1N6bG1adnJSX2NzU09KVGNaOVJaU294bmlEcUp4LUNHaWF1eGZlVzBhN0M0X1ZBSUtVSzlhb0RiSVJQM2loaVRrTnh0blc0TjY5MHpvelNlVC1sRkhabWo0VzBLQzJGWEFlWDVPUW54eFk2NkFIaFBBSEtKc3BTbHlDTnV4N3BvdG9WelBtU1JRc1dMdkh5X2tfcGhJSGdRZmRwOWdRamVIX2ZENHM4cHZoYkZkZjVHMTM2VGfSAe8BQVVfeXFMT2VwSWxxOGhpSlZZXzl6dHh0V0pxRzZ4c0lldjRBS09wcW5sUVNVNndoa3lYdzd6amhabG5rWUItZFdvYzhhNWVOZmpXeHZhTXBOTk9hWWJNcXE1aGhBZ0xoTUdhQmpVMzI4ajRhS0dET3dUOGRkcFhJOXhNMEpTWEtuVVZrSVBVTUxLcWdsWFFaQkNnZmJkRU1vZDJPTTFvanNkaDJxUlZHNnVlMWhVUFVzSGRSaF9ZZU5UQTBSbFQ1S1FNbVhjeW1EdF8zeVphYlVOZEJqVUowNHZadkc1T2JTNWhLX01jVDQ5SWJCXzQ?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Fri, 24 Jul 2026 06:19:36 GMT",
+          "fetched_at": "2026-07-24T19:38:56.018437",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "\"The differentiator (of an AI product) is what the business brings to it, that's what keeps it competitive,\" says Sandhya Ramachandran Arun, Global CTO, Wipro, in conversation with Shereen Bhan at the Rising Bharat Summit. She also explains the vision behind",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYlMxa2xDTVlONEE5LWNBaVhhdFlhUlB1RFVpV2xmaWd5aTdUb0d1aEs1TGwyWFQyX1pjdmZ5MFpvak04MVg0VzFrTF9sVWpBWkRHX0xOVlhBSXAyQ0ozUF9ucE8wcmZLNWtxVGt1N3hiR2djSnlFTW9RSVRneGZyZmhqQkFOZThBdlFkNnNURnZzN05RM2RMaGhCYnNuX3pm?oc=5",
+          "source": "LinkedIn",
+          "publishedAt": "Fri, 24 Jul 2026 14:01:47 GMT",
+          "fetched_at": "2026-07-24T19:38:56.018445",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Nifty 50 Gainers and Losers | July 24, 2026, 4:00 PM IST",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUFZvXzZGd3F2X2UySnNLcVdrZVdSQVRrX1ZwY3RsQ0QxY2ZfdG1fdWxuRlZEeXBlX1JZaWdrdnhOM0pWWklrVlkzMXFpOVdxNk8tMXIwMWRJOTRqNnljaHhzNzdWYVJUVERGajhldHMxRWs2cmo4Q1pnbTN6a3VwcFNB?oc=5",
+          "source": "HDFC Sky",
+          "publishedAt": "Fri, 24 Jul 2026 11:03:46 GMT",
+          "fetched_at": "2026-07-24T19:38:56.018448",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro and IBM: Quantum-Safe Strategies for Cryptographic Assets",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdEZpYnUxNTg1QVlIYTc5VDdubWdNNlVtTDlhS1RwWkFpZHFzZ0JPMERSaEpENU44SnJFc3o3NHc3V0ZyTk8yaEdjRjloR1d3T2ZDQmdnLWxCUWZ2bmppZWRiaEJlWGZVVFB1MVJUSGI1cFF0VjdNcFRMTHotS0VtdGc4ckM0RWJlbV9UM0U3MWNvXzgwbGVFd1M5bFJIODg?oc=5",
+          "source": "Wipro",
+          "publishedAt": "Tue, 21 Jul 2026 05:00:12 GMT",
+          "fetched_at": "2026-07-24T19:38:56.018452",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-24T13:57:58.866357",
+      "last_updated": "2026-07-24T19:40:10.838367",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-24T13:58:59.028336",
+      "last_updated": "2026-07-24T19:41:19.626570",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-24T14:00:18.314888",
+      "last_updated": "2026-07-24T19:42:41.284039",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-24T14:01:25.734317",
+      "last_updated": "2026-07-24T19:44:16.039024",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-24T14:02:14.151607",
+      "last_updated": "2026-07-24T19:45:54.355795",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +732,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-24T14:02:24.458911",
+      "last_updated": "2026-07-24T19:46:15.976641",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
