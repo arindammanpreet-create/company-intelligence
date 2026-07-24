@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-24T08:43:12.180843",
+    "generated_at": "2026-07-24T14:02:24.458923",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-24T08:33:49.304860",
+      "last_updated": "2026-07-24T13:54:49.278870",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-24T08:35:10.113396",
+      "last_updated": "2026-07-24T13:56:03.314832",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -180,14 +180,93 @@
     },
     "Infosys": {
       "company": "Infosys",
-      "error": "'talent_war'",
-      "last_updated": "2026-07-24T08:36:39.262973"
+      "ticker": "INFY",
+      "sector": "it",
+      "last_updated": "2026-07-24T13:57:16.896205",
+      "data_sources": {
+        "news_count": 0,
+        "filings_count": 0,
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
+      },
+      "sentiment": {
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
+      },
+      "news": [],
+      "research_gaps": [
+        {
+          "title": "Infosys: Strategic Market Intelligence & Early Warning System",
+          "severity": "Medium",
+          "description": "Continuous macro monitoring, competitor tracking, and early signal detection for strategic pivots.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "monitoring",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Strategic Market Intelligence Subscription",
+              "impact": "Medium",
+              "timeline": "4-6 weeks setup + quarterly",
+              "price": "₹12-20 Lakhs + ₹4-6L/quarter",
+              "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
+              "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
+              "gap_type": "monitoring",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Infosys: Competitive Intelligence & Win/Loss Analysis",
+          "severity": "Medium",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        }
+      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
+      "filings": []
     },
     "HDFC Bank": {
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-24T08:38:00.148638",
+      "last_updated": "2026-07-24T13:57:58.866357",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -271,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-24T08:39:03.394450",
+      "last_updated": "2026-07-24T13:58:59.028336",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -355,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-24T08:40:11.574845",
+      "last_updated": "2026-07-24T14:00:18.314888",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -439,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-24T08:41:53.622935",
+      "last_updated": "2026-07-24T14:01:25.734317",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -523,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-24T08:42:50.200876",
+      "last_updated": "2026-07-24T14:02:14.151607",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -607,17 +686,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-24T08:43:12.180836",
+      "last_updated": "2026-07-24T14:02:24.458911",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -684,43 +763,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
-          "source": "the packman",
-          "publishedAt": "Tue, 21 Jul 2026 10:18:47 GMT",
-          "fetched_at": "2026-07-24T08:43:12.180498"
-        },
-        {
-          "title": "Former deputy gets 42-plus years for pandering child sexual material",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
-          "source": "Record Herald",
-          "publishedAt": "Thu, 23 Jul 2026 10:15:00 GMT",
-          "fetched_at": "2026-07-24T08:43:12.180512"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-24T08:43:12.180518"
-        },
-        {
-          "title": "Simulations Plus (NASDAQ: SLP) grows Q3 2026 revenue 7% to $21.9M",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2FEVW03SEdoU0JTdEdoU0hQMVlQMXBFdnNfSkdnVG0tSlU0RVU1c1dVa21MSXZoZ1haa1Joczh5ZUJTQ1JpSDZ4cjMzR3lYZzlUOXlKWFpSdUxicXlvTnNmM1plVXN2MWhkZ0JiQVhlSktOWFpuWndLVmVCa2ZCWUxlOXdLc3I5Ni1Nc2pjZTdDSEVobUFteFMyLUhuQ0EzWXN0d3pHdkR1aWFy?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Thu, 09 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-24T08:43:12.180521"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-24T08:43:12.180531"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
