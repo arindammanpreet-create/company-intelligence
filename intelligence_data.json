@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-25T03:24:07.634970",
+    "generated_at": "2026-07-25T08:23:17.217587",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-25T03:14:55.940137",
+      "last_updated": "2026-07-25T08:13:38.497535",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-25T03:16:12.409371",
+      "last_updated": "2026-07-25T08:14:53.438439",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-25T03:17:21.941517",
+      "last_updated": "2026-07-25T08:16:04.740921",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-25T03:18:34.169066",
+      "last_updated": "2026-07-25T08:17:35.234101",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-25T03:19:46.791984",
+      "last_updated": "2026-07-25T08:18:50.034008",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-25T03:21:06.004443",
+      "last_updated": "2026-07-25T08:20:13.185592",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-25T03:22:24.779625",
+      "last_updated": "2026-07-25T08:21:35.751829",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,17 +602,17 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-25T03:23:43.563679",
+      "last_updated": "2026-07-25T08:22:48.988570",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -679,14 +679,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "SRH vs DC, 31st Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON0xHVDFTUTNndEQ0dzdUaUxYZ2RqTDFGQkNDbUdvcDV0UURlSWRERThFZTVTaVBZbWt0ZkhpQmJ1WEY4d1hRRFJ4SzcyYjdobTlwcFkwM0pyRFlWNzlKanlveE9VNkUxVERlcXlkNGhHS3JvN284eWRzSmNtQTlfcW5Mc3lHQmRBNHFjYlN0MU91eU5HZm5pcndoTmRGT0VH?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Thu, 26 Mar 2026 13:42:44 GMT",
+          "fetched_at": "2026-07-25T08:22:48.988291"
+        },
+        {
+          "title": "KKR vs DC Highlights, IPL 2026: Kuldeep Yadav Magic Haunts Former Side KKR, DC End IPL 2026 On A High",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMHVvQ3FJRm5RbkdWRW96WDNHM1MwX21DRThwMndNYVp1cy1YOUlnQXRGSjhpQURmaE9YdXJTSENZUmZaVXBCazhWYnVpdkNlUVo5c1RjUWdtWC1INHNiejdzYkxpU0Nub0RvSkZjSFJpVjA0S0hPaUI0WUJFcnlBT0lpb19aa3E2enJ6dHkzWVJ4ZmFWWkFhOUU0d25lZ0NQUXlpUVlQNkt4YWxKQWNBZDVBX2luNHIyS3N4d0J6TlNxQlVfQVJWbDVEM084SGxrQ3d1VXJzQ0VFQmpSY0E1ck5mWnRxSjNsNG5QVmptUEVuSElEc1NpNXcxTzEySmtiNzJ4UmpCdkNma1ZvS3VJ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-25T08:22:48.988305"
+        },
+        {
+          "title": "Full Scorecard of Delhi Capitals vs Rajasthan Royals, Indian Premier League 2026, 62nd Match - Score Report",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9Kb09nV3BxcFRjaVU4TWRVWXBpc09JRmVjcnRUMXEtUF9vNTYxTGFHRnFlWUFWSVBMa1FnZ3Eta21DRmdIX0w0ZkxrM041WnlqN1lDelhWUlNWbDN2YXdPZElrVWZ2ZnVjSHZncmhMNm05V281eDhPYTRvWmFnYV9weF91NlpRejJkQUdFdURQb1pWUGw2QUttYkZucE9zYkVxa0NsUWVFREZ2bW9ULXhmV3I3cUp6R2NBYnM0M2d6QnJsazJ2ajZB?oc=5",
+          "source": "espn.in",
+          "publishedAt": "Sun, 17 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-25T08:22:48.988311"
+        },
+        {
+          "title": "IPL 2026 UPDATES, DC vs RR: DC clinch tense chase to stay alive",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LVXVXR2FMOGItblVDUUpKQWVzQmtXNGpXQ0NQZnd5N2dHTTFBUkxEZ3o4bUxmUjM2TXI5Zkl4ZFVEemFlSmhfYWVXb0xrR1JuekpsZ0dxZFdFd2FTXzBhdjJYSG5kWm1CZXFnWFZzV0ZGX3htVXBrYw?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Sun, 17 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-25T08:22:48.988314"
+        },
+        {
+          "title": "DC vs RR Highlights, IPL 2026: Delhi Capitals beat Rajasthan Royals by 5 wickets",
+          "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNN3hTVDUyN0dCZi0wV2hZQThOejl3UFZwdGdlZEtnS0dXWHhDdjNWcFVfOGRkR2pKclhZSDFFd0pCTTg1OU9ITmhtdUg1alV3ZVlGREwtTzMyaUpkT2RyNDJYQWtGMlJEMG9TYjA3ZFIyVFh1M0g4WWN2Z2p4WmlYeGZFY21vRUh1T0Z3aFhaV2RlU2dSakFwTjlXdGlCMlhycnE4bUhVUEtRc0dQc0pfdnVQQmZ5YlRsN2VQTnFSY2gwRmFhODFWS2JfblJUYmV6STd0Rk1uNGJMemtjTnNWdVNvUVJNTWtsRDlMRGk5RlQ5QlI2SWNiQUt4UjRSR3g1ZUltWHB5Z2tyMlVjRXZiUjZYdkkwY0ZxaHViVy1sR2g2ekhRb3pmMjNJODU0eVlHdnJla3M1QTRtTzNDRW1oTnNrQ2NZc0l0bl8ycjVFU001a01EQnVKMHBZcXlmeGswZ0dNQWx30gHrAkFVX3lxTE9oaXQ2Rm56UXdmTF80cGZxOGpRejFhNGpZenVUZS16UW9LOFd1bGRiZVRhT2FJQVNmZ04ybV9FWEpGUGZvVXdnemtVX2FKZnAwaXFUUmdna2puc0ttWVExTVlUZi1SbVFXV1FpRE9QbjlZX25iZ2p6ODFra18tczlmZWh5UGxVSmpUTXBCTUt3SXRJQjJ1a0ZyU00wczNHTnpwQ3oxYnFobnpSZllhMzBCZW9aYlB6dlMyLV91RXhoWGpKYVUxOHczaHRuU2ttX3BraE5XSXBlUmU5R3Z4X00yN29HMTBDSkpaMXlIMjRhYnZVQll6aXNWU2lFcXkydm53bUxfbE9LcWphUUJ6azhsQ01Ibl9GM1pEcnJmMENoSnRuVnRJRUFMV3JfVkQtUjBNeEhHQ1Y4QmNGSzdobGVLeUtYYzBha2dCU0RpLTFtVHhpTG9faTR5NDMxVVI4bXRzaEdrTmJPTzQ4SQ?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-25T08:22:48.988318"
+        }
+      ],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-25T03:24:07.634955",
+      "last_updated": "2026-07-25T08:23:17.217577",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
