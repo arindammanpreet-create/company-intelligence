@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-25T19:25:09.379671",
+    "generated_at": "2026-07-26T03:37:45.343109",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-25T19:15:53.207191",
+      "last_updated": "2026-07-26T03:28:14.419264",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,43 +98,21 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-25T19:17:13.445613",
+      "last_updated": "2026-07-26T03:29:22.823057",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -0.6,
-        "label": "Negative",
-        "pos": 1,
-        "neg": 4
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at TCS",
-          "severity": "Medium",
-          "description": "ESG red flags detected at TCS: board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Infosys board names Ashiss Kumar Dash as CEO-designate  TCS, Infosys, HCL Tech, Tech Mah: Which IT stock is worth your portfolio?  Infosys shares fall...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "board"
-          ],
-          "solutions": [
-            {
-              "title": "TCS: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -174,55 +152,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "TCS: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Infosys board names Ashiss Kumar Dash as CEO-designate",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOXzFBMWxXYWw2NWZjSUZ4SG9CRmh2V0gwVGVRZGROckFuVV9fOHhPQlRVYkc0RTFKYXRYd05JemF4TUp3NEJTb05iRG5OY0xqU3pGbUtJajFiajFzUzdJNHl6c2k2WGNqMjFCanJCSkxFUi14RnNGSUFJNC0xTlV2ZVkwb0g0SURQVV96NmVQSTRzeWJjd3FEeDhfY1lzX3lrTVVaZEpYMzgwdTctZHFBTVkweEozYW900gG_AUFVX3lxTE13b01ZOU1RbXpqMDJnZVFUY1dhLU5LMnp5QVpzd2p2QWdnVGdwYktZN0lTUXUzZmVzaHBHTHNDdkQ0SFJEWG9sUElwLVgyazU1bWVxOXZqQ25ORnRuTUg4UDBEd2h2RmEwel9ueVBxUnl6aUVOWGxUb3QtbEl0WVl6WlZNTGRuR28xOWxMWHpPM0ZDbldJYm9weHRVTlJDQ1JmQlR4bndzaUlfTU1pTnFYeFk3dzIyVlFMZEpTVHZr?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Thu, 23 Jul 2026 13:08:20 GMT",
-          "fetched_at": "2026-07-25T19:16:22.895470",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS, Infosys, HCL Tech, Tech Mah: Which IT stock is worth your portfolio?",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUVpuc0huaGtPZ1Yxa3I5UXJZeVFpemllcFJiVFVSUGtZdDYxZnlsWVpfVlBwZnVoTHBnVWFMTmktdDR6T0FkQWZMbTh3TmdBcTFmZ1YzcDF4M0R1MS1wTVZXU2lFNnlVeFZIUWIwUEtiSUtJUnB0M0RCc19oVjdWWlBzeG1UNkVLaHlEbGJhLWx2enczN2dzT1pXNHF5ckpFckdlMmxVQW5feXFfRmdUekkxUnZfMVhmTjhUaC1hTW1oWGJUNWQyM0dvcm5qaERR0gHWAUFVX3lxTE9tNzVPVTQzUk5KUkl2d1ItRGRZaFNJRzZnSkhFRDNkWUstSnc0ZDFJelBJYmgwRWtOaG1iZnM4OFJBbU4wSHE5eGxJMUpkLUpkUWlDVzE3MTl1UXBlaXFJTmFUb2w0RnpYSk5wYlBOd0RWTm1ETWtaRjZGTW9OMmdXb25oN3JiZ3BEMWt6TlNOQ0hwZzlFZHhTQk9BMm9WVVNmM0YtVElmU0Q4NkgtS2c4UjFoX0wyXy1pWVFGZVotUGs0MExSSmNBQTVzZHJYWGJPeHByTnc?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Fri, 24 Jul 2026 05:40:33 GMT",
-          "fetched_at": "2026-07-25T19:16:22.895504",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Infosys shares fall 2%, top Nifty loser after Q1 miss, guidance cut; brokerages remain largely cautious",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVVRJa1ZfSTdsYTJ6VkF5M1NrVF9XUXJoTV9ERU9HRWZJTWJuMFhRX2FaU3JxOGN1ZUVXdVE0OGgyVjdGQkVPSzBSNHRuQmFJT1lELXFfejV3UUtuTDJsX2NJMXFwdUdfb1A1Skh5d0lpVHlZXzRJZXp1d1ZyOG5xSF9ZRWR1d051TFVUVURxLU8tc1dmY0p0eTB5Yk83NGZ0VkRlNmFiMW1zUjhYNGlWRFRxQkxwN0xzYVdwcmhHbjRFUTVfdzVYeVMwcHR0Sk1udEtCMTdQWDFDTzlUUFNNVk5mRWdSWldNS0RtT2FFQnFSZ0NZSGtV0gH8AUFVX3lxTE1od3BnS2Y1QU15S3ZhV2VSY3BmcnZpQld4eXhuRDB5QkxBOGh6czdCU1RqUFZaazc2YjFsMER3bUR1WjRzT214R0xzTVZYb2U0VElzaGdRQkZOUHNMZmRWajFtNEhKNm1ieWwzbVJYeDRZTHZDYkxFSkdJdEVER3JjYjZQc1lhN0RVcWxwd2NnLTdFem5rN0lKMENlWDN0MWlaY0c0dUVMOEtyelJPclhvaEI0SVhIaGlDWkw1TVRyTWxka3JvZVRHQzRtVUFjS21MNWJ3dllfSnBBVVBYZlJudVY2OVpCV2JiSEVLNWx4SkZyaVhCWmt4cWZQdA?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 24 Jul 2026 03:49:40 GMT",
-          "fetched_at": "2026-07-25T19:16:22.895511",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Indian shares extend drop on oil surge; Infosys, IndiGo results awaited",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQS2EtYTBMaU4tNFo2clJ2YzEybVVFU09iaXRvVHpFcWVoZHRhVDZiUDNfNlJvYW9MbDc2N0VXYUVUZUFFbU1uR1E4ZW5LZUV6UmZRUTlkNWh1Vk9RTG9MUjVuTmFqM1lpOXU3dzZMQldtTWdGMGNzZGIyRW1MSFZLWWpwM05yTTVicXVzQ0piVGlldlk0SDBaN0ZpWlpnTHo3OGJ5Tm9Cczk4NlNDVmtLTy16ZEhGamRZMXBwMUtKanF6ZnJwZExiVFctaWtoLWhmLVpIeVJ3?oc=5",
-          "source": "TradingView",
-          "publishedAt": "Thu, 23 Jul 2026 10:11:51 GMT",
-          "fetched_at": "2026-07-25T19:16:22.895515",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Indian shares extend drop on oil surge; Infosys, IndiGo results awaited",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNmdnWk1kZ21IZXh6TzZCVFFNZXJKTWx6azVYSHZrRFdUSkVVZTlVUzlIWl82ODhfbXBEazkzNmhLVGZucEZVZXpUN25acmMzejB5OXJWMEkzTHRpemVKS3o0bUt3UTJDZUJ5OWVDNE9yTnBVbExGUEktZ2dKOHV6cUJHOUdTdXpqbUg5TDVCdDdQZUZWSXFmRDZfN0FIeWdv?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Thu, 23 Jul 2026 02:35:00 GMT",
-          "fetched_at": "2026-07-25T19:16:22.895519",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -230,17 +182,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-25T19:18:30.803172",
+      "last_updated": "2026-07-26T03:30:20.990746",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -306,53 +258,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Physical AI is now mainstream, reveals TCS survey",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkJiLTc3cnJacUg4ZVVNNEtrYThsQlFMeHptTkF3S2VDWnVxY3MzeGt1eVpubnhOSkxuYzRVV3VnZzhwejRUMWdsbmctVWF5ck1jcXZTMkhMc2h6SndSbWZ2QnE2Rld4OExFTHFDbnJKSUhsUFF5SXFsR1E4U05tM19rT2c3bF9DZmNJcE5ha1RsRlEzYUR3TnZUR0ZyWVJQaS10Vl9SV1FwRjdPaUl0dDZNUdIBugFBVV95cUxOSXJRZEdEeUU1Qk1Mc0F0c1FGT2NPcmdYcmxzeDVHTV8yb2tRMUx2ZzZGQmpGX1hiMDB4VFJHY1cxbkdZeXVKVGFoa0doc2xLWTdZcllEVGQwLU16aFNiaHcybjQtR1FuQjdWVXBITkJPU1ZHaWtQZk8tblktNlM1MVNSeWEybUprVEh1blV1Vmx2a2ZnN1BzLUxZempES3dIZVJVVjFlSVhCVnlFa3RpVEc1T2wyVjZoUnc?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Thu, 23 Jul 2026 03:00:09 GMT",
-          "fetched_at": "2026-07-25T19:17:33.623484",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rejected TCS job, built Rs 25 lakh business: Entrepreneur supplies 20,000 kg rice every month",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMXpTanUzUlpNMHBCd0p5Zzc5TUc4M2VWNThWeU9vWWx1NmhRdmRnZVVTTXZDZ1NnU1hjOGNwT0hob2N6TW50QmZkUUt3UnN3SzhaOEs4ckplLVAxYy1QeGJjR0NrcGN1OG5rWk9wamFGNWk5M1VQRU9MOWNlY2loUERYMmVFVGFyM3N5d1hBY3JwTVY1Z0NOQXpyTWhkMzMyQ0hFOEVBXzByb0VGQ3RFeEdtcUtYeW4zc2VxbjVvRTVFckV5WktoQVBlUXJtMm1RRHhHd2ZoM08yQXlGc0d30gHkAUFVX3lxTE5DN2lGRlZSX0pBWlNHem8yV3N5djljcGUzY2laczFsOUgybjF4S2tVZ3N4eVFIQjd6OWF3NUUxbUg5UkJkdkpYWXR0bExIVnBYdmV6M0lvYXZxajQ4eEF6YlVuQ2s2YnNsWDZoY2YtcTZSdktPdTJvOF9IbGRmMVZLTWktUUFjSF9kOW4wdmN1VVFobzVFX05vZmVleEZUNGFHMmwzNnZHUERSVW9nX1Z4c3dob0ZoUWJIamEzVXNCbENKTUVfaThBQnM5d1pmYkl5bk04eDZ4MzA2VDBhalByd080NA?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Sat, 25 Jul 2026 06:48:00 GMT",
-          "fetched_at": "2026-07-25T19:17:33.623512",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS Nashik case: Court grants bail to POSH member booked for not acting on victim's complaint",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSjZSbS1wSmlPTlNJQ0Z5dTNJR3ZBRVc4dE5aU29mUjlmS0tYc01JY0VhZ0l4OGpIZnpTMHdEWUEzTW0wWVotMGZhVGFHeVRZN1FfUUgyUWxGMzlMS25IZVM3ZjJuRWstYlFXZ283WmpUclUyYlRyNlNwQVNZWDdZT0ttcTJPOHk5TEJ5d25iT2UyV0xKc0tCR2FhQ29RSWVEaFVWR1RTeWlGM1VVMlNEV20ySWxBbExIaVVxMExuYnhhQQ?oc=5",
-          "source": "Bar and Bench",
-          "publishedAt": "Thu, 23 Jul 2026 09:52:18 GMT",
-          "fetched_at": "2026-07-25T19:17:33.623518",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS, Infosys, HCL Tech, Tech Mah: Which IT stock is worth your portfolio?",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUVpuc0huaGtPZ1Yxa3I5UXJZeVFpemllcFJiVFVSUGtZdDYxZnlsWVpfVlBwZnVoTHBnVWFMTmktdDR6T0FkQWZMbTh3TmdBcTFmZ1YzcDF4M0R1MS1wTVZXU2lFNnlVeFZIUWIwUEtiSUtJUnB0M0RCc19oVjdWWlBzeG1UNkVLaHlEbGJhLWx2enczN2dzT1pXNHF5ckpFckdlMmxVQW5feXFfRmdUekkxUnZfMVhmTjhUaC1hTW1oWGJUNWQyM0dvcm5qaERR0gHWAUFVX3lxTE9tNzVPVTQzUk5KUkl2d1ItRGRZaFNJRzZnSkhFRDNkWUstSnc0ZDFJelBJYmgwRWtOaG1iZnM4OFJBbU4wSHE5eGxJMUpkLUpkUWlDVzE3MTl1UXBlaXFJTmFUb2w0RnpYSk5wYlBOd0RWTm1ETWtaRjZGTW9OMmdXb25oN3JiZ3BEMWt6TlNOQ0hwZzlFZHhTQk9BMm9WVVNmM0YtVElmU0Q4NkgtS2c4UjFoX0wyXy1pWVFGZVotUGs0MExSSmNBQTVzZHJYWGJPeHByTnc?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Fri, 24 Jul 2026 05:40:33 GMT",
-          "fetched_at": "2026-07-25T19:17:33.623522",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS Q4 Profit Rises 4.61%, Lifts Indian IT Sector Sentiment",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40dmc3X0ViSjc0UE9xVGhoV0FwaXpQNXdBeUMyVWJ4OHJJZHZacTdjOEdHYmh2ZzlXTkFkd2RLX2lLcEdRUC14cTUtSEFVUDdJNVJtR1RlMUt3OTVQSHZELVMzTm9UeFpTcko1WklRNVllZw?oc=5",
-          "source": "iNews Zoombangla",
-          "publishedAt": "Fri, 24 Jul 2026 07:11:18 GMT",
-          "fetched_at": "2026-07-25T19:17:33.623525",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -360,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-25T19:19:41.977942",
+      "last_updated": "2026-07-26T03:31:52.036691",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -444,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-25T19:20:35.709581",
+      "last_updated": "2026-07-26T03:32:59.987077",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -528,18 +434,18 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-25T19:21:58.456738",
+      "last_updated": "2026-07-26T03:34:27.949295",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -604,7 +510,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "RR vs DC, 43rd Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX25LdzFYSnE2andwVE1MTFBSUWtOSEhOZ243a2FicXpxSEZRb2FEa0tGbFFRQVFoeDc2TDhPN0V0cXZHN1d5S3I4SWM1WGpqaW5sWE8zVVgxNElJN1J6b201MzZLdUFyZWpmdHZmRWl2Ti1ZNUl4Zi1FRUhfeHR3VkkyRTZtLUhfSEFFU3hQaDlFWUJUak0tVWpzNjVyVUk?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 26 Jul 2026 00:26:26 GMT",
+          "fetched_at": "2026-07-26T03:34:12.925319",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "\"Leaving Rajasthan Royals Huge Risk\": Sanju Samson Ends Long Silence On CSK Move",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRWVBeVZJZ3RVVlJOQ29jSEpIT3laSm1oOHJNMDVQX0I4VG5EUm9mU1J0Q0xYdl84NE1jVlZtU2ZlZzZIU2FlQ2xzbUZhUnRDZVo2SG9Hc1pUZG1WSUFVUVUxbG9reDhvSXh2bkhUWU1SZGROVHRDeGkyR0d2VC1GakJnTk9YY1g2SkdFdFRxLVFuOHBLdU9TSFVQWlhhYVZobWFRVEdUUTNWcUVJMmM4STZoRDZqYktrdU40?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Fri, 24 Jul 2026 09:13:09 GMT",
+          "fetched_at": "2026-07-26T03:34:12.925335",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Full Scorecard of Rajasthan Royals vs Sunrisers Hyderabad, Indian Premier League 2026, Eliminator - Score Report",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWkxTMjZwekw3eHQxZzltMTVpcjZUV1VXTmJVMjNuZDdGUDdBTC1BMk1aVjY3TmhsVDhwbzBvS21jcWE5LVo1c1dHMUJHVmo1emZYbDhLZUZwYjRaT3p2WGx3VW42QWRTNjhLMmctREV5Y2h3cmJ2TkdLV0Q0SXIwR0w5RTFMZGV6LUdPTmhOVFp5dlZpc1M0c3JDNVFIZFlhd3ZUQzFOdi1WXzVsaWE3OGpaRzVvazgweWhaUl9JTnFEb1BjR3h0N216c04xYTBq?oc=5",
+          "source": "espn.in",
+          "publishedAt": "Wed, 27 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-26T03:34:12.925341",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL 2026 Qualifier 2 Updates: Gill masterclass fires Titans to final",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zOWhidFdyMmoyWWV4cVJ2Umx2bUNrdnNCc2xYQnBtUGFiQ0N4ekxDdG5IbEJKZndDX1kxNnJZZVo2UXByeDJ1bGNRMFNNeDZqc0ltdGZCRjhkZWtXZjBwZzRfaTNiR29DN3VfOG1sbWpsYllZalo0Tg?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-26T03:34:12.925345",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "\"See You In Court\": Raj Kundra Warns Rajasthan Royals Owner Manoj Badale, Questions Original IPL Bid",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZDVqNWE4dTdaamNqdkRwX0wtTUZUUW9GM3FZQjQ1endDOGs5d01fREtsdlBJQURxdFlmczAwQlROTGVoUXcwd2ZYcnFvZlRkb0hZbm1Wc01OclBKLUFqSW00b3JqWUtUZF9DeGNaWmNWR3F3T2U4Wm9zaWM1aURoMG41TG5NTmY5RFUwOUN1RXVDeDN1Q0EySHFVNmduV1R6R0hUZGt1VnhpLUg5cHk3ZEUyUEVQWE92Ynp4WkNhTTBZRGh6NVVqU184QlluTmkwR25UZg?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Fri, 24 Jul 2026 15:22:55 GMT",
+          "fetched_at": "2026-07-26T03:34:12.925350",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -612,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-25T19:22:58.918910",
+      "last_updated": "2026-07-26T03:35:59.927354",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -696,21 +648,43 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-25T19:24:40.195438",
+      "last_updated": "2026-07-26T03:37:15.134291",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 15,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 2,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Player Retention & Auction Strategy Risk at Delhi Capitals",
+          "severity": "Medium",
+          "description": "Squad stability concerns for Delhi Capitals: contract. Auction strategy and salary cap optimization research needed.",
+          "detected_from": "CSK vs KKR, 22nd Match, Indian Premier League 2026 - Commentary  \"Leaving Rajasthan Royals Huge Risk\": Sanju Samson Ends Long Silence On CSK Move  Sam...",
+          "gap_type": "player_retention",
+          "keywords_found": [
+            "contract"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Squad Strategy & Auction Intelligence",
+              "impact": "Medium",
+              "timeline": "4-6 months + ongoing",
+              "price": "₹12-18 Lakhs + ₹1.5L/quarter",
+              "methodology": "Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning",
+              "description": "**MRA/ESOMAR-compliant study**. Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning. **Deliverables**: Auction strategy playbook, Retention priority matrix, Salary cap optimizer, Competitor squad analysis.",
+              "gap_type": "player_retention",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -750,29 +724,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "CSK vs KKR, 22nd Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeVZlWW12eTFBanBEQmlsVE9pZ21Lb01SSGVGSjB6UHRfb3ZpZGZKcUJCOGhfTkZOT2p6eXVnUjNqVzV2SUtVb2lVeUVMQ3FxdEJLdGdYRl9nT2RZMnhuVXZscWZfMnJDS0xZREVlVWc3dmdHUnNqeFZLNkhtNXpfd0dkNlJXNEZpSWJUZ196YVVwVm1NaE5lTlUyRHY5aTllV2c?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 26 Jul 2026 01:01:25 GMT",
+          "fetched_at": "2026-07-26T03:36:34.354178",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "\"Leaving Rajasthan Royals Huge Risk\": Sanju Samson Ends Long Silence On CSK Move",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRWVBeVZJZ3RVVlJOQ29jSEpIT3laSm1oOHJNMDVQX0I4VG5EUm9mU1J0Q0xYdl84NE1jVlZtU2ZlZzZIU2FlQ2xzbUZhUnRDZVo2SG9Hc1pUZG1WSUFVUVUxbG9reDhvSXh2bkhUWU1SZGROVHRDeGkyR0d2VC1GakJnTk9YY1g2SkdFdFRxLVFuOHBLdU9TSFVQWlhhYVZobWFRVEdUUTNWcUVJMmM4STZoRDZqYktrdU40?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Fri, 24 Jul 2026 09:13:09 GMT",
+          "fetched_at": "2026-07-26T03:36:34.354192",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Samson reveals Dhoni's advice after poor start at CSK | Tap to know more | Inshorts",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX3U2OUg2V0QyV05MbUVTQVp4YnBtQ09iRjU0UWR0aUJzaTF2Xzhsb3JuMUxmM1NFd3BMZ0VabXpPZ0FGb3RiNEtVZGF0Um03YTlzbWt3SzhRMlRUUTNLZ20yamlPUE41Q21IVmRHUDFEOGRWUFpRb0hTeGswUnNpclg1VUFTeldjMmtwcjVKUlJfTjk3QVhQQTlhZ2LSAaIBQVVfeXFMTXdHMEp3eWdvT3VmTkVjdkpQbVprVWE0UHFfN0prZnF1S1RmMWxmZjZ3OE9NeWxnajQxMlNqLThBWGVta3Y2NWVkUzNDMVViYTRZOHJiRXdsd2JDNXItd3dzeGV4Y2RBM1dlaDl6THpuUzNaRFYxOGlmS0xkTy1aNVM0UERXUlFxR25QYmRsR1VWN292bTEyYkMxVEtEWHBRUkxR?oc=5",
+          "source": "Inshorts",
+          "publishedAt": "Sat, 25 Jul 2026 01:24:21 GMT",
+          "fetched_at": "2026-07-26T03:36:34.354198",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Sanju Samson: Leaving Rajasthan Royals was a 'huge risk', Dhoni's backing helped",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFF2TjRIY1prUHdvenBuUmt6VzBLZ2pEbnZ3S0hfMTB1OHZITjhDbVFVM1JfblRWZEJpQjZNQWxzNTBfd0RfRjZoMkhQV2g5bGROSzdXRDBHQmFJdFVPZk5GbThXYTdXaDVjYkZVeU84ZmlqUUx3WnFPc21CMER5UDNyWGlZWV83enQ1RXU0VEhWUk5CMEx3WVhScFh2eEhlMzdJdmJ6TG1aazhPY3kxa2xnUnZhMFZlUENaeXhrSmlhby1OaWtV0gHKAUFVX3lxTE10WklsM3VDTE11M19PNDhreS0zamp3em14WkstYWJVX2h5QS1MM09sOWIwcm0zOFJXbUNqUVV3X3lUejZzTEhKbU9tdUJkeENXbHpqMTNoTXRVdXFjdVYwOUd1SURrMjVaWjh0VDlYU3Y1VUpCcFlUMlFZb0plT2VBcHgxMENBUEk3VzNobmZVd0VPaS1ZMU8yRkpoeFRfWlZoeHpvVXZlelNWejFtVGk5RHB3bHlySlA2WXNzNFBBWTFxTi1CV3BZV3c?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Fri, 24 Jul 2026 10:52:53 GMT",
+          "fetched_at": "2026-07-26T03:36:34.354204",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Hardik Pandya Trade: MI and CSK Locked in Negotiations Over Blockbuster IPL Deal",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUnFVTWtRakkxTUhjU1ZtQ01EcFE2V3dfalBZUF9tM0Zsd25vNFZJQUdJUG9tOFcxVjBuOHVueVp6VlJYSnJlV2Q4bDZzNE5tZFdDcjFqNzhxeGw0UDNlSFJGckJ2dGhhdldIT0dPd1pfa3JIYjItU1BleXdjNE55Nk82UnQ3SGU5WWFKWlRUdW0zVzA2SW1xWERYS2hqa2RHel80SDRMUjdJRmpDQ2hNZEFwclVnbEJlbWNz?oc=5",
+          "source": "heraldgoa.in",
+          "publishedAt": "Fri, 24 Jul 2026 09:42:57 GMT",
+          "fetched_at": "2026-07-26T03:36:34.354208",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -780,7 +780,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-25T19:25:09.379656",
+      "last_updated": "2026-07-26T03:37:45.343094",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
