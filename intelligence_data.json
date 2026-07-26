@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-26T13:49:09.395346",
+    "generated_at": "2026-07-26T19:28:41.183360",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-26T13:39:57.266434",
+      "last_updated": "2026-07-26T19:19:14.186300",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-26T13:41:19.122103",
+      "last_updated": "2026-07-26T19:20:35.128583",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-26T13:42:17.675769",
+      "last_updated": "2026-07-26T19:22:05.003265",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,43 +266,21 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-26T13:43:48.175074",
+      "last_updated": "2026-07-26T19:23:27.588237",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 3,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Merchandise Revenue & Licensing Gaps at HDFC Bank",
-          "severity": "Medium",
-          "description": "Merchandise revenue underperformance at HDFC Bank: retail. Product-market fit and pricing research required.",
-          "detected_from": "Haryana government recovers Rs 127.27 crore from Kotak Mahindra Bank, clears all outstanding dues  Kotak Mahindra Bank to acquire Deutsche Bank’s reta...",
-          "gap_type": "merchandise",
-          "keywords_found": [
-            "retail"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Merchandise Demand & Pricing Research",
-              "impact": "Medium",
-              "timeline": "12-18 months",
-              "price": "₹14-22 Lakhs",
-              "methodology": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking. **Deliverables**: Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy.",
-              "gap_type": "merchandise",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -342,55 +320,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Haryana government recovers Rs 127.27 crore from Kotak Mahindra Bank, clears all outstanding dues",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXdpRzNBcUk1S1dMM2hIbFhXN1lVN1BDdTFMWXUzYmlvZG5vMW91aDg5YnV2UXQzQk1wSFJFVGt3alhUMXRYWmZnbFRaT0JROTFkVExRU1h5bUJma0htSVVlZ2FqTUM0cjlXX2RoNDdISXRjYjhzSmNEQzVfbGFlZFVEYXFGMjhuYXgwOHRNT0taWU44b1BBVTBkdnZTNVh1VnJ5WHctZTFqTnkxRFRRVHFpRVdkRUFGTlZvSFdvaURVZ3VDV1JRQg?oc=5",
-          "source": "The News Mill",
-          "publishedAt": "Thu, 23 Jul 2026 13:27:19 GMT",
-          "fetched_at": "2026-07-26T13:43:33.144126",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kotak Mahindra Bank to acquire Deutsche Bank’s retail banking, private banking and wealth management business in India",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMFFzRlFRcmxZeDZCUkY5Xy1Xa3Z5RXk3ckxPUzB3eGpxRTAwajNDbTJybEV1OEljNmNabTBweTV2XzZiM2F0MTZxZzlkZWlmX3FVUmhjZnFGdTBBT0FDQ184T0RsSy1tcTZVNi1FR0ltcGNvSEdCY3poRDBQR3lQRTBoOElnam5qZl9XUlZfNW13QkxPakJVdUl3bHl2cnByZ0JjY2IweXVVLW9INDh5Q2lIYmFEajY1QUlsQzdIZUJSZEZFbWpkMVpjUC02ZEVBcE90Z1kybl9nQmRLYjdKRnYzaEcxdWtUSGRDaFVGQTBGMmRfZlVkbmVPLWdibVNE?oc=5",
-          "source": "Deutsche Bank AG",
-          "publishedAt": "Tue, 30 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T13:43:33.144145",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kotak Mahindra Mutual Fund raises Stake in South Indian Bank beyond 5%",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaFpESDZlc2xwQTh6WVphZWxMUFFjUjZ2dUlrT3VmaEhyc2owc2NQbVFreTFCal9NaU9CajNHRGRWTjUxUVNIS3ZlZEg4bk5vX0c2WWFXU2dBYTZOaVFmM2lXVjJYRDR1dWRMNG5KX2ZfTlJRTTZxMFE5M0RhcnROY1BBamJ1ZTdVT3ZNMGpmVFhzWEwzVlcyMTZBQXJWOGJPbFpLRDMxQjNDQThZWG9WdkMzTGk1ckc5d3dvalpjbkFRLUJCWDZqdHlMaHE1MU5yUmRCQtIB1AFBVV95cUxOaFpESDZlc2xwQTh6WVphZWxMUFFjUjZ2dUlrT3VmaEhyc2owc2NQbVFreTFCal9NaU9CajNHRGRWTjUxUVNIS3ZlZEg4bk5vX0c2WWFXU2dBYTZOaVFmM2lXVjJYRDR1dWRMNG5KX2ZfTlJRTTZxMFE5M0RhcnROY1BBamJ1ZTdVT3ZNMGpmVFhzWEwzVlcyMTZBQXJWOGJPbFpLRDMxQjNDQThZWG9WdkMzTGk1ckc5d3dvalpjbkFRLUJCWDZqdHlMaHE1MU5yUmRCQg?oc=5",
-          "source": "BFSI News",
-          "publishedAt": "Fri, 24 Jul 2026 07:02:10 GMT",
-          "fetched_at": "2026-07-26T13:43:33.144150",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kotak Mahindra Bank Q1 net profit rises 26% to Rs 4,123 crore, beats estimates; asset quality improves",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZHFEUXpfM29adjZjR2pTbTJhV09hU0xiaks4R3JSWkd1Q1dsUjZaRTdXVnhLaFpUMHk1b05LMnc4QlpVeklZUnY5TXRTQVpxUjV4REFXU05icGtvR0VlNjdyWFZ3OFpXNDF3ek1yNzZIdVR3dDZBalBkQXZocmV1a0t2SEZLUF8xNzVpcFFUM1cwUnZUTXB2SlljS081SndlbzB4ZXQtOHdsVC13eWp1elRYQ0s0VW0yTHlwMVVpUi1BTGg1UUkya255RTdHXzkxV1kyOUw3RVNmdk1PUzhOaUMyczLSAeoBQVVfeXFMTmZLbFcwY0I5SV9QU3dHTC1MRE9FMjk3LTZtRTJFXzVYbWVhRkNzNkdyOXZsZ0IxZzFsTnQzUGpVVnR1bHRUVDBsa1J5eUUyZ2FNTnVibWZ5cC1oWVlpMEhIZmtuZGVDWHhNZXNtcHJzZjdzZWE5SUotb1pLbkh4MGo4LW1rWFYtUmVDQ3pUU2JfdHdXUWhZOFAtQTBPYXhSWmZoc19YaUVGQ2dlY0VpTFZ3WVZ1VC1JbUVqcmk0alJ6MkVaREhiTk52ZDVid09aUkdoeUlYNEhVZ1ZsV2w1SllQeWJFdGp2TU1n?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Sat, 18 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T13:43:33.144154",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kotak Mahindra Bank profit jumps 26% as CEO exit looms",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTFlrRTZiMWhHTVEtaE9rXzNHN3Q0Z2J0Ymh3RTVwMGN0bVJpbHcxaEs5OTJES1dSd0l1cTBFbzNsaU1sbmRia0dCZkFhbGJyc05rVmM1QTZSZTY5cXM1d0kzdFRxYTVtQjFFT0VDajRsNEhPcVhEZGtqbkl0VURjdjBJelZacUJTMzRiUGRnRV9YbkRYaVNEY19VMDJZUnZPMzBRbEN1ZmRWbGxnSlNWdDdTWVN0UGZieWtXTThjQjM1ckY5MkxIME8td3k1SWJSdDFtVlIwek5MaVh4MW9LRFFwNjZOLXBlTUNZ?oc=5",
-          "source": "MSN",
-          "publishedAt": "Mon, 20 Jul 2026 03:32:14 GMT",
-          "fetched_at": "2026-07-26T13:43:33.144158",
-          "related_to": "Kotak Mahindra",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -398,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-26T13:44:51.568527",
+      "last_updated": "2026-07-26T19:24:43.979268",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -482,18 +434,18 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-26T13:45:51.742820",
+      "last_updated": "2026-07-26T19:25:55.692230",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -558,7 +510,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "INR 20 crore for Hardik Pandya? CSK's reported Dube-Brevis-cash package could become a massive Mumbai Indians windfall | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPTkNlX0pVMS0tLVhybWtmdWE2RFlidTluSkEtaUphSnlSY2hpZnFnZ0ZhMmNfOWgtN21qTzJ1cGVLbkZRS3VKYmVHUXBUM29OV1JETXF3TlY2bDRyVGkyWHFrcl9abHJGMkgwZ3I4ZFl0S0VnU0VJLU1KdnJ5eXU5dzlSNVBNeFl5S3Z6VGhpdVBVMmVRTkZaODZCOWRsVEhoSDBGOEZyUjFNLTBaZVZuYWltZTNXVnJvNi1RTkk2MWlXR09oVGxPeHVRVU9ZWk5qb3REbkNhdlI1bUYyNkNUQ3FJTTUxbE0wenc3RGVXMWl4M2tHMXpxOEttZXRyekM2NWI1NXlHMNIBjAJBVV95cUxOd09RVWxZWnFFZ0ZkLU4zTndySGZtaUFSX2JOcGo4RFlQeHMyNUloUjliWTdvZWVOb1NObUU3eWlwSVR1dF9yM0NVT2RacHFENXVTclkzNnR0dkFCVzZRZnY3Z0hrNnVmaHhtLUJWc2lCRlF2Z3JsYkZMa05mbGpsM3lqdnlNTWxLTFAwN09SNHJ1VnUtWWxiczBjSTg0MHRsZS1odDRhMUV1M2xLZTgxeGVOYi0xbmJpd2ZwOWRqWS1OeFAtY1Z2aVFaVTd4T0hFa1BtWnRmV3kzZUJybHpUTFJJVWhFSlk1UGs0SWRNUDViUVAtaGdCaHpSdlRaZng5a05yemZqRk45cFBB?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Sun, 26 Jul 2026 04:08:15 GMT",
+          "fetched_at": "2026-07-26T19:25:12.064678",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Rs 10 Crore + Dube And Brevis: Report Hints At CSK's Sensational Offer To MI For Hardik Pandya",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcU1OQWs2ZDNtdVVBY2F0QXpmMURmM25uMzhDcndIUWhFWGxYd3Jxd3Naa2pjcUt2SmhYRl9hWnpQTTFzUXJOQVZYTm9vcnhvZXFYNHpFUW5sYVpTTzZBdEZ2Q1pXeVU2WlBzbFdaY2s2YmlobzI2WUpjbFVfdTQ3SkJfZTI4LUMtWGJ4UkJ2NGxpRHNzOGstMzRCRFFSVmVVUDlqc0lhUVJRWWpHTE91SVh0eV9pcjBnZzJvQVN3QXgyd2V0ZkpCS25B?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Sun, 26 Jul 2026 05:49:09 GMT",
+          "fetched_at": "2026-07-26T19:25:12.064693",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Explained: Why CSK May Be Paying Too Much for Hardik Pandya",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZk1OaFYwQndRdFRpenZKNDBocUQ2UG45ZTFmMzdIeE54YTFFaHZLa1l2bzlucVdLdlJMeG02OVItTzRqYzhaa3VMWlV4MGZaLXpiWWxWeXZhN1lSMm1CZjRHMWoyTU52QlQ2ZlhudWQ4MFR5bWJmUU1ZNjdpZkJSLWtqNFNWVFFmNFNKMS1YaWpvR1hJRmJfallLeTZicE0?oc=5",
+          "source": "heraldgoa.in",
+          "publishedAt": "Sun, 26 Jul 2026 09:01:58 GMT",
+          "fetched_at": "2026-07-26T19:25:12.064698",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Sanju Samson: Leaving Rajasthan Royals was a 'huge risk', Dhoni's backing helped",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFF2TjRIY1prUHdvenBuUmt6VzBLZ2pEbnZ3S0hfMTB1OHZITjhDbVFVM1JfblRWZEJpQjZNQWxzNTBfd0RfRjZoMkhQV2g5bGROSzdXRDBHQmFJdFVPZk5GbThXYTdXaDVjYkZVeU84ZmlqUUx3WnFPc21CMER5UDNyWGlZWV83enQ1RXU0VEhWUk5CMEx3WVhScFh2eEhlMzdJdmJ6TG1aazhPY3kxa2xnUnZhMFZlUENaeXhrSmlhby1OaWtV0gHKAUFVX3lxTE10WklsM3VDTE11M19PNDhreS0zamp3em14WkstYWJVX2h5QS1MM09sOWIwcm0zOFJXbUNqUVV3X3lUejZzTEhKbU9tdUJkeENXbHpqMTNoTXRVdXFjdVYwOUd1SURrMjVaWjh0VDlYU3Y1VUpCcFlUMlFZb0plT2VBcHgxMENBUEk3VzNobmZVd0VPaS1ZMU8yRkpoeFRfWlZoeHpvVXZlelNWejFtVGk5RHB3bHlySlA2WXNzNFBBWTFxTi1CV3BZV3c?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Fri, 24 Jul 2026 10:52:53 GMT",
+          "fetched_at": "2026-07-26T19:25:12.064702",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Samson reveals Dhoni's advice after poor start at CSK | Tap to know more | Inshorts",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX3U2OUg2V0QyV05MbUVTQVp4YnBtQ09iRjU0UWR0aUJzaTF2Xzhsb3JuMUxmM1NFd3BMZ0VabXpPZ0FGb3RiNEtVZGF0Um03YTlzbWt3SzhRMlRUUTNLZ20yamlPUE41Q21IVmRHUDFEOGRWUFpRb0hTeGswUnNpclg1VUFTeldjMmtwcjVKUlJfTjk3QVhQQTlhZ2LSAaIBQVVfeXFMTXdHMEp3eWdvT3VmTkVjdkpQbVprVWE0UHFfN0prZnF1S1RmMWxmZjZ3OE9NeWxnajQxMlNqLThBWGVta3Y2NWVkUzNDMVViYTRZOHJiRXdsd2JDNXItd3dzeGV4Y2RBM1dlaDl6THpuUzNaRFYxOGlmS0xkTy1aNVM0UERXUlFxR25QYmRsR1VWN292bTEyYkMxVEtEWHBRUkxR?oc=5",
+          "source": "Inshorts",
+          "publishedAt": "Sat, 25 Jul 2026 01:24:21 GMT",
+          "fetched_at": "2026-07-26T19:25:12.064706",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -566,43 +564,21 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-26T13:47:25.610601",
+      "last_updated": "2026-07-26T19:27:21.135637",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 2
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at Royal Challengers Bengaluru",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at Royal Challengers Bengaluru: layoff. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "Highlights: Mumbai Indians vs Royal Challengers Bengaluru | TATA IPL 2026  Explained: Why CSK May Be Paying Too Much for Hardik Pandya  IPL 2027 trade...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "layoff"
-          ],
-          "solutions": [
-            {
-              "title": "Royal Challengers Bengaluru: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Royal Challengers Bengaluru: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -642,55 +618,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Royal Challengers Bengaluru: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Royal Challengers Bengaluru: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Highlights: Mumbai Indians vs Royal Challengers Bengaluru | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHVGMV85NHlpdFJ5YmdGYVRWRG5HdGEzbHFNTWVaYTZzdkZ3LTAzazhqc25ULWNJVnRwWmdYYjVZaDFuWkZfYnk4WUZybXkwQjQzR3dJTTM4Y3BhdUF0alhmR2NJUVUxZkw3UEJfQU9XcEY1LWNORGZwdFN0bWhoNFFCUG9OTWd3V3A2X19ab0lJQ2VFdGhNeHVxNVljLVB2?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 26 Jul 2026 10:33:56 GMT",
-          "fetched_at": "2026-07-26T13:46:19.637279",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Explained: Why CSK May Be Paying Too Much for Hardik Pandya",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZk1OaFYwQndRdFRpenZKNDBocUQ2UG45ZTFmMzdIeE54YTFFaHZLa1l2bzlucVdLdlJMeG02OVItTzRqYzhaa3VMWlV4MGZaLXpiWWxWeXZhN1lSMm1CZjRHMWoyTU52QlQ2ZlhudWQ4MFR5bWJmUU1ZNjdpZkJSLWtqNFNWVFFmNFNKMS1YaWpvR1hJRmJfallLeTZicE0?oc=5",
-          "source": "heraldgoa.in",
-          "publishedAt": "Sun, 26 Jul 2026 09:01:58 GMT",
-          "fetched_at": "2026-07-26T13:46:19.637292",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "IPL 2027 trade buzz: Hardik Pandya to join CSK? Report says Chennai franchise offered Rs 10 crore",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZjhINlN2ZTdlOUdGLTBWNWtfcGNES055T3Eyd2tMY0hySnZUWjlwQU4yZ0lQME0xVDlyS1l5WHdBZnNkbi1Fai1kODZhNkMtQUtoR0FWVW9fTTZDVUtpaU90X3BRdUh5aU5fTW0zd1NhRHM0bTZJT1RIVFcwX2tEVkR2d1JDSlJQYVN2X1paSTYwejBnSExrSm5JeUdWX0lpbEIzeUsxVU5Vemxjbi1relc5RmNNUlg4Z1NRQlBicEdkLVI1SmtjRS1EUdIB0AFBVV95cUxObzBoRDNzek51SnVPd1BmV2tzOFZUU3hqWVBkTXJVYldmaTIyaWxESWR0WGNSZTdPX09xRkEzajNMbTlZRGR4TFRnYmZ3enFzV0otSG1veVNYcWJ2RDA2NUhNTkVXcWFtejBROGt3UzhNTHFnejJHVDlvaFRXM0pjSTluaFpWcDNUSTZGZnhnZmxEY0NESXMzc1ZSOE9sel9ZdUhnbGo3TXFEbUNSSWYxaUxYenFXSk1WWnVKMGNIZlJwTGpLVWlxQ2FJdjRhWk55?oc=5",
-          "source": "Odisha TV",
-          "publishedAt": "Sun, 26 Jul 2026 13:16:25 GMT",
-          "fetched_at": "2026-07-26T13:46:19.637298",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "INR 20 crore for Hardik Pandya? CSK's reported Dube-Brevis-cash package could become a massive Mumbai Indians windfall | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPTkNlX0pVMS0tLVhybWtmdWE2RFlidTluSkEtaUphSnlSY2hpZnFnZ0ZhMmNfOWgtN21qTzJ1cGVLbkZRS3VKYmVHUXBUM29OV1JETXF3TlY2bDRyVGkyWHFrcl9abHJGMkgwZ3I4ZFl0S0VnU0VJLU1KdnJ5eXU5dzlSNVBNeFl5S3Z6VGhpdVBVMmVRTkZaODZCOWRsVEhoSDBGOEZyUjFNLTBaZVZuYWltZTNXVnJvNi1RTkk2MWlXR09oVGxPeHVRVU9ZWk5qb3REbkNhdlI1bUYyNkNUQ3FJTTUxbE0wenc3RGVXMWl4M2tHMXpxOEttZXRyekM2NWI1NXlHMNIBjAJBVV95cUxOd09RVWxZWnFFZ0ZkLU4zTndySGZtaUFSX2JOcGo4RFlQeHMyNUloUjliWTdvZWVOb1NObUU3eWlwSVR1dF9yM0NVT2RacHFENXVTclkzNnR0dkFCVzZRZnY3Z0hrNnVmaHhtLUJWc2lCRlF2Z3JsYkZMa05mbGpsM3lqdnlNTWxLTFAwN09SNHJ1VnUtWWxiczBjSTg0MHRsZS1odDRhMUV1M2xLZTgxeGVOYi0xbmJpd2ZwOWRqWS1OeFAtY1Z2aVFaVTd4T0hFa1BtWnRmV3kzZUJybHpUTFJJVWhFSlk1UGs0SWRNUDViUVAtaGdCaHpSdlRaZng5a05yemZqRk45cFBB?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Sun, 26 Jul 2026 04:08:15 GMT",
-          "fetched_at": "2026-07-26T13:46:19.637303",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "MI vs RR Highlights, IPL 2026: Rajasthan Royals seal playoff spot with 30-run win over MI",
-          "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQcUpRQ3NxX2g1MUNWYUxrOS1abEttU2pEelFSS3lVVnoycFpDZk9BZFpaN3QxSnA1ZXhPeXl3UDVXNXZWTUE3RW91Z1l0bTh5MXlaQVR5WGN0Ni1ma3BWQXFBbnNpYVlfQktIU3d3Nk1hYXFSU0RGUXhTZ1F1UWx6TUFOYWRxZ0VZblJVdkFDd3pxMWxja1QtRl9Yc29LZFd0cHNxZXl6NEJBSldiTlBwU0NXcjdZSjB0TGZXVU51V29nLWdhSUMyRE1lbTFLdG41SHBBY1U4NUZjUkNjazJTdXR1X0lwSmh1d1hnNEVNb0laYVZyOUFIZ0FNNnRpekxaUVFWWUxoWWFSaHFtWHpmUzJ5VGNnYXhYbkZqWTlfbmZPTk95NXhKRzhPUkItd1dFdE0yZTFNQlpJUWQ4b0RFQW1DeUN2OXdBUjlsWTIzdWo4b1VVZVdXYk5iRzFnRy1yMFhqdGhfajfSAe4CQVVfeXFMTmRIRk5kQ3ZZaE8yR0k0WFR4RnR3TTZjeVNlRmRBc19MOVZrdWZvZkhCRk4yTjMzX1dnRzc1cjRFWlpOSTBoOFZYRmdHS1pnUWZGZ0NoYndVamp5b1VhUVpvOWYxUWptMlFvaW9tcm01RkdENmR6SmEyaHREaTBaLV9lSnNQVVVieUltX2txTGkyaHA1MEZleFRQN3FQLVh5d0xGSVg4Q2VHaHh1QTRaWEtWc0t4b080RVNvV3NadWtqZE5NOGZndkNXM1JUSzFDY0FtNldrX3AxdGpwOXJEWGR6dVZ1b2luOHZ1WU1LSTcyOWI5ME9sZl8wR0VSM1o1d1EwTVpyQnVndnR1Q1Z0d0R5WE4yNkNhS3JXbG5KRlFtYUp5QVRUQ20xUkFCcDZ3YXJKSG5LcnJsaHowTWw2YnhDWU54WkJUc1JwVDZRM2lBdXJUWjkzVzhqeGtweHVuY09ZMmd6VFBxZkNhTGZB?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T13:46:19.637307",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -698,17 +648,17 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-26T13:48:40.938138",
+      "last_updated": "2026-07-26T19:28:11.125719",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -774,97 +724,15 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "KKR vs DC Highlights, IPL 2026: Kuldeep Yadav Magic Haunts Former Side KKR, DC End IPL 2026 On A High",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMHVvQ3FJRm5RbkdWRW96WDNHM1MwX21DRThwMndNYVp1cy1YOUlnQXRGSjhpQURmaE9YdXJTSENZUmZaVXBCazhWYnVpdkNlUVo5c1RjUWdtWC1INHNiejdzYkxpU0Nub0RvSkZjSFJpVjA0S0hPaUI0WUJFcnlBT0lpb19aa3E2enJ6dHkzWVJ4ZmFWWkFhOUU0d25lZ0NQUXlpUVlQNkt4YWxKQWNBZDVBX2luNHIyS3N4d0J6TlNxQlVfQVJWbDVEM084SGxrQ3d1VXJzQ0VFQmpSY0E1ck5mWnRxSjNsNG5QVmptUEVuSElEc1NpNXcxTzEySmtiNzJ4UmpCdkNma1ZvS3VJ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T13:48:14.449075",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "IPL 2026, KKR vs MI Updates: Bumrah castles Powell, breaks partnership",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5URkg2N2JQZWc2TFlJanBtUDZHYzBhMnV4S1pfOWZlLVVJbUdTQWJFdTZ6RmlxcmNidmZWSlI5bmdDd1RKTmZjQlFhVWp0TWdXVmVjdDJVN1ZXNFprRmlzcFJfTGxpS01sV3JyTjdBZldYWExtVFQ2Wg?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Wed, 20 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T13:48:14.449088",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Blackstone, Brookfield, KKR Ink $16 Billion Kuwait Oil Deal",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORFJOckl1b25kS3l3MG9hQWpHQW1TVzExNG9IRnUtNkVYdFIyZ0NfbnJyeXFhVzl3aGZNX3dmYUZDNTRKWElYem5QRTJzSmlpV3dNT2ZXUmk0aXhmMzVwU0E1aFVyb19xdXFXQjhkdTI2WUhOcmpJeVRFV3R5OHhLaXZodm1PS0llS2FhQVpSZXM0VkVNd1Y2NWJYeXZmZmRGZTJiZ3U3T25jOGZ3dXBYeXdR?oc=5",
-          "source": "Bloomberg.com",
-          "publishedAt": "Sat, 25 Jul 2026 08:49:14 GMT",
-          "fetched_at": "2026-07-26T13:48:14.449093",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kuwait's KPC signs $16 billion lease & leaseback deal with Blackstone, KKR, Brookfield for oil pipeline ne",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQR05sNWc1ZXlGMWVSaW1JR04xNDhyVkIzbG1XTVY0MXdSWDdRVjdJektlLU0xUWt5TXBZT0JlRUV4b2hrcmdIM0dTMWtkN1FWNkE0NmNRVFlDcmctV0pfQ0UwaldYNTdWU2N0d084NHJSVmtKRU9QU2JPMmZuSkpEVERYOXM0ang3SGd6T2wySWdVX0kxLVEzUlNfMncxbHVzWlc2a01YcGtXejBTTjNwRTk0OHY0NEhvMkwxZ0syZWhVTW9WOGRxTFJwZ3dUOXRsc2MxTDlTaTZGQ1VJdWxha1JiNGFoTXpNaHE2bU1KZkJZTG9ubno3RFRpOVJYa0ZDb1hTWThlUk83bDlMNlJub253ZklWd9IBmwJBVV95cUxNQXM2Zmd2T3YzM0Nydm96MTBmdlFIWFgtMDYxOEJUejFCRlpJUVBPaEVJNjJSMWl3NXotYkRSOEtpR2NOeDBSdS04c3N0MzVhZWZtT0MzQ3QyZGsyd2QwVHZZYW5ac0dYRlpPZDVZUnB4UjJSTXhYVTlObVJaQllscVp6ZGlMU2J4cXl0bk8zZElCd2FTR3lYbUx4dHpwNmFmMDZuaURXemQyZnlaZmNpdW4wNDBqeVZsbGpRRS1uLVlaSUpPdDNabTdnbkEwMWo5aHdzT1ZWUkdURFRKU3ZRR0tMbTRnY1JtVkVScENtelV4aDhVd19TV1NtbDVCc1J6MUhmdGhWd0FiUUlNUHlEcDB4eWQyVnZuOGJR?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Sat, 25 Jul 2026 06:41:38 GMT",
-          "fetched_at": "2026-07-26T13:48:14.449099",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Kuwait signs $16 billion oil pipeline deal with Blackstone, KKR and Brookfield",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWUtDc3FTMUc2Q20xbnk4WnRLeFRnM0M1Y0FoajFlTmhnbjlEVkRvek5ncW1iY2VuR3RMV2M2c1hZQktpLWJudlpTdW5tT3pEOExyWkZxRTM1ZGl1Z3FsVHhDaURORWU2MU9RMVRBNUpnX3cyWFNOVkZOaGJ6cTUzWDljUU56dHhMNGI1Z3dfN0xNQkJhQ1VUVGVaTUZkandHc1EtTUtzYkVXUlU1ZU1sQVY3clJ4NS13RmlnY1FVZ2FmZXdWLTVB?oc=5",
-          "source": "Investing.com",
-          "publishedAt": "Sat, 25 Jul 2026 06:45:40 GMT",
-          "fetched_at": "2026-07-26T13:48:14.449103",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "RR vs DC, 43rd Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX25LdzFYSnE2andwVE1MTFBSUWtOSEhOZ243a2FicXpxSEZRb2FEa0tGbFFRQVFoeDc2TDhPN0V0cXZHN1d5S3I4SWM1WGpqaW5sWE8zVVgxNElJN1J6b201MzZLdUFyZWpmdHZmRWl2Ti1ZNUl4Zi1FRUhfeHR3VkkyRTZtLUhfSEFFU3hQaDlFWUJUak0tVWpzNjVyVUk?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 26 Jul 2026 10:58:15 GMT",
-          "fetched_at": "2026-07-26T13:48:40.937836"
-        },
-        {
-          "title": "KKR vs DC Highlights, IPL 2026: Kuldeep Yadav Magic Haunts Former Side KKR, DC End IPL 2026 On A High",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMHVvQ3FJRm5RbkdWRW96WDNHM1MwX21DRThwMndNYVp1cy1YOUlnQXRGSjhpQURmaE9YdXJTSENZUmZaVXBCazhWYnVpdkNlUVo5c1RjUWdtWC1INHNiejdzYkxpU0Nub0RvSkZjSFJpVjA0S0hPaUI0WUJFcnlBT0lpb19aa3E2enJ6dHkzWVJ4ZmFWWkFhOUU0d25lZ0NQUXlpUVlQNkt4YWxKQWNBZDVBX2luNHIyS3N4d0J6TlNxQlVfQVJWbDVEM084SGxrQ3d1VXJzQ0VFQmpSY0E1ck5mWnRxSjNsNG5QVmptUEVuSElEc1NpNXcxTzEySmtiNzJ4UmpCdkNma1ZvS3VJ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T13:48:40.937850"
-        },
-        {
-          "title": "IPL 2026 UPDATES, DC vs RR: DC clinch tense chase to stay alive",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LVXVXR2FMOGItblVDUUpKQWVzQmtXNGpXQ0NQZnd5N2dHTTFBUkxEZ3o4bUxmUjM2TXI5Zkl4ZFVEemFlSmhfYWVXb0xrR1JuekpsZ0dxZFdFd2FTXzBhdjJYSG5kWm1CZXFnWFZzV0ZGX3htVXBrYw?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Sun, 17 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T13:48:40.937855"
-        },
-        {
-          "title": "Full Scorecard of Delhi Capitals vs Rajasthan Royals, Indian Premier League 2026, 62nd Match - Score Report",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9Kb09nV3BxcFRjaVU4TWRVWXBpc09JRmVjcnRUMXEtUF9vNTYxTGFHRnFlWUFWSVBMa1FnZ3Eta21DRmdIX0w0ZkxrM041WnlqN1lDelhWUlNWbDN2YXdPZElrVWZ2ZnVjSHZncmhMNm05V281eDhPYTRvWmFnYV9weF91NlpRejJkQUdFdURQb1pWUGw2QUttYkZucE9zYkVxa0NsUWVFREZ2bW9ULXhmV3I3cUp6R2NBYnM0M2d6QnJsazJ2ajZB?oc=5",
-          "source": "espn.in",
-          "publishedAt": "Sun, 17 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T13:48:40.937860"
-        },
-        {
-          "title": "PBKS vs DC, 55th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOakU1d2NWQXNlOGFtTGdTYkE4eWFyazU4WjdiUW4wNmlQdWRvR3BKYnlfMDJZcWdmYlQ4amRBU2Z6WDVnVHc4R3RmaU14WFBIU002ejYtaVFBNmhjOGlOZ0tyV1pJdDdyM0NOUVhINmtTU25PQ3JXNGp5aTlqOFhRZmxVdTZuN0gzUWZLYWdCekJScmF4cnptTUVrdUlwUkdISkE?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sat, 25 Jul 2026 16:53:06 GMT",
-          "fetched_at": "2026-07-26T13:48:40.937864"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-26T13:49:09.395333",
+      "last_updated": "2026-07-26T19:28:41.183344",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
