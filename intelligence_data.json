@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-26T03:37:45.343109",
+    "generated_at": "2026-07-26T08:43:41.633291",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-26T03:28:14.419264",
+      "last_updated": "2026-07-26T08:34:08.473960",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-26T03:29:22.823057",
+      "last_updated": "2026-07-26T08:35:35.799260",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-26T03:30:20.990746",
+      "last_updated": "2026-07-26T08:36:56.930205",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-26T03:31:52.036691",
+      "last_updated": "2026-07-26T08:38:27.513128",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-26T03:32:59.987077",
+      "last_updated": "2026-07-26T08:39:18.154759",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,18 +434,18 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-26T03:34:27.949295",
+      "last_updated": "2026-07-26T08:40:21.102342",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -510,53 +510,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "RR vs DC, 43rd Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX25LdzFYSnE2andwVE1MTFBSUWtOSEhOZ243a2FicXpxSEZRb2FEa0tGbFFRQVFoeDc2TDhPN0V0cXZHN1d5S3I4SWM1WGpqaW5sWE8zVVgxNElJN1J6b201MzZLdUFyZWpmdHZmRWl2Ti1ZNUl4Zi1FRUhfeHR3VkkyRTZtLUhfSEFFU3hQaDlFWUJUak0tVWpzNjVyVUk?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 26 Jul 2026 00:26:26 GMT",
-          "fetched_at": "2026-07-26T03:34:12.925319",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "\"Leaving Rajasthan Royals Huge Risk\": Sanju Samson Ends Long Silence On CSK Move",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRWVBeVZJZ3RVVlJOQ29jSEpIT3laSm1oOHJNMDVQX0I4VG5EUm9mU1J0Q0xYdl84NE1jVlZtU2ZlZzZIU2FlQ2xzbUZhUnRDZVo2SG9Hc1pUZG1WSUFVUVUxbG9reDhvSXh2bkhUWU1SZGROVHRDeGkyR0d2VC1GakJnTk9YY1g2SkdFdFRxLVFuOHBLdU9TSFVQWlhhYVZobWFRVEdUUTNWcUVJMmM4STZoRDZqYktrdU40?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Fri, 24 Jul 2026 09:13:09 GMT",
-          "fetched_at": "2026-07-26T03:34:12.925335",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Full Scorecard of Rajasthan Royals vs Sunrisers Hyderabad, Indian Premier League 2026, Eliminator - Score Report",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWkxTMjZwekw3eHQxZzltMTVpcjZUV1VXTmJVMjNuZDdGUDdBTC1BMk1aVjY3TmhsVDhwbzBvS21jcWE5LVo1c1dHMUJHVmo1emZYbDhLZUZwYjRaT3p2WGx3VW42QWRTNjhLMmctREV5Y2h3cmJ2TkdLV0Q0SXIwR0w5RTFMZGV6LUdPTmhOVFp5dlZpc1M0c3JDNVFIZFlhd3ZUQzFOdi1WXzVsaWE3OGpaRzVvazgweWhaUl9JTnFEb1BjR3h0N216c04xYTBq?oc=5",
-          "source": "espn.in",
-          "publishedAt": "Wed, 27 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T03:34:12.925341",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "IPL 2026 Qualifier 2 Updates: Gill masterclass fires Titans to final",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zOWhidFdyMmoyWWV4cVJ2Umx2bUNrdnNCc2xYQnBtUGFiQ0N4ekxDdG5IbEJKZndDX1kxNnJZZVo2UXByeDJ1bGNRMFNNeDZqc0ltdGZCRjhkZWtXZjBwZzRfaTNiR29DN3VfOG1sbWpsYllZalo0Tg?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-26T03:34:12.925345",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "\"See You In Court\": Raj Kundra Warns Rajasthan Royals Owner Manoj Badale, Questions Original IPL Bid",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZDVqNWE4dTdaamNqdkRwX0wtTUZUUW9GM3FZQjQ1endDOGs5d01fREtsdlBJQURxdFlmczAwQlROTGVoUXcwd2ZYcnFvZlRkb0hZbm1Wc01OclBKLUFqSW00b3JqWUtUZF9DeGNaWmNWR3F3T2U4Wm9zaWM1aURoMG41TG5NTmY5RFUwOUN1RXVDeDN1Q0EySHFVNmduV1R6R0hUZGt1VnhpLUg5cHk3ZEUyUEVQWE92Ynp4WkNhTTBZRGh6NVVqU184QlluTmkwR25UZg?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Fri, 24 Jul 2026 15:22:55 GMT",
-          "fetched_at": "2026-07-26T03:34:12.925350",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -564,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-26T03:35:59.927354",
+      "last_updated": "2026-07-26T08:41:48.625082",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -648,43 +602,21 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-26T03:37:15.134291",
+      "last_updated": "2026-07-26T08:43:26.168145",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 15,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.33,
-        "label": "Positive",
-        "pos": 2,
-        "neg": 1
+        "score": -1.0,
+        "label": "Negative",
+        "pos": 0,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Player Retention & Auction Strategy Risk at Delhi Capitals",
-          "severity": "Medium",
-          "description": "Squad stability concerns for Delhi Capitals: contract. Auction strategy and salary cap optimization research needed.",
-          "detected_from": "CSK vs KKR, 22nd Match, Indian Premier League 2026 - Commentary  \"Leaving Rajasthan Royals Huge Risk\": Sanju Samson Ends Long Silence On CSK Move  Sam...",
-          "gap_type": "player_retention",
-          "keywords_found": [
-            "contract"
-          ],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Squad Strategy & Auction Intelligence",
-              "impact": "Medium",
-              "timeline": "4-6 months + ongoing",
-              "price": "₹12-18 Lakhs + ₹1.5L/quarter",
-              "methodology": "Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning",
-              "description": "**MRA/ESOMAR-compliant study**. Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning. **Deliverables**: Auction strategy playbook, Retention priority matrix, Salary cap optimizer, Competitor squad analysis.",
-              "gap_type": "player_retention",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -724,15 +656,44 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [
         {
-          "title": "CSK vs KKR, 22nd Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeVZlWW12eTFBanBEQmlsVE9pZ21Lb01SSGVGSjB6UHRfb3ZpZGZKcUJCOGhfTkZOT2p6eXVnUjNqVzV2SUtVb2lVeUVMQ3FxdEJLdGdYRl9nT2RZMnhuVXZscWZfMnJDS0xZREVlVWc3dmdHUnNqeFZLNkhtNXpfd0dkNlJXNEZpSWJUZ196YVVwVm1NaE5lTlUyRHY5aTllV2c?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 26 Jul 2026 01:01:25 GMT",
-          "fetched_at": "2026-07-26T03:36:34.354178",
+          "title": "Rs 10 Crore + 2 Dube And Brevis: Report Hints At CSK's Sensation Offer To MI For Hardik Pandya",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcU1OQWs2ZDNtdVVBY2F0QXpmMURmM25uMzhDcndIUWhFWGxYd3Jxd3Naa2pjcUt2SmhYRl9hWnpQTTFzUXJOQVZYTm9vcnhvZXFYNHpFUW5sYVpTTzZBdEZ2Q1pXeVU2WlBzbFdaY2s2YmlobzI2WUpjbFVfdTQ3SkJfZTI4LUMtWGJ4UkJ2NGxpRHNzOGstMzRCRFFSVmVVUDlqc0lhUVJRWWpHTE91SVh0eV9pcjBnZzJvQVN3QXgyd2V0ZkpCS25B?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Sun, 26 Jul 2026 05:49:09 GMT",
+          "fetched_at": "2026-07-26T08:42:31.525911",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "INR 20 crore for Hardik Pandya? CSK's reported Dube-Brevis-cash package could become a massive Mumbai Indians windfall | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPTkNlX0pVMS0tLVhybWtmdWE2RFlidTluSkEtaUphSnlSY2hpZnFnZ0ZhMmNfOWgtN21qTzJ1cGVLbkZRS3VKYmVHUXBUM29OV1JETXF3TlY2bDRyVGkyWHFrcl9abHJGMkgwZ3I4ZFl0S0VnU0VJLU1KdnJ5eXU5dzlSNVBNeFl5S3Z6VGhpdVBVMmVRTkZaODZCOWRsVEhoSDBGOEZyUjFNLTBaZVZuYWltZTNXVnJvNi1RTkk2MWlXR09oVGxPeHVRVU9ZWk5qb3REbkNhdlI1bUYyNkNUQ3FJTTUxbE0wenc3RGVXMWl4M2tHMXpxOEttZXRyekM2NWI1NXlHMNIBjAJBVV95cUxOd09RVWxZWnFFZ0ZkLU4zTndySGZtaUFSX2JOcGo4RFlQeHMyNUloUjliWTdvZWVOb1NObUU3eWlwSVR1dF9yM0NVT2RacHFENXVTclkzNnR0dkFCVzZRZnY3Z0hrNnVmaHhtLUJWc2lCRlF2Z3JsYkZMa05mbGpsM3lqdnlNTWxLTFAwN09SNHJ1VnUtWWxiczBjSTg0MHRsZS1odDRhMUV1M2xLZTgxeGVOYi0xbmJpd2ZwOWRqWS1OeFAtY1Z2aVFaVTd4T0hFa1BtWnRmV3kzZUJybHpUTFJJVWhFSlk1UGs0SWRNUDViUVAtaGdCaHpSdlRaZng5a05yemZqRk45cFBB?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Sun, 26 Jul 2026 04:08:15 GMT",
+          "fetched_at": "2026-07-26T08:42:31.525929",
           "related_to": "CSK",
           "relevance": "competitor"
         },
@@ -741,7 +702,7 @@
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRWVBeVZJZ3RVVlJOQ29jSEpIT3laSm1oOHJNMDVQX0I4VG5EUm9mU1J0Q0xYdl84NE1jVlZtU2ZlZzZIU2FlQ2xzbUZhUnRDZVo2SG9Hc1pUZG1WSUFVUVUxbG9reDhvSXh2bkhUWU1SZGROVHRDeGkyR0d2VC1GakJnTk9YY1g2SkdFdFRxLVFuOHBLdU9TSFVQWlhhYVZobWFRVEdUUTNWcUVJMmM4STZoRDZqYktrdU40?oc=5",
           "source": "NDTV Sports",
           "publishedAt": "Fri, 24 Jul 2026 09:13:09 GMT",
-          "fetched_at": "2026-07-26T03:36:34.354192",
+          "fetched_at": "2026-07-26T08:42:31.525934",
           "related_to": "CSK",
           "relevance": "competitor"
         },
@@ -750,25 +711,16 @@
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX3U2OUg2V0QyV05MbUVTQVp4YnBtQ09iRjU0UWR0aUJzaTF2Xzhsb3JuMUxmM1NFd3BMZ0VabXpPZ0FGb3RiNEtVZGF0Um03YTlzbWt3SzhRMlRUUTNLZ20yamlPUE41Q21IVmRHUDFEOGRWUFpRb0hTeGswUnNpclg1VUFTeldjMmtwcjVKUlJfTjk3QVhQQTlhZ2LSAaIBQVVfeXFMTXdHMEp3eWdvT3VmTkVjdkpQbVprVWE0UHFfN0prZnF1S1RmMWxmZjZ3OE9NeWxnajQxMlNqLThBWGVta3Y2NWVkUzNDMVViYTRZOHJiRXdsd2JDNXItd3dzeGV4Y2RBM1dlaDl6THpuUzNaRFYxOGlmS0xkTy1aNVM0UERXUlFxR25QYmRsR1VWN292bTEyYkMxVEtEWHBRUkxR?oc=5",
           "source": "Inshorts",
           "publishedAt": "Sat, 25 Jul 2026 01:24:21 GMT",
-          "fetched_at": "2026-07-26T03:36:34.354198",
+          "fetched_at": "2026-07-26T08:42:31.525938",
           "related_to": "CSK",
           "relevance": "competitor"
         },
         {
           "title": "Sanju Samson: Leaving Rajasthan Royals was a 'huge risk', Dhoni's backing helped",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFF2TjRIY1prUHdvenBuUmt6VzBLZ2pEbnZ3S0hfMTB1OHZITjhDbVFVM1JfblRWZEJpQjZNQWxzNTBfd0RfRjZoMkhQV2g5bGROSzdXRDBHQmFJdFVPZk5GbThXYTdXaDVjYkZVeU84ZmlqUUx3WnFPc21CMER5UDNyWGlZWV83enQ1RXU0VEhWUk5CMEx3WVhScFh2eEhlMzdJdmJ6TG1aazhPY3kxa2xnUnZhMFZlUENaeXhrSmlhby1OaWtV0gHKAUFVX3lxTE10WklsM3VDTE11M19PNDhreS0zamp3em14WkstYWJVX2h5QS1MM09sOWIwcm0zOFJXbUNqUVV3X3lUejZzTEhKbU9tdUJkeENXbHpqMTNoTXRVdXFjdVYwOUd1SURrMjVaWjh0VDlYU3Y1VUpCcFlUMlFZb0plT2VBcHgxMENBUEk3VzNobmZVd0VPaS1ZMU8yRkpoeFRfWlZoeHpvVXZlelNWejFtVGk5RHB3bHlySlA2WXNzNFBBWTFxTi1CV3BZV3c?oc=5",
-          "source": "Rediff",
+          "source": "rediff.com",
           "publishedAt": "Fri, 24 Jul 2026 10:52:53 GMT",
-          "fetched_at": "2026-07-26T03:36:34.354204",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Hardik Pandya Trade: MI and CSK Locked in Negotiations Over Blockbuster IPL Deal",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUnFVTWtRakkxTUhjU1ZtQ01EcFE2V3dfalBZUF9tM0Zsd25vNFZJQUdJUG9tOFcxVjBuOHVueVp6VlJYSnJlV2Q4bDZzNE5tZFdDcjFqNzhxeGw0UDNlSFJGckJ2dGhhdldIT0dPd1pfa3JIYjItU1BleXdjNE55Nk82UnQ3SGU5WWFKWlRUdW0zVzA2SW1xWERYS2hqa2RHel80SDRMUjdJRmpDQ2hNZEFwclVnbEJlbWNz?oc=5",
-          "source": "heraldgoa.in",
-          "publishedAt": "Fri, 24 Jul 2026 09:42:57 GMT",
-          "fetched_at": "2026-07-26T03:36:34.354208",
+          "fetched_at": "2026-07-26T08:42:31.525942",
           "related_to": "CSK",
           "relevance": "competitor"
         }
@@ -780,7 +732,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-26T03:37:45.343094",
+      "last_updated": "2026-07-26T08:43:41.633279",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
