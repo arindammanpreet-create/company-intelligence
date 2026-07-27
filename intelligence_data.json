@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-26T19:28:41.183360",
+    "generated_at": "2026-07-27T03:46:13.984714",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-26T19:19:14.186300",
+      "last_updated": "2026-07-27T03:36:55.513417",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-26T19:20:35.128583",
+      "last_updated": "2026-07-27T03:37:53.182049",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-26T19:22:05.003265",
+      "last_updated": "2026-07-27T03:39:23.617042",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-26T19:23:27.588237",
+      "last_updated": "2026-07-27T03:40:43.650482",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-26T19:24:43.979268",
+      "last_updated": "2026-07-27T03:41:44.626122",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,18 +434,18 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-26T19:25:55.692230",
+      "last_updated": "2026-07-27T03:43:07.771028",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 2
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -510,53 +510,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "INR 20 crore for Hardik Pandya? CSK's reported Dube-Brevis-cash package could become a massive Mumbai Indians windfall | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPTkNlX0pVMS0tLVhybWtmdWE2RFlidTluSkEtaUphSnlSY2hpZnFnZ0ZhMmNfOWgtN21qTzJ1cGVLbkZRS3VKYmVHUXBUM29OV1JETXF3TlY2bDRyVGkyWHFrcl9abHJGMkgwZ3I4ZFl0S0VnU0VJLU1KdnJ5eXU5dzlSNVBNeFl5S3Z6VGhpdVBVMmVRTkZaODZCOWRsVEhoSDBGOEZyUjFNLTBaZVZuYWltZTNXVnJvNi1RTkk2MWlXR09oVGxPeHVRVU9ZWk5qb3REbkNhdlI1bUYyNkNUQ3FJTTUxbE0wenc3RGVXMWl4M2tHMXpxOEttZXRyekM2NWI1NXlHMNIBjAJBVV95cUxOd09RVWxZWnFFZ0ZkLU4zTndySGZtaUFSX2JOcGo4RFlQeHMyNUloUjliWTdvZWVOb1NObUU3eWlwSVR1dF9yM0NVT2RacHFENXVTclkzNnR0dkFCVzZRZnY3Z0hrNnVmaHhtLUJWc2lCRlF2Z3JsYkZMa05mbGpsM3lqdnlNTWxLTFAwN09SNHJ1VnUtWWxiczBjSTg0MHRsZS1odDRhMUV1M2xLZTgxeGVOYi0xbmJpd2ZwOWRqWS1OeFAtY1Z2aVFaVTd4T0hFa1BtWnRmV3kzZUJybHpUTFJJVWhFSlk1UGs0SWRNUDViUVAtaGdCaHpSdlRaZng5a05yemZqRk45cFBB?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Sun, 26 Jul 2026 04:08:15 GMT",
-          "fetched_at": "2026-07-26T19:25:12.064678",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rs 10 Crore + Dube And Brevis: Report Hints At CSK's Sensational Offer To MI For Hardik Pandya",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcU1OQWs2ZDNtdVVBY2F0QXpmMURmM25uMzhDcndIUWhFWGxYd3Jxd3Naa2pjcUt2SmhYRl9hWnpQTTFzUXJOQVZYTm9vcnhvZXFYNHpFUW5sYVpTTzZBdEZ2Q1pXeVU2WlBzbFdaY2s2YmlobzI2WUpjbFVfdTQ3SkJfZTI4LUMtWGJ4UkJ2NGxpRHNzOGstMzRCRFFSVmVVUDlqc0lhUVJRWWpHTE91SVh0eV9pcjBnZzJvQVN3QXgyd2V0ZkpCS25B?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Sun, 26 Jul 2026 05:49:09 GMT",
-          "fetched_at": "2026-07-26T19:25:12.064693",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Explained: Why CSK May Be Paying Too Much for Hardik Pandya",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZk1OaFYwQndRdFRpenZKNDBocUQ2UG45ZTFmMzdIeE54YTFFaHZLa1l2bzlucVdLdlJMeG02OVItTzRqYzhaa3VMWlV4MGZaLXpiWWxWeXZhN1lSMm1CZjRHMWoyTU52QlQ2ZlhudWQ4MFR5bWJmUU1ZNjdpZkJSLWtqNFNWVFFmNFNKMS1YaWpvR1hJRmJfallLeTZicE0?oc=5",
-          "source": "heraldgoa.in",
-          "publishedAt": "Sun, 26 Jul 2026 09:01:58 GMT",
-          "fetched_at": "2026-07-26T19:25:12.064698",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Sanju Samson: Leaving Rajasthan Royals was a 'huge risk', Dhoni's backing helped",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFF2TjRIY1prUHdvenBuUmt6VzBLZ2pEbnZ3S0hfMTB1OHZITjhDbVFVM1JfblRWZEJpQjZNQWxzNTBfd0RfRjZoMkhQV2g5bGROSzdXRDBHQmFJdFVPZk5GbThXYTdXaDVjYkZVeU84ZmlqUUx3WnFPc21CMER5UDNyWGlZWV83enQ1RXU0VEhWUk5CMEx3WVhScFh2eEhlMzdJdmJ6TG1aazhPY3kxa2xnUnZhMFZlUENaeXhrSmlhby1OaWtV0gHKAUFVX3lxTE10WklsM3VDTE11M19PNDhreS0zamp3em14WkstYWJVX2h5QS1MM09sOWIwcm0zOFJXbUNqUVV3X3lUejZzTEhKbU9tdUJkeENXbHpqMTNoTXRVdXFjdVYwOUd1SURrMjVaWjh0VDlYU3Y1VUpCcFlUMlFZb0plT2VBcHgxMENBUEk3VzNobmZVd0VPaS1ZMU8yRkpoeFRfWlZoeHpvVXZlelNWejFtVGk5RHB3bHlySlA2WXNzNFBBWTFxTi1CV3BZV3c?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Fri, 24 Jul 2026 10:52:53 GMT",
-          "fetched_at": "2026-07-26T19:25:12.064702",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Samson reveals Dhoni's advice after poor start at CSK | Tap to know more | Inshorts",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX3U2OUg2V0QyV05MbUVTQVp4YnBtQ09iRjU0UWR0aUJzaTF2Xzhsb3JuMUxmM1NFd3BMZ0VabXpPZ0FGb3RiNEtVZGF0Um03YTlzbWt3SzhRMlRUUTNLZ20yamlPUE41Q21IVmRHUDFEOGRWUFpRb0hTeGswUnNpclg1VUFTeldjMmtwcjVKUlJfTjk3QVhQQTlhZ2LSAaIBQVVfeXFMTXdHMEp3eWdvT3VmTkVjdkpQbVprVWE0UHFfN0prZnF1S1RmMWxmZjZ3OE9NeWxnajQxMlNqLThBWGVta3Y2NWVkUzNDMVViYTRZOHJiRXdsd2JDNXItd3dzeGV4Y2RBM1dlaDl6THpuUzNaRFYxOGlmS0xkTy1aNVM0UERXUlFxR25QYmRsR1VWN292bTEyYkMxVEtEWHBRUkxR?oc=5",
-          "source": "Inshorts",
-          "publishedAt": "Sat, 25 Jul 2026 01:24:21 GMT",
-          "fetched_at": "2026-07-26T19:25:12.064706",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -564,18 +518,18 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-26T19:27:21.135637",
+      "last_updated": "2026-07-27T03:44:19.690948",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -640,7 +594,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Rs 10 Crore + Dube And Brevis: Report Hints At CSK's Sensational Offer To MI For Hardik Pandya",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcU1OQWs2ZDNtdVVBY2F0QXpmMURmM25uMzhDcndIUWhFWGxYd3Jxd3Naa2pjcUt2SmhYRl9hWnpQTTFzUXJOQVZYTm9vcnhvZXFYNHpFUW5sYVpTTzZBdEZ2Q1pXeVU2WlBzbFdaY2s2YmlobzI2WUpjbFVfdTQ3SkJfZTI4LUMtWGJ4UkJ2NGxpRHNzOGstMzRCRFFSVmVVUDlqc0lhUVJRWWpHTE91SVh0eV9pcjBnZzJvQVN3QXgyd2V0ZkpCS25B?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Sun, 26 Jul 2026 05:49:09 GMT",
+          "fetched_at": "2026-07-27T03:43:34.572603",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Explained: Why CSK May Be Paying Too Much for Hardik Pandya",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZk1OaFYwQndRdFRpenZKNDBocUQ2UG45ZTFmMzdIeE54YTFFaHZLa1l2bzlucVdLdlJMeG02OVItTzRqYzhaa3VMWlV4MGZaLXpiWWxWeXZhN1lSMm1CZjRHMWoyTU52QlQ2ZlhudWQ4MFR5bWJmUU1ZNjdpZkJSLWtqNFNWVFFmNFNKMS1YaWpvR1hJRmJfallLeTZicE0?oc=5",
+          "source": "heraldgoa.in",
+          "publishedAt": "Sun, 26 Jul 2026 09:01:58 GMT",
+          "fetched_at": "2026-07-27T03:43:34.572616",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "INR 20 crore for Hardik Pandya? CSK's reported Dube-Brevis-cash package could become a massive Mumbai Indians windfall | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPTkNlX0pVMS0tLVhybWtmdWE2RFlidTluSkEtaUphSnlSY2hpZnFnZ0ZhMmNfOWgtN21qTzJ1cGVLbkZRS3VKYmVHUXBUM29OV1JETXF3TlY2bDRyVGkyWHFrcl9abHJGMkgwZ3I4ZFl0S0VnU0VJLU1KdnJ5eXU5dzlSNVBNeFl5S3Z6VGhpdVBVMmVRTkZaODZCOWRsVEhoSDBGOEZyUjFNLTBaZVZuYWltZTNXVnJvNi1RTkk2MWlXR09oVGxPeHVRVU9ZWk5qb3REbkNhdlI1bUYyNkNUQ3FJTTUxbE0wenc3RGVXMWl4M2tHMXpxOEttZXRyekM2NWI1NXlHMNIBjAJBVV95cUxOd09RVWxZWnFFZ0ZkLU4zTndySGZtaUFSX2JOcGo4RFlQeHMyNUloUjliWTdvZWVOb1NObUU3eWlwSVR1dF9yM0NVT2RacHFENXVTclkzNnR0dkFCVzZRZnY3Z0hrNnVmaHhtLUJWc2lCRlF2Z3JsYkZMa05mbGpsM3lqdnlNTWxLTFAwN09SNHJ1VnUtWWxiczBjSTg0MHRsZS1odDRhMUV1M2xLZTgxeGVOYi0xbmJpd2ZwOWRqWS1OeFAtY1Z2aVFaVTd4T0hFa1BtWnRmV3kzZUJybHpUTFJJVWhFSlk1UGs0SWRNUDViUVAtaGdCaHpSdlRaZng5a05yemZqRk45cFBB?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Sun, 26 Jul 2026 04:08:15 GMT",
+          "fetched_at": "2026-07-27T03:43:34.572621",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Sanju Samson: Leaving Rajasthan Royals was a 'huge risk', Dhoni's backing helped",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFF2TjRIY1prUHdvenBuUmt6VzBLZ2pEbnZ3S0hfMTB1OHZITjhDbVFVM1JfblRWZEJpQjZNQWxzNTBfd0RfRjZoMkhQV2g5bGROSzdXRDBHQmFJdFVPZk5GbThXYTdXaDVjYkZVeU84ZmlqUUx3WnFPc21CMER5UDNyWGlZWV83enQ1RXU0VEhWUk5CMEx3WVhScFh2eEhlMzdJdmJ6TG1aazhPY3kxa2xnUnZhMFZlUENaeXhrSmlhby1OaWtV0gHKAUFVX3lxTE10WklsM3VDTE11M19PNDhreS0zamp3em14WkstYWJVX2h5QS1MM09sOWIwcm0zOFJXbUNqUVV3X3lUejZzTEhKbU9tdUJkeENXbHpqMTNoTXRVdXFjdVYwOUd1SURrMjVaWjh0VDlYU3Y1VUpCcFlUMlFZb0plT2VBcHgxMENBUEk3VzNobmZVd0VPaS1ZMU8yRkpoeFRfWlZoeHpvVXZlelNWejFtVGk5RHB3bHlySlA2WXNzNFBBWTFxTi1CV3BZV3c?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Fri, 24 Jul 2026 10:52:53 GMT",
+          "fetched_at": "2026-07-27T03:43:34.572625",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Samson reveals Dhoni's advice after poor start at CSK | Tap to know more | Inshorts",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX3U2OUg2V0QyV05MbUVTQVp4YnBtQ09iRjU0UWR0aUJzaTF2Xzhsb3JuMUxmM1NFd3BMZ0VabXpPZ0FGb3RiNEtVZGF0Um03YTlzbWt3SzhRMlRUUTNLZ20yamlPUE41Q21IVmRHUDFEOGRWUFpRb0hTeGswUnNpclg1VUFTeldjMmtwcjVKUlJfTjk3QVhQQTlhZ2LSAaIBQVVfeXFMTXdHMEp3eWdvT3VmTkVjdkpQbVprVWE0UHFfN0prZnF1S1RmMWxmZjZ3OE9NeWxnajQxMlNqLThBWGVta3Y2NWVkUzNDMVViYTRZOHJiRXdsd2JDNXItd3dzeGV4Y2RBM1dlaDl6THpuUzNaRFYxOGlmS0xkTy1aNVM0UERXUlFxR25QYmRsR1VWN292bTEyYkMxVEtEWHBRUkxR?oc=5",
+          "source": "Inshorts",
+          "publishedAt": "Sat, 25 Jul 2026 01:24:21 GMT",
+          "fetched_at": "2026-07-27T03:43:34.572629",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -648,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-26T19:28:11.125719",
+      "last_updated": "2026-07-27T03:45:43.925194",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -732,7 +732,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-26T19:28:41.183344",
+      "last_updated": "2026-07-27T03:46:13.984698",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
