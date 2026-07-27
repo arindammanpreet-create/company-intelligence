@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-27T10:09:40.587067",
+    "generated_at": "2026-07-27T14:52:28.709620",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-27T10:00:40.980982",
+      "last_updated": "2026-07-27T14:47:12.693581",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-27T10:01:35.174009",
+      "last_updated": "2026-07-27T14:48:06.020002",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,17 +182,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-27T10:02:36.652804",
+      "last_updated": "2026-07-27T14:49:22.534282",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -258,7 +258,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Wipro Expands Databricks Partnership; Sets Up Dedicated AI and Data Business Practice",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSTBzT2JydXB5cXFBTHhUQ2pLc3p5Q3lDVUg0U0VvV0NvaGg4Y3laOWF1TUhMNC15NlpYZEJ6MWtwOVdOcFNGdjBhLWxXbU91TWJzdWEtTjJNMmxjYmIzNWVaZUFOU2pPVnpTSlBPVDBPVmpoT3lnUDE5T2JCSTN1YzRpTUpTdFFZOVF6Sk51Y0dILVVGOTFWekE2QW8zTkFKSVY1a0JOMHJ2YWY2c1FzLXhUVHJjcTBzaWJxSjliSQ?oc=5",
+          "source": "analyticsindiamag.com",
+          "publishedAt": "Mon, 27 Jul 2026 12:32:02 GMT",
+          "fetched_at": "2026-07-27T14:48:37.419067",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro announces enhanced partnership with Databricks",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUzhJVUY3Yi1CWTBBeFl5WjM5Z25oR3U3OU9YbE45YkVVaDBDZzR3SFZNUG0yZDR3WHJVUDQ3N0h6dXJuUFhSTWgzdlBlUVBjSERySnZ3b3o4aEU1ZXlwbTNYZEZmXy1Ya096ZjdRQ0RObE1kOHBQS1FmRXJ3OGVGakdmV3dad3ltdGtlVWhNcHI3WktxdWN4anJCV2hPVkpqRmt4RTBVamZkeXo1dXZSa056M2pieEkwaUxzRndFS1VTZWo2N0l0TXphemlrNmPSAdQBQVVfeXFMTWVRSkFjUFhfUjhUS3VxdVBvY2NzZmdaOV9FM2tlcnpCQkFHYzhURnNhVjNuVE9tbzNZc2pxWTZiUHBSQnpNclVrek1HVGtUSTU1X19fNnh4WDlkRkpJN2ZhUzJVX2wwcXNxVzd2SXNlaHp3bEx5a1JkbmNmUHdveXVmWWt5eWhZRkVmZmQ4NUtkTmlDc185Zjk0MXlBODd3N3RxWU5CYUJ2b0ZBUmVwbGZvMHRhS3pYSkJuemdSUjlwd1gtRjlKZEdBT0tKNF95d2trMWs?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Mon, 27 Jul 2026 10:46:17 GMT",
+          "fetched_at": "2026-07-27T14:48:37.419080",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro expands Databricks partnership for enterprise AI, sets up dedicated business practice",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbHItWUZwTVpXNlhveWlPVXdYWXdiVEhXOGlMSmQ1YmlfRjZ5VUFWUkdKRF9taDRrN3pBWGZCQkRqaUEtTlg0Ull3UVMtMzh1UndJV3lnSUd6NFVTQXZPeUloSUFIZXhvMVdJWTFobC1ucmtkb0ZLRHZ4NzVhWDkza1p3Nmc0akJpU21jdm4zUmhzQ2FhTk9HX1E0aXhTNzRJck9GNGhrQzhUdjdCT3IxRWFIbGpfb3kzdHlHZ19GSHdDNllrSkE3c2s5RzZqUURGd3YwTUNiaHJFY2hmaTY5cWtzRkh6YUEwVEHSAe8BQVVfeXFMT2pEYmpUbF9HQ3dvQ3JwTWFSVDlmSl9iYXMyODRKejB4TWs2MEpsNmVPVy1BWVBfVk5UY0FLUXIxcThhb3hvMWF3SzRPYnl6SllYbkU3dU52RzBoa19xbllZZ0RGQ0NqSFNoa0FtTEdZTk5Mc2Jad1VrZFFPaG9pVTZhYmViUWRtQ2J4bkxmek1Ua3NFU2NqQzA1eFpDUkFiZGNZODdPelUzSF9oZzJRNjRjTXY5OXpPd0ltVm90MWx4bjNLSUZxSks4dnJKWWxLRzNYN0Z6bGNMVENYSnlWSXdQWDRWbzNoSXJtQVZlWEE?oc=5",
+          "source": "CNBC TV18",
+          "publishedAt": "Mon, 27 Jul 2026 11:16:02 GMT",
+          "fetched_at": "2026-07-27T14:48:37.419085",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro expands Databricks partnership to modernize data systems with AI",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDlwSVpPZmQ4ZXowNlIwWktvMkpKakk2WHlPdUp6YTRQU3dNZE9vQ2EtZmEtT0JDQUE4NjBtVVFZc3p4SDJuWWstQWpoSG80ekJEZVZxYjY5dGhKMnN4enBzTVgwNkFGaHQxWHJPbG4tS3dwa0pzZ1c5US1WcVBwck1FdzJRX1FpdFJvWlNhdFNoMEFiM1VneHdVSHhyZkVBQ3RnUjNUZzh5ck4tcTBCZ05LYjBOeEhGcmc?oc=5",
+          "source": "NewsBytes",
+          "publishedAt": "Mon, 27 Jul 2026 12:14:52 GMT",
+          "fetched_at": "2026-07-27T14:48:37.419089",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro sets up dedicated Databricks practice to push enterprise AI deployments",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONFNJY0Y3Qklac1FMS1p1dTJTUFp6X3F1TjU0b0k0bkc3T29BbUpwX3JCV0MwWUhWV1R4UEt3dy10VHpwRkl1S09GNUFfVGx6VmxMcFJFTjVSdEFaR2x1enRKM090UjlZU1FmVWNBMUVJWWVPVzNTMnllUXM5ektBUEhpYzNZQkhTV3AweVBFVVYyTV9LMlN5YlFDN1lEVkxSdHUxQlpWTTNkalEwdGRiZU1uZ2ZlQ2w0QTZDX1ZfaC1Md083MmNfT0JRdmZDMEdBRmxJ0gHaAUFVX3lxTE1KM0ZMMjEzZmZJZXgyZVIyTVFIMjg1UVdXNld4VXVoVkFjSHBWVEZ2OW1lRC1uUlU2UWJTYXc1bWNLWEJ5clpLblBCdzFnZTJMd1Q0U1ZGQXhON1VzYWotYmVoa19RNDc3T2xGUl9UWDhvN1R1TkpFODlSNi05RDI5RmRZcjBLVmVEanFBd0xaSVhJX3BFRVJJWVBGNTcwVTdKODIycm96ZGpOcVNSRXN5SElMMG9uOWUzRzQxR2ZCSnE0U1VRMHdLbzNGdkdMejdMRnJBX2FSdC13?oc=5",
+          "source": "financialexpress.com",
+          "publishedAt": "Mon, 27 Jul 2026 11:43:28 GMT",
+          "fetched_at": "2026-07-27T14:48:37.419093",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-27T10:03:53.409161",
+      "last_updated": "2026-07-27T14:50:28.866853",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-27T10:05:00.263832",
+      "last_updated": "2026-07-27T14:51:31.939271",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-27T10:06:10.874916",
+      "last_updated": "2026-07-27T14:52:27.507120",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,17 +564,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-27T10:07:41.544558",
+      "last_updated": "2026-07-27T14:52:28.333384",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 10
+        "competitor_intel_count": 0,
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -594,97 +640,15 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "SRH vs RR, Eliminator, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWnhzMFhWdW14OU02elB4bkJTUmMtcnFOME4xLTJxRXN0V0RqU0pidnNYdTNKekt5TGQ1N0s3THRsVzJPNWcxelhqdWJnVmF6Sk9nd3I4Y04yNzVNcEw2U0JiT09NUE5CZVozdG5GQV9LRTQwelJ6Y3d5aGE5dFVlU0lIQVJoUFhYQ1lQRHUzaDdrZVk2U0pnSGRSbVhGQ200MHRjRA?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 27 Jul 2026 05:08:59 GMT",
-          "fetched_at": "2026-07-27T10:07:26.251821",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "PBKS vs RR, 40th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXoyOWlQNDk4RHlmUklZYlJWaTVjSjdTWlNtaktJNlBJU0dkQkxWLXIzU2hUUEpkZWhmR24yVGc0QWtwZEU5VXB1RkZTTG15TG9FakNXdHBYWnFoSDZuQkNBYkFsNUNUX3M1dGZpU18xbHF0QTlONS12dG8xOWM5ak9qTTliT3VKdjZJRXJhbTJUcGxxY1hLVDZwLUh3X0hKV3c?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 27 Jul 2026 04:16:45 GMT",
-          "fetched_at": "2026-07-27T10:07:26.251835",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Highlights: Gujarat Titans vs Rajasthan Royals | Qualifier 2 | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVENVUDFKUWpTSWNMcVpyVmpoUFlxUDBiUHhIUXBGYVZEQWZVYl9ISjhydkR0ZXhfWVpYSlNfUG4ybTl5QWhBcEpqRU1CSEJaUVhzYlVuNE1CSDh1VU5ZSnBsUlhEVWIyX0UtUTFOeDlhc01rS0pnS2ZJVTRNOXdCazRZZkxTZ2JEOVEtSXZ1Ny1DZ1RlcXlUZGFqYnNNa1pr?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 27 Jul 2026 07:22:45 GMT",
-          "fetched_at": "2026-07-27T10:07:26.251840",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rajasthan Royals Rajasthan Royals RR",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEU1Z3AzcWNqb1h1MUZxSEU5dl9taktpRlNqdGtKN2NTbEJLczFDZVFyZEh6Vl9BcHltdEZvcnpDR1JOTHktV0ZsNmZ1bDdnbk9CRGRwd1VRUENlR3hMNDdHSW5qY2h4ZzVidTdid2JWRjZ0TkJra2F5Rm01cXMzVkxKclBYRWxCYzRBZmt0UVZCRmdOMzVqMEI0eVJ6VU4tSmVBajEzYzNENGxBS000Vk1FZ3VEWEJucWFnUnFNMlBmdnk5ZFE?oc=5",
-          "source": "ESPN",
-          "publishedAt": "Wed, 27 May 2026 19:10:38 GMT",
-          "fetched_at": "2026-07-27T10:07:26.251844",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "IPL 2026 Qualifier 2 Updates: Gill masterclass fires Titans to final",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zOWhidFdyMmoyWWV4cVJ2Umx2bUNrdnNCc2xYQnBtUGFiQ0N4ekxDdG5IbEJKZndDX1kxNnJZZVo2UXByeDJ1bGNRMFNNeDZqc0ltdGZCRjhkZWtXZjBwZzRfaTNiR29DN3VfOG1sbWpsYllZalo0Tg?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-27T10:07:26.251848",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        }
-      ],
-      "esg_highlights": [
-        {
-          "title": "Virat Kohli slams record 9th IPL century as RCB beat KKR by 6 wickets",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3ZmcWVzZGtFZE81UUVrQzFUTzdnWDhjbzBLLTl6RElKNG9rUS1yTFJTdUtVdk85T3hob3ZMYUtFTmdhVV9JX0paVUlEa2FuN1l4OTdRTmVTRU5tc25vNy1GaWV5U2tfa2xZMWFPVXhURGR0NnVWQTUyYVRqMEtDbnR2UDk5QmhXNVBTaGd1NWVjYndDRUxzVmFnOA?oc=5",
-          "source": "News On AIR",
-          "publishedAt": "Sun, 26 Jul 2026 16:00:35 GMT",
-          "fetched_at": "2026-07-27T10:07:41.544202"
-        },
-        {
-          "title": "'That's the world we live in': Travis Head breaks silence on wife's online abuse after Virat Kohli handsh",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPLW9yd29zeDVvREx5OEZHVkp0b3FVaGNDMVdlblZnOTVDTk41bnNReXVjWFBFYUcyZ2wzV241Z3dDNmtkUGVxWHZRMEM1OHNPYWotOTlraThSMXR0UEJTQ2lhNTljWlVkeUhzWUprSFZLYTN1YUY4RnZXVWFqN0xWZkl4NTRSZy1hR3RlSks3SXlTUzV1SWRlMVNtY2hiTkxwM3A0OFhYdUpPNk1LOG9JazFZLUVhb2pWSno3RENuNVAtY3JJcWxkSnlkeFlyeTdvQUxacEV4TkMzMkdzLWU5MEFuM2hRSkcxNzJjbVNXUTZRdUJndGx3cWpfQzZNZFoyWmU1bGNYWFJMQ1ROMmZ0LU5QNWUzcnVl0gGeAkFVX3lxTFB1Yzg3S3ZvV0haSThLX0QxMFc4TXUzbEU0U0c0OWNGbEpwZmE2NXl1d1E3LWJZa3pzcUY4amdoZjRhX3UyWHpZd0IyVjJkRVowWTY5STZkYkxaMGpWWmFQZUZrNWVodGF0ZWo1TG9wX0JBems1QmI0cUJaeEpzaGFjMUMyUnA2c3k2Zll0cHhUT3Q4azZZSS0yMXk3anE5bGdKbWx0WUFJZzRsOW1Ob2tOVFZlZGZwb0RFcm9lOGVTYlVGZ0pPRDRHUy1od0NOV0NsMTIyNHRVY0ZMYklUUDhIc3NXLW10b3VfTjVtdlppWmFPLWpheHRfdVE3cjdyWVhibnFSRXVzUFZES2lEdThsd2VBUTJLeHJwVUlHRGc?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sat, 25 Jul 2026 01:07:00 GMT",
-          "fetched_at": "2026-07-27T10:07:41.544215"
-        },
-        {
-          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-27T10:07:41.544223"
-        },
-        {
-          "title": "After Vrindavan Visit, Virat Kohli And Anushka Sharma Spotted At Delhi Airport",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOE5nRGR5d0FJUUdKMEE0T0tNY2FWNGpFczB3LUR6cE5Bd19NQ1h2Nk5nS1RmUmJBQ1EyTDVlTUFrMkJMRTNTQXFydmtoSnZSaTNGMUFROE0xM2x1dV9fZWRVWjhyXzlWLV9XQjZsSGdqRzFxTlpnbTFBRTVhS0xZdjZrRUtpZlJPZ1hZaG1PZDg1U2NzOW5VZ290SnpWTF9od3hZZ1FUazNDVWJad3pQY0NwSkZkeTRqdTNNaXZNQ2RGZ9IBygFBVV95cUxQQmgwM2VCT0V6eWF6OVo1cmxmSGlzcTVmVWlZTW9oYUlXU1Q0d1l6d1A4eWhXYzgwSjl1OG9MVGJyQ2pLdDQyUjc0OWlBTWwtbXA2UjJyVjY3eUlRbW4xYkhYT1BEUW5QcEY3RkVOYk95Z0JOWUoxT2JQYkNZX1VrZEQzaVpuRG0tX1dTZXJLN1NKRWtmTWJscWF2Y0RKZzMxTWtreXNOaDdQT3U0MnZXOUpWTU5nRlBxdElNVWRaRl92VFV3cHcxUUZB?oc=5",
-          "source": "NDTV",
-          "publishedAt": "Thu, 23 Jul 2026 13:24:43 GMT",
-          "fetched_at": "2026-07-27T10:07:41.544227"
-        },
-        {
-          "title": "‘I don’t think there’s anything to patch over’ – Travis Head opens up on Virat Kohli handshake controversy",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRTA5OTBST3pRUUZjN2dPV05Qc0ZqY2YzbW9LSTE2MDdteF9IUlhpUUJUSjEybEg2eDV2SThCNDdrRFVuX19SQ0VlYUt3WmxMQlNrcTg1dVM1REZFSVVEMnlyV2xoaDBsRkdIYUJQeVNFWXpXdVZ1YWxsVnUydVJSeWNIaTlKLWxNd2xtdG44UzlUZzFUanpyaEFHUnF2ajg1SV9ObWNXZGFxYmtzMkhrSUg5TzFUNm5vRURVNGNPSdIBxwFBVV95cUxNVERaRDY5bzFOM055UXpzd2Vvek9LbnNzQTZ5dHZpelJrNEl2cUxVSzRBT2ZIZ3dLaWp3TWFQSWFUbHVoLXpJSXV0c2VQWWNlSnlNSzVVOW1BRmQyakl0MnRsVzBzY3JOcUFub1ltS0huaHdTRGlxcGZJZUk4NEEtWHlXQmVSbWV2V2xIREptT1IzaHdZZ0dDOU9LYVRZa1VkcGhMcWNNMjVIMkI1VndQNnlNeUcxY1UzaDlIZmJvaWxnQmZCVUsw?oc=5",
-          "source": "Revsportz",
-          "publishedAt": "Fri, 24 Jul 2026 13:38:41 GMT",
-          "fetched_at": "2026-07-27T10:07:41.544236"
-        }
-      ],
+      "competitor_intel": [],
+      "esg_highlights": [],
       "filings": []
     },
     "Delhi Capitals": {
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-27T10:09:18.094983",
+      "last_updated": "2026-07-27T14:52:28.629476",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -768,114 +732,21 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-27T10:09:40.587052",
+      "last_updated": "2026-07-27T14:52:28.709607",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
-          "source": "the packman",
-          "publishedAt": "Tue, 21 Jul 2026 10:18:47 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560592"
-        },
-        {
-          "title": "Reusable magnetic invention removes microplastics plus some PFAS from water",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xWTBMN2hCR1VRYUtuQWZiNWpnRHJSUWdDUGFVazBpX2R1UFc0QzdzcVk5QjM5X3ExU3QwSGh2TVAzM2kzV0VSUzJhdXA2TEEyaDVCemZILXRKRFJ4T3drU0ZJWVphbVd3NExIUmdIQnFCNnY4SFN5MU5RMA?oc=5",
-          "source": "Phys.org",
-          "publishedAt": "Wed, 22 Jul 2026 21:20:02 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560604"
-        },
-        {
-          "title": "Former deputy gets 42-plus years for pandering child sexual material",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
-          "source": "Record Herald",
-          "publishedAt": "Thu, 23 Jul 2026 10:15:00 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560609"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560613"
-        },
-        {
-          "title": "Simulations Plus (NASDAQ: SLP) grows Q3 2026 revenue 7% to $21.9M",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2FEVW03SEdoU0JTdEdoU0hQMVlQMXBFdnNfSkdnVG0tSlU0RVU1c1dVa21MSXZoZ1haa1Joczh5ZUJTQ1JpSDZ4cjMzR3lYZzlUOXlKWFpSdUxicXlvTnNmM1plVXN2MWhkZ0JiQVhlSktOWFpuWndLVmVCa2ZCWUxlOXdLc3I5Ni1Nc2pjZTdDSEVobUFteFMyLUhuQ0EzWXN0d3pHdkR1aWFy?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Thu, 09 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560617"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560624"
-        },
-        {
-          "title": "BNB Plus (Nasdaq: BNBX) to trade on OTCQB after Nasdaq delisting",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRWlDUWlfbEZFTWNER0psczdSYnhhWDJSUVJyQXZWRElKX0U1UTlYZEJ0aVdnUk1JRTRHS1dmR0tGSURXOHdMNHdjaXJLNms4YmFKc3BPNTZiM0o3M1lramhVc2dObjZoUUh0ZmpHZHRjRHBJWEJGdFhzTFNaTVRKNjgwQl84c1l0MkprbDEyb2o5UUNkZjJYTE54LTJ4d19YVlVuYQ?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Mon, 13 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560628"
-        },
-        {
-          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
-          "source": "11Alive.com",
-          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560632"
-        },
-        {
-          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
-          "source": "The Guardian",
-          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560637"
-        },
-        {
-          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
-          "source": "아시아경제",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-27T10:09:25.560642"
-        }
-      ],
+      "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Material",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN  Reusable magnetic invention removes microplastics plus some PFAS from ...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "carbon"
-          ],
-          "solutions": [
-            {
-              "title": "Material: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -912,6 +783,26 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Material: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
