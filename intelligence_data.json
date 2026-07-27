@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-27T14:52:28.709620",
+    "generated_at": "2026-07-27T19:51:49.327957",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-27T14:47:12.693581",
+      "last_updated": "2026-07-27T19:42:43.901259",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-27T14:48:06.020002",
+      "last_updated": "2026-07-27T19:43:59.453801",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,17 +182,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-27T14:49:22.534282",
+      "last_updated": "2026-07-27T19:45:16.551641",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -258,53 +258,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Wipro Expands Databricks Partnership; Sets Up Dedicated AI and Data Business Practice",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSTBzT2JydXB5cXFBTHhUQ2pLc3p5Q3lDVUg0U0VvV0NvaGg4Y3laOWF1TUhMNC15NlpYZEJ6MWtwOVdOcFNGdjBhLWxXbU91TWJzdWEtTjJNMmxjYmIzNWVaZUFOU2pPVnpTSlBPVDBPVmpoT3lnUDE5T2JCSTN1YzRpTUpTdFFZOVF6Sk51Y0dILVVGOTFWekE2QW8zTkFKSVY1a0JOMHJ2YWY2c1FzLXhUVHJjcTBzaWJxSjliSQ?oc=5",
-          "source": "analyticsindiamag.com",
-          "publishedAt": "Mon, 27 Jul 2026 12:32:02 GMT",
-          "fetched_at": "2026-07-27T14:48:37.419067",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro announces enhanced partnership with Databricks",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUzhJVUY3Yi1CWTBBeFl5WjM5Z25oR3U3OU9YbE45YkVVaDBDZzR3SFZNUG0yZDR3WHJVUDQ3N0h6dXJuUFhSTWgzdlBlUVBjSERySnZ3b3o4aEU1ZXlwbTNYZEZmXy1Ya096ZjdRQ0RObE1kOHBQS1FmRXJ3OGVGakdmV3dad3ltdGtlVWhNcHI3WktxdWN4anJCV2hPVkpqRmt4RTBVamZkeXo1dXZSa056M2pieEkwaUxzRndFS1VTZWo2N0l0TXphemlrNmPSAdQBQVVfeXFMTWVRSkFjUFhfUjhUS3VxdVBvY2NzZmdaOV9FM2tlcnpCQkFHYzhURnNhVjNuVE9tbzNZc2pxWTZiUHBSQnpNclVrek1HVGtUSTU1X19fNnh4WDlkRkpJN2ZhUzJVX2wwcXNxVzd2SXNlaHp3bEx5a1JkbmNmUHdveXVmWWt5eWhZRkVmZmQ4NUtkTmlDc185Zjk0MXlBODd3N3RxWU5CYUJ2b0ZBUmVwbGZvMHRhS3pYSkJuemdSUjlwd1gtRjlKZEdBT0tKNF95d2trMWs?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Mon, 27 Jul 2026 10:46:17 GMT",
-          "fetched_at": "2026-07-27T14:48:37.419080",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro expands Databricks partnership for enterprise AI, sets up dedicated business practice",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbHItWUZwTVpXNlhveWlPVXdYWXdiVEhXOGlMSmQ1YmlfRjZ5VUFWUkdKRF9taDRrN3pBWGZCQkRqaUEtTlg0Ull3UVMtMzh1UndJV3lnSUd6NFVTQXZPeUloSUFIZXhvMVdJWTFobC1ucmtkb0ZLRHZ4NzVhWDkza1p3Nmc0akJpU21jdm4zUmhzQ2FhTk9HX1E0aXhTNzRJck9GNGhrQzhUdjdCT3IxRWFIbGpfb3kzdHlHZ19GSHdDNllrSkE3c2s5RzZqUURGd3YwTUNiaHJFY2hmaTY5cWtzRkh6YUEwVEHSAe8BQVVfeXFMT2pEYmpUbF9HQ3dvQ3JwTWFSVDlmSl9iYXMyODRKejB4TWs2MEpsNmVPVy1BWVBfVk5UY0FLUXIxcThhb3hvMWF3SzRPYnl6SllYbkU3dU52RzBoa19xbllZZ0RGQ0NqSFNoa0FtTEdZTk5Mc2Jad1VrZFFPaG9pVTZhYmViUWRtQ2J4bkxmek1Ua3NFU2NqQzA1eFpDUkFiZGNZODdPelUzSF9oZzJRNjRjTXY5OXpPd0ltVm90MWx4bjNLSUZxSks4dnJKWWxLRzNYN0Z6bGNMVENYSnlWSXdQWDRWbzNoSXJtQVZlWEE?oc=5",
-          "source": "CNBC TV18",
-          "publishedAt": "Mon, 27 Jul 2026 11:16:02 GMT",
-          "fetched_at": "2026-07-27T14:48:37.419085",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro expands Databricks partnership to modernize data systems with AI",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDlwSVpPZmQ4ZXowNlIwWktvMkpKakk2WHlPdUp6YTRQU3dNZE9vQ2EtZmEtT0JDQUE4NjBtVVFZc3p4SDJuWWstQWpoSG80ekJEZVZxYjY5dGhKMnN4enBzTVgwNkFGaHQxWHJPbG4tS3dwa0pzZ1c5US1WcVBwck1FdzJRX1FpdFJvWlNhdFNoMEFiM1VneHdVSHhyZkVBQ3RnUjNUZzh5ck4tcTBCZ05LYjBOeEhGcmc?oc=5",
-          "source": "NewsBytes",
-          "publishedAt": "Mon, 27 Jul 2026 12:14:52 GMT",
-          "fetched_at": "2026-07-27T14:48:37.419089",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro sets up dedicated Databricks practice to push enterprise AI deployments",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONFNJY0Y3Qklac1FMS1p1dTJTUFp6X3F1TjU0b0k0bkc3T29BbUpwX3JCV0MwWUhWV1R4UEt3dy10VHpwRkl1S09GNUFfVGx6VmxMcFJFTjVSdEFaR2x1enRKM090UjlZU1FmVWNBMUVJWWVPVzNTMnllUXM5ektBUEhpYzNZQkhTV3AweVBFVVYyTV9LMlN5YlFDN1lEVkxSdHUxQlpWTTNkalEwdGRiZU1uZ2ZlQ2w0QTZDX1ZfaC1Md083MmNfT0JRdmZDMEdBRmxJ0gHaAUFVX3lxTE1KM0ZMMjEzZmZJZXgyZVIyTVFIMjg1UVdXNld4VXVoVkFjSHBWVEZ2OW1lRC1uUlU2UWJTYXc1bWNLWEJ5clpLblBCdzFnZTJMd1Q0U1ZGQXhON1VzYWotYmVoa19RNDc3T2xGUl9UWDhvN1R1TkpFODlSNi05RDI5RmRZcjBLVmVEanFBd0xaSVhJX3BFRVJJWVBGNTcwVTdKODIycm96ZGpOcVNSRXN5SElMMG9uOWUzRzQxR2ZCSnE0U1VRMHdLbzNGdkdMejdMRnJBX2FSdC13?oc=5",
-          "source": "financialexpress.com",
-          "publishedAt": "Mon, 27 Jul 2026 11:43:28 GMT",
-          "fetched_at": "2026-07-27T14:48:37.419093",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -312,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-27T14:50:28.866853",
+      "last_updated": "2026-07-27T19:46:36.738471",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -396,20 +350,91 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-27T14:51:31.939271",
+      "last_updated": "2026-07-27T19:47:35.170845",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
+          "source": "EY",
+          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221431"
+        },
+        {
+          "title": "Gopal Vittal: The future of the Airtel brand will be built on experience as much as network",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeEtaLWtTNTFfNVV6Nm11YU1rVF8wUE5pWFJUWExwRERmcTFCYkxzVW8tZjdIQmlWdlVRWXB1N0RIMzFlNm9oajBHc3BIWkNrVVd0RmtCM0JBcHhXbGcyU293MkRyR1BTQ0ZMTEQ0c3R3YTUtNWZ1aXdzR2NHRzNTLUU2SXpYeGdpZzQ5TjVsM21QOG82X0t0d29IUHk2VU50X0VYUXJtRjVSMFJoaUd6WDBMLXJ0RjJFamFQdG9aUGVza3BidUUtQmNQS0pyRlJjb2RKWmR0OWdadFnSAeABQVVfeXFMTS1YSDY2YlJ1ck8zQjBnMVozRDJEc2xReGNXZXdhMjhMUEljSmJ0UkRNRm9Ub3pLdnM5ekZjOHQ1dDVjd2pkUjVSWENzdWM4c0RUVF96OFB6X1NXbGVfdUczbUhzM0lXNlpqeHBJQmJMaEZ6MEpVYi1VTnhKRmRaeTdHMUtocFRUTEJVVkhZY0QxdnNfY3NQeHVsd0pVdUVPQ1lyTTlpMXZMbDVNQWNJV1BDOVRES2NxaVlla2s4dV95LTNZVTAxZzZnSWxfNXJ2UmJiLXFSN1V4a3J4UUdrQms?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Mon, 13 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221446"
+        },
+        {
+          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0HSAeMBQVVfeXFMT0pkU3doaGNTbElsQ2UwdGFYQzhBMWQ1dzQ2UHBkQmtaWUVKRFRhTUU5d1dUazVOdnhMQTFsdFh3dS1SQkVSZU9ZRnozY28yQmlWRk9TdGN6bVlCeWlzMHQ1cUktampBMUtib01DZnlOVFJiLVR3UmhxWGVlRlFXRUFKRFMzbGZvR1RWN1RTX1BGTUdvM2hOenBrYnowMTRfRTJEUzRGYWZhams4Rm9odXBVVUZUMlYwWGItZkt4eUQ2SXY3X1MwWGt5UW9HS3NlbkhXaklVMkV1TGRQNGdreVZ5Vnc?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221452"
+        },
+        {
+          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
+          "source": "Forbes India",
+          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221456"
+        },
+        {
+          "title": "Sunil Mittal to step down as Airtel Africa chair in July; to be succeeded by Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYmxIY1hRTVRKcUc2aTU4NEFFamM0STZzX0x5anNGMDdqV2J5TTJUbHFFS1lsQ3ZRcHpWRjZ4S2Vfb1JSQy1OVlMxdk5Bc09zbGJfLXJJX2t3Q3NrS3B2WUdEWXhhVW9ENFJVTjlXUGVYZ3liR0FKOFJCQ2VTWmRfeVFMdnkySzBoSUI3M09YQXJTY2Jqb1JQVWxMTzhsMmN5UzVObnl0akZPcTlqQWYxejhkcDFhZDM0Smlmb0ptYVNDUHNOLUIwand4SDFIOWE1WEFQeDNzc2RTMzRkVHU2SVN30gHnAUFVX3lxTE9VR01ZaXlqWXlYNmR1SEJyWEw4YVh3bkJxdHJTamJTdEtVUmRtUm1uQWdlZFVONklJOS1yUjA0cTRmRElrVHJGSmtPY093VnVvVkZTaVQyRGVuU3o1Y3dWTzFRNzJVMkM2V05OM2poZ2E4LV9kSmVyR2tJOXBIY1VKamhwSWN3a2tzQllIYXV4VUwyczFGbGNManBCbnJnLUVSRENUMmVUVUV3Yy1yOVZXVUh2d1U4ZFR3TmJEYW9Dc0d5UHBaQVBjeVZ4eUwydHJXNFF3aWVxdHA5RmloVHkxMzZ3Z1lTTQ?oc=5",
+          "source": "livemint.com",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221460"
+        },
+        {
+          "title": "Airtel discloses FY26 pay: Gopal Vittal at Rs 21.73 crore, Shashwat Sharma at Rs 1.88 crore",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaVpIWVlseW13X19jdjE5QzdFVGowQ1ktMXB2UWxKZl9MdkxNc1lhcDlzaUo1emU2UmI3NmFEOUhYMWl5WnZ5alBFYUNYTXJVQ3QwcnpVaVFuNmgyVkx1UkQ4ZmpHOGV1TzAybU1TRGNmMFptT2dnVTZpVktJWkExc3llYnZXMG5pZmFpOXJ0OHRmMzViQ1dYZzZZVEk5MWp1Q0g4VTdGZnVjUHZqTE9qOXZuQmdtUDZSUW8yUXFDTG0?oc=5",
+          "source": "Indian Television Dot Com",
+          "publishedAt": "Mon, 13 Jul 2026 03:04:07 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221463"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chairman, Gopal Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVFVzUnM4cGFuMUJZbFlHN1ZDelpCNDJrcGhqWDJlb0VjZXIzWUFhRjQ1azdYYktnb1J4cXVkT3R2NmxoaVFkS2ZtVWszMFlaQ0tNT1JlOXQ2eG13OElKc3pXcmlXcFlueW5kVWZCWUwteHkzLXN3TEZIa3ZHZnRib1VhZjRWaTUxUldQa0JZZnZPdDEweTgzN29WR2lxX0p0YmZZczRzY2ZCUEstTGNWZjlGU0lOT3RuNUxXcHN0M1ZPRXBnby1Sei1aNzRwUU0wblVyWXgzVkfSAd4BQVVfeXFMT2djNmxzWVh2TmxSaV9TdjhkVnU3bnZYZ3VhTENQYnUxclJMRXF4ZmtvR01mc3dINUtCSzNDMXFmVnJmdzF0ckV6LWoyOG1XQ0pOSWJHRkljUzN1aUVQc2cxRkVJbVlJUVJnSXI5SjhlR2xiR2pGcW1fbzAxcTBOTkx2NDhjdzlQbURzLTVnN05GZnRfenREb19Xc0VPZzIzYWlXMXA4bnl5b1p4bS1JRThKVWc2S3Nma1M1Y2dmTy1TdDlJQXJodlM5bVNJMTNFckZpMTFJN3JmRW9tc1pn?oc=5",
+          "source": "Telegraph India",
+          "publishedAt": "Thu, 26 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221467"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chair in July; Gopal Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNHZLTDlMX3ZqeEotRWwwN2NTWkVsTm1xT1JiQ1JQYVJKUW1JWmpSN0xuaW1uZHRyc24tLWpBNnUxOHdlTXlfRmsyQWV3R0RBSXYyek1neDZ6TXlVaHpUeHNCWkxhNEtDX1N0MUpJdVk1UE9KYlh0dmw4aUI4ZHhuakdIaXY1S1FyNkpGRmQwYnJKMTh5SDBIS0tXeGloQ1dGeGlOWTFlVUhEcWdzWjQyOVhiRmd3LVpiV1RjbnRZUTBmeXlWNWFzV096OHNCSC1jNTA2ZEVtWFhhWTc5NUHSAeMBQVVfeXFMT1NxUzNxZGUySVRjYVl0eTJ0TWEtdm5ET3I0S1IwV0ROaVMtSkI4SFE3YmFIRWN3SHBuVTB6YkNMY1ZaSXR6MFROeFRNVkhQSDA4ZXhrRnQ0TkVYM3V1d1haaXBxbmw0bGV3UnJ1aWdlakR0SFRBVk9DVDRNWHRGWlhCRDQ0eWdFOXVWNzZaTl9Da0taMmw0V0JPVUpUeHBFZm1HWnM5NlVRWl9CZDdvclVqMTlNZTIxU01za3dDald1LXlXcGxhck9kUmsySTNwYWJ3RTEzTWZFYVk2MXQwOFB3YmM?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221472"
+        },
+        {
+          "title": "Sunil Mittal to retire as Airtel Africa chairman; Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNM0t2OU16d2JIaFNUT2FWckFuREV6Zm02SzczaE40V0NnaHBCY09DWDhEY2lGWDhELWFyeWVKdk5oTl9BX25hOUNnb2NiVTNPNVFLNlpVenJONFRhbEt6RXk4OGM2MlV2LWVpWDVlYVU0UHk4SUx3b1gxNks1d0dWakh3ZUVWT29USFdMbmYxVTkyZEY3d0tiZks5UUhPcHZ6OGtrQS05eU4wSmx4R215WHhtbTJmRFBQbnZKYkJJcndQaXVXY0Nuc0pjQVhyRFd1ZW9fZ2FFMNIB3AFBVV95cUxPaGVtWDRmQzdFWUZqWlBhTmhaQjZkSlFvOUJRNkVoM284TFpSbkNaaFNEcEJJZ2VUb0Z2UTJnYWxscFVrUTVaNG1DTjZCX1NVWFN2bnBWTGRVZjM3OWJrWEhieHh4akRaTnA2dVpWUDdyd2RJZkxweWducUlreFQ1RzhVckxFNnR5THNlRC1Oc003M3ViTFVpekQwbk50T1hRcXpDRXQxbXJyQ1dBWG51OHhlbnlVREFLbElJa0NkMHp0RlBxUDFYLURrRXJHalIyNnJGemhsZE5sNGR5?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221475"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chairman in July, Gopal Vittal to take charge",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMms3S2NRS1NuUkdBakdPRmVUQll6UUtMczBHMUlEWDRVLWRxZjNsRldOMXlnZlh4SUlCREFlblI5Z2ZLbzdkT1UwYnlGcTA3THVZTGtqb1pseVFESEtTMHV2VFk1U1pXcWQ4MUpkWGtDRHUybU5LRml2WkVxSXlkZmNnRjRzRDZrenQzNmxYZHd0SEpnTk45Z250ellBb0lPb29tMkF4SXNCR2x5N1pqd25QVktlQ0d2NXJCSUNldWZCZk80M3BFM19LLVFmTDdLb0xpeGVLXzlqYTk2d0tZVnZPQ1ZPVkJPZFktUGkxYTZyZHdvdG5r0gH8AUFVX3lxTFBxVHFPRzhyZDRCRE9mZ2FsTVlfdy1rc0JDN2RHOWhoRWZlUHhubkg1NVg0ZzZnZkNUdVk4TnRPa3Bpb1BDYy1fNkVZaks3ZUc0S0lHRGN1aE54MTExYjJaTlFBTjBEQVl1cUx2Ny1wejVSVVJNRTU3SHpXeDRfNmZ2WU5WaGwxdUpNdkRhZERRRHlWallRamFoN3kzcnZQbTQ5OHBFbVBmakF5dF9Pb0wydzY2VTA5eWprN3EwYTNRMFZ1dkVpOEJEMDhSQXhVVWdnaTkxTUtiMk5HM0xkbDFrZlYzeEhsQUVGOFFsdTcwOGUxSlV0Wi0zdE1hYw?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-27T19:46:52.221479"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Bharti Airtel: Strategic Market Intelligence & Early Warning System",
@@ -472,7 +497,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Jio Platforms' IPO key driver for RIL stock",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNR05BY0NYeTZPU3JzcWIzbU9HUDd0YXg0Z3pQRkFNejdOUFhWWXUtNkJFRnRhUXBZY0t1YmhwaDhJVmtWdDBzSkZrNlVsQmI0Mll6VkxjS0xOVmlkbm0yX1RsVGZvYXVRR1F5ZWN0dGFQVDl1VzFCMzRaM0kxdUdyQkNuWGJ4OVZ4bUNCZWFBYjc3NklWSjlSZi1lNm9YYlpSejgxaG1KOUxJcVFSa1A1UHhjY1hhdTVnODdxOGNZdnBwNFUwc3k40gHKAUFVX3lxTE1idTRNRjRNT3pfQkNQWWRVWEJNbV9uSzNUM3lIQjgxSWJxUjZLYWN3aTFNNXRpUUQ3a1VWZ1RrWTZXR2pfN1gwVDdpZ2lBOWFWcHh2cHZpTGllLVhHeGpxS29xeTVfMFBwWXRPTWZqZ29OZ0ExX1Y2Y2NuamZycjBpWXBRNldPZDNyRWFqckdXOEJMeHM5OXRUSUVmeEo5aVJ1X1ROZlVoN0lWc1F1LXZtS3pSOFItX3pNeUFZZ0JQR0tJUWZJSnUxemc?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Mon, 27 Jul 2026 08:04:51 GMT",
+          "fetched_at": "2026-07-27T19:47:05.739747",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio Expands 5G Coverage in North Kashmir",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91TVdvLW9VVE1CVEhPWF9rWXl3WGNIeDdXM2YwYWdVUEY4MDlPY3pRaEZUVGMtMVJEN2czcW1rd1E5SVVUV3dNcGZCMEgxT294TVBBamlqbF9Hbzg3N1JwSmlZeUdxMHFtTFNPdFMwbHpVREd2UTNJanNNd19PYkk?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Mon, 27 Jul 2026 10:35:02 GMT",
+          "fetched_at": "2026-07-27T19:47:05.739761",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Reliance Jio tests AI-powered Smart Walls to boost mobile signals | Tap to know more | Inshorts",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3ZQaHJEaVdJWEJsYmlVcGo4ZHZvb3BzcVVmUWRWNEpsU3loRWV2ZElHSWRaQW1MRUxfZ2xLVEc0TW5lcU9MazkyN2VqUFYxak5iazIxSlRFRE1aS0VOa1Vmd2gyd3lsU2R6Wjc1Q1pZaVg1V0dhdkxOZ2xINms4RjJPNkFPdGV1endOaURKbTk2M3JqRVl0QU9hMGJDVnNqMWJzV2t0SHRPUURL0gGyAUFVX3lxTE1KZ3dZaEVFdVU0WW5La3p5dGttWVkzS0loaXpybjFoQzVFWm5lbUw4djRFTU8yWHhzU05jS293bjFxbm1WcEVJYXhpbFQxSzdtLU53VlBFMk5yQm9zSkU3SmtCb2pUVzBjY2owRkZ4N2loQzdQYk1BaDJwdUR0cTZKV25VbHBKYlp0LXhsVlF5R1p2ZHRheHN2WWlYS1hfdXQ5WUlrdW4yRmR5SV80VEdsX3c?oc=5",
+          "source": "Inshorts",
+          "publishedAt": "Mon, 27 Jul 2026 08:03:37 GMT",
+          "fetched_at": "2026-07-27T19:47:05.739766",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Gabriel, Jio Financial and 6 Other Stocks Where Promoters Increased Their Stake in Q1 to Watch",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnQ0aFRjdXk1Ukc1bGxkMF9ycTNVNEplU3VMTlRNT3FnSU5MM0ZWVnl2bVZHa0tzbjFlN2JEYTJwMjdFSzJMdjlDdzlUTzNWUWctRWZsUG9RY0d1bkxFWXFFLU9vdnNfeUNpWGd4aVdnNkZyQVYyWjEyMTRFZy1PZmNVa3EtQlE0VUF4YjBONjhxNTRUREdOa002bmxiNzJxU0RZTXl4bDRBU28zVDdqSlExNUtrNXFf?oc=5",
+          "source": "Trade Brains",
+          "publishedAt": "Mon, 27 Jul 2026 12:30:00 GMT",
+          "fetched_at": "2026-07-27T19:47:05.739770",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio Prepaid Plans Starting At Rs 200 With Free YouTube Premium, Prime Video, JioHotstar, ZEE5 And More",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeGxiMVdRMEZFRkJpSkJkX1k2Szg0WHM4dkJRM2hYb0xLYjRIamtUVHFCb1I1QWhUOXpINkt5UjZzVXB6LVNGY1lFaUpQOUVUVUtlNXFDQzBidGk3U1RkS29NSVB0ZmowcjJnQkhFd3RzVjRrTV8tb3dWNG92dnk5M0xXSHZuVGlyVW1jMDdqVnhjSkxuVWg4TjlIMVJKSDd1UWlMSDRrNmhiaWZubWQtWmhZYnpadC1FMEdmd1ZSQTA4M085TDhJOFdERXZLa1hrcEpPdzV5TVrSAd4BQVVfeXFMTjFSTzhzTU5lUnhaMXZCVDluSVByQ2l3STl3VzhPZk1yNENQTVhEQUs2ZUVYRWdBY25kc21Rc2dQV09KWElFamJKUkJLMFhEN1MxSHBuV0JVR2hqbWk0U2lOYzd6bjhleW85eGw5bG5iUmEtdlh0MzZxeHBQMXpsQVBWeWEyd2ZJaDRkLVZmZ1FLSS1VLWVIcXVpY1NMRThnUTZ6dE14RGU0S1NwNEkwN1pMR2doLUQ4TFlFa1NFT056MzAtYlIyelBhRjB2YXdjUGNnT1VxSWpJVDJVMGJR?oc=5",
+          "source": "News18",
+          "publishedAt": "Mon, 27 Jul 2026 03:12:42 GMT",
+          "fetched_at": "2026-07-27T19:47:05.739774",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -480,7 +551,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-27T14:52:27.507120",
+      "last_updated": "2026-07-27T19:48:38.297449",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -564,7 +635,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-27T14:52:28.333384",
+      "last_updated": "2026-07-27T19:50:03.001221",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -648,7 +719,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-27T14:52:28.629476",
+      "last_updated": "2026-07-27T19:51:28.836982",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -732,7 +803,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-27T14:52:28.709607",
+      "last_updated": "2026-07-27T19:51:49.327939",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
