@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-28T03:01:49.750954",
+    "generated_at": "2026-07-28T08:51:54.338690",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-28T02:53:12.004595",
+      "last_updated": "2026-07-28T08:42:36.570013",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-28T02:54:23.346564",
+      "last_updated": "2026-07-28T08:43:29.294554",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,43 +182,21 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-28T02:55:31.182843",
+      "last_updated": "2026-07-28T08:44:50.863072",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Infosys",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Infosys: board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Infosys CEO Salil Parekh to step down; board appoints Ashiss Kumar Dash as CEO-designate  Infosys names insider Ashiss Kumar Dash next CEO, trims grow...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "board"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -258,53 +236,37 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Infosys CEO Salil Parekh to step down; board appoints Ashiss Kumar Dash as CEO-designate",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQejFvWmlxMEdxUDNqT0l1bHIxd2hjYk5DQ1FGdjNjLWpUbGxxOE9PdURVdW9KYXZKUW02WFVHMXc1WHNSZXkxSVo3VlZNVS13ZjJSWG1OeVZuYVdvYjF3ajl1NXR5blZmS1JoYmVnckMwT1B4S05vOHF4MF9PUi1vSEg4TDBjWGYtajRadThXMzlncHFsSHJXSllMYlhjRGZHc09WWnRnV3ZOOHVpSkZZaWE5MnZxWWY0bTRmS19VdkpiZmw4OWNxUTZEdVl2cU5XUWE2dVZ0RGNDckNtVHkwRkJ0eVZtaGJmSUtGdnNVZl82YnZPdC1ieWtSd9IBgAJBVV95cUxOM2daQ3NZU0MzZjRWQlllTTZIakJpOXVzYks0OVRmNV9ia1hYV0M4WlRZY0wwUDdodGVQeXpCbXZJMkotc3ZNZGY1MlR1WXhCUkd0cWhudjl1NmpDVU51Q1FIRTB0QTFpdmk2NjhsWHJ6aHdaWHU4TVhqWmNDaTZ6Y3VlX0lKb0hYbFNpRFhwM3ZfcW5qUDdQOXA1UUR4VDRsUk5TbS02X1I5c2NLRGxHdkxkNGc1UEtEZzd2ZVZIRE0xNTdEeW1jbTdiemluNXkxd1lZdE5JRlljVVY5Yjd6bjRUUk5RbjdTTWdWZV80Q0RvZzh2UExWZ0MwX1dyMFRD?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 23 Jul 2026 11:08:15 GMT",
-          "fetched_at": "2026-07-28T02:55:31.182492"
-        },
-        {
-          "title": "Infosys names insider Ashiss Kumar Dash next CEO, trims growth forecast",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcWN4UUNZYm1LX1FfTWVyd0tzSVlNRzUwTlVydkJXbVZfa0VHLU8zUC1xOTN6LWV2cnhUdVpmZVI5Q1ZHSWlNS3lZdWhDRmxNOVlNSXQyV2F3RlpfeXVvZ3FGVHZySENtRTJVRW1Ga3lTQmEyMmNrVldEYVk5dmJvMThIQmNsNHFfaTRsV1VpLS0zNlV1VUxmREVYR3FtLXMtTktpWHllQVc4WGtIaXY0cTNB?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Thu, 23 Jul 2026 20:35:37 GMT",
-          "fetched_at": "2026-07-28T02:55:31.182507"
-        },
-        {
-          "title": "Infosys names Ashiss Kumar Dash to succeed Salil Parekh as CEO",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOTJISkpWWTZGR0MwNm1vVUp1OEtEd2psRUVUU2NaX3BBdmZFcHBRQ1J0SzktTkM5bmx1em02YlJmMy1BMGNJVXluRi1jNS1rMmNzdlkyY2t3Y3YyY0FqMzBqS1pjd0Z6b2p2Z2pIQ2RTVXg1c1hVaXZtN3JfQ0xrZjZuUnJsUFVXSk52bXRBOXBEX0lnVXBFQ0dmbW5UVXkxU3FvaHRpTXFjY3BhLTFiZ0xBTVQzeUllNXl0bEdqcnhTX1FMNl9zblNLSEJIZ9IB0wFBVV95cUxQRUs2dUpody1GVV9iRHFldGNIbTVhcklrQ3hkNzAyV2pwLWdGYmpYWFZvZ1dzeV96dmRpVHk3T1o0Y2lPNUpLQ2ZwakNzWGJBZXZiMGlRQXdnYXJubWtuTHBRVTRkUWZfOEVCRjR3d0RzWEJISFZRZm84VFNybWtXWHkzX0E1djNNSG42ZE9lZEg3LWlWUGo3dWhVQmE3MF8zVDRvZmNSdjRwMnIyN2k2WFkzemJZakdSVzRmVEdqaUtiZ3Y4c3dLRlRWWml3SDF5YV84?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 23 Jul 2026 11:00:29 GMT",
-          "fetched_at": "2026-07-28T02:55:31.182512"
-        },
-        {
-          "title": "Infosys Appoints Ashiss Kumar Dash as CEO Designate",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenNXblVGR0hxOVIxeGttdDRiQjlQdTBMWVBkTG05bEJkaHNXVXp1NS1oWTFibm54Y0xDSVRheUFOSzY2Z1p2LTlNNENpYmJZUlNKQlZMTS13LTM3eEpJNmFGd1RVbThyOW1jb0MwQ1hyRG9JTXVSZXE0WFUyNjNtNkk2dHY5NWtVMEI3dHJ2YXFuR3g3d2haeGc2Y1hFdjM3RHNFZm1zRQ?oc=5",
-          "source": "Entrepreneur India",
-          "publishedAt": "Mon, 27 Jul 2026 09:44:35 GMT",
-          "fetched_at": "2026-07-28T02:55:31.182515"
-        },
-        {
-          "title": "How Narayana Murthy's era, Vishal Sikka's stint and Salil Parekh's tenure differed; big task awaits next Infosys CEO",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNdDFYMFlkTUdCdHNzMXZobzZYRllad3A5cThYeTZwUGZJdzA1bmNXdm12Y0gyczhRMUMxRjgwU1NSUEtsNG5wVmYta2F6ZFpPUzJUaXo2QnVUa0JaQm01OGJGUXBQWFRTY3FiS3VqSWVRUTNwR1JpMGFlLUZOYTNLUTU4dkVmSE9vek1WczRHa3NwZ3ZKLUxweS1yQXRIeWdfRFdnWi1KaWxFWkdoazZKeFpvbm1QRGNlZVVrX1Rpci0xS3pZcGpzUHhXTGEySFNlT2pmMzdwM1V4eGFhMTNpV0toaWh2Q1RHb2R2a0pCdWU3VmMtN3kyYkplZ9IBgAJBVV95cUxOU0pEZmlOUFF5OG8zeGNQXzU4QzdSQktrUVpWV29WZ2dwQlVSRFVQZ3lpaEQyZEFScm9IdUdnb0d4ak5DNV9NZFVKX2wzZndGeG5ManJmaXRMbXEzTnFRYlN2RWxucmpYMmQzLW5wMHFSZUM3RHlPYXJ5U21oQV9EdWtFOXBxaTJLNW9UQ3NJbFdBVGVmTUZUeFpKWXJ0azZBTjlVTlBNYktSblBjVVV0MFJycVE2eVdxSTFEVUdmUlZoeE1xSk1qbHQybmxUY0J1Y1hQTEdPWmpNUXN6Mi1UWDVEb25OMVFJVzYyQmhuZFRIVEFYYmVCNklTRXhtM0Jj?oc=5",
-          "source": "Business Today",
-          "publishedAt": "Mon, 27 Jul 2026 11:18:25 GMT",
-          "fetched_at": "2026-07-28T02:55:31.182519"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "HDFC Bank": {
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-28T02:56:27.966996",
+      "last_updated": "2026-07-28T08:45:54.275939",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -388,20 +350,91 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-28T02:57:34.056608",
+      "last_updated": "2026-07-28T08:47:04.837418",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 2,
+        "neg": 1
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
+          "source": "EY",
+          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812614"
+        },
+        {
+          "title": "Gopal Vittal: The future of the Airtel brand will be built on experience as much as network",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeEtaLWtTNTFfNVV6Nm11YU1rVF8wUE5pWFJUWExwRERmcTFCYkxzVW8tZjdIQmlWdlVRWXB1N0RIMzFlNm9oajBHc3BIWkNrVVd0RmtCM0JBcHhXbGcyU293MkRyR1BTQ0ZMTEQ0c3R3YTUtNWZ1aXdzR2NHRzNTLUU2SXpYeGdpZzQ5TjVsM21QOG82X0t0d29IUHk2VU50X0VYUXJtRjVSMFJoaUd6WDBMLXJ0RjJFamFQdG9aUGVza3BidUUtQmNQS0pyRlJjb2RKWmR0OWdadFnSAeABQVVfeXFMTS1YSDY2YlJ1ck8zQjBnMVozRDJEc2xReGNXZXdhMjhMUEljSmJ0UkRNRm9Ub3pLdnM5ekZjOHQ1dDVjd2pkUjVSWENzdWM4c0RUVF96OFB6X1NXbGVfdUczbUhzM0lXNlpqeHBJQmJMaEZ6MEpVYi1VTnhKRmRaeTdHMUtocFRUTEJVVkhZY0QxdnNfY3NQeHVsd0pVdUVPQ1lyTTlpMXZMbDVNQWNJV1BDOVRES2NxaVlla2s4dV95LTNZVTAxZzZnSWxfNXJ2UmJiLXFSN1V4a3J4UUdrQms?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Mon, 13 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812631"
+        },
+        {
+          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0HSAeMBQVVfeXFMT0pkU3doaGNTbElsQ2UwdGFYQzhBMWQ1dzQ2UHBkQmtaWUVKRFRhTUU5d1dUazVOdnhMQTFsdFh3dS1SQkVSZU9ZRnozY28yQmlWRk9TdGN6bVlCeWlzMHQ1cUktampBMUtib01DZnlOVFJiLVR3UmhxWGVlRlFXRUFKRFMzbGZvR1RWN1RTX1BGTUdvM2hOenBrYnowMTRfRTJEUzRGYWZhams4Rm9odXBVVUZUMlYwWGItZkt4eUQ2SXY3X1MwWGt5UW9HS3NlbkhXaklVMkV1TGRQNGdreVZ5Vnc?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812637"
+        },
+        {
+          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
+          "source": "Forbes India",
+          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812641"
+        },
+        {
+          "title": "Sunil Mittal to step down as Airtel Africa chair in July; to be succeeded by Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYmxIY1hRTVRKcUc2aTU4NEFFamM0STZzX0x5anNGMDdqV2J5TTJUbHFFS1lsQ3ZRcHpWRjZ4S2Vfb1JSQy1OVlMxdk5Bc09zbGJfLXJJX2t3Q3NrS3B2WUdEWXhhVW9ENFJVTjlXUGVYZ3liR0FKOFJCQ2VTWmRfeVFMdnkySzBoSUI3M09YQXJTY2Jqb1JQVWxMTzhsMmN5UzVObnl0akZPcTlqQWYxejhkcDFhZDM0Smlmb0ptYVNDUHNOLUIwand4SDFIOWE1WEFQeDNzc2RTMzRkVHU2SVN30gHnAUFVX3lxTE9VR01ZaXlqWXlYNmR1SEJyWEw4YVh3bkJxdHJTamJTdEtVUmRtUm1uQWdlZFVONklJOS1yUjA0cTRmRElrVHJGSmtPY093VnVvVkZTaVQyRGVuU3o1Y3dWTzFRNzJVMkM2V05OM2poZ2E4LV9kSmVyR2tJOXBIY1VKamhwSWN3a2tzQllIYXV4VUwyczFGbGNManBCbnJnLUVSRENUMmVUVUV3Yy1yOVZXVUh2d1U4ZFR3TmJEYW9Dc0d5UHBaQVBjeVZ4eUwydHJXNFF3aWVxdHA5RmloVHkxMzZ3Z1lTTQ?oc=5",
+          "source": "livemint.com",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812646"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chairman, Gopal Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVFVzUnM4cGFuMUJZbFlHN1ZDelpCNDJrcGhqWDJlb0VjZXIzWUFhRjQ1azdYYktnb1J4cXVkT3R2NmxoaVFkS2ZtVWszMFlaQ0tNT1JlOXQ2eG13OElKc3pXcmlXcFlueW5kVWZCWUwteHkzLXN3TEZIa3ZHZnRib1VhZjRWaTUxUldQa0JZZnZPdDEweTgzN29WR2lxX0p0YmZZczRzY2ZCUEstTGNWZjlGU0lOT3RuNUxXcHN0M1ZPRXBnby1Sei1aNzRwUU0wblVyWXgzVkfSAd4BQVVfeXFMT2djNmxzWVh2TmxSaV9TdjhkVnU3bnZYZ3VhTENQYnUxclJMRXF4ZmtvR01mc3dINUtCSzNDMXFmVnJmdzF0ckV6LWoyOG1XQ0pOSWJHRkljUzN1aUVQc2cxRkVJbVlJUVJnSXI5SjhlR2xiR2pGcW1fbzAxcTBOTkx2NDhjdzlQbURzLTVnN05GZnRfenREb19Xc0VPZzIzYWlXMXA4bnl5b1p4bS1JRThKVWc2S3Nma1M1Y2dmTy1TdDlJQXJodlM5bVNJMTNFckZpMTFJN3JmRW9tc1pn?oc=5",
+          "source": "Telegraph India",
+          "publishedAt": "Thu, 26 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812650"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chair in July; Gopal Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNHZLTDlMX3ZqeEotRWwwN2NTWkVsTm1xT1JiQ1JQYVJKUW1JWmpSN0xuaW1uZHRyc24tLWpBNnUxOHdlTXlfRmsyQWV3R0RBSXYyek1neDZ6TXlVaHpUeHNCWkxhNEtDX1N0MUpJdVk1UE9KYlh0dmw4aUI4ZHhuakdIaXY1S1FyNkpGRmQwYnJKMTh5SDBIS0tXeGloQ1dGeGlOWTFlVUhEcWdzWjQyOVhiRmd3LVpiV1RjbnRZUTBmeXlWNWFzV096OHNCSC1jNTA2ZEVtWFhhWTc5NUHSAeMBQVVfeXFMT1NxUzNxZGUySVRjYVl0eTJ0TWEtdm5ET3I0S1IwV0ROaVMtSkI4SFE3YmFIRWN3SHBuVTB6YkNMY1ZaSXR6MFROeFRNVkhQSDA4ZXhrRnQ0TkVYM3V1d1haaXBxbmw0bGV3UnJ1aWdlakR0SFRBVk9DVDRNWHRGWlhCRDQ0eWdFOXVWNzZaTl9Da0taMmw0V0JPVUpUeHBFZm1HWnM5NlVRWl9CZDdvclVqMTlNZTIxU01za3dDald1LXlXcGxhck9kUmsySTNwYWJ3RTEzTWZFYVk2MXQwOFB3YmM?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812654"
+        },
+        {
+          "title": "Sunil Mittal to retire as Airtel Africa chairman; Vittal to take over",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNM0t2OU16d2JIaFNUT2FWckFuREV6Zm02SzczaE40V0NnaHBCY09DWDhEY2lGWDhELWFyeWVKdk5oTl9BX25hOUNnb2NiVTNPNVFLNlpVenJONFRhbEt6RXk4OGM2MlV2LWVpWDVlYVU0UHk4SUx3b1gxNks1d0dWakh3ZUVWT29USFdMbmYxVTkyZEY3d0tiZks5UUhPcHZ6OGtrQS05eU4wSmx4R215WHhtbTJmRFBQbnZKYkJJcndQaXVXY0Nuc0pjQVhyRFd1ZW9fZ2FFMNIB3AFBVV95cUxPaGVtWDRmQzdFWUZqWlBhTmhaQjZkSlFvOUJRNkVoM284TFpSbkNaaFNEcEJJZ2VUb0Z2UTJnYWxscFVrUTVaNG1DTjZCX1NVWFN2bnBWTGRVZjM3OWJrWEhieHh4akRaTnA2dVpWUDdyd2RJZkxweWducUlreFQ1RzhVckxFNnR5THNlRC1Oc003M3ViTFVpekQwbk50T1hRcXpDRXQxbXJyQ1dBWG51OHhlbnlVREFLbElJa0NkMHp0RlBxUDFYLURrRXJHalIyNnJGemhsZE5sNGR5?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812659"
+        },
+        {
+          "title": "Sunil Bharti Mittal to step down as Airtel Africa chairman in July, Gopal Vittal to take charge",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMms3S2NRS1NuUkdBakdPRmVUQll6UUtMczBHMUlEWDRVLWRxZjNsRldOMXlnZlh4SUlCREFlblI5Z2ZLbzdkT1UwYnlGcTA3THVZTGtqb1pseVFESEtTMHV2VFk1U1pXcWQ4MUpkWGtDRHUybU5LRml2WkVxSXlkZmNnRjRzRDZrenQzNmxYZHd0SEpnTk45Z250ellBb0lPb29tMkF4SXNCR2x5N1pqd25QVktlQ0d2NXJCSUNldWZCZk80M3BFM19LLVFmTDdLb0xpeGVLXzlqYTk2d0tZVnZPQ1ZPVkJPZFktUGkxYTZyZHdvdG5r0gH8AUFVX3lxTFBxVHFPRzhyZDRCRE9mZ2FsTVlfdy1rc0JDN2RHOWhoRWZlUHhubkg1NVg0ZzZnZkNUdVk4TnRPa3Bpb1BDYy1fNkVZaks3ZUc0S0lHRGN1aE54MTExYjJaTlFBTjBEQVl1cUx2Ny1wejVSVVJNRTU3SHpXeDRfNmZ2WU5WaGwxdUpNdkRhZERRRHlWallRamFoN3kzcnZQbTQ5OHBFbVBmakF5dF9Pb0wydzY2VTA5eWprN3EwYTNRMFZ1dkVpOEJEMDhSQXhVVWdnaTkxTUtiMk5HM0xkbDFrZlYzeEhsQUVGOFFsdTcwOGUxSlV0Wi0zdE1hYw?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812663"
+        },
+        {
+          "title": "Vittal to replace Mittal as Airtel Africa chair",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmdlQmZHTm5sVGdfNkxjMUlnN1paZUo3QWlJbnlzcl9Na3Z4NUJfdHNzWHl5ZG1oUHp2RGQ3RHl0TFk5TjBzR2hPemc5WjRQcUxGakwxWlFNdXdyNktMZncyZGtvSUF0bWQ0UlA0dlNLNENDZ3BOV2p4enhsLXpSeTduOUF0S0VlVThWb0lEQXQ?oc=5",
+          "source": "Mobile World Live",
+          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:46:09.812667"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Bharti Airtel: Strategic Market Intelligence & Early Warning System",
@@ -472,7 +505,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-28T02:58:53.749235",
+      "last_updated": "2026-07-28T08:48:31.342610",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -556,7 +589,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-28T03:00:02.753006",
+      "last_updated": "2026-07-28T08:49:55.357625",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -640,18 +673,18 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-28T03:01:30.160388",
+      "last_updated": "2026-07-28T08:51:32.303280",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -716,53 +749,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "INR 20 crore for Hardik Pandya? CSK's reported Dube-Brevis-cash package could become a massive Mumbai Indians windfall | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPTkNlX0pVMS0tLVhybWtmdWE2RFlidTluSkEtaUphSnlSY2hpZnFnZ0ZhMmNfOWgtN21qTzJ1cGVLbkZRS3VKYmVHUXBUM29OV1JETXF3TlY2bDRyVGkyWHFrcl9abHJGMkgwZ3I4ZFl0S0VnU0VJLU1KdnJ5eXU5dzlSNVBNeFl5S3Z6VGhpdVBVMmVRTkZaODZCOWRsVEhoSDBGOEZyUjFNLTBaZVZuYWltZTNXVnJvNi1RTkk2MWlXR09oVGxPeHVRVU9ZWk5qb3REbkNhdlI1bUYyNkNUQ3FJTTUxbE0wenc3RGVXMWl4M2tHMXpxOEttZXRyekM2NWI1NXlHMNIBjAJBVV95cUxOd09RVWxZWnFFZ0ZkLU4zTndySGZtaUFSX2JOcGo4RFlQeHMyNUloUjliWTdvZWVOb1NObUU3eWlwSVR1dF9yM0NVT2RacHFENXVTclkzNnR0dkFCVzZRZnY3Z0hrNnVmaHhtLUJWc2lCRlF2Z3JsYkZMa05mbGpsM3lqdnlNTWxLTFAwN09SNHJ1VnUtWWxiczBjSTg0MHRsZS1odDRhMUV1M2xLZTgxeGVOYi0xbmJpd2ZwOWRqWS1OeFAtY1Z2aVFaVTd4T0hFa1BtWnRmV3kzZUJybHpUTFJJVWhFSlk1UGs0SWRNUDViUVAtaGdCaHpSdlRaZng5a05yemZqRk45cFBB?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Sun, 26 Jul 2026 04:08:15 GMT",
-          "fetched_at": "2026-07-28T03:00:44.974520",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Hardik Pandya's IPL Trade Saga: Why CSK and MI Locked in a High-Stakes Transfer Deadlock? Explained",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQzIyS0k5WFhrUkNQREdNd0lEUXpJampwbGpWSEhmaVVxSW9Sd0hSNFJyRUhESDR6Ry1UU2w3aUxQQlQ3Q3JUMm5SR04zclA5MHFONFJMYnhWaFlxQUVjV25jcU9BZWVXYzQtX1d0TmNiZi12SFRBaUNvYUNGUWlVeTZlUWJlVzVoYlJ1NndyUWV0WUlWQ01hdGpscjNmNlNRMVRMeVFRUThxYllUZ2Uzck9GOGxkdEphOUZicG96aTd3bXhtazVfZUtiV1ZnR1FYamtOeGs1eE1BZFRlRUhYZ2ZJdXBDUkk4aDI3ZTZhMmHSAfYBQVVfeXFMTzJ1ajdoZTZGcHF1TXZzVkpWcnpkMVBtLUxkbkhBZGVYMjJnNnVZR0lWVzBvWFZkQjl6bWNIVWMzQU1helZPVzV0V1hsT2hzRWdNendGejE2Vk42dDgyX2xQNWZTcTJObGk2bmdWd3lyTVIxSlUyem1zbkZCa3c2YWFxbkN3Q0hoZnhOSFNuMnZhVkZ5WjdmcTY5aU56NjRuVUJjaU92TjdpMTgwdElIWEo1dldZS1JTb0lvbzhXNzBIYjc4NzBTYjJMUHZOVkt3NkNhV2FVcnEtckZOcVZYVEFYWkcyeDQyNEVLR1lZNzMxZ0JJdEln?oc=5",
-          "source": "Asianet Newsable",
-          "publishedAt": "Mon, 27 Jul 2026 09:01:19 GMT",
-          "fetched_at": "2026-07-28T03:00:44.974535",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK explore Hardik trade",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yYmNUOHpVcUU3MEQ1RjZFcmRxbVM1ODVfVXA4YkNGZXJObGxscGw5MV81bTl6ampWaDlkUGpsRWRWLXlsR08zOXUxamJYWXpZRWo0SnhlU2d1dkhxOF9Rcnd3cVdldjd4d2NmZ3JSWEppcEU?oc=5",
-          "source": "The Shillong Times",
-          "publishedAt": "Tue, 28 Jul 2026 02:45:21 GMT",
-          "fetched_at": "2026-07-28T03:00:44.974539",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK Ready to Spend ₹20 Cr to Rope in Hardik Pandya from MI? Report Makes Massive Claim",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWFN0cms3QU5SUFptZzhWVGpsUlpMMW52bE9idHh6UnZuSW55VFNCc2MxM2NvOWkyNzdTVi05QjhTbWgtTl9PY0lvRDBhUEdtRGx1a0lfTHlCTXFuVTUyakZZNnNXRHVlODFpNkNyb2d0a2NqNUp6cGM5cEIyNzlaY1dpNlFzNlZYTWlHNVVRX2Y2SjZaelgxeXpQSVlmaHBBQzMwSFo0alVSZXJNM3BqbWYxZTFkOEloMHVDYzNpX3BCWlNHT0lrby1nenZrVUVWSnJSczdmMXZja2ow0gHiAUFVX3lxTE9ZWEtKY1U5bjcxTE5FTC0xN3VSamJ2Y2pQdkp2T0FxdzZwYXpTTGw4RU05MjdqeVpRLUNWRGRMYTdZMFJRNXhYMDUtTkxLOTIwQ1AxRTl4WGdiOHJ2TU0ycmRUUXRYWEl1ekphTEplOXZDcTFNQ2hhaFlnY1JCcVQ4c0ZTWHE2WDZYdjNWdE9XQUU0LW1qdkg2N0xLLTJoWExHRTgwTk9zcHFUMnhQdEI3Y29FS2l1MUJSM3ZsbVpsNE9ZSG02alUtQldJWGFJMFlKSWQzTE8tZl9kcTJQZUN3amc?oc=5",
-          "source": "MensXP",
-          "publishedAt": "Mon, 27 Jul 2026 04:55:08 GMT",
-          "fetched_at": "2026-07-28T03:00:44.974549",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rs 10 Crore + Dube And Brevis: Report Hints At CSK's Sensational Offer To MI For Hardik Pandya",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcU1OQWs2ZDNtdVVBY2F0QXpmMURmM25uMzhDcndIUWhFWGxYd3Jxd3Naa2pjcUt2SmhYRl9hWnpQTTFzUXJOQVZYTm9vcnhvZXFYNHpFUW5sYVpTTzZBdEZ2Q1pXeVU2WlBzbFdaY2s2YmlobzI2WUpjbFVfdTQ3SkJfZTI4LUMtWGJ4UkJ2NGxpRHNzOGstMzRCRFFSVmVVUDlqc0lhUVJRWWpHTE91SVh0eV9pcjBnZzJvQVN3QXgyd2V0ZkpCS25B?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Sun, 26 Jul 2026 05:49:09 GMT",
-          "fetched_at": "2026-07-28T03:00:44.974553",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -770,12 +757,12 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-28T03:01:49.750947",
+      "last_updated": "2026-07-28T08:51:54.338676",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
         "score": 1.0,
@@ -783,8 +770,101 @@
         "pos": 1,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
+          "source": "the packman",
+          "publishedAt": "Tue, 21 Jul 2026 10:18:47 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839094"
+        },
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839107"
+        },
+        {
+          "title": "Former deputy gets 42-plus years for pandering child sexual material",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
+          "source": "Record Herald",
+          "publishedAt": "Thu, 23 Jul 2026 10:15:00 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839112"
+        },
+        {
+          "title": "Simulations Plus (NASDAQ: SLP) grows Q3 2026 revenue 7% to $21.9M",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2FEVW03SEdoU0JTdEdoU0hQMVlQMXBFdnNfSkdnVG0tSlU0RVU1c1dVa21MSXZoZ1haa1Joczh5ZUJTQ1JpSDZ4cjMzR3lYZzlUOXlKWFpSdUxicXlvTnNmM1plVXN2MWhkZ0JiQVhlSktOWFpuWndLVmVCa2ZCWUxlOXdLc3I5Ni1Nc2pjZTdDSEVobUFteFMyLUhuQ0EzWXN0d3pHdkR1aWFy?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 09 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839115"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839122"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839126"
+        },
+        {
+          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839130"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839135"
+        },
+        {
+          "title": "BRUCE SPRINGSTEEN’S ‘NEBRASKA ’82: EXPANDED EDITION’ - FEATURING PREVIOUSLY-UNRELEASED MATERIAL PLUS A BLU-RAY FULL-ALBUM PERFORMANCE FILM - ARRIVES OCT. 17 VIA SONY MUSIC",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPN0hYMmROQXc1Yi1xS2ZKM1BzelI3QkR2MXVOTk8yekd6b2hnUkVqZ1FyTkFuMC12emtmQy1XR25lTVFxTlRYS3lsdjh4OF82c18xc2hOUG8wY1dVbjY1MGJEZG5CSHlFX2RVVHVDTmpMbTM1YTBUR05jTHJmRGo4Z1pSVnV0SHVRZWNxcVhZRXZlUjkyWGpCZVBLcF9tQ01fNE5SdEUwUS1yZGxfYkMyUzB2eDh1OFg5R0FMNHMzQ2U4MkFGb3NGOTVOekhEUHhSLUpselM2Z1JTOGFNZ0llTkFPUm9sYkZpem8wZ3JzRHFyVDJpRDYyS011Z2dRMnNnMF9TVmhIV2o2ZmpiYmsyX0gtbzFwVl85N0dVNXFKWmVPNUJT?oc=5",
+          "source": "brucespringsteen.net",
+          "publishedAt": "Thu, 04 Sep 2025 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839141"
+        },
+        {
+          "title": "BNB Plus (Nasdaq: BNBX) to trade on OTCQB after Nasdaq delisting",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRWlDUWlfbEZFTWNER0psczdSYnhhWDJSUVJyQXZWRElKX0U1UTlYZEJ0aVdnUk1JRTRHS1dmR0tGSURXOHdMNHdjaXJLNms4YmFKc3BPNTZiM0o3M1lramhVc2dObjZoUUh0ZmpHZHRjRHBJWEJGdFhzTFNaTVRKNjgwQl84c1l0MkprbDEyb2o5UUNkZjJYTE54LTJ4d19YVlVuYQ?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Mon, 13 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-28T08:51:39.839145"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN  we+ explores craft and digital fabrication through material intelligen...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -824,66 +904,10 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
-          "source": "the packman",
-          "publishedAt": "Tue, 21 Jul 2026 10:18:47 GMT",
-          "fetched_at": "2026-07-28T03:01:49.750637"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-28T03:01:49.750651"
-        },
-        {
-          "title": "Former deputy gets 42-plus years for pandering child sexual material",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
-          "source": "Record Herald",
-          "publishedAt": "Thu, 23 Jul 2026 10:15:00 GMT",
-          "fetched_at": "2026-07-28T03:01:49.750656"
-        },
-        {
-          "title": "Simulations Plus (NASDAQ: SLP) grows Q3 2026 revenue 7% to $21.9M",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2FEVW03SEdoU0JTdEdoU0hQMVlQMXBFdnNfSkdnVG0tSlU0RVU1c1dVa21MSXZoZ1haa1Joczh5ZUJTQ1JpSDZ4cjMzR3lYZzlUOXlKWFpSdUxicXlvTnNmM1plVXN2MWhkZ0JiQVhlSktOWFpuWndLVmVCa2ZCWUxlOXdLc3I5Ni1Nc2pjZTdDSEVobUFteFMyLUhuQ0EzWXN0d3pHdkR1aWFy?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Thu, 09 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-28T03:01:49.750659"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-28T03:01:49.750666"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
