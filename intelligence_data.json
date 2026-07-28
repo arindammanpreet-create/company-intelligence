@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-28T14:31:11.331432",
+    "generated_at": "2026-07-28T19:49:19.148056",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-28T14:21:37.935118",
+      "last_updated": "2026-07-28T19:39:53.886428",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-28T14:22:53.157116",
+      "last_updated": "2026-07-28T19:40:58.307570",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-28T14:24:18.243684",
+      "last_updated": "2026-07-28T19:42:08.261698",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-28T14:25:41.957263",
+      "last_updated": "2026-07-28T19:43:16.021282",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-28T14:26:57.501965",
+      "last_updated": "2026-07-28T19:44:32.491983",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,43 +434,21 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-28T14:28:11.381534",
+      "last_updated": "2026-07-28T19:45:39.189289",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at Mumbai Indians",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at Mumbai Indians: layoff. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "Highlights: Gujarat Titans vs Rajasthan Royals | Qualifier 2 | TATA IPL 2026  Highlights: Sunrisers Hyderabad vs Rajasthan Royals | Eliminator | TATA ...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "layoff"
-          ],
-          "solutions": [
-            {
-              "title": "Mumbai Indians: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -510,55 +488,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Mumbai Indians: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Mumbai Indians: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Highlights: Gujarat Titans vs Rajasthan Royals | Qualifier 2 | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVENVUDFKUWpTSWNMcVpyVmpoUFlxUDBiUHhIUXBGYVZEQWZVYl9ISjhydkR0ZXhfWVpYSlNfUG4ybTl5QWhBcEpqRU1CSEJaUVhzYlVuNE1CSDh1VU5ZSnBsUlhEVWIyX0UtUTFOeDlhc01rS0pnS2ZJVTRNOXdCazRZZkxTZ2JEOVEtSXZ1Ny1DZ1RlcXlUZGFqYnNNa1pr?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 28 Jul 2026 12:58:18 GMT",
-          "fetched_at": "2026-07-28T14:28:05.936486",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Highlights: Sunrisers Hyderabad vs Rajasthan Royals | Eliminator | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOGh6enlSRGFmWGhLMGNBWEN6SlBOQWt1aUZucmMtdjZ3OXhJa1VuZUNmcS03Qk9Yak9qT25EakN1aUwyOVRVcEozMlFpbW1hX0hGNHJ6MUZrQ1hBTDRjdjdDN2g5WjR2QnJPZ2RteTAyeG9tZjZfc19aeDRpMFZldUh3TFBhMGV1T054Q1E1U2FIWVZkX0xFSlFGOTU0Vko0?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 28 Jul 2026 11:40:46 GMT",
-          "fetched_at": "2026-07-28T14:28:05.936501",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SRH vs RR, Eliminator, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWnhzMFhWdW14OU02elB4bkJTUmMtcnFOME4xLTJxRXN0V0RqU0pidnNYdTNKekt5TGQ1N0s3THRsVzJPNWcxelhqdWJnVmF6Sk9nd3I4Y04yNzVNcEw2U0JiT09NUE5CZVozdG5GQV9LRTQwelJ6Y3d5aGE5dFVlU0lIQVJoUFhYQ1lQRHUzaDdrZVk2U0pnSGRSbVhGQ200MHRjRA?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 28 Jul 2026 10:37:39 GMT",
-          "fetched_at": "2026-07-28T14:28:05.936506",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs RR Cricket Score, IPL 2026 Qualifier 2 Highlights: Shubman Gill slams century as Gujarat defeat Rajasthan by 7 wickets to punch tickets to IPL final",
-          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSENESDNtR1FiWGFjbzJkQ0RnT3AxdFZrc1Z6UkN2YVlkLVRlYWxQcTZHRmxFQTg3b3Z1c2ZWcTVjdndTWU5FQ1JBeWJrMENTOVdPOTBsMmNwRGRGS3Fvc2hSM3dLWS1XVFFrZ25oc2tfb1NYZ3JFaVQ4cXlfQ0ZNbVQ5R29sVzhxaWhtSFNVT2oxams3MVVTemtpRTEyaVkwZ0RCMmNjMXpCUkRWeGFSeVNSS2F2a2djWlZHWlpCSUp3LUlyS0pzcWdadkkta2VCbGFBQTF1YldlZVpMclAxUE90c0pkdi1NRXRqY2plVHZ0eDE5ZWpYUGhVY25seTJBNjJZX2dsc05NVEdPWGxzM1FBMNIBmgJBVV95cUxQNmVnRDd0UkVrVDM0bnVPNzJPbDdzVE01eERwN3M2bV8xMlNkd0hJeWZCX29zamRjaXh1THg1ZTZsenNLSDlra0ZWVnhFTExYUURyOWxXUTU1bmx5WENqZzdCVmVLcU9SeTREZnNDaVU0MFA4b2RYZExBb3pjV2VoeUVoeUJLclZkc05kRVMwT2hJYzJhM0pVdWNad3J2VG00WDJQNlp6THhpSF9NUVBDWXlMNzlNYWFqMktQOV8wb0ZIclNqMnA1T1d1VVFxVEliQ3JkaXhjTkhGV1Z3YzBTOVRNQjBCOThpdi0xRVU2XzYtRGRuUURlaUg2TDA1Tkp6ZU9aSWRpcHpOeW5kVXpzbThpTGZlS3M5aHc?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Sat, 30 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-28T14:28:05.936510",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Mumbai Indians vs Rajasthan Royals Highlights Score Updates, IPL 2026: Rajasthan Royals secure playoff s...",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdjFNM3N0eUFzeWFYNHFBYWVuLWNoeWFHSU4wNjdzOG9lQk1mckhnQXRhZnZQNm5KamcwWEdQaDZYQkpYRXBOUFlDRHBsOXFHODM4VU1JNXJmR2lzVnNNdDBnU091S2FXendqNGNpRk44UHJMWXp3Q3RzTmQ1M0xOcGJINXlTS2JEaXlrMTlveUpsUTNkSWVfWnZ4ck5GWGpsTW9iTWUwaWotd2FsS0c5QVdDN1BPT1hkVmJhX1dkVFlNZ056MTBPVTl2QWcwd0hmNS0tbkRKc25FZDVETG41WkFnRk42SGtsTENXYVVIbndrNkdYTHhZ0gH8AUFVX3lxTFAtU0huNXE0a1hIejlsMGRwUlU5ZFNBNm0zejBQTDdkajNReE5XRU5tcmxsY0YzTHVCNHVtNnEyN3BvYXQtZk10NkJPWi1NZVdTMGo2UjNRQnIyZ1NrblhkbEVRMFRBMjBEY3NWRHpCS3duZExzbmdpQmR3UGJjWnNXdjJjSGpDTWNyNDlDWDhhdWxzOEotUWZsSkR4Y3FVV0kzVWpsSlM3RnZZWHBVT0Y4YXNNSnFueGFmd2RpUXZwSkNxUHJFYjdfb19WVEl5eVJnVW9ETXZVZ0hMWkozVGFoVjJiNlc5VG9vWjRlblI3WGdBSXVCVTZNN2U1Tw?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-28T14:28:05.936515",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -566,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-28T14:29:29.787245",
+      "last_updated": "2026-07-28T19:47:14.758166",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -650,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-28T14:30:48.048014",
+      "last_updated": "2026-07-28T19:48:55.890065",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -734,17 +686,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-28T14:31:11.331426",
+      "last_updated": "2026-07-28T19:49:19.148033",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -811,43 +763,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
-          "source": "the packman",
-          "publishedAt": "Tue, 21 Jul 2026 10:18:47 GMT",
-          "fetched_at": "2026-07-28T14:31:11.331151"
-        },
-        {
-          "title": "Former deputy gets 42-plus years for pandering child sexual material",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
-          "source": "Record Herald",
-          "publishedAt": "Thu, 23 Jul 2026 10:15:00 GMT",
-          "fetched_at": "2026-07-28T14:31:11.331168"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-28T14:31:11.331175"
-        },
-        {
-          "title": "Simulations Plus (NASDAQ: SLP) grows Q3 2026 revenue 7% to $21.9M",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2FEVW03SEdoU0JTdEdoU0hQMVlQMXBFdnNfSkdnVG0tSlU0RVU1c1dVa21MSXZoZ1haa1Joczh5ZUJTQ1JpSDZ4cjMzR3lYZzlUOXlKWFpSdUxicXlvTnNmM1plVXN2MWhkZ0JiQVhlSktOWFpuWndLVmVCa2ZCWUxlOXdLc3I5Ni1Nc2pjZTdDSEVobUFteFMyLUhuQ0EzWXN0d3pHdkR1aWFy?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Thu, 09 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-28T14:31:11.331179"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-28T14:31:11.331188"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
