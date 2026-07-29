@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-29T03:22:27.485426",
+    "generated_at": "2026-07-29T08:58:28.782129",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,17 +14,17 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-07-29T03:12:57.844400",
+      "last_updated": "2026-07-29T08:48:24.101607",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Asia’s richest man Gautam Adani weighs bid for UK’s top port operator",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLTBYeTgyejkyZGxPMlJabkdkTlBXSFk0MEdKMml1akhKakN3dHNhdWh4cUE2MW1VblA1Z2dVTXJETFRMLVdHVlEtZkJ3dEZPRU1iUnFfRTkwMEVpV2R5ejM5UlIwVXRZU18xLTJwUVh4eXRzZFlyZG5xY0dzUlhBQWplVnU?oc=5",
+          "source": "Financial Times",
+          "publishedAt": "Wed, 29 Jul 2026 06:43:37 GMT",
+          "fetched_at": "2026-07-29T08:48:09.041569",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Ambuja Delivers Sustainable Q1 FY'27 Performance Driven by Value-Led Growth and Operational Excellence",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNenRBWDA2elU4MDdpNHlGTnh6XzZBNjhJem5tcG0zbXQ1bTVONGRSOGVZdVBfd2dadllpLTZiWmRtVC1fbnlhaS1vajh1VVRwSXZnSkwxaVdEWk9FNU5tbEZfMVFYX1JpcFEtZUtneWxxamZyWjRRNUdOajVQNW4weVpvV3N1TzVtdUdXQ1dtYmd2d0Zqd3NwUg?oc=5",
+          "source": "Adani",
+          "publishedAt": "Tue, 28 Jul 2026 10:26:48 GMT",
+          "fetched_at": "2026-07-29T08:48:09.041591",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Group raises Rs 43,500 crore in equity as mutual funds step up investments",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmlEWjhNQk5aNzUza2tXMUFNVmY1Z2hKaGNuaC1kYWdaWkdxdFdpZ2xJMkhRcWN4RGRsbF9TRGxFU2dhZF8tQlBMTEdycFpYWDl6QzZtUW9uZlVNSEdiZ3hVMmN2QVQ2WTVIakI4aktFNHBnODRVSVBBaEZjMHM0bzJRZEFQT2k0WEUwc05XWEpoVzJWbEdjVUVlWW13cVY5ZThXS0M3a0NDLWtQZVZxXzRNM2ZLYlU2NzVOcmxCd1gxX3VvZ0F6RVlDNEtEMG1PMUVj0gHYAUFVX3lxTE5nS1pkdEsyVUxtLWhiT05XZ3AyS1BfMVRkX2hHZUZmZ1NITnIwQnVzbzFlSHpreUVjTnhEeDVHR1BTYkVEVnlKbUo3SGJyaWw5Z0hVOG92RXhJc1kzM3Y0VkNuY3JzT0dGam5wNzJYc0NSZ0szOEJfcHZ6ZEhuV0RMVXVUS2Nxck1YTDByV1BsblZtZTU2a3VXNjFlYlpUZ1dHdXpvUVJLUF9hcEdDbDhvQ0pRUnFRQ3ZLSTN4aFZ2ZFg3WF9xN1U1dzdQblQtUHJfcnRIc01Xbw?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 29 Jul 2026 06:06:46 GMT",
+          "fetched_at": "2026-07-29T08:48:09.041596",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Energy Solutions shares dip over 3% after announcement of ₹3,500 crore QIP with green shoe option; check details",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQaURzRGlFUXZ0S3ZSZmtJcGdGU294MUFaNldXWlMxT1NjbVpHcC10WEttZE5HdHJGWWkwaDZRQ0dXYmFPYzlYRnhCcnNOOE5FLTZucExTMkZ5eERhSS1fSUJHOXBJZkRLcXVidXZ2ellqeTZfejR2RHpmaXNxLUMxZDVaSi1aRWNGSTFKZFVpY1dZNmdCZ3luRld2c0RWMl9UU3g1YnEwektuSU53dXp0c1p4TGRvRjQyWmhrdmNiSHRwYTBULUxRd2ZLOGZ6Q1JPVnBXU2NBV1pzNTV4TGZVNlp5dERKUG5DUDg4RXpoMHRpNE00VTRIdmFmR3ZhTkZycTdJSFJidkgwWlJPRThWRmJ0WdIBmAJBVV95cUxPUDU0OGdIdjQzSWlRUk93enl4TDJqR0ZYWGEzb1UxMTdHSU44QmhpeXdhMlpZVmdEZUhucWp0eV9BbUlkRGJqOXFWUEE2UHlFcUJob2JvdXAyeXd3YU54NzE2V1lGMHlJNUp3LUdod0VMa19EVHBGcW91bllGTXY5NzgydmszZnNTaDNYaWZGNmpNVVJaRHlmMWdyeHNPaHdVWTVaNkt0bU12RmpKTjBVamR3VFcxaFBWdlZzdU5TcF9TMTEwdzhzQ3JqUDRiY3kzbTQzR1ZHSGZ5bkNhS0h0ZmQxeF9LVVM3ZXlwek9XaGwyTXlzQlV5Z3NpRjNIN2d3dXRCTG9vNWFGME9tdno1NGc1MG5TMmVI?oc=5",
+          "source": "livemint.com",
+          "publishedAt": "Tue, 28 Jul 2026 05:26:14 GMT",
+          "fetched_at": "2026-07-29T08:48:09.041602",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Group raises ₹43,500cr via rights issue and QIPs",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdU90b1M1YXNGTVNFclpHeG1UX0RpUTZ1N2pXMFJsWkRpcExvSUpITXoxM1dqZEtSZVNuMzRrRU1JTkt2ZkdqNFM5R2VYMmdDbFFKelFkdDVhRmQxZm9NTG5OQWV3YThLb3llVXVTS3hyRlJTUWllYTFuWkU4STE0X2NLZWt6ZERCUktVa2dwdTlnREt3TC1WaWtWWkZycF9HT3ktdw?oc=5",
+          "source": "NewsBytes",
+          "publishedAt": "Wed, 29 Jul 2026 06:53:31 GMT",
+          "fetched_at": "2026-07-29T08:48:09.041605",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,7 +144,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-07-29T03:14:21.846283",
+      "last_updated": "2026-07-29T08:49:30.525514",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-07-29T03:15:36.574301",
+      "last_updated": "2026-07-29T08:50:59.841029",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-07-29T03:17:02.518665",
+      "last_updated": "2026-07-29T08:52:30.419830",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-07-29T03:17:59.165940",
+      "last_updated": "2026-07-29T08:53:38.823100",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-07-29T03:19:10.937174",
+      "last_updated": "2026-07-29T08:54:59.950307",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-07-29T03:20:34.982086",
+      "last_updated": "2026-07-29T08:56:31.686924",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-07-29T03:22:04.661524",
+      "last_updated": "2026-07-29T08:58:07.644161",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,114 +732,21 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-07-29T03:22:27.485412",
+      "last_updated": "2026-07-29T08:58:28.782115",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
-          "source": "the packman",
-          "publishedAt": "Tue, 21 Jul 2026 10:18:47 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461096"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461111"
-        },
-        {
-          "title": "Former deputy gets 42-plus years for pandering child sexual material",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
-          "source": "Record Herald",
-          "publishedAt": "Thu, 23 Jul 2026 10:15:00 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461116"
-        },
-        {
-          "title": "Simulations Plus (NASDAQ: SLP) grows Q3 2026 revenue 7% to $21.9M",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2FEVW03SEdoU0JTdEdoU0hQMVlQMXBFdnNfSkdnVG0tSlU0RVU1c1dVa21MSXZoZ1haa1Joczh5ZUJTQ1JpSDZ4cjMzR3lYZzlUOXlKWFpSdUxicXlvTnNmM1plVXN2MWhkZ0JiQVhlSktOWFpuWndLVmVCa2ZCWUxlOXdLc3I5Ni1Nc2pjZTdDSEVobUFteFMyLUhuQ0EzWXN0d3pHdkR1aWFy?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Thu, 09 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461119"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461128"
-        },
-        {
-          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
-          "source": "11Alive.com",
-          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461132"
-        },
-        {
-          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
-          "source": "The Guardian",
-          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461137"
-        },
-        {
-          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
-          "source": "아시아경제",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461143"
-        },
-        {
-          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461147"
-        },
-        {
-          "title": "BRUCE SPRINGSTEEN’S ‘NEBRASKA ’82: EXPANDED EDITION’ - FEATURING PREVIOUSLY-UNRELEASED MATERIAL PLUS A BLU-RAY FULL-ALBUM PERFORMANCE FILM - ARRIVES OCT. 17 VIA SONY MUSIC",
-          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPN0hYMmROQXc1Yi1xS2ZKM1BzelI3QkR2MXVOTk8yekd6b2hnUkVqZ1FyTkFuMC12emtmQy1XR25lTVFxTlRYS3lsdjh4OF82c18xc2hOUG8wY1dVbjY1MGJEZG5CSHlFX2RVVHVDTmpMbTM1YTBUR05jTHJmRGo4Z1pSVnV0SHVRZWNxcVhZRXZlUjkyWGpCZVBLcF9tQ01fNE5SdEUwUS1yZGxfYkMyUzB2eDh1OFg5R0FMNHMzQ2U4MkFGb3NGOTVOekhEUHhSLUpselM2Z1JTOGFNZ0llTkFPUm9sYkZpem8wZ3JzRHFyVDJpRDYyS011Z2dRMnNnMF9TVmhIV2o2ZmpiYmsyX0gtbzFwVl85N0dVNXFKWmVPNUJT?oc=5",
-          "source": "brucespringsteen.net",
-          "publishedAt": "Thu, 04 Sep 2025 07:00:00 GMT",
-          "fetched_at": "2026-07-29T03:22:12.461153"
-        }
-      ],
+      "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Material",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Herma launches Linerless Plus label material with 62Dps adhesive - THE PACKMAN  we+ explores craft and digital fabrication through material intelligen...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "carbon"
-          ],
-          "solutions": [
-            {
-              "title": "Material: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -830,6 +783,26 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Material: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
