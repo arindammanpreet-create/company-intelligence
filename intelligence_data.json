@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-10T02:17:36.671606",
+    "generated_at": "2026-08-10T07:59:14.095134",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,17 +14,17 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-10T02:09:02.720930",
+      "last_updated": "2026-08-10T07:50:27.854539",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Bengal seeks to put Singur row behind, opens investment talks with Tata",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLURreEthdFNaRmI5UmMzZVU0TzVJTUJqQ1dORHlnOHhOZHlvY1UxYXl1YWNVQUh4Sk1kSE5MY3RZTmdvRk8zYXYwSUZqNjBUU3ZNdXJIU1hQb0dKekVVWUZkOGpLQmFqSXpHRVlZdURKMTJsaUFfc1ByZTJSOWh3M19WQzJ4X25sQ2pBYVNPSk1YYWREVUdZWl8xRl9zSFZkUHJWTjhfWERUUkpyYVBBVzZUWHZrSmphbXBkMm1haUxQTFc1d2ow0gHMAUFVX3lxTE9zd0w5bDhYTHlta1ZIdkpPTjlmb2RZRnBUYVJYZUFvbWkzTkZ6WjlxUnYtdl9nbXhTZDZYakZOVE9JVkFjWUhCYkRiRmhfSUxZcUw1OFJIblFRUkc2dVJwaE9qX2V2dm14QTQ4S21HeS0wb3RZQ0FmNmUxR05iSExiQkJQbjE5WkF4UjNVY01RZWx4RmVxSmdQWDYxV1JKWkR3cFJJMGwxckQtMjRZUmZDSmJfUGd1cHgwNXlOTkw1cmVaUjM2dWJjby1uRw?oc=5",
+          "source": "India Today",
+          "publishedAt": "Sun, 09 Aug 2026 22:31:26 GMT",
+          "fetched_at": "2026-08-10T07:49:46.701609",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "West Bengal Govt In Talks With Tata Group To Bring Fresh Investments: Minister",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZG9JRmdlTWVDdFA0SmMwWjM0S3pEQzlZOFhnbmR2ei1pbzlpNjdJdFBKcGdfdldWck40UWJWeVhzLVlXM1pfdUxtTFJycmNqTncteUlPLTlLLWdVN1N1RkJaRm9ZdjJXaFBXX2pqMkRveV9XQ0s3bEF2aS1qOGRMYld1NlhhUURUWE13YXVyVHhJYkJGX0xsQldzNDZJa3RJU2xDM2xxcTNBSUVmQnRrbkNtU3hTbHpyN1hF0gHDAUFVX3lxTE1NUTFrSkJSRHpIdE5tM195NlZMREZlM2EyZ0JXMFE5UjhDb0VRSjl1RHpsbXZMTGZqbmliQ0Q2aDc0TGZmcWhOSEk1OUk4NDkteVBweGlQcWltcWVnUU9qYUVKeC1WSkxMV0lDcER0MnR0SzBSMFZDeFJuSHFBSzgtaEZ6TkF5WlpaVlVGamZWRjNqVU9yRDFfNExiUnBPTXVtVzBiNVZwUlE2c3R5V0hnTFMxMEdHUFFXZW9oQ1Z6b0JXaw?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Sun, 09 Aug 2026 13:57:46 GMT",
+          "fetched_at": "2026-08-10T07:49:46.701624",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Google Emerges as India's Most Attractive Employer Brand, Followed by Tata Group and Amazon",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOejFxN016c3hMYlB0WF80VDRHaEY3T09qM2tZMWNVTVRZQ1VUVTZua3hqXy1FcS00S3NmUUZacVNlTTlMSW1PMjlIQk9DRmZGcEJvOXI1dW1kYWNXNlVKbUMxUW1rQzFoeFlZUXp0Mk5jR1NVRlJaZnN6NDNGc1lpNlpia3dDQ25tZ3hUSk9JaDFXdkwyNHNjTVowQ2xVbDQ3clJqUHBicjFIYV9NM0dWSHIxdTFzdmZ4ZW9sRm0tcGRyMUhhYmF6UHpFYlJ5enM0c3B6Rg?oc=5",
+          "source": "telugutimes",
+          "publishedAt": "Mon, 10 Aug 2026 04:52:01 GMT",
+          "fetched_at": "2026-08-10T07:49:46.701629",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tata Group’s profit jumps 52% to ₹1.7 lakh crore in FY26; Chandrasekaran doubles down on AI and Air India turnaround",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZTlpZFNfS1FzSHFPOV9wSUc2Z2Q2cUtjRzdRQVlDZnZpc3o5RWlSM015ak5teTFYVTNBRHJrSWdEZ1hDOGhHQ1ZVNVRhSXdVZmkyQnpWYlhtRFNfVWlfTmIwaW1OQm1oWDc4NmttOUk1NHdaTnVYczRGanRCZzNjX3VRZEZtZ0pMV1VITlVsQ0hNMWxlcEJqQTl1QjZZTklGVkJXekQ3czkweTYtUVJBbFhDSjcyZzdQZFdQTkNpWHkwS2pqcUJXOVNlSXUzVVllUmE4ZlB0bFFVYVJUTExaejE3UFlDWXkwS19kS04yUUN3NXZfdXJB0gGEAkFVX3lxTE1iTmZmYUhXOVlzWU9BdWgwOXFPOFZGWTd3cjNxMzRwWS1la2ZFNGJqc0gzS05CNEFiaVpGcGp0N001WHIzeUQxZGxDNFI3RUJPVVZGVExVXzlIalhLcW1PT3FoWGc4UlMtcWpoLXRPak5tSFZReERWZ181MDg4MUdINWoyNGtLUUVrVzV0bmd5aDVBSWwxRFBoaXYtOEFscWc1blBhbUlwdnhJNXhoY3ZETE1xTDlwdk1EZ1d5aWZ3WFhCbktheU9pemk3SDJqbDdzRXIyZThaWlR1Yy1sQ1BEdDdQRy0wNWVsQXBveTVERkpubzFBZTBOSXJEcU1sTzdpVmM0?oc=5",
+          "source": "Fortune India",
+          "publishedAt": "Mon, 27 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-10T07:49:46.701638",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "West Bengal Govt In Talks With Tata Group For Fresh Investments: Minister",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcVdnZC1aQ3ZxaTVFbzhONW9tU09qaGRDeGdLLV9IakI3WjZRbmRtb0Q1dWtsVmpFSlhIMVFHalQydUZXTXk0NFNmY0ZHSFRlUmNvZU5MVWhJMWU5OGhNT21kN1Yybno5WmZEQmpyYzdXaGE4ampqWjRNVW1aQWZjQjA2OFAzdVRBeDI4ZVQ1Y3gwSEFkZHR6c1RKblRJUTdHQ2JMVS1aWU5OVFM3NnZSQjNyVDlVOGZreGkw0gG7AUFVX3lxTE5xV2dkLVpDdnFpNUVvOE41b21TT2poZEN4Z0stX0hqQjdaNlFuZG1vRDV1a2xWakVKWEgxUUdqVDJ1RldNeTQ0U2ZjRkdIVGVSY29lTkxVaEkxZTk4aE1PbWQ3VjJuejlaZkRCanJjN1doYThqampaNE1VbVpBZmNCMDY4UDN1VEF4MjhlVDVjeDBIQWRkdHpzVEpuVElRN0dDYkxVLVpZTk5UUzc2dlJCM3JUOVU4Zmt4aTA?oc=5",
+          "source": "outlookbusiness.com",
+          "publishedAt": "Mon, 10 Aug 2026 05:03:05 GMT",
+          "fetched_at": "2026-08-10T07:49:46.701642",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,21 +144,43 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-10T02:09:56.303034",
+      "last_updated": "2026-08-10T07:51:36.655418",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.6,
+        "label": "Positive",
+        "pos": 4,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Competitive Threat Intensifying for TCS",
+          "severity": "Medium",
+          "description": "Competitive intensity rising for TCS with disruption mentioned. Market positioning research needed to defend share.",
+          "detected_from": "Tata Consultancy Services And Two High Yield Indian Stocks Worth A Closer Look  TCS Q4 Results Preview: Will Tata Group's TCS Turnaround Its Net Profi...",
+          "gap_type": "competition",
+          "keywords_found": [
+            "disruption"
+          ],
+          "solutions": [
+            {
+              "title": "TCS: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -129,26 +197,6 @@
               "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
               "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
               "gap_type": "monitoring",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "TCS: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "TCS: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
               "framework": "MRA/ESOMAR"
             }
           ]
@@ -175,14 +223,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Tata Consultancy Services And Two High Yield Indian Stocks Worth A Closer Look",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPakxIX2xZNGJlYi1IanRTY2FHNGlFLU5KMkYtNEl5TUM0MjhHaS1fSng2LWNCTXZQUXBGeFU3S0UtMUU0dk9NUnBnbTNYbVlNU3Z3dHViaTkyT05QOEdwUWJNV1ZXbUl1UE5vNTlycjdwc0dCb3F0bVNpd1VZdU5XdDI0cE0tRlhETWxidENoZURycmdIaVJFZEpDZTFQdjBwTVl4aUZFWTl5VXUxcVlzVWdmRjhnMFpzcWNzZzNEa0VWQ0EwMVY1OV9qS3c3UldIUW8wMWY2MWLSAd4BQVVfeXFMT2dtdFUteTBobHdET3dySTVuSk9zT1F3T0MzSjhjVUQtR3ZpVUFrNzdqZlVtUGhqMUFSSEZ2ajRtUXZMeWFJekhxYmZqSDBZSXhLS1YwdWg4WV9EdGFWNmNYSDZOZXBkQ3JySFNVQXA1cXhEeHZwazZMS2FJS0p5clVoUmFLUTV5R3hVa2NaekNRaV8yWlFtcWd0cVhGV01QNDZSWnVxeWpaUHk5QmdBUjJzblNkaktDUWxMMUFCVG0wMjExbnRSUmM5TlJPRkdoT3E1c0dfY0hTZHVRMGJR?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Mon, 10 Aug 2026 06:54:02 GMT",
+          "fetched_at": "2026-08-10T07:51:36.655092"
+        },
+        {
+          "title": "TCS Q4 Results Preview: Will Tata Group's TCS Turnaround Its Net Profit In Q4? Dividend Announcement Ahead",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbmRIeTVCaEJwcHVsV3dxWEV6TFI5UWRFNnVzXzNWdXJiV0s1d2VBTmxyWjNQRFJycWtVTmZVQ1NWeFpjQl9xMElGaEtOSFBLV0xWZFMtSWd4cTBLdS1EQW1lN01ySDFuSi1udHNkZnlXUV9oWGVSaDFWUDkya0M1VDJaeTJSeHU2Zk00S1V3MGd3RDQwZG9uT1dybC1CSmdLajhXMEdtVl9wN0lWRXZxOVd5bno3WTNraTVUSmR6ZjVLcWJyMTQyWXZwZXBxeUZ6aHBpcGNwRE4xQQ?oc=5",
+          "source": "Goodreturns",
+          "publishedAt": "Fri, 07 Aug 2026 17:34:17 GMT",
+          "fetched_at": "2026-08-10T07:51:36.655105"
+        },
+        {
+          "title": "TCS and Anthropic launch Global Premier Partnership to drive Enterprise AI scaling",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOHNkYWdNVUtBc3lEOHFLd2RwQ1FoeE0xZXRIWTFYTzd5bFdjQ3kycXVWQ3Q4ZExGSE5zT2t5MUFFMmJ3enBJVnQ3VlhpX3NrNlM3Sldyb1V4SVVVcWhhaVU1aUNwSmVjdnI0Wi1YQ2ZWRFJJQkR4WG1LNUJYVGg4RkdhZkktZ3hQeS1EYTdDdHZjZGtnVTNnWGxtZ052V2FNajFuQlNQMXlwc0lTaFc2TTJpNTJIaEx5RnNvQ3FNLXFkUkFLREpDRA?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Thu, 11 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-10T07:51:36.655111"
+        },
+        {
+          "title": "Tata Consultancy Services shares decline 2% to Rs 2,410.80",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZy1pNXVHS3hIWjB2Ymt5LWNPdTVaa2dybGRuWGg1c2l5X1NVdFJXSTM0Q2ZOWTFBekpVWDY5TS1QVzJpZUhuekZUa3ZRUU1yVnItSlU1Z1VqWDJ2WVhzRVRNd0hFN3o2b0NybE5rQnUwUGxYMVh4bFFjcFZFS3NVNl9YZ2haNWdVWVJPb0w4cUFfdkkxYjhHckxNWnlGRW1neFIxSmVKN1FJQkd6Ykk3bTBEUTFQLVV1WDFpUg?oc=5",
+          "source": "TradingView",
+          "publishedAt": "Wed, 05 Aug 2026 09:05:49 GMT",
+          "fetched_at": "2026-08-10T07:51:36.655114"
+        },
+        {
+          "title": "Tata Consultancy Services advances Friday, outperforms competitors",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMzFvcDVQZWlaT3NBa0FwVWU1dk0zU2ZDM3NNVVlHMXpyRDNfSmh5SE12YTdXTWFEUTJWbG5fM1JxZlBMbXVvS2hHYW1WX3Z3VWJpYmtIS3hKUUNFRFFqSFI3UVQzOXkxWnc1VmI3TUt3Y2FYN3lKZE8tN0VZMUZvVm92WjVWcnZfdUhoblVsaE5mbmE0V2NYYjFxX1JOYUhXcGVhVDc2cXdybnVGNW05dGJDT2d6eVN3WFh1M2NR?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Fri, 07 Aug 2026 10:33:00 GMT",
+          "fetched_at": "2026-08-10T07:51:36.655118"
+        }
+      ],
       "filings": []
     },
     "Infosys": {
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-10T02:11:18.196856",
+      "last_updated": "2026-08-10T07:52:42.664445",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +350,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-10T02:12:29.130844",
+      "last_updated": "2026-08-10T07:54:13.143294",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +434,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-10T02:13:25.708488",
+      "last_updated": "2026-08-10T07:55:28.584182",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,21 +518,43 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-10T02:14:33.024502",
+      "last_updated": "2026-08-10T07:56:47.353220",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.33,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Mumbai Indians",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Mumbai Indians: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "'That one thing completely changed': Ajinkya Rahane reveals how CSK transformed his IPL career  GT vs CSK Highlights, IPL 2026: Chennai Super Kings El...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Mumbai Indians: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -488,29 +594,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Mumbai Indians: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Mumbai Indians: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "'That one thing completely changed': Ajinkya Rahane reveals how CSK transformed his IPL career",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNOWpEdFlBWUIxOFczRU5HdUpVdUlpXzA3UEhOV0VKUDlYVVVFNEZYaFA0OFdOV3I3dGQ5eVA3VndMN29Sc252OTRYMHNUa2FtOTFDYlJOdUpfVC1mNXhPTnJkUlZBZ1NodDNJSVhFd0V6YjhFTXZnandvUXdHeGhDV3N0YnFwNUYxTXVGdzU1N0lhQTlSS2pVaXpGYktBUkREU1hHMzRwUkhPYjF3d0Nac3IyQ1MyYVc3cTVLQUNEZjc4N0xvRjRRbWRVdHY3dmVGNmthdm5nWG1pXy1tRGhqRzJiZVR1bUM4VXdjaGdjakYyOURxQlFhdkZMcUd2bDJ0NUpB?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sun, 09 Aug 2026 14:13:00 GMT",
+          "fetched_at": "2026-08-10T07:55:56.293152",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Gujarat Titans",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVJqSVMwemp1TGctcG1XYWNqdzNfa2lIZ2taSHFmcEZyYW9BQUtxUkhpM00yNVhNWFpDd2Q1UXlXUTFLcGNkblVoTW4tT0tyUGVpdXpjaE1vMmhjbmNoSTh3a055LWxmU2xBb3h0RDIyQ1VBNFAxcmVWM1Z1c05LVVo3R1pIVTI5Q1NsWHZXeE81SXo3Uk8tZkNqZk9oam9EZ2QtRXcxVmU5MUhGQVFVamF5N3dfM0xSR3VCZndLS21uSjBOUGMtUFpIclhZRkIxbDQyTElkMS15SjZZMHV1clBZU3dxbnNXcXp6eW4tSGVtODVHT01fYk10QXg3LUdoZmc?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-10T07:55:56.293168",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL 2026 Updates CSK vs SRH: Sunrisers down CSK to qualify for playoffs",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jSjZaYXA3OUI3NkdYVTl1MzBEQmhrRFJuZEtENnpSa1Vqc3JyUVkxRmV1NkVqZ09sdzZEejBjZ1huNHNQZDQ2ck9ndzhpd2Z6WXdNeXh0Z3lMZTR3NzVZUGphaWtIZjBNWnhWZUNXcVk3OExMRG1DaA?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-10T07:55:56.293172",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "How CSK helped Ajinkya Rahane reinvent himself",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMWFaMEExa0xZNTREY0dWRzhkLVZRSDQ1elFjUVJtdHphLVZrejlyTldXU2YycUQ4RE9Odko1aGxUSHdHQWl2M0R1RDF4X0pSVkdWTlFpeUFSa2pxcFNEZ0M0RmhadzhRWkZ3b01fblRNNnRCNVFicUJkaGZNblZvZFJSSllaUnN2NURXdHpVcFN3dkVQbzhOcUZXdjdEbHBSUlF2RTBzWHPSAa8BQVVfeXFMUDFMS2ZGcUdtQ1hZS0lielVOZDVNY1lrV0NqSEdLeFk4NE81SDBSSTF1bkNYN0hoc3lubTRWOVNKaVB5RmU2bmw5NGFPTnd6NFR6NU9weURGVWotVU9ETktzX052TjBMZWs5Vk5SWUhtcndHSjJBWVZsdFQ3MklEWWR1Q3VsSl94ZjBjRHVsSGh4SnJHcER3S01wbVl4T3Q3V2V2bXo3WXNETnJBTFhPbw?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Sun, 09 Aug 2026 12:09:38 GMT",
+          "fetched_at": "2026-08-10T07:55:56.293176",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Amid Hardik Pandya Trade Rumours, R Ashwin Warns CSK Not To Make This Costly Mistake",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVXduOFl4cWY0RG5KWURMOVRsT0Fja1Q4U05KWDlBdWo1N3ZnTEhPYzU2R0JGbk5mU1c5WGxWbE4yOENNZjdyczF4UW1NSjJ2cnhRZzJ6S1BLb3NCMGRsX0t2VlNfVEE0MEMyNWFrMTd6VTVVZXBBUmlqYlhNZ1pZY21SY00wdTVwRl9iUHdYczl5Z0Rsc1JVajVtQ2VkbEFJX012WjlqdlM4aU5QT3RSMUdHeUtWUW02MnNuMHUzZF8yUQ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Sat, 08 Aug 2026 03:18:37 GMT",
+          "fetched_at": "2026-08-10T07:55:56.293180",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,43 +650,21 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-10T02:15:50.330172",
+      "last_updated": "2026-08-10T07:58:09.833470",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -0.33,
-        "label": "Negative",
-        "pos": 1,
-        "neg": 2
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at Royal Challengers Bengaluru",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at Royal Challengers Bengaluru: layoff. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "CSK vs DC, 18th Match, Indian Premier League 2026 - Commentary  'That one thing completely changed': Ajinkya Rahane reveals how CSK transformed his IP...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "layoff"
-          ],
-          "solutions": [
-            {
-              "title": "Royal Challengers Bengaluru: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Royal Challengers Bengaluru: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -594,55 +704,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Royal Challengers Bengaluru: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Royal Challengers Bengaluru: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "CSK vs DC, 18th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeVpVaFJTZ2RmNGZTNkx1RW5PN1VxWUtXdlByRDBMLVo3QVo3d0VnX1ljei1zMEpQYzVBRU9DOV9VSzlJZ3ZnNU8yNVoyMTUyQUhOUzdmaDh0VzAyajdCS0k0VURkemFTc0dWTVliOXVKU21PdElFVmtNOElNTE1jYjF0d203LVVhY3FaeTFwZEkzNzBSVEI3UFhIM3pqRXNf?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 09 Aug 2026 09:06:25 GMT",
-          "fetched_at": "2026-08-10T02:14:56.467509",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "'That one thing completely changed': Ajinkya Rahane reveals how CSK transformed his IPL career",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNOWpEdFlBWUIxOFczRU5HdUpVdUlpXzA3UEhOV0VKUDlYVVVFNEZYaFA0OFdOV3I3dGQ5eVA3VndMN29Sc252OTRYMHNUa2FtOTFDYlJOdUpfVC1mNXhPTnJkUlZBZ1NodDNJSVhFd0V6YjhFTXZnandvUXdHeGhDV3N0YnFwNUYxTXVGdzU1N0lhQTlSS2pVaXpGYktBUkREU1hHMzRwUkhPYjF3d0Nac3IyQ1MyYVc3cTVLQUNEZjc4N0xvRjRRbWRVdHY3dmVGNmthdm5nWG1pXy1tRGhqRzJiZVR1bUM4VXdjaGdjakYyOURxQlFhdkZMcUd2bDJ0NUpB?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sun, 09 Aug 2026 14:13:00 GMT",
-          "fetched_at": "2026-08-10T02:14:56.467527",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Gujarat Titans",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVJqSVMwemp1TGctcG1XYWNqdzNfa2lIZ2taSHFmcEZyYW9BQUtxUkhpM00yNVhNWFpDd2Q1UXlXUTFLcGNkblVoTW4tT0tyUGVpdXpjaE1vMmhjbmNoSTh3a055LWxmU2xBb3h0RDIyQ1VBNFAxcmVWM1Z1c05LVVo3R1pIVTI5Q1NsWHZXeE81SXo3Uk8tZkNqZk9oam9EZ2QtRXcxVmU5MUhGQVFVamF5N3dfM0xSR3VCZndLS21uSjBOUGMtUFpIclhZRkIxbDQyTElkMS15SjZZMHV1clBZU3dxbnNXcXp6eW4tSGVtODVHT01fYk10QXg3LUdoZmc?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-10T02:14:56.467534",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "IPL 2026 Updates CSK vs SRH: Sunrisers down CSK to qualify for playoffs",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jSjZaYXA3OUI3NkdYVTl1MzBEQmhrRFJuZEtENnpSa1Vqc3JyUVkxRmV1NkVqZ09sdzZEejBjZ1huNHNQZDQ2ck9ndzhpd2Z6WXdNeXh0Z3lMZTR3NzVZUGphaWtIZjBNWnhWZUNXcVk3OExMRG1DaA?oc=5",
-          "source": "rediff.com",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-10T02:14:56.467538",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "How CSK helped Ajinkya Rahane reinvent himself",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMWFaMEExa0xZNTREY0dWRzhkLVZRSDQ1elFjUVJtdHphLVZrejlyTldXU2YycUQ4RE9Odko1aGxUSHdHQWl2M0R1RDF4X0pSVkdWTlFpeUFSa2pxcFNEZ0M0RmhadzhRWkZ3b01fblRNNnRCNVFicUJkaGZNblZvZFJSSllaUnN2NURXdHpVcFN3dkVQbzhOcUZXdjdEbHBSUlF2RTBzWHPSAa8BQVVfeXFMUDFMS2ZGcUdtQ1hZS0lielVOZDVNY1lrV0NqSEdLeFk4NE81SDBSSTF1bkNYN0hoc3lubTRWOVNKaVB5RmU2bmw5NGFPTnd6NFR6NU9weURGVWotVU9ETktzX052TjBMZWs5Vk5SWUhtcndHSjJBWVZsdFQ3MklEWWR1Q3VsSl94ZjBjRHVsSGh4SnJHcER3S01wbVl4T3Q3V2V2bXo3WXNETnJBTFhPbw?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Sun, 09 Aug 2026 12:09:38 GMT",
-          "fetched_at": "2026-08-10T02:14:56.467542",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -650,7 +734,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-10T02:17:13.899402",
+      "last_updated": "2026-08-10T07:58:53.295850",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -734,7 +818,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-10T02:17:36.671593",
+      "last_updated": "2026-08-10T07:59:14.095117",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
