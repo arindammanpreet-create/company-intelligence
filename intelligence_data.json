@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-12T13:29:38.615732",
+    "generated_at": "2026-08-12T19:06:40.391821",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-12T13:20:39.285463",
+      "last_updated": "2026-08-12T19:06:38.336114",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-12T13:21:53.652329",
+      "last_updated": "2026-08-12T19:06:38.837275",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-12T13:23:07.917571",
+      "last_updated": "2026-08-12T19:06:39.218566",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-12T13:24:20.274354",
+      "last_updated": "2026-08-12T19:06:39.558930",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-12T13:25:20.899213",
+      "last_updated": "2026-08-12T19:06:39.986351",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,11 +434,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-12T13:26:36.827597",
+      "last_updated": "2026-08-12T19:06:40.107699",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -510,53 +510,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "KKR, Gujarat Titans Sent Major IPL Trade Deal Message. It Involves Two Big India Stars",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOGpJZVdpWkZLQm1WY2ZaSFNKN0c2endsTlg4bjVCSHB6RXZqcnV4M2p1Z3RlRF95X2wwNjB4TEFLVlU4ZVY5TkkxZnNvcjFxSU41OXd2TjFMSm5vZjJpZ1p2X2gwel9vRWhZcDJCOEdzVkl0RXR2SGI0N3ZVQ2RfdUNmUVh3MW8wUnBhazJobm05Sk9TVnJ5RG9QMUs5bDF0WHp0d3owYkxKaXR2al8zcDdyaWFhS2FkTk1PNGh4eDd2S1k?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Wed, 12 Aug 2026 01:56:19 GMT",
-          "fetched_at": "2026-08-12T13:26:17.767843",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR cricketer Ramandeep Singh and actress Charlie Chauhan’s love story: From keeping it private to a dreamy ceremony",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZm1OVG9zdkxTd2hBcWFnTHd3cWZqMXBPbGxMUE5wSXQ3djZqVVd1NTg5RkduRGR4SVl4d3JEQVhXMGhpbnE2QlpJZ1V0aEhJbzNrS0YyNktlSERNS0x6WmtzVl9IZWIwWTNDRHhSSHMzdHpOdkxxcm1wMWFvdVNMdUJDVkNNbjQyMzdIZ3dXTDRJVE9QVWgzUlJJdTJoVjJvNnpaSm1PNmc0Z2t5OS1Bc0ZyLW4tR1dsb2hEUTBzYjN3X3gwbzZwem9ZZkhzX081M09IVW85SXJ3V0xtM1plR09mdUZUNUViYnRfNHJxQVJ2TkRqWWhudkRUQnB5V2pXYVNxWDdrc3p2ZU1NdGpVaFhzbmV5R0pX0gGgAkFVX3lxTE9WeDNNVXZ4RGtwR1dQRWpZZWNGMlViRjZ5SFItdzEzZjNoY1k1dF81ZDdXUzQ3dUNybWNzeTY1SERKM1JUTjJqOFdIb0JCVkFKenJha0dxQkhaM3VEM1hpdDhPblFEVlQzUlVpTWt6eEFENldYeGVkMnhfTGcxQ05PcXJ3c09PRzVzVzR4Vy1PZTZsNXZ4djFqWWJqU2t2VWw5eUVsVHJyQkJEblFrZEZxTmctM3pWQjZHcVZMMjdhYmdjQl9oT2o5cXR4RC02MXVycDVuczJ2dFhScHp2QnFjT0liRFVMdkJHSEY0Q0VZV1Y4R2xuVjdZLTlnS0V4NVpybGQwVWQwck5XVGxUUnB5dUxpSG0ycXEzZF9oUHo4aA?oc=5",
-          "source": "timesofindia.indiatimes.com",
-          "publishedAt": "Tue, 11 Aug 2026 08:47:20 GMT",
-          "fetched_at": "2026-08-12T13:26:17.767862",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNUGxLczhkY1phSHVqWkVkVWFNZUtzVjVXSmxlUzZBd1hjc1huVnpiMXZ1VWI1VE8zR09yR0ZQOURYM1F6Yl9mYlVtYmMyeDV1RHRSdVRvT0hfT0tzSklWb1plUHdpSXRjazVSVDIzMmFJekd2M1NXV2F2OW5UZ2dDS2F6LXBya2FpODJySFNVdjBFdFQyVkxCQ2F0ZVdCYkVxOEM5c3NZZ1VGTWhvS2V2V205dVVQRFJGRGx4N2xoRXBZQmpodzhxeHU3VGstV21KUEhfeGgwd1FYRVlXRGQ4WVJPUXpFM0dqS2lPaDZiV1VfOXdERVFGZVlHVHZaY3o0a0xTME9JMFJxaklvV1NNNEJabWdCNlhFT29sVE9UQ0FNX3o5ekY4YmtCLTlOTnZiZnUxSThVRVRwOHFhUldVSVIxU0FuWVpQSEpn?oc=5",
-          "source": "NVIDIA Newsroom",
-          "publishedAt": "Mon, 10 Aug 2026 20:09:50 GMT",
-          "fetched_at": "2026-08-12T13:26:17.767869",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Hardik Pandya IPL 2027 Trade: KKR Leads the Chase",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRE8xMm9qSHVYdC1IMFZkUW1PU01jRzREc2VINmpkdXJQUWxYWkhoUXRHTFZ1bHRoMXFmZkRGRWxRQ1NLb1BRNmttVHN2RXpzNUtWc0V0UlJTS05DU3M2Nndla0FfRk9SX3RMVmNGR1kteTNSV0pCek53SzU3Uk41dWl3?oc=5",
-          "source": "The Eastern Herald",
-          "publishedAt": "Tue, 11 Aug 2026 07:50:40 GMT",
-          "fetched_at": "2026-08-12T13:26:17.767873",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "From CSK To KKR, Hardik Pandya At Centre Of IPL's Biggest Trade Story",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWnRjVmgzN1dxQ2VNSHBxT2pyNHdIc0lSX1RoTlMxUXFOOU9fUzg0V05HclBXQ0NHV1dQaEw4d0ZmV0FmVjR1Wk1fNWltQ3dNWmRub2VfZmtOamRVdUZ2YzA5bG9tdF9OLVp1MEY5VUVMVEV2dzhwcWxPb0U2QWI3bTU5NHZCM0ZjbGk0Tl84NjZ5b09ISHBIakVTSnRNMEhxSkVSVkl2VUhqanJXVXl5aVByQQ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Mon, 10 Aug 2026 14:13:23 GMT",
-          "fetched_at": "2026-08-12T13:26:17.767876",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -564,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-12T13:27:52.164311",
+      "last_updated": "2026-08-12T19:06:40.224568",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -648,11 +602,11 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-12T13:29:23.478447",
+      "last_updated": "2026-08-12T19:06:40.359212",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -724,53 +678,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "CSK or KKR - Who needs Hardik more?",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPckhNc2ZjdjFDYnNVQzJDeHRpSlFvMDQwMzNoczdGdVA0U3hVMUhKeHBNVVRJVk1vZjJDVmY5ZXNZNm5EeTB2WHFOcE4tNWxTazJiZ0NQTWQ2NzN4ZmFNSVRiS21CcWhidWdCYTcwdFhBNFJSc1NRZHRuNnB5SWtBa0VLSUVmeXpOZHZud0tBZUFRTmdmRjNCcVB3?oc=5",
-          "source": "Republic World",
-          "publishedAt": "Tue, 11 Aug 2026 11:46:46 GMT",
-          "fetched_at": "2026-08-12T13:28:25.744724",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Hardik Pandya trade talks gather interest, but little headway for now",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUEhoVFBRcTEzd09BY3N2dGN6N1BkRlg1SUpNUEZYbGtlTGpWbUM3S0otV1k4OGRXZTJYcjlHTjlZdVdBZWkyTkVTdTRQaG11UFR0UDVnaWpDVVdNaTdJdlhWOTVOZklrUmZnVlBhNFBVUlJMZjVvM0JJYVRqcjFjVDk2MTRzUVJuSk1qQ3JhRmJySnlDUnZmVGxjZWNTYXd3Qy1ONVVUdnBSZTBTYXJPN0l6MjNvSThNTUphakgwSG5QMk0?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 10 Aug 2026 09:49:53 GMT",
-          "fetched_at": "2026-08-12T13:28:25.744738",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Hardik Pandya IPL 2027 Trade: KKR Leads the Chase",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRE8xMm9qSHVYdC1IMFZkUW1PU01jRzREc2VINmpkdXJQUWxYWkhoUXRHTFZ1bHRoMXFmZkRGRWxRQ1NLb1BRNmttVHN2RXpzNUtWc0V0UlJTS05DU3M2Nndla0FfRk9SX3RMVmNGR1kteTNSV0pCek53SzU3Uk41dWl3?oc=5",
-          "source": "The Eastern Herald",
-          "publishedAt": "Tue, 11 Aug 2026 07:50:40 GMT",
-          "fetched_at": "2026-08-12T13:28:25.744743",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Stephen Fleming Out, New Overseas Coach In? CSK Plot Major Transition",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeDhlZTV0aDJhNHd3QkltRDNTUkF5SERNQXc3aHJJVmUyeU0zc0w1a2NSc1BWVzFRSjhZTlBacEd5eHZLS2tKaTZtc1dLTC10TWxFNWxUOTdMQU9mejFaOFhVZnF1TlpMSnkwelQtSjVMZnBDZWp4bnhkM2VZU0Z5V2Q2VzYtRFVkTEQwTHZGdGNSbk01bm1xWVB4bEhPVU9zMWg4cW1hSExaQVM5M2ZCR2RGbUlkQlU?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Mon, 10 Aug 2026 16:55:35 GMT",
-          "fetched_at": "2026-08-12T13:28:25.744747",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Fleming Out, Thala Dhoni Watches On: What’s Brewing At CSK As Coach Hunt Heats Up",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSF9wREpkUzYzdEJKc3NteDZ3MEZ5MFhKd1FiQmhwSGZITVN4YXpwLURpd0FBMURCSnY2UnJkRlpaLXZyS0ZidUJjZUQwNXZLQ3dUZzItakVrT1lxVFRmandJdnFhMzk2VV8zc0ExcGwxSERkdmhZN3JPa3RnNTFnSHlJcDExT3dqYmJoRjZPRlI0V3ZUbTJMdjZaQThab216S2Z2T1F5eVBHcWJKNWZTdGRXOTQtZGw4NHdVRHh0LWjSAc4BQVVfeXFMTVFuSkNuY3Y1dVAzSjNYQm5KT1g3YmFKZ2Z1ZEN4WUNudUJ3OTNNd0NNTFFRaTRWbHlTaGJydF8xb0l6QUJhdm9FX29KSVVFQWdBdm96Rm9NclFJWUw1LWU4ZEx6cWxaZFdIRWZzMWg3aVUzMzJGdmxFdFdMbFVscjBoa0hwRlhCLTk2c19aOHc0NHdIQnd0ei1nbGFyTGk5NXhjWDQ4Yk40VE0xVEs4TE83YWhtVEdxeXU4WlE4Mkp2RzJHR05MeEYtOEtJVEE?oc=5",
-          "source": "Outlook India",
-          "publishedAt": "Tue, 11 Aug 2026 12:33:49 GMT",
-          "fetched_at": "2026-08-12T13:28:25.744755",
-          "related_to": "CSK",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -778,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-12T13:29:38.615718",
+      "last_updated": "2026-08-12T19:06:40.391810",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
