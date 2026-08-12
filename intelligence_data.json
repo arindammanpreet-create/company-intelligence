@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-12T07:48:18.054912",
+    "generated_at": "2026-08-12T13:29:38.615732",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,18 +14,18 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-12T07:39:55.066917",
+      "last_updated": "2026-08-12T13:20:39.285463",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -90,53 +90,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Tata Sons Chairman Reveals Why He Quit A Year After His Tenure Was Extended",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRTdVSWxweUhQdXBxUWNXcjRVWGl4Q1hIclVrdWRkTFozcTkwY29Ec24wT0VQZnJaRGZIeFcyeWVWbDZnMVpIY3JtNF91ZEVuRUdxMFNEeVdwVTdJT2tOR0tCektZbEVSbHczMlcyTW5KekdyUVZTYm44VjNsLTRMQ1BBNm9DYXJQUlFYa3VVVlNybFFIUzhlcENUYzV1bF91NV8tUnBLejh1ak9mVU1XNGRNVFo1dl9YT1dGUUJoU2w3VDBhbm9tOG9vTFlHWXhBc0h4Ymc4U29XT1FYVXFHWDJSOVRmVmfSAe8BQVVfeXFMUElSWUNiZDBtYVc0NF9iMjRlX3R2Snh2d3RnLWhaUUlkX244YXZ3ekxNUEtFOUVsUVI1Vk5OWVlJcVNVNXI0ZFdWS2ZYQzhiVDhYQ0hRZzhYUVBJWDlGMUpLd3dwTW9UZmZjb25YcGZBMkx4WHc4VmkwaG1INl9sQlNKZFctLWlXMmQ3U2ZmXzBVWGQ1ejczRV91ZmVzc1hBMmsyNXEwdGRVbktRclFXYXd6UkcyampnNUhyMHl3SUQ5LXJLV2xNRHhzT0F6U0xzazJBZlJNVnZrYm1HLWN2cVYtQzdiRDVOb0FLTWdBMmc?oc=5",
-          "source": "NDTV",
-          "publishedAt": "Wed, 12 Aug 2026 06:23:35 GMT",
-          "fetched_at": "2026-08-12T07:39:12.272945",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Sons' IPO can take a page from Hong Kong titan Jardine Matheson",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONHdHSTFTZ3poTno1WW9DZDFvNEQ1alJTRUQ5ZjFHMy1fTl96WF9NT0J6RWVvOUhhN3FlVWVoVUU5WVgyRlpuR1dzRG9UaDQ0cVEtWE5aQ0tPMHQzN0tRVnMybzg1WERJNDEtWHphMzZUZW9XUGZaUTE5S0R0X1o5R0RhSktTU0xuSnpXc2xOdWFBUk9kN2lnaGI5cEdfaTYwZjI3SV9iVkVOc3A0bkhkZnRVMnhRdTIyc25rQWJ5OGo2T1FyVEVmVGpNLXppYm9zTmfSAdcBQVVfeXFMUGdjVTd1MjVUUkw5blFCak5sZEJaSGNMNGgwNGxLR3NaeVM5QjJkQXRMSlJLa3VsZHdKYzFlRTkxdEdpT0IyTmJudUlyTkx1SGdrbEZudUk5bmR3NnliSXdaM1ZxNkMxQk1qQ0NmYlN0Yi14cV9vcTVFTlpYcDR4R3dBT1k3SnhSZVlBWEo5M2VITnpaXzdDX1J0c3RWRkVDVXF5blhyS3BaZ3hKX3p1ZVpBZ1RVczl6YXQ2dUNyQ25mMzZfUldXRVh1R0tnV2wwR1N5SENJdzg?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Wed, 12 Aug 2026 03:51:14 GMT",
-          "fetched_at": "2026-08-12T07:39:12.272960",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata group stocks fall up to 4% as N Chandrasekaran steps down as chairman",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUTZHU19pUnNGclpCMHdnTU8tVEN6VUpHU1RkT0QwMTlpaThoc2ZhTEhMWFF5SlU1QmdhZnlpVDM2YkV6NVpRdXQzRkt2dEhjYkxhT1E1TUg5bjRpbEJxcnN2UkFXX0xIc0lJWkRkbUtkbkJ4YkxYc2FrYWVQSGpXY0F1bURyTDVHUllsajl2aWRFR3JGQ2szQmx6NkZJSTJsVVh2WnNhZUdsT05oNmwycTBLQXRPc0hoSU00UThuN1A4SkcyM21HN3FHRkNFRXpIZXhoWGZVWll6b2laYnk3eFhoanZtR20xRnkxaGRzcUnSAfYBQVVfeXFMTkRmWVhETUk1RHlqNkFHMDhWQlp0U0J6b3BVUWZabFczT25xQkxaWjlvci1YbENrMy02N1JWQ3NSN3BuUzAwc0d2bjM4a0NuX1p3Qk9hSGdHRHhGNnRQS0lhQ1pOeGFDaEhPUlJJQzc5RndBT0JLWkwwaFNNcUhUSTUtOHI4RWRaTFlXeURUR2YtbmJ1MnNUeEp4VXBSTnVMR2RMZTdxU1hFakFyZEUtNkhQLTJjUk9qZ3hXc2tJZk1ISEwtalhiVm5TdlR4V01RSXlscFp6YkhWOWI3dEdacFJaVFdEalFSWHdJb2pya1dfNk1hckVn?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Wed, 12 Aug 2026 05:51:00 GMT",
-          "fetched_at": "2026-08-12T07:39:12.272965",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Breakingviews - India’s Tata group needs a new leader",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLVptMFRNVDdkQmw2b1htaFNCQnZNaUdEQW1PbUM2QlhiZ1V6NGh5UnV1RTJYZTVFZjFNMkVZSERmamFJUDVteVQ5WWZUNjNubEpyOExPVWQtRlBPTkhPWWhIN3cyTjFGUnByY3FRV09mcExDZmZiR0Zrai1DZTZCN0R2TnJhNUhCT01vSUsyZHZqX01VSVRLNktNOA?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Wed, 12 Aug 2026 05:41:22 GMT",
-          "fetched_at": "2026-08-12T07:39:12.272974",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata chair resigns as succession row escalates",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQS1yMWRscjUwQ1hJYTd0U0NLZW45aXh3dHBTeDZJYU5TS044bllrRVNZRW9xb3ZqRFhwLXRuRlNzVDkzVXc0TVRJR0IwbXRTTDVkUS1JamFVVDZ2WVlCVUx3TXZiMnZWeVM4SXMyVlExN1lFRzdqWFZFNjIxU25TeDNUMlU?oc=5",
-          "source": "Financial Times",
-          "publishedAt": "Wed, 12 Aug 2026 05:57:26 GMT",
-          "fetched_at": "2026-08-12T07:39:12.272977",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -144,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-12T07:40:21.526939",
+      "last_updated": "2026-08-12T13:21:53.652329",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -228,43 +182,21 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-12T07:41:34.475283",
+      "last_updated": "2026-08-12T13:23:07.917571",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 2
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Regulatory Headwinds for Infosys",
-          "severity": "High",
-          "description": "Regulatory overhang detected for Infosys: investigation. Compliance cost and policy risk assessment required.",
-          "detected_from": "BSE to replace Wipro in India's benchmark Nifty 50 index  Wipro Share Price Highlights: Wipro Stock Price History  Wipro Stock Falls as Nifty 50 Exit ...",
-          "gap_type": "regulatory",
-          "keywords_found": [
-            "investigation"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: Policy & Regulatory Risk Monitoring",
-              "impact": "High",
-              "timeline": "4-6 weeks + ongoing",
-              "price": "₹12-18 Lakhs + ₹1.5L/month",
-              "methodology": "Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning",
-              "description": "**MRA/ESOMAR-compliant study**. Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning. **Deliverables**: Monthly regulatory radar, Compliance cost models, Stakeholder matrices, Pre-budget memos.",
-              "gap_type": "regulatory",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -304,55 +236,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "BSE to replace Wipro in India's benchmark Nifty 50 index",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeGhIN19pS1ZwOUhZbGZZcVV1LW5DaGxLcHEtdHpGVk9qVGdqaEx5NG9Xbm5XWkN4M0c3NmRJS2xkVUhsTmppMlZSeFVtV3pPbnVTdU8xNVZxSC1sUTVHSnhQdE9LQzhOLXhCOHdWTXVhcjJUNE96V2hqeGMya2pQblNIQTEtUEhUSllQUWRuYThadnFqNTBuVUdham9PQQ?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Mon, 10 Aug 2026 16:50:20 GMT",
-          "fetched_at": "2026-08-12T07:40:58.146196",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro Share Price Highlights: Wipro Stock Price History",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdlZCRXFPVFZrUWtPNWFoYm9JWDNjMEtuQjdfcUNlcndzT0Nlb3BRb21qeDZGUlFNSnlYV3QyTHJSbDJHU19kanRyb3NyWXNwaEZoa212Z1ZYY005QWQwX1Y3RmdGdHhqT3AzM1RZVmdjeHZPZ1Q1NUhMWXJhdnNjQlNiNjVVSkkyM2pISUdld0JQUjJ2UXl2WjJ1dzRGU3V2T3d3QnI1dV9pS2pUdC0xMTdoNWhSZlJDWXZVbmh30gHDAUFVX3lxTFBMai1WTjJpSW91bDZITm5pSkZXVHg1OU1rWGk2Yy1Ibk5PN2EyYXcwdGtNbUQtN3ctVmRlM2V0YmNUWUZJdXVsMktRTzhOREpRWEhfVnkwUjZfZjBoYjRsMU1RWWlQVXJLYTQySWxiODB0OThuWnkxTHAzeTZvWUg4MmtPcDEtbkNmVkctOWpSU3l2UXFCdXN6WmhGT29LQ0RFaHItOURLdFAzVmVOOEp1bHBJbWJOWEI4UDJoWk9lS0tDZw?oc=5",
-          "source": "economictimes.com",
-          "publishedAt": "Thu, 06 Aug 2026 13:01:26 GMT",
-          "fetched_at": "2026-08-12T07:40:58.146210",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Wipro Stock Falls as Nifty 50 Exit Looms",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNVpjcDAwM29jWkJpM2dZaFJ3ZjVObnd6TV9jZFJ4M3B6UmdSUGUxZzhXQ1l5NGNiLVp3cW9LbW95dFQtZDJGWGstejd6Z09RS0NGN05FclJhNG1zUkg2amFDZWtpaS1yWTVuM0NJZERzTEs3TUxoX0Q3OXBmVXh5Z1UzV2k3UQ?oc=5",
-          "source": "GuruFocus",
-          "publishedAt": "Tue, 11 Aug 2026 18:32:42 GMT",
-          "fetched_at": "2026-08-12T07:40:58.146215",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Nifty Rejig: Wipro could be excluded for the first time, replaced by either of these multi-baggers",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOWEwVy1HUW0zc0ZNWWUyNFl6cWJQZnBQSXBSai1rTFY0OU5mNW1CMEFiMkpGdWhvYVQwVEdKNVdiLW96SmE4V01ETHYtRG82ei1XREUwSXdQZXR0alZmd2JxLTI0WDZVU05OeUxRUzRaWHItRUotU1ZmWEF2RGFMWHpaLUxSZDEta3hhaWJXa0pOREVGdEVzVGgyN3pidDhFaTFjLXpwNjRNSy1pX1U3bnVIektrWVZhb3A3SE0ybTlrSHRXMzFZTWNPYnZnWlBDYWxTUEJBMNIB3AFBVV95cUxPdTlBRUtJT1R0LU9xdnNHaEIyRmFnanhqajJ3bjZVNmVWLUpnSXlESy1fMl9wNEdfUGRTQkZNcTgwOWpiOHpyeWRsZUFkeE5pbjdSOWZ6TjVBd3hrM055aFRJeG5KOHJuVURxMW1SbjRCbUZkZi1yZmlzb2tCVUVCOGYwSmt1amlINEF4b3VZQjQ4SkF6MGU0ZVF0dWxOMzJWZUtYRm9DekNGWllYaXlraFNoNnNCVzljWjlVazhDTVVrSnVwZXJhMVdnbFJ5VWE1Rlhqd3pxeDhNQ2dv?oc=5",
-          "source": "CNBC TV18",
-          "publishedAt": "Mon, 10 Aug 2026 04:51:22 GMT",
-          "fetched_at": "2026-08-12T07:40:58.146219",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        },
-        {
-          "title": "BSE Share Price Jumps Over 3% As Traders Bet On Nifty 50 Entry, Wipro Swap Out",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR3NLV0tUamxuYlZubXpyMkZUVk1iaGxfRGJHOWFQTGFZakpwT01UN2pzT0xvQmJmaDVrNFQ2N00yZnUwdVRsc1ZoVXFOVEcxRGRVbnQ4WXN0Z3ppVUhEWjhzUWFraFN2OEhwbW5ocnE3aExrYjJBcjY5eTdUN3dTU19jaUFueFo3a0dHSlBsN2c4ZV9NZloxaWxrTThwVTdoNVFfTy1YcjlFTUtLaFZoOC1mUdIBuwFBVV95cUxQZEpERnZianRzU2pHV0RXRFplWkhJaXhaN0Y0eWN4aFBYQzlyak9uTlBoX1RWOXMtWmM2NWNNeXNkcksyeG9Hb2laODVzZmhtMlVSMklxSE5UeEd3MXdHZVZmaWFDZGJ5MklDUUZtcFNrT1l0WC14LXUwbHZUdkRFYzBETFFwSjluaFI4R2JJaEdEQW85NVZTb3BGUjc4RHllM3lscnVpVktvZlctQmFGUkV0VldialV5dVZB?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Mon, 10 Aug 2026 06:23:29 GMT",
-          "fetched_at": "2026-08-12T07:40:58.146223",
-          "related_to": "Wipro",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -360,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-12T07:42:44.205080",
+      "last_updated": "2026-08-12T13:24:20.274354",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -444,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-12T07:43:41.830866",
+      "last_updated": "2026-08-12T13:25:20.899213",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -528,11 +434,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-12T07:44:43.888649",
+      "last_updated": "2026-08-12T13:26:36.827597",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -604,7 +510,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "KKR, Gujarat Titans Sent Major IPL Trade Deal Message. It Involves Two Big India Stars",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOGpJZVdpWkZLQm1WY2ZaSFNKN0c2endsTlg4bjVCSHB6RXZqcnV4M2p1Z3RlRF95X2wwNjB4TEFLVlU4ZVY5TkkxZnNvcjFxSU41OXd2TjFMSm5vZjJpZ1p2X2gwel9vRWhZcDJCOEdzVkl0RXR2SGI0N3ZVQ2RfdUNmUVh3MW8wUnBhazJobm05Sk9TVnJ5RG9QMUs5bDF0WHp0d3owYkxKaXR2al8zcDdyaWFhS2FkTk1PNGh4eDd2S1k?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Wed, 12 Aug 2026 01:56:19 GMT",
+          "fetched_at": "2026-08-12T13:26:17.767843",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR cricketer Ramandeep Singh and actress Charlie Chauhan’s love story: From keeping it private to a dreamy ceremony",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZm1OVG9zdkxTd2hBcWFnTHd3cWZqMXBPbGxMUE5wSXQ3djZqVVd1NTg5RkduRGR4SVl4d3JEQVhXMGhpbnE2QlpJZ1V0aEhJbzNrS0YyNktlSERNS0x6WmtzVl9IZWIwWTNDRHhSSHMzdHpOdkxxcm1wMWFvdVNMdUJDVkNNbjQyMzdIZ3dXTDRJVE9QVWgzUlJJdTJoVjJvNnpaSm1PNmc0Z2t5OS1Bc0ZyLW4tR1dsb2hEUTBzYjN3X3gwbzZwem9ZZkhzX081M09IVW85SXJ3V0xtM1plR09mdUZUNUViYnRfNHJxQVJ2TkRqWWhudkRUQnB5V2pXYVNxWDdrc3p2ZU1NdGpVaFhzbmV5R0pX0gGgAkFVX3lxTE9WeDNNVXZ4RGtwR1dQRWpZZWNGMlViRjZ5SFItdzEzZjNoY1k1dF81ZDdXUzQ3dUNybWNzeTY1SERKM1JUTjJqOFdIb0JCVkFKenJha0dxQkhaM3VEM1hpdDhPblFEVlQzUlVpTWt6eEFENldYeGVkMnhfTGcxQ05PcXJ3c09PRzVzVzR4Vy1PZTZsNXZ4djFqWWJqU2t2VWw5eUVsVHJyQkJEblFrZEZxTmctM3pWQjZHcVZMMjdhYmdjQl9oT2o5cXR4RC02MXVycDVuczJ2dFhScHp2QnFjT0liRFVMdkJHSEY0Q0VZV1Y4R2xuVjdZLTlnS0V4NVpybGQwVWQwck5XVGxUUnB5dUxpSG0ycXEzZF9oUHo4aA?oc=5",
+          "source": "timesofindia.indiatimes.com",
+          "publishedAt": "Tue, 11 Aug 2026 08:47:20 GMT",
+          "fetched_at": "2026-08-12T13:26:17.767862",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNUGxLczhkY1phSHVqWkVkVWFNZUtzVjVXSmxlUzZBd1hjc1huVnpiMXZ1VWI1VE8zR09yR0ZQOURYM1F6Yl9mYlVtYmMyeDV1RHRSdVRvT0hfT0tzSklWb1plUHdpSXRjazVSVDIzMmFJekd2M1NXV2F2OW5UZ2dDS2F6LXBya2FpODJySFNVdjBFdFQyVkxCQ2F0ZVdCYkVxOEM5c3NZZ1VGTWhvS2V2V205dVVQRFJGRGx4N2xoRXBZQmpodzhxeHU3VGstV21KUEhfeGgwd1FYRVlXRGQ4WVJPUXpFM0dqS2lPaDZiV1VfOXdERVFGZVlHVHZaY3o0a0xTME9JMFJxaklvV1NNNEJabWdCNlhFT29sVE9UQ0FNX3o5ekY4YmtCLTlOTnZiZnUxSThVRVRwOHFhUldVSVIxU0FuWVpQSEpn?oc=5",
+          "source": "NVIDIA Newsroom",
+          "publishedAt": "Mon, 10 Aug 2026 20:09:50 GMT",
+          "fetched_at": "2026-08-12T13:26:17.767869",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Hardik Pandya IPL 2027 Trade: KKR Leads the Chase",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRE8xMm9qSHVYdC1IMFZkUW1PU01jRzREc2VINmpkdXJQUWxYWkhoUXRHTFZ1bHRoMXFmZkRGRWxRQ1NLb1BRNmttVHN2RXpzNUtWc0V0UlJTS05DU3M2Nndla0FfRk9SX3RMVmNGR1kteTNSV0pCek53SzU3Uk41dWl3?oc=5",
+          "source": "The Eastern Herald",
+          "publishedAt": "Tue, 11 Aug 2026 07:50:40 GMT",
+          "fetched_at": "2026-08-12T13:26:17.767873",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "From CSK To KKR, Hardik Pandya At Centre Of IPL's Biggest Trade Story",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWnRjVmgzN1dxQ2VNSHBxT2pyNHdIc0lSX1RoTlMxUXFOOU9fUzg0V05HclBXQ0NHV1dQaEw4d0ZmV0FmVjR1Wk1fNWltQ3dNWmRub2VfZmtOamRVdUZ2YzA5bG9tdF9OLVp1MEY5VUVMVEV2dzhwcWxPb0U2QWI3bTU5NHZCM0ZjbGk0Tl84NjZ5b09ISHBIakVTSnRNMEhxSkVSVkl2VUhqanJXVXl5aVByQQ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 10 Aug 2026 14:13:23 GMT",
+          "fetched_at": "2026-08-12T13:26:17.767876",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -612,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-12T07:46:28.409139",
+      "last_updated": "2026-08-12T13:27:52.164311",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -696,11 +648,11 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-12T07:47:48.006521",
+      "last_updated": "2026-08-12T13:29:23.478447",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -772,7 +724,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "CSK or KKR - Who needs Hardik more?",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPckhNc2ZjdjFDYnNVQzJDeHRpSlFvMDQwMzNoczdGdVA0U3hVMUhKeHBNVVRJVk1vZjJDVmY5ZXNZNm5EeTB2WHFOcE4tNWxTazJiZ0NQTWQ2NzN4ZmFNSVRiS21CcWhidWdCYTcwdFhBNFJSc1NRZHRuNnB5SWtBa0VLSUVmeXpOZHZud0tBZUFRTmdmRjNCcVB3?oc=5",
+          "source": "Republic World",
+          "publishedAt": "Tue, 11 Aug 2026 11:46:46 GMT",
+          "fetched_at": "2026-08-12T13:28:25.744724",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Hardik Pandya trade talks gather interest, but little headway for now",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUEhoVFBRcTEzd09BY3N2dGN6N1BkRlg1SUpNUEZYbGtlTGpWbUM3S0otV1k4OGRXZTJYcjlHTjlZdVdBZWkyTkVTdTRQaG11UFR0UDVnaWpDVVdNaTdJdlhWOTVOZklrUmZnVlBhNFBVUlJMZjVvM0JJYVRqcjFjVDk2MTRzUVJuSk1qQ3JhRmJySnlDUnZmVGxjZWNTYXd3Qy1ONVVUdnBSZTBTYXJPN0l6MjNvSThNTUphakgwSG5QMk0?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Mon, 10 Aug 2026 09:49:53 GMT",
+          "fetched_at": "2026-08-12T13:28:25.744738",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Hardik Pandya IPL 2027 Trade: KKR Leads the Chase",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRE8xMm9qSHVYdC1IMFZkUW1PU01jRzREc2VINmpkdXJQUWxYWkhoUXRHTFZ1bHRoMXFmZkRGRWxRQ1NLb1BRNmttVHN2RXpzNUtWc0V0UlJTS05DU3M2Nndla0FfRk9SX3RMVmNGR1kteTNSV0pCek53SzU3Uk41dWl3?oc=5",
+          "source": "The Eastern Herald",
+          "publishedAt": "Tue, 11 Aug 2026 07:50:40 GMT",
+          "fetched_at": "2026-08-12T13:28:25.744743",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Stephen Fleming Out, New Overseas Coach In? CSK Plot Major Transition",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeDhlZTV0aDJhNHd3QkltRDNTUkF5SERNQXc3aHJJVmUyeU0zc0w1a2NSc1BWVzFRSjhZTlBacEd5eHZLS2tKaTZtc1dLTC10TWxFNWxUOTdMQU9mejFaOFhVZnF1TlpMSnkwelQtSjVMZnBDZWp4bnhkM2VZU0Z5V2Q2VzYtRFVkTEQwTHZGdGNSbk01bm1xWVB4bEhPVU9zMWg4cW1hSExaQVM5M2ZCR2RGbUlkQlU?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 10 Aug 2026 16:55:35 GMT",
+          "fetched_at": "2026-08-12T13:28:25.744747",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Fleming Out, Thala Dhoni Watches On: What’s Brewing At CSK As Coach Hunt Heats Up",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSF9wREpkUzYzdEJKc3NteDZ3MEZ5MFhKd1FiQmhwSGZITVN4YXpwLURpd0FBMURCSnY2UnJkRlpaLXZyS0ZidUJjZUQwNXZLQ3dUZzItakVrT1lxVFRmandJdnFhMzk2VV8zc0ExcGwxSERkdmhZN3JPa3RnNTFnSHlJcDExT3dqYmJoRjZPRlI0V3ZUbTJMdjZaQThab216S2Z2T1F5eVBHcWJKNWZTdGRXOTQtZGw4NHdVRHh0LWjSAc4BQVVfeXFMTVFuSkNuY3Y1dVAzSjNYQm5KT1g3YmFKZ2Z1ZEN4WUNudUJ3OTNNd0NNTFFRaTRWbHlTaGJydF8xb0l6QUJhdm9FX29KSVVFQWdBdm96Rm9NclFJWUw1LWU4ZEx6cWxaZFdIRWZzMWg3aVUzMzJGdmxFdFdMbFVscjBoa0hwRlhCLTk2c19aOHc0NHdIQnd0ei1nbGFyTGk5NXhjWDQ4Yk40VE0xVEs4TE83YWhtVEdxeXU4WlE4Mkp2RzJHR05MeEYtOEtJVEE?oc=5",
+          "source": "Outlook India",
+          "publishedAt": "Tue, 11 Aug 2026 12:33:49 GMT",
+          "fetched_at": "2026-08-12T13:28:25.744755",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -780,7 +778,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-12T07:48:18.054896",
+      "last_updated": "2026-08-12T13:29:38.615718",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
