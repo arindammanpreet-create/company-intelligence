@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-13T02:28:11.800693",
+    "generated_at": "2026-08-13T07:51:13.413949",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,18 +14,18 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-13T02:23:44.053135",
+      "last_updated": "2026-08-13T07:41:54.096882",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -90,53 +90,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Tata Sons chairman N. Chandrasekaran to step down in February 2027",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUhKRFBSUHVtMlVRaHI3dmljU25UY000RWlQeVRNRVd2c2VKRmtCZm9Ic2FTcFdSX1NmVlVFTk84Z0xTWWYyOGg1MWszaTBvRDRHNzlpQWxoV2lIN0xjbm5JaWExUTFkZnFaSTlXdU96N29CWmkxdGdfZmtPZHNzOG5tZmdwbTZhRkQzc3JJTzRWaXRCTDhxbV8wTlRpVlZFNktQT25ZSTVsMXpVT0Vr0gG2AUFVX3lxTE9kanJQZDZ4Q3hqazJnVmhxUkF5UGpJTWJieHVBbUNPbDZIMU9FdTFjNDAyOTBTTGZRcnV4a2s3YWdDUGcxOV9OY3dIeElsSUs4dE9mTHgyUkVRenBUM2J4ZzQ3OHk3R184YlFDeFlZRHZINDJ1Y3J0LTllaVZoTmEtdTdpN3VTMFRPUGoxNFo3UUJ5Rmkxd0hrNXI5bTVmV2NDbTM1eGRtNUFMUkdsZ0NleFA1RlFB?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Wed, 12 Aug 2026 06:07:59 GMT",
-          "fetched_at": "2026-08-13T02:22:58.973575",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Bengal outreach to Tata continues despite leadership change, says state minister",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORndTeDg2YzR4Q19rdXBqRzRidk0telc4aUt0Qkl6YS00ZEtZSUZPYXg3a0MtTkNVMDhQY1BlRGpIb1hfQzJEUDM0SzJGUW52ODJLYmhySWpHUmhpU3dKMXJUMlVFUmpzLTdGVV8taExYME5kXzRGMDRvTHJ0V0p4RFQ3UWwwaUJ5dGcxZXVJV1YwRndSWTJTNFI3V0hWTnpoVG5rTUNTdklLOXBKQjRmTVFvcDJPdWhUa09xc2xKcnV6UFVZNDFGWU55c3BVZHNfTGh5Z9IB2gFBVV95cUxQTDFaWHJzWmFGZ2V2Vk1vYVJSSWRwTUhDSnJFaUZHSFY0T2g1YnBIMUo1RXFFRW1BTFBMaEFoLW9JOU1xNjNsWlEwdGhETnlmcnlRQUJGdWZDSjNUYm5DNm5mM1JBM0lQdmVjN1BlOHBMcjdTb0RRdk5EQTU3RTFYajNuZ01XQTVBZU15MEhWTTBjbUNlelJscjQtcjNWd00xTHdtZnlaNHo5TzU4a3ZmLTBENkg4TnhTcVpRVV94M0xaUmlaUXBiQjJUblBLd1Y1WVlVdnpnR3FDQQ?oc=5",
-          "source": "Telegraph India",
-          "publishedAt": "Thu, 13 Aug 2026 02:12:52 GMT",
-          "fetched_at": "2026-08-13T02:22:58.973590",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Group stocks fall; TCS tumbles nearly 6%",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQXzVRRUIxb3lON3BsODF0dkVoMVp4MDM3T052VnJIRmpXVDJNSkVfTVJRZ1gzVjRuTDM1eEZqdzl4anRpRUpEZjdhbXR1Zzk0eWN1SzkwWHVjc0JOQm1DeVRJZHVhTFlrM19pSzZNdnRsTXAyRXF3VkVfMEdXcDY3ODZiYmNHeDNja0M2MUFfbWo1NVg4TkdWZjBlNmV5LWN6dzd4alNvdlI5UjJFQ2RSeF9ITEstbE53aExOZTdDdTVpcEpzYjRValMxTEJYUk5zUlNRZG9Dcm9uUXRSMFBoXzVCTkxMa0dCNDRpQW1uNWpRM2vSAfoBQVVfeXFMT3pCaElqbTd4NmVMSUM3SmZtQVAxQ1dydkpkSFpqV0p2NlhzenVEVWptSlQ5a1NHZDFoRXY1NHZWR29Wa1BkWDdPZ1hzWHFSaVVXZ3dqNXRBM2FVSFF5SmNlUVE5c3E4bWhNTXlDZXJWWWw3UkFtTGFobjJWRnpVQVdrR1pyWHRnR1BJUklmNGRsQmhOV1Q4bHdnTTFmZFFfVmRNS3dwOXU4VVhPNzU4TEJMNUlHd2tZN0s0ZFlaLVk0dnFqRVgzNlBJT0dONHBlU3F4VjJnY2tYMExoOGh3UWZBcF8zSmRDdnFlTUNMVzAzaTRSVGtOOVMtdw?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Wed, 12 Aug 2026 07:48:18 GMT",
-          "fetched_at": "2026-08-13T02:22:58.973594",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "In Numbers: Tata Sons' Unlisted Businesses Back in Focus After Chandrasekaran's Exit",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVWN4bVN6MTBTRnpDY2ZTR0VCMU5HQTJUTldZSVpKSUFOVjZzTTdnNTV4cVFCMEd3cUZyOWJyWHAyTnpZNDNNc0JLWmhNbXdzY09VOXA1eWxmcUhyZUZOc0F3NGFzWkdlQ1pidGw5NnM0UnJvT0c3bzFUcWtNVTJITXV2N0g?oc=5",
-          "source": "Forbes India",
-          "publishedAt": "Wed, 12 Aug 2026 18:55:41 GMT",
-          "fetched_at": "2026-08-13T02:22:58.973597",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Group Has a Succession Problem...Again",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMWpfQ1Y4MDlaZnhVd1N3Mnc2R0tTZnM1UGZqR2tCdTJlTmRnSGNoT1pOZEhRdWo0Z2hURV9Ba0hXaTl1X1N4aDlYUkc3YWRtUUo4ZXlQNnYzQjZrQmo0M1ctUldrcFVjcWxaemUyZEJlOEZWeHVMWllLZERfeF9Hdkp4RzMyTmZLZkRVbjFOVGRrSDZSM19nM0lEb2J4bVNpamNZQk1SbVNQZjBwZ29nLXVCS3pmN0RFY0NJZm1B?oc=5",
-          "source": "Bloomberg.com",
-          "publishedAt": "Thu, 13 Aug 2026 01:21:05 GMT",
-          "fetched_at": "2026-08-13T02:22:58.973599",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -144,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-13T02:24:56.876656",
+      "last_updated": "2026-08-13T07:43:07.824730",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -228,18 +182,18 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-13T02:26:23.922937",
+      "last_updated": "2026-08-13T07:44:30.418920",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -304,53 +258,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "TCS flags data leak claims, finds no breach",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdEJTaExYN0JiUU9iY0liMk5wd3B1Ql9HNmx4MmtaODNaTlNFNklRaHBscjVXajdlbUZQR0VTNlRGS0pJTXRzVUlKbV9mT1hxTVE0UWtINFNXVWlfLXVjUzNEYm9xY2U3WGlzaHV6dU1FY0hBLUMtS3NOcllxUEFudHZub2tLYlFfblJnOVg2ZmRwbUlkbUEyU3Nfa0syUkhTd3VMZmM5T3JrZ2NEZzBxV1JYdVB0T1FNRjZOdTNTYTJ4azlBLVJZ0gHMAUFVX3lxTE5rX2FQdzVtMWplZVZHYjZxXzdtYm5Nekc4QTN4Yl9QTVFCcjJaRVlaT1drMzd6WHJkeWl6a1NCM19tSml6TlZPYnh2VVRKRS1yZHBQZzc5RHJOdmhIUlVsSDVmZDlldUp2UDFQTFRFOGFRMmREOXVLSTAxU29tRlhfZ2Y2SFBBYkRmbDR1Ym8xVWhFdnNtZlF3cVRMbjJjbXY1U2JUaWxDUXF2RXZiV21RVDFfSmFnVC03NUV2OWFIUFRyVTdfZWtkQTBuNQ?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Tue, 11 Aug 2026 00:44:00 GMT",
-          "fetched_at": "2026-08-13T02:25:25.280224",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS flags alleged exposure of some employee data, says customer data not impacted",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOG1PUGp0a0tXRmlEZzJyRWFaeHlxRTdjUG9JRjF4cHZ0M09CcWhaMHJTOXl1eFUyclAxM2pYV1BDekNHVVBDQmRtaWJpRmV2dHNXclpvTTJxWnIwRFNoMDFvMVVzS3BqaTNOMXJaN2YzdE1iZkNiRzBjdFBaeXRWS1RreUREejRlSDFRd0gyOExtNzVlM29NWDNPdEd1bDBWLVcyUzJEYjdfM29rMlVQVjNYbE9xZmpFOEE2ZVFhMUx3T0FUblU5UUpSN2pYWEtIQzVvNVdRVktEVGQ5dnfSAeQBQVVfeXFMUE9uTGdzUEF2WlRERUJja3pwOUg3V3ZMbm1VOWpUUzUtdHllOWY1MVFvWWtuMWdtcjZOTWFOdzJDOXZ5WU9sWTZFemh3b2d5NG1pNWdjeU5rTHMtcVI3aHA4R04wMm4xeG5yZkYyTE14d1FVSVdvdk51ZGVqN0c5eGY1WnFYN2o1dm5nQXFvRm1CUWNsVnBTWmo4T3NLVDJrSUNnTGdxaWJlQ1J1bUJQc3RrQWNDTWtObks1aU14YmtSSlM0d2J4VkxCVVlRMHRJc2VxM0M1cmpwYXJGeU55TGJ6dEdS?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Tue, 11 Aug 2026 04:10:53 GMT",
-          "fetched_at": "2026-08-13T02:25:25.280237",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS says no breach found after claims of old employee data exposure",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPckxvdURKN19KODhQc2ZzRDVsOGZibnNWTVdjTFhtdDh6amI1MXpRN0ZIZWJZbHlQcXktcHNRSzc5THNnbjJQYXhtLUZoakthZ1o3MHJYeS1meWY5YVFzZDRDU19QcU1HbzRfNUZrbUUxVlhaZlZoWEtIc2hBSVFWblFSUFVWdERwVmRoTmhlYk00eXRMM0MzM2F6MWJTN2kzN0EwYml4cXJMcWRiV05ZVUFn0gG3AUFVX3lxTFAtQVdHWU1JZFcxQVphSWI0NzFkWklVaXlKLUpidEpMVzEzZVBHNWk3RGdYWlhYd2xpWHMydTFBcUxvbEYtNC1HaUdsTHFiN3VLekx2UUFOMGZkZ0JNNDJJMFZvZzlJbVItaUlXelB6R2h0RWMxRzVMOWJnR0llWWZyX1g0dThtNVZ5UU5yMV9aOXVLdERlMU5BOUxvaFdQTWFKSmNVd1FtUHFsWkZEcDZ2dk5qNlI3Zw?oc=5",
-          "source": "firstpost.com",
-          "publishedAt": "Wed, 12 Aug 2026 06:10:15 GMT",
-          "fetched_at": "2026-08-13T02:25:25.280242",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Group stocks fall; TCS tumbles nearly 6%",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQXzVRRUIxb3lON3BsODF0dkVoMVp4MDM3T052VnJIRmpXVDJNSkVfTVJRZ1gzVjRuTDM1eEZqdzl4anRpRUpEZjdhbXR1Zzk0eWN1SzkwWHVjc0JOQm1DeVRJZHVhTFlrM19pSzZNdnRsTXAyRXF3VkVfMEdXcDY3ODZiYmNHeDNja0M2MUFfbWo1NVg4TkdWZjBlNmV5LWN6dzd4alNvdlI5UjJFQ2RSeF9ITEstbE53aExOZTdDdTVpcEpzYjRValMxTEJYUk5zUlNRZG9Dcm9uUXRSMFBoXzVCTkxMa0dCNDRpQW1uNWpRM2vSAfoBQVVfeXFMT3pCaElqbTd4NmVMSUM3SmZtQVAxQ1dydkpkSFpqV0p2NlhzenVEVWptSlQ5a1NHZDFoRXY1NHZWR29Wa1BkWDdPZ1hzWHFSaVVXZ3dqNXRBM2FVSFF5SmNlUVE5c3E4bWhNTXlDZXJWWWw3UkFtTGFobjJWRnpVQVdrR1pyWHRnR1BJUklmNGRsQmhOV1Q4bHdnTTFmZFFfVmRNS3dwOXU4VVhPNzU4TEJMNUlHd2tZN0s0ZFlaLVk0dnFqRVgzNlBJT0dONHBlU3F4VjJnY2tYMExoOGh3UWZBcF8zSmRDdnFlTUNMVzAzaTRSVGtOOVMtdw?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "Wed, 12 Aug 2026 07:48:18 GMT",
-          "fetched_at": "2026-08-13T02:25:25.280245",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "29 Runners, 100km, One giant Jaguar: Jaguar TCS Racing sets World Record",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNazZDbldWeldiWkZYUS1rOWVZbDdabHBuazUyRFhjQXBPc2ZVTnRud3BCYzdBMW5uNE8wWjZXY1YyWU14cFhMVmpEbTFkQldZWlpwaF9WbkVlZEp4Z19JMkd0S0JGMmU2WlpDOUVWNGdIdzRncTI0UXlKWVh6OFRCTjNQN05sVy05UDdpSms2VzZYREhiaWNLQmg1ZmZfOUNqcG1LX2tNcUNvQUJmMXlMWWRWTEpQREpuaW9JQUxWd2ptVzFhVWNESXBkT01JcUhDX2hCTVBIVUE2YnhpRjlrbnlR0gHnAUFVX3lxTE80dXlkd05VNmlPY0p4N09BV0lEaTZZS0J1aWl1N0sxU244SmpkanBDUVEzMVh5Ui1pUWVtQW5aWnlwMklMSHBWcDRidXBWempjR2hKUzltX2RGZktHZUhsLXMtekdsOTNLUmUtOWY1NDN3THJJS19OVWw3dWVieVdiLUtLRjhFT0lHWmtUUGtBcVN5UlBDeEgtT0E0aE9yS3RLdjhFOEdfUEFJWG8xc0IwM0FtcFJ4N0xGNGdJcTBtUHdLRHpxOGppVlpCeHRGUjVpdHNnVDdQNFJJeF9GQ0Y4Z3RkQkFHRQ?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Tue, 11 Aug 2026 18:03:00 GMT",
-          "fetched_at": "2026-08-13T02:25:25.280248",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -358,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-13T02:27:10.295702",
+      "last_updated": "2026-08-13T07:45:41.098512",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -366,35 +274,13 @@
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.5,
-        "label": "Positive",
-        "pos": 3,
+        "score": -1.0,
+        "label": "Negative",
+        "pos": 0,
         "neg": 1
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Balance Sheet Stress Indicators at HDFC Bank",
-          "severity": "High",
-          "description": "Financial leverage concerns for HDFC Bank: debt. Credit risk and refinancing outlook research warranted.",
-          "detected_from": "India's ICICI Bank, Axis Bank tap dollar debt again in less than two months, bankers say  ICICI Bank threatens to dislodge HDFC Bank as India’s most v...",
-          "gap_type": "debt_leverage",
-          "keywords_found": [
-            "debt"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Credit Risk & Capital Structure Intelligence",
-              "impact": "High",
-              "timeline": "6-8 weeks",
-              "price": "₹16-24 Lakhs",
-              "methodology": "Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending",
-              "description": "**MRA/ESOMAR-compliant study**. Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending. **Deliverables**: Quarterly capital briefing, Investor perception tracker, WACC model, Refinancing window analysis.",
-              "gap_type": "debt_leverage",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -434,52 +320,72 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [
         {
-          "title": "India's ICICI Bank, Axis Bank tap dollar debt again in less than two months, bankers say",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSWFRMEpoeTg1WUg1eTRtQ3Y4ZUpxSXRCODdtLUcxM1lpd05ITlh2R3A3aW9rY2NvaXl2R2dMR1ZYemdwMlBBZXVtcHFjcTlWUVIyVkR6UmpmOTlUY1E2bHlRdFZBcHNHRG5OWTQ4dDFxQzRqbkJDS2xSbDJSU3R1blZhS09wU1RSWm5ZTUU5TUQwYWpBdFNBVUotVmViSEl6N3pScVV0aElNcU8xRFkybndYSzlIZ21CQ2lPdkgtRkZfai1f?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Fri, 07 Aug 2026 10:29:19 GMT",
-          "fetched_at": "2026-08-13T02:26:40.098287",
-          "related_to": "ICICI Bank",
+          "title": "How SBI Is Revolutionising Banking With Artificial Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQalBUcm1XaWhfcG54ZU00dWtfUXlJM1BPWFdPb2tZSUxpRlJUMlhGRW8tTHZvYnBEb1dWZjJCVXY3VEloNkh4djFyNjI0ZFZfbFhKV0NZYmQtdFR0QnMxaWZSRk1fcU1nM3pPVEl5SE51QXUzSktlMXZMT20yQmxaVmptUFRseUNaZl9oOUlkTVJVY3B4SnpUTGZfT0VuT21FaXdyTzluekTSAasBQVVfeXFMUHJHSGFKT29XMnZNX0h3RjZob2JNNWJ2SGwyOFg3bWJyOXVBTFVUZURXS2JXOGt2ME5CYTZ5RnVRWWRPM09ZaEJKa2tIWGE0cEdPRXBxRVA2R1k2TTFydlBYNGJyeEROazI3d2M0Y3BqSGo4WUJkWUlkY0EtZUlmU0hHbEwyeW91c0RGVXpiYkJHbUZyMFFLVHV4WW9WeEExN2JuWUxtTEZ4dFNR?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Wed, 12 Aug 2026 08:12:37 GMT",
+          "fetched_at": "2026-08-13T07:45:17.956499",
+          "related_to": "SBI",
           "relevance": "competitor"
         },
         {
-          "title": "ICICI Bank threatens to dislodge HDFC Bank as India’s most valuable private bank",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNjg1OHY2Z1h6R3ZhdEdlVVVwVnk1YUZ3MzhxODZqeGM3V29WVkxYd3Q0OWJ5M0ZxVVpMTmoxckxJTnZKX0NsSjlVdFdCcFY1ZHZYSnZtcmxKX1QzTEpwampfLXdQcHRhOEZiMzIwcVVWZ19UZ3d2RXBfNXVrUTRoZ3pEYVpRUkxuaEF0Vkc4bHN4SmRrMm1CN1hnV296VkVVZjZpZUVnUWZtaHBNNklidkVJWTYwcTRrdzFabTA2bjdEeUtlYTBydHVvWTRjaks1Y2fSAdcBQVVfeXFMT0JPUEhyNUJad29UeVRTTEpSS2hoMDJmU3FmcDROdFVUWktSd3NQWVVmdGZ1Q0EzclUtMUZBblVQeEVidkFDOGhRSEl6aS12Mll5aERkODFWdkJJOGJZWWU1MFAtbU92RWhyUFppRXRUeFBhcXozeDhfSU14THpfSlF1VV80ZzlhWjhzQkd0VnF5NHVLaXgxV0pLU1Zhbjc4dEd1TUF3bW5UMUVrNnRJenhsaW9KMnJ6eWtubl9wbmMtRzd2Yl9oTi0tT08yenZVTXBIb2g2T3M?oc=5",
-          "source": "CNBC TV18",
-          "publishedAt": "Mon, 10 Aug 2026 11:06:05 GMT",
-          "fetched_at": "2026-08-13T02:26:40.098306",
-          "related_to": "ICICI Bank",
+          "title": "SBI uses AI to underwrite nearly ₹1 lakh crore in MSME loans in FY26",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdzRwampiaDN0TnpMVi1taHQteExaellRLUdrT2pUYndZaHNBNEZGRnlSTnlqdy1NS1hSV2J6LW1JaXlJaW9OUW9mc2lVNjgyZk14b0h6cXlYdjdhbjgxY2FfcjVtaFBobkFBb2F1cXBVUXFPSXQwcUZnWnRneVNpZnRtQmFUR1BvWjhLR2Y2Y1RTTkM5ak90WDdDd0JKYjZOM0FQc1laTmdzdkRMRkNLRjg5cVoxb3J2Y0xaNGVsX21iQUdENTZyWVRB?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Wed, 12 Aug 2026 17:29:17 GMT",
+          "fetched_at": "2026-08-13T07:45:17.956520",
+          "related_to": "SBI",
           "relevance": "competitor"
         },
         {
-          "title": "ICICI Bank threatens to dislodge HDFC Bank as India’s most valuable private bank - CNBC TV18",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT29GRUFaeE0yUS10Nm9zVUl3eGhYcUhadUFwcGlndU1jckRoMG1KMl9VZzhpMDRQY0pNa21GRkFHeDJDV3pfR0FMTDJIeHlQcjR6aDV3Rmw3VGpkcmpvOENqYjFlRVpnMk12R0VaV2NSZHBYMDl2eWx3TmRNb3F5T24zRGs5QXRqZl9NTGMybWNSbE5DSUZWTFJ5T2Z4MkxmdUFwLUFCS05rTUZrcFh2Y0N3Vlg0N3lE?oc=5",
-          "source": "LinkedIn",
-          "publishedAt": "Mon, 10 Aug 2026 11:55:13 GMT",
-          "fetched_at": "2026-08-13T02:26:40.098310",
-          "related_to": "ICICI Bank",
+          "title": "SBI fully automates processing of 25% of cheques using AI, underwrites nearly Rs 1 trn in FY26: MD Amara",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQ2xtOGNTM21ZbWhqeDRreFZlX3Q3MlJ5OGktV3ZIV0RSajZjSHJTWVVjQWJwNmFrZ3ZJb3pVLUFxaksyRGNESXZYSzBaOE1mNkJaeGw3UDg5eTdxamN3YmU2b05yN2ZERGduR2tLbkNrT3c4U25zdXRIaU9xWFZBUkVTQUZIMk9JdzUzS0ZOREhCYTY4Mkt6d0tKUm8zWmZhdzdQTzBkVkhuVDEwU0ZOTjRjYllCSTJaQ0ZLZlpqOFZjTHB5ajhZUGdRQWxCbmhyUFhqRWN3RkdwX3h2clZrYU9YR1NtR3ZrY0tzc3hpVkFseG9r0gH6AUFVX3lxTFBNOFhobEJwU1JBbnppc2JTTUNCMmY1QWVHWldxNGtoNnJEZHRwcUdtZFE2UDdOU1dMUThJdk9oRGwxa1RsWWNvQmJQcHp5dUhvMWFZeHItYjZOSjNmbWZFbHAxcFA3VEFlUUJxeXpqQ3IweWNTeDh0VnlieTQtTTBQSnE5ZzNtNzFHejlkc1JLUXlqV0loc05lc3l3bm9Tb0Z5c2FnaE53RnoxR3lTSHJzYm1pajlETUFlbHYzdVdoZk5aRDY0b1VZQTF0Zm4xYmdScDZ5UDEzN1Rlb3JDNHNmUDUtczJEME9YVFczbzl0V0FqazJma2xRY0E?oc=5",
+          "source": "bfsi.economictimes.indiatimes.com",
+          "publishedAt": "Wed, 12 Aug 2026 09:44:20 GMT",
+          "fetched_at": "2026-08-13T07:45:17.956526",
+          "related_to": "SBI",
           "relevance": "competitor"
         },
         {
-          "title": "ICICI Bank Insiders Sell ₹282m Of Stock, Possibly Signalling Caution",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMXl6R3dtcExzOERicUgwTmd5b2JXN2dXNGFLVnQ1TmptSFhGdW9seG54LThPR1hXdll4c0pNWW1ZR1V3R0NjY24wancxZmJYMzBNOWQ2cGJPOFpPLW5ueFFwUWpDcDctWlFLMW5oanlnbEg1Mjh6VUNja2k1QTRLTzBPMVNSdnFmeVhuc0ZxMzB5ajNuNU9Gak1xd01Da29ibkdqVWIzUWh6S2lid2lTWW11YVFZd01VeTZqeTFLVFZGZlBmMTNWSnR5ZTM1RnRl0gHWAUFVX3lxTE9WZjB3OHBYWjZ0LUFiZy1nLWx3bjRSWEtkcUdCbmNRLWxPZF9QbHNGc09MZ2tFRTFoWUtjRURYRG5wOGZGblZ4YW1XLWZnYjkxdVVCa016bFBXOUFmQTFqLVl5SE90REhZSS0yLXlXblRqX3dRQUMxNHhxdjVzUnhRdVF2eFVzNjR1NFh5RmM3QmNNUlVFTFpQNUdBM1pBanZVR1N4V1NvTzFQVXMzOXhLSk1mM0FwYU1uV3RJYW91UEhnSGtlckNLeDFPSl8wTUJGOGdLVXc?oc=5",
-          "source": "simplywall.st",
-          "publishedAt": "Tue, 11 Aug 2026 00:22:09 GMT",
-          "fetched_at": "2026-08-13T02:26:40.098314",
-          "related_to": "ICICI Bank",
+          "title": "SBI fails to produce CCTV footage after Rs 80,000 ATM fraud; consumer commission upholds Rs 1.30 lakh pay",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNbGxJcWFmNWphN285bG15bG8yRmZDc3E3UUNvUWVIcnBsYk5wc2VpNTRZcHYtY0dXdUxtcW5zZ1Z6dVllQjVwM2VxMUVvc0tJRUFyWENDX0FYNk00dXVGVGxuU09ZdDk3XzdSd2x0TUROQmdvS2pYOW1xWENNdnV1eC12RW1hTTVkSWJhaFFsZHljTXdPdU90TFU1YWZ5MHVTUXBsR0k4dlpQT3pFb3Y4YUNXVkl4U1ppZGxZa243ZVM0YnUxcHN4WExkSWJIT1hSS1hRdU90VElaNlBpaGpkbEE0Y1kzREpfY0Zvc2s0Q1p0RjVWMWtSY0g2WTd3akpoZGtRTzdmejdHOVnSAZACQVVfeXFMTWZGSlBIQTB6R25tR0hHaUNMaTZYUzEzTnVYbEMwQk9jcjhRenZhM0hIMVFoOVBRZW56ZVExWUQxdUJmYVRqeF9EdjRzMk0xQzZncWIwenZjZ0ZDbUJLRVhTQ1hSVnhlbmpLRVpzUk9XYUR6VllrY1JkMDFCME0telJXVWJFNkIxdGRGX0E4d3kxWWl4UDVudGtxRzVUa2k2RFI2MlJQOXRsd3FKQWY1VEZoZ09qRExIaFV3ZFZDblU5al9wdHFtcXdCUkd1RTRvN2pXZGtxQkdGVHpRQ3lUeHBlQ3lubC1yWmNRdzVIS2FNbjFvZEZXUWxGTDVZamgyUmVFX244YWdHQ19QZXduaXM?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Thu, 13 Aug 2026 05:00:00 GMT",
+          "fetched_at": "2026-08-13T07:45:17.956531",
+          "related_to": "SBI",
           "relevance": "competitor"
         },
         {
-          "title": "Weekly Recap: ICICI Bank ADR Q1 profit beat and $300M 5yr USD bond sale",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTjJqdUpQVzdMY2UtZlBoZkJkUGQ4WXlma3J5QVM1eFNDRm11dkpVczM5VDNmcVRrOXhGUG45b1ZuUU1GSXhXMHBqVUFHWVJlMmU3bHo1RnlNdHlzRzBWNWtlenJaNXp2bHhVZzZvUEMwTU5udEdkYlBUQ0NBSXZZNVowUDBhNHRLOGdNVkNhZnZCRG9idTNBUWJ0N1IxbUFfRGozNmZna1VucTNKTFJVTGZUNjJOQjRXX2NncDdtZUQ0MjktZjJDdVRpTQ?oc=5",
-          "source": "TradingView",
-          "publishedAt": "Mon, 10 Aug 2026 01:13:00 GMT",
-          "fetched_at": "2026-08-13T02:26:40.098317",
-          "related_to": "ICICI Bank",
+          "title": "Widow gets Rs 49.98 lakh after SBI Life ‘rejects’ Rs 50 lakh claim over one premium",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ1hxNHlCRFA2dFNWUFhlMU1WY1FOS3JYSXFXX3YtcGhIN2lPM0JGaHBMdTNlUXRtSGdyOEI1NkVwRUJqbkhxOXV5N3JBWS1FVDRMWXk0OFNKakpUbGhuQ3FJWmNSOVV1b0ZUS0k5eHJpcUNfOHBBX0s0R2tCUnVod01QRzdHYjNxQm5RRUhfSW0tZ1IzTVdSUnB3ZTIwcjRMaUdLOGRjR1p2ZkHSAbIBQVVfeXFMTzhkVFdiY3R5UjVDT0xUWG9TcWxRLVgybWU1SnlwaXl1WE95MXRDS25TMFVpby1JaG5uLXd3OVdGUVM3Zk9BZHY3X1J5Nmd0UnRES2JXcjd6UTk3ZzBZdEFUdXJ4WjR3NGxTT0dWTEFfVDQ4ZnZPN0JsZWhYb1k2X2hNNGh6ZkRTS2szby1EalFrZURVUWJiRnpMbWR3MUtOZnE4dFhTNXBjR09LSGlBQ3JoUQ?oc=5",
+          "source": "indianexpress.com",
+          "publishedAt": "Thu, 13 Aug 2026 03:30:34 GMT",
+          "fetched_at": "2026-08-13T07:45:17.956536",
+          "related_to": "SBI",
           "relevance": "competitor"
         }
       ],
@@ -490,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-13T02:28:10.930325",
+      "last_updated": "2026-08-13T07:46:56.894794",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -574,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-13T02:28:11.349707",
+      "last_updated": "2026-08-13T07:48:27.086076",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -658,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-13T02:28:11.605011",
+      "last_updated": "2026-08-13T07:50:04.116659",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -742,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-13T02:28:11.764295",
+      "last_updated": "2026-08-13T07:51:02.341341",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -826,21 +732,114 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-13T02:28:11.800686",
+      "last_updated": "2026-08-13T07:51:13.413935",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Herma launches Linerless Plus label material with 62Dps adhesive",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclU?oc=5",
+          "source": "the packman",
+          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-13T07:51:09.925960"
+        },
+        {
+          "title": "Reusable magnetic invention removes microplastics plus some PFAS from water",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xWTBMN2hCR1VRYUtuQWZiNWpnRHJSUWdDUGFVazBpX2R1UFc0QzdzcVk5QjM5X3ExU3QwSGh2TVAzM2kzV0VSUzJhdXA2TEEyaDVCemZILXRKRFJ4T3drU0ZJWVphbVd3NExIUmdIQnFCNnY4SFN5MU5RMA?oc=5",
+          "source": "Phys.org",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-13T07:51:09.925976"
+        },
+        {
+          "title": "L&F Plus Ships First Pilot Batch from LFP Cathode Material Plant... \"Mass Production by End of Q3\"",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nMkhRVG9fQ19zSzVuVTcyNEJZQU1yaFZVUWY3WVBFOHdBRDZROGxhZVpmN2V6c1pKNUxDRVoxVWtBLU05a1pZNzFtQVl2T051ZE9ucE5BcE5PRzhIaVpCREx3d0s?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 03 Aug 2026 00:27:06 GMT",
+          "fetched_at": "2026-08-13T07:51:09.925988"
+        },
+        {
+          "title": "Cerenome, Inc. (CNSY) rebrands from Plus Therapeutics with new ticker",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMTJWdE8tMmxjcEdRX0VQWEhnR1A1UnZsbmFrWDVHc2lBZkktU1hodTJWQVo4SFdjSWpKQzVqOS1TOWQwTEJDTVAwSzZuX0w0ZUhNbVYtb0NqUjJFX0NJWUdlQVQ2eFpPZjZrOFdCNG05SVp1WUoxaVlHZnQ3UjhPc0NTWklLNjFscnA0T2I0akFsMnR6clJiUldkMjJwMEJWY2k0S2xCUW4wZWR3TnZV?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 04 Aug 2026 20:31:41 GMT",
+          "fetched_at": "2026-08-13T07:51:09.925992"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-13T07:51:09.925997"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-13T07:51:09.926000"
+        },
+        {
+          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-13T07:51:09.926005"
+        },
+        {
+          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-13T07:51:09.926008"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "WVUA 23",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-13T07:51:09.926012"
+        },
+        {
+          "title": "Premium Quality Matting Material Trunk Mat for Jetour X70 Plus 2025-2026 (Washable) | Perfect Fit",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUDlKVWJvYnAtci1wc3ZGNTlYd2VhTGdiTVY5Wnk3Z0lLR0VBSFRKeFlJcXlLT2pRc0lKcTRWRVk4SzdRWG5mQzF4LVdPXzR4aUgzb3YzUG0yblQ1UXZTbmVuVV9lVWRyOXdwbTQwMzVoUlM4WHFERkNUMlREZXRVaW9vcm5NUjdTUzBieER5dXBXUXFtNTBGMVdhdk1jbG5CdnB0QXNDdXIybGxRRXZrY0ZWbDEtWWNXOW9VeHpQTnFPallBbk1iVkQ4X0pyalUxWHg5WDU5M3dfVURUOWl1VUxSM1k0SzQ?oc=5",
+          "source": "pakwheels.com",
+          "publishedAt": "Wed, 01 Apr 2026 09:48:28 GMT",
+          "fetched_at": "2026-08-13T07:51:09.926015"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Herma launches Linerless Plus label material with 62Dps adhesive  Reusable magnetic invention removes microplastics plus some PFAS from water  L&F Plu...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -877,26 +876,6 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
