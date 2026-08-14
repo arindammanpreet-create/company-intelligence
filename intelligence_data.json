@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-14T13:26:01.398011",
+    "generated_at": "2026-08-14T19:10:44.252160",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-14T13:16:55.482607",
+      "last_updated": "2026-08-14T19:00:51.873650",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,17 +98,17 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-14T13:17:44.069710",
+      "last_updated": "2026-08-14T19:02:08.120888",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -174,7 +174,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "World's Best Corporate/Institutional Digital Bank Awards 2026, In Partnership With Infosys | Round I",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdWdrSWJTcnUydmc3cm94TTRwVVBNcUpNcWpCTEdkbFdjR2VlY05OSjM2SzctQVFSZ21BLUVFblVmNjh6WTRzM1ItdHJsbkdrQl9zMFdlVkNkYVY0NFJGR1k4M3JlRkZ2RGd3V2hwT1ZCdGlEYUJCeXQ4LXEtbkg3OG0zQlpMYjVFWmJGd0JOYUNmRGVxanhpTTFMdl9ReldyNkpEOE53clFNbV9BYk94aTl1NHMzY0d4cEtWOHkyQ0h5Qk1PQXM0?oc=5",
+          "source": "Global Finance Magazine",
+          "publishedAt": "Thu, 13 Aug 2026 11:44:55 GMT",
+          "fetched_at": "2026-08-14T19:01:23.656670",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "What a French fine on Infosys reveals about different ways India and Europe think about work",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbmZqT1dGQ05nbEpmWlQ3TlNabjFiYnBhY0Z1bHI5QjJwMHpDVEtBZVV2Q3dLaUgtb1N6TDhKbGppbFdIc014TktraTk5UmpXMVFoNEl2YmhtdlgtQlBKam0zRXNPV1dqWGFJVVRYdHJWMWJObXg1ZVdDVUQxVHJTN1daaDh1MWE4NjY0dllHMTlTQ2Y4XzJ4M2d1alF3OFZKMnFRT0RTRVczWFhGZ1FGVnp2SEl6SnRTcnl3aE1PaFhnV2l0RkZ4M1dSOEIxMVXSAdYBQVVfeXFMUG10WEtZTURvMExtX0RmeFBuUTFXTm5ZTWp1MmFJYlU1M0JPZTJYQnEtTTRzdnVnVDFJZkhmMjR5S0VYaXNwNTVJcjFJVWtQcDlxU3pFVU82TWJZX3pYR2V2d2FkQXZjMW9tRzRTc1gtTjN5QVI5T1MySnZJcU5GZkw3dEtLYTc2ZDZETUR5YmZ1NHBCYVluZExDdE53c3BHQUl1Y3RnVU5nMmtTd3Bnb3h2TExJTjZleC1BT2kwNmYzTXE1NEdZVXVtdVFFbTBCaHlnY3dIQQ?oc=5",
+          "source": "indianexpress.com",
+          "publishedAt": "Mon, 10 Aug 2026 11:28:24 GMT",
+          "fetched_at": "2026-08-14T19:01:23.656689",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Metsä Group selects Infosys as its IT partner",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdVpPT2NOSVhDbDl4REJRbFRiLWl3X21MS0F2TmJROExGX2FvRzNEYXpybVJHcUFId1FNZ3UxUXNDc3dkdFpCaEhiS3pwX094emZ5eHZxX1JraFFsN3dnZ1VUMmZ0SGZjbGlUY0s4ZzJkSG9Oam96Y0puTE01Qjk1elNxcC1XUFBXVmtPSUl3RQ?oc=5",
+          "source": "PULPAPERnews.com",
+          "publishedAt": "Fri, 14 Aug 2026 09:20:51 GMT",
+          "fetched_at": "2026-08-14T19:01:23.656697",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Buy, Sell Or Hold: Infosys, M&M, NTPC Green, CMS Info, Balu Forge, Jain Resource Recycling — Ask Profit",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQklLaktYUUJwaTFua1A4anJfcm8yVXQ0VmZqWDVQTnFEcHZsdXFGdlF0Uy1iMk9qc0FnbEJfTDA1My02VWVXOG12a0lGcE1YeGl5YkFWc1dGdWhJS1ZwTlF1OVF5Z1dYZ1RDcTRFcWJjaUZUdUI0bUZETkRGUXNpTE1RZnJGMGFEQWl4VU5LUk43WF9kN3F1aXZnUVcxRDdIYWE0b1Z3NjFJdUVfbFo4Zmc2ZnhGV2ctajBKS1lhUUhYZy1FVVZiSXB2N19MYjB2NnFGY1VQcUtOelk5RmVNTVItUm1yckdwSWZEc9IB9AFBVV95cUxQeDVjQjdPaHF2MkdBeXRWMU54MEoxQkZrWkQ2QVRwUVFqU2ZvNTRlaG9Pd2d5Zk5faWZtTUotRHpiMjRrRzN0dFp1UnF1Ui1pUklQc0dZRnFXUzh1YTc1cDhmTmJlMlJjTGNjN1VkdUplRVRiMXQ0aU5CcGQ0aUNldlh0UkROeXRBSXJ2WWtSazQyZzFWb3UyTlBNMEs5Tm1HUDBBTEQzLTdQTnlzMFcyNDNtR18zMGd5T3otZU40QXhPQVBORjV5aEpweFR3aktMYVlFSUVGSEdDaERqVjcxdzlVUlJ2cVNPdUJhR3Jlb29wSmtk?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:01:23.656706",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys signs 10-year agreement with Crocs, to modernise global operations",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMVAzU2Y0bjh2ckxPeXlMMExPajZvSXFrNWZtdGpleW81Y1ZvUzNKcExNblVqd3hiRGk4MjRqY3BsU0VRbVBWNm1samRLdnduLVVWU1ZJQnpxS3Q2anpoMVBqTVhQTzVncVFkZFhkMEJweXY2c1VyUWRDUEkzOE1XN0VQSFFEM21DeWRfOVNYUUNhQllqdXBQaTcyTldGWUJqMG9xT09CLVhleEFPRUVPZ0hmRTZhNmM3NmsyQjhJcjFYM0xfX2ZJWWxnWnpLQlN2OWhTekVLQnZkbHBmODZWUV9Qakp6d1JkeTdSTNIB8gFBVV95cUxQM2owbEd4b0ZLRVRhRTMzeHVOUm5VdlJLckxmX2VUbTRFYVZDdU9vYzh1ZU1sOXV3bEhEZ2g1MkkyckpQcGYtMlJCY2Zrb18zT1FqZkZrZ0Z2WUFfSW1Cak1XaGxwVU0tS2tsUjZHSDhEUzR6UUZsMGdFSmoxMWI5TjNncC11aWJJS2JWZ2NrdlJqeEV1ZF9PQmg0Szl3bEVxMlllRC1XcTdHVnpKVkJnMWNRX0czLVBVenpyamU4V0ladDk4ZXdBdk5qX0I5cW9felVFZG8xREVBWGlEY1dhVTBaY0h3eFlQVFJCeFEyajdEdw?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sun, 09 Aug 2026 16:35:00 GMT",
+          "fetched_at": "2026-08-14T19:01:23.656710",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-14T13:19:17.302370",
+      "last_updated": "2026-08-14T19:03:29.361647",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,11 +312,11 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-14T13:20:35.321938",
+      "last_updated": "2026-08-14T19:04:48.697169",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -342,7 +388,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Man cleared Rs 45,000 credit card due in 12 EMIs, yet Kotak Mahindra Bank showed Rs 19,000 unpaid and thre",
+          "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNQ1ZiMG5IU2UtTm9RblFMbzNDMkRXd210WnNxTkxTZUlyUGhSaUFyQ1Jlakd5cTQxUnhNaU91NElnb1lOTEdiNFZVTV9NNFlfNHNINmNOQWZnMlVQTjZtOGUwWWJWVk9mcVJfOVJCdVdvdGJHbXBzWVd3ejZoZ3NXREdPd0l0RGVaekNwcjR6aE9TbmNGYmtHQ0w0dzNod3pJZVlpVU81aUVLVFB5VkdFX21xUmkwMWVKLWFxR09Ob2t0blJiU3Y5bnk4XzVRX3EybEF4Q05EWWUySlh5dTdLMWplckduWWpCY25waFBnZjlMaXVHdmlkRFQwN0ZrU1lDNWdMZEFHS3JfZ1pMc0UzZXRTQzBRZzNOSDRUWkhGZUo5ZldRZDhPUzlibzlfc2FKLVhpbS1jQlhQQm1SVmFHdWxna1cwUURuTTc2SEI0eU1Hei1O0gHaAkFVX3lxTE5IdTNucUVSTEZhdFRJU3RKYTg2V19XUXZpdFAxODNTS0dKSkJpZ3I5UjhyV0hzYXNzMmJub3ZYOXpzZDgzVzRZRWhJRlJsbnZRYURRUHIyYVpzbHFRMkp3R3NlYktrVVdydWVRcEFHV3lsOGM3NE4tVEpFSTdJa0pGR3pRS1Y0MHBNQ3k4RTBTMVpZbURmT2ZFYk5tOXdVN3ZiOVR3WjlXZWJEQWpmNUN4ay00RHpkNGFPRFAzTzhPb2pscDNiQlBKbTlrR0R0cEgwU1hmbWZaV0s3ajZjWGhqNkNrSlF6Sm9qWlNRWFp4cTlBMk1QLU02TDdRaUhWV1pfWDZTbmVFazVHeXVNUTlxNGtzaUVNSzEyb0ZUMUExMWl2ZmpRd2UtalNYekx4cHRVWDE1aHRheUFRMGN6OTFWQXFOV1Q5bENDQmF5WWZDalVDNVpwelRsdmc?oc=5",
+          "source": "economictimes.com",
+          "publishedAt": "Fri, 14 Aug 2026 05:40:25 GMT",
+          "fetched_at": "2026-08-14T19:04:33.671413",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Kotak Mahindra Bank Limited",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4azdTOXFVR1FHbFIxOHFiN0ZVemZKZkV4Qk0zWlVIWUQ2MEZTTUVHTElnMHZTSWU1SUJSWVJSTWppSVlyMGl1ZnFkMm1CdzJTU3c3ZjEwckN3OEJTVlc1Wnk2N0tYdmNoU1NodA?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Tue, 11 Aug 2026 12:00:37 GMT",
+          "fetched_at": "2026-08-14T19:04:33.671427",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Kotak Mahindra Bank climbs Thursday, outperforms market",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXFPZHBrWVN5YVBmRXY5eVBHUHBQdE1lUVUzajdJeDNQak00SnZBS3JNUHZ0ZHFialJYUDNuTHJHcmxfaWM1dmVHVmM2Y1FoM19oRTJFZWVhaHE2MFdlQ0lKRDc4RzVlTjR6UjZObnMyVFhCSDdJMVVuMUlwQllIVkNNOXB2Y0wtcGNRNDJmYkp0SHdxSEZwcVNGczlCd25mYV95Sks0MmFMbm1aUE1J?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Thu, 13 Aug 2026 10:30:00 GMT",
+          "fetched_at": "2026-08-14T19:04:33.671432",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Leenata Kasawlekar joins Kotak Mahindra Bank as Deputy VP - Corporate Communications",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNV3djZlZhY2ZNdnV5OUlqQXo5djEzVWtSZW9WVmdndkozbktISDdGejk3LUNrcHRtZHJ2enNnYzFRRTJHMHdWNVB5emMwVXA2UzhNd0YtWGtYaHcwZUc0NlFtX2ctbmdLbTBtaTlYSHo3NC0yRl9lNHFvMk1nbHZQM19mUGFKRXZIT0lZQ2ZSQ2FXU3NISkpwNVVBZUtENVlpZmt1bzR6R1EyRFJsWi1aZFpuVzJabUNGVzdLVGtnODJYQXB0cmtqTm1UcGF4NlJNVEN5UkloN19BWDBkMFNMaEd6b0NpQkRwSGFPcGdBVzk5cTA?oc=5",
+          "source": "Exchange4Media",
+          "publishedAt": "Tue, 11 Aug 2026 11:18:42 GMT",
+          "fetched_at": "2026-08-14T19:04:33.671437",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Haryana government recovers Rs 127.27 crore from Kotak Mahindra Bank, clears all outstanding dues",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXdpRzNBcUk1S1dMM2hIbFhXN1lVN1BDdTFMWXUzYmlvZG5vMW91aDg5YnV2UXQzQk1wSFJFVGt3alhUMXRYWmZnbFRaT0JROTFkVExRU1h5bUJma0htSVVlZ2FqTUM0cjlXX2RoNDdISXRjYjhzSmNEQzVfbGFlZFVEYXFGMjhuYXgwOHRNT0taWU44b1BBVTBkdnZTNVh1VnJ5WHctZTFqTnkxRFRRVHFpRVdkRUFGTlZvSFdvaURVZ3VDV1JRQg?oc=5",
+          "source": "The News Mill",
+          "publishedAt": "Mon, 10 Aug 2026 08:07:13 GMT",
+          "fetched_at": "2026-08-14T19:04:33.671441",
+          "related_to": "Kotak Mahindra",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -350,18 +442,18 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-14T13:21:41.592729",
+      "last_updated": "2026-08-14T19:05:58.349213",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 2,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -426,15 +518,97 @@
           ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "Is Vodafone Idea finally making a comeback?",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QbjJ5UUxKeHFFSDdmRXB1amFnQUJxUVBHOWhnbW85dXhDdGdPb0RCVVdqcVlhMUtYR3U3S1o0Mzh6cllISkpfcDQtZ3JLX0FGT0FXT3VfRkhSNEF6REN2NENabw?oc=5",
+          "source": "Finshots",
+          "publishedAt": "Fri, 14 Aug 2026 01:32:55 GMT",
+          "fetched_at": "2026-08-14T19:05:30.577732",
+          "related_to": "Vodafone Idea",
+          "relevance": "competitor"
+        },
+        {
+          "title": "India's Vodafone Idea reaffirms three-year growth targets, $4.7 billion capex plan",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONHJUY0E1TTg0RVpqOUFrQVRsVVpteURiRFlLQXpMeUg0SlRZNWFHR19EcG56bTVaUXRuMmNVemw0aGFHMExuOWF4S21vMVRWSTh6QXZmV2Yyc2JRLVJEeFo4a1QxSXp4WE9ZcUh2TE0yOWxXYTNlRlhrMkdUUEJrWGJNWU1TNk1McFVzVGxnYVR5eXY5aW8wMERCeS1mdW5icGNVTWNkLVotOWt1QmRoeGZBNEVWa2VWdEFyT3BxRGFtWGlo?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Tue, 11 Aug 2026 12:37:23 GMT",
+          "fetched_at": "2026-08-14T19:05:30.577747",
+          "related_to": "Vodafone Idea",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Vodafone Idea Prepaid Plans With 1GB Daily Data in August 2026 Detailed",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMVljQThlNXVXSGVNMm5reEQzTEdvcl9KQWczckdyUE0wV1F0Yk9mMVNzTk56SGlsVkZUa3pEZnN6UUY0V3plMGNxVGlXcHBoNFYwYnM3MmJ0WUEwU2pUS3JGd0pubUtEb1RQSDU0NXAteGhhNm1tQm93NUFpTlAtT1R3?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Fri, 14 Aug 2026 10:43:51 GMT",
+          "fetched_at": "2026-08-14T19:05:30.577753",
+          "related_to": "Vodafone Idea",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Telecom sector’s AGR dues remain at Rs 1.41 lakh crore; Vodafone Idea accounts for nearly half",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUWQxTHBSQy1ZMUUzTTlydU1JU0JySXVLU193Zi1ldE1weGVySnZCa0hkUThVRUE5anM1T2VXU2RqbE9pN0ptUjFIbmdXRHhGTWY4aGhrYi0zazA0NGVSX1REdy0wQ1h1NlZkZ3R2RjYzaTZmTVlmMTUxLXRVcVBjNEt6c3BtV0Rwd3dCQTlyVzJaMlZJMlZMTDhjd1lsbUpfZVJrZWx3M0E3T3VCY25vNFBIYV9hZmxTcFozN1BEX2V4ZVFmMHljVFNMSEZmNGNGVzg0SUtEd0E0cWszTkU0dngyTdIB6AFBVV95cUxPSW11a3F5SC1VUGNiSGJhYk9STFZZcm1YY25mS1dxRi12ajlicmdhUXlqZTV6YWc4RHNQalhIUk1kX1dDNlF0SzhJbE0tM3JLdktTRXk4YlBXQXk3MTdSbXVSdzRlRTdHdEdMOEhfRFRTTHJRQnVlVExNc29kUFc5aHhFakhybFlkeUpVY3AwMldpaXpGQ2hWdC0wdDEzVG9VMktNeEhPSEt6dlJ1WHk0WTZuaXEycnh3UGkxRmk1cUFwUGgzY3JQY3hoczR3MFpkZHZjaU1KWkVnbktvcjFzczdrY01qaEhL?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 13 Aug 2026 14:39:18 GMT",
+          "fetched_at": "2026-08-14T19:05:30.577761",
+          "related_to": "Vodafone Idea",
+          "relevance": "competitor"
+        },
+        {
+          "title": "From Vodafone Idea, Bosch To MRF: Check Motilal Oswal's Ratings, Target Prices On Seven Stocks After Q1",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ2lNYlBvWWNuWlEwMXRiVWxOZ1BHeENPSTIwMXduUVpLbkJvZFRJYUlZR3FhS29TNGRkcHY0QlpvY0s5UGVTdmNXaFdFbkRjV2FreTduSllZM2ZuUEFET0JOcjZBcWZaQndORFptOGpoVkVpUV9BcGsxTUNDNW84NDlTUTlRbkpDR3ZsdTFiWWl5TlZMSmZNWlA3bkFfTVNZMk1jYkdHRjgwdVQwa1p6cE1YTGU3UWVyLVNZa0R2ODdCZGZXV0ZjQk4tLU10cGRYbUY3dXA2bDF0djA?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Wed, 12 Aug 2026 06:38:50 GMT",
+          "fetched_at": "2026-08-14T19:05:30.577765",
+          "related_to": "Vodafone Idea",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "Airtel executive vice chairman Gopal Vittal on lessons learnt from Airtel Cloud and what makes sovereign",
+          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOUVNhZWZwYVBOUzVwaVlpaXhNbjZuRUZGbnNkQ1liX2NMNG02bDlLSDJvTWRZRWxXZ1ptdDByWW42YmdkcWRZR01mWU9XMGYwbkxaaWUwazhaNGRXTmdoQXlJOWNyMGxrdXNRNG5GazJ3eXk1ODZjOXFNZ0ZTcl9XeXJqOTlqcy1sYXAxVVBPb2dhbEpWLV82Z09ZZTQ5SXJXcW4yb3dldzhyUUNVLW1fczVNUktBVXdmRmdFUVFIdXlEYnNXU1NIcll2VGpGbmxwVjk1cWRaeWdyRVUwWnJTVW44cTBrRzlVeFdsV3VTa3pYSVNJSEFDMWZXSl9kYXlJNGVadFdJaldvNENaTHV1R3NfRGxUc0tsQjRyVWlhR1J6eW9ZUGFBRk5hLW5OVnZKaHNsYTVtWnpfRkRSeVhF0gHEAkFVX3lxTE42YThCZjRZSkRtNXgtNDZsblNTdDF2Yk00c1J3Vk1FblNDT0lnc1gzZWRBc2VXQkQ0aEFHbDJFVXpQaG9YTFpKMG16S0MtaVB3clY2VFd2RWxjVktaRDRhM1pVQUNMZ09IcXdfcFpLQmFXdS1HZEZvX2FHRUo4WG0zX3o1WmVuZDQwZzRMZnZyNmRiOE5IT2l4XzVNa1NzTmxJMVlMYlE3LUQ4V29YZEYxdWQyQnc2UDFJSjVMNWU0Y2hlaHpOWEkydHRhVWtJbXRlbHd2YWZuQnprdUlvWGYtWWNHS0xTU1R2czhvUDFXQU9ObDJsR2FKZFR2SUlpeFdsTVFpZDFVeGJ3cG9OT3JQMDJEM205ekFMNjZsbFB3RlVXNkRQSzZMTEhHZG5yTEN5Q0FNSXphV0RxT1F6bUNLb3BwYw?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Tue, 11 Aug 2026 14:25:00 GMT",
+          "fetched_at": "2026-08-14T19:05:58.348867"
+        },
+        {
+          "title": "Airtel Cloud bets on sovereign cloud to drive growth",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV3AwNm1XaWZpVmtCQ2JQUmhTc25JanFSeWRVYW01TWowWVRPZUNJb2wtbG4yYzB4THZtbkJSWmVVLVQ3UmE3SEtOc2lDc0hlczRvWGdDb0g4NHNaM0VXVGVOUUdXM0I2anVfbkFrMmZ2UGtpaWpRWk92WUkxbU4yWnJTMm1qRjByb1RqYVRDVDJSVVNJNndKU2RqWnM?oc=5",
+          "source": "Express Computer",
+          "publishedAt": "Tue, 11 Aug 2026 14:31:44 GMT",
+          "fetched_at": "2026-08-14T19:05:58.348882"
+        },
+        {
+          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
+          "source": "EY",
+          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
+          "fetched_at": "2026-08-14T19:05:58.348890"
+        },
+        {
+          "title": "Bharti Airtel stock slips about 1%: Citi bullish as prepaid plan rationalisation may boost ARPU; check...",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTE1pSkJ2SWZQNHRYNzlKZlBSV3ZYQzBIMlhsVml6ZWJ0ZXFHWlRxTWlTcHMyaGU5Q0JDZ3h5aDQ0LXMtSURlMzBoTkdRYVJyZjdFU01EUkhCTENBNTFRT2gxSWFKQ19xSUJ5Z2o5enhTNHFPeXBBSkxLcy1JOUR1UDI0WTU4UDBncXlmNjlIbEd1NGFrMk1ET2VPUUgtUXF6SG1UdWRYcVdGUmVpTWx1UjlqXzhPdVpka3NydDh1M3BaUWxzRV9IRmJiclY4eGJvaXVZY0FBM3BaZDVoSWM0NlNnbXc5eTgxcDZjRGxNdmk0dFp1RGlzRDBxbXY2RUFJZ3JqOWxzZjdTUdIBjwJBVV95cUxQTURsZ0lmem1UQThwSk1CR29IeXRUelE5NFo0d1R5Vm83YlY2SlZMTl9yVUo5MDVteEtFdUsyUGMzdGxCZWx1MTZUTjhJUDJZaXVSMFI2U1FNSzBrdm45YlpfbG9QdXNGNEdzRjc4dXdSTk5fZzA2NjhMRk5uY1lNbldaMS1ISkQ4SUlDQkNMZWZlVnZUZ29zRzhpZld5NXgyZ29LNGpDeXRTazBONnRZU2ZyNHZQakc5N2dCRkFRNFRSTzAxTkdJZEVzakMxa01sZ2RKeExiTURMeFJBd2hFNFpDSDFhSGFKelI3VENRNEU1a1ZuU1lUNnRaZ2hNRkIzWG5nY20yU3ZucUlvUjlB?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 13 Aug 2026 04:16:18 GMT",
+          "fetched_at": "2026-08-14T19:05:58.348894"
+        },
+        {
+          "title": "Airtel Cloud Scales Up With Sovereign Architecture, MeitY Nod",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPei1xUkNsZ04ybWhTR2VlM0V2NC10azQzeFFQMHlqMW1tajBkSldqZnVTSVJ6N18tTEpmbV95M21WUWhucmFhMmt6Z3RJU2EyVDh4Rkt0Y3p6RlI0YzdRMVRCNUNlZ0tvZXVrSEppMER4NkVDSXowMU9sRmdGc3VUTTh0alNMTERoUVQzNS15MGJYTGZl?oc=5",
+          "source": "Equitypandit",
+          "publishedAt": "Mon, 10 Aug 2026 09:54:06 GMT",
+          "fetched_at": "2026-08-14T19:05:58.348897"
+        }
+      ],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-14T13:23:04.864096",
+      "last_updated": "2026-08-14T19:07:06.507474",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,21 +692,43 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-14T13:24:32.627416",
+      "last_updated": "2026-08-14T19:08:43.729983",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Royal Challengers Bengaluru",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Royal Challengers Bengaluru: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "RR vs GT, 52nd Match, Indian Premier League 2026 - Commentary  SRH vs RR Highlights, IPL 2026 Eliminator: Jofra Archer and Vaibhav Sooryavanshi destro...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Royal Challengers Bengaluru: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Royal Challengers Bengaluru: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -572,29 +768,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Royal Challengers Bengaluru: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Royal Challengers Bengaluru: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "RR vs GT, 52nd Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFM5SHlGV2xoTEVwZUtMS3c2OTluQXd1dUZ0VWw5cmNNNkUxdzNwdngtMVBjNXBsWmxXM1lyc3Ewa2RrTVFOQ3lQZTNUTk5ZeVN3S2ZidmRjdWJKWkRwV1dWQW5sekRUZVlGQkxicWlTT1NvUXYwQlBNR2lWN1Zya3lWWFZCRVFkNjZhaDVWTjFvMU9nRGIwNzNPdEttemc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Fri, 14 Aug 2026 16:38:04 GMT",
+          "fetched_at": "2026-08-14T19:08:28.703791",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "SRH vs RR Highlights, IPL 2026 Eliminator: Jofra Archer and Vaibhav Sooryavanshi destroy Hyderabad to power Rajasthan into Qualifier 2",
+          "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNR0c1QnREa0dqbmhvWnpFRkhSUmJOdzhWOFI0ZjNEX3FsQnNMUEtDQ0llQldNb2xKaExfZlIycHRIMXNISFFkLTNBQUVPWmt2VmhhUUxBdEVuQ2FPSXNZenNoWjJ4NXJvRUVVd0w2QW9WMThJTkJpdFJxRUhjcUNIbHpmbWpLQmw0WjlYX2hxdFRncWN6Ri1nUUtVeGR6dFJFZV8tMW0zdG5tX1ZDVU5GTkdrTjdxUFdDUmh3TW5seUtVcDVEY012LUFlMXh1dG95bVNITlhsd3laa1dHNGZwN3pyR00yMkR3QUhSUmdxcDhwZVJqVWtoU0Q0bEFTUEF1ZldHQnZUZVRIY0VKQ1pNdldxeld4dWxpNTlwUllGQ0ZsbGR4MWtvQ3NHTVVES0EtSzM1dXh0VVFEd19kSHJqclI2ckowWFpfbG5seE5BaGFtZmFaZjdIOG8tWWFYOXNtMERkNFBzanFuNEM0NzBKbXlsZ2t5dVV00gH-AkFVX3lxTFBUdjJBTTdfNWZkN1VZWnU4dHYwVmFPenJQd1RUNUd3OXJKd3gzSl9FNUhxNUlZcmtoX25kaC1mWHZUNmJuM01WaG9XcjFFVkEybWJXZ0ExSS1YVWxfTzFJa0hXaUcyYThYVVIzUGN5MXctbll6TDF0V20yYkVBMjZsTHFleDlOelc5ell5Z0szQkNZdm1sMUpTWDNBcFdiVDQ3c2RYUDM1TjJUeVFhSkFYNHJqaTdlYXdMYWU5UEd4MkF5S0pZUGh4cDUtYTRLX2oyM05WRzV6VDB4dG1IODJ3Q3V2VTczWF9JV1dvUmdqQWxlc2NtZkRDZExLb0ZSWGhTS0I1NWJGVE4wVG94SGVWcmVEbWVKYmtZbUctcXA3cmhiREg3WXRyVkNVbVdWV0RmckVRTXgtUlUyMkhxa0Y1eVB0YXAtcjBNcE94UnVMSnNrbnVCV0gtRDdHZTFtcU1zRGpKdTFzNXo4UzIxa2xwU2NJeEMxSWRScnJSOXc?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Thu, 28 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:08:28.703807",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Rajasthan Royals Rajasthan Royals RR",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSEI2UmIwc09feGhvVElwVXZPZWh1cERnWE5scWk5V2xVNDkxTUcxcHRjeV9aODdHVHN1b3JDakNaOHo4dEpRMnZTcmRWWFhVVjNCUWhwQ0UyR0lGblFkRFJGbkpKc3A2TGlrTWJLc1EzR3BjemlpQVhra0pKcWpBdmVUUXZGbGxuYzk2aXR1SUpZeTFjYmxkUTI1YUw2WnYtU0ZwVlRNM2I1aE8wZHgxQnRkUE5MdEhISVJtd0ZWbk9KZWRD?oc=5",
+          "source": "espn.in",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:08:28.703811",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MI vs RR highlights, IPL 2026: RR seal 4th playoff spot, knock out PBKS and KKR",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVzBSSGVWZU43RGgzblFxRFY0bWc5ZnFPYXB0cFFuNkZCeG4wMFBBY2dQRUVzNzFYSXhzUFFwR1VUZmVYRXptRko1TE5ERWZhNFFjR293WE41Wkg1S3lYUGQ4ajN4VmJKWDItRUtUSjN1ODhiMXJEdkd3d3MtemtDRjY1NVllaFRBS09SQ2xnQU5oVUdpaEJFVEk2V3NXeUdmQ3lEd0swZlVfOFFtQnIydk12VFdwNUc5el80b2dOYnRsY0F3MkdoUkV0cWh6QzRtVXM2XzNEM3QtVzM2UEM1SFFNQkjSAeoBQVVfeXFMT3ZWQm9FUlBWTzMzODJCM1A3WnJEdE16SnhXd1VWOE1OdnE0TVAzMGVlNkxjTjhNX0NsaDF1YThLNUp5NkxYbTRsTVV5eWc4THRjSWY2TUQzMlpzQVdNOVM2MlBTcW92SG95cERKaTQ3OWdSMHBpMmcyTS1rcjJGTEZlMVlkMDQ4ZF8wRTZQSnFocHd0aFVWTkoyRDVUZExVNWZIQnkwQmxERkQtd0JDVUMtLVNqYVZQQkZUVFJHVmxsenNOdHJwb0VETzdwa2RHblRpN1Q2cXlOMWdzRGlXeHJFYzVnWDJiaENB?oc=5",
+          "source": "India Today",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:08:28.703816",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs RR Highlights, IPL 2026 Qualifier 2: Gill's superlative century sees Gujarat Titans into the final",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTGtBaHc2ekZ2RnVqU01MNlFFQllpaF9oQ19fUUl0TjVIcFJQcEdBanE1VnF6V0xIbk5Vb3JIYWR5Q0JuT0otWDhnM1B3eDMwZkxsSFZOLXBxVnl1UkZDT1ZsUWEyMGxnbE5ZdUFDc0JjZ29LOU9iR3pSajI2bmVVUW5SYTJiaDFvQjJ6clNqbWJfUmlMR1oxRC1mQmE2VDFNYTZwbTFfa3lzR19GSmlTWTlGUFR5VVJVR0RsWnhuNGM4T09OMUpwMdIBzwFBVV95cUxPS2N2NmN5MzlDUTBNbk8zRHlnak1JNnljT3dwSUdIT1pjRUtEU0FSdXFmRWpNSVhhSV81S2JNc2IxSEtxOTkza3NxSi1vaHFSNEpHam1CMk43MDhLMUxPTm5tLUdHakpXZEJsOVRfczhjZVY4eWExckFjZHI2VnFyWk9Nbi1uV0pLRXlSNkVTd2J4cW5BcWFkZm5VVUJad1lyd1dtOXdkQUVrbGt3ZjlrekRvNERxajE0TFZ6bUpxc2J4d05nSDRzeEVQelNfLW8?oc=5",
+          "source": "Sportstar",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:08:28.703820",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,7 +824,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-14T13:25:31.304237",
+      "last_updated": "2026-08-14T19:10:28.918772",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,21 +908,114 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-14T13:26:01.397996",
+      "last_updated": "2026-08-14T19:10:44.252152",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Herma launches Linerless Plus label material with 62Dps adhesive",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclU?oc=5",
+          "source": "the packman",
+          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841484"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 19:06:53 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841503"
+        },
+        {
+          "title": "L&F Plus Ships First Pilot Batch from LFP Cathode Material Plant... \"Mass Production by End of Q3\"",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nMkhRVG9fQ19zSzVuVTcyNEJZQU1yaFZVUWY3WVBFOHdBRDZROGxhZVpmN2V6c1pKNUxDRVoxVWtBLU05a1pZNzFtQVl2T051ZE9ucE5BcE5PRzhIaVpCREx3d0s?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 03 Aug 2026 00:27:06 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841509"
+        },
+        {
+          "title": "Cerenome, Inc. (CNSY) rebrands from Plus Therapeutics with new ticker",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMTJWdE8tMmxjcEdRX0VQWEhnR1A1UnZsbmFrWDVHc2lBZkktU1hodTJWQVo4SFdjSWpKQzVqOS1TOWQwTEJDTVAwSzZuX0w0ZUhNbVYtb0NqUjJFX0NJWUdlQVQ2eFpPZjZrOFdCNG05SVp1WUoxaVlHZnQ3UjhPc0NTWklLNjFscnA0T2I0akFsMnR6clJiUldkMjJwMEJWY2k0S2xCUW4wZWR3TnZV?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 04 Aug 2026 20:31:41 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841513"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841518"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841521"
+        },
+        {
+          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
+          "source": "theguardian.com",
+          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841525"
+        },
+        {
+          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841528"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "WVUA 23",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841532"
+        },
+        {
+          "title": "Internationally Recognized Sustainability Certification ISCC PLUS for Continental Tire Plant in Korbach",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeEpjbmVUeXRvVFp5SmYxWDBSaFpKLWNtZVlfTzlILU1vQmtYMUx0MDF4U25QelJIX2FidmNfWXpTRDY1U3ZmcVBycHVKRXRtX053QkJkeVE2MFNhem5PV2lSYndpOF83RmdGaWtDWnpROFhHWWFZNGp4TlVVcVhoTGdPYlk0WF96QVVLZTJCSVZwajg?oc=5",
+          "source": "Continental AG",
+          "publishedAt": "Mon, 10 Mar 2025 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:10:36.841535"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Herma launches Linerless Plus label material with 62Dps adhesive  Magnetic invention removes ‘invisible’ microplastics plus some PFAS  L&F Plus Ships ...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -740,30 +1055,46 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Herma launches Linerless Plus label material with 62Dps adhesive",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclU?oc=5",
+          "source": "the packman",
+          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:10:44.251708"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 19:06:53 GMT",
+          "fetched_at": "2026-08-14T19:10:44.251727"
+        },
+        {
+          "title": "L&F Plus Ships First Pilot Batch from LFP Cathode Material Plant... \"Mass Production by End of Q3\"",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nMkhRVG9fQ19zSzVuVTcyNEJZQU1yaFZVUWY3WVBFOHdBRDZROGxhZVpmN2V6c1pKNUxDRVoxVWtBLU05a1pZNzFtQVl2T051ZE9ucE5BcE5PRzhIaVpCREx3d0s?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 03 Aug 2026 00:27:06 GMT",
+          "fetched_at": "2026-08-14T19:10:44.251733"
+        },
+        {
+          "title": "Cerenome, Inc. (CNSY) rebrands from Plus Therapeutics with new ticker",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMTJWdE8tMmxjcEdRX0VQWEhnR1A1UnZsbmFrWDVHc2lBZkktU1hodTJWQVo4SFdjSWpKQzVqOS1TOWQwTEJDTVAwSzZuX0w0ZUhNbVYtb0NqUjJFX0NJWUdlQVQ2eFpPZjZrOFdCNG05SVp1WUoxaVlHZnQ3UjhPc0NTWklLNjFscnA0T2I0akFsMnR6clJiUldkMjJwMEJWY2k0S2xCUW4wZWR3TnZV?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 04 Aug 2026 20:31:41 GMT",
+          "fetched_at": "2026-08-14T19:10:44.251737"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T19:10:44.251741"
+        }
+      ],
       "filings": []
     }
   }
