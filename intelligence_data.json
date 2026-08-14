@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-14T02:29:36.992891",
+    "generated_at": "2026-08-14T07:48:38.016463",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-14T02:21:14.685731",
+      "last_updated": "2026-08-14T07:39:30.441765",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,21 +98,43 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-14T02:22:27.773610",
+      "last_updated": "2026-08-14T07:40:53.085966",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Digital Transformation Lag at TCS",
+          "severity": "Medium",
+          "description": "Technology adoption gap identified at TCS: digital transformation. Digital maturity assessment and tech investment ROI research required.",
+          "detected_from": "TCS and Vodafone join forces to drive AI-led digital transformation for UK enterprises  Tata Consultancy Services Stock Leads India Dividend Income Id...",
+          "gap_type": "digital_lag",
+          "keywords_found": [
+            "digital transformation"
+          ],
+          "solutions": [
+            {
+              "title": "TCS: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -152,37 +174,53 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "TCS: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "TCS and Vodafone join forces to drive AI-led digital transformation for UK enterprises",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaGdGM2R2XzNpU2RqbWZxNzFraGxKTmxMS1Rpb1lkSG13Tkh3Qm1ZdWd4UWtfLWc4ZTQzSXBycFJpTXh4VzhfSUtkalUxQXdTd01DdF9mckJGa2ZqdkxlcVVLMzZzZHZIcjF0R0dULXhCVjJURVQ3MUdJYVBUcklMdHQwUnVIbmYzaEZtaWlmdXUyQjRsOXNSUzdYMXluc2ZweDFTaVkwNWJMbDBuT21mX2ZhSXJhQVgxSGhmZA?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Thu, 13 Aug 2026 06:04:35 GMT",
+          "fetched_at": "2026-08-14T07:40:53.085620"
+        },
+        {
+          "title": "Tata Consultancy Services Stock Leads India Dividend Income Ideas For 2026",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSnV2TG9aWUpFNXJrOXZwUGFUckJXS1lzR2llRE8wYTdfTkN2X291WFd6Vk1KbnQweEQ5eEJ0SEVaLUNwa2xDOGVtR2tiaDhTVmlybmdiQVh6Nnh5czBhdnhHOFNfOGY2OC1rYnBSUTFXTjBEOHBCUVpsdkljSHRBczZKTnJNeWRSeWtlU3FhRXVtcGxabmVRX2FQVFQ5UFpMTHl1bWs1MzFwQXR3Nll6Wm9JcUhNUnRPTVlKSVpiRXFjVkdJX0QwTkVuNjNMMm9NRE1IYk5QZHM5OG_SAeABQVVfeXFMUGRoaUdEMXA5QTlzUE9Ic2ZMdkVxUXB0bE5adzFaQlVfMUNzZkNtS1FpNDFKNFkyYkRQMUpxeWdMNHBvWmUyaG02WEhNZDVkRS1TckJWNXZwSm5jd0t3c2FyUVdkaklzZnVRTzBXSmlwR2c0SkRDdnZUNkhhWXkwVkR5MjE1ekdLZlE2b2ZyMDhETThZZXZQZHBBdV82WldkLUNMVnpDUG5BaVVRSkMyYThndmtZSDJFN2lHWWlzcjcydzhoUkplUEpsbWxQajB1SmVnb2ctemVGWU1rR05mWTM?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Thu, 13 Aug 2026 21:53:13 GMT",
+          "fetched_at": "2026-08-14T07:40:53.085635"
+        },
+        {
+          "title": "India's TCS flags alleged exposure of some employee data, says customer data not impacted",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVE5aa2J3QnllSUtjVVBrWGhuTmZYUVpkOHRHUVhtYUdlRG91MlIwMkxSbFowTlhEanRObzY1TnpRazRqc0steGRZUkhKejJLOWY4YXRIa18wbkpoajV1VXczdHNhUHItby1VNEdSSHgxME56WGx2eXV1dFhwMWluYUxwZjFNMURST1VNRjh1bENZZWkxLW16em9rSktpV1V1STdqU1dRX21OY040TmNPcGtQLUpNQU0?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Mon, 10 Aug 2026 11:24:14 GMT",
+          "fetched_at": "2026-08-14T07:40:53.085640"
+        },
+        {
+          "title": "After N Chandrasekaran's exit, TCS loses its key man on the inside",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYXFVUmNxVU5JdVZUUTgxVTNNNHdSek03SFRTN0o5STJrMnRwUkZ0OXNkeGlMR3ROOHJNSVNkRXNSRnRqcEpCZERKSDRjRThZQUZmUEN2TlljcTNsclZoLVprSmJWRDI5UEhvYlh1WlY5aUVBdkVBd3ZaUk9oZ2pQR0d3U2dnWEZ3Tk1ZODROb0IyVGl6NDR2YjB3Ml9PM0U2Q2VUb201OUZQN2pnX0hUcl9UenU2MXVFbTZFUHgxVWFvR0d2MmFfRllYSjJubGZEZllnctIB2gFBVV95cUxOcXNkX0xrUkxxZkJ4aFo5NjlSQU4taWszLWo5TnlpWng5RDlMVEI0SnpmRUdSb19GT1VwamFTblJyNXdqT2dndmpZM19XaWR1NVhGSDRDVG9VVlRzdzFQaFlIYnRVVnpXNWxkR0ZwQlVGU0tVaEdGX3ktYWUybDBfQlRzRzlnYlJYNFFZZ3FnSTNsek5KRWJWM3I3VEJ3c2F6UDFjbGFrUTlHTmxuX0FpbUltUzc4ZWxHTVdfUXpVLUJsdThxR1VMdmtDMEo5R0hNbWNyckFtbTlYZw?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Thu, 13 Aug 2026 16:14:56 GMT",
+          "fetched_at": "2026-08-14T07:40:53.085644"
+        },
+        {
+          "title": "TCS says no breach found after claims of old employee data exposure",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPckxvdURKN19KODhQc2ZzRDVsOGZibnNWTVdjTFhtdDh6amI1MXpRN0ZIZWJZbHlQcXktcHNRSzc5THNnbjJQYXhtLUZoakthZ1o3MHJYeS1meWY5YVFzZDRDU19QcU1HbzRfNUZrbUUxVlhaZlZoWEtIc2hBSVFWblFSUFVWdERwVmRoTmhlYk00eXRMM0MzM2F6MWJTN2kzN0EwYml4cXJMcWRiV05ZVUFn0gG3AUFVX3lxTFAtQVdHWU1JZFcxQVphSWI0NzFkWklVaXlKLUpidEpMVzEzZVBHNWk3RGdYWlhYd2xpWHMydTFBcUxvbEYtNC1HaUdsTHFiN3VLekx2UUFOMGZkZ0JNNDJJMFZvZzlJbVItaUlXelB6R2h0RWMxRzVMOWJnR0llWWZyX1g0dThtNVZ5UU5yMV9aOXVLdERlMU5BOUxvaFdQTWFKSmNVd1FtUHFsWkZEcDZ2dk5qNlI3Zw?oc=5",
+          "source": "Firstpost",
+          "publishedAt": "Wed, 12 Aug 2026 06:10:15 GMT",
+          "fetched_at": "2026-08-14T07:40:53.085648"
+        }
+      ],
       "filings": []
     },
     "Infosys": {
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-14T02:23:10.060837",
+      "last_updated": "2026-08-14T07:41:58.726047",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +304,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-14T02:24:13.342465",
+      "last_updated": "2026-08-14T07:43:00.851249",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +388,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-14T02:24:54.118390",
+      "last_updated": "2026-08-14T07:43:58.148342",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +472,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-14T02:26:16.998197",
+      "last_updated": "2026-08-14T07:45:10.875138",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,17 +556,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-14T02:27:37.720274",
+      "last_updated": "2026-08-14T07:46:49.794282",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -594,7 +632,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "RCB vs GT, Final, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWVlmckVCTjdER2tLTkNfNER5dGhkMjdzOThDUHF2M0dxc09DMEZ6Rk8wdFE5ZDJVd3Z4aUJDZ0dwcXFuSmVVbHg3TjVWWTFHcjJHWlViQkRiTGhsOVl6ejZWVFhBZzVyWDVQdTJsTFRnQlhoZUttY20xUFpJOENjVkh5Ym56NERiZklGWXVBNFl3U1E0OXVMRVZlczdYdw?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Fri, 14 Aug 2026 01:49:37 GMT",
+          "fetched_at": "2026-08-14T07:46:04.722221",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Final | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazMwV0lObFpLSzZaSXl6d1hwYkFsZ251QW9Rb3R0cjEwUzhISUlZMTB2SmJUX1pWU01QSmpsSl9FcE1JM2V6NHV6SlpZVm9KOTJZS001OUM3V1g1dnB0UHhyQW91WnZWemZ5NGF3c1FSRzllYWxuR3d3ZFk3SFNaRjdZWnZTcVVxQVhYZU5SSkdPV0R4TUE4Snd3?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Fri, 14 Aug 2026 04:47:25 GMT",
+          "fetched_at": "2026-08-14T07:46:04.722236",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'101 against RCB set my career up': David Miller",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdmxyQ21Na081Y1NpeHpNRlpzUzBvd241SlBtUVdGM1FtOENaVDJHVklWWFZIMGxsdzdIdUdUeTRVZVB0blFsNlFqNENvdURoT2Vmanc1bWtKaWl4VWNVQWR1a2c2UmxSSkl4dkJyT1hMQkxydzI0V3M1eXlXcnNrLUV3SWNhbFNTanA5V3ExTmZCSUk4VTRJZi1kSTJWWWlZaG1jVVJLUF9zSjZzTTdHbXFvcXJPLWlZQUdVWFlVWTRCRFVjUlFyRld4N2dBUW96SFBmTVNueEhxUnU2bXNmZ3l0aHfSAecBQVVfeXFMTkMzRUFFeTQwZGFkWHg2dkxLamppbzI0bjRud2pEdy1jN3UyUjQ1STBxcVIxUXVnTU92OUdqNl9ZOGpvQ09sczRZcjFmcE9xb01BNU9QVlcxRENkNmNhQ0JJcXFUaEc1UWF6TjBFRzd3dmJhSVZrYThDdFBScXdsWVlPQjV2QmdQYWw4a2tZWDBNNW1YdklaNWFOVUdUazMtc2JWREJJQUdDUkQ1bEtsUWNxUHZBQjE3aERSZU1qSzJJWFVRYzExSmMtZzlqWGRQc1NnNERTXzJraUxKRjRwd0hHcVNZS0xj?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Thu, 13 Aug 2026 03:37:54 GMT",
+          "fetched_at": "2026-08-14T07:46:04.722240",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT Highlights, IPL 2026 Final: Virat Kohli Takes RCB To Title No. 2, Achieves Huge Record; Shubman Gill's GT Runners-Up",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeWJzTmcxRFFyNTdxUkdfeVY3RzBpYlZ4WDRKN2o2UmdkdURtZkRmRDFpS2R2THZuc1V5Y25iSGQ3YThqVTNRVnlhVDBJNG5sMXVtMTcyR19SdkdUXy1vU2JHcDZySnpuY2pod0x2VmdXV0w1U3I1NXpVc1c0WEVFS3VIMzdtbVc2MUFYZmQxbkdBR25ZTnlsMVR1RnNScjhJM2tEZW1kUW1NSmExdzNXbzNLbDhfd2NIclNJSHJzY1NLdF90QjYxS2lQVXdzMklLRnFBR3ZOTkJpS1JvZ05CU3ZPRXVqWnhDYk5zZm5HZzlmXzR2akxyVVMyT0xnM0M3dEN6XzNnYWFydHNNZmlCQllqRnlhQQ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T07:46:04.722245",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bangalore vs Gujarat Live Scorecard: Live Cricket Score RCB vs GT, Final, Indian Premier League, 2026",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTWdxWnl6T0dkMlAwbHNRR3RQdGNZc2hTZ19HQ2N1WVBtcnBkMXlXOER6QjlHMDN5YjV6d2I2SnVPS2R3THkyUkNid2xZdFN0SmYyNFg1eHRzSXNoSXF2RXRKY1lEWFhETEdiX2hMMzFRZG91azY2aE1JTzk3YktibTAyTGh2ay0yaEczUkRBVEdiLUpWNU9J?oc=5",
+          "source": "India Today",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-14T07:46:04.722250",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,17 +686,17 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-14T02:29:17.048407",
+      "last_updated": "2026-08-14T07:48:17.321036",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 4,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -678,53 +762,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "'101 against RCB set my career up': David Miller",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdmxyQ21Na081Y1NpeHpNRlpzUzBvd241SlBtUVdGM1FtOENaVDJHVklWWFZIMGxsdzdIdUdUeTRVZVB0blFsNlFqNENvdURoT2Vmanc1bWtKaWl4VWNVQWR1a2c2UmxSSkl4dkJyT1hMQkxydzI0V3M1eXlXcnNrLUV3SWNhbFNTanA5V3ExTmZCSUk4VTRJZi1kSTJWWWlZaG1jVVJLUF9zSjZzTTdHbXFvcXJPLWlZQUdVWFlVWTRCRFVjUlFyRld4N2dBUW96SFBmTVNueEhxUnU2bXNmZ3l0aHfSAecBQVVfeXFMTkMzRUFFeTQwZGFkWHg2dkxLamppbzI0bjRud2pEdy1jN3UyUjQ1STBxcVIxUXVnTU92OUdqNl9ZOGpvQ09sczRZcjFmcE9xb01BNU9QVlcxRENkNmNhQ0JJcXFUaEc1UWF6TjBFRzd3dmJhSVZrYThDdFBScXdsWVlPQjV2QmdQYWw4a2tZWDBNNW1YdklaNWFOVUdUazMtc2JWREJJQUdDUkQ1bEtsUWNxUHZBQjE3aERSZU1qSzJJWFVRYzExSmMtZzlqWGRQc1NnNERTXzJraUxKRjRwd0hHcVNZS0xj?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Thu, 13 Aug 2026 03:37:54 GMT",
-          "fetched_at": "2026-08-14T02:28:35.511795",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Final | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazMwV0lObFpLSzZaSXl6d1hwYkFsZ251QW9Rb3R0cjEwUzhISUlZMTB2SmJUX1pWU01QSmpsSl9FcE1JM2V6NHV6SlpZVm9KOTJZS001OUM3V1g1dnB0UHhyQW91WnZWemZ5NGF3c1FSRzllYWxuR3d3ZFk3SFNaRjdZWnZTcVVxQVhYZU5SSkdPV0R4TUE4Snd3?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Thu, 13 Aug 2026 20:32:00 GMT",
-          "fetched_at": "2026-08-14T02:28:35.511810",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RCB vs GT Highlights, IPL 2026 Final: Virat Kohli Takes RCB To Title No. 2, Achieves Huge Record; Shubman Gill's GT Runners-Up",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeWJzTmcxRFFyNTdxUkdfeVY3RzBpYlZ4WDRKN2o2UmdkdURtZkRmRDFpS2R2THZuc1V5Y25iSGQ3YThqVTNRVnlhVDBJNG5sMXVtMTcyR19SdkdUXy1vU2JHcDZySnpuY2pod0x2VmdXV0w1U3I1NXpVc1c0WEVFS3VIMzdtbVc2MUFYZmQxbkdBR25ZTnlsMVR1RnNScjhJM2tEZW1kUW1NSmExdzNXbzNLbDhfd2NIclNJSHJzY1NLdF90QjYxS2lQVXdzMklLRnFBR3ZOTkJpS1JvZ05CU3ZPRXVqWnhDYk5zZm5HZzlmXzR2akxyVVMyT0xnM0M3dEN6XzNnYWFydHNNZmlCQllqRnlhQQ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-14T02:28:35.511816",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs RCB Highlights, IPL Final: Kohli, bowlers guide Royal Challengers Bengaluru to back-to-back titles",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMVBWeGdXalVoUDE1SVVEZ1FsNjZRQURHOTI5ME11d2tkMWtHUzU4WGxHU245dUo4Y3RoX2JjaTVqMld1NGtFdFRmSmRaSGstOG0xS0dkUUFVZlpuMXZXYUt4MmZoTkRlN3lSNW5FbUxza2xkSFl6bnNpSUt3VjRVQmRqV211R2RUTkFadDRHbFFQWFM4dVFMVV85UXl3Wjc5SzQ2NUMwdnhDbXlWTHBUVUVNdk85SExpYXlCNURTM2ZHdF9m0gHKAUFVX3lxTE5UU1FqTGUwQUc2bmN4N2VlZ3h4ellPMkFZSTNyTzA1Q25nRkxXYkJ0clVUYmR4a3d4LUxVNjFaeUR4Q1U4bmZPeDVJeVpnMzl6bElJYnp1VUlnSlVNd3dGUm5xRXFvdE9nTkhHdERtdy1XeUR3ZUZXMmJCZi15S3ctQk1pNEpMR0NFLU9NWjRJX055ZU9nZmw3anNVV1l2MGhqNTlERDB1TTRHNWtRVG4wYnZZTVloTlRzWXRvQlg0ZVlGX0FlNXdPRXc?oc=5",
-          "source": "Firstpost",
-          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-14T02:28:35.511820",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RCB vs GT Highlights, IPL 2026 Final: Virat Kohli seals 2nd successive title for Bengaluru with a SIX, beat T",
-          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNS0VDU094eVpKaFhpLU9sUTBWaUg2QjVLY1VKY2p0M2hrSElvWWY1R3JKQ2FaU0RVVW1mTk5CU0MtTlhWU2FvLXItczZETkNMWlkxRGItS3hzRDYxaWhEYndOSy1tXzQxTXQtVUVMOFhoMlB6UVdGazZkQkhObi16elptdmZ3cjZId0Nxc1BKbUpmUjVjUnFCRjUyeFZ1Y2h5VnJJazRubnhBdXJqQ180T014d2txdEtWRmtaYnZudWhta1paaUNuQUFIdEpCUnRwa3IyaVRkbS0tU1lyX0NhNmZWZ3lTR2kzaFJBYXVRNmNxZUU2MVd4WmNiVkI3ZHl1WElLQm55SVJzZWtzeW81QzluV1JFaFBHWF9xUUlrVFY1SXl0cWk4SE5iTTBZc3NFc2NKS3prVDVoZ2lmZWM4a9IBxgJBVV95cUxPQWdleVh5di1CbDhFZGI5cE9TS3VMOFpXSDl0cmc2ZzMtcGdmbmE2Mk9MTnFLeGt2OHBPaEpac0pEWkRqcnYwb3loQjQ2MFZRbXA2WEpHcElVNVBONEhZNktZQkdtTER0Z0NEME0ybUw0aEFvekxyd2NFRkk4RFVBaUNxc1NvdFRndUVrS2IzRkZiN0VQOUR4OEswSVV3YkhkcUhZSzBNRzhfUGxxcFlzM2FiU3IzQjFnQUY4YnEwWTFQTGlUeUdnaklVR3dnRUJmUm1KMEJqOGMxTVUyUGY0TVRaeXo3Z1hVNDA0bDdESXh3S1c1bHd1eEl2Q3RzRFFPZ2dSLVZ5THhTcGZpU2dhTEN0NkRiQ1VEaXBFYUJXUjdtUFJiMXQ1djI0ZUxkQkVCMXdXMDN5eUl1ekZmaGs3TWoxc2psZw?oc=5",
-          "source": "India.com",
-          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-14T02:28:35.511824",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -732,7 +770,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-14T02:29:36.992876",
+      "last_updated": "2026-08-14T07:48:38.016447",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
