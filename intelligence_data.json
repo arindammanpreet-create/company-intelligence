@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-16T01:49:24.508733",
+    "generated_at": "2026-08-16T06:53:14.224438",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-16T01:40:19.055066",
+      "last_updated": "2026-08-16T06:47:48.988394",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-16T01:41:39.400397",
+      "last_updated": "2026-08-16T06:49:05.527240",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,43 +182,21 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-16T01:42:55.070850",
+      "last_updated": "2026-08-16T06:50:34.083437",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Regulatory Headwinds for Infosys",
-          "severity": "High",
-          "description": "Regulatory overhang detected for Infosys: investigation. Compliance cost and policy risk assessment required.",
-          "detected_from": "HCLTech says stolen data may be years-old after hacker’s data breach claims  HCLTech finds no evidence of breach after hacker group's claim  HCLTech h...",
-          "gap_type": "regulatory",
-          "keywords_found": [
-            "investigation"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: Policy & Regulatory Risk Monitoring",
-              "impact": "High",
-              "timeline": "4-6 weeks + ongoing",
-              "price": "₹12-18 Lakhs + ₹1.5L/month",
-              "methodology": "Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning",
-              "description": "**MRA/ESOMAR-compliant study**. Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning. **Deliverables**: Monthly regulatory radar, Compliance cost models, Stakeholder matrices, Pre-budget memos.",
-              "gap_type": "regulatory",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -258,55 +236,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "HCLTech says stolen data may be years-old after hacker’s data breach claims",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWGRzSDQ3YlI4bl9rLTJKcHlMaTJhckRQeEtIa2FDVWxjYm53U1NqLTBiOVJRbTBYNTRWX0hyay10eGFVdFVFVlJsZTNVd29oUVIyMUw2WllxUGdPdE1nV2RINkNtNEFpeXdZMWV0TXFyc25OQUVySnB6OVI2QTZuRll5MUlSN0hFU1FnQTNITlBlZk5leDJsSHIyazlHM2xzWW1DSV9RZnhuelc5NHFBWjN6WkZyWXc10gG_AUFVX3lxTE55dWJnbHd6UU1mU05nNnZuQ2xXbTdpQy1RWGRXV1BzdTFTbGRJR3pqM3JOUElxZmc2a19vWllmUU5iRnN2TF9ZbUlVeVFqcTVwejdkV2NQdW9UQWxnVjJvNWdOX2ZiZ1h2VWNfMnVPd2pSY2NFQXh0WjJGM1NlcnJhTTRsemZ5QXRiRVRtQjJMUkdfamw5WEwtSDdEcjcyTThnaHoxRU1XdkZwa0lFbURwc0F6TVp1MHN1NU5DdTZz?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Wed, 12 Aug 2026 03:33:00 GMT",
-          "fetched_at": "2026-08-16T01:42:34.318165",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "HCLTech finds no evidence of breach after hacker group's claim",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81cFJyOUZFT01YbGh1V3FNZE93ak53c2ltLTlHell0Sm5HZE5NSnpKT1dFY29sZDBvSVBJU20tYkpGQ1pjd1JfeDVLbWlpLUZTa1A3SU1IejlqZEw2dE9wWTlwbmZyTTVCbXk0MGMyZHBIVnp1dGtqdTlDU2s?oc=5",
-          "source": "MediaNama",
-          "publishedAt": "Wed, 12 Aug 2026 09:17:39 GMT",
-          "fetched_at": "2026-08-16T01:42:34.318180",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "HCLTech hacking claims: IT major says no evidence of systems or client breach, further investigation underway",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaFJUZlBxZ1dlNmFJUFNjZVlSZEdEaGMzWDVBaVhUNzNRV1lYY0lCUzlPMl9iUTRYYWh5M054Qmx2Yzk5bzdobklvV09KMTF2V2FFSWNpOURkUzJvMmVPM2llZG1FMHcxb09lbzdMRnR2V0VfWVVadWhuMEJzRlZtbExPVW9tdnI2WUwtUU5rSnk2R1UxRE01X09HOU93YTVHSFZINWFabFdpMDhqU0RGZ0lCQjdVOFNxbVNGT2dYNXlqN0dGaklxc3YyNUdmazdPRmJGY21jSkg3eXNmYWdwLWFvbU1lUEhXOVlTVkN4VW0tQVIx0gH6AUFVX3lxTFBhdEJZVXMzNFlEM0x5eWJPd3llVXNvS3VTWEVxUjhsekdIYldBV0pDU2VrX3k1TDVWR0JVZUU5ZHkzeXRidDVYRm5idEtIdk5XWml0dTBDYmtzbEhfSEViSEk0T19TUkZYcFBwaXlucXhVTkl2dVlGd1NhU3pVT3ZkdjNPNzNCYUNQb0ppeU9QLUtRakt0MnoyVVhqZ043M2Y4VG5vYVo0QXlhNXN6b1pUdXNEcFE3VExMNXJSWWR4czlNTEZ6ZG05WXBMdVJDaDlPSE1CWVY3b3NtRDVCLURxdVlCOWJmLU03S0JSN01QSjE2dWtsSFhWMFE?oc=5",
-          "source": "livemint.com",
-          "publishedAt": "Tue, 11 Aug 2026 07:35:57 GMT",
-          "fetched_at": "2026-08-16T01:42:34.318185",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Six Friends, One Crazy Idea And Rs 1.87 Lakh: HCL Co-Founder Shares How Company Was Born",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbm5TUXBjWlF2YTBWVUNxVHZ4d21uSk1Zcmk2S3NIWnViSTR5SzRvM05tRS1vRVhUdEV6bWtjd2F1UWQzdkpzY1lnUUtxZVJnN1U4QnBQNE9DeUtRTkx2alRueDZMQ0dMSWRReC1MbUd4MlN5TDlYS0sxYmV2Y3ctWmNidGdvUkc1QmNsNnRINlluRmMwblRoY1QxbGpRUzkyUWdQRmpxWk9fXzE2VXhnWHNpdDQtRmxiSXU0X0w5alNCd9IBygFBVV95cUxOSlhSOHI0WWtVdHkzSUdNd2g3RC1CN1U0TFd5US1sUlhnazFZOHNDT1NiczFaWU5BTk50RzVxSlYydHVPLWpFUi1KdlVfbndjUTkyWjdNZGM1dEZjWnhRY2lKa01zOEZyenV2S2ktTlV1OFNRaXU2N0NTVkY5bTk0U3VwcTFEb0JwZ2tWYnZ6bktJemw2anRWQWd4YVRyMWx0ejFXbWlva1VnTkVGWUVnS0VKWWhQSnR0LTd6akcyU09iLXJNZEFtcC13?oc=5",
-          "source": "NDTV",
-          "publishedAt": "Wed, 12 Aug 2026 05:22:14 GMT",
-          "fetched_at": "2026-08-16T01:42:34.318206",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CAM acts advises The Guardian Life Insurance Company of America on divestment of its entire stake in Guardian India Operations Pvt. Ltd. to HCL Technologies Ltd.",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYVVjaHJrQVZWaEJuQkpxTXA0MHlHYUIzMnFHaVp6VVpnRlk5SzVZNnBLTHlZVElPdzdLQ28yLTF6QmJmNWM3Q20yU01JZWRENXhMekxvT2lKZW1EVGt2NmlzOFdoQnZScE5kNHZGVTlnRkRndmhhZ0xlX2UzWHFoemp0YjdzS2E3dTZsZ3pMYnREeDJaZmZGRnBncUhUM0Q2T0dFbnlTTlptX0NXSlN6OHhLeV9sVlM4anpmYy1iakpvWkstZmt6d1JvSGFoQXhFWTI1T0FheXNlR3hlX1E?oc=5",
-          "source": "SCC Online",
-          "publishedAt": "Thu, 13 Aug 2026 04:30:11 GMT",
-          "fetched_at": "2026-08-16T01:42:34.318212",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -314,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-16T01:43:55.705996",
+      "last_updated": "2026-08-16T06:51:10.721245",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -398,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-16T01:44:57.500778",
+      "last_updated": "2026-08-16T06:52:20.529930",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -482,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-16T01:46:16.931715",
+      "last_updated": "2026-08-16T06:53:05.763574",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -566,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-16T01:47:35.033774",
+      "last_updated": "2026-08-16T06:53:14.044839",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -650,11 +602,11 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-16T01:48:54.458768",
+      "last_updated": "2026-08-16T06:53:14.190970",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -726,53 +678,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "GT vs RR, Qualifier 2, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTjBZdUlBNXk0bzBDTjhBUFh1OUNRUnUzRXFfVDBaZ3ZRREpya3RmUHpScVRsaF9icXZuUHRKZ1NTN3AxVUxySUQ0YU4zWGo4TERfWXRSbnVlUUllanQzU2FXOHBiSlJITWU5NUROa2JoZjVWWlJrSFNncUpvTGZzclVadUs0N29vMG41R1BSRTZZQjNkMUFmRTlFdkJFbkd1MlpVbw?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sat, 15 Aug 2026 10:53:02 GMT",
-          "fetched_at": "2026-08-16T01:48:48.978355",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rajasthan Royals Rajasthan Royals RR",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEU1Z3AzcWNqb1h1MUZxSEU5dl9taktpRlNqdGtKN2NTbEJLczFDZVFyZEh6Vl9BcHltdEZvcnpDR1JOTHktV0ZsNmZ1bDdnbk9CRGRwd1VRUENlR3hMNDdHSW5qY2h4ZzVidTdid2JWRjZ0TkJra2F5Rm01cXMzVkxKclBYRWxCYzRBZmt0UVZCRmdOMzVqMEI0eVJ6VU4tSmVBajEzYzNENGxBS000Vk1FZ3VEWEJucWFnUnFNMlBmdnk5ZFE?oc=5",
-          "source": "ESPN",
-          "publishedAt": "Wed, 27 May 2026 19:10:38 GMT",
-          "fetched_at": "2026-08-16T01:48:48.978367",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "IPL 2026 Qualifier 2 Updates: Gill masterclass fires Titans to final",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zOWhidFdyMmoyWWV4cVJ2Umx2bUNrdnNCc2xYQnBtUGFiQ0N4ekxDdG5IbEJKZndDX1kxNnJZZVo2UXByeDJ1bGNRMFNNeDZqc0ltdGZCRjhkZWtXZjBwZzRfaTNiR29DN3VfOG1sbWpsYllZalo0Tg?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-16T01:48:48.978372",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TNPL player breaches BCCI’s anti-corruption code",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPemlBcUtOV3N0cTJ5NEdILTliajNlSGFhVEZFNHVqc1VmOGp5V3pDbjBmN0pMVzJySnV3MUxWempLUVdzZTRyenl1ZnFMeXdfSlZOQlhYbVZGUS1ENC1aVWpRbF9MeWcwcnJCY2RaejItaV9ZbEhEY3V3ZXNBbjctSHJGbjdZM1RlUlZwTkZlbmF3dmszTVVESUU0SEc0czVPRXI1bi1tSUEzQmdBZ0wxZkJWcFZJUWdHRF9vSVM4cTZrNDFlYVRJVlNJb29kLVRJc3fSAdgBQVVfeXFMTk5pWTYxWW44dzM2dnRTQ2hPeEhzZzQ1dGlSSmd6TElKOWRDVzZpdWNXa1lWaEVETWdYTkhZTlBHVmxRaVlCTnF2cEtaQmFGNjJNdkViUWpQc1AzbUpqdThybkplOUhYWFhIZGNFYVBHY2xSUEh6ZHlHUGlWY2NaTGVEcGlXMHZPU0loa3NjVm1aR3lvYmxsZ3A3UkpoNWt2b2VvQ2hOWUxtUVJYUDBFYVhieWZqVW1oenlQVmVqQnlzb3JUaWR0MlF4VGlaaThWUkVZWWhNYWMz?oc=5",
-          "source": "Sportstar",
-          "publishedAt": "Fri, 14 Aug 2026 16:30:03 GMT",
-          "fetched_at": "2026-08-16T01:48:48.978378",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SRH vs RR Highlights, IPL 2026 Eliminator: Jofra Archer and Vaibhav Sooryavanshi destroy Hyderabad to power Rajasthan into Qualifier 2",
-          "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNR0c1QnREa0dqbmhvWnpFRkhSUmJOdzhWOFI0ZjNEX3FsQnNMUEtDQ0llQldNb2xKaExfZlIycHRIMXNISFFkLTNBQUVPWmt2VmhhUUxBdEVuQ2FPSXNZenNoWjJ4NXJvRUVVd0w2QW9WMThJTkJpdFJxRUhjcUNIbHpmbWpLQmw0WjlYX2hxdFRncWN6Ri1nUUtVeGR6dFJFZV8tMW0zdG5tX1ZDVU5GTkdrTjdxUFdDUmh3TW5seUtVcDVEY012LUFlMXh1dG95bVNITlhsd3laa1dHNGZwN3pyR00yMkR3QUhSUmdxcDhwZVJqVWtoU0Q0bEFTUEF1ZldHQnZUZVRIY0VKQ1pNdldxeld4dWxpNTlwUllGQ0ZsbGR4MWtvQ3NHTVVES0EtSzM1dXh0VVFEd19kSHJqclI2ckowWFpfbG5seE5BaGFtZmFaZjdIOG8tWWFYOXNtMERkNFBzanFuNEM0NzBKbXlsZ2t5dVV00gH-AkFVX3lxTFBUdjJBTTdfNWZkN1VZWnU4dHYwVmFPenJQd1RUNUd3OXJKd3gzSl9FNUhxNUlZcmtoX25kaC1mWHZUNmJuM01WaG9XcjFFVkEybWJXZ0ExSS1YVWxfTzFJa0hXaUcyYThYVVIzUGN5MXctbll6TDF0V20yYkVBMjZsTHFleDlOelc5ell5Z0szQkNZdm1sMUpTWDNBcFdiVDQ3c2RYUDM1TjJUeVFhSkFYNHJqaTdlYXdMYWU5UEd4MkF5S0pZUGh4cDUtYTRLX2oyM05WRzV6VDB4dG1IODJ3Q3V2VTczWF9JV1dvUmdqQWxlc2NtZkRDZExLb0ZSWGhTS0I1NWJGVE4wVG94SGVWcmVEbWVKYmtZbUctcXA3cmhiREg3WXRyVkNVbVdWV0RmckVRTXgtUlUyMkhxa0Y1eVB0YXAtcjBNcE94UnVMSnNrbnVCV0gtRDdHZTFtcU1zRGpKdTFzNXo4UzIxa2xwU2NJeEMxSWRScnJSOXc?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Thu, 28 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-16T01:48:48.978383",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -780,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-16T01:49:24.508720",
+      "last_updated": "2026-08-16T06:53:14.224427",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
