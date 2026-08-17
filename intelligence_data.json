@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-17T13:01:06.390729",
+    "generated_at": "2026-08-17T18:56:32.620353",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-17T12:53:15.876226",
+      "last_updated": "2026-08-17T18:46:53.145583",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,21 +98,114 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-17T12:54:31.351588",
+      "last_updated": "2026-08-17T18:48:16.155116",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.25,
+        "label": "Positive",
+        "pos": 5,
+        "neg": 3
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Tata Consultancy Services launches Agentic AI platform to transform drug development",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN09vUjFJSExSbEgtd0JLSDR1T0lCNTlXeEsyVmZ0MHdYWGRKb01xeGw3T0FseWR4TDAyQUdlQy1lY3A1dGFOVFdYWE96RGd1anY0Y3EwVU94UENlNXYtWHNyZGFyVnpiRVlYZU1wczVwZGJGc1JOWFZQYlZJa1dlNk1EbkV3QlFOLXF5c0ZqMm5NVXl5NG1PSVBaNFpsbjlPNzdvWUxHNnlKb05LSkNoLWFxaWRteS1EeFBFeXdMdWk4dGEyR3JIajJlSjlFZ0phR1E?oc=5",
+          "source": "BioSpectrum India",
+          "publishedAt": "Mon, 17 Aug 2026 15:43:43 GMT",
+          "fetched_at": "2026-08-17T18:47:07.681993"
+        },
+        {
+          "title": "TCS and Rolls-Royce achieve breakthrough in hydrogen-powered aviation",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcVVlbFBibkJiM1FqNGNzY1hxV1pfYU91N2FLSmd6VmY2cXZRWXJGQ1JDa3N6alM4V21SNTdvTDFCQTBCc2ZudFF0czk0d1BzQ0tVS1BKNXhfTjBjaXZjQ2FJc1otUjBZcTBwT3BycDRpdEhyVG53ZnpBWnQ4ZGhJUlhyR1pWc2ExMVdXS1RmZ3VBaEFQOWpCWWwxanEzOXBMb2V6a0VfaWRDNWNWV2RDcmtmc2ZvQ3g2TDVR?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Fri, 14 Aug 2026 06:46:26 GMT",
+          "fetched_at": "2026-08-17T18:47:07.682007"
+        },
+        {
+          "title": "Tata Consultancy Services Stock Offers A Rare Mix Of Income And Staying Power",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWVdRWFF6Qkd2YUVKSEVwby1pWUxIaThpSF9UWGdJT2RYOXlkWDlvakJSVlNNcnUwSEdNMWJubWpVdW4ydndDajRTaEd1Q2tlTGlTTHlZeDRIX3NLZlF3SWxOS2liZkthVkhBX182UndONmNsNnQ0N0t0aldOQmVWcWs4WDdsOE14d1lhYldMWE4wZkRUd3hndDUwdEI3WFo4THcwNmg2NmdxLVJNQ1VCUy1COFNmbGF1U2Ftd3lBRmxRN1JiVmhneGZ3VVNGYnhnZG1oVjZ4amdzSWPSAeABQVVfeXFMTzNKNDJmTE9Hd195ZnB5Y1RNUmNPNEU5Y3JvcEFJeDRySFJad29jZ3gtS0pDM19fTnZTNEpkUzBJVHkwb1I1NFdrMGc2d1VVV2oybU1Uckc5ZGNJd3lmQzlOX0JCdmVMdU82eUVtZU5OZmU3NWE3RG9IUXFTYWtvd0txcGRtb0c5bWVSWE9kZ3BuR3hxOVFNTGhhSTJrQTlkMld2MXJJbU1uaklsckxPSnB4S1d4SVFVUW10MGpFdU9Bc3ZlLXpZTHp0dmpOTENfa2NOeGhNZ0JhTWF2UGJfYVo?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Mon, 17 Aug 2026 13:31:32 GMT",
+          "fetched_at": "2026-08-17T18:47:07.682016"
+        },
+        {
+          "title": "Tata Consultancy Services Launches AI Platform for Drug Development",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVnp0cUJLSERPZUJoVXNwdVlFYURVQUlIQkpOaktHUEtxWVZUb0pjZUpYbjZWSHdtUTh3WlNMQnRCTjRISzMwaFRZVTdkVVJyYXI1a0VydGF2aGxwNTNVWlRzRFhuOU1mOTFGZmdIc0lIUTQwcThlaWxEUFNRS0NfZ3NMZzU2NW5CWjNOR1V2SEdLc2hMZnRpOXhzbk1DV2M1aHc4YXFINERaSXhwUVFiM2JCMjNVUmdLcHV2bA?oc=5",
+          "source": "marketscreener.com",
+          "publishedAt": "Mon, 17 Aug 2026 10:12:45 GMT",
+          "fetched_at": "2026-08-17T18:47:07.682020"
+        },
+        {
+          "title": "Tata Consultancy Services shares decline 2.04%, trading at Rs 2,312.80",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd2hfZTk1UjJyamhVWUhDQjJYclZqTGRXZF9ZY1Y3UWVYOXBIOHRDLWF0NWtjRjhMZXhsc1lxUWJBU3ZIMS1fRGs4TjV6VlBfamVFWFJ2RnFCLW1jNW96N0Npb3hZalZFYm5pWEM3S0VoNy0wRDNTQ1BuZDZ5di0xNjZhOUlwTU1YMndiSVloVnFVTWFvVl9weHFiOGE0WU5pekIydDZrcVZJUFBsVU5hdl9LR2ZLSnp1NGQ5M1hBZGJkSEEwaVZENnBHRjFJczBKQjNMVlZhRktuTHBybl9B0gHkAUFVX3lxTE92c0dQWlMxbmxBZ2gteXNETkxnOE9neXdNenN1NlhiQWZaOGtDNFZGbUhWbXNRS0lmdGh1MXc1b0YzZ0ZjWkZtUncybnk3NmxyTllXOWN1MEUwWWNnWldic0FWUUhNcEY3S3psbVFvOW1iWUdNU0FXNGNvQWI0MnI0MUstZ0ctckhGR2lqTTBHYVpGTVN0WTV3dmhld05IVFJlUTI0cUswQUxJNVRSdzRVYlRJYlFFM2ppbnhvbDVIWmtpZ2pjS0pFa0IydUY5Q3dDdkFNM0lVTjNQUlZta2pLX2tXUA?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Mon, 17 Aug 2026 05:25:20 GMT",
+          "fetched_at": "2026-08-17T18:47:07.682024"
+        },
+        {
+          "title": "Tata Consultancy Services slides Monday, underperforms competitors",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbVhGajVOYlpUbk5JemxpdWhDUlcyY1RGd3VTU1lQUlpLVTVmbWFmcGRYMTJJX3RZeVV4ZXVxbEk3bW5rNnZ6NEwxcV9YZmdick9udU81NmR1LWVCNmEzMWtnRVg3SnlVdEVsWTNkNktWa2U4ODliaEQ0cW5sS041RXo3LWFFUnJqUTgzeElqam1sNlZPXzQ1NWt2b3c4S1FpQzYtOFAzRW9NdC1iekhTeG5LaElLTU5ndzZlREpCdXo3SnMtZ1packpKcXMxM0JSOWRkeDQwZG5xUXc?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Mon, 17 Aug 2026 10:33:00 GMT",
+          "fetched_at": "2026-08-17T18:47:07.682028"
+        },
+        {
+          "title": "Buy, Sell Or Hold: BEL, Samvardhana Motherson, Bajaj Housing, TCS And Yes Bank — Ask Profit",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORmtwY1l6NGg1SzBVbXdVeUVNcHpOa21XallsUjdsdmMwMlpMME0waGVDcnJaMFZzS3ZfZ2lLRHpyTk9zS1lLckFfNzZfVmJtNEZSVzlwMTFJUnZzVzNTYnM5ZWRjMi02ejNKMjRsdW5zUEh4cFowSnkzT0c1MlFRSnc0eWs4YXNITWtielhKSk5uekZRdTRHRThnSFhEYXhjQ2NWTW5FZl9WLTl3SW5Td1AyejBZZzZaOHZBaklpbEp4RllnMEd30gHPAUFVX3lxTE1fSlhRZTlEa3hDakVLcW9saXY2S1JGeThqRzdMbjZTMmtMNmotbHVTTzFKMUw3TkRvZ180Y09EWFdrdllzLTJ0c2xKc1R0eE1EY3lfdjVuRFZFR1dldkxwUFpZWkdtb3I0QTdxU0FkZFhBZVJOU1BkTW1FdVl1QmV5V2RxMG1ZWmVGSzhsbWgzQVV3NjJrcDRvdnFpQjUyV09TYjFYeXhmX0ZQZVBBaGZ6aVlHc1c3enRkS0x0X3h1U0xWU1pSSHgwcHg1SzhPRQ?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Mon, 17 Aug 2026 16:33:27 GMT",
+          "fetched_at": "2026-08-17T18:47:07.682036"
+        },
+        {
+          "title": "TCS Q4 Results Preview: Will Tata Group's TCS Turnaround Its Net Profit In Q4? Dividend Announcement Ahead",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbmRIeTVCaEJwcHVsV3dxWEV6TFI5UWRFNnVzXzNWdXJiV0s1d2VBTmxyWjNQRFJycWtVTmZVQ1NWeFpjQl9xMElGaEtOSFBLV0xWZFMtSWd4cTBLdS1EQW1lN01ySDFuSi1udHNkZnlXUV9oWGVSaDFWUDkya0M1VDJaeTJSeHU2Zk00S1V3MGd3RDQwZG9uT1dybC1CSmdLajhXMEdtVl9wN0lWRXZxOVd5bno3WTNraTVUSmR6ZjVLcWJyMTQyWXZwZXBxeUZ6aHBpcGNwRE4xQQ?oc=5",
+          "source": "Goodreturns",
+          "publishedAt": "Sun, 16 Aug 2026 08:14:00 GMT",
+          "fetched_at": "2026-08-17T18:47:07.682041"
+        },
+        {
+          "title": "TCS, HCL, Hexaware named in global Azure directory data leak linked to infostealers",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc0dsdlVfaFBCdUl4OHNXR1dyQWlOVlRadnJlczJjUzBOa2FkbEY1aG8wVGw3cW5SXzBrbUVPVG84VTZyMVBxYnRlRGNhc3gzQ2dWUlNSLXdFLXJZQjRlR0lONEVJSElPMUlaM0lQajQyWlhSc1ZaWWRhTmU1aGtreXlVVnZPT2FwZ3FRaktEbDJUa2h1Z1JQbXFiSjVBRjMweWtkMDBSejg2RXVEWUlHWHA1cEpuMXhRRnYzTWhR?oc=5",
+          "source": "CRN Asia",
+          "publishedAt": "Mon, 17 Aug 2026 09:23:59 GMT",
+          "fetched_at": "2026-08-17T18:47:07.682045"
+        },
+        {
+          "title": "TCS launches Agentic AI platform to transform drug development",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSzRIdGVpZUJTajhKVUJ3RzdDeVpkNkhHVHpNa1dJYVFEUGNjUElmcTBHM0NMdVhLZDZocUNkRXhSWVBoNjJ5X1kyWFBzQ0hpWmI1SklKZjVSMlQzMnRmWTE5TWlrNnRyX3c2VEtsSjVMVGVuSlMzMGZlWExOMVI3WWpwQ0lBU1lCWDV4Umt0UHRjd1Z4cjRsQmd3eVdYT20tMjNaSTJjOFZhelNfbnZ2ZnZaODdzZmc?oc=5",
+          "source": "scanx.trade",
+          "publishedAt": "Mon, 17 Aug 2026 06:28:22 GMT",
+          "fetched_at": "2026-08-17T18:47:07.682048"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at TCS",
+          "severity": "Medium",
+          "description": "ESG red flags detected at TCS: board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Tata Consultancy Services launches Agentic AI platform to transform drug development  TCS and Rolls-Royce achieve breakthrough in hydrogen-powered avi...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "TCS: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -152,29 +245,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "TCS: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "\"If an AI agent takes a wrong decision, who's to blame?\" That's the question Saurabh Jha, SVP & Global Head (P&L) - Data & AI at Tech Mahindra, has spent the last few years solving. In this episode, he explores why most enterprise AI fails not because the mo",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORmFlajY5OTZzZ093TGI4Z0ZYV1BweElzVHpEaHFVdks1S1lLRERMcENEUTV1WmxRcnpaQk5UcnQ3VHp4NUpmZzFYSFdmNHZfa2Z4aERYUV9DTlQ1ejRENGphOUVMbFpsV3BBVXM3aHk5cmFyRWpkN21LUUJiNUJRRkpFSEt5LXZyQ1k0NFI3UUFsaThKNlBXdzZsV0YwVzUweHFScTZ5LTltcEF0MGcxdlF5UjlhOHNKQ0tETmFuVmt0dXBt?oc=5",
+          "source": "linkedin.com",
+          "publishedAt": "Mon, 17 Aug 2026 05:02:25 GMT",
+          "fetched_at": "2026-08-17T18:48:01.129064",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Q1 FY27 EBIT rises to ₹2,264 crores, up 53.3% YoY; New deal-wins at USD 1,078 Mn - up 33% YoY",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbTg3QnFxcWs1Y3BPa2gwRks1d1RoVjdKYkRVZDdWdUcxMzQ3UUtXTjRrTEgwRVJhdXVWSUpwWW5Zc2FONFkxTk9FVmN4bjZYazF0MDV2RS1rdGRONkxscFJiLWRaLVM0TVVyVi0zSmdBSUlWUVUzb3NOZ0tTSV9qX2JPTDhqYkRDX0E?oc=5",
+          "source": "Tech Mahindra",
+          "publishedAt": "Thu, 16 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-17T18:48:01.129081",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCLTech vs Tech Mahindra: Full Stock Comparison",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1eEsycnpyQVdFNTVWSG00dFFuMlM5OGpHOVdhTVZmY3JDMjFIRDU1UG40VFowMnRQYkVmMUpHcG9zUWtHT1ZaLTM2NnVJa0k5TE90T3R6NnpNU2VnbjRqNE1PRWpKV3ktUjUtbQ?oc=5",
+          "source": "Univest",
+          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-17T18:48:01.129085",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra employee protests outside campus over alleged termination after availing leave to care for ailing daughter",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNRllNNzZVdmNwNVhjRU55NWpUeUE1ZG9mRmlGY1FqT0ZjZ0Q4SXFvQ19VQ1ZhYWE0aFItZmsxS1l2QW15RGZiOXAzRXR2QU9iZzNKdWR3ZVVGeXRXakM0c284MHp0cG0yZlJ4ekNJZk1LSng0YXM3R3ZtaURfLVZQbEl6V2d3eTFsS2xDTmNKSFdUSXhSMmhiODhsSGQtVjVNclp5eDZhQjFaVmswMlY3OUlRZFdGTFpkMkFWQnVqd2NaZVR6SU10MFRhWFJETHZrVGJLbjZYalZ5Q3RGb1Q3U0ZiaHVYTldwZTBSb2NNeVByZXFNTTMtTVgySHI0Y21FRnJ3TnRkdU1jVWw4bEN4UmFIZFo5QdIBnAJBVV95cUxNZ1B2aE9oaXdUMFhGMHZRR0d3SVJMSk9yUTZsRVlnT0J4eXFHMER2ZkVnV3NMSUFOZDlwUTRSWkllVXRjMjMtYXJwSjhmTWhlSmd6bm1xZjd0c0p2dDRSNkpPVklOMGxrRElzYllvMVBYdWo3bDhIS2VuTzAxQVU2MXVUOE1wVnFmODNSY3R4X2JuaHFQYjVJUFE2OWE5WGtzWFU4dXJMdHY2U0hRNjh2UDJYb3l3dHVRSGRmdExlaHBJcUNOUFNkSzJMd2tZazZSaV93RWJWbS1fbVpWQ3htM0JHS242cF9IU254V2NkVS1RR3ZacjI2VWZmcTlTTUM5anFreTBnV1RUMzVRcVBPR2d5SjZLR21XbFJJTw?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-17T18:48:01.129090",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra and I-HUB QTF partner to advance India’s indigenous quantum computing capabilities",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMmp5ZUFGaWRBT0x1QXRlbmR6UGV1enliZjl0aEZmd1lUVl9USDg0bmJZbTlTWUduQ0hjVnFfdnpUcU5qMnV6U1U2NUk4UnVRYXdGN29DM1JpcU1JV0hmVE5MMzFmUGhtR09ycDhyLW84UGtEOHI3ekFHdGdjaGR5VGJjT2V2QklBbHpGeTRGQTZpZ0lFdmNMeGxEQTI3My1SN0NpSHEyX2w0emhRMjFKdTlhb3Z0MVV0YUsyV2w3YXYwQkYyR1h0R1lZcmJOSlFTUGFQcU92Zk43V09mTzNTRmo2Y3B1WDVoNk03VFNJQjE3S1RWTThz0gH8AUFVX3lxTFB0TmdONGIzczUwb3ZhN05zV1ExU3ljTHM0dUtTMFRuUU01ZWhsNEIzODJEbl9NQjhLQ2pHSVB0SGZPY01XRmZRM0t4SGVpVHJpQ0Zpb0tlTy0wZnBZeTZFZDZlSnpCMGN0cTFETFdBdnozUk1aNzFCZlE0MG9ndngwM3dUdEF4YVJwTmFSQzBONGYzOGtjUmZFeHFKakRJQldSSmtqUlpDZWU4RmtMNlF5YUFBWDlMaFZrR3pCUlhoZWlULW0xMG1qTm5iWFpFeFdlV0V6RVJXWm9YQlFqWkRKczkxekFjelNYRzh6STJ1UXZ2LXF2dzd2S18tRQ?oc=5",
+          "source": "telecomtv.com",
+          "publishedAt": "Tue, 11 Aug 2026 06:38:59 GMT",
+          "fetched_at": "2026-08-17T18:48:01.129094",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +301,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-17T12:54:46.357967",
+      "last_updated": "2026-08-17T18:49:38.454987",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +385,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-17T12:55:58.160228",
+      "last_updated": "2026-08-17T18:50:57.512952",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +469,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-17T12:56:31.216536",
+      "last_updated": "2026-08-17T18:52:13.009544",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +553,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-17T12:57:52.433309",
+      "last_updated": "2026-08-17T18:53:33.365011",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,20 +637,91 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-17T12:59:34.143465",
+      "last_updated": "2026-08-17T18:54:34.228023",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 3,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Virat Kohli slams record 9th IPL century as RCB beat KKR by 6 wickets",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3ZmcWVzZGtFZE81UUVrQzFUTzdnWDhjbzBLLTl6RElKNG9rUS1yTFJTdUtVdk85T3hob3ZMYUtFTmdhVV9JX0paVUlEa2FuN1l4OTdRTmVTRU5tc25vNy1GaWV5U2tfa2xZMWFPVXhURGR0NnVWQTUyYVRqMEtDbnR2UDk5QmhXNVBTaGd1NWVjYndDRUxzVmFnOA?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Sun, 16 Aug 2026 15:20:37 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915517"
+        },
+        {
+          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915531"
+        },
+        {
+          "title": "England v Pakistan Test series: Jordan Cox on Virat Kohli advice",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yLTdtd180VU1ReDJ4T09sZlBVSFdZOXBuWm1ORE5DWjRXb25rUkhXc3RRbk9ZNFp4LV9IVmRiRXFpdTFVZGxUQmVFdUVabXEzU2dUMEtLd2dTRE9HTThZN0tLQVo1cVll?oc=5",
+          "source": "BBC",
+          "publishedAt": "Mon, 17 Aug 2026 14:40:18 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915535"
+        },
+        {
+          "title": "Jordan Cox: I thought my Test career was over until Virat Kohli’s pep talk",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSDlXTHllS3NXU0dPS3RaWENXVzBVQk51bFJQUXZsV3ZwcW9HbFR2VFBfbTl6ZjRZbFpHMEtzMmlyNGpoZTI4cVNZTTF5N0ZJcUlLUzNjSGxoSzVTT3lXa3dBd3Y4N1ZtZ0hTdTZkOF9tMVhaOGQ2MGN6c0lrNlRkWVFIQ29qLWttWUhkZHFXOERDWjlsWDBKMTF0bEhTeGdPb0NYWDFvOUhpaEk?oc=5",
+          "source": "The Times",
+          "publishedAt": "Mon, 17 Aug 2026 17:23:07 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915542"
+        },
+        {
+          "title": "Virat Kohli’s One8 to Offer 180 Products on Myntra for Just 18 Hours",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY29lWDFHSnNqMTRKZWtBR2RTeUpRQlRxbl9NdzJEODY1eDRjYjAwY29VYWYxQjNRRl9SSUxKV3lwQUVVNkVMWjJjVkJ2a3ZscmpuRU9MNFVNNjdGS2NvNkY3c3FRUl9fVDZBblc5YVYxbmJObDkxWXpGcDMzQ01GSjhhdE90d2wtUnNqbE5IWFMwNWQyQmVmREptVW5hVW9ibldvc3AtOA?oc=5",
+          "source": "heraldgoa.in",
+          "publishedAt": "Mon, 17 Aug 2026 16:04:18 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915546"
+        },
+        {
+          "title": "Jordan Cox reveals Virat Kohli advice ahead of England Test return",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ04zVXg2SFgta0huUGdDSW1DM2Q0M3ZiSFVvUTF6Q0gwT2wwVDRTdy1tTmdOcTNjYjk2M25EaU9QNkFUT0tuQzg5NTREdUFaLW91V0JicVMyMjh4bnJuR3RKZEtmanR4T2sxZ3kzN19zSDZJU1pUajJ3N3FDanh2NGFrNkt5WTZzMjJzOEE5WldOMXJ2eU5fX3dMWDVTMk5LekVWZ3JVdU4zblYt?oc=5",
+          "source": "The Independent",
+          "publishedAt": "Mon, 17 Aug 2026 14:38:00 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915549"
+        },
+        {
+          "title": "Kohli, Padikkal hit fifties as RCB ace the chase against GT",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNXzJYVFc5NVRxeHhwT3JXd0hnaUtneDRmQ2p6SFVTLXBvRkpKSUVsQXFnMmhFRm1WRl8xVUlzQlUyQ2F4Wkgwd1QtaFJ2TDJVNVFKTFh1UlMzOFY0cVVtVU5tcmJCX2dNU2ZROURTVU91N1JKS1JQTHA3clJGbGd0Z3ZqdExTRUtUejUxTXB1VDdIUzZkZENwWGxGZUJtTXE0YkRvTUg3a1RrN0xGaXhFRm45R2hVdjM5a0lkellrNlNiOG1p?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915552"
+        },
+        {
+          "title": "IPL 2026, RCB vs GT Final Match Report, May 31, 2026 - Quicks and Kohli lead RCB to second straight IPL title",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOamplTjIwRnVIblZDYzJUNHdaUHRubEJPc3hVZTNGVjVfSHdNcnZsMU9YeFNFeXlFeFZ5YVFobEpSVTc0MmdwNk9qNjN1d3dUUW1wQWlWTWFxa1owVEFSUl9pN3NzOHhmNlJUX1pYWlNWZGNUdV9BZ29KeTFPN3R3MG5qdnhIcWE1M3YwNW9qYjQxd2hOcXNCX0E1ZWs4aUQ4MVRkbkctQ0JlSzRsNU5yUVFheE0xSnpjRWxrZHZB?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915557"
+        },
+        {
+          "title": "Cricket Photos - RCB vs SRH, 1st Match Pictures",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd0x1ODYyejRTMkFMQjFacFl4bVFWdzRsSHFQZjdtTVpLeWtnVFRMbERSNE5xRHdkS2hDM3lZd0tXbXptM0Q2ODczZ0dLNU5zM3RpLTlERkdkLUd3dVhXaDhzMjVDbzNFVzRsS1ZjTnExNXhYWndYVGZnNUVQQk5Ka3gyUjkxX1ZwMkNobWRhM3FXYWo1bUZwWl9MRVFVemZfaWdVaS1qUkVVNF9DVS1RZzVfdnVRaHdRTHNwVTJ5MnpsZGVfZzJRUQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Tue, 16 Jun 2026 18:30:56 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915561"
+        },
+        {
+          "title": "Thus far and then a little further - Kohli chases his dream and catches up with it",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTUNEMHZEcUxFRFlSSm1mZkpXZUxQV3RmcTdIdTNzaEJYV2g3OVVIOElEVEFzQVVBR0pGV2o2R1loelBnRzJJS3AyMVM2Qm5pQUFGU2RnNThxdTRob0tjdHd1eW1INkZ3Nm0yX3FIVzIwR2JUTGQyUFNSOVdJNkk0S25nc1Fwc05VRHlnSjB2d1l5M2FNckdvQVZadV9LTGFu0gGyAUFVX3lxTE8tbDBDTjlYcnZldEgzcGNLQ3RIS2hHMVRwZE84YmtCb1cycS0yaE1RQU50MGdqOEUzT1Y5V1FjbFJXMTdfQ1NRMUROUnp5bTNWOXZpMFpBejJMQktWNHp2cmxGeFNaX28zVExsWGNxYXh2amkwdnZaUDJndzhHdU9hSnFCQ3BZOWNpYk92YnBoUWFKTUQ3UF9xT2FNY3NHcDdBR3RGTVR1dlVNeXJSZlNsY1E?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-17T18:53:47.915565"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Royal Challengers Bengaluru: Strategic Market Intelligence & Early Warning System",
@@ -602,7 +792,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-17T13:00:52.347756",
+      "last_updated": "2026-08-17T18:56:07.780191",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,17 +876,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-17T13:01:06.390722",
+      "last_updated": "2026-08-17T18:56:32.620340",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -763,43 +953,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Herma launches Linerless Plus label material with 62Dps adhesive",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclU?oc=5",
-          "source": "the packman",
-          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-17T13:01:06.390444"
-        },
-        {
-          "title": "Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUllVEdkVVpqM2d4S253dmV1N0pjM1h4MzBhemNHS3l2M01HR2hMOXg2b2VxbmJfWEhnelNjUnMwQ2Q5d2ViMHFKLWZVU3ptdFRURkstV3p4NGVuQnJxRTFGdHNYWTZBSXpvUi1iMmZhWGhwSkRVTk1NM0lFSm9wSTFnLUR4ZjUyd1lYZ0s5ODRLTXlnakttY014WmdiWlJVZm5LSS1PTzFTWHRu?oc=5",
-          "source": "stocktitan.net",
-          "publishedAt": "Thu, 13 Aug 2026 21:01:18 GMT",
-          "fetched_at": "2026-08-17T13:01:06.390458"
-        },
-        {
-          "title": "Reusable magnetic invention removes microplastics plus some PFAS from water",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xWTBMN2hCR1VRYUtuQWZiNWpnRHJSUWdDUGFVazBpX2R1UFc0QzdzcVk5QjM5X3ExU3QwSGh2TVAzM2kzV0VSUzJhdXA2TEEyaDVCemZILXRKRFJ4T3drU0ZJWVphbVd3NExIUmdIQnFCNnY4SFN5MU5RMA?oc=5",
-          "source": "Phys.org",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-17T13:01:06.390463"
-        },
-        {
-          "title": "Cerenome, Inc. (CNSY) rebrands from Plus Therapeutics with new ticker",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMTJWdE8tMmxjcEdRX0VQWEhnR1A1UnZsbmFrWDVHc2lBZkktU1hodTJWQVo4SFdjSWpKQzVqOS1TOWQwTEJDTVAwSzZuX0w0ZUhNbVYtb0NqUjJFX0NJWUdlQVQ2eFpPZjZrOFdCNG05SVp1WUoxaVlHZnQ3UjhPc0NTWklLNjFscnA0T2I0akFsMnR6clJiUldkMjJwMEJWY2k0S2xCUW4wZWR3TnZV?oc=5",
-          "source": "stocktitan.net",
-          "publishedAt": "Tue, 04 Aug 2026 20:31:41 GMT",
-          "fetched_at": "2026-08-17T13:01:06.390467"
-        },
-        {
-          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
-          "source": "11Alive.com",
-          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-17T13:01:06.390471"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
