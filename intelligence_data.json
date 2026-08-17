@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-17T01:45:50.013526",
+    "generated_at": "2026-08-17T07:12:59.533610",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-17T01:37:54.517278",
+      "last_updated": "2026-08-17T07:04:48.467153",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,18 +98,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-17T01:38:48.456187",
+      "last_updated": "2026-08-17T07:05:45.046191",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 3
       },
       "news": [],
       "research_gaps": [
@@ -174,7 +174,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "RIL, HCL Tech, DLF among top largecap picks to buy for short-term; check price targets",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQnFyallXdjZuVVBLWU82SDF3RFRIZ2JnSUhQbEtaMFlGMjd6aTllVWkzc08xMzBDN1U1Q2FCejV4cGxmeXQ2Mkd0LTFGQVNOTzJZUkxCWWxMWXpCNTA5d2s5TzJtWFJaX2Q4V2J3RzZoSDR2dHpKM0NnVzhNYUpiQkpvcTN3b1M1OFZQX0ZNZHBKenRtZ0dOb1d0cWlxU0p5SUVmRmxRY3lJRWZFWEN4RU5pUVpWM055UE9aa1VjdjhiSHZ0eUh4N25Ccmp3OGVqc1JENWQ4UE9weTAxdWxtQUV2YWxWd9IB6wFBVV95cUxPLV93NE1qSEhKV3pGTU1zck51dzFqTmF5ZlVSX3p5OThyY1hKV21BSlBaRnhYa0Z2eHpxckZhbTR5dVJGXzRLWnM4RWJXcVZndkJ1bzByRTduLWhfM2JuNkktSGY0Z05lSzRXQ1VJQzhTVzg5NTV1SmJQTE1iNTY4ZlZGWE1FcEQzU0d0X3Q3OXFXTU5nZ1lFTFVhOU9mQnpGelZ1OFhCSUFJc2YzellrUUlUeWg0SUZpc2FvTmtJQjBMcHROZi12ZnI5bVRGVTNtN01xVmlablE1bUE5TGUxTmpHbDQyWGFkZDR3?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Mon, 17 Aug 2026 06:12:01 GMT",
+          "fetched_at": "2026-08-17T07:05:35.576209",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Weekly Recap: NetApp tie-up for AI storage and Parag Parikh boosts HCLTECH stake",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWG1CRjI4ZmtBZGUyQ3NDamJhcE1hOTRPUElhbTBSUHZXeDA1S2J6ZnI3YXRzYXhYRDJFTE85VkthclZGOVN6bDhqS1RQX1U1Ul9JSnFHWFY2ekZlYWlzR3M2b3duQkQxd0pabl9KZ3RmWDFoSnFpLXNuM09LdXhKaTlJZnZ6ekM5elJNaTZ2aXlxbEozSnNpN1prSVBwbFJEWFE4UF82UlFmeEtNSmU2dFF6SmFrM3ZnWlFuS2VON0VNTi1NeF9qQkZtR3U4MUdRdGlGLWZoRVA?oc=5",
+          "source": "TradingView",
+          "publishedAt": "Mon, 17 Aug 2026 01:13:00 GMT",
+          "fetched_at": "2026-08-17T07:05:35.576223",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCLTech says stolen data may be years-old after hacker’s data breach claims",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWGRzSDQ3YlI4bl9rLTJKcHlMaTJhckRQeEtIa2FDVWxjYm53U1NqLTBiOVJRbTBYNTRWX0hyay10eGFVdFVFVlJsZTNVd29oUVIyMUw2WllxUGdPdE1nV2RINkNtNEFpeXdZMWV0TXFyc25OQUVySnB6OVI2QTZuRll5MUlSN0hFU1FnQTNITlBlZk5leDJsSHIyazlHM2xzWW1DSV9RZnhuelc5NHFBWjN6WkZyWXc10gG_AUFVX3lxTE55dWJnbHd6UU1mU05nNnZuQ2xXbTdpQy1RWGRXV1BzdTFTbGRJR3pqM3JOUElxZmc2a19vWllmUU5iRnN2TF9ZbUlVeVFqcTVwejdkV2NQdW9UQWxnVjJvNWdOX2ZiZ1h2VWNfMnVPd2pSY2NFQXh0WjJGM1NlcnJhTTRsemZ5QXRiRVRtQjJMUkdfamw5WEwtSDdEcjcyTThnaHoxRU1XdkZwa0lFbURwc0F6TVp1MHN1NU5DdTZz?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Wed, 12 Aug 2026 03:33:00 GMT",
+          "fetched_at": "2026-08-17T07:05:35.576232",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Stock Market News: Markets decline in early trade amid rising crude oil prices, Sensex falls 285 points to 77",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQX1dPV2dfbVd0LW5Pd3A5bjRVUW9LSF8wX3RCeDJMSU9CN2tSdldFQnRDWEZuaFA1VFl2dmo5bEVYeW9ENkVHdjhOb3NOVFBDVjNiNldNT2xaWFpNcGFoeUl3anpWczAxS2VPY0tYQTV6bjlUbUxHM3dTeFhmN2pTOTFtQlpHaURHcnFuQVI2czdiMG1CMlRnNEE2X1VyM0F4d0Z3Q0k1VnlKWTZJa2pwXzN5LXVuYi13SHhQMUtFRWhXRnBNdFh0elFmOXduY0hjVU9Fckl4clR2NlRtN3RsZ1F3S2NsUlNOa2gxMHo0LXdKaDdiYVIta0p2RdIBgAJBVV95cUxNeEVQRlJGbVpSRVBwWHZMbVhpZXBOMWkxUFNNblBYUzZ6NnJTdkxLYmxNVlJmRF9oanpraWVQOGNoVlp4SDltMnJRS2MxV1lDeDVlbTBTZmNQa2NDZVVadzhTaEhvLW5JUkVXNUhTUWZsT3JBQUV5ay1WcGVFVjhVZXl3LWNYbTdlOTFKZ3U2QWVDRVliMk5xcy1FTUdtX3BlbW90ZTF1d0tjbGpxZ3dNUXZKY3pyZ3JaUDlCYU5fWG5QaEhDRnJZbGk5aG9xVnQxcmF5b2NsQm5kLXJYYjB1Q1J6UjBPY2Q4N3BQN3QwSTVHbVNmRHNodWhCcFZKekdN?oc=5",
+          "source": "India.com",
+          "publishedAt": "Mon, 17 Aug 2026 05:18:03 GMT",
+          "fetched_at": "2026-08-17T07:05:35.576236",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS, Infosys, Wipro, HCL Tech, TechM Crashed: Why IT Stocks Are Falling? Jefferies Downgrades 6 Tech Shares",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM2tCYU5lUGwwU2Q0NWlXaGtzSm45cDB0OFJQSS10MWhMX3pyeGlOSXZsa3Nsc1dJbEI0ejdVUF9ndGxnUkNLdVNjZ0kyX0xhSEpTWGVsUFJ1V2NBVnVlUDRidWYxUXVvMzBEOHIxeE1STks1S0xPaW9nWFh6UGstN29UMGd2ZWVNZnEzNVV0T0RCMlN2UWptb1F3MHEwekhTRjZYU2d1dGZ0YzJSRGhhM1pGWjFsQ2dHeXZnZHp1c2FXT3JrdGl4QzNva01LTDQ3REJrc2kyX1JLYXMx?oc=5",
+          "source": "Goodreturns",
+          "publishedAt": "Sat, 15 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-17T07:05:35.576239",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-17T01:39:49.996186",
+      "last_updated": "2026-08-17T07:07:15.779558",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-17T01:41:02.179725",
+      "last_updated": "2026-08-17T07:08:20.488549",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-17T01:42:09.195709",
+      "last_updated": "2026-08-17T07:08:32.813996",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-17T01:43:16.203695",
+      "last_updated": "2026-08-17T07:09:18.459371",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-17T01:43:57.757359",
+      "last_updated": "2026-08-17T07:10:53.905278",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-17T01:45:26.032220",
+      "last_updated": "2026-08-17T07:12:29.483211",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,17 +732,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-17T01:45:50.013520",
+      "last_updated": "2026-08-17T07:12:59.533595",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -763,43 +809,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Herma launches Linerless Plus label material with 62Dps adhesive",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclU?oc=5",
-          "source": "the packman",
-          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-17T01:45:50.013212"
-        },
-        {
-          "title": "Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUllVEdkVVpqM2d4S253dmV1N0pjM1h4MzBhemNHS3l2M01HR2hMOXg2b2VxbmJfWEhnelNjUnMwQ2Q5d2ViMHFKLWZVU3ptdFRURkstV3p4NGVuQnJxRTFGdHNYWTZBSXpvUi1iMmZhWGhwSkRVTk1NM0lFSm9wSTFnLUR4ZjUyd1lYZ0s5ODRLTXlnakttY014WmdiWlJVZm5LSS1PTzFTWHRu?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Thu, 13 Aug 2026 21:01:18 GMT",
-          "fetched_at": "2026-08-17T01:45:50.013228"
-        },
-        {
-          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
-          "source": "EurekAlert!",
-          "publishedAt": "Wed, 22 Jul 2026 19:06:53 GMT",
-          "fetched_at": "2026-08-17T01:45:50.013238"
-        },
-        {
-          "title": "L&F Plus Ships First Pilot Batch from LFP Cathode Material Plant... \"Mass Production by End of Q3\"",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nMkhRVG9fQ19zSzVuVTcyNEJZQU1yaFZVUWY3WVBFOHdBRDZROGxhZVpmN2V6c1pKNUxDRVoxVWtBLU05a1pZNzFtQVl2T051ZE9ucE5BcE5PRzhIaVpCREx3d0s?oc=5",
-          "source": "아시아경제",
-          "publishedAt": "Mon, 03 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-17T01:45:50.013243"
-        },
-        {
-          "title": "Cerenome, Inc. (CNSY) rebrands from Plus Therapeutics with new ticker",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMTJWdE8tMmxjcEdRX0VQWEhnR1A1UnZsbmFrWDVHc2lBZkktU1hodTJWQVo4SFdjSWpKQzVqOS1TOWQwTEJDTVAwSzZuX0w0ZUhNbVYtb0NqUjJFX0NJWUdlQVQ2eFpPZjZrOFdCNG05SVp1WUoxaVlHZnQ3UjhPc0NTWklLNjFscnA0T2I0akFsMnR6clJiUldkMjJwMEJWY2k0S2xCUW4wZWR3TnZV?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Tue, 04 Aug 2026 20:31:41 GMT",
-          "fetched_at": "2026-08-17T01:45:50.013247"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
