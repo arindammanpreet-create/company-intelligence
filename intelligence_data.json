@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-18T13:05:04.860918",
+    "generated_at": "2026-08-18T18:54:22.706735",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,43 +14,21 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-18T12:55:14.860479",
+      "last_updated": "2026-08-18T18:44:29.599218",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 2
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Reliance Industries",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Reliance Industries: board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Tata Sons board divided over Chandrasekaran’s exit; directors debate on reconsideration  Before Chandrasekaran's exit, he and Noel Tata separately bri...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "board"
-          ],
-          "solutions": [
-            {
-              "title": "Reliance Industries: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -90,55 +68,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Tata Sons board divided over Chandrasekaran’s exit; directors debate on reconsideration",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPRTNvZEV2UzNsMGlybldSc3JSMVItWVo5bS03YUxPWG1RSWRkLWpITzE5NDVkcUJBNnVCRkJnbzBjRkFzRV9oZzlfYXI3NmRTdTNTU0FBT1ZZak5tTEM2dFdwWTVDdUlZVlEzLW01NjJBdWlpVDV2c1Q1N1M3MXNqazBEazFDeXo5TktJZFluYUg0cy1XbFk3cE42bzE0R2J2Z21pSU9KeDFId1liUVRoSGlTVTVOblBvTDd0NHFhSmxONW5LNVVpSXViSFlXcHZVcGtoX0lMU0VnZGNhTG9lSm8yS01Kd1pWRmhpazNpckNwSE9tb1NDRklBMGlaRjlVa3psckhkOHhBVnYyS29v0gGUAkFVX3lxTE81alRVYl9nbGxUdW1FZGVnc3l5T21PTzVPVjFnbDJUZURSQkdrTkZyTk1TYllFWFdlckoySzFNS0xlMGstQzU2aWpuemlwZGhUMmZCendhaWhlZDlNS3hPZ3A3WVo4V0ZPb1FJV0pBUHhsWUx4SkRjRVc3OUlsWGhPb3FULXY5aW5tbm9wLUhpajgyRndvRGtrUktpVnhGUXFOZk8yM2JDTzBSU3A0QnFhWVI3bkp4UC1GblY3dnNYUU40WWdCRWpnRV8xNDRXbldHYlUyT1lnTG5GWTg2eE1HUUloZkR5bnJRbHRlYVRmN3BuVkdneHFzbXhaVnpJSkQxLWFlWEkzV285bnFxWC1GMkQzTQ?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Tue, 18 Aug 2026 00:00:00 GMT",
-          "fetched_at": "2026-08-18T12:54:31.331348",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Before Chandrasekaran's exit, he and Noel Tata separately briefed govt on rift, concerns",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWENONVdnOWF2YU9BaTBBSnd2OFhmbWtfd1k1ZEdZeERCX284azMxM1ZrYklMcnV0UkI5VURaakd0aUJOYmhwaEtXUV9rWWR1c003bFo3bWFUM1pJTEgwYU5aamFCOS1ZTWlvZVpXbmNGbC1OUHRidWFpMWpacm1UWGU4V0J2RkZaa19HcC13OHpSZVJGNHZOUnp3RG9RTjRXSGdrLTcxMWU4eE9pbVZNTU5nUmhqMXBtUk5nVW5EX3ZwTzBnQUh1SWZoXzNVbzlfZmdPajhweEtEMy1mUF9pT05xZWtVODNHa01KUmF4X2otZmdtX1dF0gH8AUFVX3lxTE5FeDdpZzlVZE1QQk92TmhnOHFEcHlIbVlkdnVFdWFVa2hNeWxPZ0RxQUdLdFY3TWhWdG1hN1FxM05DdUdiZ1pWcEo0NFh4enlsem5VcEt4SXFyNlRIQkh0bk8tc1BwSHBvakd6QXBjaU9QeGNBczF6ZE53Y1pXR1R5X2hXTDdsZFc0b2lLTzBhYUs1RWFONTZEaUxIUGlXVXJVUWZDbHo2Y1FZR0xPLVpSUjgyZTFfa21hcnVYd0dSR2NiWnlrN2hCXzRVcmdDcUVuVkJZRURuakY3VkpHZ3piVE1yWUYzMTZEcjNPbGNORHZyT1pDMlV3VWtrag?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Mon, 17 Aug 2026 00:59:00 GMT",
-          "fetched_at": "2026-08-18T12:54:31.331364",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Sons AGM deferred for lack of quorum, first in group’s history",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNnNnQW45NjExTjBYdEtOVU1Jemg0N0F4N1NtcGIyMjI3Q2txSV9XZmpuZ2ZFTVEwVHlrVGVJazRPc0pZS2tVOC1ycndwWnZTNi1ZVDFFUl95UlRYR25LRjBIMHRPUG5zR1NubHBvdDZBWldiU3RwNjRZTWEzTnZwNkVwQW9ycVZFd0dKZThaNGxIUmtETGkwMUlhVW1xZVo2VFRwWlhJMUV4OVBjc2pVLVUxLTdfM0JIaXNqakNPLXNmY3plMHpvVWVDWjBxMGU2LVg3VExEWGxncUo0cG4zUmRleVgzcHhIQWJZV3BQaGo3M29jMEJSU2Rsdi1sLUHSAYQCQVVfeXFMTXJEWnNzd0VDSGZKXzZlazVVYV9lSUs5Ylh0VTkyVVgyZnBWUm55X1VXWTc2TDBJekxtQUZ4b2RaUUtfM0xkN2JnR1ZWYVFKaW5FLXNpTFlTR042MVp0YkFsck5IRUFMTjFpWGcwWDlja21DNHNGNWJBQnNSNzAwMFZ3d0tpcmFkc1E5TmdScmU3cEcyQkFwYWx4dnJfUjJQc2xwSnVjeGtVRHZndl9BNjhTMEJ0SUJiSi10TEgxWndQRWlFSXpiclM2dGw5OTllMzc4Y19qWlhibV9OQ3dwVUhOX0JwdHpscC1NRTFzTEcxTU5RMGE2SHBPdHBEMWVNOWxHNFE?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Tue, 18 Aug 2026 09:41:45 GMT",
-          "fetched_at": "2026-08-18T12:54:31.331370",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "NEWSLETTER: Tata crisis rekindles India Inc's succession debate",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS2syOGNzTS1iTnZKX2I1TmlZX0pHYW5lLWJLLUlOaWVSb0xiU19kRldBQnQtREpFcXBFTGd0eDR2bnR1cElRT1ROWWF4clZ0MnpLclM1RWY1WTdzZjU0ejdvT2xBV0tYMldqTTlsRDNVSE5TMENrbkl1TW40aTFpUndsQzc3RlFMSjY5QkNxQ05LZ3Q2TWQ3aDV1a0dtVEE?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Tue, 18 Aug 2026 05:30:00 GMT",
-          "fetched_at": "2026-08-18T12:54:31.331374",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tata Group’s Nelco bets on satellite communications firm Elveo Mobile",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZkZ5dTU2Z3BtUU41UzlaalRyVXVBNm0ydllteFlqZUd5cmlPbzBwc1EyYlhxb3ZMNUc2Q0pMaVdmX3NXdi1NWVlGQVJZSkQ2WDV2RVY4ZDlHZUtNR29oekRWSmVOWEVmSW5QcDdiRmdWTkcweEwtNW1STWZiX0FwZDdPSzREdGIzaVFSTTZuMVRpSUpjUnV6MQ?oc=5",
-          "source": "vccircle.com",
-          "publishedAt": "Mon, 17 Aug 2026 13:29:47 GMT",
-          "fetched_at": "2026-08-18T12:54:31.331377",
-          "related_to": "Tata Group",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -146,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-18T12:56:34.913503",
+      "last_updated": "2026-08-18T18:45:43.290532",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -230,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-18T12:57:56.488213",
+      "last_updated": "2026-08-18T18:47:13.906574",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -314,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-18T12:59:18.483830",
+      "last_updated": "2026-08-18T18:48:36.846288",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -398,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-18T13:00:07.433696",
+      "last_updated": "2026-08-18T18:49:52.431094",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -482,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-18T13:01:23.099079",
+      "last_updated": "2026-08-18T18:51:20.812634",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -566,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-18T13:02:58.366315",
+      "last_updated": "2026-08-18T18:52:52.198462",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -650,17 +602,17 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-18T13:04:34.784604",
+      "last_updated": "2026-08-18T18:54:21.463380",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -726,53 +678,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "MI vs CSK, 33rd Match, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUGNNT2VpWTZsMHROSzJhTDNBcklaMHJZcGpwN2ZyeTdzY3l5dWZvZy1KVUduOGpLX1V1Y3dqZ0psOTBRZFBDMTk5S19ObzVqTmRhMG83bFEzOVpQQXlnWk9ldU1maldqSlF0bUhEZkZWQmd6Sk41OHZLZzRRZWNTUE4zc01JcVpMQVpKcTJidVRNQ0kzaXM4X1lPQkhyLUdkWmZaQw?oc=5",
-          "source": "cricbuzz.com",
-          "publishedAt": "Tue, 18 Aug 2026 10:22:09 GMT",
-          "fetched_at": "2026-08-18T13:03:19.569676",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "PBKS vs MI, 58th Match, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlRxczZiNVNuSmszYXhzXzR2QlJzcGRiODN6bGpNbW5KOUxZU2FZbzRtV1NsbG1Tb3phSUpUSjIxVi1pLXZPWGNrWVZsUlhKeVZxbG9Cemw5TXVCSFhIUHRDR0hnbUlEYmdWOE5ndDBqa2NRczM5UzlhUld0NUVYampIeFhBQzFqOUZnVWRac3ZWX01kM0FWRHRqNGpvSmhuRlFsQVp3?oc=5",
-          "source": "cricbuzz.com",
-          "publishedAt": "Tue, 18 Aug 2026 10:21:57 GMT",
-          "fetched_at": "2026-08-18T13:03:19.569689",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs MI, 30th Match, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT1FWa2VQR05HbjFLZXRrcXFYbEkxNG83bWc1TEY3U0V4aWRWVWFGZlRPMlRqbU9VM0g2TWNVTC1wVmQ2aDFHS0FhOWhLTU9vSk5qa2c5M3M4YThERnNEd1JYN3ZlZktvdkxhd1RxNmZycUlGQ3d2UFFBTUpvLVV0X0huMnZ2X3A4RDJUYy1CQUc1STVkT0xyTDRhMFBMOEhycl9J?oc=5",
-          "source": "cricbuzz.com",
-          "publishedAt": "Tue, 18 Aug 2026 10:21:22 GMT",
-          "fetched_at": "2026-08-18T13:03:19.569695",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR vs MI Highlights, IPL 2026: Corbin Bosch's All-Round Effort In Vain As KKR Beat MI To Stay Alive",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNR1JETVIxTTQ2V2xsRnBRTjMxNkEwSUlkVl82ckZCMXhKeGZXSDJQMnNpTWFHVUhEQXJObm5XTDhZanRTWUJIYndNak1OU3p5NnpMSzBDdDY2anM1YmFjemhpTEhCS1JLT0pBT2F2YmlBZjc4aFRqYmtWV1M4N0c3M1JCVlFqd2RyUGdCOU1LbWVGNVgxVzdvSG1vQTBlLXJVNy1SYVB6ZmstejQzSnZ2VEZWYzNTeUZiaTVyQmloUjBHekNTYTRteUJ6U0pIMlY0aFFFY0FKMWhFYWdzTjhIVDFuUTRkRXZvenpEWkFDa2xnenNmN1VoNDNsV1Y4c1NZWndJ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-18T13:03:19.569700",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Not Dhoni's CSK, THIS team favourite to trade Hardik Pandya ahead of IPL 2027",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPa3J0UWFJbzdwbDEwTEoySS1RUVZON0hZOC1FeTEyNzVibzhQc3loMXpkanRBWVRLR2VRRnQwY1NKellZVEpyVXRrVFAxa05XX3VsVUk5WWJmNDZ2QVM1V292SldqcU9JYnJ0ZG1JYWRBU3ZBTE1pVnN4bFVTQ0JubmpvUTRWWHNZaXpWVkhBaVF3SnA3d2tnQzFvTDVTdmc0Q2V4TmNrc21zam9CNVNqWDh5cDNkU3FPSHlwaWMtZkJleWhqOUhVVlktUGl0cUloZHQ1T1Y3RQ?oc=5",
-          "source": "India.com",
-          "publishedAt": "Mon, 17 Aug 2026 09:30:46 GMT",
-          "fetched_at": "2026-08-18T13:03:19.569704",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -780,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-18T13:05:04.860903",
+      "last_updated": "2026-08-18T18:54:22.706720",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
