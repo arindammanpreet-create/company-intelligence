@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-19T13:05:59.855231",
+    "generated_at": "2026-08-19T18:52:15.409031",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-19T12:55:48.652539",
+      "last_updated": "2026-08-19T18:41:33.419115",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-19T12:57:19.449680",
+      "last_updated": "2026-08-19T18:43:04.165904",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-19T12:58:36.392602",
+      "last_updated": "2026-08-19T18:44:33.877477",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-19T13:00:06.918376",
+      "last_updated": "2026-08-19T18:45:55.650041",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,18 +350,18 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-19T13:01:23.629919",
+      "last_updated": "2026-08-19T18:47:09.333610",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.33,
-        "label": "Positive",
-        "pos": 2,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -427,50 +427,14 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
-          "source": "EY",
-          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
-          "fetched_at": "2026-08-19T13:01:23.629552"
-        },
-        {
-          "title": "Weekly Recap: Q1 revenue & profit growth and analyst ARPU, earnings upside",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcTdGbUhFQW5YSFAtaEU1aEQ2TkNSdy1KSVdtaTZ2Tnp1Ujl1Nk5QTUI2c1FPc3kxN00xRFlKTkxZZkQzTlQ1SDhvQXVmS3VXdEJCYnU1eDl3akxwUk9wR3Bkb09KM2lKeEN4RFduZUw5eEhqUnlyNEQtaEE0TEhBUDdMb2NvajE1dEtSSkNWZ1NJV0FhRWw0ekRZcnFwOS1Ubmo0elA1UDI0cXEtdTMxVjZhRGlNMy1yVVFXbVQyT1ItaktaRW9jY2VnV08?oc=5",
-          "source": "TradingView",
-          "publishedAt": "Mon, 17 Aug 2026 01:13:00 GMT",
-          "fetched_at": "2026-08-19T13:01:23.629571"
-        },
-        {
-          "title": "Higher data users should pay more, says Bharti Airtel's Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQmZUek8zM2hpMWxzUkNaTzhPaGlxNkktaGhwOTgzN21sdnJzWkZveG5KUzh3Zm1uWHhaRXA4RGV2dUlxanh5b080dW1lOVhXNnMwT2d0aEltMkhWQjFkV2JvR3N6V3F1eTJOZHJmak9GdVF6cVJ6TXp6WTdSdGNfODFnZk5jZFN0dTdFLTBfZjkzQzR3VzluQXJFdkNEWWZMeWYxVWk4R0FORjRqYVFsdzFzZ29CUmpJR1VORnZPNXFpaHg5cVBmYVZWOHhoekR0QkHSAdcBQVVfeXFMUDFkVHdoajJReWt1ZzRRNWhSN0tXUG5GYmhkQTJEYlBBeENYZ1FicXYxalY4ajk5U2ZwOTNxYzBaaC1xeW5HYUtmZFBhakF2aWZ4d1lVOW5KVm5qVFB1NndEQjBIX21mNEtGbTU5UGhCQUxWVm91T2hHRG00S3FHVV9VODlfRnYyTVpwanh2OU5SbEZhaTRPYmNiUC1PeTJDbWhmNmpaQ2FwWVNnTzhXUW1RY2lOa2gtZEdoazJqVG9lMGQ3ZElpcFFJYW9ES3FrZUtBMHBxQlk?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Wed, 05 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-19T13:01:23.629576"
-        },
-        {
-          "title": "Airtel executive vice chairman Gopal Vittal on lessons learnt from Airtel Cloud and what makes sovereign",
-          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOUVNhZWZwYVBOUzVwaVlpaXhNbjZuRUZGbnNkQ1liX2NMNG02bDlLSDJvTWRZRWxXZ1ptdDByWW42YmdkcWRZR01mWU9XMGYwbkxaaWUwazhaNGRXTmdoQXlJOWNyMGxrdXNRNG5GazJ3eXk1ODZjOXFNZ0ZTcl9XeXJqOTlqcy1sYXAxVVBPb2dhbEpWLV82Z09ZZTQ5SXJXcW4yb3dldzhyUUNVLW1fczVNUktBVXdmRmdFUVFIdXlEYnNXU1NIcll2VGpGbmxwVjk1cWRaeWdyRVUwWnJTVW44cTBrRzlVeFdsV3VTa3pYSVNJSEFDMWZXSl9kYXlJNGVadFdJaldvNENaTHV1R3NfRGxUc0tsQjRyVWlhR1J6eW9ZUGFBRk5hLW5OVnZKaHNsYTVtWnpfRkRSeVhF0gHEAkFVX3lxTE42YThCZjRZSkRtNXgtNDZsblNTdDF2Yk00c1J3Vk1FblNDT0lnc1gzZWRBc2VXQkQ0aEFHbDJFVXpQaG9YTFpKMG16S0MtaVB3clY2VFd2RWxjVktaRDRhM1pVQUNMZ09IcXdfcFpLQmFXdS1HZEZvX2FHRUo4WG0zX3o1WmVuZDQwZzRMZnZyNmRiOE5IT2l4XzVNa1NzTmxJMVlMYlE3LUQ4V29YZEYxdWQyQnc2UDFJSjVMNWU0Y2hlaHpOWEkydHRhVWtJbXRlbHd2YWZuQnprdUlvWGYtWWNHS0xTU1R2czhvUDFXQU9ObDJsR2FKZFR2SUlpeFdsTVFpZDFVeGJ3cG9OT3JQMDJEM205ekFMNjZsbFB3RlVXNkRQSzZMTEhHZG5yTEN5Q0FNSXphV0RxT1F6bUNLb3BwYw?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Tue, 11 Aug 2026 14:25:00 GMT",
-          "fetched_at": "2026-08-19T13:01:23.629581"
-        },
-        {
-          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
-          "source": "forbesindia.com",
-          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-19T13:01:23.629585"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-19T13:02:33.453890",
+      "last_updated": "2026-08-19T18:48:32.324147",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -554,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-19T13:03:59.270295",
+      "last_updated": "2026-08-19T18:50:08.363562",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -638,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-19T13:05:29.526382",
+      "last_updated": "2026-08-19T18:51:50.843047",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -722,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-19T13:05:59.855214",
+      "last_updated": "2026-08-19T18:52:15.409015",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
