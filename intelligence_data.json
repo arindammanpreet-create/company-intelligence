@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-18T18:54:22.706735",
+    "generated_at": "2026-08-19T01:43:23.626571",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,18 +14,18 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-18T18:44:29.599218",
+      "last_updated": "2026-08-19T01:35:09.525553",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "WaPo story on Adani: Gujarat cops search journalist Ravi Nair’s residences in Kerala and Delhi",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZGU3N1pSNF9sbUdFVDFrZFRxSHhoS0lCWXkzLWxKd0RhLWZ2UVNhc1o5RldqdmcwSWZnbmp4TUtkOHJGR0hDeEpBdlRULVhfUkgwN2hFWmlmZFFkWkpYT3JmYkFBOGxtSDFuSk96bzlWSFJRckE0R0lfWEdreGRrcTJ2Q2Y2OWZUWU9zZmwwVWJ6QUh2eHNPbEtoT3pabXdIbTdBS0phQXhiZDRHcFlWbm5wWmp6YzJ5Y19JZXpBcldnQkVVTnRTXzRIWdIB4AFBVV95cUxQM0duaUhZdEI2SnAxb1hFYVFZZjZneUJIbURQQm9DbGVRRDRaSUdfbDd6TWxVYWNjWFlubkN2dU9BSkh3OGh6NThlWXdnZXNQVFVhdWFmUENlT1R4b1ZleW9HR1JVMnpha0llYURQb2h1WEhsOXI2aGJvd2c0LUhaT0tpd1FfUUNwWUpDYnJYU3VCTlg2Ry1KWnNiQ1dfUkVJRTJHdDduekY0dUtDWlJzaVp4YVpSZ0QyOGdKc2pOZ3hpMzdtUjlEbEtodmVVVlRONEl2UFpnYWNJVUFMaGcwUw?oc=5",
+          "source": "Newslaundry",
+          "publishedAt": "Mon, 17 Aug 2026 17:11:32 GMT",
+          "fetched_at": "2026-08-19T01:34:47.570838",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Power, Adani Green, Adani Ports: Bernstein targets; this Adani stock offers highest upside",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQ2xVMEVWREFQZ25GT29WdVdJLThlNzdYanR6ZmF5QXZnaDBSRzhvWFhVM0M4bWJleURGaFcxOG5GVV92STVqaDVYS1JvRjFmb2JENkE3eUNNc3JMR3NTOTVGTGFMS0NVSXZYWlJjcWNhYlloX0pONDNhdDBMaUxvOFVZeDhWMzB5MUlQdmtrYUQxOXZzRjRvdTczNnVhY01FNlhadlNJeEJpaUZYN1ZRTzZ2YXJ2Sy1VRjU5NEU3b0dLdVV1MTc0SVVDVEtLa3JycjdBSFFFN1ZNWnlPQUNncDN0SDFaZ9IB6wFBVV95cUxPVmYzTS1XdEV5V0dOVm1YTl9IdlJNT3Q2cWpDd0hZV2d4UFlqTGdURnZoajFnZUxyb2hhMExBVXBIeGE3RGRQSE9fdkhpcU54b0EzXzYzQlNxTnFsdVY0UENhcjNsaVkwU3JwR2R1djh6Z2tTWlRKUWJtZ3ZmS2ZGSU96VzdyX2I3VVczMFRYVWpHSE9OOGxNdGduQW9QX0QtMXVUbDVGUnJlRVhwb1hKcG50ZWVTTW5FXzdhaC04NW50ZEs1OWJfRmI3UTBDMGhEZHVxRk8wOVRNRVNJYkNRTHVPdUI5aUpIelIw?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Tue, 18 Aug 2026 09:56:15 GMT",
+          "fetched_at": "2026-08-19T01:34:47.570856",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "From the DoJ Case to Viksit Bharat: Gautam Adani Reflects on Trust, Leadership and Nation-Building",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRU1QWlpDcVdkZ3BKSXNEQlRQMHRaMEFLZmFaX01NNFZjLUdXaThrQzE2QkV3ek43dTdkRjZPTnpOWjFOd1JYbktxcVd1U1BYWGYxMmliTjNIVVhKTDRIYVZsYlowc0Z0clI0WXVRTS05WjctSXloSlNSdElMSXZZUTVFaWd3SXVTVHN5Q0dPUW9oVzhscHpqMjRTajc4OTJwYnhyZUc2SzlxTTEtQWktRUNWbU5mZGpWSmhpNy1SWDRFYlBMTXZza19GT3JLUFdQdFJQdnRfX01EQQ?oc=5",
+          "source": "Adani",
+          "publishedAt": "Mon, 17 Aug 2026 17:46:49 GMT",
+          "fetched_at": "2026-08-19T01:34:47.570862",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Fallout of Report on Adani Group: Police Search Journalist Ravi Nair’s Residences",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNmxYMWZsdVhRc3Z5VWlzU3d4OGpMT1dBZUZWNnhGNjJ5NkN1UDJZYjFZR2VUVlNIYVJEek1CSDZZNHdWUE5lcU9wVDVWUXJ5eWNXRDFIQ1lPTlBXR1RNVzVBT3ZBM0NiNkJIeGx3OGRSU0pMeHhYb2p0TnJCYk5JeXRVWEluNE1mcWVMc3VpTkRLVFBwZ3BHR0JRVEJhVHVwd0VtUDctcjg?oc=5",
+          "source": "Clarion India",
+          "publishedAt": "Tue, 18 Aug 2026 15:51:47 GMT",
+          "fetched_at": "2026-08-19T01:34:47.570867",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Ports, Adani Power remain top picks for Bernstein as Adani Group emerges stronger from recent challenges",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOUmx5QjVvWldsS1FkQTRTYlE2S3hYZWRvMTc2SFQ2MXg2ZkpKUkFwRURTNmNITlhoMTcwaUJRdnpIa1hwcU1ET0tCajBYdlgtaDVKay1laVhVY1JEWnl3R3BIc3ZtRVBLSmNLNERfdmpyM2NsVkdkMTI4bWUtdjd5NVBrVXJFR1dtc3N0RlpxU2ZCVFliSkktYnRLUGtic0N0UEFDcDRLZFkteHVxNWdXVEx3ck5YSjVzc0dSLTZaaUhqci1ESDNEMW9qczFycjBlXzQ2SjdkaGpYaDcxUWZudUhiTkZ4Y3FGVWk4ckZwYw?oc=5",
+          "source": "Investment Guru",
+          "publishedAt": "Tue, 18 Aug 2026 09:09:14 GMT",
+          "fetched_at": "2026-08-19T01:34:47.570873",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,7 +144,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-18T18:45:43.290532",
+      "last_updated": "2026-08-19T01:35:18.634623",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,21 +228,114 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-18T18:47:13.906574",
+      "last_updated": "2026-08-19T01:36:21.958610",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 2,
+        "neg": 2
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Infosys ends leadership uncertainty with a dash of confidence",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1M4N1NmbWxaejF1X0FYWlptMFYwUDFYQTBodTM0TWpUWjFhVXBibUlKb0dkemxfQ3EyS0d1MTg2aGg5eXNJMHlfbkxqUU1vWDBubXVmZVJSSTBqV0l0ZDIzWWlqZmQxUVBROHhQbmxieW9yZ3lpUG81dXFTMmJyeWxyQVhHRHJKYzd6Mm9ZY2EycXR6bmg3VEtqV1c4Z3ZGQWROUGpNaGxhM2d20gG6AUFVX3lxTE82cm1mclZWX2FuQUFVZlFtU09UTnk5cVlsMm92UW44bjAzTW84UW43R00yci1UZ0ZnV3FTRUF4WEJZM0FkY196NHJPNzRORFo2Q1FmZ2NkNlNNaUhZRkxoMEFISEpxOEFZWS1NeWZJUHBoY2JKckRvNzI2QnBJMWU4Tzl0SXM3QlIyZV9PbVhCLXRadkFMZHFLX0dYTjRPQVdRd19mYWZTSjQxZEFETjhCSkxvWjRGVE5GUQ?oc=5",
+          "source": "Fortune India",
+          "publishedAt": "Sat, 08 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523237"
+        },
+        {
+          "title": "I'm leaving Infosys in a better place: Outgoing CEO Salil Parekh says company is poised to win in AI...",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQa1paVFFmc0lhTkg0S2pBVGxOVUs1RFVhUHZjZXBPelNNWC1pTEdCQmpyOUk5eFltbThsM0ZucmxyOGhSQzFRdXpYaVRzYTVRakRjcEUyOWUzZFMtRURzaDJCSFgwZ1ZQLU1PeWdpMERWR3gxTDdSdmtzS0daWkwyeWRvTlVFVGVnUzE1LWxvdUNhcnRpQktBWWxNTGFNUTZXU2FucEVFclRVRzVaUFg5cW5pbDZCeTdDbldDSXhhZjRBbGppaXNGWDVKUURmZjFhQ29PWFp4WDk1UzNyNkxuc05xVzRTTFRCYzExWVdnREMzU0szSWhGVlpLT01fZ0JuZU5nMVNGSmdXalhTOFQ4SzlENXdUNWvSAZwCQVVfeXFMTkxlNXhJVXpWR2J2ZS1Tb3VTMzhUMFhCaHREb1EzaElrRENremdPcnBERGpfSzBkRVd5WkNnSm5uX3BFbXV1a2pKVnVuRThId3NabktSNkJ3dVc4QkxvbE1BNHlieFNTbmhSeldUd19OOWxvXzl0b1B6S3FSZExIamJwY2Vxb2Jmak1NZWxWUGxhc3oyTlZTM1o4TGJJa0FSN3JsNXM1M2hCYmgwei1pYjZKN3V6bTV5ZFFTOXpBa0Z3WHEzM3BaTDBjWUs1ZWdxc2tXQzB1TmNSNXYyMmJVVm1pamdfejJya2ZUbEVvbjk0X3VzbjBuYmlRaWI4U01KdmRmdHdPbjdUOHYxem41RmJOV2loQV9xV1k5MXo?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523252"
+        },
+        {
+          "title": "Infosys Collaborates with Knorr-Bremse to Accelerate AI-Enabled Enterprise Transformation",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQc2xxWmM3UkhMQUVuRlUydWpfMGFlS0JsVGxYU0hLcjhsZDJPcUxvY21pX00yS2EtVy1kNjVaUmVFYUx5WUc2RWozWlpmSzl3XzdscVlaQk9VNHJGaVo0UkNVWnpUcEhFaVpEMVB4VFV5ZXlWb1R0R0o0WnYwZGk5WDZ0OXRUemFwX1FsN0VxWlZ4NTB0dXdndXZ6YzlXb01mV1plNFF4U3RiV0tOdHFHT0p0a2EyYWRsTjB5LWViZURtbV9hN0EyQTVha2FPZFR3SUZIem5WMGxHVm82eVJOOG4xTHg?oc=5",
+          "source": "TradingView",
+          "publishedAt": "Tue, 18 Aug 2026 10:28:00 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523259"
+        },
+        {
+          "title": "Infosys partners with Knorr-Bremse to accelerate AI-enabled enterprise transformation",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQ01PVUFNb29Nc1BhRmRENGxITzlVbFNZSXBRN1RtblcycFBuZFNsZFFBcFlYTkdkZmZNVHhiV2IwMUhIME4wTHdjUkpmYXNHNTVmTmlBTzZ0SXI5VjJ1bURFOVVZQmpsTlBpaFdUamVjWGF1OWVWd2lpQ0Vic2VQNW5qY0JBWUxqanlOYS14a3MwdEFReGJBbUp2RTNrUGVEdXpsbm5RSTZDMm82ZVhpanpKVjcwYjBtR2dOUGlyMWM0U1RxVnBZVjBFcU9jckVqNy0zS3VRdFkyQVV6dk42cmhfT2NYOHZDZEhj?oc=5",
+          "source": "Deccan Herald",
+          "publishedAt": "Tue, 18 Aug 2026 12:54:00 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523263"
+        },
+        {
+          "title": "Infosys partners with Knorr-Bremse to modernize IT systems using AI for better efficiency and service quality.",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd2tDVmprdXVqZlhlcGR6cHYwbGlpT2d5SW1kbFdZTXhZVWlsU1JmaS1hWFZ1LUxIWGJWOHVUOUk4QUp3VWdHNER5RDlJcGYtSTd6cE9tUU1Mbk5nYlF0QlpUQVpSbmpOX052XzJkNWpZWVdsNWlLUFBVV0JnUmpFUEZ6dDRBWlJvRFROeGxNVmhZVzhQR1hueFQ5Vy10NHBySktNRzk4OGQ?oc=5",
+          "source": "Pluang",
+          "publishedAt": "Tue, 18 Aug 2026 10:37:45 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523269"
+        },
+        {
+          "title": "Infosys signs long-term AI transformation deal with Knorr-Bremse",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOGhBV0xlNFYtTVZTSE11WXVVREs1U3duT2plVmZTRkdhVFNleF9hUzZkel9qbkk0UEFCMVpHeDk5UG1hNmRDSXY4bTRDZlp1VXBBX0ROazZTTjNUc1IwSzRqRnRtdkxhcm9xWUptbUlzRzBacmdUWXBrZ0F6RWFMcTNqR3k4RloydlJpSk9JZ2ZUQzJEQm0tLUxZOHRrZmtwSXdRc2FKWWFHRFpGcjFtYVQ2cld0ekk?oc=5",
+          "source": "scanx.trade",
+          "publishedAt": "Tue, 18 Aug 2026 10:22:46 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523273"
+        },
+        {
+          "title": "What's next for Salil Parekh? Outgoing Infosys CEO on life after Infosys and Nandan Nilekani",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNN251c2tYcXZiWnN6YkRVTFJUQ2NEcjZaQTBUNnlzcUpMRlNSVlNuZG92cUM5SFB1VEdMS19DWDNyR2YzZkJlUXRYVERoRDgyeGxzTmQ5RXRkVVA3NGFvZkNicHlEa3N0d3RuUkdvalFUUU9HMUF3aHltQ3dYa0ViUTd2RG1oSUNhX2FhTHFTYWM3WGp0RnZlaUY0MHR3ZGxTZWlsN2pMZjVYMFlBTGNXZlR2ZGJKVFRCaXJoSWliQlJENkJSc2M3MGRBUTl0MUY4VmxfWFFUZnRibDd4bkdXSHhPVjFfWW5BWGVwdWxyR0hCZmVnWk40bTBGMHlrTHfSAYQCQVVfeXFMUE16a1FBU0tGN2VEc2tBWlJ2ZzFEYU96T1VZV1RXNjlSelJVZkVoUzFuUl95OFJ1Yy1pWWF0NjQwai1ETEs1eGc5QS0xSjRCX2tDbmxiQkJFLTM0TGtUQ28tb1RLZFotcTdid0EyMXotSmxidTRnWkdfV3kzQnprQTBvT1BpSkhaVGxYNTJqTFRCOXltT1d1Q0FZZjZnOWluY0J3U3VjVHAyb25YNEpCNEdfZGJhRlhWNzZHVzd5U0c4QnUzeDVxVWxIeVVkZjNpdGYtdmE3NlJzTkRBWWlvSnRpLXIzT3RsLUNTRGhmZnIzamVXeFpyNU9LR2p3a1JZLXNrS1g?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523278"
+        },
+        {
+          "title": "Ashiss Kumar Das to succeed Salil Parekh as Infy CEO",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLXA4TU5ocjRvZmJWT1dibHVhZzN1RzM1WWhMVUZnU05kWkxTeEpZN3NsRkJ1bGxkeXFEdi1wSkVVZ1RQWGVyWHVBLXllTmJaWWppOExPM19vRVVaYUVzRGEwbGtyWkliS0dtR2NlMnJ5S0syQXpjUmkycjVhMTlZNS1PbHRjM2tBRzJwckFWclVEb1lnZVYyU18tVElhQkxMOVZybjk2WEhxOGtSc2xBUG5oQUo2MFBCLWtiME0ydzhPalU4dXNyVVdfenl5OUNwM0E?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523282"
+        },
+        {
+          "title": "Infosys names future chief executive as Ashiss Kumar Dash succeeds Salil Parekh",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQXlPbDlyeWdNdWwzZ0ZEaC1rZ3NRWWFReGdlOUhLZ01JbU95eV83R0l1djBqbEtuQlR6VTA4R1MxQnVfd1R4VkRXNkZCekRaLWZjVGNjQjQxMHVwRUJSc1k4VFhEMlVqYTUtTkV0blduRWhZd2N4VTdZRlpNSmlfVm96ZHFaZjU5eDdCSVM5RnpoNjFIMFZhRTdBVVktRFZqVnBOSk15NGowZzJOMGpJMnlPaWtrcm5MTjhnb2VjR2tmVDNMZlhPTFpRdmZTMzBNRW1ScWlyc21PV25mWmg3R9IB5gFBVV95cUxOZXgxOE0zcHZaYk9hdHdwY2xuR2xjVWZyZTgtdkVYQXJQSmtrR0dfNVhBWEtwcHppdlVlcHdaUzVKWXB5TV83Vm5VdjhwNmpqN3JLUk9JVWZJQ3VKS090SEtuNm45N21lNnphNGVLVU1hUC1vOEJybk41bmxFR2ZBWXlaQ1hOaTFVOVVMZVlfYUNrY01COGczX1pHWkswM2NYakJtdmFFdGw3cTQ2aVVjUW90M1Utc1ZaZDVGTVhVVVREcEFHZGVCbHRRMUltcmk1T0Q5cmFaWG5jNkNLVFFkNXVqVW55QQ?oc=5",
+          "source": "Telegraph India",
+          "publishedAt": "Fri, 24 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523286"
+        },
+        {
+          "title": "Infosys Appoints Ashiss Kumar Dash As Next CEO, Salil Parekh To Step Down",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQanZHNEVhVmV5LXBROTY3UmtoS201R0s3WUU3blpyWmVMVk5nSFVfWDhoNkZxNEJSd2JKWXlGU2xxaTJiMVJqMHJFQkkzcVpKY21Ja3gyQnFkWVdhRnZlOElMeDBMbDk2NXZEblFWdEVoMlRsWDh1TzdYTHZUdVppNVA4ekw1cEdkZncySUZUMEtpUERQZ1VZUmZkVHd3MWdNUGpSbUtwcWI3a1dWUkcwTUVPT0VIVEdZQWFz0gHIAUFVX3lxTFB1UnZ2Z0RuWTdpbTZlWnZ0SGdyZmg4ZXFWQkh5NDRLLTFhM3EyWmhYSEdsTEw2ZlZtY1hfaUhrQ01jVE5uU29wMUVhVUJrT0ZESTlyZnlweXNZaGFWS09UTXZnd2tsUGRjX2lYcjNjaXFwQnhiYmtnZkgyU28yVEJvc3huZ3E5MTdueUJ4UGl2QVdqUzA0ZHZZS29RUHFBVllmV1FwU0NDeUhWMmhSMHpkZUI5WURaSkE3XzQ1NjZRUS1CaHh4LTlR?oc=5",
+          "source": "outlookbusiness.com",
+          "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-19T01:35:34.523291"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "Digital Transformation Lag at Infosys",
+          "severity": "Medium",
+          "description": "Technology adoption gap identified at Infosys: digital transformation. Digital maturity assessment and tech investment ROI research required.",
+          "detected_from": "Infosys ends leadership uncertainty with a dash of confidence  I'm leaving Infosys in a better place: Outgoing CEO Salil Parekh says company is poised...",
+          "gap_type": "digital_lag",
+          "keywords_found": [
+            "digital transformation"
+          ],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -236,26 +375,6 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
@@ -266,21 +385,43 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-18T18:48:36.846288",
+      "last_updated": "2026-08-19T01:37:42.848631",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Balance Sheet Stress Indicators at HDFC Bank",
+          "severity": "High",
+          "description": "Financial leverage concerns for HDFC Bank: debt. Credit risk and refinancing outlook research warranted.",
+          "detected_from": "ICICI Bank Raises $750M from Overseas Bonds for Growth  ICICI Bank stock slips 0.45% as bank prices $750 mn bond issue  India's ICICI Bank dollar debt...",
+          "gap_type": "debt_leverage",
+          "keywords_found": [
+            "debt"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Credit Risk & Capital Structure Intelligence",
+              "impact": "High",
+              "timeline": "6-8 weeks",
+              "price": "₹16-24 Lakhs",
+              "methodology": "Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending",
+              "description": "**MRA/ESOMAR-compliant study**. Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending. **Deliverables**: Quarterly capital briefing, Investor perception tracker, WACC model, Refinancing window analysis.",
+              "gap_type": "debt_leverage",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -320,29 +461,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "ICICI Bank Raises $750M from Overseas Bonds for Growth",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdWQ3dC1sWWx0WXJYZlhYWTViOHNWMEVFUEcySEwzUkNZcWVlVWlhRVJBUFpZZXVObUttQ3d4UERIMVJYSnJuZEFmblQ1TVRVXzY0a3V2RjRramtXZW15YVN1dHdYX1hmZ1I3NEdza1Z0dmx5TE9QUGpGc29fRlYyNlRTV1Z2WWVSRVhKRnF4N0RwRDBtMUFJa2NLMzBVdzJNTWp5ZG9xZULSAa4BQVVfeXFMT3p1eEU5Y3ZXX2pSN3ZNTnVBamkyUENiQVNMZVl6RkdTZ25ZTV9yam9TcjJ1SlA5YUgyaU02dUtPMkpGa0trVnh4MTZpUm10eE5aQ2JEV2FfSW14NEdEcmpPVW82Si1JR2N0emxHZ3l4VmFvbWk3c1J3OU1hZE12R2NJblZwTzItTk5PX3RxcElVS0ZjYW5td0ZtME1uVGlFUXFDY29iXzVyZURhNjR3?oc=5",
+          "source": "Rediff MoneyWiz",
+          "publishedAt": "Tue, 18 Aug 2026 08:44:05 GMT",
+          "fetched_at": "2026-08-19T01:36:51.869688",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "ICICI Bank stock slips 0.45% as bank prices $750 mn bond issue",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSE5Dc2RJbUhBSmlsdm5PSkpzTy13X05yX1VjMUVWVktySElXT3I1WEx1UHB3OF9wRk1ubFRJRENXY0FkNFpPcGdtVTVxb2FhdWtvMl82Tm81akFCaEFCYWxIdUtRQi1Ib0t6VXgyQ09QWFJUQjEwRGpUZnhlajF1N2ZHLXNFVVZBMFQ1NEZ1QVVmWWMzTDJtWDMzR3hFN3FzLS05MG9vbVExM1FDQ1ZJNjZHWnJMMmM0eV92bzhTSHYxWWI0OHEwMms0bkJOUWZ2Q2hxSWZBdHFUVzTSAeIBQVVfeXFMTXRNS3RGRFFuWktrbTJyWlFiUG8wd21Hem1qdVR0U1oxeHplcERrTU5vZk5Ga3czbmRwTWVWeERVUl9ubWs5bjhLdzBCSER2TG16ajBDcHFnNkJfZDVrdU5SdXo0b2ZXNDZzY01OcTF1V3NndXVUV2hLdjRROW5aelUyMnJuVklUUERpcnRXelJzYklLQlg3TVY2SjdQVEo2amZlY0FtNkstSy1PWFg1Y3RCcDQtVXV2UlF3YnEwQXA3Q2xDY2Ytc2I4c1Z6dVduN1VZcWVGejgwM2xCb3FNUnRkQQ?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Tue, 18 Aug 2026 11:22:11 GMT",
+          "fetched_at": "2026-08-19T01:36:51.869703",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "India's ICICI Bank dollar debt fundraising tops $2 billion in a month, bankers say",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQ1NodDY5THFuRS1MWVQ4QkkwNmNZOTQyWEwtc2hEQTNmUXdSUUxYYlFRWUE0Y0hQMEV6YlVHR3ZkTnlPRExWZmxVNG9QSU1HMmtxTjRQdmFxV0liMVpKaTJYc3VaNDlndFpaaElGYktUckNHSFdmYzRpbFVHanJfOVItbHlNcnNxMnprcUNQYV9sVVVKeXQzb0Qycy1zeEhtLXZEREhaSFNMN0REVWxFR1ZneEpSOW5pSTVkY2hiQ2FrcVNuZl9PelA5YUVJQzAzTmtrZmdFQdIB3AFBVV95cUxOdUszWi12MlRFdmx1X3Nac1RhT3lfeEd6NmNaTEcwVTNSeEx6c2hxcUYzWG5EMWxvSTJmUW1UTWdTYkJRdHJTNWl6dmJ0aGxjUlVncE5vX291aG1vRzRGTUJEQ2JFbG5uUHROMElvXzFwYUV0SDgtMEZQdzhLZm85RzlBMWJfZzN0eFhYNGQxS3VQN0x5X2RpckNZZHlseXVuVFFJNjlyb094RWl4ME12Smx4cTBPTXVSVDdNYkJySTk1dl9NeVd2S1I1YmtxS3dIYXJMNXI5cFpoQnNP?oc=5",
+          "source": "bfsi.economictimes.indiatimes.com",
+          "publishedAt": "Tue, 18 Aug 2026 04:07:02 GMT",
+          "fetched_at": "2026-08-19T01:36:51.869708",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "ICICI Bank raises $750 million as Indian banks tap dollar bond market",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVVhzaFVFT05hTDF6RjhvdS1VZElRVE1YbGE5TFdoOGxnckdaUklBVWVxNHpDeUJ5RzVwX09uMlVzRHRSLTl0YjZtNE1SSVB0QmNRTnlUYW5WWmtQdnUtWllIQ0lqQlRBcUcxVFRsRldRRXZMdmNnRzRLOG5HcGVrNld2aTQxa25MNlQ2UGx2Xzk5djh4V3pWNzFjMEZucjhqN1BkN0VVcnI2UF9GOEpuT2VvQ3pKaG55aTBVYkF4ajZGX3UtOVE3NTljWjVKWEtKRUHSAdcBQVVfeXFMT2MtYU9KTzBXdnFCUXhVQXFkZ1BUcW5lTzB4dTdNb2pLbkRFVzlNSE9mZmgxY0o2ZTZDQTZ0V2tPbTEwelJiNjJRa3B5ekU4VGtKQ1lXNlNxYnVjUVJZdkxkWDJuTmpnMExFZWRIUEpOOTVCcUUxRGEtb2hkdkhFNUZ2OFY3RW9OWDRnejNGMzJrNTc5Z1Y0dkZJajJrVkZZb1lvSWQwS1JxVUhKd1dIaXo5ZzZFLU5EV3p4QmlLTjJTRDY4eDV2MWMzZkxpTEFocWdVUUFIajQ?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Mon, 17 Aug 2026 15:49:10 GMT",
+          "fetched_at": "2026-08-19T01:36:51.869712",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "ICICI Bank announces issuance of USD 750M Senior Notes",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObGJkdFozd3dLOFk3MXlYVHZOd1hhVzFMdUF2ZnRQY25aR1hMTEkyV1dVR1NyZkw5ZTRwdFlsd2N0RDktd2JNakw1dDVOWUZwSTNVQUl6UFRJbEhSV0R0NkhFQ21vMl8xb1IwMjUzcGJiRG54Um9OYlJoeUw5cThpX2dTX3oxcnY4SzczYlpUNFdodER5MkNTWWEyVGpXODVEV3JCMGo4Tm5qU3UzczdENjFuT2xHVWNKRzVvaW45ZDNMV09yb1lLWXRxaV9KOUNHWHfSAdcBQVVfeXFMT0t1UjUyV0U0UzVvWm1SeWpJclhlbXp4aVQtWVBaQWREbzRRdmNWTElsUnJ5M0hJM3BrS1V6TlEtMmFJYnhxbW5tMjh6ZjkwZlVrU3RZMUhoeC1tcURfNjIzWTJXYnhLdW41cDRubnBrdkNxdGFXdm1QTEZWbDlWc1A2UDJKUGpuVkhXaEVpMUFycG5YbXB4SkxNQkZSX1V3U2xlalUwbC1hdFNhODdJOTNiYXZnc1VEa1dCa3c3eXV3MzMtQVhWOGQwT2lsdHQ1ME12ZTdfNlU?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Tue, 18 Aug 2026 07:34:18 GMT",
+          "fetched_at": "2026-08-19T01:36:51.869716",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -350,7 +517,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-18T18:49:52.431094",
+      "last_updated": "2026-08-19T01:38:58.832104",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +601,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-18T18:51:20.812634",
+      "last_updated": "2026-08-19T01:39:54.908051",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +685,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-18T18:52:52.198462",
+      "last_updated": "2026-08-19T01:41:12.354176",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +769,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-18T18:54:21.463380",
+      "last_updated": "2026-08-19T01:42:53.527369",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +853,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-18T18:54:22.706720",
+      "last_updated": "2026-08-19T01:43:23.626556",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
