@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-20T13:06:45.156922",
+    "generated_at": "2026-08-20T18:56:57.875729",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,12 +14,12 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-20T12:57:58.298408",
+      "last_updated": "2026-08-20T18:47:14.088548",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
         "score": 0,
@@ -29,6 +29,28 @@
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Merchandise Revenue & Licensing Gaps at Reliance Industries",
+          "severity": "Medium",
+          "description": "Merchandise revenue underperformance at Reliance Industries: retail. Product-market fit and pricing research required.",
+          "detected_from": "Modern Bazaar explores stake sale with Reliance Retail, others as quick commerce squeezes business  Reliance brings SKIMS to India; Khaitan & Co advis...",
+          "gap_type": "merchandise",
+          "keywords_found": [
+            "retail"
+          ],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Merchandise Demand & Pricing Research",
+              "impact": "Medium",
+              "timeline": "12-18 months",
+              "price": "₹14-22 Lakhs",
+              "methodology": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking. **Deliverables**: Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy.",
+              "gap_type": "merchandise",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -68,37 +90,53 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Modern Bazaar explores stake sale with Reliance Retail, others as quick commerce squeezes business",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeTVzVWJDbUFjUU8yM1R3bkh2eE5lNnNzUEE5cl8wWktxMUJRdXNCZ18yS28yYUlzekRBYjlGZDBwWU8tX01xeFdxckM3WS1fZU9CUlQyUkpWZE9CX2R3eXhlUi00Q0RHb0x2ZTEzc2hsYzA3Yml2TlJKakFGalRTUUVyOWFGRGxRSHNYQkM2ckZhTTRtR0xDQ0M0cHhVTDZoTEhMVzdRMlJCOW9YaG9uc3lBVHBJandiQk83REwtZHZVeDV0Wmo0OFpQNzNkNXZKTF9JYzhNcGJOOXlTNk9uQ25mSjlyMjhpQjVRbjBNc0ZacDdtN3BOcFcxdzUxWExPeUlMdGQ5Z9IBjAJBVV95cUxQdUVQYXpSeWM3V0NWSHF4NFFHaTM2dFhrNnZ1NWJPQ1VFZ09LS1ZHU1drd3FYMzZpbk1RbWNvb0ppSWM0R0FaTkF5Y3FhT3pMNW5YOTVXX25tTkVhZk1HTzZidjRIcGNNVHRKX3poNUg4QkxSdWlWLXdaQU1Ca3dhSFRCVzdKbGRIcEVva0JGazNSaVVzRGFucU1XbmVWR0JlTWR1djJxSG41MkFsOGdUUkRPV2VmNjZvLWlJdUtjVzUtX0dxVFZFZzJmNjRMNGpmZFNCbS1VZ21nbU1rZ2p1M0ZxLUNNMVZBeTVqQVZnRXRUQlllbnFzVkpPNWNwR2ZseUo4d0ROaGZkRzNv?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 12 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-20T18:47:14.088133"
+        },
+        {
+          "title": "Reliance brings SKIMS to India; Khaitan & Co advises",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGlySlF3ekdUcVpaM01aTC1NMGpfMnRwRjRWejBVa3EwVWJqY05sUFRyMHZFcGNycjFxUWJwUGdWTjNYczU1c1BoZUtfMzR5WGRDOHZyRUlUSlJJZWQ5TTJZSWQ5ZW4wd0tTbFFuMGdrMVFDamtCeEduVXZxZmtmR0Q3QXlsZWpneHBzejd4akJ2enNEQ1hNSUktXzc5WmM?oc=5",
+          "source": "Bar and Bench",
+          "publishedAt": "Wed, 19 Aug 2026 12:14:53 GMT",
+          "fetched_at": "2026-08-20T18:47:14.088148"
+        },
+        {
+          "title": "Vineet Jain Joins Reliance Retail as COO for Fashion & Lifestyle Division",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWVpZR2pRVmlSYjltOF9PV3VhUHEyVHVBRjJXeHRkU2ZhekYzVDJlWC1qT0xiWUQtZjFpNEJQU25mV19SM19Yb3J1ekhkWFk4OHltTVBXOFJmcVAzdGhua18wSHJfT3J6ZDhvM240eEN3dGNHVC1UcUdsamlJM1d3bDdPSk02VzU4SlVaVDN3eUkxWjdvbFhYRVBPb2FVQThJUTRqU3lyOWttdkJBd0xONUVjQUFvSDRIWk5PT2tQOFc3aVRPdHZCdGFWb3BaUQ?oc=5",
+          "source": "ET Retail",
+          "publishedAt": "Fri, 14 Aug 2026 10:59:42 GMT",
+          "fetched_at": "2026-08-20T18:47:14.088154"
+        },
+        {
+          "title": "In Mumbai, Cockroach Infestation At Blinkit Unit, Sweets Seized From Reliance Retail",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUmFGdGNGQ3NTZnFFcnluR2NVU0p6MmdqX1pvdGkyWWFDNTIxM21XaEtiRUlDUnI0NkE4WTVxSDlSX2FBYUN2S3lxVnhocUc5X014MnJ3bEdjWG5fUlpud3F5NWhQdUVPZ0pVVFJaODVmUmo3OGZQNzNycGVJNzd4RjYtOFNPOG4wVVpXQ3RVd3lhM3VwYXFWMDdYQVJjR0hWeHJqd2hvV05aTnBEMnE0WlVhR2F0RXlQSjFYQjBfcGtkNjVCWUNV0gHPAUFVX3lxTE5remw3eHpYUEt6cEFzVXFGbDlkcFhjclBiYVJFaGpzeGRvZ1hmXzZXQWZDT1gzUGZzM2F4SVI0aFBpVkRTVEctWHZzUVVCR0ViYWs2aUp4OTkxSnQ3bEZIalctaWJpWGdsd1dYbGhBV2VjQnBJZ25SZWpOekJkQzlEMWk1bndwNTMxQWVsS1RjY3BPeWhXRHQ1SHdkNlpKVmx1VlVrdElSMVBFd0Z2dWJ3WW9jeVc3ek5XYkd5WWNBeFBVVVQtT05mOWNMR0pvYw?oc=5",
+          "source": "NDTV",
+          "publishedAt": "Mon, 10 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-20T18:47:14.088163"
+        },
+        {
+          "title": "Reliance Retail Unit In Maharashtra Under FDA Scrutiny After Complaint Of 'Fungus, Live Larvae' In Kaju Katli",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQakNnUlpwbTJLNDNLMGdiYlBVeHlqb3FmMElLS2JlbXJTcmQ2c0ptNjRGMFRyX2JmZHFPWVc2UnBQdUtwQ3pIelZJNW1GNlNPeDB0LUxxQkc2a1BTWnlvXzFmdk9iNjhPcTRPcFFraHd3QndkMDRIcGcyVEcxVGFON1lXRmw2WHJ5ZUM1S0VBNVo3dHBDOVF4QU1zTGRUVHJsZk5QYW9pTFlrZU9nWFZERk9CeUJJTGQ2QmNuOF9MZU14czNmMkl3S2c1ai1lMEYyX3JhQklR0gHeAUFVX3lxTFBNQTRSTkNfeTk5TmFrcDJmbFg4bDNUX2FCTGFPTEJ2RFlEOEJVRU1keUJVVlpIRHNOakdSWExWZjV1ZV93S0Exa0dmSGN4YkxXV2lJWDhQUGFvZGVmdGlSUV9SNkstN1dvRFhCc2l3Tkp6Y0pvODFUR0RIQXJXNmhkbzV2dG05R2ROT1NxbGRvclZCM3JEREJkaXBnZ2pwSmpMaGdXeG9xYUJhRjFwdGJDcGZhSVVaVjJJU0V6RFIyY1lBazc2T2JYamdWMlJlVWR3TC1kRG1oYlA4OUFTUQ?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Mon, 10 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-20T18:47:14.088168"
+        }
+      ],
       "filings": []
     },
     "TCS": {
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-20T12:59:13.564548",
+      "last_updated": "2026-08-20T18:48:19.490275",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +220,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-20T13:00:37.631614",
+      "last_updated": "2026-08-20T18:49:40.314386",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +304,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-20T13:01:38.494642",
+      "last_updated": "2026-08-20T18:51:11.138232",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,91 +388,20 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-20T13:02:54.286769",
+      "last_updated": "2026-08-20T18:52:00.748354",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.33,
-        "label": "Positive",
-        "pos": 4,
-        "neg": 2
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
-      "news": [
-        {
-          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
-          "source": "EY",
-          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158033"
-        },
-        {
-          "title": "Weekly Recap: Q1 revenue & profit growth and analyst ARPU, earnings upside",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcTdGbUhFQW5YSFAtaEU1aEQ2TkNSdy1KSVdtaTZ2Tnp1Ujl1Nk5QTUI2c1FPc3kxN00xRFlKTkxZZkQzTlQ1SDhvQXVmS3VXdEJCYnU1eDl3akxwUk9wR3Bkb09KM2lKeEN4RFduZUw5eEhqUnlyNEQtaEE0TEhBUDdMb2NvajE1dEtSSkNWZ1NJV0FhRWw0ekRZcnFwOS1Ubmo0elA1UDI0cXEtdTMxVjZhRGlNMy1yVVFXbVQyT1ItaktaRW9jY2VnV08?oc=5",
-          "source": "TradingView",
-          "publishedAt": "Mon, 17 Aug 2026 01:13:00 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158049"
-        },
-        {
-          "title": "Higher data users should pay more, says Bharti Airtel's Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQmZUek8zM2hpMWxzUkNaTzhPaGlxNkktaGhwOTgzN21sdnJzWkZveG5KUzh3Zm1uWHhaRXA4RGV2dUlxanh5b080dW1lOVhXNnMwT2d0aEltMkhWQjFkV2JvR3N6V3F1eTJOZHJmak9GdVF6cVJ6TXp6WTdSdGNfODFnZk5jZFN0dTdFLTBfZjkzQzR3VzluQXJFdkNEWWZMeWYxVWk4R0FORjRqYVFsdzFzZ29CUmpJR1VORnZPNXFpaHg5cVBmYVZWOHhoekR0QkHSAdcBQVVfeXFMUDFkVHdoajJReWt1ZzRRNWhSN0tXUG5GYmhkQTJEYlBBeENYZ1FicXYxalY4ajk5U2ZwOTNxYzBaaC1xeW5HYUtmZFBhakF2aWZ4d1lVOW5KVm5qVFB1NndEQjBIX21mNEtGbTU5UGhCQUxWVm91T2hHRG00S3FHVV9VODlfRnYyTVpwanh2OU5SbEZhaTRPYmNiUC1PeTJDbWhmNmpaQ2FwWVNnTzhXUW1RY2lOa2gtZEdoazJqVG9lMGQ3ZElpcFFJYW9ES3FrZUtBMHBxQlk?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Wed, 05 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158055"
-        },
-        {
-          "title": "Airtel executive vice chairman Gopal Vittal on lessons learnt from Airtel Cloud and what makes sovereign",
-          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOUVNhZWZwYVBOUzVwaVlpaXhNbjZuRUZGbnNkQ1liX2NMNG02bDlLSDJvTWRZRWxXZ1ptdDByWW42YmdkcWRZR01mWU9XMGYwbkxaaWUwazhaNGRXTmdoQXlJOWNyMGxrdXNRNG5GazJ3eXk1ODZjOXFNZ0ZTcl9XeXJqOTlqcy1sYXAxVVBPb2dhbEpWLV82Z09ZZTQ5SXJXcW4yb3dldzhyUUNVLW1fczVNUktBVXdmRmdFUVFIdXlEYnNXU1NIcll2VGpGbmxwVjk1cWRaeWdyRVUwWnJTVW44cTBrRzlVeFdsV3VTa3pYSVNJSEFDMWZXSl9kYXlJNGVadFdJaldvNENaTHV1R3NfRGxUc0tsQjRyVWlhR1J6eW9ZUGFBRk5hLW5OVnZKaHNsYTVtWnpfRkRSeVhF0gHEAkFVX3lxTE42YThCZjRZSkRtNXgtNDZsblNTdDF2Yk00c1J3Vk1FblNDT0lnc1gzZWRBc2VXQkQ0aEFHbDJFVXpQaG9YTFpKMG16S0MtaVB3clY2VFd2RWxjVktaRDRhM1pVQUNMZ09IcXdfcFpLQmFXdS1HZEZvX2FHRUo4WG0zX3o1WmVuZDQwZzRMZnZyNmRiOE5IT2l4XzVNa1NzTmxJMVlMYlE3LUQ4V29YZEYxdWQyQnc2UDFJSjVMNWU0Y2hlaHpOWEkydHRhVWtJbXRlbHd2YWZuQnprdUlvWGYtWWNHS0xTU1R2czhvUDFXQU9ObDJsR2FKZFR2SUlpeFdsTVFpZDFVeGJ3cG9OT3JQMDJEM205ekFMNjZsbFB3RlVXNkRQSzZMTEhHZG5yTEN5Q0FNSXphV0RxT1F6bUNLb3BwYw?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Tue, 11 Aug 2026 14:25:00 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158060"
-        },
-        {
-          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
-          "source": "Forbes India",
-          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158065"
-        },
-        {
-          "title": "Gopal Vittal's pay rises to Rs21.73 crore; new Airtel India CEO Shashwat Sharma earns Rs1.88 crore",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWnU4NWl0YmhHbF9oN3I5OFd4Rmk4VVdWcEhadDVJYWVOTDJDYVJUY0V5amFCODhRLXk2M1FMQzBpVDN4dTExbWhKUGg0TmRSZUEzbXlnVWJxUktaUFFvTFljOGRwUjBFdTVTc0kyUmc0LVRFaTdQZ09sRVFsTlpaVmRCd1dDOGhNaUFwX1BVMU9JdFRKVlhqZUZuMkdKc3l5TVFsNVRDZ3ZJYlVlZVRCc0J5eThqNW5IaVFmOE1hd19OY3V0ektRcmw2cUpTVTlSVldZcUtaYUpfejk2dmRQN2tnUdIB6AFBVV95cUxOeXNmSmw5S0FSTWlUQ2dSbThZZHg2amdaODk1NzE3Mk56Skt1OTZrSlNvSGVxVllITjh1TGJJSDduc2VEVlNlNklLN0RFZGdXa0tWdHZJRzYzekRkQUZxMlllZmMtV0dVRmZTYnlQbVlPSlZPNzRLbzRlYi1fcl9MRXVnQjlsNUtsdGtPVllwTDBScTUtVVNOSUNNcEVNUHh4QjFsYXVqU2t6bGdBY0hQTFdERDFNSnpxLTZ6bnh4Zk1SQU0ydUp6R0hvLUl4YXhMa002WlVkRnQxNTJBOXpXdE5ueEJWblpP?oc=5",
-          "source": "Storyboard18",
-          "publishedAt": "Mon, 13 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158070"
-        },
-        {
-          "title": "Airtel Cloud Scales Up With Sovereign Architecture, MeitY Nod",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPei1xUkNsZ04ybWhTR2VlM0V2NC10azQzeFFQMHlqMW1tajBkSldqZnVTSVJ6N18tTEpmbV95M21WUWhucmFhMmt6Z3RJU2EyVDh4Rkt0Y3p6RlI0YzdRMVRCNUNlZ0tvZXVrSEppMER4NkVDSXowMU9sRmdGc3VUTTh0alNMTERoUVQzNS15MGJYTGZl?oc=5",
-          "source": "Equitypandit",
-          "publishedAt": "Mon, 10 Aug 2026 09:54:06 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158074"
-        },
-        {
-          "title": "Bharti Airtel turns to Mumbai to chase 1 GW data centre dream and 25% market share",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZGVkSEc0b3VFOEtXZEJqTGc3YzV1N28yT0ZueHpRRGN3Yk9JZV9mU0tPS2pqRVhoOTVvNzRGSDlONU5kbEZJZzdxSW5Jek5WVVFpSmY2Uy16aWtJSGQ5b2JhQmN0OUFEaFVHR3hqWkxfZWFxczA4VGRBTW52M2lqd3JtU2laTjhjd0V2SEVaekpvVmptYXZXekdzOWMtbzlyaDRnOGM5M2xiamNaVU1xbUxfYk5zQngzOTNGbGhhaDk5aGY2V29WT2l30gHXAUFVX3lxTE4xY3pzdFFGRXVVdjlaTDY4MVdKckF1QmtKTDRUVkY1TzdkUDBvdEFhTGNRYWp4c204ek85MzRVekczVFBQMjBsY3NWNGk5SXpueTdZMnc2LXlZZTFhc3Nfck5najBxNDY1bEZ0YUl3VGNMRmdFSVFhdHlSa256ampBaUlZZVJ5ejk3WnVTWENOZHhXa0FLR3N1TElUcS1vNGRGSU1sTEg3ZU10Q3UzSmpyM1lBRG9lRmlNWW9SSXRQbkFqYmZ4SXJueDZ1WUxvYV9UM1NpNGFR?oc=5",
-          "source": "Fortune India",
-          "publishedAt": "Thu, 06 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158079"
-        },
-        {
-          "title": "Sunil Mittal to step down as Airtel Africa chair in July; to be succeeded by Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYmxIY1hRTVRKcUc2aTU4NEFFamM0STZzX0x5anNGMDdqV2J5TTJUbHFFS1lsQ3ZRcHpWRjZ4S2Vfb1JSQy1OVlMxdk5Bc09zbGJfLXJJX2t3Q3NrS3B2WUdEWXhhVW9ENFJVTjlXUGVYZ3liR0FKOFJCQ2VTWmRfeVFMdnkySzBoSUI3M09YQXJTY2Jqb1JQVWxMTzhsMmN5UzVObnl0akZPcTlqQWYxejhkcDFhZDM0Smlmb0ptYVNDUHNOLUIwand4SDFIOWE1WEFQeDNzc2RTMzRkVHU2SVN30gHnAUFVX3lxTE9VR01ZaXlqWXlYNmR1SEJyWEw4YVh3bkJxdHJTamJTdEtVUmRtUm1uQWdlZFVONklJOS1yUjA0cTRmRElrVHJGSmtPY093VnVvVkZTaVQyRGVuU3o1Y3dWTzFRNzJVMkM2V05OM2poZ2E4LV9kSmVyR2tJOXBIY1VKamhwSWN3a2tzQllIYXV4VUwyczFGbGNManBCbnJnLUVSRENUMmVUVUV3Yy1yOVZXVUh2d1U4ZFR3TmJEYW9Dc0d5UHBaQVBjeVZ4eUwydHJXNFF3aWVxdHA5RmloVHkxMzZ3Z1lTTQ?oc=5",
-          "source": "livemint.com",
-          "publishedAt": "Wed, 25 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158084"
-        },
-        {
-          "title": "Airtel scraps select prepaid plans in targeted tariff move to drive ARPU",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaEktd2JydGNpcEhfLWRldFpjSXBudWtuMEFSMHcyWS03ZENSX0lESDVKZ3JRWkN2cmMwNTNkRFM2cVVQSUJ0Njk1NHZQVTgtSEk0R3hCRWxwcEpoeG5mZ0x3OUZlVXlhU1pKb2dXM1AxMnlOUkZBTHV1Mmxtd3B6NktFS05pMlpDZnJhYjRnZ2lGWmtVZEwwVnhKQ1lZUURBejVteFR1bkROamhHUVpBWWFyLXRvX2p4cnpsZ1F5cktuaXFQVWVORFNDbXc0RXBvY2JWQlI1OG1kZGxYcEZtZmJJSW9QZ9IB6wFBVV95cUxQNGFZMGJ0d1oxSmJMWjRqaGR4aGZrM1VYS3Z0d0RRQlVSU0ZTamlZcmxreEs2bkFwMk1ad08wSU1paHFPT245QUY0RUtXZVdVdHJTQzRvSDNSanUyZUlFbGpkRTNJNkdJcUg2TmFxU2JwS0txeTdkT05wRHZvdFlYbnZNX0ctOU1iVzMwQWRHRnVxQmEtYU0zZTdEXzNYdkcyRXVWcDdudUVaVHJFV19FUWlhN0xoUFB3T29DelItb2k2eEVzcXFvbnIxRHZBNTNKY1BGcElpaVlPQ2RUNGVsUlVGNVl6Y2ROTkVB?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Wed, 12 Aug 2026 10:32:04 GMT",
-          "fetched_at": "2026-08-20T13:01:54.158089"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "Bharti Airtel: Strategic Market Intelligence & Early Warning System",
@@ -497,53 +464,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Reliance Jio's tariff plan change likely to set stage for tariff hikes",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd1FxTUcxUmZHbXU1ZzE3TEdrQ2djYXJEV3I1bV92aktyUXd1NkRYSnNCRktFTUdMQ2hodmV4N0FOS0FmeWQ1bDFiLWJpeTVuTHlzQ2ZBTG12aTRUMGxnWjRJcGVNcGRXWC04SS1BSllmaUFEZnd4a1UyLVM2THRrNng2WEhCZW1xTURoNUpDc0VHdnJVQ3hzcG9MRzM2bWF5THVrSmVSYWtjMTBhRnB2cThCUGZVWlZrb0NORW1nczdiamZaTVZ1ZV81d01faVXSAdQBQVVfeXFMTmI1SXI2eElFRnY5S0RHVnVUMF9TaktGTVZiTGFIekFhRE1ra1lNdjZmNzZ6dDVuX1ZaUnUwbGppUVNSNE1rWG9HdG8zdVJfOXBtcFg0UVU4SVItUEFUUk1Rd2J5U2l5VUpvVzhwTDhpcE5feV9hV1BySS03c01XT3VUSG40ci1QSlROenpuSDBRck1ueDU2NkNuemN4TkZtRXlzZTRoMTNtX1Bwc1A0bTZvM2Y1M2ZDOWVRRnVDOUNGSTh0S0J6S2pHLTlmZEtSTnBlQlk?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Tue, 18 Aug 2026 13:54:13 GMT",
-          "fetched_at": "2026-08-20T13:02:09.203256",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "ACES India Signs 25-Year Agreement with Reliance Jio to Enable 4G and 5G Connectivity across Mumbai Metro Aqua Line-3",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUXRpWEpsTDFVSTJvY2dsYWNnQTl3dUhjb2VpLU04dWlpeW1rNm5MLXA4MHJVaDlWbnZJVlgtMGx5UHZ5WEJTSC1sS09xLW1VaTdXV2doNVBGellaZzljLWFEUWF1TFZzYzdXdjJwbG9tczJPaEpPU3RNTnFmOThxQ094QWZBRjV5VGx1aW9EeFI3bE1TTUx4QWtLQnZ4MDlkT2tvQWRSeFlCV2RqZGtUcmI5OGRtd3k0anFNeGlHVUZDQmJDX1ZnTVhzbWxVQTFxdHlUQ2wyemtLOW1ORUVmNlhqaDB5NWgtZmxKVNIB8gFBVV95cUxNeVlUbWpVNE9kTmdWQnBQQTlsREtvcGU4anUwWkdsODZQWC1KV0psUi0wQl9xRk1aY3N4ZW5Ib0J0SlBtblV1RzRXSG1wQmtLR2ZpUDRYeUROX3YySXZHandFOHZyRnlWdGdIN29FUmNPeVQxV2QzNE9hQ1BST3hWSUFnQ2Vnc0xnUUM3MjRVekpROVR6cHlDQUlsV09vZGoyV1F4TDVwblpRX0tsVUlxdVBzRjYtUmRfSzJoYjlCbmJVWHpkMzZ2UHp1VWp0aV9VSEUxd2prRXdUYjliTWU3NDJjcTM4WFo3dVpGWVNWRHQ3QQ?oc=5",
-          "source": "TheWire.in",
-          "publishedAt": "Wed, 19 Aug 2026 06:35:17 GMT",
-          "fetched_at": "2026-08-20T13:02:09.203272",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jio-BlackRock to launch regular mutual fund plans through distributors in India",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ0xsc0hIT3A0Rmp3M3pSVE1hTzFhVTYyVUZkOHkzeDNiVmVyNmp0Ty00WVY4QmducWdBV2hRdW5jb2lZaVBBYlh6TTdlcVJKcllWR2Jack5KOE5TWmJmcGZnczVLSGdqeVk3bzZLMHNfczM2dkxQWEhFaUozUFpncVdFM21rR0FrM2R3QjNXMVRnNzg4RVg5dVNmVTU0Z3A2ZVVXUjVlM0dEQ0FMOVV5WkdzaEd6dUgyNjJwa1BR?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Mon, 17 Aug 2026 11:15:43 GMT",
-          "fetched_at": "2026-08-20T13:02:09.203277",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Airtel, Jio users may end up paying more despite no formal tariff hike",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZk9qUGZGVUxjZERsbkNSaWNvbFVOSHFMSHdqQmVjWEo1ZDNqN05NUG9IbXBMbkJRd1FmRVZIZVN2UmdPdC1wZ3hlQ2EzTnllczkyRGR5eEpIck1WbXpyZzJERWd0VmVSTUljbUhVT0RJcFZQdEdjYXM1dE45MGc1SjNfdDdEMWNXUXNuZG1RMGdpajUxQkhCeDJKdms1MnlwUG5lcUNqeXloN0RUdXdkYlg2b3hEM253Ujhabl8ybENUOEFQbm5xaWdvb21ManhuanfSAdgBQVVfeXFMTWpnc0dUSlZJWUVFNDZ4ai1pZ3ZnNHFCN3NsQ1dJWWlJVjBzaDF2cUFfdFBoWU4zM2FYQ0FvZG51VmZpSTRFWnNEYjhQNUlnVXhrMU05YUpkQURUdy1ubXRrWDZ2OUZHemF0ZU1qRk9Dblp6eFlCRHNCX1lXRXFWUzB4NEt0eWVPdWhnUEhpOEd2b05aR0RGQ3RTTzN2bjgyUWVxY19ISHZkdURDODV2Z1FkSk10R3hCVGxXZ0pUTEk1MlNrT3RoNVd3SU5Sam5GQXBmSkxaNzc3?oc=5",
-          "source": "BusinessLine",
-          "publishedAt": "Tue, 18 Aug 2026 13:59:12 GMT",
-          "fetched_at": "2026-08-20T13:02:09.203281",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Satcom services from Jio, Starlink, OneWeb stuck over security concerns",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbEo4ZU5ETEpFcER6YXBWNkZsTXpMb096YmxKVkRyZGlsa09mWmhuMmJGdmlGdWVtc0ViWW9TWXg5S2xRNnhqekd0UjRhV2NnUzNfcXBoeEdRU3JXaFFSbk85OHBfT2lFQklYRy1ST2tSS09HWVlGSWZKMkxTd3ZsMWgyQlIxZ1EycjlJZ014NlNYTHZIN3FfYVNjQ2l1akloT0s2bWFIcU80T2lzblpDQVVLOXBfcXZ0aDA2VEkybUVQWFY4aTZHU216clnSAdIBQVVfeXFMT0k5a25MTU9SWWVaUUhJTnZLbnN0MEhaR1IyWWhUdW5aT18taGw4Z1k0VW44RGtVQmFkcFIzMWJ5c0hlUjZ4aDkwQWtqM1RkbGlrVHEtRmtWQlF0S1dJMjcxcFFwNzd0UWJZSlM5YVpkbkVId1BwVDdPQ2RMdlBmaC1halg5T1dKYVFiN0MzVFlfRGtRdUZCME9uUzVEYks3VmNQU0NwZnpNYTh6YVZoSjRGMHplc1IydFljVE1XVDh3UmtiS0ktb01GX2xxRHh1TDJR?oc=5",
-          "source": "livemint.com",
-          "publishedAt": "Thu, 20 Aug 2026 00:15:36 GMT",
-          "fetched_at": "2026-08-20T13:02:09.203285",
-          "related_to": "Jio",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -551,21 +472,43 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-20T13:03:45.177586",
+      "last_updated": "2026-08-20T18:53:18.910695",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Mumbai Indians",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Mumbai Indians: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "Shane Watson reveals why India feels like 'second home'  GT vs RR, Qualifier 2, Indian Premier League 2026 - Scorecard  Rajasthan Royals Rajasthan Roy...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Mumbai Indians: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -605,29 +548,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Mumbai Indians: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Mumbai Indians: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Shane Watson reveals why India feels like 'second home'",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdWVyY2NpcEZqX1lYUnU2ZWcyTDBwN1d1d2QzdmVWYTh1SUNObzR1MnpZNVZndXJxbWQyU2xGck51dXNsQ3c3bHVZSEtWcDZZVXdXSFIwRXhwcExzNjNyOHVNSWU5TGRNMXoxU2FXemwza1JYVGhTTTBNRjJ3elk2NEVwSkVGcnltTDJJTmdxV0MxQ01qZWhUSVRXNEpsalhUeDlnWnpoNNIBqgFBVV95cUxOQnRLMTNEUGlZelg4MjBXdVdneWRfREVfRkQtZnFmM3MwME1lWGlRR3pHdkJjeS1oMkRaT2hxVlI1SXN1V2FjQkt5U0xTNzBIVG1xeVRDWFZUR09hLWl6ckR4T24wcE4wQmdjeWJ6bmdwc1JtS1EySUdEOFlOVkhWaGNjUGJncE9NdnI4MzRyRWxodDk1RmFmSXpIMHVicHZhd05QTFRIN1poQQ?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Thu, 20 Aug 2026 06:01:42 GMT",
+          "fetched_at": "2026-08-20T18:53:03.885401",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs RR, Qualifier 2, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTjBZdUlBNXk0bzBDTjhBUFh1OUNRUnUzRXFfVDBaZ3ZRREpya3RmUHpScVRsaF9icXZuUHRKZ1NTN3AxVUxySUQ0YU4zWGo4TERfWXRSbnVlUUllanQzU2FXOHBiSlJITWU5NUROa2JoZjVWWlJrSFNncUpvTGZzclVadUs0N29vMG41R1BSRTZZQjNkMUFmRTlFdkJFbkd1MlpVbw?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Thu, 20 Aug 2026 09:58:39 GMT",
+          "fetched_at": "2026-08-20T18:53:03.885415",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Rajasthan Royals Rajasthan Royals RR",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEU1Z3AzcWNqb1h1MUZxSEU5dl9taktpRlNqdGtKN2NTbEJLczFDZVFyZEh6Vl9BcHltdEZvcnpDR1JOTHktV0ZsNmZ1bDdnbk9CRGRwd1VRUENlR3hMNDdHSW5qY2h4ZzVidTdid2JWRjZ0TkJra2F5Rm01cXMzVkxKclBYRWxCYzRBZmt0UVZCRmdOMzVqMEI0eVJ6VU4tSmVBajEzYzNENGxBS000Vk1FZ3VEWEJucWFnUnFNMlBmdnk5ZFE?oc=5",
+          "source": "ESPN",
+          "publishedAt": "Wed, 27 May 2026 19:10:38 GMT",
+          "fetched_at": "2026-08-20T18:53:03.885419",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs RR Cricket Score, IPL 2026 Qualifier 2 Highlights: Shubman Gill slams century as Gujarat defeat Rajasthan by 7 wickets to punch tickets to IPL final",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSENESDNtR1FiWGFjbzJkQ0RnT3AxdFZrc1Z6UkN2YVlkLVRlYWxQcTZHRmxFQTg3b3Z1c2ZWcTVjdndTWU5FQ1JBeWJrMENTOVdPOTBsMmNwRGRGS3Fvc2hSM3dLWS1XVFFrZ25oc2tfb1NYZ3JFaVQ4cXlfQ0ZNbVQ5R29sVzhxaWhtSFNVT2oxams3MVVTemtpRTEyaVkwZ0RCMmNjMXpCUkRWeGFSeVNSS2F2a2djWlZHWlpCSUp3LUlyS0pzcWdadkkta2VCbGFBQTF1YldlZVpMclAxUE90c0pkdi1NRXRqY2plVHZ0eDE5ZWpYUGhVY25seTJBNjJZX2dsc05NVEdPWGxzM1FBMNIBmgJBVV95cUxQNmVnRDd0UkVrVDM0bnVPNzJPbDdzVE01eERwN3M2bV8xMlNkd0hJeWZCX29zamRjaXh1THg1ZTZsenNLSDlra0ZWVnhFTExYUURyOWxXUTU1bmx5WENqZzdCVmVLcU9SeTREZnNDaVU0MFA4b2RYZExBb3pjV2VoeUVoeUJLclZkc05kRVMwT2hJYzJhM0pVdWNad3J2VG00WDJQNlp6THhpSF9NUVBDWXlMNzlNYWFqMktQOV8wb0ZIclNqMnA1T1d1VVFxVEliQ3JkaXhjTkhGV1Z3YzBTOVRNQjBCOThpdi0xRVU2XzYtRGRuUURlaUg2TDA1Tkp6ZU9aSWRpcHpOeW5kVXpzbThpTGZlS3M5aHc?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Sat, 30 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-20T18:53:03.885424",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Mumbai Indians vs Rajasthan Royals Highlights Score Updates, IPL 2026: Rajasthan Royals secure playoff s...",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdjFNM3N0eUFzeWFYNHFBYWVuLWNoeWFHSU4wNjdzOG9lQk1mckhnQXRhZnZQNm5KamcwWEdQaDZYQkpYRXBOUFlDRHBsOXFHODM4VU1JNXJmR2lzVnNNdDBnU091S2FXendqNGNpRk44UHJMWXp3Q3RzTmQ1M0xOcGJINXlTS2JEaXlrMTlveUpsUTNkSWVfWnZ4ck5GWGpsTW9iTWUwaWotd2FsS0c5QVdDN1BPT1hkVmJhX1dkVFlNZ056MTBPVTl2QWcwd0hmNS0tbkRKc25FZDVETG41WkFnRk42SGtsTENXYVVIbndrNkdYTHhZ0gH8AUFVX3lxTFAtU0huNXE0a1hIejlsMGRwUlU5ZFNBNm0zejBQTDdkajNReE5XRU5tcmxsY0YzTHVCNHVtNnEyN3BvYXQtZk10NkJPWi1NZVdTMGo2UjNRQnIyZ1NrblhkbEVRMFRBMjBEY3NWRHpCS3duZExzbmdpQmR3UGJjWnNXdjJjSGpDTWNyNDlDWDhhdWxzOEotUWZsSkR4Y3FVV0kzVWpsSlM3RnZZWHBVT0Y4YXNNSnFueGFmd2RpUXZwSkNxUHJFYjdfb19WVEl5eVJnVW9ETXZVZ0hMWkozVGFoVjJiNlc5VG9vWjRlblI3WGdBSXVCVTZNN2U1Tw?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-20T18:53:03.885430",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -635,7 +604,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-20T13:05:02.597568",
+      "last_updated": "2026-08-20T18:54:54.521127",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -719,7 +688,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-20T13:06:15.106295",
+      "last_updated": "2026-08-20T18:56:27.821676",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -803,7 +772,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-20T13:06:45.156906",
+      "last_updated": "2026-08-20T18:56:57.875715",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
