@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-20T01:37:39.721709",
+    "generated_at": "2026-08-20T07:02:34.343141",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-20T01:28:39.689852",
+      "last_updated": "2026-08-20T06:53:52.204073",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,18 +98,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-20T01:29:57.439235",
+      "last_updated": "2026-08-20T06:54:59.368240",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.33,
+        "label": "Positive",
+        "pos": 2,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -174,7 +174,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "AI Test Fabric: From Quality Assurance to Enterprise Trust Assurance",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQTI4SmwwN2ZuTlFqYXNMNWhXMlBSSEVOdFFiS2VKUWI0NjA5R1lqajdwbmJFT0FpcnpNWFRUNVBoRU9rNFpUM0Z5dzdaTm9FdlI0MnIwMEY4WnRDcXZNYTdHV0F5elhQV2JYUDZkQ1V1N25Ya24xcjZGMTBvYjBobzNIMjR1blF6b0gwY0hvWlJuX2UtRDhNUWRlY1JVN19GZFpwZHNFWQ?oc=5",
+          "source": "Tech Mahindra",
+          "publishedAt": "Tue, 18 Aug 2026 06:37:37 GMT",
+          "fetched_at": "2026-08-20T06:54:44.311276",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "World's Top Chess Stars Set For Action In Tech Mahindra Global Chess League Season 4",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRXlYWWhwdVBma2h5YUx1eWZIclBCVWZSRHE2Wl9yNXNBc3lGeklpcHdVMWVtZVU5NkRPRUkxeV9GT3NKcTJEREw4RnpsbGQtMFg3Nm1OSzRvTzluRGcwTnNOWlpKWlNlQlktd2pXaXFYMmM4MGs5SjFXQ0RCYzYyb3Z1SWhXNzNjbUs1TWZybFlNbDNIYUd0OGdfYXRSekRjd1V0d0VtRXhzc0dkem9OX2E4dDdNdUJ0WG4tSmx3NA?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 20 Aug 2026 05:32:31 GMT",
+          "fetched_at": "2026-08-20T06:54:44.311291",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CLSA turns cautious on Indian IT, downgrades TCS, Infosys, Tech Mahindra; prefers mid-tier stocks amid AI...",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNmUzdDU0RjYwRWxESGE4S1AzUE83SF9tdVBWRUhkMXVqNG52VVVvcE9vYzFLalNDWWxDZ3doUkNWTHJTcE5mX1ppS25TcDAxRlFqSEc4NXlNdDlPbnRVSWh5ODhLSDlDTGgyX2d3UWs0UVlldnlhSTRzYnlhZ1VFeWpIZUNuQTBkRHZ4NHlpWENhaFFTSlExSnhrdnRXckhjV1BPaHNZbWlSQjVERmxwYVVFSzZTZzZaMF81LXlMZ25mbmxIb3A3SjRQNzdBdmp0bnduMkxsRHFGRWRpVk9iRlVGaDVhSWp0X3RucXdRTng2bHlTbExpcS1iMkg2RmFOVnfSAYcCQVVfeXFMT1FrSXRjVkUxWDNJQWpTemhiUDRKOTFGc0pxSU9ROUhreFJGR0NNQzhYRTgydUVOTEJQeHBRUUpxaXR2TUlhVkFqS0pMcWpvT3ZyakFBMjRwM1RPVGdOdjMxVkJ4WXFFVW1tZ2xsWE5Ea0JIZzlpTHEtS1pmUEY2UzdieGNTTkhsSWdOZDlheDdDb1Fra2VHVmRkVDNJRG5VY1QtM3p5bHhPYzE4SUw1Tjd0SVROaTk5X2lxellYMERWTG11UWFYWk9UVlp6TkZtT3JXS3I3NjBDUnhFc0ozLVZFT0NxYXQxOUxWQkJwb2p2NlAyRTl0SHB5dGl4Ulo4SVFlZDdIRTg?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 19 Aug 2026 04:40:39 GMT",
+          "fetched_at": "2026-08-20T06:54:44.311296",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra employee protests outside campus over alleged termination after availing leave to care for ailing daughter",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNRllNNzZVdmNwNVhjRU55NWpUeUE1ZG9mRmlGY1FqT0ZjZ0Q4SXFvQ19VQ1ZhYWE0aFItZmsxS1l2QW15RGZiOXAzRXR2QU9iZzNKdWR3ZVVGeXRXakM0c284MHp0cG0yZlJ4ekNJZk1LSng0YXM3R3ZtaURfLVZQbEl6V2d3eTFsS2xDTmNKSFdUSXhSMmhiODhsSGQtVjVNclp5eDZhQjFaVmswMlY3OUlRZFdGTFpkMkFWQnVqd2NaZVR6SU10MFRhWFJETHZrVGJLbjZYalZ5Q3RGb1Q3U0ZiaHVYTldwZTBSb2NNeVByZXFNTTMtTVgySHI0Y21FRnJ3TnRkdU1jVWw4bEN4UmFIZFo5QdIBnAJBVV95cUxNZ1B2aE9oaXdUMFhGMHZRR0d3SVJMSk9yUTZsRVlnT0J4eXFHMER2ZkVnV3NMSUFOZDlwUTRSWkllVXRjMjMtYXJwSjhmTWhlSmd6bm1xZjd0c0p2dDRSNkpPVklOMGxrRElzYllvMVBYdWo3bDhIS2VuTzAxQVU2MXVUOE1wVnFmODNSY3R4X2JuaHFQYjVJUFE2OWE5WGtzWFU4dXJMdHY2U0hRNjh2UDJYb3l3dHVRSGRmdExlaHBJcUNOUFNkSzJMd2tZazZSaV93RWJWbS1fbVpWQ3htM0JHS242cF9IU254V2NkVS1RR3ZacjI2VWZmcTlTTUM5anFreTBnV1RUMzVRcVBPR2d5SjZLR21XbFJJTw?oc=5",
+          "source": "thehindu.com",
+          "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-20T06:54:44.311300",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Sensex Today Rallies 551 Point | Nifty Above 24,200 | Tech Mahindra & Infosys Top Gainers",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNV1YwdGRXaHJlV3hJWWxBZXZqNDdsTkFnYndRNXAzUXE5TGhYVy1GRm5tTU5yeGVPZGotVnF1dTg5NHh4bkNmbUdxNVdFRTdmTmxxTms5ZmtET1lrdVBxckpDU0xYcnlDM3dYUGFqZGEtekRXb3h6OXZkVzNsa2I3N2wyaVRHaDlVNGlhZGtOZ05ULXJRVnVrZGpjblBaaFFvMDFTNk1RUWIyNnBEcGhXYm1Od2p1aHU2dzBoSnpxZjRLYWx3aXBsMTNIYUw5QURsMW9vZ0tHRERiVUNyQVE?oc=5",
+          "source": "Equitymaster",
+          "publishedAt": "Thu, 20 Aug 2026 04:43:32 GMT",
+          "fetched_at": "2026-08-20T06:54:44.311305",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-20T01:31:21.985545",
+      "last_updated": "2026-08-20T06:55:44.649887",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,91 +312,133 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-20T01:32:41.427345",
+      "last_updated": "2026-08-20T06:57:05.340475",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.33,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
         {
-          "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
-          "severity": "Medium",
-          "description": "Continuous macro monitoring, competitor tracking, and early signal detection for strategic pivots.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "monitoring",
-          "keywords_found": [],
+          "title": "Regulatory Headwinds for HDFC Bank",
+          "severity": "High",
+          "description": "Regulatory overhang detected for HDFC Bank: penalty. Compliance cost and policy risk assessment required.",
+          "detected_from": "HDFC Bank taps dollar bond market again, eyes $1 bn overseas debt raise  HDFC Bank slaps ₹1 lakh penalty each on CEO Jagdishan, CFO and others over 'b...",
+          "gap_type": "regulatory",
+          "keywords_found": [
+            "penalty"
+          ],
           "solutions": [
             {
-              "title": "HDFC Bank: Strategic Market Intelligence Subscription",
-              "impact": "Medium",
-              "timeline": "4-6 weeks setup + quarterly",
-              "price": "₹12-20 Lakhs + ₹4-6L/quarter",
-              "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
-              "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
-              "gap_type": "monitoring",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "HDFC Bank: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Competitive Positioning Intelligence",
+              "title": "HDFC Bank: Policy & Regulatory Risk Monitoring",
               "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
+              "timeline": "4-6 weeks + ongoing",
+              "price": "₹12-18 Lakhs + ₹1.5L/month",
+              "methodology": "Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning",
+              "description": "**MRA/ESOMAR-compliant study**. Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning. **Deliverables**: Monthly regulatory radar, Compliance cost models, Stakeholder matrices, Pre-budget memos.",
+              "gap_type": "regulatory",
               "framework": "MRA/ESOMAR"
             }
           ]
         },
         {
-          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
+          "title": "Balance Sheet Stress Indicators at HDFC Bank",
+          "severity": "High",
+          "description": "Financial leverage concerns for HDFC Bank: debt. Credit risk and refinancing outlook research warranted.",
+          "detected_from": "HDFC Bank taps dollar bond market again, eyes $1 bn overseas debt raise  HDFC Bank slaps ₹1 lakh penalty each on CEO Jagdishan, CFO and others over 'b...",
+          "gap_type": "debt_leverage",
+          "keywords_found": [
+            "debt"
+          ],
           "solutions": [
             {
-              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
+              "title": "HDFC Bank: Credit Risk & Capital Structure Intelligence",
+              "impact": "High",
+              "timeline": "6-8 weeks",
+              "price": "₹16-24 Lakhs",
+              "methodology": "Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending",
+              "description": "**MRA/ESOMAR-compliant study**. Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending. **Deliverables**: Quarterly capital briefing, Investor perception tracker, WACC model, Refinancing window analysis.",
+              "gap_type": "debt_leverage",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "ESG Compliance Gaps at HDFC Bank",
+          "severity": "Medium",
+          "description": "ESG red flags detected at HDFC Bank: board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "HDFC Bank taps dollar bond market again, eyes $1 bn overseas debt raise  HDFC Bank slaps ₹1 lakh penalty each on CEO Jagdishan, CFO and others over 'b...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: ESG Performance Benchmarking",
               "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
               "framework": "MRA/ESOMAR"
             }
           ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "HDFC Bank taps dollar bond market again, eyes $1 bn overseas debt raise",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQa1RjTWdJeU9NamwyVUJFSTdtdEVsX2dkT25HeFBuSUJiVHFLNkU0X2FmdGY1ZDdwV1owdTJFa2FWdkJ1NzZZdEpWWGlJUXk1MVZOaE5Nck5Jd25KSWRySlBTSTViUEtSSk9TanhLQkg1QnRXQlMzUkxqWWZlQ1FULTRfWmJYTFd3RGljeElMWUl2US1oaXNpZXJXVk1JenZWNkI4QTNvZWxMUlE2RWlleGRjM1l1Wi1WZFNlUFVpajJBWW0wVkpiWkJobVJfWVJKM2JtMTBNY9IB3AFBVV95cUxPaDUtUUt5aDREdWVObzNGZGJCb0gwQk1HTkk2Y2R1VzdPYU9UMFJzODhGNlpNNjNFZ2N6ZzJwdmtPU2FKaE5GX2lUemg5bUJoNmVQR1hTQWNzdVhodG9uR0tIMzlGeTFiVE5acmNtM250cE5LdmllbmNXUTY3ZDEyR2Z0UDl2ZEJQWlJ6M2RLSFl4bGcxSThGLV8zajkzRTJTbnFOVkZqclVfeFJMT0tpbUl3dW5heU5SdkJ4V3lEWVAyb3lmc3o2UlJyMzhQWU5Hb3pKT25nbzlRSnJn?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Thu, 20 Aug 2026 04:35:54 GMT",
+          "fetched_at": "2026-08-20T06:57:05.340164"
+        },
+        {
+          "title": "HDFC Bank slaps ₹1 lakh penalty each on CEO Jagdishan, CFO and others over 'business overreach'",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUHpSTWMwajQ2TXZKT3BlU1E1X0l1OE9rTXM1R1V3Y3hjNXVCOVp0YkdUY1VPWFk4SmNVaEoya0w2aFJOaGQ5TGd0aWJGcVJzZ2tESnpEV2tETjg5VjhTTHJrYXF3VVFHUEdTMlpNbmo1ZjV2SWhMREJQakt1XzUxSGQ5U0E1VXFicThrS19EMnpFeC02UnZZZEJJZmpyX2pKZXJSNVdMUDRCVGpHdWxULVNtSGhta0FTdkdQRkZvcXJwZzZ1NHV4b201ZnRONHRZUEHSAd8BQVVfeXFMUHQ4cFNIeFBMNVY2a1o4MUxvb2k3RTUxNTBrU1N4T2x3UnNDT292bkg2WDdnQllnbVZ1ek1idzlsd0YxREZFX1ZwTURtNzdaQ3BBSGpITkJBTEs1ZWgwUXRVNldsdlFQSUFySEUtbEJ0TzhyLWlxQ0RubHl1ajM0YzZoTEtPZVllVXVFcVpLdks4bl9ZalB0UFBmYzd4N0RMZUtwR0tOcmgwOS03MkhRMUtZakVUaUhRaFpUb21BZmdzZ1JreU5Nam9MZm5UUEV1U0NuUXppMTJWWE5CT2FsSQ?oc=5",
+          "source": "Fortune India",
+          "publishedAt": "Mon, 27 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-20T06:57:05.340183"
+        },
+        {
+          "title": "HDFC Bank expects CASA ratio to improve by CY27 end as merger synergies kick in: CEO Sashidhar Jagdishan",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPcWFGZDBmQk5xZ1EzQTRBakNNMUNhOUNJd2Jwc1E3MzZ1MjI5WGdiSDdCN2tCVkNva3FNZkR4ZXVEMmpocVpyVGlPdHR4aC1BRU91NnlMbm8zVmF2cEpiNVZGX1Z5TWZheDZzckt3ZlNtSVlFZFVmZmtSZXlKMVFxX29OWDVCNXFtTlJ1clo3MkFiSWotSGJTUXRHSk9hMHRKVzdPVGdoZFJZdlNrMVloN090alJTY1ZMZE9HRUNadWozdmViR0NEaG1wT21IczVEZjN5RUZ0VWhiU0dreGRfUFY5QmRyZzVxRExUU0Q1eENXU0ptME440gH8AUFVX3lxTE5DNWNWZ3I1YkpkY0ptT1dVWlR1UnllWXEtWi01N19ERGxqcFF1TmwtWnlIdnBEWFNXQVlFNGFiNnhHTTA5bU1QQ2tOOFJUM3VjVmduamVuWVBaSnE0djlScy1mcHc2WUwxQklOVldTa2NLeTRaRTBGTG4tMEdYWWlVZGU4WFVxRE16ZHQwUDhkUXpEUnE2d3V3eEdqU0lRWkZjc1VmSF9SYXpJWlYyeFJpN05YWjRlOUNwdTV3UHhkZ1IzUTl2RnpLTnRFcjlNUzhkRjk1S2N3ckZNNTdwS2Q4YWxnbnNkQXJKUFk1d1RCYUh4dzBFS0hwbWVQaw?oc=5",
+          "source": "bfsi.economictimes.indiatimes.com",
+          "publishedAt": "Wed, 05 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-20T06:57:05.340189"
+        },
+        {
+          "title": "HDFC Bank board may decide on MD Sashidhar Jagdishan's reappointment before August 5 AGM",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOa21Cam9BYTZ4ZU9qRjBRNlN6ZEtVMXE3aDMtbm9KWDUzdXpJeklGWWp3b3pKU0RKZnA3VDdfbTUzZGwxU1lPeVBHdzI4S3lpOFNzUzgzNlVMbFkwT0VfaDI1NjlQTE5oZk9Qd1BJRzRtRjQtd21Sbm54cndrUEpibnRleExfOHE1TmlFVUktU2ZpWWhBT2lLeUdaR2tsU1dVWFZOYVJBVEE1Z1pJcVFhUmRzXzBham5IQldSNk9maHVZamFEQk04WEhCWVpFdXJTamFqRGNkY1hweXcyc0EybU02ZWFuZ9IB6wFBVV95cUxOQXRWS1V2RHk0cktTdVBVbTdsUE5JYXVUaUJyQy1EOWo0QWFTc2d0OXExV2QzTjM4M1B6dDg1ejhpOWZqUVNFTjNFX3hTUFpROGNNTnlUX3dialNyaUI2T0tCYm4wVkhaeWdQR3prOWJFZ3RjUGtyYW9TcURwOHBBM0FmVjVhQ0JHeEtYaVZ4b1JxWnpucHVKdHc2cFBVSHV2aEZKTzJVa2JCczhqbXFmQk1RWlFqb282anhSaDlVWnByZTBueFo5czVPWnU5VHg2aTJLLXEzQWUtSGN2UDlUZXdiQms5bWFLdFl3?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-20T06:57:05.340193"
+        },
+        {
+          "title": "ICICI Bank Ends HDFC Bank’s 3-Year Run as Top MF Holding",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ZSVB0bFlxWmdxYjJOQW9Ta1JNMG9lMEd3VXdSZldkemtualczUWJfZ25YUnZXaU1UdjlLN3RoUlBHcXdtNEszbDlKZFNKWlNmc09qTnVwRWE3TWFyWVhuaDlZZXZtUjhSaHd2Zm5Zdkc5TTYyV3JhbmVqaVIzZw?oc=5",
+          "source": "NiftyTrader",
+          "publishedAt": "Tue, 18 Aug 2026 04:44:01 GMT",
+          "fetched_at": "2026-08-20T06:57:05.340197"
+        }
+      ],
       "filings": []
     },
     "Bharti Airtel": {
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-20T01:33:57.096791",
+      "last_updated": "2026-08-20T06:58:19.158403",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +522,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-20T01:35:23.918406",
+      "last_updated": "2026-08-20T06:59:49.499280",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +606,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-20T01:36:05.189291",
+      "last_updated": "2026-08-20T07:00:57.479868",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +690,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-20T01:37:17.533648",
+      "last_updated": "2026-08-20T07:02:04.235775",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +774,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-20T01:37:39.721699",
+      "last_updated": "2026-08-20T07:02:34.343125",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
