@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-20T18:56:57.875729",
+    "generated_at": "2026-08-21T01:39:39.580940",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,12 +14,12 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-20T18:47:14.088548",
+      "last_updated": "2026-08-21T01:39:05.238472",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
         "score": 0,
@@ -29,28 +29,6 @@
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Merchandise Revenue & Licensing Gaps at Reliance Industries",
-          "severity": "Medium",
-          "description": "Merchandise revenue underperformance at Reliance Industries: retail. Product-market fit and pricing research required.",
-          "detected_from": "Modern Bazaar explores stake sale with Reliance Retail, others as quick commerce squeezes business  Reliance brings SKIMS to India; Khaitan & Co advis...",
-          "gap_type": "merchandise",
-          "keywords_found": [
-            "retail"
-          ],
-          "solutions": [
-            {
-              "title": "Reliance Industries: Merchandise Demand & Pricing Research",
-              "impact": "Medium",
-              "timeline": "12-18 months",
-              "price": "₹14-22 Lakhs",
-              "methodology": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking. **Deliverables**: Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy.",
-              "gap_type": "merchandise",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -90,53 +68,37 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Modern Bazaar explores stake sale with Reliance Retail, others as quick commerce squeezes business",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeTVzVWJDbUFjUU8yM1R3bkh2eE5lNnNzUEE5cl8wWktxMUJRdXNCZ18yS28yYUlzekRBYjlGZDBwWU8tX01xeFdxckM3WS1fZU9CUlQyUkpWZE9CX2R3eXhlUi00Q0RHb0x2ZTEzc2hsYzA3Yml2TlJKakFGalRTUUVyOWFGRGxRSHNYQkM2ckZhTTRtR0xDQ0M0cHhVTDZoTEhMVzdRMlJCOW9YaG9uc3lBVHBJandiQk83REwtZHZVeDV0Wmo0OFpQNzNkNXZKTF9JYzhNcGJOOXlTNk9uQ25mSjlyMjhpQjVRbjBNc0ZacDdtN3BOcFcxdzUxWExPeUlMdGQ5Z9IBjAJBVV95cUxQdUVQYXpSeWM3V0NWSHF4NFFHaTM2dFhrNnZ1NWJPQ1VFZ09LS1ZHU1drd3FYMzZpbk1RbWNvb0ppSWM0R0FaTkF5Y3FhT3pMNW5YOTVXX25tTkVhZk1HTzZidjRIcGNNVHRKX3poNUg4QkxSdWlWLXdaQU1Ca3dhSFRCVzdKbGRIcEVva0JGazNSaVVzRGFucU1XbmVWR0JlTWR1djJxSG41MkFsOGdUUkRPV2VmNjZvLWlJdUtjVzUtX0dxVFZFZzJmNjRMNGpmZFNCbS1VZ21nbU1rZ2p1M0ZxLUNNMVZBeTVqQVZnRXRUQlllbnFzVkpPNWNwR2ZseUo4d0ROaGZkRzNv?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Wed, 12 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T18:47:14.088133"
-        },
-        {
-          "title": "Reliance brings SKIMS to India; Khaitan & Co advises",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGlySlF3ekdUcVpaM01aTC1NMGpfMnRwRjRWejBVa3EwVWJqY05sUFRyMHZFcGNycjFxUWJwUGdWTjNYczU1c1BoZUtfMzR5WGRDOHZyRUlUSlJJZWQ5TTJZSWQ5ZW4wd0tTbFFuMGdrMVFDamtCeEduVXZxZmtmR0Q3QXlsZWpneHBzejd4akJ2enNEQ1hNSUktXzc5WmM?oc=5",
-          "source": "Bar and Bench",
-          "publishedAt": "Wed, 19 Aug 2026 12:14:53 GMT",
-          "fetched_at": "2026-08-20T18:47:14.088148"
-        },
-        {
-          "title": "Vineet Jain Joins Reliance Retail as COO for Fashion & Lifestyle Division",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWVpZR2pRVmlSYjltOF9PV3VhUHEyVHVBRjJXeHRkU2ZhekYzVDJlWC1qT0xiWUQtZjFpNEJQU25mV19SM19Yb3J1ekhkWFk4OHltTVBXOFJmcVAzdGhua18wSHJfT3J6ZDhvM240eEN3dGNHVC1UcUdsamlJM1d3bDdPSk02VzU4SlVaVDN3eUkxWjdvbFhYRVBPb2FVQThJUTRqU3lyOWttdkJBd0xONUVjQUFvSDRIWk5PT2tQOFc3aVRPdHZCdGFWb3BaUQ?oc=5",
-          "source": "ET Retail",
-          "publishedAt": "Fri, 14 Aug 2026 10:59:42 GMT",
-          "fetched_at": "2026-08-20T18:47:14.088154"
-        },
-        {
-          "title": "In Mumbai, Cockroach Infestation At Blinkit Unit, Sweets Seized From Reliance Retail",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUmFGdGNGQ3NTZnFFcnluR2NVU0p6MmdqX1pvdGkyWWFDNTIxM21XaEtiRUlDUnI0NkE4WTVxSDlSX2FBYUN2S3lxVnhocUc5X014MnJ3bEdjWG5fUlpud3F5NWhQdUVPZ0pVVFJaODVmUmo3OGZQNzNycGVJNzd4RjYtOFNPOG4wVVpXQ3RVd3lhM3VwYXFWMDdYQVJjR0hWeHJqd2hvV05aTnBEMnE0WlVhR2F0RXlQSjFYQjBfcGtkNjVCWUNV0gHPAUFVX3lxTE5remw3eHpYUEt6cEFzVXFGbDlkcFhjclBiYVJFaGpzeGRvZ1hmXzZXQWZDT1gzUGZzM2F4SVI0aFBpVkRTVEctWHZzUVVCR0ViYWs2aUp4OTkxSnQ3bEZIalctaWJpWGdsd1dYbGhBV2VjQnBJZ25SZWpOekJkQzlEMWk1bndwNTMxQWVsS1RjY3BPeWhXRHQ1SHdkNlpKVmx1VlVrdElSMVBFd0Z2dWJ3WW9jeVc3ek5XYkd5WWNBeFBVVVQtT05mOWNMR0pvYw?oc=5",
-          "source": "NDTV",
-          "publishedAt": "Mon, 10 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T18:47:14.088163"
-        },
-        {
-          "title": "Reliance Retail Unit In Maharashtra Under FDA Scrutiny After Complaint Of 'Fungus, Live Larvae' In Kaju Katli",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQakNnUlpwbTJLNDNLMGdiYlBVeHlqb3FmMElLS2JlbXJTcmQ2c0ptNjRGMFRyX2JmZHFPWVc2UnBQdUtwQ3pIelZJNW1GNlNPeDB0LUxxQkc2a1BTWnlvXzFmdk9iNjhPcTRPcFFraHd3QndkMDRIcGcyVEcxVGFON1lXRmw2WHJ5ZUM1S0VBNVo3dHBDOVF4QU1zTGRUVHJsZk5QYW9pTFlrZU9nWFZERk9CeUJJTGQ2QmNuOF9MZU14czNmMkl3S2c1ai1lMEYyX3JhQklR0gHeAUFVX3lxTFBNQTRSTkNfeTk5TmFrcDJmbFg4bDNUX2FCTGFPTEJ2RFlEOEJVRU1keUJVVlpIRHNOakdSWExWZjV1ZV93S0Exa0dmSGN4YkxXV2lJWDhQUGFvZGVmdGlSUV9SNkstN1dvRFhCc2l3Tkp6Y0pvODFUR0RIQXJXNmhkbzV2dG05R2ROT1NxbGRvclZCM3JEREJkaXBnZ2pwSmpMaGdXeG9xYUJhRjFwdGJDcGZhSVVaVjJJU0V6RFIyY1lBazc2T2JYamdWMlJlVWR3TC1kRG1oYlA4OUFTUQ?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Mon, 10 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T18:47:14.088168"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "TCS": {
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-20T18:48:19.490275",
+      "last_updated": "2026-08-21T01:39:35.415259",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -220,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-20T18:49:40.314386",
+      "last_updated": "2026-08-21T01:39:36.422271",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -304,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-20T18:51:11.138232",
+      "last_updated": "2026-08-21T01:39:37.215524",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -388,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-20T18:52:00.748354",
+      "last_updated": "2026-08-21T01:39:38.023567",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -472,43 +434,21 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-20T18:53:18.910695",
+      "last_updated": "2026-08-21T01:39:38.440858",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Talent & Retention Challenges at Mumbai Indians",
-          "severity": "Medium",
-          "description": "Human capital risk flagged at Mumbai Indians: layoff. Talent market intelligence and retention strategy research needed.",
-          "detected_from": "Shane Watson reveals why India feels like 'second home'  GT vs RR, Qualifier 2, Indian Premier League 2026 - Scorecard  Rajasthan Royals Rajasthan Roy...",
-          "gap_type": "talent",
-          "keywords_found": [
-            "layoff"
-          ],
-          "solutions": [
-            {
-              "title": "Mumbai Indians: Talent Market Intelligence & Employer Brand",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹14-22 Lakhs",
-              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
-              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
-              "gap_type": "talent",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -548,55 +488,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Mumbai Indians: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Mumbai Indians: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Shane Watson reveals why India feels like 'second home'",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdWVyY2NpcEZqX1lYUnU2ZWcyTDBwN1d1d2QzdmVWYTh1SUNObzR1MnpZNVZndXJxbWQyU2xGck51dXNsQ3c3bHVZSEtWcDZZVXdXSFIwRXhwcExzNjNyOHVNSWU5TGRNMXoxU2FXemwza1JYVGhTTTBNRjJ3elk2NEVwSkVGcnltTDJJTmdxV0MxQ01qZWhUSVRXNEpsalhUeDlnWnpoNNIBqgFBVV95cUxOQnRLMTNEUGlZelg4MjBXdVdneWRfREVfRkQtZnFmM3MwME1lWGlRR3pHdkJjeS1oMkRaT2hxVlI1SXN1V2FjQkt5U0xTNzBIVG1xeVRDWFZUR09hLWl6ckR4T24wcE4wQmdjeWJ6bmdwc1JtS1EySUdEOFlOVkhWaGNjUGJncE9NdnI4MzRyRWxodDk1RmFmSXpIMHVicHZhd05QTFRIN1poQQ?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Thu, 20 Aug 2026 06:01:42 GMT",
-          "fetched_at": "2026-08-20T18:53:03.885401",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs RR, Qualifier 2, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTjBZdUlBNXk0bzBDTjhBUFh1OUNRUnUzRXFfVDBaZ3ZRREpya3RmUHpScVRsaF9icXZuUHRKZ1NTN3AxVUxySUQ0YU4zWGo4TERfWXRSbnVlUUllanQzU2FXOHBiSlJITWU5NUROa2JoZjVWWlJrSFNncUpvTGZzclVadUs0N29vMG41R1BSRTZZQjNkMUFmRTlFdkJFbkd1MlpVbw?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Thu, 20 Aug 2026 09:58:39 GMT",
-          "fetched_at": "2026-08-20T18:53:03.885415",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rajasthan Royals Rajasthan Royals RR",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEU1Z3AzcWNqb1h1MUZxSEU5dl9taktpRlNqdGtKN2NTbEJLczFDZVFyZEh6Vl9BcHltdEZvcnpDR1JOTHktV0ZsNmZ1bDdnbk9CRGRwd1VRUENlR3hMNDdHSW5qY2h4ZzVidTdid2JWRjZ0TkJra2F5Rm01cXMzVkxKclBYRWxCYzRBZmt0UVZCRmdOMzVqMEI0eVJ6VU4tSmVBajEzYzNENGxBS000Vk1FZ3VEWEJucWFnUnFNMlBmdnk5ZFE?oc=5",
-          "source": "ESPN",
-          "publishedAt": "Wed, 27 May 2026 19:10:38 GMT",
-          "fetched_at": "2026-08-20T18:53:03.885419",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs RR Cricket Score, IPL 2026 Qualifier 2 Highlights: Shubman Gill slams century as Gujarat defeat Rajasthan by 7 wickets to punch tickets to IPL final",
-          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSENESDNtR1FiWGFjbzJkQ0RnT3AxdFZrc1Z6UkN2YVlkLVRlYWxQcTZHRmxFQTg3b3Z1c2ZWcTVjdndTWU5FQ1JBeWJrMENTOVdPOTBsMmNwRGRGS3Fvc2hSM3dLWS1XVFFrZ25oc2tfb1NYZ3JFaVQ4cXlfQ0ZNbVQ5R29sVzhxaWhtSFNVT2oxams3MVVTemtpRTEyaVkwZ0RCMmNjMXpCUkRWeGFSeVNSS2F2a2djWlZHWlpCSUp3LUlyS0pzcWdadkkta2VCbGFBQTF1YldlZVpMclAxUE90c0pkdi1NRXRqY2plVHZ0eDE5ZWpYUGhVY25seTJBNjJZX2dsc05NVEdPWGxzM1FBMNIBmgJBVV95cUxQNmVnRDd0UkVrVDM0bnVPNzJPbDdzVE01eERwN3M2bV8xMlNkd0hJeWZCX29zamRjaXh1THg1ZTZsenNLSDlra0ZWVnhFTExYUURyOWxXUTU1bmx5WENqZzdCVmVLcU9SeTREZnNDaVU0MFA4b2RYZExBb3pjV2VoeUVoeUJLclZkc05kRVMwT2hJYzJhM0pVdWNad3J2VG00WDJQNlp6THhpSF9NUVBDWXlMNzlNYWFqMktQOV8wb0ZIclNqMnA1T1d1VVFxVEliQ3JkaXhjTkhGV1Z3YzBTOVRNQjBCOThpdi0xRVU2XzYtRGRuUURlaUg2TDA1Tkp6ZU9aSWRpcHpOeW5kVXpzbThpTGZlS3M5aHc?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Sat, 30 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T18:53:03.885424",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Mumbai Indians vs Rajasthan Royals Highlights Score Updates, IPL 2026: Rajasthan Royals secure playoff s...",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdjFNM3N0eUFzeWFYNHFBYWVuLWNoeWFHSU4wNjdzOG9lQk1mckhnQXRhZnZQNm5KamcwWEdQaDZYQkpYRXBOUFlDRHBsOXFHODM4VU1JNXJmR2lzVnNNdDBnU091S2FXendqNGNpRk44UHJMWXp3Q3RzTmQ1M0xOcGJINXlTS2JEaXlrMTlveUpsUTNkSWVfWnZ4ck5GWGpsTW9iTWUwaWotd2FsS0c5QVdDN1BPT1hkVmJhX1dkVFlNZ056MTBPVTl2QWcwd0hmNS0tbkRKc25FZDVETG41WkFnRk42SGtsTENXYVVIbndrNkdYTHhZ0gH8AUFVX3lxTFAtU0huNXE0a1hIejlsMGRwUlU5ZFNBNm0zejBQTDdkajNReE5XRU5tcmxsY0YzTHVCNHVtNnEyN3BvYXQtZk10NkJPWi1NZVdTMGo2UjNRQnIyZ1NrblhkbEVRMFRBMjBEY3NWRHpCS3duZExzbmdpQmR3UGJjWnNXdjJjSGpDTWNyNDlDWDhhdWxzOEotUWZsSkR4Y3FVV0kzVWpsSlM3RnZZWHBVT0Y4YXNNSnFueGFmd2RpUXZwSkNxUHJFYjdfb19WVEl5eVJnVW9ETXZVZ0hMWkozVGFoVjJiNlc5VG9vWjRlblI3WGdBSXVCVTZNN2U1Tw?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-20T18:53:03.885430",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -604,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-20T18:54:54.521127",
+      "last_updated": "2026-08-21T01:39:38.950449",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -688,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-20T18:56:27.821676",
+      "last_updated": "2026-08-21T01:39:39.433648",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -772,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-20T18:56:57.875715",
+      "last_updated": "2026-08-21T01:39:39.580925",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
