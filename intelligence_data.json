@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-21T07:03:34.233554",
+    "generated_at": "2026-08-21T13:06:36.686342",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-21T06:55:09.196485",
+      "last_updated": "2026-08-21T12:56:58.674691",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-21T06:56:18.274506",
+      "last_updated": "2026-08-21T12:58:20.132387",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-21T06:57:31.013122",
+      "last_updated": "2026-08-21T12:59:03.736578",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,17 +266,17 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-21T06:58:43.881302",
+      "last_updated": "2026-08-21T13:00:26.330525",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -342,7 +342,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "SBI Employee Shoots Wife Outside ICICI Bank In Lucknow, Kills Sister, Then Self",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTnZvb0pyZ1FPMG14ekttYWNuczZoOWdYLVpWR2dpLW00anF3YjdGcE5nQ2NpYmVIRzZ1cnF0MXFfYkcwcXpaeXduN01rTlpUU3RsamM2eElJOWFpSk8tT2xUcFNId3k1NjFnaG1zNmNycEc4SXpxXzEya1luQzRYSDhqM3czR2ZvRFhEZVZfWkw2cUdCSG5ZTUVyRmdVQXdmc0FfdHhXN2IydDVCRFRmbHFYcjNjcEgxek1ubEZCcXUwYkZpMUFjMtIB0AFBVV95cUxNOVlvN0NJSWZ1dFd1N2Y2QmVFNnJZam1tQVFXcmlUZDNXY0ZqNzdYM3Raa0xVOHBaUDdacUJNbHJYYlpTY0tuYVBVbEZhQ3BacUJ6TEFMamFKWHBzVldZUnc4dlc2Z0x3QmF2NXo4Qi1lb2pueEFEdnpYbFlCTGNnLXVDMmFGOUpFM0k1X28zZ3BqMUJYcllEaDNncTBLejhieGd4bXk4bUNUR1RnZ3M1ekVmTVRmcmFGYzN3cXZyaS1GemZpUHlSRDNKYUlsdXda?oc=5",
+          "source": "NDTV",
+          "publishedAt": "Thu, 20 Aug 2026 09:42:15 GMT",
+          "fetched_at": "2026-08-21T12:59:41.177803",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        },
+        {
+          "title": "3 dead in Lucknow shooting: Hanuman Chalisa blared at home as SBI officer's final act unfolded",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPc244RXR1b1lneE9VaDlOY2F4bDNERHBVZ3lCVEVtTmtvS2JpQjJXcUpTRDVQcHVia0lXSjl4WGtrSWJZRE5CZVVaMFUwMkRIX3Z6X3ZfSVprdUVpMUc3RzBNek9xLTJOc1dGTkEyU3ppbDcwSTd1VFFTVnQyaV9jN0Z3WDVlTGdXVkJyRmYxRnJtY1otTWxWQ3NRWlB2UzBwY0lLaDI3TlVWN0s1Mm5Eck9hb2ZMdWo2VFdXRjZOMHNvRWtNcWltN1R6NUw3VDgwQUtmYy1mX1J4UG8tNmF0eVh6WkI5QmRFOGxrSXFTY1FNNy1EOEVEeUJLWdIBgAJBVV95cUxQcE5uYklaWnpZcUt1aE5jRG8tYnJfNUh0bzF0TzdjM1ZPNzFXUzVpc3FEeDR5VzduUDF4MGxaaUthMVJ1cTdKUU5NWGw3ZlRxOG1JajkydVprY0ozT2ZBN0hYWHZ3RW5vZFhaYUZWZzM4dGN0RFc3cUdFem9aT3pWUzBSR0RBUTM4U3JMX1hheUZvWWRpbHFLN0gzT3RoaDJ5T2plam5RM25GLUlmYmlSVzZrQ3hESGstMEtHQlRqeGtjaGYzUGwwVDZRMUVkMXRzeUppLTZzVURROVdlcTJpZURnUXFFQWlrTmY1NWQ1dWpUSG5RS3ZzclRRUDRycGxt?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Thu, 20 Aug 2026 14:33:00 GMT",
+          "fetched_at": "2026-08-21T12:59:41.177819",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Lucknow horror: SBI employee shoots wife, an ICICI Bank manager, before killing self",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdUloN2NRdnk3Mk1LN0M4NldORS0xbUJXSjlUSFpuNmZjV2I5d2hBZjhZdUhMSktWR2dZaGt4SlVZeEEwUjdHdUg4TExMcTQ4dkN5dENsME5PWUdzd2QwYWR2cnllaXF6aDNZYmdzV3g3bG9CWGU4WWFZbFNHMXFGdTRYUDB2ZW1TZFR2eWpFVmpKQTZqdTBQeXNjYl8zQ3Q2ZzRZU2RPNHV3RkUyMlN6cHBTanNfVXUxNFBZZndhRlM3T0Vydl9hUjdUbjZlbzU00gHWAUFVX3lxTE42QmVQZnhFb0JQMlFRUmlMWU1vejF6Y01iZ3BVQXpBOWx3QjljeERjM2ZIOVdtbGVhVlVUVlhfVm51eF9xUnU4blVFUktnb2VLWk1QXzlxeUJEY05ETEZndjhjamg1WHNmeTJaQmNlNUswSTRnNEg3LWk2Smw4bHdJMlh6dUhKYnYwMWNveWQ0QTc0RVozVFlnY2oxQ04ydzdCNXBkX0Q2dUlieERtQVU1N0xzOG1saHlLX2JDUDlUWlptYzJVZjNSZ3N4YTU5V0NXam5SeGc?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 20 Aug 2026 10:52:41 GMT",
+          "fetched_at": "2026-08-21T12:59:41.177822",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        },
+        {
+          "title": "SBI Cash Withdrawals To Get Costlier After 4 Free Uses. All You Need To Know",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdE5FOExJaUpOOEgxbGhTUHROMklLU3BEaEVBLWhncHVvNk45X3NhNzlPVEtrclROY2pHRW84RGhpR3pCM3N3QlhRT05pY0FrTWlsakNMN1BuYjBDSDl6MlVIRkNhcDdiNGtmZFhSaHkwUEZHdlkxQnFxc05OU0VTaVNLNjJKd1BRYjJyeXNJVU81LWN4c0Z2U09pTHd2QTc1dS13NTloYmdVcnhqNHZRajZZTHNya0M0Rkpz0gHDAUFVX3lxTFByZzBRTUZRVnlKSDctdFFtWHdhXzItU0lXQy00anlMLUpheWpvQzNzRWJ3N1hqZWZ2anpTT2J4eGpONWM0eDVHZ3RpUTZuLWx3ZEZXXzJzU3JHdVZvb2hzc0xQNFVrWWNuTWdmRkFBdUpjR0lDWTNSQUFLVXRSMWpFc013MzEzSDNkQ1dWZnpVdkJRYl9BejNZSHQxUzNUWkVlOTNPSzVHZHZKM0paX09kQzJTc091TV85a0hHYjFWVUtxSQ?oc=5",
+          "source": "NDTV",
+          "publishedAt": "Thu, 20 Aug 2026 10:16:35 GMT",
+          "fetched_at": "2026-08-21T12:59:41.177824",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Cash gone, records intact: No bail to Gujarat SBI officer who ‘siphoned’ Rs 1.93 crore",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYmVDT3JzaTF6OWZueDlTVlI5NjZMTE9mOU11c0F0Z2REVWdTSUc3TGFNeXJFZFZRekFSTmd2OU03bENOclVZVGtpRHJsMGFsZzFaN2E3RVhQel8wbkpsZE9KcU9qWXhGYjdqNE81QnZPZUFJc2J4bjFQY3dkdmpfRmhwbUh4NlY3RE5QdTYzeXdMLXhGOGtZMGFtLW90S2IycHdENlVBeklILXNlWVNsazQ0Ml9IeFnSAb4BQVVfeXFMT2gybGg1QTRrZXFVdWZKa0pOckp6TzBaNWJFdHVjbDZ4bVplQk8ybm5QcVFDeEFoNmYwekZTOWw1aFh6RW00NzZTcFIwa2VtX2NDYTQ2NHZXMlRCZ2c5aUx1aEJIdXhQUEZLaU5WTEQ4eFI4TjBFNUlXRmdnaGJiSlB1cEZzQTJJM2ExUHhvME1XZnhHVjNqeUtvbVB2dzFQVWNBZ056YWJjLXhRX1dhbDl1MG1GRDBOSW8zYzVGQQ?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Thu, 20 Aug 2026 00:45:00 GMT",
+          "fetched_at": "2026-08-21T12:59:41.177833",
+          "related_to": "SBI",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-21T06:59:44.357999",
+      "last_updated": "2026-08-21T13:01:31.400052",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-21T07:00:49.598464",
+      "last_updated": "2026-08-21T13:02:51.525433",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-21T07:02:22.837307",
+      "last_updated": "2026-08-21T13:04:28.299974",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-21T07:03:15.532914",
+      "last_updated": "2026-08-21T13:06:06.545012",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +732,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-21T07:03:34.233538",
+      "last_updated": "2026-08-21T13:06:36.686275",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
