@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-22T12:57:07.388963",
+    "generated_at": "2026-08-22T18:45:51.013843",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-22T12:48:55.612064",
+      "last_updated": "2026-08-22T18:37:28.723461",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-22T12:50:07.882816",
+      "last_updated": "2026-08-22T18:38:37.078946",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-22T12:51:08.051971",
+      "last_updated": "2026-08-22T18:39:43.446754",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-22T12:52:23.519185",
+      "last_updated": "2026-08-22T18:40:23.489076",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-22T12:53:18.870832",
+      "last_updated": "2026-08-22T18:41:21.545069",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-22T12:54:39.131201",
+      "last_updated": "2026-08-22T18:42:28.443145",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-22T12:56:07.819427",
+      "last_updated": "2026-08-22T18:43:56.621108",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,17 +602,17 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-22T12:56:37.341087",
+      "last_updated": "2026-08-22T18:45:27.957046",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -679,64 +679,121 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "\"Keep It Aside\": Rishabh Pant Told To Turn Down Delhi Capitals Captaincy, This Player Suggested Instead",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQWxaMkQyTWJfYXctYUw3WVRGODJhZzc1N0xxbXdLeWxEbU5qSEE2cm5KT08tV2I0Z01yaUY5djlpTEJzR0wtYlU3aVB4YUdXd3JqZmFJQlp2Tkd2cGpWU1AtQUVFb3VnMFMyZnBKVkNXU1BZek05bThncl8yVlFBdTI1NEg3NjRmSnRobXh3elFXVnFXNXQyVk93TGFKU2VtSWd0N19zSWg2Wk5zWkFJLVFXQXV5MzItODFmamhjNVZRaUhuX1E4bEMwXzMyN3htUTRHcTFHSQ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Sat, 22 Aug 2026 04:08:46 GMT",
-          "fetched_at": "2026-08-22T12:56:37.340741"
-        },
-        {
-          "title": "'It Is Better For Him To Say No': Former India Star’s Big Advice To Rishabh Pant Regarding Delhi Capitals’ New Role",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdGUyTVFKbUk4ZmtKTllsMHRNZlJ5Qi1YMmdGTHVneG1EXzZPSUV6Rm43RGFLdFR4eE83QnVIWFhQeExNcTBzOHBQYlZnX1ZabFZvX21ldUtMc1pjN0FxOTNodG9zaThVaG92Yk9JR0Fzbi1Jd2pheDdQb0NjaER6RC1rNzk3ZVlIMnNJelNURTc2ZkVDYUxKbXp1RGwxNWV2bFNQZTI1bmFaRTVvX2xXVzI2aWVDQ0s1a2NtbWhB0gHLAUFVX3lxTE9iV1MwOXF3OGN2SVRYOTlHZWZRczk1SU85aDNrZUtOdmo3VkdEamh4VnZidk1DcnhSV3A3YXc1OVBUaDhqMzRNZ244TThlQlhkX2ZzZTdJRWRYaUdnSG9GamctQWktbjcxeUFJVVZkalZkbGRFQVBzM1ZOMVFxd3B2bnViSWJrUjFMVFN0YVdkSGlIS0JFc1F1SGNvOFRKNTJHUEw1djBkbWUyNk0zSHlhNW9TcFFmSTJENjFTMHhwVXJvWFJjQ252R0NR?oc=5",
-          "source": "Outlook India",
-          "publishedAt": "Fri, 21 Aug 2026 13:34:54 GMT",
-          "fetched_at": "2026-08-22T12:56:37.340762"
-        },
-        {
-          "title": "IPL: Wasim Jaffer advises Rishabh Pant to skip DC captaincy",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdkpDSmV0MWM5VDkydDFIdkFSMWEwX3NvQ3k4SFRZQkFYdmZZcTl2c3NHR2wxc3E4NVdzcWJsVEFYQ0txaEpqc1pzcVU4Ym9fYUFBU0RBNlZxNVpNWHl2Sk9zR1BWbG5aSHozemlOclhwR3ZJU3hiLUFoaWlsUk15WXBvMHRsSkItdEdhcTB4UjVtTzhteW9CUWxWbUVldDlsZjVqcllLUFBwa0d0TzZj?oc=5",
-          "source": "NewsBytes",
-          "publishedAt": "Fri, 21 Aug 2026 12:10:51 GMT",
-          "fetched_at": "2026-08-22T12:56:37.340767"
-        },
-        {
-          "title": "‘Say no to captaincy’: Ex-India cricketer’s big warning for Rishabh Pant after DC return",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPR252SWh2T2ZhNUx0dFBqN1FMX294dWdGdS00Y3p3OEJ5amJfY0gta1BVMzhycmlrcTRENkd6dGV0eE9sVHFOOExKbkluTUV3WkdxYkYxSEhUaW9fQVhlcktuVXYxOW16Tm9YZ09CS3dhN1YyQklEVHM1WUVuX0VuMDJXOWNWamdWSTF2dnl1VnE4OFFOQ1lRczFWbzNHbDhJVE0tR1lXcFFLNGFWdi01Rks2SzBKc3RDUzRraUx5Ull5SUljdTljemVnbmdyMFlYVUFuejY1d05id1lxeHlFQ3VJVERZaGU3X0dadGh0ZHhkdnZtT0NLVGZWb25oTFI2N2NFStIBigJBVV95cUxQZWlnaHVvR0txclJEQXJCX3VzSC1HeFJlNDRFbUthVzdYSXZXR3VxVURZakU3TjBhNkFYRGNCNVpsZDI5WkF0aHBNUUVBekl5ZmRvWlBKOUtJTWNsWkxwVDlxTDFZaWh6NGR0aVZmNFYzTVhCRV9NYm9CLXhNa3FXNVA1ZW9BMWpqdUJxTGl1S2VoeXZSOGZkQkJoaFlMSklnQWFVUy1BdjBBcU5OT3U3RFpTWmNESE5XMVNUaG9NeG53MGRucVJNa1I1aWdicFIwbXFCNWs3UG5xTXJueUxsNVc1ZXRzVVI2TUlwUi1qdXVDN1lZLW1IYklwaVkxS3E0OVBJVVh4WFRYdw?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sat, 22 Aug 2026 06:05:00 GMT",
-          "fetched_at": "2026-08-22T12:56:37.340772"
-        },
-        {
-          "title": "Zubin Bharucha joins Mumbai Indians as director of performance",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LYV9FT0ZMT1Vva0FzeGlPUVlwWWNCM3JSVk9KbHRjNUlRUGM3b1pTZWt3T2lXM196dzJFOVVULXFpeHlSSzhGTWI3dU5xampQcFVuSnVJbXBJdnfSAcABQVVfeXFMTjNPZXZITndDMGcxTmV0LXl1WXdWeGhJdWFHbHB4QlJoUTVyVEJtSFJ2ZU1Mb2pBS0Y0c0xJOXVBZnZGQjJsZjN2NHhyVEFRVWNlLVJKZUhiRDgybDItNU4zdU9TZERGTkllZnVNNGota3V1S214bEJGZDdYVnRfRDRRSzdmTGEtXzVWVnBPNGI3eWp6Q2UyZlpScThLeGdMXzJ4dmRoaVFuWTBUNkZfUENDZHhnQnpsaWd2U0VCYTZq?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sat, 22 Aug 2026 10:06:10 GMT",
-          "fetched_at": "2026-08-22T12:56:37.340775"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-22T12:57:07.388946",
+      "last_updated": "2026-08-22T18:45:51.013827",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Herma launches Linerless Plus label material with 62Dps adhesive",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclU?oc=5",
+          "source": "the packman",
+          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974652"
+        },
+        {
+          "title": "Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUllVEdkVVpqM2d4S253dmV1N0pjM1h4MzBhemNHS3l2M01HR2hMOXg2b2VxbmJfWEhnelNjUnMwQ2Q5d2ViMHFKLWZVU3ptdFRURkstV3p4NGVuQnJxRTFGdHNYWTZBSXpvUi1iMmZhWGhwSkRVTk1NM0lFSm9wSTFnLUR4ZjUyd1lYZ0s5ODRLTXlnakttY014WmdiWlJVZm5LSS1PTzFTWHRu?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 13 Aug 2026 21:01:18 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974666"
+        },
+        {
+          "title": "Material Histories and Material Futures at Foster + Partners",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUVJYU11a0czSFdJZTdWVHVZTFZqODlFRnVkQ0d0ZTJjdjRnY0R2UUg1OEY1M0NDakxzRmhHb014UUxwdU1fRjFOQlNvNWJIRE9IYzZ5SHRrXzJDakMtYlVqYXVrSVpFRDR1TllabGplbWV3LU5FMnRLTk1mZkxMeGk0cW1NZU94NnpoZzJtSFJYa2czXzZkSGNXSEtvbXhiYU9SUWdQejNZNi1UV2Z0Q01EWFlhMHQtRmM0?oc=5",
+          "source": "Foster + Partners",
+          "publishedAt": "Wed, 10 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974669"
+        },
+        {
+          "title": "Reusable magnetic invention removes microplastics plus some PFAS from water",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xWTBMN2hCR1VRYUtuQWZiNWpnRHJSUWdDUGFVazBpX2R1UFc0QzdzcVk5QjM5X3ExU3QwSGh2TVAzM2kzV0VSUzJhdXA2TEEyaDVCemZILXRKRFJ4T3drU0ZJWVphbVd3NExIUmdIQnFCNnY4SFN5MU5RMA?oc=5",
+          "source": "Phys.org",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974672"
+        },
+        {
+          "title": "Cerenome, Inc. (CNSY) rebrands from Plus Therapeutics with new ticker",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMTJWdE8tMmxjcEdRX0VQWEhnR1A1UnZsbmFrWDVHc2lBZkktU1hodTJWQVo4SFdjSWpKQzVqOS1TOWQwTEJDTVAwSzZuX0w0ZUhNbVYtb0NqUjJFX0NJWUdlQVQ2eFpPZjZrOFdCNG05SVp1WUoxaVlHZnQ3UjhPc0NTWklLNjFscnA0T2I0akFsMnR6clJiUldkMjJwMEJWY2k0S2xCUW4wZWR3TnZV?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 04 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974675"
+        },
+        {
+          "title": "Bad Crosswalk Will Cost L.A. $20 Million and Counting",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82MzVibXhzQ2V0MmJlRzVKZEV2Vlh0dVFIbWlhTUJnSXgwbWNWdTZJazZKNGl6Y0taQy12ZlB5NTJiaXZpVGRfdTY5czNWdzM5R00zZDJnZTc1NFpIMmlDRUlhM0RnT2V1b0NFUURBUWY4ejRqRTB5MkRBT0xJUQ?oc=5",
+          "source": "L.A. Material",
+          "publishedAt": "Wed, 15 Jul 2026 12:18:55 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974678"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974686"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974690"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974694"
+        },
+        {
+          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-22T18:45:35.974697"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Herma launches Linerless Plus label material with 62Dps adhesive  Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition  Material...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -773,26 +830,6 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
