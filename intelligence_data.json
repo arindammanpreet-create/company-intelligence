@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-23T12:57:18.917454",
+    "generated_at": "2026-08-23T18:46:25.927741",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-23T12:49:46.403354",
+      "last_updated": "2026-08-23T18:36:33.606425",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,123 +98,68 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-23T12:51:10.410419",
+      "last_updated": "2026-08-23T18:38:04.206396",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.6,
-        "label": "Positive",
-        "pos": 4,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
-      "news": [
-        {
-          "title": "Market Cap of Four Top Firms Erodes by Rs 87,960 Crore; Airtel Takes Biggest Hit",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUThzSU9ldWNHYS1GZm5IM3JJczFSeXB1TmxzS0QxRVEwbkJSMHF2NkIzYWI2OEFVZ0hhQmRnczRnQzg5R3d6bFFQVWVXeHNia3k1Y0hGa3dfdjVhczNLN25UNlZEVXF3MnFlczc5MzhaczVOQnllV3dEYWpDN00yelFUdGV2ZmZQZ2NDUEE1U0xnTHBzNnFudDVROEpJbUxkUUtSeHNoVWhCd091eDZFaWlNLWV1aFRPeTIwYUI4dFN3THo3cmExSdIBywFBVV95cUxOcV9qTTVTa21rNmNhNGhKT09kRkVpOURmWGhSWlBCdURzdW93WkdDZ1VYbzhibnFUbmVEdUxnQWhUeFJyVURQaktxMGlKNFBZVHlvcE41Q3FjeDZ4eUZrYlA1cUs3VmNsNERna0tOeGV5X0JVUURoeXg3OHZwNVdOeXVIdldjMzBrUmVwQjNCUFBaZG1zVUZxejU4cEZQOWdaa01GWExjdlhsd3NKMG5DOUpPeUxzZlFaU29BalVtMV9PQ0dkQ0RBSHFJdw?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Sun, 23 Aug 2026 07:52:32 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481795"
-        },
-        {
-          "title": "Tata Consultancy Services Stock Leads 3 India Dividend Compounders Worth A Closer Look",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWUIxalpLYkdjOS1yWHVpcks2b2h2NWJvTm10MDJjWXUzTzJ3bHgwdHpFWjk5dkt0bURfbnJNSFBXOFZSczViQVdnTjh6RWVsaWlqNTEwdGlSMjVvc3FGZmFfaUlUZk96ejlVb3E2cENxa3lYY2JOX1AxWDAxRXloY25KWjdmWVcwdUNTb2ZHUThFcW5HUnJUVlpLZGtyT0pJY25yWTR2YnU4NGZqaHZNX0piM0Z1M0FHRnkzejhyMUo4Y0R4Rmt6YXFiRkx4dWJ5TWxCc2QwelZ6MDdScnRaeXZ30gHiAUFVX3lxTE5ZQjFqWktiR2M5LXJYdWlySzZvaHY1Ym9ObXQwMmNZdTNPMndseDB0ekVaOTl2S3RtRF9uck1IUFc4VlJzNWJBV2dOOHpFZWxpaWo1MTB0aVIyNW9zcUZmYV9pSVRmT3p6OVVvcTZwQ3FreVhjYk5fUDFYMDFFeWhjbkpaN2ZZVzB1Q1NvZkdROEVxbkdSclRWWktka3JPSkljbnJZNHZidTg0Zmpodk1fSmIzRnUzQUdGeTN6OHIxSjhjRHhGa3phcWJGTHh1YnlNbEJzZDB6VnowN1JydFp5dnc?oc=5",
-          "source": "simplywall.st",
-          "publishedAt": "Sat, 22 Aug 2026 10:28:03 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481811"
-        },
-        {
-          "title": "TCS and ABB sign multi-million, multi-year deal to transform global network operations with AI",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeThfQmFyeEZvNFJ3NjBrYlVaQmh1Y05FX1VGUVo3dmhvenRKTjhReGtrdjJGZ3BTQTZKY0I2R1JFWUdYQm5ISzEyM1RiQlUxTWhERm83eF9udGFEMDZiUVUtWVJQbzVvUmZTWHFTTWVzN0pacFVLMjI5b2t6SzA0czZWak9tQmE0UXRhcEZ6VUI2VGdWNFphdzFySC11elhOc29qaHY1NTE1QVNjb3ZpTXBXMkdtb29qV0diMGxQOHZiQzA2VG0zaWgtZmU2dlpzOExhWWhzYXB3TXVWTDN3Uw?oc=5",
-          "source": "Tata Consultancy Services",
-          "publishedAt": "Mon, 13 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481822"
-        },
-        {
-          "title": "AI reshapes India's IT services sector contracts as clients demand more for less",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUNrcEw1LWRMcThiZ3U3bzRtZ3ItREZlaXdRaEdWb3FfS09ndHZvcXhQMnlCWDVsLTAyUGNoQTM0TW9ESDVPbkxIaHRxTVFuZDRhYzlpR2Rxb2hiVnlDWHhMQ2F4NWx2c2k3VTZiOFZ3dFc4Z0lPOWVOM3k1d21wbGpJWWpTRGVFejRPdHpWdlhVSnJYQ0w1a1J3TDBmdGFKMExtZVM2c0w0ZTJrcV9HRTI4YjZPUUdnY2xjUg?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Thu, 20 Aug 2026 23:02:00 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481826"
-        },
-        {
-          "title": "Tata Consultancy Services Comes on Board as the European T20 Premier League's Digital Transformation Partner",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdzYyM1REd2lRMFRnOXRGczJKMDc2WFhMblpYYklOWmRBX3FDM0U0Wk9PNDduR1hQRHVrbEtaUk1meE9SR1RmMlY5Mlk3VTNoUkdMU3dHZ1ZicGYyTVVjNHdfc1FiNzVQMm55c0JjeVZYOUoyN2F4dVVzdE1maDh5S1Fkd0pfY0pBSDI2cTkxUGFhOHV6YlZkWDhZYlpmRURlLVlIcHViZU9UUWZHTm9rLTBreG1HYkFTV2pVdUNHUlN2V3NpQXdXTFhxanNwVFdkM24wOFZDclh2ODhMekE?oc=5",
-          "source": "SMEStreet",
-          "publishedAt": "Sat, 22 Aug 2026 08:53:37 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481831"
-        },
-        {
-          "title": "Tata Consultancy Services rises Friday, outperforms competitors",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUEZRLWxRdWJGdTRTQ29OSGQ0R3lmU0c4N1FzeUtaWXhVMF84SHQyM2FUc3o2NjlPYmZHVEhqVVBIVFplTVlZNV9abDFkWUtRT3JXNFQtM1pBTVFmR2pUR2U2YWNiUENfTDJkUk43c180SkxlSDFTY3VwMmhXWHVpTzAwNGwzLU4xbUg5aDhwem55bHRDQk5GOG1ua3lhVW43TGt1Sld2WHF2eThtSlNwV1c1UEc5ZTJKWW9IdF84WWRDY05rQndrVFQ1dDlJN1Zqd3c?oc=5",
-          "source": "MarketWatch",
-          "publishedAt": "Fri, 21 Aug 2026 10:33:00 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481834"
-        },
-        {
-          "title": "Tata Consultancy Services launches Agentic AI platform to transform drug development",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN09vUjFJSExSbEgtd0JLSDR1T0lCNTlXeEsyVmZ0MHdYWGRKb01xeGw3T0FseWR4TDAyQUdlQy1lY3A1dGFOVFdYWE96RGd1anY0Y3EwVU94UENlNXYtWHNyZGFyVnpiRVlYZU1wczVwZGJGc1JOWFZQYlZJa1dlNk1EbkV3QlFOLXF5c0ZqMm5NVXl5NG1PSVBaNFpsbjlPNzdvWUxHNnlKb05LSkNoLWFxaWRteS1EeFBFeXdMdWk4dGEyR3JIajJlSjlFZ0phR1E?oc=5",
-          "source": "BioSpectrum India",
-          "publishedAt": "Mon, 17 Aug 2026 15:43:43 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481838"
-        },
-        {
-          "title": "Tata Consultancy Services shares decline 2.04%, trading at Rs 2,312.80",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcklGZjN3b1ozWGFPcHNVbFNJZzVjRlhCbDVfa1d2ZExlNXAtR1JQVmlvYVExQlZqd1lfd242aWJyZTFGVUtQNGlZangzS3AzU0FZdXA2cEVzQnVUWWhidmFZY0N2dm5ZdDFBZDM0VmFGSTY3aXV6VzZCeUpGYWVKNlVCZ0RzTndlT2NqZjNNYWVTZ2gtLVAtd0JsRFc3akVrZUxuRGl1M2EzOXdVR05DU1c0RjM5VXZBWkdOR1BiVzhxR09LTGhHMS1LQQ?oc=5",
-          "source": "TradingView",
-          "publishedAt": "Mon, 17 Aug 2026 05:25:00 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481843"
-        },
-        {
-          "title": "TCS study reveals Physical AI is now mainstream as manufacturers scale AI implementation",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORlF1dUlxVWlMS1B6WHExaEdlX1RFM0VTbXhVdWtvZHFEUlM3VXFpR3N2cVF1T3BnRmxub0VXcHFzcDNGQ3N3S1RfZGNQZnNfeWFMLVZldU1RQVNsOXpyZ2tJWjA2NGlkV05yT2ZTbmJYWE9CTVdsWUdOc0lnd04yU25MUDJnQjJORFpleWhVSlhia1p1ZFZNUWVVSnlZaGM1dUdNbkhFZzFld0xrb1ZBczNuMXN2UU1ZbU5sVzRMa1JUdS1DbnFvbjJMd3NIdlVWa04xWUtQbHZHQQ?oc=5",
-          "source": "Tata Consultancy Services",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481847"
-        },
-        {
-          "title": "Breakingviews - Tata structure shortchanges its investor-charities",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQVJQa3FuQ1VOZWFRMWx0cEdIZk0zaGhoa0t1U3ZST2lqQ2lKckMwN1ZTTC1Xd3Z3ZlZRbGo3c3oyN3dySVZsWmx5czJ1UW5WRThST1JwZGhzUE1jU0ZrY3BUbmItQ2tWRXFHLTlGYWpSb2ZNdi1zQXdXNmJaOWtBcnBmSWp2Mjc2cVoyUzFRYXpCVmlUUE1ZbHpuSnk4RkdfZExOMXYxenZTb1l1YlFLNg?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Fri, 21 Aug 2026 11:43:50 GMT",
-          "fetched_at": "2026-08-23T12:50:00.481850"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
-          "title": "ESG Compliance Gaps at TCS",
+          "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
-          "description": "ESG red flags detected at TCS: board. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Market Cap of Four Top Firms Erodes by Rs 87,960 Crore; Airtel Takes Biggest Hit  Tata Consultancy Services Stock Leads 3 India Dividend Compounders W...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "board"
-          ],
+          "description": "Continuous macro monitoring, competitor tracking, and early signal detection for strategic pivots.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "monitoring",
+          "keywords_found": [],
           "solutions": [
             {
-              "title": "TCS: ESG Performance Benchmarking",
+              "title": "TCS: Strategic Market Intelligence Subscription",
               "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
+              "timeline": "4-6 weeks setup + quarterly",
+              "price": "₹12-20 Lakhs + ₹4-6L/quarter",
+              "methodology": "Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network",
+              "description": "**MRA/ESOMAR-compliant study**. Macro Dashboard + Expert Interviews (15/quarter) + GLG/Third Bridge Network. **Deliverables**: Quarterly strategy briefings, Scenario workshops (2/year), Opportunity reports, Board dashboard.",
+              "gap_type": "monitoring",
               "framework": "MRA/ESOMAR"
             }
           ]
         },
         {
-          "title": "Digital Transformation Lag at TCS",
+          "title": "TCS: Competitive Intelligence & Win/Loss Analysis",
           "severity": "Medium",
-          "description": "Technology adoption gap identified at TCS: digital transformation. Digital maturity assessment and tech investment ROI research required.",
-          "detected_from": "Market Cap of Four Top Firms Erodes by Rs 87,960 Crore; Airtel Takes Biggest Hit  Tata Consultancy Services Stock Leads 3 India Dividend Compounders W...",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "TCS: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
           "gap_type": "digital_lag",
-          "keywords_found": [
-            "digital transformation"
-          ],
+          "keywords_found": [],
           "solutions": [
             {
               "title": "TCS: Digital Maturity Assessment & Tech ROI",
@@ -224,28 +169,6 @@
               "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
               "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
               "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Player Retention & Auction Strategy Risk at TCS",
-          "severity": "Medium",
-          "description": "Squad stability concerns for TCS: contract. Auction strategy and salary cap optimization research needed.",
-          "detected_from": "Market Cap of Four Top Firms Erodes by Rs 87,960 Crore; Airtel Takes Biggest Hit  Tata Consultancy Services Stock Leads 3 India Dividend Compounders W...",
-          "gap_type": "player_retention",
-          "keywords_found": [
-            "contract"
-          ],
-          "solutions": [
-            {
-              "title": "TCS: Squad Strategy & Auction Intelligence",
-              "impact": "Medium",
-              "timeline": "4-6 months + ongoing",
-              "price": "₹12-18 Lakhs + ₹1.5L/quarter",
-              "methodology": "Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning",
-              "description": "**MRA/ESOMAR-compliant study**. Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning. **Deliverables**: Auction strategy playbook, Retention priority matrix, Salary cap optimizer, Competitor squad analysis.",
-              "gap_type": "player_retention",
               "framework": "MRA/ESOMAR"
             }
           ]
@@ -259,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-23T12:51:54.454295",
+      "last_updated": "2026-08-23T18:39:19.823910",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -343,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-23T12:52:30.254875",
+      "last_updated": "2026-08-23T18:40:37.804894",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -427,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-23T12:53:22.542589",
+      "last_updated": "2026-08-23T18:41:44.957713",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -511,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-23T12:54:43.323633",
+      "last_updated": "2026-08-23T18:42:53.881456",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -595,11 +518,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-23T12:55:55.686607",
+      "last_updated": "2026-08-23T18:44:37.032931",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -671,7 +594,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Highlights: Gujarat Titans vs Rajasthan Royals | Qualifier 2 | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVENVUDFKUWpTSWNMcVpyVmpoUFlxUDBiUHhIUXBGYVZEQWZVYl9ISjhydkR0ZXhfWVpYSlNfUG4ybTl5QWhBcEpqRU1CSEJaUVhzYlVuNE1CSDh1VU5ZSnBsUlhEVWIyX0UtUTFOeDlhc01rS0pnS2ZJVTRNOXdCazRZZkxTZ2JEOVEtSXZ1Ny1DZ1RlcXlUZGFqYnNNa1pr?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 23 Aug 2026 14:34:12 GMT",
+          "fetched_at": "2026-08-23T18:44:22.010921",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Indian Premier League 2027: Zubin Bharucha joins Mumbai Indians as Director of Performance",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc3dYdDhJcnNlVXhTaGpkUlZXbk5zcWw5RE51eUJfY1BjUlFUcmtsakkzYkhJdmV5d0Uwc0pSWng2U3YzajNNTzMyZ2xiMU04M2MxSFNfYjJidHpub19obEVBaGU1ZmhqSEdrRTkyNkJkV2RqQ2FUTE9HZVFONmUxODFyYjJ1Uk1sVUtFRFBzMEkwd09NYXZZZXRuV0ZxRGJBdmtEa0lPdEJuWGttTWpOMWEtVkZkR1VHR2xWVWF6WXh1MklFVGJMcDFWbGZ6UmJ3MnM3U09QeUxxaExuaWhJ?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sat, 22 Aug 2026 13:06:35 GMT",
+          "fetched_at": "2026-08-23T18:44:22.010937",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Zubin Bharucha joins Mumbai Indians as director of performance",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaTJ6WmdWOF9Kb0FiR01HLThvWWc4czh5V050U0hkTVRzSFdMalFFSDJsREl4TGMwWmJvb0xuREo5N050NXI2dzFlUG5DMWpaQ29IVjlBNjZOU2p1X2dkY2hqWFFMRDV3ZjVPWkQyRWJTNlZ2aThGcHNqdFZ0VXpmZkllTmtLS1JRN1hMc3lZQVZxMVJ0LUNOT3Z5alBCazRPMmlBWm11bkJ1S0lvVTlv0gHAAUFVX3lxTE4zT2V2SE53QzBnMU5ldC15dVl3VnhoSXVhR2xweEJSaFE1clRCbUhSdmVNTG9qQUtGNHNMSTl1QWZ2RkIybGYzdjR4clRBUVVjZS1SSmVIYkQ4MmwyLTVOM3VPU2RERk5JZWZ1TTRqLWt1dUtteGxCRmQ3WFZ0X0Q0UUs3ZkxhLV81VlZwTzRiN3lqekNlMmZaUnE4S3hnTF8yeHZkaGlRblkwVDZGX1BDQ2R4Z0J6bGlndlNFQmE2ag?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sat, 22 Aug 2026 10:06:20 GMT",
+          "fetched_at": "2026-08-23T18:44:22.010941",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Mumbai Indians Appoint Zubin Bharucha As Director of Performance",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZV9fQzVDcjhIZmEzbXF3ODNOWkMxSERKWjJya3luWUJvc3NnT25ZUHFXY3Bya09IUDdsNTRtdlpOd1RiUVhNd2hOMkxxczFpZk5EUDhxNnQteXJKSDNJZFc2Uno5aC1vYzZiRTl0RnFjeWV0eVkycFpna0NUMFdIZ0dwd1p3M05LWEZ2UFZZZ3Z6alF5STRtVnYwUWFKNzktQVR0X2w1aDNpVC1zQUotUVhYeTE0cVNuS2dNQ2dqWEF0SDYtTTRmVWhvVkYwR2tsd2MzZWg1MmdMNm16YVMyNHdEMFVON2NwUGRJ0gHuAUFVX3lxTFBKanVyMEZIMW95Z09TM1J1LWhEekZ3WGsxaFNFUVVDY0VwMVh0ZEtjcFU2MDlIZE91MEpGSWhfak53N00wclZvSE5WSFZvRXpzSmhIQkdwaDNNN3Z5R3BrVFNnZ19GWDVHb3JaMHdCc012VnpOWUQxSnNCZEQyTzhFX3NjM2lTcnJBOTJOeng5cVd0RmlPMmFpSUhValdSR21oZWdKa2RockVCbkItOE43S3lDWktpTDVXeDlOeWNvVlhIVVZhb1ZkV3hmSmU4OXNrVVczcHhrc3hRdkt1bkNtYllEMDdSWmVvV1ZBaHc?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Sat, 22 Aug 2026 10:30:20 GMT",
+          "fetched_at": "2026-08-23T18:44:22.010945",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Rahul Dravid wants Vaibhav Sooryavanshi to grow beyond T20s as Test cricket fights on: ‘We need players like him’ | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQalBDMlBDU3BIUkFLc3Z2UTlNbjJKRks4bVoxaERFVWV5VEZQUTItaHJDWFh1WS1mNUtwT3lucERuaXJBRVNtYXdoNWNRcmJFVnBhcFc0NURvMmQ2ZTJYSmZLRzJzUW5zdjFvRHBuaGJ6WVgxS1ktaVBxdldiSEU5WUgzRUZITldrVXZmSHFOTDZKVEdxRC1lSXp6TmJ4TlNNWjhidlIyVkNOeFFjTmZGZFpSc0dpU3ZMeHIzaEo1TjMxOEY4TjgxNnJ0YkJUZGZvUTR1QTdnSVYtV0ZjTFhtT2YyY2NKTklVMXY2MmdVMTN5N1d6eVFLVkNlV2FpU03SAYQCQVVfeXFMTUVBS3Z6c0phbl82QXVQcWl3UVRaS1BlLUpwVHJ1aDFKZGRJMWVob3RBN3NwQ3NleVUyOWxHbDdmM1BGeE16aFhJMV9aclJxeHo2Z3d0MnBTRVRqaEVrRWhYN21RT2ZzNHVGbnoycTRUMEtZUXJTVmVZcVhHenpkRjc0LWxuNDdwOWpEdVFTcWE3WnpYTHlLbi1FREk1NWh1MHVFRUQwRWxFa2FqQlR1UjB0NklNMUd4ZGwxZnRpQTBvNTJaanNYS2E1S2lKMnR2T3J0R05lbzY4WnZtSEVYZEhRcGIyYnlKbUZCV2xTUk1LSHlsOUk0eUhIOHNqWDdPNlJQOEQ?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Sat, 22 Aug 2026 06:43:17 GMT",
+          "fetched_at": "2026-08-23T18:44:22.010955",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -679,91 +648,20 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-23T12:57:14.384556",
+      "last_updated": "2026-08-23T18:46:07.291090",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "Rishabh Pant advised to ‘say no to Delhi Capitals captaincy’ if offered: ‘His performance has come down’ | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQa3laeEF2TEotMXpqMlY5cTZwNnhhNnlhbTZoNzZpMzEtSnlueXktTHZvOWZGVHNGcnQyS251NmRCTkNSVElWUjl0WTI4dVEwY3F4OVpuM0lOYTZteFphUkFsQ283TGNxaHd0cTJOTFRUT3paQUx1M05aNTFoakRDWmpMSXQ1ZTlDNE1XRjZIN1kwMkZtSzBXVUZna2NPaGNOU3NrT3RSbS1DMG8xSUdDVHQzb1VRZmNndmtQa1BLcUtBMmdnbVpKNmRlMnJMRURqOHlvbDhMS2J6dTBiaWt1RjVRRmlkS2FRWFU1eGluRlfSAfYBQVVfeXFMT21KbTlJaDZKQnRVTG9Ia0lpMUMyUWxaZ2h3Y2hCcElYc3loZC1hSFVPWGN3X2VRS01OODN6TUZPSkpncVdaWjlVWUlDckhtQ1hlOEFvTVlBRnNhWklfcDJXNmRWUW1paWk4TkpmRHM5SjI1U3NfZjVjY25sRWlYM3BnZGVNSEVFSThlYU1sWWhLN1EyZ0tON1RJVE5pbUZpazBwUi12Zldfc2ZTTWRfX2ZIeHBxb3JCeTdMS1dkQVllLTBQVlVnUzdrcUFlWlNtWDhpWHlvS3ZBVk01Ny1GWjBEN1BQRHh1SVdIMS16cGlmRml3d1BR?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Sat, 22 Aug 2026 15:32:14 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184275"
-        },
-        {
-          "title": "Rishabh Pant advised to reject captaincy offer by Delhi Capitals: 'Priority should be to...'",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQmpQbVhIeU0yVnZEbFBLdzg5ZzYtaDVPN042ek9ZMjlLdUYzb21PdnJoWHpQU29YS205TUZjVDlZWGZqOTMtWE5QVUdZNFVHRHEwRGZkTWJZZnVuWFlzc1UycFRMZVdwRjNiQkZKZUhmaUhjaEUyWXN5UFFZT0NkR2IwRW9WanRPdjJwcjEtVE85cDhhbUE3bTlaVVRuMFZwU3JKS1UtUm5SRi0xS3llUE9CcGFEWGQybTNzeEVwdkNqMXNJRC1hRjRYUURwd3kwb19ocWpmTWNQd29tSDg0dG4zUVh4eFdsV3RXQtIB8gFBVV95cUxQazVVZmgtaW5FMUNPZEx5R2FaSUNKc3NYUE1ZYXc4SVVHZDRvTWUtcld3U0MwVDl3SVlCdW0xTlVLZ3ktQ2gybWRBS3hvanliMDQxMzhjYVN4MTVVQkYtR3VfWGFwWk41d0ZmbUFaV2ZfUF9PTnh1YXl2a1BiS2llYzNXTmNhdmI3X09uaU0zSHdZRm5YUGlQcjhCX0I4elFrel9IeHJfNDRMR3hKSGRnOFhNSXB3MzE5Xy1MMUFwbVJLa2t6cHgySmduZUpicm9ZUlQtRjUzemU0Y0M1WlNfNmFnZFc1SUFkdm1LSmZrM1h5Zw?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Sat, 22 Aug 2026 12:52:46 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184293"
-        },
-        {
-          "title": "‘Say no to captaincy’: Ex-India cricketer’s big warning for Rishabh Pant after DC return",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPR252SWh2T2ZhNUx0dFBqN1FMX294dWdGdS00Y3p3OEJ5amJfY0gta1BVMzhycmlrcTRENkd6dGV0eE9sVHFOOExKbkluTUV3WkdxYkYxSEhUaW9fQVhlcktuVXYxOW16Tm9YZ09CS3dhN1YyQklEVHM1WUVuX0VuMDJXOWNWamdWSTF2dnl1VnE4OFFOQ1lRczFWbzNHbDhJVE0tR1lXcFFLNGFWdi01Rks2SzBKc3RDUzRraUx5Ull5SUljdTljemVnbmdyMFlYVUFuejY1d05id1lxeHlFQ3VJVERZaGU3X0dadGh0ZHhkdnZtT0NLVGZWb25oTFI2N2NFStIBigJBVV95cUxQZWlnaHVvR0txclJEQXJCX3VzSC1HeFJlNDRFbUthVzdYSXZXR3VxVURZakU3TjBhNkFYRGNCNVpsZDI5WkF0aHBNUUVBekl5ZmRvWlBKOUtJTWNsWkxwVDlxTDFZaWh6NGR0aVZmNFYzTVhCRV9NYm9CLXhNa3FXNVA1ZW9BMWpqdUJxTGl1S2VoeXZSOGZkQkJoaFlMSklnQWFVUy1BdjBBcU5OT3U3RFpTWmNESE5XMVNUaG9NeG53MGRucVJNa1I1aWdicFIwbXFCNWs3UG5xTXJueUxsNVc1ZXRzVVI2TUlwUi1qdXVDN1lZLW1IYklwaVkxS3E0OVBJVVh4WFRYdw?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sat, 22 Aug 2026 06:05:00 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184298"
-        },
-        {
-          "title": "Ex-India Player Advises Rishabh Pant Over Accepting DC Captaincy, If Offered For IPL2027",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTm9jeG5FNUZlMTZVaG1LUzd3V0s2OUkyZzRhcDFVTDFNNTRiSkVnckhRSG9jNjdXdTk0cVVuVXRRNzc4S2c2OXhLZTlZbEhlTHZIcHpkN0RlNW9YVFFiMGtSNTgzVHU4a0VnRkVlV0JJV0ZPMVI0Q0gtd1IxNk0ySUhKVXdCcG5IZ0gyMS1VclJ4ZDJTN1l2RVowNWlFZUE1bmRMNk5ITkRDZ3lyWlE?oc=5",
-          "source": "rvcj.com",
-          "publishedAt": "Sat, 22 Aug 2026 13:22:02 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184303"
-        },
-        {
-          "title": "'It Is Better For Him To Say No': Former India Star’s Big Advice To Rishabh Pant Regarding Delhi Capitals’ New Role",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdGUyTVFKbUk4ZmtKTllsMHRNZlJ5Qi1YMmdGTHVneG1EXzZPSUV6Rm43RGFLdFR4eE83QnVIWFhQeExNcTBzOHBQYlZnX1ZabFZvX21ldUtMc1pjN0FxOTNodG9zaThVaG92Yk9JR0Fzbi1Jd2pheDdQb0NjaER6RC1rNzk3ZVlIMnNJelNURTc2ZkVDYUxKbXp1RGwxNWV2bFNQZTI1bmFaRTVvX2xXVzI2aWVDQ0s1a2NtbWhB0gHLAUFVX3lxTE9iV1MwOXF3OGN2SVRYOTlHZWZRczk1SU85aDNrZUtOdmo3VkdEamh4VnZidk1DcnhSV3A3YXc1OVBUaDhqMzRNZ244TThlQlhkX2ZzZTdJRWRYaUdnSG9GamctQWktbjcxeUFJVVZkalZkbGRFQVBzM1ZOMVFxd3B2bnViSWJrUjFMVFN0YVdkSGlIS0JFc1F1SGNvOFRKNTJHUEw1djBkbWUyNk0zSHlhNW9TcFFmSTJENjFTMHhwVXJvWFJjQ252R0NR?oc=5",
-          "source": "Outlook India",
-          "publishedAt": "Fri, 21 Aug 2026 13:34:54 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184308"
-        },
-        {
-          "title": "IPL: Wasim Jaffer advises Rishabh Pant to skip DC captaincy",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdkpDSmV0MWM5VDkydDFIdkFSMWEwX3NvQ3k4SFRZQkFYdmZZcTl2c3NHR2wxc3E4NVdzcWJsVEFYQ0txaEpqc1pzcVU4Ym9fYUFBU0RBNlZxNVpNWHl2Sk9zR1BWbG5aSHozemlOclhwR3ZJU3hiLUFoaWlsUk15WXBvMHRsSkItdEdhcTB4UjVtTzhteW9CUWxWbUVldDlsZjVqcllLUFBwa0d0TzZj?oc=5",
-          "source": "NewsBytes",
-          "publishedAt": "Fri, 21 Aug 2026 12:10:51 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184311"
-        },
-        {
-          "title": "Delhi Capitals Pacer Lungi Ngidi Taken Off Field in Ambulance After Head Injury",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTXNkWmxWaThsbFpjaHpKRGx5ZTU4SkFFUmNEWVpfaDNwNDNHVXZsRVBRcXgwYm5fMmNIcUtlYkNOSHpFMU13ZHhhZ0FMQUtlbXlRQ2QxUTNnTmV1VS1GS3QzaHdUcVpMZmFraGhra21UNk5LSFF1aDRJUTJ4cnQ1RGF6U0Rld3VoZEdublRDcno4LWZYMFRuRHNyZWpXbzhFcTA5TXQzTDE?oc=5",
-          "source": "News On AIR",
-          "publishedAt": "Sun, 23 Aug 2026 10:37:01 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184315"
-        },
-        {
-          "title": "Delhi Capitals, CSK and SRH Begin Early Planning for IPL 2027 with Fitness Camps",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRV9sblBjMkNKQUY4blNFMHVlak51TzNUeUZ4NmpkWk50V1U2andwOXFpb09nTnp6dW43bFAtVi1KbkI0T2xtLWUxdi1NeFhjcVNWaWhzSDJZTVZwQmEyYUFNcFNSS1pXRFoyWnJ5Z0pTNHk3cm1wajNNemduZjJINzh6b3N0VkxWRWx6bTUtS0wzai01VmZLRncyVkpyMTdUYjNJ0gGrAUFVX3lxTE5vYWR6clRGdzJJOVFCV1BwRzNrc1YzbjdxVklmNnZaMlRGMjBRVGdaRGgyTEJET0V4RE1QR01QNzN0RVVyVUhTQjJGMHMxbHdrZ3h0a1Q5Q2pWOWIyMzZkR1FJTGNxNUEwU0VGU2hCZ1hrZmdoYkg2U2t5dWNyV2dWT2lsb2hyVUFyRC1xWVlRekwyNVpxRi1VNGtMVUpER2NTRXRRTVl3d1V3Zw?oc=5",
-          "source": "Revsportz",
-          "publishedAt": "Wed, 29 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184318"
-        },
-        {
-          "title": "\"Keep It Aside\": Rishabh Pant Told To Turn Down Delhi Capitals Captaincy, This Player Suggested Instead",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQWxaMkQyTWJfYXctYUw3WVRGODJhZzc1N0xxbXdLeWxEbU5qSEE2cm5KT08tV2I0Z01yaUY5djlpTEJzR0wtYlU3aVB4YUdXd3JqZmFJQlp2Tkd2cGpWU1AtQUVFb3VnMFMyZnBKVkNXU1BZek05bThncl8yVlFBdTI1NEg3NjRmSnRobXh3elFXVnFXNXQyVk93TGFKU2VtSWd0N19zSWg2Wk5zWkFJLVFXQXV5MzItODFmamhjNVZRaUhuX1E4bEMwXzMyN3htUTRHcTFHSQ?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Sat, 22 Aug 2026 04:08:46 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184322"
-        },
-        {
-          "title": "Zubin Bharucha joins Mumbai Indians as director of performance",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaTJ6WmdWOF9Kb0FiR01HLThvWWc4czh5V050U0hkTVRzSFdMalFFSDJsREl4TGMwWmJvb0xuREo5N050NXI2dzFlUG5DMWpaQ29IVjlBNjZOU2p1X2dkY2hqWFFMRDV3ZjVPWkQyRWJTNlZ2aThGcHNqdFZ0VXpmZkllTmtLS1JRN1hMc3lZQVZxMVJ0LUNOT3Z5alBCazRPMmlBWm11bkJ1S0lvVTlv0gHAAUFVX3lxTE4zT2V2SE53QzBnMU5ldC15dVl3VnhoSXVhR2xweEJSaFE1clRCbUhSdmVNTG9qQUtGNHNMSTl1QWZ2RkIybGYzdjR4clRBUVVjZS1SSmVIYkQ4MmwyLTVOM3VPU2RERk5JZWZ1TTRqLWt1dUtteGxCRmQ3WFZ0X0Q0UUs3ZkxhLV81VlZwTzRiN3lqekNlMmZaUnE4S3hnTF8yeHZkaGlRblkwVDZGX1BDQ2R4Z0J6bGlndlNFQmE2ag?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sat, 22 Aug 2026 10:06:20 GMT",
-          "fetched_at": "2026-08-23T12:56:09.184325"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
@@ -834,17 +732,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-23T12:57:18.917439",
+      "last_updated": "2026-08-23T18:46:25.927734",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -911,7 +809,43 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUllVEdkVVpqM2d4S253dmV1N0pjM1h4MzBhemNHS3l2M01HR2hMOXg2b2VxbmJfWEhnelNjUnMwQ2Q5d2ViMHFKLWZVU3ptdFRURkstV3p4NGVuQnJxRTFGdHNYWTZBSXpvUi1iMmZhWGhwSkRVTk1NM0lFSm9wSTFnLUR4ZjUyd1lYZ0s5ODRLTXlnakttY014WmdiWlJVZm5LSS1PTzFTWHRu?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 13 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-23T18:46:25.927413"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-23T18:46:25.927431"
+        },
+        {
+          "title": "Material Histories and Material Futures at Foster + Partners",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUVJYU11a0czSFdJZTdWVHVZTFZqODlFRnVkQ0d0ZTJjdjRnY0R2UUg1OEY1M0NDakxzRmhHb014UUxwdU1fRjFOQlNvNWJIRE9IYzZ5SHRrXzJDakMtYlVqYXVrSVpFRDR1TllabGplbWV3LU5FMnRLTk1mZkxMeGk0cW1NZU94NnpoZzJtSFJYa2czXzZkSGNXSEtvbXhiYU9SUWdQejNZNi1UV2Z0Q01EWFlhMHQtRmM0?oc=5",
+          "source": "Foster + Partners",
+          "publishedAt": "Wed, 10 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-23T18:46:25.927437"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-23T18:46:25.927441"
+        },
+        {
+          "title": "Bad Crosswalk Will Cost L.A. $20 Million and Counting",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82MzVibXhzQ2V0MmJlRzVKZEV2Vlh0dVFIbWlhTUJnSXgwbWNWdTZJazZKNGl6Y0taQy12ZlB5NTJiaXZpVGRfdTY5czNWdzM5R00zZDJnZTc1NFpIMmlDRUlhM0RnT2V1b0NFUURBUWY4ejRqRTB5MkRBT0xJUQ?oc=5",
+          "source": "L.A. Material",
+          "publishedAt": "Wed, 15 Jul 2026 12:18:55 GMT",
+          "fetched_at": "2026-08-23T18:46:25.927445"
+        }
+      ],
       "filings": []
     }
   }
