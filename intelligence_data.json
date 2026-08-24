@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-24T01:49:17.514689",
+    "generated_at": "2026-08-24T07:17:36.964774",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,21 +14,43 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-24T01:40:27.490538",
+      "last_updated": "2026-08-24T07:07:56.560507",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Merchandise Revenue & Licensing Gaps at Reliance Industries",
+          "severity": "Medium",
+          "description": "Merchandise revenue underperformance at Reliance Industries: retail. Product-market fit and pricing research required.",
+          "detected_from": "Reliance Digital's Endless Aisle Retail Strategy  Modern Bazaar explores stake sale with Reliance Retail, others as quick commerce squeezes business  ...",
+          "gap_type": "merchandise",
+          "keywords_found": [
+            "retail"
+          ],
+          "solutions": [
+            {
+              "title": "Reliance Industries: Merchandise Demand & Pricing Research",
+              "impact": "Medium",
+              "timeline": "12-18 months",
+              "price": "₹14-22 Lakhs",
+              "methodology": "Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Conjoint Analysis (n=10,000) + Pricing Experiments + Retail Audit + SKU Tracking. **Deliverables**: Demand forecast by SKU, Price elasticity curves, Limited edition concept testing, Retail channel strategy.",
+              "gap_type": "merchandise",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -68,47 +90,63 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Reliance Digital's Endless Aisle Retail Strategy",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNTRTSGZVQzE3aTB6NFdGTzFwTU1NejRCZHN1RUVIMlBKVmlzUEtXMHpIazFMdzRHLU1hZklkU2lxTV80RXhEbXJyRWJIS05yWVBidnZMVTZGRWFaX0JoLVNkdDdDVDRDRlZLbFdhRUpaajVFbmJNclV6QXNRMXo5U2ZTbmxhQQ?oc=5",
+          "source": "MarkHub24",
+          "publishedAt": "Sun, 23 Aug 2026 13:36:45 GMT",
+          "fetched_at": "2026-08-24T07:07:56.560126"
+        },
+        {
+          "title": "Modern Bazaar explores stake sale with Reliance Retail, others as quick commerce squeezes business",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeTVzVWJDbUFjUU8yM1R3bkh2eE5lNnNzUEE5cl8wWktxMUJRdXNCZ18yS28yYUlzekRBYjlGZDBwWU8tX01xeFdxckM3WS1fZU9CUlQyUkpWZE9CX2R3eXhlUi00Q0RHb0x2ZTEzc2hsYzA3Yml2TlJKakFGalRTUUVyOWFGRGxRSHNYQkM2ckZhTTRtR0xDQ0M0cHhVTDZoTEhMVzdRMlJCOW9YaG9uc3lBVHBJandiQk83REwtZHZVeDV0Wmo0OFpQNzNkNXZKTF9JYzhNcGJOOXlTNk9uQ25mSjlyMjhpQjVRbjBNc0ZacDdtN3BOcFcxdzUxWExPeUlMdGQ5Z9IBjAJBVV95cUxQdUVQYXpSeWM3V0NWSHF4NFFHaTM2dFhrNnZ1NWJPQ1VFZ09LS1ZHU1drd3FYMzZpbk1RbWNvb0ppSWM0R0FaTkF5Y3FhT3pMNW5YOTVXX25tTkVhZk1HTzZidjRIcGNNVHRKX3poNUg4QkxSdWlWLXdaQU1Ca3dhSFRCVzdKbGRIcEVva0JGazNSaVVzRGFucU1XbmVWR0JlTWR1djJxSG41MkFsOGdUUkRPV2VmNjZvLWlJdUtjVzUtX0dxVFZFZzJmNjRMNGpmZFNCbS1VZ21nbU1rZ2p1M0ZxLUNNMVZBeTVqQVZnRXRUQlllbnFzVkpPNWNwR2ZseUo4d0ROaGZkRzNv?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 12 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-24T07:07:56.560142"
+        },
+        {
+          "title": "Reliance Retail continued to expand its footprint across India, driven by a growing customer base, deeper omni-channel engagement and sustained network expansion. Watch the key highlights from Q1 FY 2026-27. #RILresults #RelianceRetail #Retail #India",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcmlSLVNiY0VsYzNRdERxb3Y0VUVOQ2hUOU8xMDJFdlR3TW1ydXF5WWJNdHAyWXpvd0Q5XzRPMzNmVEJveG1qSWdoTmp3NDdKMDBYTllsSk9hV0t1WU11SGJFblhSWXpOOTJ0LUQ0M3N5R3Q1V2FpT0ZyeWl0eDA0eWFMZkFyWW5tU01uNEd1SDRfeU1Ma1NER2loazEzeG52SG0xY19mMGJaM0w5SFdTWmtGMU1ySWZNR0hCX1VYOExpN0Y1V2FXY2t6dE5TWEZvTDIyQ0hOWFE5dnJ2Q1RYa1hIX1FFMmwzb19PNg?oc=5",
+          "source": "facebook.com",
+          "publishedAt": "Fri, 17 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-24T07:07:56.560149"
+        },
+        {
+          "title": "Reliance Retail Unit In Maharashtra Under FDA Scrutiny After Complaint Of 'Fungus, Live Larvae' In Kaju Katli",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQakNnUlpwbTJLNDNLMGdiYlBVeHlqb3FmMElLS2JlbXJTcmQ2c0ptNjRGMFRyX2JmZHFPWVc2UnBQdUtwQ3pIelZJNW1GNlNPeDB0LUxxQkc2a1BTWnlvXzFmdk9iNjhPcTRPcFFraHd3QndkMDRIcGcyVEcxVGFON1lXRmw2WHJ5ZUM1S0VBNVo3dHBDOVF4QU1zTGRUVHJsZk5QYW9pTFlrZU9nWFZERk9CeUJJTGQ2QmNuOF9MZU14czNmMkl3S2c1ai1lMEYyX3JhQklR0gHeAUFVX3lxTFBNQTRSTkNfeTk5TmFrcDJmbFg4bDNUX2FCTGFPTEJ2RFlEOEJVRU1keUJVVlpIRHNOakdSWExWZjV1ZV93S0Exa0dmSGN4YkxXV2lJWDhQUGFvZGVmdGlSUV9SNkstN1dvRFhCc2l3Tkp6Y0pvODFUR0RIQXJXNmhkbzV2dG05R2ROT1NxbGRvclZCM3JEREJkaXBnZ2pwSmpMaGdXeG9xYUJhRjFwdGJDcGZhSVVaVjJJU0V6RFIyY1lBazc2T2JYamdWMlJlVWR3TC1kRG1oYlA4OUFTUQ?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Mon, 10 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-24T07:07:56.560159"
+        },
+        {
+          "title": "Reliance brings SKIMS to India; Khaitan & Co advises",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGlySlF3ekdUcVpaM01aTC1NMGpfMnRwRjRWejBVa3EwVWJqY05sUFRyMHZFcGNycjFxUWJwUGdWTjNYczU1c1BoZUtfMzR5WGRDOHZyRUlUSlJJZWQ5TTJZSWQ5ZW4wd0tTbFFuMGdrMVFDamtCeEduVXZxZmtmR0Q3QXlsZWpneHBzejd4akJ2enNEQ1hNSUktXzc5WmM?oc=5",
+          "source": "Bar and Bench",
+          "publishedAt": "Wed, 19 Aug 2026 12:14:53 GMT",
+          "fetched_at": "2026-08-24T07:07:56.560164"
+        }
+      ],
       "filings": []
     },
     "TCS": {
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-24T01:41:03.666516",
+      "last_updated": "2026-08-24T07:09:07.761329",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 3,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -174,53 +212,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Tech Mahindra-ServiceNow Expand Partnership",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQXVoYmtJU1BIcnJYdjJJRllWalFyd2hfMzdfcHRTTWlYRnZlNWx0QmFqc2lla1Bia0YwZUlKUy1yc2M0a1RxZU1GdlNjbFNwSEEtWnV1dTBCNFFDM2l4cHd3X0tYYWFmWG5xemNGenlmZUV4RU1xWUdFWnVYNElMTEJGaksycHFCenM2LVg3Z2NRMmI3MzFzUDVB?oc=5",
-          "source": "fintechbiznews.com",
-          "publishedAt": "Thu, 20 Aug 2026 15:49:48 GMT",
-          "fetched_at": "2026-08-24T01:40:58.663480",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra Teams Up With ServiceNow To Provide Enterprise AI Solutions",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZzJZT3U3VlpKODFEQUlZd2JPX2NCdXdBVmRuSENaY0xBNzhSSW83RXJjaTJldnU0N3hXV01TODFvMFhhQ0ZPb1oyR3k4SFRodVRwWnNHeWVKc0I3dUtldGZOd3hnOWxlQVFJNS1yN1Jtd1FNLUZtTjFOZDlkcXdYR0lYTzhQQXJOR0szY2QzQ2t2ZFA3X3JaUzhteGc5T1pzSzc4eVl1UEVnTUlOeDBvX2FB?oc=5",
-          "source": "Sahi",
-          "publishedAt": "Thu, 20 Aug 2026 10:18:11 GMT",
-          "fetched_at": "2026-08-24T01:40:58.663495",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "F&O Strategy: Buy Tech Mahindra futures",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTW1PYVFlMldTTjZrdDlzU3dqVHNJZ2p0M0phNzBHUWFhaW50cXdBZ3hmVHRFeXFMbkplVGFsSzNoT2lZNUtzS2ZweXVDYzVKaWZ5aTJ0ckh6WTFwa083YVpldjZjTEVVY2c2VExiV25YdmpWU1VqblFxa2p3S2VqWUl4bzNtNlFqYkZ3WGF0cjZmWmVJNmdBTWhrLXlqRzJaNGhmbEpCNlBPemVld2RVWVFwWWh2Nkp5OXpWV3o3QS04eE5i0gHLAUFVX3lxTE5lSUlJVXh1ekNPb2NZbzlBNzJQZWtGMGVRQTRrZm9kdGEzNGVYOU1ibnBCV3pjTXk5YkdvZmcyMTJMTWN1Z09xM25xRVJLeVRieVI1NW5GaHBhc3JGeTdWVU9wXzZDMDhpemo3VjZ6N0kzNFV3bDU4c0dkYjRXQmhrNzhQZ1dDcDJFWUpWQlpRN2lPd2JMTVcyc2Q5c1N3WnZOSVFmY0R6SThFakJUbWFOZnNvelVHXzJTNUQ3dW5MZ1Azb3pyTmR2Umk4?oc=5",
-          "source": "BusinessLine",
-          "publishedAt": "Sat, 22 Aug 2026 15:38:34 GMT",
-          "fetched_at": "2026-08-24T01:40:58.663500",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra Q1 FY27 EBIT rises to ₹2,264 crores, up 53.3% YoY; New deal-wins at USD 1,078 Mn - up 33% YoY",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbTg3QnFxcWs1Y3BPa2gwRks1d1RoVjdKYkRVZDdWdUcxMzQ3UUtXTjRrTEgwRVJhdXVWSUpwWW5Zc2FONFkxTk9FVmN4bjZYazF0MDV2RS1rdGRONkxscFJiLWRaLVM0TVVyVi0zSmdBSUlWUVUzb3NOZ0tTSV9qX2JPTDhqYkRDX0E?oc=5",
-          "source": "Tech Mahindra",
-          "publishedAt": "Thu, 16 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-24T01:40:58.663511",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra scales ServiceNow practice, sets up AI & Innovation CoE",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYU1lU2x2bXlXSW04OXhKc0JKX3dhR2Y3MWpHakJoVWZmOXIxSkgxUDVuaWpNX2FiSEFyNmZ6cE1mUm52Nnl2YVV4TG9BcDVROGd3Wlo5ZllURERlbkFIdzhuc3V5N1AxaVBTMUc4ZEE5MmctMU1aZGJKNnVwcEQ1QnY2V0NoNG5sclBUT2hyVGtLOHFWd0ZMVUg0ajJ6RVpEelpLNHk1MzlNMzluQVhv?oc=5",
-          "source": "CRN Asia",
-          "publishedAt": "Thu, 20 Aug 2026 09:22:54 GMT",
-          "fetched_at": "2026-08-24T01:40:58.663516",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -228,7 +220,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-24T01:42:18.670948",
+      "last_updated": "2026-08-24T07:10:31.995432",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -312,18 +304,18 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-24T01:43:23.174733",
+      "last_updated": "2026-08-24T07:12:02.603179",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.5,
-        "label": "Positive",
-        "pos": 3,
-        "neg": 1
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -388,53 +380,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Axis Bank launches new campaign for NRI banking services",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOWFpakdEbkFKUTEtQWNnTmxNWURSaDdxSVhQNl8ydlgwdURvR25IM1dYc3cyX3ZlZVRzVkVWUDZKY2hacHVsRDZHc19mbmZLVmZPUnpGU3pYejhhQlRLMnBhVWkwVFdvU3pBSmFXSDJSZlpkRGlmV2NfcXAyQTJoUmltMEhCWHhnSXJIQU5hVGtJNktaV3liZFBRZ2hieEtQc2dhQWxrV1ZDN2FzQzdSM1BlQjRJamIzYy1ta2dOM29SbjRUSTU2b3F0b09NLWJQOXZ0SHVlYkzSAd4BQVVfeXFMT0RJWllwbnliMklMMm9zMDlYRjhNLWVJTWNwWEhucjdSVlEwTy1abWxydUhDdmNmMF80SXhNTjZPSHpaRTYyeEJ0NXN3R1pSQ0ducmJDVzlhU3lUV0JnaUZzbG52MU5uQVJ5Qm52QXBIZThfR2t0Tmt3eER5bmd3eVdNeXNVOG5uaTZBV3VFUnRDYUhKaVVSbU1OR1BkYmROYTB3c0M5Y1lqaE80SEtmLUItM2gwc0V5c04ydlpBOWd3OS1ONms2dkJaT2s4aHJ1OW5JRWZ4ZXluVHVadzhn?oc=5",
-          "source": "ET BrandEquity",
-          "publishedAt": "Fri, 21 Aug 2026 12:09:20 GMT",
-          "fetched_at": "2026-08-24T01:43:01.320472",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Axis Bank partners with SSAIT to set up India’s first fully integrated Olympic-standard Archery Centre in rural India",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRTZGODc2SlczemRwa0NEdDh5bk5FNXE1SGlvd2swaGUwQnVRUTRwSUE4RUxzcUFyU3FIWV8yOUNlV2tpMHRvQjRwclhweURWVkg3Y0lDNmFWVUxTNzdQWkQzRTlTYkxMVy1LSU5nY05tM2FPeC1IbktlTXFHTlVnZkw3SGNxdWZFWk9peEh4QXg2Y0M3RHlLTmdvWFd6bTRUYlMteHdTaTM0ZEU0R2Nlb3ZtaUJkVlZQM3pqbHdCZEZrMGJvOXNteHk0WkRWcGo1a3pNWkhFUWZmOHZpY0FPNnhMczVxcUYwaUHSAeoBQVVfeXFMTUU2Rjg3NkpXM3pkcGtDRHQ4eW5ORTVxNUhpb3drMGhlMEJ1UVE0cElBOEVMc3FBclNxSFlfMjlDZVdraTB0b0I0cHJYcHlEVlZIN2NJQzZhVlVMUzc3UFpEM0U5U2JMTFctS0lOZ2NObTNhT3gtSG5LZU1xR05VZ2ZMN0hjcXVmRVpPaXhIeEF4NmNDN0R5S05nb1hXem00VGJTLXh3U2kzNGRFNEdjZW92bWlCZFZWUDN6amx3QmRGazBibzlzbXh5NFpEVnBqNWt6TVpIRVFmZjh2aWNBTzZ4THM1cXFGMGlB?oc=5",
-          "source": "SMEStreet",
-          "publishedAt": "Sat, 22 Aug 2026 08:41:37 GMT",
-          "fetched_at": "2026-08-24T01:43:01.320491",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Axis Bank - Bank stocks to buy: Goldman Sachs remains bullish on 6 private bank stocks. Do you own any?",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWWtSYUdhN1I2ZFpEZjRUWDNmQVFqMWhjSmdwMEFHaVFKQTU5ZXV4UGFwY1p1MFBkOU9RckkzdTVvWHJVZ2tiS090aUxQdDNuYmZKU3BNRUcxdVdPM3JBUDk5dGJlQ3JYdllZQWdMNUE0VHktRU84RUdKOUVsTHMzZWpRNkQwNXlrR0pKZWVRMHZkYWtqR05xbHczTEhoTDNvei1ER2RELTJMS1BFVmE4b21LeTFFcWliUWZHQ05VNnAzYy15VGhlRDRkLWpRTVMzTVdCU3c3RHAwa1JXUUFVV1cwcHJ2eXV1S1pYMkY5eV9aUjkzeXhBTVRrWlBGSzA?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Sat, 22 Aug 2026 08:27:49 GMT",
-          "fetched_at": "2026-08-24T01:43:01.320499",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Hold YES Bank, Federal Bank; buy HDFC Bank, Kotak Mahindra, Axis: ICICI Securities",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVUdrRWFod3d4UFpxQlhidXZ0SGxRYVpJYjdEX0xyeFFGVS1qWm51OGh1amRfdXMtQlZpZ29zXzVQbkExQ3I5LUp1QThyanBFTF9QS04zY2tIdGx4N0ZsYWtYbGhwUmowZ2gzU1BoM01RYjBreU5xZEtLN2hjcllRUTVoNkY3VGJ4TTZVRjhOcFZLcHh3WmVmZWFiaHY1MkhIT05ZOUZBQzExV0NsemMzaFVRaVZoM0tycVRfa3lHTzJRNkxQYmVYdFdFT0tJNFNxWmFMT0Qyalp4MFdtdkHSAeMBQVVfeXFMUFNxYXUxMkdFWE1fQmswOS1ac3IxWmFTY1JxRzRqdVE4b1Z0VU9pVE9jRW94QURZbzNHbTNFT0tkSlh1ekJrWHJtNGdHZHlGZGtjS1AzUnZSZnZzYzhaMmFZY2pJSWt3aXBZX3poZUVaNkdQVS1KLXNLUk0xdm50V1M3NkxhYnJuRXJienZKYmRPS3oxbEdjVDAyaWVMTjV6S19Qcml6Z1liWU9XdFR5eW1yUnhWMmpOcEdyWVJRUzJ4UTd3dC1aRlhtNG5za2I3a20tR0duQ01LWm1uZnlwNDEyT0U?oc=5",
-          "source": "Business Today",
-          "publishedAt": "Sun, 23 Aug 2026 09:30:02 GMT",
-          "fetched_at": "2026-08-24T01:43:01.320503",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rs 5,00,000 One-time Investment in 5-year Senior Citizen FD: SBI, HDFC Bank, ICICI Bank, PNB or Axis Bank returns compared",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQM1UxTUs1RWVieHNxalhQMlpXZ09XTWNXLTR5TjNTTlJSSDI3Yl8tcTBIVEphSGN3N1VQdWY2VnNmTUxXUHZKUXpNU2w0aHFzOV8wN3VzMWRfUnlhUmd3enJzekdrUmc1WWs1LURnLWljS2wyT2dGVFhDdWRSNW5Ha1FONFpWZFpERkk0c0VzQ1hCR3AweFNQYU9KcDRvblA4clpuZlBCUkV2RnRDRHRGNzVLX1dKQjB2aGxsbzk0RGY2QWV2MmxGN1BlWUswT2NwVHB4TDZ4SFdGUk14UWxOSXBKTmNZTGwxb2NWLUl5SlRZQTlyUl9GYlpaRi1tYjkteXFaTVZpcUhhZw?oc=5",
-          "source": "Zee Business",
-          "publishedAt": "Sat, 22 Aug 2026 08:19:19 GMT",
-          "fetched_at": "2026-08-24T01:43:01.320507",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -442,7 +388,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-24T01:44:35.721552",
+      "last_updated": "2026-08-24T07:13:11.820389",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -526,7 +472,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-24T01:45:54.364687",
+      "last_updated": "2026-08-24T07:14:23.395073",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -610,7 +556,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-24T01:47:39.594669",
+      "last_updated": "2026-08-24T07:15:51.050189",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -694,7 +640,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-24T01:48:47.453204",
+      "last_updated": "2026-08-24T07:17:06.866466",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -778,7 +724,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-24T01:49:17.514672",
+      "last_updated": "2026-08-24T07:17:36.964758",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
