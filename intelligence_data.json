@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-23T18:46:25.927741",
+    "generated_at": "2026-08-24T01:49:17.514689",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-23T18:36:33.606425",
+      "last_updated": "2026-08-24T01:40:27.490538",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,17 +98,17 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-23T18:38:04.206396",
+      "last_updated": "2026-08-24T01:41:03.666516",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 3,
         "neg": 0
       },
       "news": [],
@@ -174,7 +174,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Tech Mahindra-ServiceNow Expand Partnership",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQXVoYmtJU1BIcnJYdjJJRllWalFyd2hfMzdfcHRTTWlYRnZlNWx0QmFqc2lla1Bia0YwZUlKUy1yc2M0a1RxZU1GdlNjbFNwSEEtWnV1dTBCNFFDM2l4cHd3X0tYYWFmWG5xemNGenlmZUV4RU1xWUdFWnVYNElMTEJGaksycHFCenM2LVg3Z2NRMmI3MzFzUDVB?oc=5",
+          "source": "fintechbiznews.com",
+          "publishedAt": "Thu, 20 Aug 2026 15:49:48 GMT",
+          "fetched_at": "2026-08-24T01:40:58.663480",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Teams Up With ServiceNow To Provide Enterprise AI Solutions",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZzJZT3U3VlpKODFEQUlZd2JPX2NCdXdBVmRuSENaY0xBNzhSSW83RXJjaTJldnU0N3hXV01TODFvMFhhQ0ZPb1oyR3k4SFRodVRwWnNHeWVKc0I3dUtldGZOd3hnOWxlQVFJNS1yN1Jtd1FNLUZtTjFOZDlkcXdYR0lYTzhQQXJOR0szY2QzQ2t2ZFA3X3JaUzhteGc5T1pzSzc4eVl1UEVnTUlOeDBvX2FB?oc=5",
+          "source": "Sahi",
+          "publishedAt": "Thu, 20 Aug 2026 10:18:11 GMT",
+          "fetched_at": "2026-08-24T01:40:58.663495",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "F&O Strategy: Buy Tech Mahindra futures",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTW1PYVFlMldTTjZrdDlzU3dqVHNJZ2p0M0phNzBHUWFhaW50cXdBZ3hmVHRFeXFMbkplVGFsSzNoT2lZNUtzS2ZweXVDYzVKaWZ5aTJ0ckh6WTFwa083YVpldjZjTEVVY2c2VExiV25YdmpWU1VqblFxa2p3S2VqWUl4bzNtNlFqYkZ3WGF0cjZmWmVJNmdBTWhrLXlqRzJaNGhmbEpCNlBPemVld2RVWVFwWWh2Nkp5OXpWV3o3QS04eE5i0gHLAUFVX3lxTE5lSUlJVXh1ekNPb2NZbzlBNzJQZWtGMGVRQTRrZm9kdGEzNGVYOU1ibnBCV3pjTXk5YkdvZmcyMTJMTWN1Z09xM25xRVJLeVRieVI1NW5GaHBhc3JGeTdWVU9wXzZDMDhpemo3VjZ6N0kzNFV3bDU4c0dkYjRXQmhrNzhQZ1dDcDJFWUpWQlpRN2lPd2JMTVcyc2Q5c1N3WnZOSVFmY0R6SThFakJUbWFOZnNvelVHXzJTNUQ3dW5MZ1Azb3pyTmR2Umk4?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Sat, 22 Aug 2026 15:38:34 GMT",
+          "fetched_at": "2026-08-24T01:40:58.663500",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Q1 FY27 EBIT rises to ₹2,264 crores, up 53.3% YoY; New deal-wins at USD 1,078 Mn - up 33% YoY",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbTg3QnFxcWs1Y3BPa2gwRks1d1RoVjdKYkRVZDdWdUcxMzQ3UUtXTjRrTEgwRVJhdXVWSUpwWW5Zc2FONFkxTk9FVmN4bjZYazF0MDV2RS1rdGRONkxscFJiLWRaLVM0TVVyVi0zSmdBSUlWUVUzb3NOZ0tTSV9qX2JPTDhqYkRDX0E?oc=5",
+          "source": "Tech Mahindra",
+          "publishedAt": "Thu, 16 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-24T01:40:58.663511",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra scales ServiceNow practice, sets up AI & Innovation CoE",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYU1lU2x2bXlXSW04OXhKc0JKX3dhR2Y3MWpHakJoVWZmOXIxSkgxUDVuaWpNX2FiSEFyNmZ6cE1mUm52Nnl2YVV4TG9BcDVROGd3Wlo5ZllURERlbkFIdzhuc3V5N1AxaVBTMUc4ZEE5MmctMU1aZGJKNnVwcEQ1QnY2V0NoNG5sclBUT2hyVGtLOHFWd0ZMVUg0ajJ6RVpEelpLNHk1MzlNMzluQVhv?oc=5",
+          "source": "CRN Asia",
+          "publishedAt": "Thu, 20 Aug 2026 09:22:54 GMT",
+          "fetched_at": "2026-08-24T01:40:58.663516",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-23T18:39:19.823910",
+      "last_updated": "2026-08-24T01:42:18.670948",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,18 +312,18 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-23T18:40:37.804894",
+      "last_updated": "2026-08-24T01:43:23.174733",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.5,
+        "label": "Positive",
+        "pos": 3,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -342,7 +388,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Axis Bank launches new campaign for NRI banking services",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOWFpakdEbkFKUTEtQWNnTmxNWURSaDdxSVhQNl8ydlgwdURvR25IM1dYc3cyX3ZlZVRzVkVWUDZKY2hacHVsRDZHc19mbmZLVmZPUnpGU3pYejhhQlRLMnBhVWkwVFdvU3pBSmFXSDJSZlpkRGlmV2NfcXAyQTJoUmltMEhCWHhnSXJIQU5hVGtJNktaV3liZFBRZ2hieEtQc2dhQWxrV1ZDN2FzQzdSM1BlQjRJamIzYy1ta2dOM29SbjRUSTU2b3F0b09NLWJQOXZ0SHVlYkzSAd4BQVVfeXFMT0RJWllwbnliMklMMm9zMDlYRjhNLWVJTWNwWEhucjdSVlEwTy1abWxydUhDdmNmMF80SXhNTjZPSHpaRTYyeEJ0NXN3R1pSQ0ducmJDVzlhU3lUV0JnaUZzbG52MU5uQVJ5Qm52QXBIZThfR2t0Tmt3eER5bmd3eVdNeXNVOG5uaTZBV3VFUnRDYUhKaVVSbU1OR1BkYmROYTB3c0M5Y1lqaE80SEtmLUItM2gwc0V5c04ydlpBOWd3OS1ONms2dkJaT2s4aHJ1OW5JRWZ4ZXluVHVadzhn?oc=5",
+          "source": "ET BrandEquity",
+          "publishedAt": "Fri, 21 Aug 2026 12:09:20 GMT",
+          "fetched_at": "2026-08-24T01:43:01.320472",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Axis Bank partners with SSAIT to set up India’s first fully integrated Olympic-standard Archery Centre in rural India",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRTZGODc2SlczemRwa0NEdDh5bk5FNXE1SGlvd2swaGUwQnVRUTRwSUE4RUxzcUFyU3FIWV8yOUNlV2tpMHRvQjRwclhweURWVkg3Y0lDNmFWVUxTNzdQWkQzRTlTYkxMVy1LSU5nY05tM2FPeC1IbktlTXFHTlVnZkw3SGNxdWZFWk9peEh4QXg2Y0M3RHlLTmdvWFd6bTRUYlMteHdTaTM0ZEU0R2Nlb3ZtaUJkVlZQM3pqbHdCZEZrMGJvOXNteHk0WkRWcGo1a3pNWkhFUWZmOHZpY0FPNnhMczVxcUYwaUHSAeoBQVVfeXFMTUU2Rjg3NkpXM3pkcGtDRHQ4eW5ORTVxNUhpb3drMGhlMEJ1UVE0cElBOEVMc3FBclNxSFlfMjlDZVdraTB0b0I0cHJYcHlEVlZIN2NJQzZhVlVMUzc3UFpEM0U5U2JMTFctS0lOZ2NObTNhT3gtSG5LZU1xR05VZ2ZMN0hjcXVmRVpPaXhIeEF4NmNDN0R5S05nb1hXem00VGJTLXh3U2kzNGRFNEdjZW92bWlCZFZWUDN6amx3QmRGazBibzlzbXh5NFpEVnBqNWt6TVpIRVFmZjh2aWNBTzZ4THM1cXFGMGlB?oc=5",
+          "source": "SMEStreet",
+          "publishedAt": "Sat, 22 Aug 2026 08:41:37 GMT",
+          "fetched_at": "2026-08-24T01:43:01.320491",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Axis Bank - Bank stocks to buy: Goldman Sachs remains bullish on 6 private bank stocks. Do you own any?",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWWtSYUdhN1I2ZFpEZjRUWDNmQVFqMWhjSmdwMEFHaVFKQTU5ZXV4UGFwY1p1MFBkOU9RckkzdTVvWHJVZ2tiS090aUxQdDNuYmZKU3BNRUcxdVdPM3JBUDk5dGJlQ3JYdllZQWdMNUE0VHktRU84RUdKOUVsTHMzZWpRNkQwNXlrR0pKZWVRMHZkYWtqR05xbHczTEhoTDNvei1ER2RELTJMS1BFVmE4b21LeTFFcWliUWZHQ05VNnAzYy15VGhlRDRkLWpRTVMzTVdCU3c3RHAwa1JXUUFVV1cwcHJ2eXV1S1pYMkY5eV9aUjkzeXhBTVRrWlBGSzA?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sat, 22 Aug 2026 08:27:49 GMT",
+          "fetched_at": "2026-08-24T01:43:01.320499",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Hold YES Bank, Federal Bank; buy HDFC Bank, Kotak Mahindra, Axis: ICICI Securities",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVUdrRWFod3d4UFpxQlhidXZ0SGxRYVpJYjdEX0xyeFFGVS1qWm51OGh1amRfdXMtQlZpZ29zXzVQbkExQ3I5LUp1QThyanBFTF9QS04zY2tIdGx4N0ZsYWtYbGhwUmowZ2gzU1BoM01RYjBreU5xZEtLN2hjcllRUTVoNkY3VGJ4TTZVRjhOcFZLcHh3WmVmZWFiaHY1MkhIT05ZOUZBQzExV0NsemMzaFVRaVZoM0tycVRfa3lHTzJRNkxQYmVYdFdFT0tJNFNxWmFMT0Qyalp4MFdtdkHSAeMBQVVfeXFMUFNxYXUxMkdFWE1fQmswOS1ac3IxWmFTY1JxRzRqdVE4b1Z0VU9pVE9jRW94QURZbzNHbTNFT0tkSlh1ekJrWHJtNGdHZHlGZGtjS1AzUnZSZnZzYzhaMmFZY2pJSWt3aXBZX3poZUVaNkdQVS1KLXNLUk0xdm50V1M3NkxhYnJuRXJienZKYmRPS3oxbEdjVDAyaWVMTjV6S19Qcml6Z1liWU9XdFR5eW1yUnhWMmpOcEdyWVJRUzJ4UTd3dC1aRlhtNG5za2I3a20tR0duQ01LWm1uZnlwNDEyT0U?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Sun, 23 Aug 2026 09:30:02 GMT",
+          "fetched_at": "2026-08-24T01:43:01.320503",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Rs 5,00,000 One-time Investment in 5-year Senior Citizen FD: SBI, HDFC Bank, ICICI Bank, PNB or Axis Bank returns compared",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQM1UxTUs1RWVieHNxalhQMlpXZ09XTWNXLTR5TjNTTlJSSDI3Yl8tcTBIVEphSGN3N1VQdWY2VnNmTUxXUHZKUXpNU2w0aHFzOV8wN3VzMWRfUnlhUmd3enJzekdrUmc1WWs1LURnLWljS2wyT2dGVFhDdWRSNW5Ha1FONFpWZFpERkk0c0VzQ1hCR3AweFNQYU9KcDRvblA4clpuZlBCUkV2RnRDRHRGNzVLX1dKQjB2aGxsbzk0RGY2QWV2MmxGN1BlWUswT2NwVHB4TDZ4SFdGUk14UWxOSXBKTmNZTGwxb2NWLUl5SlRZQTlyUl9GYlpaRi1tYjkteXFaTVZpcUhhZw?oc=5",
+          "source": "Zee Business",
+          "publishedAt": "Sat, 22 Aug 2026 08:19:19 GMT",
+          "fetched_at": "2026-08-24T01:43:01.320507",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -350,7 +442,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-23T18:41:44.957713",
+      "last_updated": "2026-08-24T01:44:35.721552",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +526,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-23T18:42:53.881456",
+      "last_updated": "2026-08-24T01:45:54.364687",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,11 +610,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-23T18:44:37.032931",
+      "last_updated": "2026-08-24T01:47:39.594669",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -594,53 +686,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Highlights: Gujarat Titans vs Rajasthan Royals | Qualifier 2 | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVENVUDFKUWpTSWNMcVpyVmpoUFlxUDBiUHhIUXBGYVZEQWZVYl9ISjhydkR0ZXhfWVpYSlNfUG4ybTl5QWhBcEpqRU1CSEJaUVhzYlVuNE1CSDh1VU5ZSnBsUlhEVWIyX0UtUTFOeDlhc01rS0pnS2ZJVTRNOXdCazRZZkxTZ2JEOVEtSXZ1Ny1DZ1RlcXlUZGFqYnNNa1pr?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 23 Aug 2026 14:34:12 GMT",
-          "fetched_at": "2026-08-23T18:44:22.010921",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Indian Premier League 2027: Zubin Bharucha joins Mumbai Indians as Director of Performance",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc3dYdDhJcnNlVXhTaGpkUlZXbk5zcWw5RE51eUJfY1BjUlFUcmtsakkzYkhJdmV5d0Uwc0pSWng2U3YzajNNTzMyZ2xiMU04M2MxSFNfYjJidHpub19obEVBaGU1ZmhqSEdrRTkyNkJkV2RqQ2FUTE9HZVFONmUxODFyYjJ1Uk1sVUtFRFBzMEkwd09NYXZZZXRuV0ZxRGJBdmtEa0lPdEJuWGttTWpOMWEtVkZkR1VHR2xWVWF6WXh1MklFVGJMcDFWbGZ6UmJ3MnM3U09QeUxxaExuaWhJ?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sat, 22 Aug 2026 13:06:35 GMT",
-          "fetched_at": "2026-08-23T18:44:22.010937",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Zubin Bharucha joins Mumbai Indians as director of performance",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaTJ6WmdWOF9Kb0FiR01HLThvWWc4czh5V050U0hkTVRzSFdMalFFSDJsREl4TGMwWmJvb0xuREo5N050NXI2dzFlUG5DMWpaQ29IVjlBNjZOU2p1X2dkY2hqWFFMRDV3ZjVPWkQyRWJTNlZ2aThGcHNqdFZ0VXpmZkllTmtLS1JRN1hMc3lZQVZxMVJ0LUNOT3Z5alBCazRPMmlBWm11bkJ1S0lvVTlv0gHAAUFVX3lxTE4zT2V2SE53QzBnMU5ldC15dVl3VnhoSXVhR2xweEJSaFE1clRCbUhSdmVNTG9qQUtGNHNMSTl1QWZ2RkIybGYzdjR4clRBUVVjZS1SSmVIYkQ4MmwyLTVOM3VPU2RERk5JZWZ1TTRqLWt1dUtteGxCRmQ3WFZ0X0Q0UUs3ZkxhLV81VlZwTzRiN3lqekNlMmZaUnE4S3hnTF8yeHZkaGlRblkwVDZGX1BDQ2R4Z0J6bGlndlNFQmE2ag?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sat, 22 Aug 2026 10:06:20 GMT",
-          "fetched_at": "2026-08-23T18:44:22.010941",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Mumbai Indians Appoint Zubin Bharucha As Director of Performance",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZV9fQzVDcjhIZmEzbXF3ODNOWkMxSERKWjJya3luWUJvc3NnT25ZUHFXY3Bya09IUDdsNTRtdlpOd1RiUVhNd2hOMkxxczFpZk5EUDhxNnQteXJKSDNJZFc2Uno5aC1vYzZiRTl0RnFjeWV0eVkycFpna0NUMFdIZ0dwd1p3M05LWEZ2UFZZZ3Z6alF5STRtVnYwUWFKNzktQVR0X2w1aDNpVC1zQUotUVhYeTE0cVNuS2dNQ2dqWEF0SDYtTTRmVWhvVkYwR2tsd2MzZWg1MmdMNm16YVMyNHdEMFVON2NwUGRJ0gHuAUFVX3lxTFBKanVyMEZIMW95Z09TM1J1LWhEekZ3WGsxaFNFUVVDY0VwMVh0ZEtjcFU2MDlIZE91MEpGSWhfak53N00wclZvSE5WSFZvRXpzSmhIQkdwaDNNN3Z5R3BrVFNnZ19GWDVHb3JaMHdCc012VnpOWUQxSnNCZEQyTzhFX3NjM2lTcnJBOTJOeng5cVd0RmlPMmFpSUhValdSR21oZWdKa2RockVCbkItOE43S3lDWktpTDVXeDlOeWNvVlhIVVZhb1ZkV3hmSmU4OXNrVVczcHhrc3hRdkt1bkNtYllEMDdSWmVvV1ZBaHc?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Sat, 22 Aug 2026 10:30:20 GMT",
-          "fetched_at": "2026-08-23T18:44:22.010945",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rahul Dravid wants Vaibhav Sooryavanshi to grow beyond T20s as Test cricket fights on: ‘We need players like him’ | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQalBDMlBDU3BIUkFLc3Z2UTlNbjJKRks4bVoxaERFVWV5VEZQUTItaHJDWFh1WS1mNUtwT3lucERuaXJBRVNtYXdoNWNRcmJFVnBhcFc0NURvMmQ2ZTJYSmZLRzJzUW5zdjFvRHBuaGJ6WVgxS1ktaVBxdldiSEU5WUgzRUZITldrVXZmSHFOTDZKVEdxRC1lSXp6TmJ4TlNNWjhidlIyVkNOeFFjTmZGZFpSc0dpU3ZMeHIzaEo1TjMxOEY4TjgxNnJ0YkJUZGZvUTR1QTdnSVYtV0ZjTFhtT2YyY2NKTklVMXY2MmdVMTN5N1d6eVFLVkNlV2FpU03SAYQCQVVfeXFMTUVBS3Z6c0phbl82QXVQcWl3UVRaS1BlLUpwVHJ1aDFKZGRJMWVob3RBN3NwQ3NleVUyOWxHbDdmM1BGeE16aFhJMV9aclJxeHo2Z3d0MnBTRVRqaEVrRWhYN21RT2ZzNHVGbnoycTRUMEtZUXJTVmVZcVhHenpkRjc0LWxuNDdwOWpEdVFTcWE3WnpYTHlLbi1FREk1NWh1MHVFRUQwRWxFa2FqQlR1UjB0NklNMUd4ZGwxZnRpQTBvNTJaanNYS2E1S2lKMnR2T3J0R05lbzY4WnZtSEVYZEhRcGIyYnlKbUZCV2xTUk1LSHlsOUk0eUhIOHNqWDdPNlJQOEQ?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Sat, 22 Aug 2026 06:43:17 GMT",
-          "fetched_at": "2026-08-23T18:44:22.010955",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -648,7 +694,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-23T18:46:07.291090",
+      "last_updated": "2026-08-24T01:48:47.453204",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -732,17 +778,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-23T18:46:25.927734",
+      "last_updated": "2026-08-24T01:49:17.514672",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -809,43 +855,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUllVEdkVVpqM2d4S253dmV1N0pjM1h4MzBhemNHS3l2M01HR2hMOXg2b2VxbmJfWEhnelNjUnMwQ2Q5d2ViMHFKLWZVU3ptdFRURkstV3p4NGVuQnJxRTFGdHNYWTZBSXpvUi1iMmZhWGhwSkRVTk1NM0lFSm9wSTFnLUR4ZjUyd1lYZ0s5ODRLTXlnakttY014WmdiWlJVZm5LSS1PTzFTWHRu?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Thu, 13 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-23T18:46:25.927413"
-        },
-        {
-          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
-          "source": "EurekAlert!",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-23T18:46:25.927431"
-        },
-        {
-          "title": "Material Histories and Material Futures at Foster + Partners",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUVJYU11a0czSFdJZTdWVHVZTFZqODlFRnVkQ0d0ZTJjdjRnY0R2UUg1OEY1M0NDakxzRmhHb014UUxwdU1fRjFOQlNvNWJIRE9IYzZ5SHRrXzJDakMtYlVqYXVrSVpFRDR1TllabGplbWV3LU5FMnRLTk1mZkxMeGk0cW1NZU94NnpoZzJtSFJYa2czXzZkSGNXSEtvbXhiYU9SUWdQejNZNi1UV2Z0Q01EWFlhMHQtRmM0?oc=5",
-          "source": "Foster + Partners",
-          "publishedAt": "Wed, 10 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-23T18:46:25.927437"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-23T18:46:25.927441"
-        },
-        {
-          "title": "Bad Crosswalk Will Cost L.A. $20 Million and Counting",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82MzVibXhzQ2V0MmJlRzVKZEV2Vlh0dVFIbWlhTUJnSXgwbWNWdTZJazZKNGl6Y0taQy12ZlB5NTJiaXZpVGRfdTY5czNWdzM5R00zZDJnZTc1NFpIMmlDRUlhM0RnT2V1b0NFUURBUWY4ejRqRTB5MkRBT0xJUQ?oc=5",
-          "source": "L.A. Material",
-          "publishedAt": "Wed, 15 Jul 2026 12:18:55 GMT",
-          "fetched_at": "2026-08-23T18:46:25.927445"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
