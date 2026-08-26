@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-26T01:48:24.483628",
+    "generated_at": "2026-08-26T07:06:26.566818",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-26T01:39:33.179119",
+      "last_updated": "2026-08-26T06:57:15.157059",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,17 +98,17 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-26T01:40:31.287678",
+      "last_updated": "2026-08-26T06:58:19.294846",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -175,14 +175,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "TCS and Porsche AG Partner to Accelerate the Future of AI-Powered Mobility",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTHNfb0V1MnUxOER3aVZVWEhUVHdHazRpdjFrZGktY3IxWC1wbzBCZ3Bjd1pMQk1FNk1kWUwzOWJMM05NVURRUHFjUURNMENHLXdfWlZFRmc3bms5US03cFBrRzk0U3pMR2hSempVckJMakJSU0Q4N3Y0emlWVWFHcjlwMUlxeGFGR3dLdFluTzhXSGp3UlhJRVZmWjNTVGlWMl9FX0dVZUJpTzRZcExacjBScV9BU3Jx?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Mon, 24 Aug 2026 12:22:26 GMT",
+          "fetched_at": "2026-08-26T06:58:19.294500"
+        },
+        {
+          "title": "Porsche sells MHP to Tata Consultancy Services",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeHFwVEE1MVllNXIzQ1ZoWnBrRzJEUElXbGtkbGZ4X1JxdFdNdGtncDZZaWlxdC1mTHJlNVhidHVTTnB3VnI4ZXh3TmpMckhQa1E2U19hemZnVkZCYm85NzdYOGc5VExvb1JLYTlVTGxVdWx4QzFkdDFCSVpGX3hQbnJZQU9JWGVCc0lQY2pXOUNaU1ZDbWc5TUUxVl95X1U?oc=5",
+          "source": "Porsche Newsroom",
+          "publishedAt": "Mon, 24 Aug 2026 11:47:56 GMT",
+          "fetched_at": "2026-08-26T06:58:19.294514"
+        },
+        {
+          "title": "Porsche inks $1.5 billion deal for AI deployment with India’s largest IT services firm Tata Consultancy",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWlhoM1hsTlFFU1Y1blFjS25lYnNKemdoWjMzSGM1NGRrdC05bHRHa3hiTnVwOW9fSU4wTUhCNkhlWHc2b014ZkdCVkZoNHhjY2ctMTZJUExiOXR5dnRlNzQ2NVBFYXdJeWVGWTZHMzd5Y2MxWXJjMHliUXMyR2l3OHhxWEjSAYoBQVVfeXFMTkY5eHZ1ZzlZUEl3Skt3SHJnTHBuV045QTR3aUJQWGJDMHQzRGstSklJYnU1Qmk3YXdkU29RcENjcERrSlVPMHhXWXhHVFJhMW43dUE1UW52Vk1pYlN6NVN2RUMzRUVGUnVCMnFiOEkzM2JocGFVNjN0YUdORWtURUVDMHFDRGhza25R?oc=5",
+          "source": "CNBC",
+          "publishedAt": "Tue, 25 Aug 2026 03:01:00 GMT",
+          "fetched_at": "2026-08-26T06:58:19.294523"
+        },
+        {
+          "title": "TCS To Acquire Porsche’s MHP In €320 Million Deal, Signs Five-Year AI Mobility Partnership",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1GdHlxNzdCX0NFZW5yTUR4b0dqajN0YWNyenFkeGZkUW1BMTNuekhXWDZYRjBtWVl2ZUxVWU1tOFJWdmpqR2p3Zy1HNXVaYW5ZOTdJc3pRalU1cXQzRjk3TlUxRTNfcHVTemIxWDk0NlhmVFFIVnNsS2REY1g?oc=5",
+          "source": "Autopunditz",
+          "publishedAt": "Wed, 26 Aug 2026 06:09:43 GMT",
+          "fetched_at": "2026-08-26T06:58:19.294528"
+        },
+        {
+          "title": "Porsche Taps Tata Consultancy Services to Establish AI Mobility Centre of Excellence",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHFKRHlxa0Rpd2xPb3h2bXhscnoxVDlsOXB1SnUtcVNJTjVPNW1kRi0tdFhmdFF2bzI5dWZmZGJFOXV0M09WMEpWN2pnMDdaZFVVR3Z5RWFBbERWd3JuckpuaVJlbVZiOGI5ZURHLVdZQ2tScS1PV0hKOU1abWw5VXBUYlAzVGN5aG4zWWdLUldKNDdwSUl0WC1YODdwdnZibFhuOUFhbG42WE1RT01CT093?oc=5",
+          "source": "ACKO Drive",
+          "publishedAt": "Tue, 25 Aug 2026 19:47:08 GMT",
+          "fetched_at": "2026-08-26T06:58:19.294532"
+        }
+      ],
       "filings": []
     },
     "Infosys": {
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-26T01:41:54.158251",
+      "last_updated": "2026-08-26T06:59:23.726484",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +302,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-26T01:43:16.069712",
+      "last_updated": "2026-08-26T07:00:31.302433",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +386,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-26T01:44:22.455603",
+      "last_updated": "2026-08-26T07:01:59.268960",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,11 +470,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-26T01:45:35.178225",
+      "last_updated": "2026-08-26T07:03:10.626620",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -510,7 +546,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Apollo, KKR and IFM reach final round for AB Ports stake sale - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZl9BQkg5THgxSGNTcmxDU3kteHdER2JXSldHQUZOWWJiSUJOY2tkbnhQZE5vc3dlVVRPRlFmUDdyaG9Db1JkNGFnWXA0QUtGTEtzbWVLTmxsbEtLRGtXWktLQmRiakI3bDhOdkw5aDZSZFRNaEQtVzlIU0dfYkZGX1o5bHVqQXhHeE4wZjJldmhWU0NLNXFXV2ZkMVVpbFMxUDM0QV9Zd2dmQWFEMVNBZnZ3X1Y5RE9nZGhHTzcxdXBBbkpvd3FjbUVOaWs?oc=5",
+          "source": "Investing.com India",
+          "publishedAt": "Tue, 25 Aug 2026 15:28:55 GMT",
+          "fetched_at": "2026-08-26T07:02:43.454861",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXJoSGZzVHdJYzNNQ0RFT19meldCQlNwaS1fNVRmLTQ3ZUZkUHY2UDA3RnFGUm1IM090NmRTeHVhQjNMeDEzZTNISFZ2cWcwS0hfMnZxTXVPeGY0WVFZeEpaaERrbGEyWkdhd3ZoZTZhaWdBdlVabEpMaHZJNWw5NlFjNmNCRkRIenFPa2NLR0xrMWVPLTU4UTJKSjFNeVRIWkJsdGhwMFVfRXZWSW56ay1kTWItNURo?oc=5",
+          "source": "Bar and Bench",
+          "publishedAt": "Tue, 25 Aug 2026 04:54:02 GMT",
+          "fetched_at": "2026-08-26T07:02:43.454874",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Apollo, IFM and KKR Said to Be Finalists in AB Ports Stake Sale",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPajAxOGVNUHF3QkdsaWZXUDZaVkU5MzZWQXFZX3ZMMl9vaFU3RWpjWWFvUWlUcEktZjF4UVM1VFZrUWVGWFM3clNaZFp1OWpNeGRlc2xZUHJjanEwYUYzWkdwMGxjdGVwQTlyMDRZbFZFLXB0c0NrWU1xOHBod0dDNThscnZ2YThFRGVDWi1EWFUxZS1yZnpxWTBUSTBHQ2JERWxjTS1oeXpualpBenFSamFrNA?oc=5",
+          "source": "Bloomberg.com",
+          "publishedAt": "Tue, 25 Aug 2026 13:59:13 GMT",
+          "fetched_at": "2026-08-26T07:02:43.454879",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR to acquire Japanese beauty platform Ci FLAVORS",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmZzRmVNQXBMYnQtNWRBRWIxejg1Q09CZXkwZ0FDTkQ3SnVqY1Rfdm41S0FSWXpBZWVCUk5LY2JnRDNnQzZzRjllM0laZGJ0WVpVYTdlV2RPS3oweTg1djBCOEhlNnJZMGMwOUhOOXVNQnVPOUV2MUlsWlQtWTViUnUwbVY5VExuSVlUZVFfbm4wNzBZUkw2NjF3MG1tYk9jYkc4ZUo4WGVhTUpxdFhucQ?oc=5",
+          "source": "Investing.com India",
+          "publishedAt": "Tue, 25 Aug 2026 04:11:46 GMT",
+          "fetched_at": "2026-08-26T07:02:43.454883",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR to buy 6% stake in India's BookMyShow for up to $50 million, source says",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMjA1NnVzVHptS2lVaVdpRVdFSHhYbGtHenJ6amtHODF1eFVIa053UWh2dEhuN1hBeU9Xc0NUaGxQMEJPS1ZQVk83dFJhc3hSaHduT0R6dHplLWRkQ0I5UkVTZzNSbTUzWFh4ZXlnMldmNHJNSk90dDJfZFF0N0h4STNPUXRyNE10TW9rSTYtNEk2WmJNZlRFcXEwSEZZR1FpalRmYWJrSHVWVG9T?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Wed, 19 Aug 2026 05:27:17 GMT",
+          "fetched_at": "2026-08-26T07:02:43.454887",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,7 +600,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-26T01:46:55.996071",
+      "last_updated": "2026-08-26T07:04:37.577425",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +684,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-26T01:48:05.411675",
+      "last_updated": "2026-08-26T07:05:56.497603",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +768,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-26T01:48:24.483610",
+      "last_updated": "2026-08-26T07:06:26.566797",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
