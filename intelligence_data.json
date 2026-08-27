@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-27T08:41:11.132690",
+    "generated_at": "2026-08-27T22:11:04.898480",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-27T08:31:51.749302",
+      "last_updated": "2026-08-27T22:04:09.926189",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,43 +98,21 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-27T08:33:23.315133",
+      "last_updated": "2026-08-27T22:05:05.256943",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -0.33,
-        "label": "Negative",
-        "pos": 2,
-        "neg": 4
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at TCS",
-          "severity": "Medium",
-          "description": "ESG red flags detected at TCS: emissions. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "IT stocks reverse early gains: TCS, Infosys, HCL Tech drag Nifty IT down amid selling pressure from Asian markets  Stock markets decline in early trad...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "emissions"
-          ],
-          "solutions": [
-            {
-              "title": "TCS: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -174,55 +152,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "TCS: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "IT stocks reverse early gains: TCS, Infosys, HCL Tech drag Nifty IT down amid selling pressure from Asian markets",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNdEhqZnBxYldVRTJDcGVBb1BjUXU0d0hEN1I5MUZrdmtBcFJZUjZJeXRBVE5CVmhsQkhkaTJQZVpabG5WOERES0tidk13a2RmMUhVYnRURWZDY3kycGhsb2xNTjZOejZndzVidWlNMXFTSGhrdmdiZEtOOTZiUFJWQ2NnTlA3MHJmY055SU9rUlBZV1pHU2pleGxhWGpRV3R4b3NMaHBxa25kbDNKdU5Bajh6QnZIWS1TQjZ5SlFZOGNZVDF6OU51ek55OEUyNkpBb0h0YlZyNnBrcWFyWndySkxqQ3BzMngtQWRMakJCUEtYbUpDbE5OUS1nZ3R1UQ?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Thu, 27 Aug 2026 06:28:59 GMT",
-          "fetched_at": "2026-08-27T08:32:53.243477",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Stock markets decline in early trade, dragged by HDFC Bank",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1NRRG5COW5JckhFbmtaMHZsMUU0UnNPMVhXdGg4Si1kWWdxUGt5M1MwVVFvaEV1a2ZSbnpFS0I3Tkw0VkRzam9xQ1FjSkRCTDdWSGhUSVY1bnBNdXhfOFFQQ0xWV21UekFwS3NLeW50Y1U2RWRJR1NNa09wWm5IMlZYWFNGTmVSZ3c5Q2Nld0pkV3BxLWtMTHZIQVEtMFBSeEtrLUVsU0hNM0JZem1MZtIBvgFBVV95cUxQUG9kNlBaMTREQjNHMFNEWVR1R1M4VEdNcUpvVEtWb1VqdjNtS3d6d1hYbkZDUzZEVFdrOFp1N1RRb0xLLW1rMWtPV3JsWFE3QUJfUTU2T3BCLVpOczA0WHVuMWp2c1VpSDIzQ1JfQ2hIdWJJOThUdUtxeWxDbmRCM1ZVNEUxZnVSdjlVLW1HczZvTUF1bzBGLUVrSy02RVBlWUVTTnZYbXJVYmc2ZHJIUFhxNU5taGc5aTAyV1FR?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Thu, 27 Aug 2026 05:02:17 GMT",
-          "fetched_at": "2026-08-27T08:32:53.243491",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "UBS Upgrades Coforge, Tech Mahindra, Mphasis; Cuts HCL Tech, Persistent — Target Prices Hiked Up To 59%",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPM0JteHQ3N2FmR3EtRVBkeUthdWp2Rzg0aDFJU25LeVZIaF95cjY0WFdzWnA5bXdWbUQ1RldJVXBkWTdhLU5rMDQtZkY2bXpmR2YwMmlmVXh1UHNVc1ZaYzJEanF5a2pLTl9BVllITk9GV1VZNWk5Q2JxbkRzTVVsV1g4RVc2MWotYU5oSjJ4R0VncXF2SkRjTWEtV0lYUTlESHV5ZXJHdnRaaG9KcjZSUHd5ZmNpZGUxaTQ5aU5YaVM1elBIcmpNZC12aW5FTFZDaXFtRFphVnB6STM0OG1F0gHnAUFVX3lxTE1UQVhkQjJOeUM0UlpQSEVRVUJWdXY4RW1oN2pmY2hGbmR3R3dyOUNBMVBKc1FDN1ZYQ3U4Vk5tVEtNTHROdktPckhTd050b3RzVm1qZ2ZFOW1DZUNSQzI5LXBJQjF5TUh0OWt5dTZXeDBKWW5YSXhWa19SMlUxRk9sRHV6VVJnNDNOTlp6VVA3OFYxM1ZSZDJtQTZTdjZ1V2JwYkh3ZjhVWl9IaUp2ODBOUWlXR21HTV84bFlMUjRRdDBPN3pwaFEyVGprTF9qcFAzeFBob1Q4eXRsUVU3OU5NTGVtcXB4dw?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Tue, 25 Aug 2026 03:22:14 GMT",
-          "fetched_at": "2026-08-27T08:32:53.243500",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "UBS Downgrades HCL Technologies to Neutral from Buy; Price Target is INR1,415",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQTRCYWRJYVRHeHJ0OW9hSG9ibWFMQ1M0dkRmSHNoeEJmTGMxbkxmeldHWEFQQzdBMzZBNkdocHJHakViMjl1dWxiYUFFbVZnX1E5RF9rN3lmTHZRTnlrTlk1TzA5V1FITGE0Ni1ad1Q3YnA1cklielJ5V3UxaDJqblB0QWxocE1tSHNBbDI1VEhBTnl2TW9kZ1pBY29MT3cwTklBMTRqcFY4cUV3RVB0dHllazBMeG16WWV5bnVoZVdtMDlTakpTQQ?oc=5",
-          "source": "marketscreener.com",
-          "publishedAt": "Wed, 26 Aug 2026 11:07:44 GMT",
-          "fetched_at": "2026-08-27T08:32:53.243505",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "HCL Technologies achieves 2030 emissions target four years early in FY26",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZWN1TF81ZS04QmlRRnlYRHM0TjF5clZHQWhCWU1hR1JsVDhjU2JxSkdJNkJmdm5zMFhvcHdOT3FZTTktUUVTd3pzVWdvcnRGMTEyYzBna0c0RGJJQnhSWDVMUDMzMGVsZWpkZFhhMWxObElNZm9VMlJIUUtySnAyTERnYTdGeHZ5ZU5hUE1td2d3dlZfVUVlR3Z0OHFxTnlSR0UtU2hZU1I1SmRBbzBhZ1BCa0doTUVFSkJMNlF4bXhLOUxh?oc=5",
-          "source": "scanx.trade",
-          "publishedAt": "Wed, 26 Aug 2026 07:37:56 GMT",
-          "fetched_at": "2026-08-27T08:32:53.243508",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -230,17 +182,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-27T08:34:26.116522",
+      "last_updated": "2026-08-27T22:05:56.033119",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -306,53 +258,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "TCS buys Porsche arm for 320 million euros as AI partnership with German carmaker expands",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeEM5X2lRN0dJOFV3QzVadWlWLXo0enI3ZTNEUFdJMk9UWGNfbFNqSlRxTzRRQWlDSFNCc3lnQlNMM3IwTk9DVk1hMGpEM0V2UDVSOEUyY3BuTUJUdV9nZmpVZ1NEeGQtWE4yWTkzMk9DYU9iMXUyUm16SUw3MEU5Xzc5eG1zM1Rub3I1bFprcUoySWZMbWtZUUd3eDhLQzJJdnFncGFHQXNobkprUnVvOV9GOXdSQW1rTXdfdVl3NlRkaWF0RmZGUEs1X2hfVWlMUWZfVFFJdDJmTWtzbnfSAeMBQVVfeXFMUFZWQjFDczBVdHk4RTVPOWhLYnpXcVZqd2RlNkpNQzA1WGl0VEQ1TnhxZ2o0TlFBcThKR3U1cXhtRXVUYTBFRXhhZ0N1clR6WHh0dG5KWG5xelFZN2xwcVhtSHJLdjd1MzRwUTFnMlpORnJDNUJrbU5peW1GR1lpYUV2cFZGdWtvRU5lZzdkWW8wRmxaTnZQdW5rUlhQUmQxcEo0MjE0VUwtUnM2dHZ4dW9NUElUbDR2b2RyZVBTZU0tbWNYNVlUNHAtMHVjLURtNHRUMHhkVjdMVFQtMXpFNy1QS00?oc=5",
-          "source": "Telegraph India",
-          "publishedAt": "Tue, 25 Aug 2026 00:22:28 GMT",
-          "fetched_at": "2026-08-27T08:33:52.840515",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS gives 60-70% variable pay to mid, senior employees in Q1 amid margin pressure- Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUTZ2NWxrTEhMZjRidHE4eXZKMmRmbG01RHBDenpseG1CVVVRbzlWb1hYbFV2UXN3cW5yMDdCMVkxQXgwelYxcFRnTHBCWi03Wm5oREdFWWFxbVlqM1prRUo5YTVMNkNDRHV6NWpiTGF6WWJ3dFc2TG03R3lNaENvLWhLVV95ZUYydzVMd05kWm5VaGktSXlfR1dWN3h5b3Y1Mk45SVV4ODQ0WERrRThjcHhDX3AtQ3cwdEdGTw?oc=5",
-          "source": "LinkedIn",
-          "publishedAt": "Thu, 27 Aug 2026 05:44:28 GMT",
-          "fetched_at": "2026-08-27T08:33:52.840528",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS gives 60-70% variable pay to mid, senior employees in Q1 amid margin pressure",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNjdUQTVYWHY1dnRzZlBLdGpJeW5HY1EwYk53TUc0Y3RtZjIyalFyamZ2SU1UWlJ1aUNhXzV0b0MxNGdCRjdydVdYMGJKaVJUM1Q4cHZkSG9DYXN5cUg4ZUJ5NFNVSE5UNmxxT2U0NVZLWjUzdUtCY3NuNFVITlpqLTAwNjdyQ081NGFGdE5ONGhWTVIta1p4ZjNSYUJBMXV5T2szMXBWcTM1MzMtd2lFRVFWdHdjUGx4cjhKQnNPYmhwMWFmMkk1bW1icEpaTWVOaUVMVG5WbzkxQnBvMVdtYXUxdXpFdUh6b3E4RGxEU0vSAfYBQVVfeXFMUHRVUnIzYVMwU1UxNm5kZHowUEU1allJU3Rwdl90dUFuSlRQVEhUanQ0NW5yNm1LbTByWS1WYWk5SEp4RjRiMXp5b0hDanNiV3BUcElTNlZpeDZkeEFKTWtKZ1ZMaGlSVXdCb2IwVGl2bm1IcWxuQTQ4VEJnQ3Q2aWxGMzIxNXljeFh4Z2pmRGRHQVNMMUtVYnhiVUFFbFB5a01XQkRGNzVxMUdMWHNGUV9fUVNwanJJN2ltVC13Z3NIdndQb25rWlNSN3NlZTJnN2prZTgzQjU3QXg0YUpCTGV6T0xrVTRlWkVtSUs1cFF6eEh2X1Zn?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 27 Aug 2026 05:40:09 GMT",
-          "fetched_at": "2026-08-27T08:33:52.840533",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "TCS and Porsche AG Partner to Accelerate the Future of AI-Powered Mobility",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTHNfb0V1MnUxOER3aVZVWEhUVHdHazRpdjFrZGktY3IxWC1wbzBCZ3Bjd1pMQk1FNk1kWUwzOWJMM05NVURRUHFjUURNMENHLXdfWlZFRmc3bms5US03cFBrRzk0U3pMR2hSempVckJMakJSU0Q4N3Y0emlWVWFHcjlwMUlxeGFGR3dLdFluTzhXSGp3UlhJRVZmWjNTVGlWMl9FX0dVZUJpTzRZcExacjBScV9BU3Jx?oc=5",
-          "source": "Tata Consultancy Services",
-          "publishedAt": "Mon, 24 Aug 2026 12:22:26 GMT",
-          "fetched_at": "2026-08-27T08:33:52.840537",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Porsche sells MHP to Tata Consultancy Services",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeHFwVEE1MVllNXIzQ1ZoWnBrRzJEUElXbGtkbGZ4X1JxdFdNdGtncDZZaWlxdC1mTHJlNVhidHVTTnB3VnI4ZXh3TmpMckhQa1E2U19hemZnVkZCYm85NzdYOGc5VExvb1JLYTlVTGxVdWx4QzFkdDFCSVpGX3hQbnJZQU9JWGVCc0lQY2pXOUNaU1ZDbWc5TUUxVl95X1U?oc=5",
-          "source": "Porsche Newsroom",
-          "publishedAt": "Mon, 24 Aug 2026 11:47:56 GMT",
-          "fetched_at": "2026-08-27T08:33:52.840540",
-          "related_to": "TCS",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -360,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-27T08:35:52.532829",
+      "last_updated": "2026-08-27T22:06:46.811468",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -444,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-27T08:37:01.174320",
+      "last_updated": "2026-08-27T22:07:13.635533",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -528,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-27T08:38:17.611975",
+      "last_updated": "2026-08-27T22:08:28.816995",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -612,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-27T08:39:02.932535",
+      "last_updated": "2026-08-27T22:09:33.605857",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -696,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-27T08:40:48.198528",
+      "last_updated": "2026-08-27T22:10:41.949058",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -780,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-27T08:41:11.132684",
+      "last_updated": "2026-08-27T22:11:04.898474",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -863,35 +769,35 @@
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
           "source": "EurekAlert!",
           "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-27T08:41:11.132424"
+          "fetched_at": "2026-08-27T22:11:04.898173"
         },
         {
           "title": "Material Histories and Material Futures at Foster + Partners",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUVJYU11a0czSFdJZTdWVHVZTFZqODlFRnVkQ0d0ZTJjdjRnY0R2UUg1OEY1M0NDakxzRmhHb014UUxwdU1fRjFOQlNvNWJIRE9IYzZ5SHRrXzJDakMtYlVqYXVrSVpFRDR1TllabGplbWV3LU5FMnRLTk1mZkxMeGk0cW1NZU94NnpoZzJtSFJYa2czXzZkSGNXSEtvbXhiYU9SUWdQejNZNi1UV2Z0Q01EWFlhMHQtRmM0?oc=5",
           "source": "Foster + Partners",
           "publishedAt": "Wed, 10 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-27T08:41:11.132437"
+          "fetched_at": "2026-08-27T22:11:04.898192"
         },
         {
           "title": "Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUllVEdkVVpqM2d4S253dmV1N0pjM1h4MzBhemNHS3l2M01HR2hMOXg2b2VxbmJfWEhnelNjUnMwQ2Q5d2ViMHFKLWZVU3ptdFRURkstV3p4NGVuQnJxRTFGdHNYWTZBSXpvUi1iMmZhWGhwSkRVTk1NM0lFSm9wSTFnLUR4ZjUyd1lYZ0s5ODRLTXlnakttY014WmdiWlJVZm5LSS1PTzFTWHRu?oc=5",
           "source": "Stock Titan",
           "publishedAt": "Thu, 13 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-27T08:41:11.132442"
-        },
-        {
-          "title": "Louisa County man gets life sentence plus 10 years in child sexual abuse material case",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdDRta0dwbC1Wbkx5LUdFclhjZVNTekg1aVBPYzFwaXBaTS1uZndmMWplc241djJ4QVdqTnMtTG1FdUVYczVLY0dHOFZRTFlOYV92b2dyTmR5cF9uZWJHMktvT29GV1o1MkEyUnFyVEpxdXF2MTFvYjhZeldkQWdHODdUTGlMdXpoWUd4WUN1akVHSHdWb1pLbTl2LWZNNnVHXzZSTmMweW1VNDF6YjRVTDBaVE9oZnppX2pSbUt3?oc=5",
-          "source": "Augusta Free Press",
-          "publishedAt": "Sat, 22 Aug 2026 20:32:54 GMT",
-          "fetched_at": "2026-08-27T08:41:11.132446"
+          "fetched_at": "2026-08-27T22:11:04.898197"
         },
         {
           "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
           "source": "Real Simple",
           "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-08-27T08:41:11.132451"
+          "fetched_at": "2026-08-27T22:11:04.898202"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-27T22:11:04.898205"
         }
       ],
       "filings": []
