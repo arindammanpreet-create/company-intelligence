@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-28T10:55:04.098465",
+    "generated_at": "2026-08-28T22:10:56.624505",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-28T10:45:20.024660",
+      "last_updated": "2026-08-28T22:01:33.937611",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-28T10:46:50.562839",
+      "last_updated": "2026-08-28T22:02:45.408069",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-28T10:48:12.633378",
+      "last_updated": "2026-08-28T22:04:00.186491",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-28T10:49:28.221807",
+      "last_updated": "2026-08-28T22:05:23.872007",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-28T10:50:27.238390",
+      "last_updated": "2026-08-28T22:06:26.316120",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-28T10:51:42.509250",
+      "last_updated": "2026-08-28T22:07:40.067372",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,17 +518,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-28T10:52:54.410125",
+      "last_updated": "2026-08-28T22:09:00.798918",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 3,
         "neg": 0
       },
       "news": [],
@@ -595,28 +595,108 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Virat Kohli slams record 9th IPL century as RCB beat KKR by 6 wickets",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3ZmcWVzZGtFZE81UUVrQzFUTzdnWDhjbzBLLTl6RElKNG9rUS1yTFJTdUtVdk85T3hob3ZMYUtFTmdhVV9JX0paVUlEa2FuN1l4OTdRTmVTRU5tc25vNy1GaWV5U2tfa2xZMWFPVXhURGR0NnVWQTUyYVRqMEtDbnR2UDk5QmhXNVBTaGd1NWVjYndDRUxzVmFnOA?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Fri, 28 Aug 2026 15:53:24 GMT",
+          "fetched_at": "2026-08-28T22:09:00.798636"
+        },
+        {
+          "title": "Shreyanka Patil: Always admired RCB because of Virat Kohli, blessed to play for them - India Today",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYmNTUWtNTXdvQXk3X19HSGpKWFlsMmt6a2t6RVU5aXZlcGRnck9HaDVaWjh1ZDFKbnVCREMtYXY0V2tJRDNFUTVwU0tvWDkxSXBFN2xmUmVxYlNHbDRRU1FYWm4wejlmSUhoc1R3ZmxuRkVQb1NXT3hGWXVBVUtqVEtNd1lQSlg1WFlJdDh6NGRjR1VFTEU1ODIteGxkR0RXNW04WVVwUW5YdFNvcmdlY1JXN182OWYwMHdsUTBmamZmU0ZiS2tn0gHMAUFVX3lxTFBDMXlxU3g1MEMzamlEaE5CSWlFMWFfbEs4MFRNc1dxSUFlMkQwNHBGeWNRZW4wSzRQdFB6QVVWS2QzQmE5Tm1oR3RIMFZQWkx4cWhUWlJ2TUlkUDh2SGs2MkhLUEVIem5MREJrbFJLSHo4c2NyZHU1UEhOYUZwLUJOQ3FpNXpyYmVWS1lYQW1YendQS1Vid2FKZkJSb2Y0ck8ybmxqeTNtZC05aTJOejk3TFdUY3c5Zk90WGZtcm0tc0ZTSFdoRnJRb2c0bw?oc=5",
+          "source": "India Today",
+          "publishedAt": "Wed, 26 Aug 2026 14:16:13 GMT",
+          "fetched_at": "2026-08-28T22:09:00.798653"
+        },
+        {
+          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-28T22:09:00.798657"
+        },
+        {
+          "title": "“The most complete player” – Phil Salt heaps the ultimate praise on Virat Kohli",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXQyR0ZsTVFKZ1NkSk1hRWp2enlKcXpybGVWLU1YOHRNdC1CanBOUy1yOC1PTXZHTE44WGVnU3MyREhhUXlwdEVFcmpDMlpSWFdyQWFKbkoySEFUZThyYk5PUl9rbjhzYmpCYlZhVEJ4M0EtRVQtaEpBWVQ4UG9wMkc1UFdHcF9DNWRYMExSSktLTG5Ic1NQN2tla0JsUlpEcG94dDBGTExJdDJQSEsxQXNiUXJVRGda?oc=5",
+          "source": "Royal Challengers Bengaluru Official Website",
+          "publishedAt": "Mon, 06 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-28T22:09:00.798665"
+        },
+        {
+          "title": "Kohli, Padikkal hit fifties as RCB ace the chase against GT",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNXzJYVFc5NVRxeHhwT3JXd0hnaUtneDRmQ2p6SFVTLXBvRkpKSUVsQXFnMmhFRm1WRl8xVUlzQlUyQ2F4Wkgwd1QtaFJ2TDJVNVFKTFh1UlMzOFY0cVVtVU5tcmJCX2dNU2ZROURTVU91N1JKS1JQTHA3clJGbGd0Z3ZqdExTRUtUejUxTXB1VDdIUzZkZENwWGxGZUJtTXE0YkRvTUg3a1RrN0xGaXhFRm45R2hVdjM5a0lkellrNlNiOG1p?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-28T22:09:00.798667"
+        }
+      ],
       "filings": []
     },
     "Delhi Capitals": {
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-28T10:54:33.996197",
+      "last_updated": "2026-08-28T22:10:26.309794",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": -0.2,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 2,
+        "neg": 3
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Regulatory Headwinds for Delhi Capitals",
+          "severity": "High",
+          "description": "Regulatory overhang detected for Delhi Capitals: penalty. Compliance cost and policy risk assessment required.",
+          "detected_from": "CSK vs SRH Highlights, IPL 2026: Ishan Kishan's 70 secures five-wicket win over CSK as SRH seal playoff berth  GT vs CSK Highlights, IPL 2026: Chennai...",
+          "gap_type": "regulatory",
+          "keywords_found": [
+            "penalty"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Policy & Regulatory Risk Monitoring",
+              "impact": "High",
+              "timeline": "4-6 weeks + ongoing",
+              "price": "₹12-18 Lakhs + ₹1.5L/month",
+              "methodology": "Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning",
+              "description": "**MRA/ESOMAR-compliant study**. Monte Carlo Simulation + Delphi Panel (15 experts) + Scenario Planning. **Deliverables**: Monthly regulatory radar, Compliance cost models, Stakeholder matrices, Pre-budget memos.",
+              "gap_type": "regulatory",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Talent & Retention Challenges at Delhi Capitals",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Delhi Capitals: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "CSK vs SRH Highlights, IPL 2026: Ishan Kishan's 70 secures five-wicket win over CSK as SRH seal playoff berth  GT vs CSK Highlights, IPL 2026: Chennai...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -636,49 +716,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Delhi Capitals: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "CSK vs SRH Highlights, IPL 2026: Ishan Kishan's 70 secures five-wicket win over CSK as SRH seal playoff berth",
+          "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQV1lvY25jU09oNGNsakR0Tm9lRktub3NlbnIwMjBuUzhyTUFYM2tfel9xMXRlQWRMc0JqR3FWU181a1pQYTlidzZ4OTZFeXJkVHJtZk9LOXhKdFVGMmRiMkVYOGRwVHA4S3REQ09Ud3pwT1RZR0doWkh5eTU5a2JSUFA0M1JZQjdsTWlwR1lheEkyXzRnNndYTUUtOWNqWDBzQmUzSEJOZVRrVE9pbDQ1eGhJeExENy1TQlNMel9hYlh4LWw1T3VHZTkzRmJiMHFDcmZWTVoxeklSNEJOVndtdzVwM3JCS0ZNb0liN1FoT1Y1RTl4TmVSOFRBLWlWelFpVmNnc2dhTjZvZEF4dU1MaklWSzA0UDVuWWdCcjlXYWM2dlg5VDAwTGZxVVVJYW1RQUJTREFQckMxX0ZkTEJwMDdTR3hLcDA0ZlRRVVdLTEJxQkZMRHp6Y1U5RnlWZVnSAeQCQVVfeXFMUGlqWG03cjJVNVFwSHU1Q0tuOXBtamFzSV92RjhqdmpISklUNEp5Sm9CejNSSi1xS0pPN2JDVVFhOExyYkV1N29DUG42X2t5VG1iUkcxQ3cwR0JyOEFqWjdrY2hZcFU0U3d4M0N2TXV1ZTlPbmliXy14RFl0bEV4UDdza09qaGVXd0M0OFFSc3ljQ2szZm5aOG1NUFNHaDRpUWFCeEY5eGRwaHJaTVA2UW82cGhsMEZReVJwNFJRb05aMHNHRnNSb2haNlZoZ2JCWWZwMkpMR2Q0VkpIeFNXbmpzeE02Zl9fMzluWTMyZ3hoWjIyQk80YTd5UFFiUmo5NXUyREI4OEViaDBNQzVZX0trdlRRMmhIWVY0U25tcDlIMHJ2amhnQWZnRFhyZTNmVmRJME0zeG1iTU50ekpPNFlpVWk5ekREdkpUbFFDU011Uy1ueThRa2d2S0IzWVFNU0JXSUw?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-28T22:09:36.550811",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs CSK Highlights, IPL 2026: Chennai Super Kings Eliminated After 89-Run Loss To Gujarat Titans",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVJqSVMwemp1TGctcG1XYWNqdzNfa2lIZ2taSHFmcEZyYW9BQUtxUkhpM00yNVhNWFpDd2Q1UXlXUTFLcGNkblVoTW4tT0tyUGVpdXpjaE1vMmhjbmNoSTh3a055LWxmU2xBb3h0RDIyQ1VBNFAxcmVWM1Z1c05LVVo3R1pIVTI5Q1NsWHZXeE81SXo3Uk8tZkNqZk9oam9EZ2QtRXcxVmU5MUhGQVFVamF5N3dfM0xSR3VCZndLS21uSjBOUGMtUFpIclhZRkIxbDQyTElkMS15SjZZMHV1clBZU3dxbnNXcXp6eW4tSGVtODVHT01fYk10QXg3LUdoZmc?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 21 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-28T22:09:36.550827",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MS Dhoni Wanted 25 Per Cent Stake Of CSK? Blunt Verdict By Ex-KKR Star On Report",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZUZJVkYyMk1Mb2dKR0xzQjlOcU9RRGVnbS1vMThETlRDOUhjSlR4cGZzRlYyOG8yS3pNa2JianF6enVtTXB2NVJpT2dlNzVEZlZRTWlRTnp2bE1JLW5aUTBSYy1FRzgxRmtycndOaENOTXlOeklMNDZrTWVKWTlVMnBGczNpeVBDUGltLUpRY0doMWc5bktfdy10U1RVSEpPQzV2VlZJaGhuNkhSTHdGRkdTdDg0RmdLdlNaSzI1V2lRNTNsT0ow?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 27 Aug 2026 04:28:20 GMT",
+          "fetched_at": "2026-08-28T22:09:36.550830",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "If CSK are worth ₹17,200 crore and Dhoni has asked for 25% stake, it's unrealistic: Aakash Chopra | Dhoni has led CSK to 5 IPL title wins | Inshorts",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQmFYUEY5Wm1PWkF5LVB1S0s4S0Q1enBFR2ZoWUo1M1N1Sk03c01fa0pPNFZfU3FSdko1N0NwM2pMVUtmcEV2NlR2Z0RWcktpTXROTlhGekpPRlotaUNWYXZlNm9fMmt0ZFd4T0ZUMHlqejhWaXJNVkxqT05md1RnZURVZlhYVkRLb0dWdEpuTGpfWklseGhVN3NtY3RIZ0tDNWVCQnFnaHdLMHljSUVBM1gzWUpieUlZUTNTbWZGd3lIMmU3VDdMZWVKTjNra1FZcVNhdUxKUdIB3AFBVV95cUxNN3lpNUtpSENnR0ZKWktoeEtjeEtmWWpTamIzbFc5eWFGUFJqYWw5Nm5VVlc2RVZFWDhvZmlNbjNZX1p2amhrZFN1RWxlbUtCRkJlWHowVGkzc3JPQlRPWFpfZGpOMHF3VW02SjVmYW95QWM5OTJNTkphcjZ4UXVhVWxXdEJMblNqTWRVTEllLS0yTzlhaExhc0l4b09ZRDBnbkdpdlBPVENBVmVqZHp1dnZWODdjdmN3OHp3SC1WSmlGT3F1cHJvYXJDQmNDdE9NWDRzSWpKczJyUjdY?oc=5",
+          "source": "Inshorts",
+          "publishedAt": "Thu, 27 Aug 2026 14:33:28 GMT",
+          "fetched_at": "2026-08-28T22:09:36.550837",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MS Dhoni-CSK Fallout? Report claims failed stake sale talks triggered rift",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM0JXQmdKelV3RElwYlpmd2FYR0QweE1wOXZNYWswN2RFczRwTEFHU0pPeTdHSFUtVERlNG9obTVNNWx6aWI2djgxMlhDdDJlMmRWWU15WmwwMjAzc1hEMHc1bjVkSGs0OVlqZTEzbHZKTFRqRzZscm45QWJrcG9NUTRKVGxFTU1yaXdFcXJhS2l2Vm1yWmdxQWxGTW3SAaIBQVVfeXFMTUVSWmJLNWpmbzVPR212M056UFpjV3ZKX0pJRDczMXdkNmRoNjM4anRwRF9HbG9aWnVhNGFoeVU4aUxoVjhNMHl3bUZkZm9RcVdfMkJyandOMHVJLXB4MWNFTHVQTHctYU5LVHU4VUE1OXpsY2ZjUEJfcTNJSkRTNnc4cDZpRm1MU24zbGo0WFU1LTdxR1NyWWNQb0hURDVGQTFR?oc=5",
+          "source": "WION",
+          "publishedAt": "Wed, 26 Aug 2026 13:32:00 GMT",
+          "fetched_at": "2026-08-28T22:09:36.550840",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -686,7 +772,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-28T10:55:04.098450",
+      "last_updated": "2026-08-28T22:10:56.624488",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
