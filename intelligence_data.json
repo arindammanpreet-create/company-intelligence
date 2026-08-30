@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T11:45:15.773069",
+    "generated_at": "2026-08-30T16:33:18.509353",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-30T11:37:37.662887",
+      "last_updated": "2026-08-30T16:24:21.304936",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,20 +98,91 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-30T11:38:42.790611",
+      "last_updated": "2026-08-30T16:25:40.309870",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 4,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Porsche sells MHP to Tata Consultancy Services",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeHFwVEE1MVllNXIzQ1ZoWnBrRzJEUElXbGtkbGZ4X1JxdFdNdGtncDZZaWlxdC1mTHJlNVhidHVTTnB3VnI4ZXh3TmpMckhQa1E2U19hemZnVkZCYm85NzdYOGc5VExvb1JLYTlVTGxVdWx4QzFkdDFCSVpGX3hQbnJZQU9JWGVCc0lQY2pXOUNaU1ZDbWc5TUUxVl95X1U?oc=5",
+          "source": "Porsche Newsroom",
+          "publishedAt": "Mon, 24 Aug 2026 11:47:56 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156379"
+        },
+        {
+          "title": "Porsche Inks $1.5 Billion AI Deal With India’s Tata Consultancy",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM3VNM3JUZFREX29PZ0Y2eTVwUWxiRTNNSU81c1FxeHYtaDVPS2I5RDJkU0x2QjJGV01DM3JZblgwQ05Gczlra1ItRTR1SHJuYzFZc1owejluRTFIZVgtVk40eUFLNEdmc0dMV1RUczBIYXlNYWo3cHBYVDg1M3JHSWdxUzhKR01MdTh0R2FkUHY4enZjSDFtZGNEanU0V2tvTjZPNjBqNFBLMnVHY1JwSkViTQ?oc=5",
+          "source": "Bloomberg.com",
+          "publishedAt": "Mon, 24 Aug 2026 13:31:40 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156398"
+        },
+        {
+          "title": "TCS to Microsoft: Techie reveals 4 major differences in work culture",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPY2pXckhCbWdKSzhZa29WNnRTSFNzMFluMjYySi1fNDYtSGt0a2lMcDlDY3dxMEN6NWpmcG5yUlNERnBLSWJjaFRySzJmblVHRHc3TWtKTEItaXEwM1NPY20tbEUzWUZzdmljaXZkNG9PVXozbjVMOE5EOUE0M01PZ1NwRGVNa3o3V0xkem16VHBBalVYMUwtZ0VuZ3ZPQ0tGc1FUZGRGU2YxRWZlSFhWX1NES2VqQU5KUnROeVRmTjRka1NVU2dKZVhDV2ttSW1iQ3cwVtIB2wFBVV95cUxQRmVOS2RMdTJhYzBTNWdHMzExcUF1LWN5QUJBWkJmbEFQdVRsOGZNRDdEXzFRaTNLb2I1MVZ2WTc3bUFmQmgzRWFIdWZfNy1OVXJHWXlXdUZMS3otMkJoNWRyald5U1ktTTFxUWhSMVJqQ1BDU2c5SjhOMFRYRTR0cG1DNkhtZDY4WWZuVXdqQ0VHSGJaNUMyYXdQekRiWHBIeVJqcUl1dHlwX1RNZ3hiSDVTbTFfRUdmcjN5ZFMwak85eVlCaXNzM2pFQ2dfRHhfSHUxbWVvT0hMUGM?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Sun, 30 Aug 2026 07:13:31 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156408"
+        },
+        {
+          "title": "Broker’s Call: Tata Consultancy Services (Hold)",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ25ZWjgxTDNET3FrR3RMdnFMSWx5ejQzRV8xdC1lTjRTbjc4TjFqY1JVZWJnYnR6SGQxZmpUQnVodnBfRUFsTDZCNzRwM3l3a3VHODhSZGxUZlY4a0dNZ29XWEkwLTBZbF9NTmdzS3lEZ2hvM212czlrZ0pvRVdfS00yelJ1Z21zdFRGaHNndWExaFhFUTQyRV90eDFnS1dOSjNRNlFfeGRXdzJj0gGzAUFVX3lxTE5jS0tSTC0xYVNjNEpTTm9yU1BlbktrTnA5X1RXd0ZTbmU0NS1JODJyTlZIMGM5TDYzSXo3UlBiZnlNbmJ6TzBRQUU2Zk1wLUdOR01vYzBaNjZrejdIUTRWUGdEUDJIY2J2dXBlMTF2SGtGc2llUkxzTXp1YlBsVFBfU1NYWmc4YWFRenFTczF2YVMzc2RKcWxva0k3WnV6eHZyenRCVDBpV0ItTDVySml0YlBR?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Wed, 26 Aug 2026 12:54:17 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156413"
+        },
+        {
+          "title": "Tata Consultancy Services Stock Tops This Dividend Income Screen For Reliable Payouts",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa3RaT3pwY2ZwR3NoZ0swTVVNd2hYNEU1MjBIOEdEUTlHa1dRSlNOLTRyajZDaHc3Rk04UVg3LU9nX1NkblREZDU4SlNUY09iN1RxRW5LUTY0UDRjeTh0THFtVFBZU1k3LVRIQ1k0dUFzeG9tbHgxVDlfakRpa21LNVdSVEVLcGxweHBTUlVleWlvc3c5VGJNRy13bUl4QkszYW5Bd2MwVFZjeDctRDU5eURBcFVkRU1aYW9sek9SVm4ycGwwSW1TTWZaOFp0ZFhQMHpoMl80d0ZtNzJV0gHiAUFVX3lxTE1JWHlzZVZLRmF1Rm5YVUZXUmRCM2tPeXRBc3p3V3dTOXBKc2FsdmgxTjBHQlpuNl9qbTItZG1nWWdObjJCU2x1anltaVc5VFZmVW8ycDBLSEM1MHlfUHNKRXlpR21Pb3ZQdHRocjJhOVNYZC1NblpXNURvZTRQZ2Z5elRfdmcxdW9qRlcxbmJPd3B5MzdJdnROYUlERmZBcEU0ZlZWQ0NFb2FMUkNXVExzczRNb2EtZXZMbWJBcndoRy1fWW9UX0xCU0tFT1VtQ1ZsTjNGOHM1YzBBX1RxeVNiakE?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Thu, 27 Aug 2026 05:19:21 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156417"
+        },
+        {
+          "title": "BSNL 4G: Tejas Networks gets ₹1,537 crore LoI from TCS for 18,685 sites",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQVRIc3FpSFhlRFI3dUVNcnZ0Qy1oN1VwU1Jtd0NPRTJvM210aHlGVmF3NjdaS3J1eURBeDhEVGhQTTNDclhOLUZhTzZUUlk1UkRSM09EeHZWNTJwOHVZTmVERS11T0FxRzN0Q0xPTnBsdC00MTBsbHpEbVZHejlBMTZFdVljaUd3d3p5eTJaRmxfNFFsQXhMMGdYam92UjRqQ2N3a0o1bE9faDRINWlTRWhuNHRjMHFlMnZFRjJDbllhcTdkVkxQYS1vdU5Sd0duODAtWVdMWFRCcm1lOXfSAeMBQVVfeXFMUHhzRkRNYTByV0dwV2xJXzlONU8xR25vT2hiekZaZmFzeVFfc01kTFA2SGJfd3JoWmlYekFOQnYxZWN4cnRfbmRNcXBRT09kejUybE5qM012Rm9HR21kV1FtZk4yXzR3UWNwRzhaQUNtNUlqNGJqMjE0eTR5dFZKdWZYZF9fa2lZUGhzWXAzR2ozVTRZM3ZyZnQ3OVFSNC05NWNvWWR3TWxubTVDclktb0liTV83cVNpbDNyalpvYS1KelFRSzVPcW1BWFprSEhUMnJjNndkSGR1QUJsbWxxcl9GOUk?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Fri, 28 Aug 2026 02:14:11 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156421"
+        },
+        {
+          "title": "Porsche Taps Tata Consultancy Services to Establish AI Mobility Centre of Excellence",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHFKRHlxa0Rpd2xPb3h2bXhscnoxVDlsOXB1SnUtcVNJTjVPNW1kRi0tdFhmdFF2bzI5dWZmZGJFOXV0M09WMEpWN2pnMDdaZFVVR3Z5RWFBbERWd3JuckpuaVJlbVZiOGI5ZURHLVdZQ2tScS1PV0hKOU1abWw5VXBUYlAzVGN5aG4zWWdLUldKNDdwSUl0WC1YODdwdnZibFhuOUFhbG42WE1RT01CT093?oc=5",
+          "source": "ACKO Drive",
+          "publishedAt": "Tue, 25 Aug 2026 19:47:08 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156426"
+        },
+        {
+          "title": "TCS and ABB sign multi-million, multi-year deal to transform global network operations with AI",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeThfQmFyeEZvNFJ3NjBrYlVaQmh1Y05FX1VGUVo3dmhvenRKTjhReGtrdjJGZ3BTQTZKY0I2R1JFWUdYQm5ISzEyM1RiQlUxTWhERm83eF9udGFEMDZiUVUtWVJQbzVvUmZTWHFTTWVzN0pacFVLMjI5b2t6SzA0czZWak9tQmE0UXRhcEZ6VUI2VGdWNFphdzFySC11elhOc29qaHY1NTE1QVNjb3ZpTXBXMkdtb29qV0diMGxQOHZiQzA2VG0zaWgtZmU2dlpzOExhWWhzYXB3TXVWTDN3Uw?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Mon, 13 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156430"
+        },
+        {
+          "title": "TCS Q4 Results Preview: Will Tata Group's TCS Turnaround Its Net Profit In Q4? Dividend Announcement Ahead",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbmRIeTVCaEJwcHVsV3dxWEV6TFI5UWRFNnVzXzNWdXJiV0s1d2VBTmxyWjNQRFJycWtVTmZVQ1NWeFpjQl9xMElGaEtOSFBLV0xWZFMtSWd4cTBLdS1EQW1lN01ySDFuSi1udHNkZnlXUV9oWGVSaDFWUDkya0M1VDJaeTJSeHU2Zk00S1V3MGd3RDQwZG9uT1dybC1CSmdLajhXMEdtVl9wN0lWRXZxOVd5bno3WTNraTVUSmR6ZjVLcWJyMTQyWXZwZXBxeUZ6aHBpcGNwRE4xQQ?oc=5",
+          "source": "Goodreturns",
+          "publishedAt": "Tue, 25 Aug 2026 14:56:38 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156434"
+        },
+        {
+          "title": "Tata Consultancy Services rises Friday, outperforms competitors",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZUtpYWVtbG5INXZ0bDBjZ09GTGtuZXVQWldnM0M4aVRTUnNxY2t6RUhyYUZGdWRoYXJFLVJaNEFBa2M4d1U2WXZTeV9mV05pZjBZSHd0TF9wdU5OOFhpN25LZXphcnlyR1FteDVvbUh6dUlzQ0E0cHdIeHdwQTlyRzZiUXpDQ0x4Q3BLZ2lNVzZmRE52M3htMFY3YzY5V01xREJ1NFIxamRuN0s4NXd0LW41R0hxUTJackE?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Fri, 28 Aug 2026 10:33:00 GMT",
+          "fetched_at": "2026-08-30T16:24:35.156438"
+        }
+      ],
       "research_gaps": [
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
@@ -182,7 +253,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-30T11:39:34.241299",
+      "last_updated": "2026-08-30T16:26:47.336478",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +337,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-30T11:40:26.242206",
+      "last_updated": "2026-08-30T16:27:55.412486",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,17 +421,17 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-30T11:41:39.227629",
+      "last_updated": "2026-08-30T16:28:56.785190",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -426,7 +497,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Reliance Jio IPO: Google, Meta among 6 investors to retain stakes in Rs 37,700 crore offer",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNRkw5bllaV0FUNHU4WmEtYUc2d0FJQldvWXhXOVlwaGdXT2JxYjVEVGxLdUlKSWcyVVFSQnVsUTd6WmpUV05odl9OZzlqMGs3dDlZV3RwQlN5b2E2WVpQdTdjeFZZWDc1cHVVNHRuWXQ1T2xMWmhycEthUDB5TTFVckRuTXp6WTdLSGI1UWNlYW9IVWNDV1c5bE83cUppQ2x4ODlwMWdaUjBheDN4OUN6WWIwZTk2c1l6dWRieWFIRUZ2enY4U0FZUHN5Nk5feS04bWNQWkhmN1RDRnpzTDRjR2xOeUp2WHEwSTBoLUJIVktpWDBtSUZWLTB2YXZtNnc?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sun, 30 Aug 2026 04:27:42 GMT",
+          "fetched_at": "2026-08-30T16:28:17.372686",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jolliya Iruntha Oruthan | Song - Jio Jiyale",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU1RYMW1URVpOSDNxMG1oN2V1MVY5aWIzd3JSODhjX3dHNEhpcmwwejhQSi00eXBmRS1xNDcxQmxrR0pPaWdieHJUb285NmdhV2FzTzBYUEN1TXV3cUVrWG4zX2RXcFQ1M282WS1ZZVQtSGtuSWctZ2hyY2pxMzVXTzJ5N0tKbDBqQ1JaUWRWbmhDbFBJQmhwN0ZxaS1YWjYxbC1PWnJZWVR3UzltcUQ3aVZGN29qa0xrYkJiLUt2bmRBV3diZlJqQk5MSjHSAdIBQVVfeXFMTWZsMXhuWUVDT2wyb1hIeVRTeDZJei1VeGU4YWlRM2cxMXlNRlMzMWpLbGVGdmJxcHRDd1pXaVoyVDlDMkJPZkxLVVpUaUc0TUpnZ1BxLS1mSWlJUExfVGJ4UWU0VzRPSTZPeTRDaXRKVXpHdzJIMmhybkVBQTFYQVBEV0lqTE45T2Jja3J4dnc3NHZFaHhUN3VQMWlCNVJWOVQ0VmQxYUdHUGxIODhDeXRGUEVFN3hDVnNjSkdqalNwSzJDR1ZHbWtNZGtBUDkwcm9n?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sun, 30 Aug 2026 13:41:33 GMT",
+          "fetched_at": "2026-08-30T16:28:17.372698",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bharti Airtel gains 26.8 lakh mobile users in July, Reliance Jio's wireless net adds at 24.4 lakh",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWTI0blhBZDFNbVNiTm85V2l1YUE0X1hPZWh4bG5oQXZSVHNqZk5VOVlrMFplUFRIQ0dmVXMxWllrNENPWXJUN3hWVW5vZU9IYmZTOC05NTlPcWdoTS1BTHN4NVhBY21KaVhIbjcxLU5aUmxwU09kRnhRNWNuTVQ4VDUxT3VDcmpkSTdKSVZBcHBSd3hQTXJ1X2VJM1ZrNS1DaVpkN19qbHdzdmJBYzYzOXNrbG5KOEJFSzQtX1ZXWENseWZqenB5Y0RIOVlRa002c1RudEU4bjVrSEZJYnBMVjBTQmJTcTlwYWxYazRfSldTOWN3d1M00gH8AUFVX3lxTE43VjU2dmdrZDVyWnlQNXg3SzYwVlMxY1lab3MteTRhc2l4NkQxMEZXNUQ2SHJOeG5VT2otejlEVmNuODdzeHZNcHc4c1U3M3JYd2phbWdoRHA1UGpQRUUxczliTTFFYmlWcG1jTGxuV01wMG5NZXByQmllSzgyN1pyajNFWGxUM29KOWtvaERCRmZSR2gzaGVOWVZUSTc1VHEtbkhJRDV6S1E0dlhuWm1EN2pxaVN0bDNlekE2ZU5NSk1vUXBzdUQtVVJuaWFpM2Y0bDQ2eTl1bFNzdW1EZ085d1BwRHJnQ1BZNll6THMxSkdVaTNEY1poN3gySQ?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Sat, 29 Aug 2026 01:50:16 GMT",
+          "fetched_at": "2026-08-30T16:28:17.372702",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Airtel, Jio and Vodafone Idea See Continued M2M Subscriber Growth in July 2026: TRAI",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTEk0alBvMUd6ajFRSEJSVEZPMkdWa3NjTjdFYUtDN3FWdERUY0lHNjctb2JmSzM0RXJ6RHZUQ0FWMnFZS0JNWWUxekFnQUhuZnJUdDlSV1lwLWhERUZkLWJJeXM2aEJXa1l1ZGZ1WHFMWmhGZ3lLdEl3Wl96THBtYU9xQ29GTl9VSFE1VG1RMA?oc=5",
+          "source": "TelecomTalk",
+          "publishedAt": "Sat, 29 Aug 2026 17:22:11 GMT",
+          "fetched_at": "2026-08-30T16:28:17.372706",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Airtel leads fourth straight month, Vi rebounds, BSNL returns to growth",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTBvZVd5YzRxNHpCd0UxbGRBLS14RENsenJVeWgwN2t4SGFWdVdVTEpBMzBlWTZsUlZLbUtPWVd6aVZMWFRQanUwaGJTOVNKb2lJY2FGUEFWLXNCTlhncXdKMW14dkdpRUtQSnZaNnV2OFZYcnc2OGlsMEZCaDREaXliWUViZWY3ZjBvSFp2SzF0OFl6LUFaVW11TjNHVXNhVVJVdjg1MzBTMlhy?oc=5",
+          "source": "Communications Today",
+          "publishedAt": "Sat, 29 Aug 2026 07:49:19 GMT",
+          "fetched_at": "2026-08-30T16:28:17.372710",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -434,11 +551,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-30T11:42:58.049605",
+      "last_updated": "2026-08-30T16:29:56.663567",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -510,7 +627,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "SRH vs RR, Eliminator, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWnhzMFhWdW14OU02elB4bkJTUmMtcnFOME4xLTJxRXN0V0RqU0pidnNYdTNKekt5TGQ1N0s3THRsVzJPNWcxelhqdWJnVmF6Sk9nd3I4Y04yNzVNcEw2U0JiT09NUE5CZVozdG5GQV9LRTQwelJ6Y3d5aGE5dFVlU0lIQVJoUFhYQ1lQRHUzaDdrZVk2U0pnSGRSbVhGQ200MHRjRA?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 30 Aug 2026 10:52:21 GMT",
+          "fetched_at": "2026-08-30T16:29:50.636643",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RR vs GT, 52nd Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFM5SHlGV2xoTEVwZUtMS3c2OTluQXd1dUZ0VWw5cmNNNkUxdzNwdngtMVBjNXBsWmxXM1lyc3Ewa2RrTVFOQ3lQZTNUTk5ZeVN3S2ZidmRjdWJKWkRwV1dWQW5sekRUZVlGQkxicWlTT1NvUXYwQlBNR2lWN1Zya3lWWFZCRVFkNjZhaDVWTjFvMU9nRGIwNzNPdEttemc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 30 Aug 2026 12:07:52 GMT",
+          "fetched_at": "2026-08-30T16:29:50.636657",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Gujarat Titans vs Rajasthan Royals | Qualifier 2 | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVENVUDFKUWpTSWNMcVpyVmpoUFlxUDBiUHhIUXBGYVZEQWZVYl9ISjhydkR0ZXhfWVpYSlNfUG4ybTl5QWhBcEpqRU1CSEJaUVhzYlVuNE1CSDh1VU5ZSnBsUlhEVWIyX0UtUTFOeDlhc01rS0pnS2ZJVTRNOXdCazRZZkxTZ2JEOVEtSXZ1Ny1DZ1RlcXlUZGFqYnNNa1pr?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 30 Aug 2026 12:10:28 GMT",
+          "fetched_at": "2026-08-30T16:29:50.636662",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL 2026 Qualifier 2 Updates: Gill masterclass fires Titans to final",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zOWhidFdyMmoyWWV4cVJ2Umx2bUNrdnNCc2xYQnBtUGFiQ0N4ekxDdG5IbEJKZndDX1kxNnJZZVo2UXByeDJ1bGNRMFNNeDZqc0ltdGZCRjhkZWtXZjBwZzRfaTNiR29DN3VfOG1sbWpsYllZalo0Tg?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Fri, 29 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-30T16:29:50.636666",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "SRH vs RR Highlights, IPL 2026 Eliminator: Jofra Archer and Vaibhav Sooryavanshi destroy Hyderabad to power Rajasthan into Qualifier 2",
+          "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNR0c1QnREa0dqbmhvWnpFRkhSUmJOdzhWOFI0ZjNEX3FsQnNMUEtDQ0llQldNb2xKaExfZlIycHRIMXNISFFkLTNBQUVPWmt2VmhhUUxBdEVuQ2FPSXNZenNoWjJ4NXJvRUVVd0w2QW9WMThJTkJpdFJxRUhjcUNIbHpmbWpLQmw0WjlYX2hxdFRncWN6Ri1nUUtVeGR6dFJFZV8tMW0zdG5tX1ZDVU5GTkdrTjdxUFdDUmh3TW5seUtVcDVEY012LUFlMXh1dG95bVNITlhsd3laa1dHNGZwN3pyR00yMkR3QUhSUmdxcDhwZVJqVWtoU0Q0bEFTUEF1ZldHQnZUZVRIY0VKQ1pNdldxeld4dWxpNTlwUllGQ0ZsbGR4MWtvQ3NHTVVES0EtSzM1dXh0VVFEd19kSHJqclI2ckowWFpfbG5seE5BaGFtZmFaZjdIOG8tWWFYOXNtMERkNFBzanFuNEM0NzBKbXlsZ2t5dVV00gH-AkFVX3lxTFBUdjJBTTdfNWZkN1VZWnU4dHYwVmFPenJQd1RUNUd3OXJKd3gzSl9FNUhxNUlZcmtoX25kaC1mWHZUNmJuM01WaG9XcjFFVkEybWJXZ0ExSS1YVWxfTzFJa0hXaUcyYThYVVIzUGN5MXctbll6TDF0V20yYkVBMjZsTHFleDlOelc5ell5Z0szQkNZdm1sMUpTWDNBcFdiVDQ3c2RYUDM1TjJUeVFhSkFYNHJqaTdlYXdMYWU5UEd4MkF5S0pZUGh4cDUtYTRLX2oyM05WRzV6VDB4dG1IODJ3Q3V2VTczWF9JV1dvUmdqQWxlc2NtZkRDZExLb0ZSWGhTS0I1NWJGVE4wVG94SGVWcmVEbWVKYmtZbUctcXA3cmhiREg3WXRyVkNVbVdWV0RmckVRTXgtUlUyMkhxa0Y1eVB0YXAtcjBNcE94UnVMSnNrbnVCV0gtRDdHZTFtcU1zRGpKdTFzNXo4UzIxa2xwU2NJeEMxSWRScnJSOXc?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Thu, 28 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-30T16:29:50.636672",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,17 +681,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-30T11:44:43.300190",
+      "last_updated": "2026-08-30T16:31:29.331614",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -594,7 +757,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "PBKS vs RCB, 61st Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZkJoNWdOLVZqVjRHdGJyNEZMOHE5bmZHRjItRjVTWDM1bE1DWWJGVWI0X1JLb0U0dDJuRHNnVGVxdHpRaV84RUc3VTJHSGdUWFh5TFEwVU9fa1NkeTFBQUNycDNVS3JqbnAyM1BMZTRVQWxaNnZVQXAyeEwxWTBWcENqdS1RTXBoemg2Q2l1TDB1MTg2X0FKYVNnUDJyOGRycVpV?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 30 Aug 2026 12:13:35 GMT",
+          "fetched_at": "2026-08-30T16:30:53.411878",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Final | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazMwV0lObFpLSzZaSXl6d1hwYkFsZ251QW9Rb3R0cjEwUzhISUlZMTB2SmJUX1pWU01QSmpsSl9FcE1JM2V6NHV6SlpZVm9KOTJZS001OUM3V1g1dnB0UHhyQW91WnZWemZ5NGF3c1FSRzllYWxuR3d3ZFk3SFNaRjdZWnZTcVVxQVhYZU5SSkdPV0R4TUE4Snd3?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 30 Aug 2026 14:41:37 GMT",
+          "fetched_at": "2026-08-30T16:30:53.411893",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Qualifier 1 | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOXzA1RzlpQmFQdUs3VklCZ3NNN0o3MER0UWx4emRScTF5Wm1FVU1LMW9waUlCNGt5QTk2M0dmV1BZV2o0dWVaQUEtOFVmNzMyUmpWTTBOMU1qbkpiYm5QemFvUktnNzRFR3Q3ZUQ4R3ZhMjBfME5mUU91em1abGRzd2M0RWZ3NWVFSkFGcm9pS3JwUjd5VUl4RUNuSlVXUUc0Tnc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 30 Aug 2026 12:07:43 GMT",
+          "fetched_at": "2026-08-30T16:30:53.411897",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT Highlights, IPL 2026 Final: Virat Kohli Takes RCB To Title No. 2, Achieves Huge Record; Shubman Gill's GT Runners-Up",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeWJzTmcxRFFyNTdxUkdfeVY3RzBpYlZ4WDRKN2o2UmdkdURtZkRmRDFpS2R2THZuc1V5Y25iSGQ3YThqVTNRVnlhVDBJNG5sMXVtMTcyR19SdkdUXy1vU2JHcDZySnpuY2pod0x2VmdXV0w1U3I1NXpVc1c0WEVFS3VIMzdtbVc2MUFYZmQxbkdBR25ZTnlsMVR1RnNScjhJM2tEZW1kUW1NSmExdzNXbzNLbDhfd2NIclNJSHJzY1NLdF90QjYxS2lQVXdzMklLRnFBR3ZOTkJpS1JvZ05CU3ZPRXVqWnhDYk5zZm5HZzlmXzR2akxyVVMyT0xnM0M3dEN6XzNnYWFydHNNZmlCQllqRnlhQQ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-30T16:30:53.411903",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT vs RCB Highlights, IPL Final: Kohli, bowlers guide Royal Challengers Bengaluru to back-to-back titles",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMVBWeGdXalVoUDE1SVVEZ1FsNjZRQURHOTI5ME11d2tkMWtHUzU4WGxHU245dUo4Y3RoX2JjaTVqMld1NGtFdFRmSmRaSGstOG0xS0dkUUFVZlpuMXZXYUt4MmZoTkRlN3lSNW5FbUxza2xkSFl6bnNpSUt3VjRVQmRqV211R2RUTkFadDRHbFFQWFM4dVFMVV85UXl3Wjc5SzQ2NUMwdnhDbXlWTHBUVUVNdk85SExpYXlCNURTM2ZHdF9m0gHKAUFVX3lxTE5UU1FqTGUwQUc2bmN4N2VlZ3h4ellPMkFZSTNyTzA1Q25nRkxXYkJ0clVUYmR4a3d4LUxVNjFaeUR4Q1U4bmZPeDVJeVpnMzl6bElJYnp1VUlnSlVNd3dGUm5xRXFvdE9nTkhHdERtdy1XeUR3ZUZXMmJCZi15S3ctQk1pNEpMR0NFLU9NWjRJX055ZU9nZmw3anNVV1l2MGhqNTlERDB1TTRHNWtRVG4wYnZZTVloTlRzWXRvQlg0ZVlGX0FlNXdPRXc?oc=5",
+          "source": "Firstpost",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-30T16:30:53.411908",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,7 +811,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-30T11:45:15.570879",
+      "last_updated": "2026-08-30T16:32:57.715127",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +895,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-30T11:45:15.773055",
+      "last_updated": "2026-08-30T16:33:18.509339",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
