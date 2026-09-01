@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-31T22:50:43.722740",
+    "generated_at": "2026-09-01T04:38:04.140158",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-08-31T22:41:44.752988",
+      "last_updated": "2026-09-01T04:28:38.227793",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-08-31T22:42:54.373545",
+      "last_updated": "2026-09-01T04:29:44.547908",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-08-31T22:44:05.089633",
+      "last_updated": "2026-09-01T04:31:04.438292",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-08-31T22:45:07.757284",
+      "last_updated": "2026-09-01T04:32:35.234755",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-08-31T22:46:14.049736",
+      "last_updated": "2026-09-01T04:33:43.349310",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-08-31T22:47:18.631062",
+      "last_updated": "2026-09-01T04:35:13.629425",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,17 +518,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-08-31T22:48:47.009691",
+      "last_updated": "2026-09-01T04:36:32.375063",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -594,7 +594,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Final | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazMwV0lObFpLSzZaSXl6d1hwYkFsZ251QW9Rb3R0cjEwUzhISUlZMTB2SmJUX1pWU01QSmpsSl9FcE1JM2V6NHV6SlpZVm9KOTJZS001OUM3V1g1dnB0UHhyQW91WnZWemZ5NGF3c1FSRzllYWxuR3d3ZFk3SFNaRjdZWnZTcVVxQVhYZU5SSkdPV0R4TUE4Snd3?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Mon, 31 Aug 2026 21:14:13 GMT",
+          "fetched_at": "2026-09-01T04:36:04.641830",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT Highlights, IPL 2026 Final: Virat Kohli Takes RCB To Title No. 2, Achieves Huge Record; Shubman Gill's GT Runners-Up",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeWJzTmcxRFFyNTdxUkdfeVY3RzBpYlZ4WDRKN2o2UmdkdURtZkRmRDFpS2R2THZuc1V5Y25iSGQ3YThqVTNRVnlhVDBJNG5sMXVtMTcyR19SdkdUXy1vU2JHcDZySnpuY2pod0x2VmdXV0w1U3I1NXpVc1c0WEVFS3VIMzdtbVc2MUFYZmQxbkdBR25ZTnlsMVR1RnNScjhJM2tEZW1kUW1NSmExdzNXbzNLbDhfd2NIclNJSHJzY1NLdF90QjYxS2lQVXdzMklLRnFBR3ZOTkJpS1JvZ05CU3ZPRXVqWnhDYk5zZm5HZzlmXzR2akxyVVMyT0xnM0M3dEN6XzNnYWFydHNNZmlCQllqRnlhQQ?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:36:04.641847",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Good news for star player from Virat Kohli's RCB, he is in line for selection against...",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMUZMd2hVM1JNLVFONktYcy1yOXVPMm1nWXM0X2haYlJZOWJCVFVURDJFMGwtNjhsX011OFhweVlobGc4d0lHekpQQzd5Y3dMa2NhVkQzdV9FUFhIdTIzcV9iaDBBZkd3TmdPNDdXV29ZY0FwS1JkZXRWa3pLbm5jeHZWeDdEd1M2a2U5RDhxVEZQc3RfUHEwSlkxSk8tV2dSdnQ0M1ZfbjBGNkUtWnJ5MmVCc0JaUkFwaDktRnNEX2U0NUF4dTNPN0JQdEl0N2ZQZjJaczNxOGUzbjRIWHI5T2dKYnFJRjU5b1JqNFJBWmo1VTBZQ3c?oc=5",
+          "source": "India.com",
+          "publishedAt": "Mon, 31 Aug 2026 09:20:58 GMT",
+          "fetched_at": "2026-09-01T04:36:04.641850",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TATA IPL 2026, Match 67: SRH v RCB – Match Report",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeEM5blJVU21kUUkwRXZHSjJEam5mR0QwWm5TRjU5Q29SY1VmYllacnJLbGZ0NmYtZ1V5QWgyMExrbDkwQVItWTg3aDV6bTROTG9PelpBR0l5RUpndU5zZVF2cEU5R2V0ekhiVURySzhualFIaUl6Q1BBNV9Ib2lCdjN4WDdrVFVJ?oc=5",
+          "source": "IPL",
+          "publishedAt": "Tue, 01 Sep 2026 01:35:13 GMT",
+          "fetched_at": "2026-09-01T04:36:04.641859",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "BCCI Considering 35-Year-Old RCB Star For India Comeback In Afghanistan T20Is",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUFLLXBsdlp6NUc4UEwyS25PRXJhU29yNGp0a1ZJRVpKS2U5Z2U2T3ktSWFzajJtVXBDaXVHZ1dvUmlqajJkX0RZZ25wVFdDVnI2Vktnekd2YkFJLUhIdFM0blA3cW9NZFdXZHhzaS1BOUl6R21FM19wdGN3aGlLR3NGLU1CRjJyMkZpZkE2Y0FDbDNVRTVqMThkREVEZmtPY1J1SjExQVk5Rm4ybWN1S1FNWFhialFtb3VFYWpEaDZzcGlWLXfSAcsBQVVfeXFMTWdtQTZQZi1xN0tyc19xQXNiZC01ODBOM3Y1bDFlT1hoRkkycDBwYnNNLVd2d3gwdHNVRUEtZU5LTGFuZC1qTk1ocVYzeDNlcmFTOFVjc3QtRjMyMFJFUWtnQjJYRkZQXzk1dkxpaXpSRFkwbmoyY3dFS0tYeEVrTWRrUUk1dkV4b2RrTzJVWWNQc2o0ajFMbS0tZEMwODdmNVJ2QUxmaVFaYmp4Z05LMzZLa1gtakFaRFhfSTJwVHIzRTJHdmhXQmptVFk?oc=5",
+          "source": "news18.com",
+          "publishedAt": "Mon, 31 Aug 2026 11:51:38 GMT",
+          "fetched_at": "2026-09-01T04:36:04.641861",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,17 +648,17 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-08-31T22:50:22.950218",
+      "last_updated": "2026-09-01T04:37:48.408165",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -679,28 +725,157 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Delhi Capitals Pacer Lungi Ngidi Taken Off Field in Ambulance After Head Injury",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTXNkWmxWaThsbFpjaHpKRGx5ZTU4SkFFUmNEWVpfaDNwNDNHVXZsRVBRcXgwYm5fMmNIcUtlYkNOSHpFMU13ZHhhZ0FMQUtlbXlRQ2QxUTNnTmV1VS1GS3QzaHdUcVpMZmFraGhra21UNk5LSFF1aDRJUTJ4cnQ1RGF6U0Rld3VoZEdublRDcno4LWZYMFRuRHNyZWpXbzhFcTA5TXQzTDE?oc=5",
+          "source": "newsonair.gov.in",
+          "publishedAt": "Mon, 31 Aug 2026 15:50:35 GMT",
+          "fetched_at": "2026-09-01T04:37:48.407927"
+        },
+        {
+          "title": "TATA IPL 2026, Match 48: DC v CSK – Match Report",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSDVqb0VkaGpoT1MxUlBMU0NCVWhwb2hET294SmJOY1VHaE8wS0JzZG1kc3pza3lYQXhFdFRub0ZHeDF6VUlqXzA5Mk9heXNjM2ttS3FhYjZNYUFrdmpCbVF1djA5OWhGLXhMM0QyRFdia0J6R2hWTjNZeHZmNDg4LWxFdzNPNU0?oc=5",
+          "source": "IPL",
+          "publishedAt": "Tue, 01 Sep 2026 01:39:08 GMT",
+          "fetched_at": "2026-09-01T04:37:48.407947"
+        },
+        {
+          "title": "TATA IPL 2026, Match 70: KKR v DC – Match Report",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMHVZaGVmaFpFOS1lZDZnUTdmSmhQRmUxbFRyV2ZyLUsxNGR1VVFWdS1VbTlFZUh0MWUxcGEwUG5LTzlGcTNrOWx5WnlORlMtVnRIOURlOEJzZWdOa3I0Sm1hcGZabEdsSzB3X18weGtiSHRaZDFHdTQ5dDIyX0VPSTFCUXM3NnM?oc=5",
+          "source": "IPL",
+          "publishedAt": "Tue, 01 Sep 2026 01:35:47 GMT",
+          "fetched_at": "2026-09-01T04:37:48.407950"
+        },
+        {
+          "title": "Do you want to play against the Delhi Capitals players? Here's your chance.",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSkpEUGdQNndyWWJTbGpRSjAxZ3g2YUlfSi0yRjNiUTZmb2l2Qm9tVUw4WG1jdnZDV2dYaDlJRk1ad1ZKdWk4d18xTzNRMTFiWHFad3hPNVowSEM1eFhjVjBXYW9uQmtpU2ZzTWdUMFVnR3dTVWFBZ3A1bkxSUWVxTFlaMTA4R2JGajhnWnJCRlR5TjBwS0I5ZlkxM0d1enVQQW9PWU85OXNadw?oc=5",
+          "source": "delhicapitals.in",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:37:48.407952"
+        },
+        {
+          "title": "Delhi Capitals Welcome Back Rishabh Pant As Kuldeep Yadav Joins Lucknow Super Giants",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmlHRWRxQVljV3otSG1CYzc4WlduN0FCRnkyek81ZDc0RzNKVUNmc0wwR3NkSUhBV0NDX3hheGxFWXFpNDFNU1V0OHJFczhiTE1QeGF3VGlhWmYzZ2xQTTAzUWhqY0h4NVQ2WXpCc1pKcU84Z0ZQQ0FxSm5RMzZJaWdaVUc1aHlTNDNSanJBNnY3NXJiRGZBakxiZWtyNUh6bm1hWGFSNHd2V2VrME9DNU9WZm90aWFMOUhB?oc=5",
+          "source": "delhicapitals.in",
+          "publishedAt": "Tue, 23 Jun 2026 13:47:06 GMT",
+          "fetched_at": "2026-09-01T04:37:48.407954"
+        }
+      ],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-08-31T22:50:43.722724",
+      "last_updated": "2026-09-01T04:38:04.140152",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Fri, 28 Aug 2026 20:54:40 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299265"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299285"
+        },
+        {
+          "title": "Louisa County man gets life sentence plus 10 years in child sexual abuse material case",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdDRta0dwbC1Wbkx5LUdFclhjZVNTekg1aVBPYzFwaXBaTS1uZndmMWplc241djJ4QVdqTnMtTG1FdUVYczVLY0dHOFZRTFlOYV92b2dyTmR5cF9uZWJHMktvT29GV1o1MkEyUnFyVEpxdXF2MTFvYjhZeldkQWdHODdUTGlMdXpoWUd4WUN1akVHSHdWb1pLbTl2LWZNNnVHXzZSTmMweW1VNDF6YjRVTDBaVE9oZnppX2pSbUt3?oc=5",
+          "source": "augustafreepress.com",
+          "publishedAt": "Sat, 22 Aug 2026 20:32:54 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299288"
+        },
+        {
+          "title": "Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUllVEdkVVpqM2d4S253dmV1N0pjM1h4MzBhemNHS3l2M01HR2hMOXg2b2VxbmJfWEhnelNjUnMwQ2Q5d2ViMHFKLWZVU3ptdFRURkstV3p4NGVuQnJxRTFGdHNYWTZBSXpvUi1iMmZhWGhwSkRVTk1NM0lFSm9wSTFnLUR4ZjUyd1lYZ0s5ODRLTXlnakttY014WmdiWlJVZm5LSS1PTzFTWHRu?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 13 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299290"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299293"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299296"
+        },
+        {
+          "title": "Former deputy gets 42-plus years for pandering child sexual material",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
+          "source": "Record Herald",
+          "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299299"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299303"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "WVUA 23",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299306"
+        },
+        {
+          "title": "[8-K] GPO Plus, Inc. Reports Material Event",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlacnIyUDI2T1RWekhLcU1NMXRwdmNUSWNoNDFDMWFzd1BCaVcxM3ZQNjNUSzhLc1IxZzRsMlBFM19td3VkYjUtRHd2XzY1eHpBTGJhd083TWxhUWlqRTFqcmh3THhrSW1WV2EtZF9mQXBWWGNVVVd5WHFqVEFZb1Ntd2JGYklyMmczVnpsSGxIS1k0cXFpa2pUQ0F5dGhMLUlv?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:37:56.299308"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Simulations Plus (SLP) investors OK Altaris merger, await regulators  Magnetic invention removes ‘invisible’ microplastics plus some PFAS  Louisa Coun...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -740,30 +915,46 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Fri, 28 Aug 2026 20:54:40 GMT",
+          "fetched_at": "2026-09-01T04:38:04.139816"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:38:04.139835"
+        },
+        {
+          "title": "Louisa County man gets life sentence plus 10 years in child sexual abuse material case",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdDRta0dwbC1Wbkx5LUdFclhjZVNTekg1aVBPYzFwaXBaTS1uZndmMWplc241djJ4QVdqTnMtTG1FdUVYczVLY0dHOFZRTFlOYV92b2dyTmR5cF9uZWJHMktvT29GV1o1MkEyUnFyVEpxdXF2MTFvYjhZeldkQWdHODdUTGlMdXpoWUd4WUN1akVHSHdWb1pLbTl2LWZNNnVHXzZSTmMweW1VNDF6YjRVTDBaVE9oZnppX2pSbUt3?oc=5",
+          "source": "augustafreepress.com",
+          "publishedAt": "Sat, 22 Aug 2026 20:32:54 GMT",
+          "fetched_at": "2026-09-01T04:38:04.139838"
+        },
+        {
+          "title": "Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUllVEdkVVpqM2d4S253dmV1N0pjM1h4MzBhemNHS3l2M01HR2hMOXg2b2VxbmJfWEhnelNjUnMwQ2Q5d2ViMHFKLWZVU3ptdFRURkstV3p4NGVuQnJxRTFGdHNYWTZBSXpvUi1iMmZhWGhwSkRVTk1NM0lFSm9wSTFnLUR4ZjUyd1lYZ0s5ODRLTXlnakttY014WmdiWlJVZm5LSS1PTzFTWHRu?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 13 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:38:04.139840"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T04:38:04.139843"
+        }
+      ],
       "filings": []
     }
   }
