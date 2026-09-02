@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-01T21:00:53.845661",
+    "generated_at": "2026-09-02T04:00:28.790877",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-01T20:51:02.521322",
+      "last_updated": "2026-09-02T03:51:22.640982",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-01T20:52:19.366095",
+      "last_updated": "2026-09-02T03:52:28.868298",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-01T20:53:42.440555",
+      "last_updated": "2026-09-02T03:53:41.759138",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-01T20:54:54.824334",
+      "last_updated": "2026-09-02T03:54:51.825135",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-01T20:56:02.062003",
+      "last_updated": "2026-09-02T03:56:07.491714",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-01T20:57:13.031140",
+      "last_updated": "2026-09-02T03:57:02.312971",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-01T20:58:42.510698",
+      "last_updated": "2026-09-02T03:58:22.000828",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,43 +602,21 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-01T21:00:23.499911",
+      "last_updated": "2026-09-02T04:00:01.469381",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Balance Sheet Stress Indicators at Delhi Capitals",
-          "severity": "High",
-          "description": "Financial leverage concerns for Delhi Capitals: debt. Credit risk and refinancing outlook research warranted.",
-          "detected_from": "KKR is the rare private equity firm that bets on itself  UBS reiterates KKR stock buy rating on USI Insurance sale talks  KKR-backed Vertis Infra eyes...",
-          "gap_type": "debt_leverage",
-          "keywords_found": [
-            "debt"
-          ],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Credit Risk & Capital Structure Intelligence",
-              "impact": "High",
-              "timeline": "6-8 weeks",
-              "price": "₹16-24 Lakhs",
-              "methodology": "Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending",
-              "description": "**MRA/ESOMAR-compliant study**. Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending. **Deliverables**: Quarterly capital briefing, Investor perception tracker, WACC model, Refinancing window analysis.",
-              "gap_type": "debt_leverage",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -678,55 +656,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "KKR is the rare private equity firm that bets on itself",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZnNwNm5BcmpvVzFadnMwZ25QVFlyWFFucFNEbFBhNWRreG0wY2VrTllyWDhfYU5GOGZDQl9NcFZvSEZKS0FhM1BUNDF4UXhxZUhJXy1kcG83ZWNPRUlTb1E4SmhZRWd2bG5icnI5TUtFdkhhZ3Bncy1FQnZseEpTNTRHX1M?oc=5",
-          "source": "Financial Times",
-          "publishedAt": "Mon, 31 Aug 2026 17:38:48 GMT",
-          "fetched_at": "2026-09-01T20:59:53.464678",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "UBS reiterates KKR stock buy rating on USI Insurance sale talks",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS1Z0TFBoWFU1TDVILV9fdGYya3liaGFYRkV6N3g5cU9GN1R6WGFTZUx2b2tkdE9MOERSU2RfVTY3alpJYUdYeS1maGl4clhSa0pCNk1jdjFQQjk2LW9uRkxFN0Z1NEt6cGsycHpqTjJxczFLYzc5LXlQS0hLUXRVQnROQ2RXZi1nTGdUX2ZtREV1ZlVaS3lhX2pzQlZfSTM5ZERYUTJCc1l6STVLRnNiREZ1WTdmR2h5WUxMdG9uSFo1Zw?oc=5",
-          "source": "Investing.com India",
-          "publishedAt": "Tue, 01 Sep 2026 14:47:57 GMT",
-          "fetched_at": "2026-09-01T20:59:53.464693",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR-backed Vertis Infra eyes large acquisitions with Rs 4,000-5,000 cr debt headroom",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOEJkdGJ6UEh1aWxtUC15VTc3aXZ1Z3QwN2dENGpPNXFVYS16dWhWbWZ3NkZjWmpyb0Ryc3QtT1dGeWwwcHNtMFdRQWZRS3BMd2lRYTh2OVh0OUpaUzVEYm5JYXhncS1VNXphVUNxUEZEWk9PTlZqQmlHVlF6a2E4bzAyS2FZRU1iSnhmdmxidko4WjRObl9UQzh5ZVpiVklLRkRXVFZ1RHUtcUY3RE0xd2ZnZS1aNVZvZVdfbS1oakVNRmNnaXVfeHA5UnVwa19zOUVMZHJlMjLSAd4BQVVfeXFMUHNFTkZzYXBFNEtXaU9ya2pFOTA4NDhPNTNrV0tMM19ueHJHNkVkNlZGX0xFRklfNlgweDVYQnVoaHJwRzhOcVV3QmNHSVZOWmVveVpyYmZGRXpDcDlsYnRvd05VR0Ffc1ZmekZpR2U3bmJ6cWl3bllfLTFWZVV0RzRzQUhBQU9ld0RReHZaUDU2OEljVkhvcGp3YVFWdnVPMDRweXlSVlhGSWhaWXBXMFJzYjM3NmVnMFBXTDFSRDgweDhqMW1NX1RCZzJPNWo4OVZNWm9fUHJYSVlueW5n?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Mon, 31 Aug 2026 10:52:18 GMT",
-          "fetched_at": "2026-09-01T20:59:53.464699",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR To Sell USI to Aon plc in $17 Billion Transaction",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa3B1aFEzdldTaElLVDBUcEZBZ192dGZJQkI4NE1DMGpKTjg1akR6UWtHUkdUeGZVUEFFQTFpbEY3STFfb1RBZndMZ0tqTFJxNXhDbkV5cHdPNGdhbktIcUZyQjEtT3lGZmxCdS1kbzgyQmtjNGN6VUdLRklGQ1hTSldxYzVpV1pEaVM1VWNDYWZYYVJwSFBvVnFXNjdLcGxWTGNVRXg2ak5SbnlMeXlMbTR3?oc=5",
-          "source": "Business Wire",
-          "publishedAt": "Mon, 31 Aug 2026 10:30:00 GMT",
-          "fetched_at": "2026-09-01T20:59:53.464703",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Aon Nears Deal to Buy Insurance Brokerage From KKR, WSJ Reports",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYlVTVlRnM2hudEtzT2liYTFaRmh6SUlKWWhNZ0RINjRMZG5PaE1VZUlfeXBPN1FKZkJiZlVaWDNJcVY2U0Z5NlNHMmJKbURIQ3JQX05uSWpRSGRqMFlCQmhpWjRDanJwdHpyRS1NUmVOLTJRNFJGN1pKRmpJY2RMdmNJQXB2azBUVVFsOXB3Yi1QRTFqU1hjd0ZtZ28tZ2piOTQwUzVCZm9VcU1HWFpSNll5Yw?oc=5",
-          "source": "Bloomberg.com",
-          "publishedAt": "Sun, 30 Aug 2026 16:07:26 GMT",
-          "fetched_at": "2026-09-01T20:59:53.464707",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -734,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-01T21:00:53.845644",
+      "last_updated": "2026-09-02T04:00:28.790860",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
