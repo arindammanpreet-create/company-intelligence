@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-02T11:08:45.379999",
+    "generated_at": "2026-09-02T16:29:39.094218",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-02T10:59:17.582557",
+      "last_updated": "2026-09-02T16:19:25.158657",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-02T11:00:33.705283",
+      "last_updated": "2026-09-02T16:20:56.405713",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,11 +182,11 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-02T11:01:19.081819",
+      "last_updated": "2026-09-02T16:22:17.418152",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -258,7 +258,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "TCS hosts inter-school quiz contest InQuizitive 2026",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR0g1a1o3bjItendpQWl6emNMbFgwWlNYUHAtcE5DMXJ3NzZOVUMzVEYxYVFJLUM1LXFKNGdhaWRRdUtXY21pWlZBWHNwTDJQdnFzRHRKc1o4VXgyb2lLWjI3Sk5tbUR0N0Z3Y3hiTUxyMkREUkZnX3o5Z2R4b3hsZ1daN3BEbGFzRngtdnZVR3NrVVZzYmFBT0xlal96MVluUlMwdHprRHFOaDdOQWMyR09NOHBfUXBrRWpnUmM1ONIBxgFBVV95cUxPSThRTFpEVXdTSWIwMWgwU3BXLU9mMXBMRm1RVkNpVnNvcS14anNrZnpEXzA5MzRfOENVY3dSclkwdmpFTDFfZHhLNzRhZmFobGc2QzhPTkVUYkt2VGZVclh5TGVRbFJNaFhQT0dzOEZrSVYxV2U1clNTM0laazRlN2dxLWJGcTRrelFuektjSk1rMVRqQi1iU1NJNWg4OUNzN3RZR29kUFloN2tqRVg5SUxTcXZsR005WmxoMFlEQ1o0QUpmR3c?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Tue, 01 Sep 2026 19:01:47 GMT",
+          "fetched_at": "2026-09-02T16:21:26.437807",
+          "related_to": "TCS",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Kinshuk Gupta departs from TCS as Chief Communications Officer after a brief stint",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORWEybEFIX3NLa3pySlJlRmttZUllSTNTUzdFRTNxSHNOQW82S3RQdVNsU051LWVxTm5sTV83VmktNERuam4xTVhvSnVmWGVIcmxaTHowNjU4d3dDY0NULWJudTVOMnUtaGtWZnR2RXZoLW9fTUNlaXhQTmVfQmJOX0FPMWI1dDdyTXgyZFdNLVVJa1pTTVZmeU9rOG9DV0RIR3pDYU9jS2hXbHh6alBCU1dfVkZ4UkxDQ093ZU95OHFFTk5qdHZkTWZHc2tPTXVHNzBiMDlmQ3ZPN21PTDlELXNIZ0tyNlhRU0VlVDZtQTUzTjQ?oc=5",
+          "source": "Exchange4Media",
+          "publishedAt": "Tue, 01 Sep 2026 08:56:24 GMT",
+          "fetched_at": "2026-09-02T16:21:26.437820",
+          "related_to": "TCS",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS pips Accenture to take over Best Buy’s India GCC ops",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdVlDM0JRZERRNGFCdW1MVkNZSC1LM1UtSzljNG14YzBGYmlTTDZtT3EzS2J4b1hKMzZuRVJ6V0VTaHIwRFA2UnU1YVVYd05wemZNTHFxWE1jVXVxbUVpeWIxTFgxS2lRN0JmNExETko1bmI2YUlMdXZaRzUyRW05akZiRndhZ3VZM2VMcFlnZjVOcUlsczUtRGtiTGlUVTdUek1ESG1MV0U3Sm00emw0UGUtcFFGRDI3LTVlUVpIdXU3TjhERVBORnQ4VHdZTTNiQjQ3dGw1eXLSAd4BQVVfeXFMT2d0R25lVWNTSDc0X1FBLW5vV0FQNTUtVXhCUzVKbzJvNnM5cW5kU0pfNHZQMmNVeW54QjZOLTJkMUpSbF9jSW9uRWhyMklvS09yeFhKTEYwQXQtbFFQZVAyNzVQOElteC1Xc0lhck1EV2ExSEp4VjV2RGJJUlY5S2YyVjROUzVVQ0JiZUJuRXplQWFVaUc2eWRxU2tjbWhjc1h1VUxOcS1PU18xNEE5ZGtWTllTbkpOSGVfNjlfaFk1dmRNMjR1eE9SZTY5Q3NPS0xQUTdVS2IwSmxiU1JR?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Tue, 01 Sep 2026 17:39:00 GMT",
+          "fetched_at": "2026-09-02T16:21:26.437829",
+          "related_to": "TCS",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Why TCS Made Big Porsche Bet",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMlI1UTVranJZOUZ6OG5pZGxEWUs2dThrV2RacXRMblo2cjUtbGNCUXVxOXRuVG1xMTJHd2VqN3V1WWR4S1dMcHQ4ZXFkSXlrSWhvN3JCMVl0di1FNE8wa2NtX0JCQVV0OHJqM3hKYW5QVW9WV2ZNTHR5NFJUaVVaR3F0V1BJZlplcTFv0gGOAUFVX3lxTE55Z01GbmI4OWpKNnM3WjYyalowOVpiRDhPTjZCOVFuWUE5N3BYOHdCcXNpelBRdXFuYm1DSGNCNDJmaGhBVnZfNUZ2TVN1NDhfbkkteUd6emJsbFVtRHlQRmpTNG42YTRhTmJXWXhwSnZYTlpMdnZGNXdabVpaMGhlUmRKa01MeFhoSmtONmc?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Tue, 01 Sep 2026 08:37:25 GMT",
+          "fetched_at": "2026-09-02T16:21:26.437832",
+          "related_to": "TCS",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IT Stocks In Red: Infosys, TCS, Persistent, Coforge, Others Drag Nifty IT Index Over 2%",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZV91ZF9WMkhheTd3MEJrLXJaQ3lSNTA1NnNGWmlGZ0N1cjU3QWx1RkJMOGtwNE5ySEZ0WUJGMTdTNHpjYUdNa1pTVVNkM1VGS2p3Qy1kRnRRZUl1bWdXMldaNEpEOTFmb042UTZZTHRtcVE5cDJKcm9nVTkxMXlDanVLUk8wYVRvQm12ekstelZadmloQU9JZU5tc0lnOXhzenlCbHV4U1ZpRHJvYjFmRi01Y3JRMjFMUnJnSXIxSFlZYUnSAcsBQVVfeXFMTXRoTWhKaEdiRnN4SXdwX0Zna0xvM3FSVUxkUDhYb3VnaW1uRFBSNTFoTHpyRG45Wlgwb1BNNnFTbnBvdDZKMmxsZVl1dWFZcWNkOW1ZeE84Ym9EUmpvT2M0aUkxR1BNR1dKU0w0c3pfNXRGR0tkU3dzaG5BWnZybDc3WjlUY0s5elpuRGN3RzlMWEx6cF9nM2MtY3l3bWo2NEVhRHFsY1U1cTlkU3dUVjRpcWRjc0tBY2hpN0RBcG1Sbk53NWdPXzZEaE0?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Wed, 02 Sep 2026 05:14:27 GMT",
+          "fetched_at": "2026-09-02T16:21:26.437836",
+          "related_to": "TCS",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-02T11:02:40.653244",
+      "last_updated": "2026-09-02T16:23:26.336402",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-02T11:03:56.684729",
+      "last_updated": "2026-09-02T16:24:40.208844",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-02T11:05:27.333316",
+      "last_updated": "2026-09-02T16:26:07.623336",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-02T11:06:59.873807",
+      "last_updated": "2026-09-02T16:27:47.906985",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,21 +648,43 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-02T11:08:30.210706",
+      "last_updated": "2026-09-02T16:29:08.863868",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Talent & Retention Challenges at Delhi Capitals",
+          "severity": "Medium",
+          "description": "Human capital risk flagged at Delhi Capitals: layoff. Talent market intelligence and retention strategy research needed.",
+          "detected_from": "PBKS vs MI, 58th Match, Indian Premier League 2026 - Commentary  Why Mumbai Indians likely to retain Mahela Jayawardene as head coach  Hardik Pandya T...",
+          "gap_type": "talent",
+          "keywords_found": [
+            "layoff"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Talent Market Intelligence & Employer Brand",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹14-22 Lakhs",
+              "methodology": "LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30)",
+              "description": "**MRA/ESOMAR-compliant study**. LinkedIn Talent Insights + Campus Data (500+ colleges) + Exit Interviews (30). **Deliverables**: Quarterly talent report, Employer Brand Index, Compensation matrix, Retention heatmap.",
+              "gap_type": "talent",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -656,29 +724,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "PBKS vs MI, 58th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR1hnempUWXBYcS1YbTYzNFBsRlc2MGZ5QUFiQ0RyZ095MFBtRXdNclFKN2tOQ0oxY3Y3SDBncjczQ3FrSGRncm83MXhyT2FhVGpLSnVraWRLTERkcWhNdmlVcXp1eTNIMnBGSDU0aG5GbEYwN0JoR294a1dKVUVQakgtaS1jbjFGNWF1N3N3UzZkRmJ6ZWdBM0xXVHNRdXJwMkE?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Wed, 02 Sep 2026 10:10:50 GMT",
+          "fetched_at": "2026-09-02T16:28:16.512111",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Why Mumbai Indians likely to retain Mahela Jayawardene as head coach",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRUJwbVZ2QkUxVmxrajdoX3RiN2M3cnNYZ25sNDBtdGRFaHV5UVIzR2tXdklmdG81cXFzMWFuN0FkdENYdEhrS3d4dVlEQUtxU3F4X3hWUExUaDZRZXY1MU1Ma0FFNUhKeE16Y2JvMkVqdFlLLS1zaVVEd3dPc2hvX2pVYmIxc3ZzanFCdlRfaEFMTFcwR2F1TFNJWkM1ZGdXdF9DRmhGNFlfNUMtc2pVa2RXaXZMUWV0ZGVSdFNXNm5od2V3REZlc3QzQm9WeXpXeWQyelI4UHdqQ3ViZ083Qi1B0gHnAUFVX3lxTFB4Q3h1WXJBcHFMLUxWd0IyN1A2QXNvNjdadFM2MHhKT0ZDWG9VWV9RZDhBMUVsMUhYMlhKbU83UTU5ZVIzcDBOMEJPeFJxTUhiM3VMU2gyU3c5Y3NvYkRzUDRZQ1JLRzFadUhnTDlMY1MtYUNyYTcxTkNMMDQtbDdxWkRVTEFSTHVGSW4yMUlsV0gtV1RzTzA3bnJzWDNTQktoQ0JsTmtYUHNXQ011OGNEY2dxTlU4T1E1d1R1N3JoNVVxNGFTWHV3b0dPV3ZJMzJCUEs2d2tObFl4QVd2bW5LSUNCNy14QQ?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Tue, 01 Sep 2026 12:59:53 GMT",
+          "fetched_at": "2026-09-02T16:28:16.512133",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Hardik Pandya Told Trade Might Not Happen, Rohit Sharma To Pick Next MI Captain: Report",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeDNYOV9yOEhBaVp5dGtTdVAyRE5sZ1hTWWoyaklQemFQMzVKTHd1MXpmVWVtY1ppQkhTSFhURVhqZmUxSHFoR2xUYkRCM3FkN2FZMDJtQ0t1YjYtclQxLVZBYjFlTFpQOGl0a3ZEcV9BYzhaSGFoZ2RlTnJiNHR1WGdTTXd4NmNsRHBFYkVOX2pHQVJxSW5RR2pWMkFSemh4X3ZpbHFDa3ZMaWFHY2w1dHNKQjdIQjNmTTlGYy1EUm1jeUVEV01GNXRWTkg5LWc?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Tue, 01 Sep 2026 10:09:00 GMT",
+          "fetched_at": "2026-09-02T16:28:16.512140",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bad news for star player from Mumbai Indians ahead of Afghanistan T20 series, he is set to be…",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbGhRMVhCRU9nTTlqeHlSRVZpUEU3Nms3a3UxOFZ5bUppOUk5WTlkMlNhQ1RhM0VrUmc0Wk5WU1piUnBZQVZjeXphTl9RVWF4alFXUm9uekE4SF9MLTR1bnJ2SXZZSTNfX2h5b2FGbkhSYTFPbDhEbWVXUml4V3pFUFpFZkZxcFFmSEhCbmdTYV9ab2YzeEVtX2VXa3prbWNBWkdSaXVINm9rNklmQW9pYzlDeVpDa3RDN0ZaeUx4UlUzZ3AwazdLeE1fVVhoVXF1QlEtN21zcjFzVnJnOUlHdGViWUo1S0NURWVFLW1CYk14SXhF0gH6AUFVX3lxTE4zMkpIWHZaTF9wRXlZMlZxSnFBYlBjUXh6YnMyaU14LUFSb1pUUkdoUnVaLXBNbnNJbjlLalNObHZqWlNNX2dhQXFmOVdRNHBRNC00SWxEdlBkNFBGM1lGb3F6cGtJaWFTTUk0cC1KMzlYR2FCWHdtaWMtdTA2YlFRV1ctQUNvRWFSeWV0TDM1S280bVNiTGE5Z1p1bzd1aEN3c2l2cDVTTFJ4aHFrOGZVY3dfQWxrTjJZTjM1REtvOGx5eEtZWklXMkg5OG1LMGdpem9PaGo2aWw0ZWYyWjdFVHdoemVJZHduRF80Q3hSd0VzZ1VtRkRoM0E?oc=5",
+          "source": "India.com",
+          "publishedAt": "Tue, 01 Sep 2026 05:25:51 GMT",
+          "fetched_at": "2026-09-02T16:28:16.512147",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MI Vs RR Highlights IPL 2026: Royals Qualify For Playoffs After Clinical Win Over Mumabi",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQaGFiQmZUSERBcmlEdW1odWN4RzEyX0Z0c2ZIOHVvdHY5d2NOd0M5ckRvVjlhcmdCWHNxUU10NHNYQ2ZZQjRPd3BjVXhRVVdaRlVqX0hZYkUxZzBGSXZJbmNZdWwxQjFIcUhrZEI1a1B0eG03NHFsWXdfcjFma1ZUVTV0NngzcG9VaU1KOEdsdHBPNVBOMTNzOXVjV0Y0bHZpcnhKV2dCby1XVGFwMUNfdl9hT0VTQ3JqUXFlUHczd0VmcE42ZzFQRmdXX2hNeDVuWWRYNGhHdHVZNm5zQ3RGMmVOMzUya0JMUG5VMFk2X1dfT01GcU44Vm9SX2ZOaFFrb0NSZNIBigJBVV95cUxOSzRjTEZiRUItb0hOT2V0S2xJMjdEV19ZTmk3elVnMU90MkNpdTEwcWtKblQ4VjluU1dUTU96N18xTmljSU9KR05VNzdENHlkQ3JKNS1HdUZUVWhzY3Q0S3N4NVAwQXJ6bXlCYVZuOVhWWE96M055WEp3MHVpYWFaUG9zeUFtdFRMQ2VNRnNPNEV2bzNVeEM1eTgyS1BIeTBSTFhNdmg3UU9EZ0lzTXdoNDNTU1hzRHk2a21uTXhTamRPS0F5MHkxSEtWOVdWTU1OYzFtRjJ5b2Q3dzRNVFlXVjBnemZHdDc1MVk2ZjJMOU5YZ1FVbmFsaTRQT0NwVFd6REMyWWRrd2lTUQ?oc=5",
+          "source": "News18",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-02T16:28:16.512151",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -686,7 +780,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-02T11:08:45.379985",
+      "last_updated": "2026-09-02T16:29:39.094203",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
