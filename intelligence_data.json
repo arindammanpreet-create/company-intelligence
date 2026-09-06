@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-06T10:48:30.190080",
+    "generated_at": "2026-09-06T15:22:55.201190",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-06T10:38:48.445067",
+      "last_updated": "2026-09-06T15:15:02.249911",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-06T10:40:09.892302",
+      "last_updated": "2026-09-06T15:15:45.346758",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,17 +182,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-06T10:41:31.021899",
+      "last_updated": "2026-09-06T15:17:08.218440",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -258,7 +258,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "HCL Technologies To Meet Analysts And Investors In September",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSTVRNzM5WHJsbWlwUTlpS3c3OUxLaEMybUFNSWZKOVYyeTdZWTdmeE9VY3ZxS2ZqUWRxcE5tRWZPQzVNMHJKUkZJMTZDNTNfNF9TbnB4Q2R1NU0wcXpLSlFlY190VXJWb05EOENTQ1g2M3k3WGhPRkpmd1lpenE0WGw1OEhWMDZZUVhWalVRNHYzT1FvQ1p1Zm50WndBWTFG?oc=5",
+          "source": "Sahi",
+          "publishedAt": "Mon, 31 Aug 2026 12:10:35 GMT",
+          "fetched_at": "2026-09-06T15:16:38.167529",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Nifty 50 Gainers and Losers, July 3, 2026: HCL Tech, SBI in Focus",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLWtBRi01RnlvRXFVNnZ5b0JON2NWS3VzczRhb3JfbXpwZUQxclJoZl81dm9QaGlrQWEtNC1Eb3R3OUwwZWoxWEtKUmNSYXJZTElHdmliOE1UWUNMRy1NM05Lc0hQbkdybTdmekVudVdHMTVFTkt3VkJLb1RqYjBUV1psMGVOUUlSa1BpbTJfNkwtSUtuZUdvNFhoRWJrNGk2RERqZnNGUEFEU0ZyX3BNQ2pOVk5BVVR6VlNHUVdqbGNzeXJ4Z2xWTjJmSWlYb0t2MmFuSnZPWEplU1RKSS0weEo1YnYyUQ?oc=5",
+          "source": "HDFC Sky",
+          "publishedAt": "Fri, 03 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T15:16:38.167543",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCLTech signs MoU with Transport for NSW to explore AI traffic insights for India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNek85aWdLYl85aWx5d3pwaFhEc0xxUUswWVp3cW1EWXNRYkQ5RHJab1RTNUtsdXJWa1NiWGxsRWZQNmdkYnBUcjZjeWhpVHBkc19nWGVDNXN0akZoai1ZUlAzOFVra09zdVFWb1huSF9JQm9RSUNFMkhIQ2FiVE5hLVpGNUxOdHJERFAzZjdsbFJIOG5rVHhSUWpjWGt1dUhreVhDeG9MWTZ3V0R1S2ZZMHBJeWxTeUVf?oc=5",
+          "source": "scanx.trade",
+          "publishedAt": "Thu, 03 Sep 2026 08:07:36 GMT",
+          "fetched_at": "2026-09-06T15:16:38.167548",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCL Tech rallies 24% from July low; hits 3-month high on huge volume",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaFJCRW5ram1kd3FQR3N2a1E4Mno0ZkpyQ0Vad0NzTHZhcFI3eUVmWVBrckVHRGhOM2FXZmJxVWZ3YUxRVHRFUHlJNC1uLXJDRndTdEdZMEk2N0Z1MlNDNE1NRmp4WUQ3QTVLY1hoZE9LNERndW1QNi1PLUxMaDVDUWo2QVJ3R3duWGh1eUIyWnhtNXVGTkE2MUl3VmlMTmdmZGtrdDhsbHdOXzFEc1dNZDFqYVQySWZJSHRkc2RJTFRldDZfOVZtd1J3RHlSZ9IB0wFBVV95cUxNcTBFS0JxTVAtR3JnTGxiTk1JRlhRajdlM082Vm9oNmpnemFGaXRtWHotdzlfMXlKaF84d1NLZENCdTdCb2RnVmJFUVk4ZE4zRkdka0tMNVNLSWQ1RDdEZmxoVnVlSmFORzBJMV9WaWRJQ3Bxdm94V19wZmFPZnl1M2d2Z3JHWlk2TG5PWHZpMVV3RktxZVVyWDdkOGxSMldiMzdtY252aUgwQUtkNy12UjdOaGttUU5tSDN3cjh5NTJiTkFibnJJV091b3o0WTFUZHYw?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Fri, 24 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T15:16:38.167551",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Trade Spotlight: How should you trade ONGC, Infosys, Alembic Pharma, HCL Technologies, Caplin Point Labs,...",
+          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPZTVmZ0RoWDRETXdnTnVibjNuenBTXzYwZjR5WHo3bWpSRzJGRXBDbXUzNjVHRlRRLUFfd3VOS2hXbUpINl9GdGc1SDA1dkdLUC04N19PVEJqYWxWVVc4Zl95N2E2V2JaZVpJXzZjNktZV3gzaWFWMTJZOG1RMklMTFppb1N6M2ZKdE1VVWVKNDJOdVoxQjBNLTRBdWMyVHk5b1NJVTZ5MDNsVTBELXFUMzNfM1diYV9NaWFDVUZvV2tpS29pQXRmVmh5dDR0WEE4dUwxTWE4MnVPdXBDd0x4QTkzZERhUzJTLUxsVFgxbWF2Q2toYWllUERscVRIZVd2NC1kUE1vSjlwWk1uNU1OTU5qaUh1YWtnTmfSAZ8CQVVfeXFMTlZSeDdCN0tTOXBOMWdweEhQNkxHaUowNHVrcUFHSmFuNkVMTUN4SG5xLW13NzR0VzdnWWpQSm5oZkxvdzZGOS02cmN0OTdWbGpWbkgyVDhITTlyYTA0NEsxRWhMcUIxUXNvWEhfZ0I1TjhTczJtTXlJUlJMMmlRSk53WThHeFQzdW1lblhjQjhrZEZ6c3RveUp6RTVjUTRFNDJSNWUzSlExMmU5ejNKaFl1OGtEQjV5YjFTYkZ6UE5kdmR4NkpwWkNEdFVkS3M0clNXSmtBYWFBdDBhZEdPR0xlazJkWjBwOU9TczgxVGFyQmlXMnJhWGVYemRrSy1vOGx3SjlqZnQxTlhkZkRzS3kwblcwRERQX3NiRVd3V1E?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 02 Sep 2026 02:14:35 GMT",
+          "fetched_at": "2026-09-06T15:16:38.167556",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,18 +312,18 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-06T10:42:46.433325",
+      "last_updated": "2026-09-06T15:18:20.929680",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
+        "score": 0,
         "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -342,53 +388,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Unfinished agenda larger than I thought: Axis CEO",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTkUwa0ZtQ1FWWnRDZDIzRDBwN2oxWjdJM3AtdXEzcm5QbENQNnpPS0VLR3lJTktuYkJOLXZtZWZtdTJnNWpSSURyOW1HMkYyZU9DaUI0Z0d1RkprcFNkVklyRXZ1SUc2djAzYUtIWGJUbElwMWFaWVh1QVRrcFd5LWVxV2xiaXhCT0JVdGxfalRjZ08yYnl0MGZGUjRfb1E1VUYxbldFM0k4cnA5RmljRmV3ZjJ1bEtybUhjclh6TGdqV2E5Q2NydmJlaHVPVHfSAdQBQVVfeXFMTnIzTGwtWmZXRUJNNWlqYlotRHJSWFJqRVZOTnZzRlhpMlRBY25vS3hGU1g4a3lwc1lPenExZ20yYXByQjUtX2M3MFZwR1hMNThUYTktdnBWaDZod3JzX3pqNFNlZDFkSzI3WGpnajQtZEwtMkhnejJVSFRQR2xpcmFrYWdwOVFDZXdJN1dkTHBEektOWGl0aDREX29kb0F6enBSNHJqNzV5c21LTWNTb3d6NzlvZ1YybDF3MWpxYWI3XzhaZTI4TXNJQUpIMXZGWTlGT24?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Fri, 04 Sep 2026 22:28:00 GMT",
-          "fetched_at": "2026-09-06T10:42:21.950461",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Axis Bank - Festive stock picks: 10 stocks to buy ahead of the festive season. Do you own any?",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdlphWG12cEFLRDZuNVpPTXdsRTQ4aU4zRFhrS3M3ZWRESGRpSlllSmRud1pFVnhFbS1VVjA1Vm1wXzBQWllXQkp4ZVJoV1EyTkR6YXU2azY5UE9PLVJWczVfZkdYTTZ5bFVMa21pemo4OTg0QkxnYS1BSlNiMWRiVzVrY2VhenZaUG50RGFBZ09RRHpjT1JBR1JUUnRhQXA5aGVNZ2M4Ulg5Rm56ZFdvNk16T2N6VThzLTVZY1J4R2V1OFdEWEtzRHhwLVVYcGhjdGdXVHdRaU5yNF9MalZFNkkzb2Q1ZEdNcFZMY05uS2hsWjA?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Sat, 05 Sep 2026 05:35:40 GMT",
-          "fetched_at": "2026-09-06T10:42:21.950491",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Axis Bank Scapia credit card goes live: Check lounge access, UPI rewards, forex benefits and fees",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWkxRYVVkTXo0dGdyQW1fYWNObjJFVkpyMWthU2FsYmVmZk0tY09PcGdtcGx5TDRvMEwwUmhwRjZVekM4UGVfRW5IaGJuWkZ4Uk9kb1J6TTRiUXFpaS12ZGNBN1V0dGV3QVU0aHdwN3p1VUplY0F5UkdnVzczMno0ZkpHS0FzX0FKUXJmZnJ5cWJ3OEd4N1ZRdTVNVHBFYnNrLTB6cEFZRWdCRVp5clZ4cWVTWDk2Tmd5WnF5YVJncUJqbHlKaGh4MDFXUm02QnQ1c2UwdzZPSkU5S3hNaThCZm44cWVNZVBQVXFBYkpRS2xpMWRKWDRkc2hXZVpId9IBgwJBVV95cUxNMWZPc3FNWmFGVDRja0hsTXFIQkMtYkV4WFBZa2ppNHc3RHFxRGhmUVpHTmNHaXk4M0h2aUFtQmhvN3JvbjA0RUdXOWJ5M3Jxc25xRzRXdEtmaFNRcXJkNkxjNkFud3h3U3FhODU2dFVRMGZiTTRBamlRdmtKQU9fUHJHa2VRUDYzN1hxeHViaFUtNnR0MzJRNzVGX3hvdG5vT013RWswTDRWRDl5WU11X0x4ajBZMG0zSWNXXzlYNVgtNjR3dGpodl9POTFNcm5Zd2xKZXZDNVNra2I1c25sLXRncXhfV0NmRVlDWFRyakEwNDJwaW5qcVpuOXdiYmJWZ3Fn?oc=5",
-          "source": "Business Today",
-          "publishedAt": "Fri, 04 Sep 2026 22:05:01 GMT",
-          "fetched_at": "2026-09-06T10:42:21.950496",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Nifty Bank jumps nearly 1% after RBI's $136-billion forex inflow boost; ICICI Bank, Axis Bank lead gains",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUnlZbkVKbWtTQ1VBVjRia1Jwczh4cnpfMGFJOXZLdXd5cnptRUNqSGVZX2pXb1pGSHl0ZVA4TlZHR29odU1qX2stY1FLQ1JkS203RDZxT3llWlZpZHY1b2dHOURiU3FOejhsckljaFBsdk9fMEVrRGJSWFRVbGF2TzBtLTFrcC1INHNVMGN3WWhHS3Z1NXFEbVZLa1VKTWpmOE5LNFBhU1E2bmdPa0ExY2JlQlRQQVFTQ1ZVQW85cWxwOWNrXzJRRjNLZ3VwNmR2eWpOZ0RCT2hnRkZQYzR2NDBXaHZMcllY0gHuAUFVX3lxTE9uMkh2OU9raGNFN240Z19LY1pyZWs5Q0xDcHRkblBlejYwcy1jWVBtbEoyUkczYTlqOFZtUkxTaEJuRGdOZjZBODNYc0ZVeUFIN0NkRjU4bmlWemlrUnRzbVBmaF9VX21NMmVRQzdHSHUxR2t2Qmw1Q2lJTGVwYS1zRUs2MFVBamtvR2RYOWJrVWZqSkR3T3R1TTBkVGd6aUE5V25obUVNVHcxZnZQTWtNMGJCQkdrR254OTdzS2hiaGN0MXZSVG9Mak5fcXRRRE9FMEx3WTZGYVVIaldVd2pRMVU4dGJwYzZpTS16a1E?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 03 Sep 2026 04:31:02 GMT",
-          "fetched_at": "2026-09-06T10:42:21.950500",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Top gainers and losers, Sept 3: TechM, Cipla drop 2%; Adani Ports, Axis Bank, HDFC Bank gain over 1%",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPV0R6c2N0UmE3VmhkSXZEbnJQOGxVYklFYlRyWTJiLXRnVFlTcTFWaTBJeElJb1JDSjhtOFU1NkJtNkoxbFUzbkd4V1M0OEpfdktscXh6WjBpZXoxUHJmQWlqT2ZVTzBUZ0w1T1N3RkVPLVluWEhBZlZHbkZRTXFPQjJqSnRSVThfdUVkMTFLTG91MkU1cEFGaTFFMjRMalM1VlBFeEMwTjhNOXk4ZkRTNGlINWphZTBxczViZFVpdHpVbUR0Vm5MRTFoNk13a3lYcmxOYmFTQldzNzhwbDVfYVZicVFONjg?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Thu, 03 Sep 2026 10:59:39 GMT",
-          "fetched_at": "2026-09-06T10:42:21.950504",
-          "related_to": "Axis Bank",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -396,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-06T10:43:52.522752",
+      "last_updated": "2026-09-06T15:19:03.875869",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -480,11 +480,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-06T10:44:50.165245",
+      "last_updated": "2026-09-06T15:20:26.007036",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -556,7 +556,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "CSK defeat KKR by 32 runs in IPL match in Chennai",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Y5OGpsQmhWY0hOU0JNNlJBS3dzdVgzM2t5MU1sOGxfcWl5ZHB1SXFKRFM4UHoxQTBfcndfeXdEczYzc0d2eEo0MTQ1VS1pNHZOQnZicDh4Rnk1aktNU01ULURtR05TMjBONEtGdW1TaTJzS0I3LVlGUGl2WDNkdg?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Sat, 05 Sep 2026 23:04:40 GMT",
+          "fetched_at": "2026-09-06T15:19:59.770794",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR Agrees To Buy A1 Garage In Around $2 Bn Deal Amid Home Services M&A",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZFAyYnVUandqazRoY2VlMk5oamlQelZmb05fNGdIdHNYaFY3SF84UVdna0NQVFNoYjhzUzUxS2hYSWJJZ1NZeEx6QzNETGxuamU3aTNyaDYtb3UyWDkzTTJtNXRuenVpR01qU3NoNXYwRFFzSzJXWDRJMkd3R3F2cERkN3ZlOXlPNjlsYWdUbWtlanBmT0xxVE41LWhYOFY2MXd5WFU2Y3Q1UmZCeHlFUtIBvgFBVV95cUxOSjZOaldaUWRJNFFXbDhtTnY3S2c2cVhFckJmS2xXQlRvWEpQdW9NeFVsckxtdFhTemQtZmVPNUJvdXE1RFZRWnRhblhVdFNmdjVjWXVRYlFTTFNhRFdFUWZ0cFNla0Mzcy1GeFA2MFctRmZraFN5QVJZV1V6U2E3QmVfNG5nX1N6UXVSUmdsUkZBY1ZiM3AybFZoMHZhVFU1eUQwNEhjVXZXSjBKd2c0dF90NmJqNThSV0NSYWJR?oc=5",
+          "source": "outlookbusiness.com",
+          "publishedAt": "Wed, 02 Sep 2026 13:39:48 GMT",
+          "fetched_at": "2026-09-06T15:19:59.770808",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "What’s up with… Ciena, Telstra, Singtel & KKR",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcHI5OWJzSG5VX3Zmb3ZNNjFydmRYbmcyUEM1X241YkotMjZnVHJ1OEI1aFJWVGR2SFVHLWhMOXowMG4tdXhZbU1FcXlSNDZPRFBIUGgxRXdXUnBUZGhXc1hsNUYtTkFGb3hlc1dEYWFYX3lLWmlJbDNBSnpSem9oRmlrOXRNNlpxbnNKY2VrYkFqaWV1Z1RqRVBlR0lrdDTSAaQBQVVfeXFMTU5oSmxfRWFtNmUxcXFlaDVKQUNvbXNWRWFfZUlwSDdnbUtnQ3FaTUs1RXdSVmVlSzNqV0VGcEh4b19GVGRFOGRvMUZ2S2Noa0ZFTXMwT0NoMUZCY2ZvRzY1MHhFM1VqR3J0dW5ERjhlb29KLTZSaTdfMmhCVTR2am1BRFNFSjdINWdMenlSZk1RZ2Z6eEVzM21RTzVGSnk0VjBOcDU?oc=5",
+          "source": "telecomtv.com",
+          "publishedAt": "Thu, 03 Sep 2026 14:56:30 GMT",
+          "fetched_at": "2026-09-06T15:19:59.770819",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "World’s top private equity KKR to join Samsung Fire in acquisition of UK insurer Canopius",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xRmp6bXktcngxcTgweDljOURNVFNnN19IZ0ZJWW5oLVJQMmw2SGlTVXpxZjF5MFZ0aVhxTzZIVEFBNWl3NTl0b1F3UHFWSHRubnVTdEx6X1FsSnlWVkV6a0ZfUzVITExiT2pWVA?oc=5",
+          "source": "KED Global",
+          "publishedAt": "Fri, 04 Sep 2026 09:09:00 GMT",
+          "fetched_at": "2026-09-06T15:19:59.770824",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR to acquire A1 Garage Door Service for around $2 billion, sources say",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMzBsYXlGY0dqSEdBMnJCNHNJaHo2YUtSNTRIaEcxTFd6dVIxOHhDWDl2TlVEREVYOE1WcEs3dE5IRHYyVXE3TDE4S0pBeHd4SG9MUjVfdzlaTWNLX3JWODU4VEFWS25IdEtnb1BKeHQ2ejU0NFYzZ3dGdmIwajRwc2lVclEwcXRYZ29OOVlYUTFrbmM2dFMzU2N5aWVwN3JHSVJtUDVqM01JTzBfRWd1amZLc3V0QV9Mdncw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Wed, 02 Sep 2026 12:07:39 GMT",
+          "fetched_at": "2026-09-06T15:19:59.770828",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -564,11 +610,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-06T10:46:35.344431",
+      "last_updated": "2026-09-06T15:21:37.001651",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -640,7 +686,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "CSK defeat KKR by 32 runs in IPL match in Chennai",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Y5OGpsQmhWY0hOU0JNNlJBS3dzdVgzM2t5MU1sOGxfcWl5ZHB1SXFKRFM4UHoxQTBfcndfeXdEczYzc0d2eEo0MTQ1VS1pNHZOQnZicDh4Rnk1aktNU01ULURtR05TMjBONEtGdW1TaTJzS0I3LVlGUGl2WDNkdg?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Sat, 05 Sep 2026 23:04:40 GMT",
+          "fetched_at": "2026-09-06T15:21:22.763757",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR Agrees To Buy A1 Garage In Around $2 Bn Deal Amid Home Services M&A",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZFAyYnVUandqazRoY2VlMk5oamlQelZmb05fNGdIdHNYaFY3SF84UVdna0NQVFNoYjhzUzUxS2hYSWJJZ1NZeEx6QzNETGxuamU3aTNyaDYtb3UyWDkzTTJtNXRuenVpR01qU3NoNXYwRFFzSzJXWDRJMkd3R3F2cERkN3ZlOXlPNjlsYWdUbWtlanBmT0xxVE41LWhYOFY2MXd5WFU2Y3Q1UmZCeHlFUtIBvgFBVV95cUxOSjZOaldaUWRJNFFXbDhtTnY3S2c2cVhFckJmS2xXQlRvWEpQdW9NeFVsckxtdFhTemQtZmVPNUJvdXE1RFZRWnRhblhVdFNmdjVjWXVRYlFTTFNhRFdFUWZ0cFNla0Mzcy1GeFA2MFctRmZraFN5QVJZV1V6U2E3QmVfNG5nX1N6UXVSUmdsUkZBY1ZiM3AybFZoMHZhVFU1eUQwNEhjVXZXSjBKd2c0dF90NmJqNThSV0NSYWJR?oc=5",
+          "source": "outlookbusiness.com",
+          "publishedAt": "Wed, 02 Sep 2026 13:39:48 GMT",
+          "fetched_at": "2026-09-06T15:21:22.763771",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "What’s up with… Ciena, Telstra, Singtel & KKR",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcHI5OWJzSG5VX3Zmb3ZNNjFydmRYbmcyUEM1X241YkotMjZnVHJ1OEI1aFJWVGR2SFVHLWhMOXowMG4tdXhZbU1FcXlSNDZPRFBIUGgxRXdXUnBUZGhXc1hsNUYtTkFGb3hlc1dEYWFYX3lLWmlJbDNBSnpSem9oRmlrOXRNNlpxbnNKY2VrYkFqaWV1Z1RqRVBlR0lrdDTSAaQBQVVfeXFMTU5oSmxfRWFtNmUxcXFlaDVKQUNvbXNWRWFfZUlwSDdnbUtnQ3FaTUs1RXdSVmVlSzNqV0VGcEh4b19GVGRFOGRvMUZ2S2Noa0ZFTXMwT0NoMUZCY2ZvRzY1MHhFM1VqR3J0dW5ERjhlb29KLTZSaTdfMmhCVTR2am1BRFNFSjdINWdMenlSZk1RZ2Z6eEVzM21RTzVGSnk0VjBOcDU?oc=5",
+          "source": "telecomtv.com",
+          "publishedAt": "Thu, 03 Sep 2026 14:56:30 GMT",
+          "fetched_at": "2026-09-06T15:21:22.763779",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "World’s top private equity KKR to join Samsung Fire in acquisition of UK insurer Canopius",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xRmp6bXktcngxcTgweDljOURNVFNnN19IZ0ZJWW5oLVJQMmw2SGlTVXpxZjF5MFZ0aVhxTzZIVEFBNWl3NTl0b1F3UHFWSHRubnVTdEx6X1FsSnlWVkV6a0ZfUzVITExiT2pWVA?oc=5",
+          "source": "KED Global",
+          "publishedAt": "Fri, 04 Sep 2026 09:09:00 GMT",
+          "fetched_at": "2026-09-06T15:21:22.763784",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR to acquire A1 Garage Door Service for around $2 billion, sources say",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMzBsYXlGY0dqSEdBMnJCNHNJaHo2YUtSNTRIaEcxTFd6dVIxOHhDWDl2TlVEREVYOE1WcEs3dE5IRHYyVXE3TDE4S0pBeHd4SG9MUjVfdzlaTWNLX3JWODU4VEFWS25IdEtnb1BKeHQ2ejU0NFYzZ3dGdmIwajRwc2lVclEwcXRYZ29OOVlYUTFrbmM2dFMzU2N5aWVwN3JHSVJtUDVqM01JTzBfRWd1amZLc3V0QV9Mdncw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Wed, 02 Sep 2026 12:07:39 GMT",
+          "fetched_at": "2026-09-06T15:21:22.763788",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -648,20 +740,91 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-06T10:48:07.648663",
+      "last_updated": "2026-09-06T15:22:25.152450",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Delhi Capitals Pacer Lungi Ngidi Taken Off Field in Ambulance After Head Injury",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTXNkWmxWaThsbFpjaHpKRGx5ZTU4SkFFUmNEWVpfaDNwNDNHVXZsRVBRcXgwYm5fMmNIcUtlYkNOSHpFMU13ZHhhZ0FMQUtlbXlRQ2QxUTNnTmV1VS1GS3QzaHdUcVpMZmFraGhra21UNk5LSFF1aDRJUTJ4cnQ1RGF6U0Rld3VoZEdublRDcno4LWZYMFRuRHNyZWpXbzhFcTA5TXQzTDE?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Sun, 06 Sep 2026 10:23:05 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198754"
+        },
+        {
+          "title": "Suresh Raina backs Rishabh Pant to excel in white-ball cricket and IPL",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTGZOZXpXQXdhRmpXR05OSEx3aTdja19wRWNySXRPM2wxdkhmSWkxa2dXYW9CdmlENnR1alNsd2ppWTRIeUl2MFhoZkpId1pPWTJDQ0VkZlZtdDdLTEJNVHE3V3hIM3RzV09RcmVIcHdGNVN0SGFFb19yY3RJOUQ3YmljRXVRQTFkWmk5bWhNc2t1cGZqQ0ROZVBzdmpmMXJiV0NaaWxWN09qNVFrd3puXzV0dDUwZGZhaHow0gG7AUFVX3lxTE9MZk5leldBd2FGaldHTk5ITHdpN2NrX3BFY3JJdE8zbDF2SGZJaTFrZ1dhb0J2aUQ2dHVqU2x3amlZNEh5SXYwWGhmSkh3Wk9ZMkNDRWRmVm10N0tMQk1UcTdXeEgzdHNXT1FyZUhwd0Y1U3RIYUVvX3JjdEk5RDdiaWNFdVFBMWRaaTltaE1za3VwZmpDRE5lUHN2amYxcmJXQ1ppbFY3T2o1UWt3em5fNXR0NTBkZmFoejA?oc=5",
+          "source": "CNBC TV18",
+          "publishedAt": "Sun, 06 Sep 2026 11:11:02 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198765"
+        },
+        {
+          "title": "Indian Premier League bosses eye global expansion for Hong Kong Cricket Sixes",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY1RQaHoybGpmQWNKeTkySzdkNmdVNy12a2tVYVQtbDFlUFNFdDY2XzFjRHczdmNWbkpWRU8tNnFSRTNzWW5QX292emdjX3ZHS0ZteUJzUTlrbDk5NlpJZUtRYXNzVmY2VW81bk5KZ3dudjVXQ0I5Zmdfa2pDVFg1U0RURk5abHg0STd4VXIxT1RfZVFGSFppeDNsUHpTZThnU215bDZEZHFzdVZNTFBTcWlsci0yNDd1N2ZXOVRuVdIBvwFBVV95cUxNMmNYLUkxa0Z5bXF0Vm1YQkFZVjlCTlgxRUlBZE5JMkVZbGpqdC1nVEFVckttUkFtbVNPZS1qTHNYMUJuSEd0Z2R0TWpEOFowZExJd2VjLWRoMUxiR094S3ZSVDVleVp1c21zUUxlSC1Zd3Q0Z29GOWwzaDdaZkxUMGpiX0hpQ0g2cDhwQ3FEejJ2cnRuUjB1TjhEaDFxeEk5R3NUYzN6UDVJRTRvX2hCUWk1R2RXcUVpcl9NRkd2UQ?oc=5",
+          "source": "South China Morning Post",
+          "publishedAt": "Thu, 03 Sep 2026 00:00:25 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198769"
+        },
+        {
+          "title": "Indian Premier League - IPL - Delhi Capitals v Mumbai Indians",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOOHpUMXdQZHdxT3kycER2bEpkRmVLUkE0UEtwUzlWQ3RhaGR0a1BRNWlDWFRCZDJxbGRremZfRUJRM01tLVJ2WDFHUTlhd3hXVEU4aTJJOFh4MVJYejk3NE0yaHlNdFgtbUtIOHRNMHRSS09jcU9fWnRNNnRsOUdoTHJ1RFEydnRkV09md0FJeWJKYkxMenFwc0ZldjdtZWROQ0ZKekVXaTRRTEMtNEFMOTFPcUJ1WHpCZDN2b0poRGpLS3paaS1iQmUzeWxKYndpMDlqOFptTVVzeDQxV3hnVEwzY0tnTC04NUxTMUNsWGJTdVVqZDFvekJQUVplWDdfRGVNTENTWHJMdDVITUpiVWVUN0lNNkR2X0RzZTFQZnlZWlV6bWlQcWZlRXpONEI2YjdKWE5rbWFVZFBxaUdOYk1idnlOR21iUTVj?oc=5",
+          "source": "reutersconnect.com",
+          "publishedAt": "Wed, 19 Aug 2026 20:48:30 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198773"
+        },
+        {
+          "title": "Delhi Capitals Cricket Team Images and Photos",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UTU1IU3hBNUpoVlpxaVJrejBCaHduTmlybnR5OEFYOTF5cG5oYV93OEwtUGFFQkp5c3ZEQnRYQ0VuMzRGR1UtVTdFLVVDalowa3lENjR6WVFNM05zRlRIZXhVU05Xa2xV?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 21 Jun 2026 10:19:34 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198777"
+        },
+        {
+          "title": "Ganguly and Yuvraj set for senior leadership roles in Delhi Capitals in IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLVlVemNRbUpmU1ZfaUFUamxlbjQzOVVDLWFSSHd4Vm5qcDZFRUJ3OEhHbk1WR1A2MTlVcHE4dWtSZnEzaVVBWTZKY2p2dV9lczA5d1ZtM19WWEU4emc5Y2JHbFVFN3hVYkkxeVhkQU83ZTJxblBwY21yaUNfMDFVd2F4aS1xRHJhdUFDOWgyT0VhZEhTbjRZdlBBSW5mekxiMndOc1JOUnV0MEIxUWZJNlFyNWFvMjFJN3dMWtIBzgFBVV95cUxOcW5Gblh6LXBmekV3ZmVqRzdPWnBDQ0wwN3lLaVZ1NUQ5djVkN3VtNWhyczN6emUzN0JlS2l0OE4yczlRcE9CaXlKS0toOUs3VExUSkdZdWgwX1pmR09pUjY5SVNtTzB3QktJNmU4NEptRVJDU1JlOFgxN2dvWFMwWkRJaWI5SFBnNXFPeTNiNFVJOGNfNUcxT0xiM0N2ZW1HeUxIcG1Ya0toZ3lCX0JqT1BOTGNLazB5eWJkdi1kUER4bEdNeXFPd20yRDVWdw?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Fri, 19 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198780"
+        },
+        {
+          "title": "Delhi Capitals Welcome Back Rishabh Pant As Kuldeep Yadav Joins Lucknow Super Giants",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmlHRWRxQVljV3otSG1CYzc4WlduN0FCRnkyek81ZDc0RzNKVUNmc0wwR3NkSUhBV0NDX3hheGxFWXFpNDFNU1V0OHJFczhiTE1QeGF3VGlhWmYzZ2xQTTAzUWhqY0h4NVQ2WXpCc1pKcU84Z0ZQQ0FxSm5RMzZJaWdaVUc1aHlTNDNSanJBNnY3NXJiRGZBakxiZWtyNUh6bm1hWGFSNHd2V2VrME9DNU9WZm90aWFMOUhB?oc=5",
+          "source": "delhicapitals.in",
+          "publishedAt": "Tue, 23 Jun 2026 13:47:06 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198784"
+        },
+        {
+          "title": "Delhi Capitals Vs Today Ipl Second Match Delhi Capitals Ipl 2024 Ipl Score Dc Mi IPL 2024 LIVE: KKR Vs DC",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5QUtrVEZwT25RZmcxUFBYWTJMc09qcU9pbG9XdjJndkRRWkJOM0RtOTJOb0s4c2FHWjlWX3ppQk9RTzFrRWVZVHhlT3A3QmZhNkUtWkhGRl9KdkwzMEVsYW1iRQ?oc=5",
+          "source": "diocesisdesalamanca.com",
+          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198788"
+        },
+        {
+          "title": "Who is Abhishek Porel? All about Delhi Capitals cricketer arrested on rape charges",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaUxpTUJMQWxpZmpscFJaZW5TejhnSGlkdlk2dzBsOHZzX0t2bER4UWl2cXA2NDZ6Z2FwVjFxX1B1ZGJWaDJJSEVzYU82T095ejRORDhDaTRPMTFLY21OMW50cG9fb0ZsdWtUT2o4M2pFejBNekZZTVN1WHp5Y2ZGSWp1bWc5YXZhRjFnRHJmNXN2UQ?oc=5",
+          "source": "Yahoo Sports",
+          "publishedAt": "Tue, 11 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198792"
+        },
+        {
+          "title": "Pant set to be traded to Delhi Capitals for USD 1.5 million; LSG to get Kuldeep in return",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNXVnX0dVUjNMN25ZQ28yNkJaN0NuMDFWelU4MnBOQncxdjlpeDg1UTVfS1Z5czcwd2JuMWI4N2dkbGFjcjdJU3BucjNEb0VoSGllemxWR1Z0dUREaEpqZFdzM1QzQjV1Q1ZUNldsZ3dsZ1dPNEhnODdiTVpHLXZNbXpjaE1oM05vcTQ5cTkwRE82ZEZiekstak51S3IyT2cwQTRFSVJOZ05ROW5WaDZqSDJsQVJnbllUWFZ3bktrQzAyV25IRjdYSU5IMnpWT0NrQjBLVXVWOGEzek0wZTNMedIB8gFBVV95cUxQN2MzcDhMSWNMMm55c2RfUlJoUVVsUzQ0R0ZFSkFJbnhaMU54TmFUR1ZFOWk4X0k4akpWbHhFYnhpdEJlU2x2MW9HbDlrbzFBd3N3NFN5c2RreFdOcEEwcVJTSzlEbkNJWWpneFNBbFVlbFRIOWlTOGt0d0JfNkJ2X3BLTzFUUm1YOGZjOFl0NmttamVSbUxHMDQ0b256MTBEWXZEMy1TZU11QWx2VnRNTEZ1aU1uWWNnV25kTjV6V09ZaE1pTlIwMW1LN2sxcFliY3F5c3JrY0trdFhYMEQ2dzhMVDFHWEZjNnFQZmpuQ1BGdw?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Fri, 19 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T15:21:50.198795"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
@@ -732,91 +895,20 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-06T10:48:30.190064",
+      "last_updated": "2026-09-06T15:22:55.201174",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
-          "source": "EurekAlert!",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170884"
-        },
-        {
-          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Fri, 28 Aug 2026 20:54:40 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170902"
-        },
-        {
-          "title": "Material Histories and Material Futures at Foster + Partners",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUVJYU11a0czSFdJZTdWVHVZTFZqODlFRnVkQ0d0ZTJjdjRnY0R2UUg1OEY1M0NDakxzRmhHb014UUxwdU1fRjFOQlNvNWJIRE9IYzZ5SHRrXzJDakMtYlVqYXVrSVpFRDR1TllabGplbWV3LU5FMnRLTk1mZkxMeGk0cW1NZU94NnpoZzJtSFJYa2czXzZkSGNXSEtvbXhiYU9SUWdQejNZNi1UV2Z0Q01EWFlhMHQtRmM0?oc=5",
-          "source": "Foster + Partners",
-          "publishedAt": "Wed, 10 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170907"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170912"
-        },
-        {
-          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
-          "source": "11Alive.com",
-          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170916"
-        },
-        {
-          "title": "Bad Crosswalk Will Cost L.A. $20 Million and Counting",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82MzVibXhzQ2V0MmJlRzVKZEV2Vlh0dVFIbWlhTUJnSXgwbWNWdTZJazZKNGl6Y0taQy12ZlB5NTJiaXZpVGRfdTY5czNWdzM5R00zZDJnZTc1NFpIMmlDRUlhM0RnT2V1b0NFUURBUWY4ejRqRTB5MkRBT0xJUQ?oc=5",
-          "source": "L.A. Material",
-          "publishedAt": "Wed, 15 Jul 2026 12:18:55 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170919"
-        },
-        {
-          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
-          "source": "아시아경제",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170925"
-        },
-        {
-          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
-          "source": "wvua23.com",
-          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170929"
-        },
-        {
-          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
-          "source": "The Guardian",
-          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170933"
-        },
-        {
-          "title": "Former deputy gets 42-plus years for pandering child sexual material",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
-          "source": "Record Herald",
-          "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-06T10:48:15.170936"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
