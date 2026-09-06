@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-06T04:03:15.364866",
+    "generated_at": "2026-09-06T10:48:30.190080",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-06T03:53:56.447191",
+      "last_updated": "2026-09-06T10:38:48.445067",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-06T03:55:10.368130",
+      "last_updated": "2026-09-06T10:40:09.892302",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-06T03:56:25.943022",
+      "last_updated": "2026-09-06T10:41:31.021899",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,18 +266,18 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-06T03:57:23.001806",
+      "last_updated": "2026-09-06T10:42:46.433325",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -342,7 +342,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Unfinished agenda larger than I thought: Axis CEO",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTkUwa0ZtQ1FWWnRDZDIzRDBwN2oxWjdJM3AtdXEzcm5QbENQNnpPS0VLR3lJTktuYkJOLXZtZWZtdTJnNWpSSURyOW1HMkYyZU9DaUI0Z0d1RkprcFNkVklyRXZ1SUc2djAzYUtIWGJUbElwMWFaWVh1QVRrcFd5LWVxV2xiaXhCT0JVdGxfalRjZ08yYnl0MGZGUjRfb1E1VUYxbldFM0k4cnA5RmljRmV3ZjJ1bEtybUhjclh6TGdqV2E5Q2NydmJlaHVPVHfSAdQBQVVfeXFMTnIzTGwtWmZXRUJNNWlqYlotRHJSWFJqRVZOTnZzRlhpMlRBY25vS3hGU1g4a3lwc1lPenExZ20yYXByQjUtX2M3MFZwR1hMNThUYTktdnBWaDZod3JzX3pqNFNlZDFkSzI3WGpnajQtZEwtMkhnejJVSFRQR2xpcmFrYWdwOVFDZXdJN1dkTHBEektOWGl0aDREX29kb0F6enBSNHJqNzV5c21LTWNTb3d6NzlvZ1YybDF3MWpxYWI3XzhaZTI4TXNJQUpIMXZGWTlGT24?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Fri, 04 Sep 2026 22:28:00 GMT",
+          "fetched_at": "2026-09-06T10:42:21.950461",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Axis Bank - Festive stock picks: 10 stocks to buy ahead of the festive season. Do you own any?",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdlphWG12cEFLRDZuNVpPTXdsRTQ4aU4zRFhrS3M3ZWRESGRpSlllSmRud1pFVnhFbS1VVjA1Vm1wXzBQWllXQkp4ZVJoV1EyTkR6YXU2azY5UE9PLVJWczVfZkdYTTZ5bFVMa21pemo4OTg0QkxnYS1BSlNiMWRiVzVrY2VhenZaUG50RGFBZ09RRHpjT1JBR1JUUnRhQXA5aGVNZ2M4Ulg5Rm56ZFdvNk16T2N6VThzLTVZY1J4R2V1OFdEWEtzRHhwLVVYcGhjdGdXVHdRaU5yNF9MalZFNkkzb2Q1ZEdNcFZMY05uS2hsWjA?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sat, 05 Sep 2026 05:35:40 GMT",
+          "fetched_at": "2026-09-06T10:42:21.950491",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Axis Bank Scapia credit card goes live: Check lounge access, UPI rewards, forex benefits and fees",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWkxRYVVkTXo0dGdyQW1fYWNObjJFVkpyMWthU2FsYmVmZk0tY09PcGdtcGx5TDRvMEwwUmhwRjZVekM4UGVfRW5IaGJuWkZ4Uk9kb1J6TTRiUXFpaS12ZGNBN1V0dGV3QVU0aHdwN3p1VUplY0F5UkdnVzczMno0ZkpHS0FzX0FKUXJmZnJ5cWJ3OEd4N1ZRdTVNVHBFYnNrLTB6cEFZRWdCRVp5clZ4cWVTWDk2Tmd5WnF5YVJncUJqbHlKaGh4MDFXUm02QnQ1c2UwdzZPSkU5S3hNaThCZm44cWVNZVBQVXFBYkpRS2xpMWRKWDRkc2hXZVpId9IBgwJBVV95cUxNMWZPc3FNWmFGVDRja0hsTXFIQkMtYkV4WFBZa2ppNHc3RHFxRGhmUVpHTmNHaXk4M0h2aUFtQmhvN3JvbjA0RUdXOWJ5M3Jxc25xRzRXdEtmaFNRcXJkNkxjNkFud3h3U3FhODU2dFVRMGZiTTRBamlRdmtKQU9fUHJHa2VRUDYzN1hxeHViaFUtNnR0MzJRNzVGX3hvdG5vT013RWswTDRWRDl5WU11X0x4ajBZMG0zSWNXXzlYNVgtNjR3dGpodl9POTFNcm5Zd2xKZXZDNVNra2I1c25sLXRncXhfV0NmRVlDWFRyakEwNDJwaW5qcVpuOXdiYmJWZ3Fn?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Fri, 04 Sep 2026 22:05:01 GMT",
+          "fetched_at": "2026-09-06T10:42:21.950496",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Nifty Bank jumps nearly 1% after RBI's $136-billion forex inflow boost; ICICI Bank, Axis Bank lead gains",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUnlZbkVKbWtTQ1VBVjRia1Jwczh4cnpfMGFJOXZLdXd5cnptRUNqSGVZX2pXb1pGSHl0ZVA4TlZHR29odU1qX2stY1FLQ1JkS203RDZxT3llWlZpZHY1b2dHOURiU3FOejhsckljaFBsdk9fMEVrRGJSWFRVbGF2TzBtLTFrcC1INHNVMGN3WWhHS3Z1NXFEbVZLa1VKTWpmOE5LNFBhU1E2bmdPa0ExY2JlQlRQQVFTQ1ZVQW85cWxwOWNrXzJRRjNLZ3VwNmR2eWpOZ0RCT2hnRkZQYzR2NDBXaHZMcllY0gHuAUFVX3lxTE9uMkh2OU9raGNFN240Z19LY1pyZWs5Q0xDcHRkblBlejYwcy1jWVBtbEoyUkczYTlqOFZtUkxTaEJuRGdOZjZBODNYc0ZVeUFIN0NkRjU4bmlWemlrUnRzbVBmaF9VX21NMmVRQzdHSHUxR2t2Qmw1Q2lJTGVwYS1zRUs2MFVBamtvR2RYOWJrVWZqSkR3T3R1TTBkVGd6aUE5V25obUVNVHcxZnZQTWtNMGJCQkdrR254OTdzS2hiaGN0MXZSVG9Mak5fcXRRRE9FMEx3WTZGYVVIaldVd2pRMVU4dGJwYzZpTS16a1E?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 03 Sep 2026 04:31:02 GMT",
+          "fetched_at": "2026-09-06T10:42:21.950500",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Top gainers and losers, Sept 3: TechM, Cipla drop 2%; Adani Ports, Axis Bank, HDFC Bank gain over 1%",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPV0R6c2N0UmE3VmhkSXZEbnJQOGxVYklFYlRyWTJiLXRnVFlTcTFWaTBJeElJb1JDSjhtOFU1NkJtNkoxbFUzbkd4V1M0OEpfdktscXh6WjBpZXoxUHJmQWlqT2ZVTzBUZ0w1T1N3RkVPLVluWEhBZlZHbkZRTXFPQjJqSnRSVThfdUVkMTFLTG91MkU1cEFGaTFFMjRMalM1VlBFeEMwTjhNOXk4ZkRTNGlINWphZTBxczViZFVpdHpVbUR0Vm5MRTFoNk13a3lYcmxOYmFTQldzNzhwbDVfYVZicVFONjg?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Thu, 03 Sep 2026 10:59:39 GMT",
+          "fetched_at": "2026-09-06T10:42:21.950504",
+          "related_to": "Axis Bank",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-06T03:58:35.913241",
+      "last_updated": "2026-09-06T10:43:52.522752",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-06T03:59:52.559313",
+      "last_updated": "2026-09-06T10:44:50.165245",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,17 +564,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-06T04:01:15.080730",
+      "last_updated": "2026-09-06T10:46:35.344431",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 2,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -594,53 +640,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Highlights: Mumbai Indians vs Royal Challengers Bengaluru | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHVGMV85NHlpdFJ5YmdGYVRWRG5HdGEzbHFNTWVaYTZzdkZ3LTAzazhqc25ULWNJVnRwWmdYYjVZaDFuWkZfYnk4WUZybXkwQjQzR3dJTTM4Y3BhdUF0alhmR2NJUVUxZkw3UEJfQU9XcEY1LWNORGZwdFN0bWhoNFFCUG9OTWd3V3A2X19ab0lJQ2VFdGhNeHVxNVljLVB2?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 06 Sep 2026 01:53:21 GMT",
-          "fetched_at": "2026-09-06T04:00:11.605559",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs MI, 30th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMU5qYkVUNzlLYXlXMm1WU3c4RWZJdFg5RzhKdEQ0TlBjNEUtdTVrT2dTM0VQcEVuOXZ0dVJTYWRDU0RQejVxUWU5WDRfS1F6NDR3a2pRT3JDZTZndFBnVkRxbi1sTkFjMmp4WWJKMHZrRk5PMkcwMzhpRzJfY0pxXzhTYTExek9nbmhPWDFXNkZsNTRUM3lvRm54dS1idm8?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sun, 06 Sep 2026 01:49:59 GMT",
-          "fetched_at": "2026-09-06T04:00:11.605572",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "PBKS vs MI, 58th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR1hnempUWXBYcS1YbTYzNFBsRlc2MGZ5QUFiQ0RyZ095MFBtRXdNclFKN2tOQ0oxY3Y3SDBncjczQ3FrSGRncm83MXhyT2FhVGpLSnVraWRLTERkcWhNdmlVcXp1eTNIMnBGSDU0aG5GbEYwN0JoR294a1dKVUVQakgtaS1jbjFGNWF1N3N3UzZkRmJ6ZWdBM0xXVHNRdXJwMkE?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sat, 05 Sep 2026 23:16:46 GMT",
-          "fetched_at": "2026-09-06T04:00:11.605576",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Keightley appointed to CA development role, WPL future uncertain",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNU5zanZKQ3d3Q193U29FYjJuOHl4cWN6eVJvNU9mSnMxbFlvT19MSmtXUmNYOTdxQkNnS3ZiRDQtN05jVFNxSmFIdDd6aVl0Y25MNnc2SDdpMHd3UzdCZm15TjBZZmtzNXpaUjducTNSeGVhSF9PWmdwZFBsQ3ZqNGtnLXREVDM5bzRmbHRua0lEXy1kcFBTa2dpaWxITDFVSXhYakRkTHItRTVNOXF1RjBFbXQtZUFud3NiQ1lnONIB0AFBVV95cUxNaldnRmEyMTdWZE9uVk1JbXVlR1dRMVlKTmN1bHdVbDBhRnRYcjhhbEpVNlEtQlJRN0lycFRmcDdKN0w1X212eEMxand6NnlUMHlpS3VnT2cyU0hQbDg0ZjNiWEpKb3I0Smw2eWlDTGlObDFXSXg0LWltQkx1NnpaS3JFbnVja2FkeW9kNGFUeXpNMXRQMHVaU0ZPSXpWN2E0YkZXTU1TSXZGNW9yMEt1TllRWGY2VzEtY1ZkclFtNjJwd3pTcGxwZW9mMXByaklk?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Fri, 04 Sep 2026 06:54:10 GMT",
-          "fetched_at": "2026-09-06T04:00:11.605579",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "MI vs CSK, Final, Indian Premier League 2019 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcFdTMjhKRWY0ejNTREdvWEtvTTNXRl9tWEhid3VvYkJOU21qT1hFLVpoeG4wV0FJaDNYUzZvTFhtMHlEb0hTVThZdzVsY3c4bGViaTFWTUliY2NrX3BQTDNLN0RRMXhTeUp0aFhyd29KbkQzMG5qcC02R2pIRlJLa2g5NE5uejNaNkJ3NUFLd1NUNzRWdElOYV9HRTI?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Sat, 05 Sep 2026 17:36:41 GMT",
-          "fetched_at": "2026-09-06T04:00:11.605582",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -648,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-06T04:02:45.310980",
+      "last_updated": "2026-09-06T10:48:07.648663",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -732,20 +732,91 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-06T04:03:15.364852",
+      "last_updated": "2026-09-06T10:48:30.190064",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170884"
+        },
+        {
+          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Fri, 28 Aug 2026 20:54:40 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170902"
+        },
+        {
+          "title": "Material Histories and Material Futures at Foster + Partners",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUVJYU11a0czSFdJZTdWVHVZTFZqODlFRnVkQ0d0ZTJjdjRnY0R2UUg1OEY1M0NDakxzRmhHb014UUxwdU1fRjFOQlNvNWJIRE9IYzZ5SHRrXzJDakMtYlVqYXVrSVpFRDR1TllabGplbWV3LU5FMnRLTk1mZkxMeGk0cW1NZU94NnpoZzJtSFJYa2czXzZkSGNXSEtvbXhiYU9SUWdQejNZNi1UV2Z0Q01EWFlhMHQtRmM0?oc=5",
+          "source": "Foster + Partners",
+          "publishedAt": "Wed, 10 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170907"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170912"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170916"
+        },
+        {
+          "title": "Bad Crosswalk Will Cost L.A. $20 Million and Counting",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82MzVibXhzQ2V0MmJlRzVKZEV2Vlh0dVFIbWlhTUJnSXgwbWNWdTZJazZKNGl6Y0taQy12ZlB5NTJiaXZpVGRfdTY5czNWdzM5R00zZDJnZTc1NFpIMmlDRUlhM0RnT2V1b0NFUURBUWY4ejRqRTB5MkRBT0xJUQ?oc=5",
+          "source": "L.A. Material",
+          "publishedAt": "Wed, 15 Jul 2026 12:18:55 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170919"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170925"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "wvua23.com",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170929"
+        },
+        {
+          "title": "Which rug is best for your room? 21 expert picks, plus tips on choosing pile, size and material",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sSDQ0VVNMUndFcmI1bG1RZjZPVXpfLU5IT1I4cUVHX2hfdk53VFg2THBYdS1yS3FSUHctckRyOWIteXd0NElWZEVIVzgtQXRYblljTkozWVlSVFhVQ1BQRm9oTnZnSGdCcmRPY21wVmdmX1RTRkdBU1NvaUc2Zw?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "Mon, 27 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170933"
+        },
+        {
+          "title": "Former deputy gets 42-plus years for pandering child sexual material",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
+          "source": "Record Herald",
+          "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-06T10:48:15.170936"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
