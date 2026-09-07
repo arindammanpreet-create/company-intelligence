@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-07T12:13:18.884042",
+    "generated_at": "2026-09-07T21:32:33.799800",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,17 +14,17 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-07T12:04:08.276578",
+      "last_updated": "2026-09-07T21:22:20.742335",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "An email throws up fresh questions on Tata Sons' clean chit to top exec",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTEJ3MlFxRTlYVm5xTG84WTJHSUN6bmhiazZhOWJqbkU3QnlEWjZQMGlwd0lrcElPTnRhTWNCLURWUjIzZ19BUUdmdXRWNXNONXZKVVZXek5DVGpBd2xDbVRhNnpLWTYyOTBRdjFsdDdPU2MxNVpKam1LX1l5aVg3NDEwU283clZ2U1lnYVE1WW90ZW9lNlZOMjhTdGZOOEtDM0VHMkhVdjQyOEtOYllhM0ZhUlVpbjlYZklrcTBHeEpLTzFpQXlJ0gHMAUFVX3lxTE8taXM3ak5na05mMk1YSnc4cUVQc2Q2UTNIdGU2b29HSS1kQ3VqR2VVSTdtZlVweWZfS01GZVFsdElMSi1jUzNjbkRUOGZGcHYxXzY3a1J4TzFacmV3X1dUNFRKb2JMTnRaZEFMODE1Nmx2amYzWTNVSnZqSTFEWU1odnQwOEFpU3lVdjloZFN3UEN6US1PYy1qQ1c3aTZNRENSQVFPZXEzQnpOckFvQllVQ1k0UFh0QVZsNnhuVFpQdTdiQ2phcFRYTThhMg?oc=5",
+          "source": "Livemint",
+          "publishedAt": "Mon, 07 Sep 2026 00:15:17 GMT",
+          "fetched_at": "2026-09-07T21:21:35.624936",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tata Sons chairman race heats up: T V Narendran, Saurabh Agrawal, NSE's Ashish Chauhan in contention",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaVhfaEQ1eGppM004NmVrSnJKR3JEcDRhWXliSlNJaXdveEhvdzFxa3ZTSTlCQkcyUzdhR1RhVm5LRTJyWExKMnE0SUwzdzlJVC05YVNlempOOUMxSmVRNFNfQzYwNVJNTlNPTTdhTVdYby01MFV3RmU4TEEtaUo1dGc2TjNMV2FzckdfM25oQ2U5Tmg3Z0pmUld2SkNKZEQ2c2FOUjlwRjdSeHRCQ3RaM0FFR1V1VnNzSGw1Y1RadWdGTDJWWjJMWGJJNXhsdk9iekNDTEhwb2stQmZPb1g5eXdoTkN2ZUx5S2VxQXh0dkxEaFM2b2ppcEdB0gH_AUFVX3lxTE1jbVd4MThFN3N3dkJKZnBXMm1WQURqREhCekYwbDNCdDFxVDNpRTdzWWxfbldVd0FuSHhva3R4YVpROGQ2ajFBWldsVm5PR2VsaVI5b19UYlFmMXNvRzJfY1BSTGJ1MnhuakNVOUx4SGRUREJNT2JOSHRfMmlEYUF4NUIxMlhDTTEwZXNpU01xUFAxVHFsTTd2WmZOcXd0R3pLYXdPTEpuZ2FHc2FCYW5OZkJxaHNsVHZNRGhWeDZ6VmNSRE5ab2VCQzNiUWx1ekN6WHg0VUlhWmpwSGhlcmtRY2pfZ0hmZjc2WmtTWHdBeHJzYmZBWDlpdTExVExxNA?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Sat, 05 Sep 2026 09:02:45 GMT",
+          "fetched_at": "2026-09-07T21:21:35.624952",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Why Kenya’s President has asked Tata Chemicals to pack up and leave | Explained",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNWwzNElxM3BMVzNtSWk5ZkRfcDE3N1dIVTY2Tklhc0NJdDZ4dXZkN3doSjBvSzMwZkNkQkJEc1pGMm8tYXhSUEVHanVtemlHRTNPbGpzWkF3c1BsRmt0OVpxbUVmb2xhQ1ZkU0Q1Yzc4VDRLTjhKdnVVT2M4eFJxYl9PVWhSSDh0N3RjVWV6c0k3LVBPM0thSjJWMGY3WXVOWTRjR1gyTkZtajhLeXVJV0RvNWUwNVphcTFqa3p2TkxzaVhJRGFZNDAxclVmdVY0UER4c3lR0gHcAUFVX3lxTFBmTzlMblFDY0dBZ2J0NlRGRlFqREM2M1JjQkhfclE1dlZCMTJRN2YwNDFHcDlwQkpacFFkZ3ZWLWJSaDRjZEZJa1dBbWI0SU1rd3p1ZHJVY0ZEaW9MNlZrUjJVX3ZMU0s3VDM3dnAtSGhId3hSb0hCdHc5OGpCdjU0ZjQwejNGLXFBVjVzejNQSlk0NkpkcDV5RXdvMWpwUG9tam1UbkFjcnQ4SE1Oc0hneV9OX0ttczdYVnhwaUcyU3Q2MElfN0U2Z0dDZjFTZFdnTHpRVnJITFg0V2I?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Mon, 07 Sep 2026 08:44:00 GMT",
+          "fetched_at": "2026-09-07T21:21:35.624962",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Expert explains: Why is Kenyan President William Ruto targeting Indian companies?",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcHlNUGoyOFJ1SDZJOGNqaFFKNXJLM2VlTlVFbXRkampjMmlOU1JXZU1qaERmaC1qUXNYT1J6MDNnZ2VycXU2YVh4RWNSWVhTVk9qbTd3V2xBWWs2cGtDeGNqZmpHVUlwdUE5MVlTMVlXU2F0cmVjcHVKQ3paVklleWIyOWJ4aWxtVmxuSHVFZ1dFaVBKWXFHVS1YV2JVbUFIWGNSWVlMRlZCWVpzR2xtTkxDQjk5UQ?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Mon, 07 Sep 2026 05:42:59 GMT",
+          "fetched_at": "2026-09-07T21:21:35.624966",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Stocks to watch, Sept 7: 3 Tata group cos, 4 Railway stocks, 2 shipping sector, 3 Pharma majors, Adani Enterprises, NMDC, SJVN, Nava, Stanley Lifestyle will remain in focus",
+          "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPYkhuaXR5eHk3TTU3Tmppbm1odk5ic3VqaHoxX1piV1pBYkNBTmFhT3haR1R6cTJ1MnRWUnh1Y05VM09WN3hoUGtmUG5mcHdpcVFvcG5BNFpkenQtMDdsVHNvN0lxVFJ1MmRMZkNUci1MNm5VcHQ2RHR0eG5MV3ZabkxERkVTX1E2RDBSREhSeV9GSkw2bExmVnRPZUxKUk5rYkhnRllrSXNSNl9hQmtvZnZDYmJfQ3Y2UEpJTURKY1dXQm1rZm1NR2lxeE1fUnVaUk5BX3pONFFZcVdlQmt4VFk4eThpeHZQN25QNkMzQWd3QmdQUTdrdUQ2bmNIdEpnTGRBMi1DZElaeEtrUG8zZ1dkNjV5T3liYzBVSDlOTlRjZWxWd0psdndoZXBQeTlWdHhtRDktR3R5c0VuamlmX3I1VdIBygJBVV95cUxORXE1TGpQMkc2Y083UXQ5cWxjRDBSTVRYQldLcUZSN1FNcjdUZWVNOFg3V0NHeDNEYnJrZEhzYktUT3RzM1djOWppckFySlMteFduU0t1SmoxRzU5T3dLZzh1OTF6SV9CTkV3RUYzNkpPVW9icU5vSVBUbE9mSksyUGtDTGF6cHdDMV9jRExHZUllNlhwQWY3ZmFQQnlEQnpGcDZzdnlHeUpZY2RGMVZuRGxNOHVnMnVWSkFLeUs0RXhfRHRKdVVWSzE1VnlBb3UyYkJNRzhDVnA2dTVLdlY4bXEwcmhjbkE1UG83R1JnZDBSNVBHdlJHLTlfZVpVZWFfT25KLU1JNkJTVV9DWnBrRV9HMUZKNC1GUlBSOThXb1YxbEJYdEtIWFhUUWxucE9WSC1CSU1RYzVHZEVmNjlrZV9ROTVEcjltUHc?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Mon, 07 Sep 2026 02:00:27 GMT",
+          "fetched_at": "2026-09-07T21:21:35.624971",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,7 +144,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-07T12:05:20.088557",
+      "last_updated": "2026-09-07T21:23:30.342878",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-07T12:06:31.841616",
+      "last_updated": "2026-09-07T21:24:43.412522",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-07T12:07:56.153890",
+      "last_updated": "2026-09-07T21:26:03.809365",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-07T12:08:46.660453",
+      "last_updated": "2026-09-07T21:27:16.597864",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-07T12:10:12.151855",
+      "last_updated": "2026-09-07T21:28:46.854742",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,20 +564,91 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-07T12:11:27.454081",
+      "last_updated": "2026-09-07T21:30:29.016676",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 3,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Virat Kohli slams record 9th IPL century as RCB beat KKR by 6 wickets",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3ZmcWVzZGtFZE81UUVrQzFUTzdnWDhjbzBLLTl6RElKNG9rUS1yTFJTdUtVdk85T3hob3ZMYUtFTmdhVV9JX0paVUlEa2FuN1l4OTdRTmVTRU5tc25vNy1GaWV5U2tfa2xZMWFPVXhURGR0NnVWQTUyYVRqMEtDbnR2UDk5QmhXNVBTaGd1NWVjYndDRUxzVmFnOA?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Mon, 07 Sep 2026 17:07:23 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335867"
+        },
+        {
+          "title": "\"Don't Need Anyone Else\": Rajat Patidar's Stunning Virat Kohli Revelation After Getting RCB Captaincy",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPenRzWGFra2RHd0hINkQySnlUODZmalg3RjVMQmFtUDNIVHpnY2t0VDc5MUowdUtuYlN5dV9JMENiR19YWDRkLVJycktCN1pXNjgyb1FZeXlIUElXc1o5UTZxbjFrOGlPUFJqRmtxN2N5dEdzXzFmbEhKX0ZfMzJULVhhdlU5eFNsblZ6d1dJY1dMa1V5Mjdoemw4RDBKMERVTE12bnd6bGxLejNoT2RQeG0yd3l2eVNpN25JX1RERks2d1R1dVBEZ0FBOVdTNkZvaFYyRUQ5ZERMSHRR?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 07 Sep 2026 00:58:17 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335881"
+        },
+        {
+          "title": "Virat Kohli and Anushka Sharma's Rs.1,300 crore empire: How India's power couple built a business portfol",
+          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPVkpvWmYtN2tZTE1ZMnNwUXdpRU5LYnZBTHlOT3FsU0ticHpST3p4ZzU1ZEpkMGpnNm9CSTJ6NTBSdGgwS0VxYURxRWhKUjREaFc3MG5PZm04bVpNLTVRS2h2Xy1fdGVmdENiVVBsZktYbTNSZWVucmU3YTJpRXJaVklNa2JnX1JXRm5IX3d2MU1GYmJGcWdWV3Rhckkxc1VhWXFJb0pkTm92WUtMamtIYk0wUU5ocTczMTJDQlZRY1lueUxUWDlUU3BZOHc5MXpya19TSW1rc093YmVTbGxiaUszdlV0dGFJVEdobjdRVmhCV1FvazFYcGJQNTdySEc5Q2F3X3NlUXMzSzVJRUw3NVA4cEs1TUxzTFNzc251OHBMS3pQMzlxNUZwZm1UOS1xcjhsRDMyUdIBvAJBVV95cUxOMFh4cWNEUWZjWFFBMTF5TlBGMlBrcGp3NG9rM0VvSDdtSzExVjZtN25Rc2ZHRFpjUDJhM3U0RlNvaU9oUWw4SWo3UkFiMHJSNUJ4WEpncjJtdUFoRFh4LVVTVmhQcl9ZY2ZHZnk3LWJiVElGTW5MTkZ4aUtreS1LMXcxQzgxdWM1YnhlbTlmMVFoQXI2c05XNUpTenBUSHFoY1N1YVdjWWtlRkk2U1Z4VEJwNFUxYmFac29PT0F1ZnZJN0JyT29tRjNpQ1hfeGxEcnpoNi10SzJ6YzlWWkkzaGVHRWNxTnUyUDlYVzcwVG1lY3NmaXFnaF9FLWh1bTJra0FucTkydkxlR1U4YjNuVGNabWdZbkVhOXN3LUhnTDViTm8xYzZKRVVYTWpPLTkwTzNWQUZVaVdWV0FV?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 07 Sep 2026 06:15:00 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335888"
+        },
+        {
+          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335893"
+        },
+        {
+          "title": "Rajat Patidar Reveals Virat Kohli's Role In RCB Captaincy Journey: 'Received Lot Of Support'",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM3Bqc1dwTC11UGtVQjJnQnZrNUdxaUFPR1U4UGRxNk02dWl0OVA0dXFFaUxQZzR6OWVTczlYT0FyLU9aQzkzMFBSQjR5VFdINzItVzNCaUk1MUxvWG9FZlRCV3o3UmhHUXlkakRqNk42WWoydktPT1dKS1BINmZHaGpYQzJ5UXQ2U0ZjcmJGanN1OWJEVEFLZHg5aUVaQ1lLYnBUc1FCN0hRYkk4THJfUnZOVXNnNjlyTTVBV0xXY1NhcHhKcWU5Qk9LakxNUdIB0wFBVV95cUxPTi1iWlNmeWJ0Wjk5d1dZUDh2XzNVZEp5UGJfNUduYTNCbmtwQ3lqVzk4R3JkdzJfQ2NRdHFPaWNTTlFyTkN5Vml4Yk43S2gtMXFGNGRxeVdMRnRQajdKN0UxdHRqT3VRSXVhRV9xUWhYa2s2QURYY08yaTYzeFVjQmhRemlEUFBJc1VCR0VEdmFzSFRpajdaSkZzaWhyLTZmb0NCSEVvTHNUNlBsbHRTZjI1bk1tOVZUOU1Xa1JnVkhhSWJBSzVNUGVnb2hIWkwtNnBv?oc=5",
+          "source": "News18",
+          "publishedAt": "Sun, 06 Sep 2026 10:01:51 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335897"
+        },
+        {
+          "title": "‘If your idol backs you...’: Rajat Patidar reveals Virat Kohli’s huge support for RCB captaincy",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTDNwMnVvODVoTmxWYXliTUFESVlZcVp2bmRFMmpJX3Nkell5TnUzanU5NlN2UlZIQUpDMnpzOEJPV0ZkYllYUzUxSGZBZEVIQ2FMa1p2SE12NUQ3SVV4Z2ZVT0ZfaWVMbVB3b1NxNV9TeFBsV1NLSTNnbkJIajVTNi1WR1VlZTRuUkFrV0JtdTdoVlhTT21uT2p6R0tBUDFKUlVnVkFoaERyQUJXc3REVXV6YVhxMG92NXR5cmsyLWNFNG5iSkxkLXg5Y3JhNWPSAdQBQVVfeXFMUEY2SDFSMTlqLVVkNHZQeXpCUlN6cGFNLXFqT3dKYkdBX0FoRU0zTmF4eHNmUHBiTW9wSTN5VW5aaGZVUE56emNGMzNjNHlQVEt1MmstcVVBYzRPYncxYlY5NHZvd0g4N1RnTy1RUzZZUjNYdUVwdTJLSHJXd21DanJzenB2RXdYLVhJOFR5WmxkTkxvd3dZSWR0cU9xRHozbHhmVlNCRF9hX0RNTHVZbnh5by1rcE1QQVFqQlMzX0ZzTjFRZldVdzF0THBUNzdLWkZzY2E?oc=5",
+          "source": "India.com",
+          "publishedAt": "Sun, 06 Sep 2026 15:15:03 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335905"
+        },
+        {
+          "title": "“The most complete player” – Phil Salt heaps the ultimate praise on Virat Kohli",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXQyR0ZsTVFKZ1NkSk1hRWp2enlKcXpybGVWLU1YOHRNdC1CanBOUy1yOC1PTXZHTE44WGVnU3MyREhhUXlwdEVFcmpDMlpSWFdyQWFKbkoySEFUZThyYk5PUl9rbjhzYmpCYlZhVEJ4M0EtRVQtaEpBWVQ4UG9wMkc1UFdHcF9DNWRYMExSSktLTG5Ic1NQN2tla0JsUlpEcG94dDBGTExJdDJQSEsxQXNiUXJVRGda?oc=5",
+          "source": "Royal Challengers Bengaluru Official Website",
+          "publishedAt": "Mon, 06 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335909"
+        },
+        {
+          "title": "'If your idol backs you, you don't need anything more': Rajat Patidar on Virat Kohli's support",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPYjdxNWpvdGpLTnpaejM4dGxEZGdDaHAwVll1QnFqTXBwOEFoU3FieGZRNmJUZGpLdjJnbElTUWdLWjc3LTY0a1d6dUxid2tZS0tud0JQLTl5ZHFCY0xDdGs5dFdFaHRaOWt6NUhpRFlIUWlTVC1WSWJ0c0hSeDkxMUNCcHhGVnJfcDNHaFc4dzloeDdFa0lHemljNHNQUDVPamdGcFdlNUxQbkpTenpxbm1kTktNNkJJeXREalZFbk56Tnp2ZlFVUzJiYVYyaUhsalBQdnhhcldSUEEwUG1HX2hKUGg2S3M5aVQ5dEEtQjRyY0xDdDhWaXdzQm9kVVHSAYQCQVVfeXFMT2l3dG5tTmlvNXhxaFBMeEVCZGZoRDJIbkJ0dE94ZlpuUmFtV2g3LVUyOFV4M01weXktM0NKVHJIc2E5M0dPbXR3dUswclpST1hBZzJjejRnOFFxYmM1T0ZqcEFQS2NlQTVPN3hXc0JKUWRoMENFbm9PR1d3b1hUcnc5S3duclFUM2RWV2JZVWE5aUY0XzhObUVBQnRIWDhYNFY5QWxuTXZLMTBxbUp5LTkxemNIWU5zMVdaUFZmMUV5WTZCQXNRdmF2R2FQSFMxTm5NZUN4MUN5QVhKX3QxWkFBMjUxMXNwc0NOMjI0MXF3T2RJR19VNHBlcTJQbFc2VjQ3RzE?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 07 Sep 2026 00:30:00 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335913"
+        },
+        {
+          "title": "Cricket Photos - RCB vs SRH, 1st Match Pictures",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd0x1ODYyejRTMkFMQjFacFl4bVFWdzRsSHFQZjdtTVpLeWtnVFRMbERSNE5xRHdkS2hDM3lZd0tXbXptM0Q2ODczZ0dLNU5zM3RpLTlERkdkLUd3dVhXaDhzMjVDbzNFVzRsS1ZjTnExNXhYWndYVGZnNUVQQk5Ka3gyUjkxX1ZwMkNobWRhM3FXYWo1bUZwWl9MRVFVemZfaWdVaS1qUkVVNF9DVS1RZzVfdnVRaHdRTHNwVTJ5MnpsZGVfZzJRUQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Tue, 16 Jun 2026 18:30:56 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335917"
+        },
+        {
+          "title": "Kohli, Padikkal hit fifties as RCB ace the chase against GT",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNXzJYVFc5NVRxeHhwT3JXd0hnaUtneDRmQ2p6SFVTLXBvRkpKSUVsQXFnMmhFRm1WRl8xVUlzQlUyQ2F4Wkgwd1QtaFJ2TDJVNVFKTFh1UlMzOFY0cVVtVU5tcmJCX2dNU2ZROURTVU91N1JKS1JQTHA3clJGbGd0Z3ZqdExTRUtUejUxTXB1VDdIUzZkZENwWGxGZUJtTXE0YkRvTUg3a1RrN0xGaXhFRm45R2hVdjM5a0lkellrNlNiOG1p?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-07T21:29:02.335920"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Royal Challengers Bengaluru: Strategic Market Intelligence & Early Warning System",
@@ -602,11 +719,11 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-07T12:12:48.833997",
+      "last_updated": "2026-09-07T21:32:10.882561",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -678,53 +795,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "KKR urged to appoint Rinku Singh as captain after UPT20 League heroics: ‘Invest a little in him’ | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVmYxYlUzazFOd21NQmZMRDBfcHRvU21rLTNHZmtuZ3FxaTJvb0pVaVR1RjZUOFJFeldSQ2JSUUlXMzRpZDVSUjBpTVVWTVd4Mks3aWNmcDR1MllRbUNaaXZ5V2YtUGh2M2NVZGNMYXdJUThDWU41X0s2V3pmOU5xUDFEdGg1LXFmM0J0SmxNblNwbFdUczZ2WWdpSU9aWDh5SEdpUDBFNHlzZm9PNk55SHhLT2FWRUE3S0hBbk0yWklwU0FoVDVSekl5UTNjcE02SVdvSUM2aXpGZWthRmNNWGVFX2dZbTNy0gHuAUFVX3lxTFBSbFBDdkRxUXluZ1VlckVWRzR6bFRyZGx5Qi1XYVgyTzNvX2g1NzU3SzdiSF9pTW4wRV9NbEtYbkVka193aFBQeWVRUjFrVWVpLUlkRnl1WXlUZjdJcS1CT0dscWROR2xfcEZYTFdzQXRMRDZTWFZUX19kdFJiWTdmSnltU0ZnalNETmpkNkJLWGY3TGZGMFd1RV81eFlDenpaQnNJbnUxY2ZNRGNnWk9XZ2otOE1sMUxFTHFBblN3VnN5VHRsbjZPYWwzSkZraHhELTNvQ016SG9nRFV1emlLSHpxRmx2d0lzYWdMUXc?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Mon, 07 Sep 2026 05:57:53 GMT",
-          "fetched_at": "2026-09-07T12:12:18.779115",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Raina backs Bhuvi for 2027 WC, wants Rinku to lead KKR",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZUVUWW5ucEFQMG5nTXh6U1pQeXFmekR4WEJiNTUyYW9LcEdkTE9nT2pLN1puVjlGTzh3eXM4LXBKbkZJaUFMMmVZUVlvcTRiQkE5T1JrdThWMUlsSnUwamtNVExwckhVTE1Xa0N6RDRCeG9xQzQ3N2pRZVFFTC1GeVdxT3Itd3MyX3BuTHpiRDNPN1NxWEZIckRvMzVYN3NWSGRoRGJTZ2p1ZEhCOUZfM2tRM2p1NW92dWloU3lrclNBa1Z5aEVz0gHMAUFVX3lxTE1kZl8zMmJrdE0yRjNnTlZQSldzS3lVLXZ1VFVlWXhodGRJNXJIQWFTdUJzQUZROHZfZ0x0djVFZUJqb1BIS1FNbW9xWVFfNmFGVnhqVWIteE5LOEpZak9PZ2tRQlJwVVc1aHpyZ1ZLdDctUmZUVjVaVmQ3VXJYRDVQNVhQUDVkY2xkUl9Pd0ZodzhRdjRVYVNSSDFlN2JGdGxZMFE1b29yOEcxRHVEZ2JSR0dsbUlzMzZveXVEZ1lUMVVDcm5QT2I3bThybw?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Sun, 06 Sep 2026 20:00:00 GMT",
-          "fetched_at": "2026-09-07T12:12:18.779132",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR-Backed Fashion Chain Musinsa Takes Step Toward Korea IPO",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMWVHMjhLeVFNWGQtNXBPdE51YkxyRmw1TG5iVE1xMXo3TDZVODFYU1FSaWVhZkNQYzBSQ3lVUUtIRDRiSl9EcDJBdnVFOFFnOWpiTFN5MVJrRXNRY1FfdlcyaW5wOWdHS3J4Q1FyYVMxdE1iMGxZRWowRnJoOTdBQTRRb1dVYTQzM3FYczY0NjJ0cDZpczBRakx0ajRwQURfcFZmUUtUcThXRUppY3RnVw?oc=5",
-          "source": "Bloomberg.com",
-          "publishedAt": "Mon, 07 Sep 2026 10:23:43 GMT",
-          "fetched_at": "2026-09-07T12:12:18.779137",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "CSK defeat KKR by 32 runs in IPL match in Chennai",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Y5OGpsQmhWY0hOU0JNNlJBS3dzdVgzM2t5MU1sOGxfcWl5ZHB1SXFKRFM4UHoxQTBfcndfeXdEczYzc0d2eEo0MTQ1VS1pNHZOQnZicDh4Rnk1aktNU01ULURtR05TMjBONEtGdW1TaTJzS0I3LVlGUGl2WDNkdg?oc=5",
-          "source": "News On AIR",
-          "publishedAt": "Sun, 06 Sep 2026 22:55:58 GMT",
-          "fetched_at": "2026-09-07T12:12:18.779140",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR-backed Musinsa to file for Kospi IPO, targeting $6 bn valuation amid tax probe",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sNXZldG15R0dLRjdnVnVneG1MSEtvbF92cHI4RTJqb2pHcC1Wb014T0tpbEpVMTVVQVltZEF5UlM5TlQwUW82a1FBQnhpTnhJNFNzWDJPM0t1NENKUDdyN2phTW9BR0NQc05MMVdIejNRQQ?oc=5",
-          "source": "KED Global",
-          "publishedAt": "Mon, 07 Sep 2026 08:18:59 GMT",
-          "fetched_at": "2026-09-07T12:12:18.779144",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -732,17 +803,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-07T12:13:18.884026",
+      "last_updated": "2026-09-07T21:32:33.799794",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -809,7 +880,43 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "eurekalert.org",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-07T21:32:33.799522"
+        },
+        {
+          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-07T21:32:33.799537"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-07T21:32:33.799543"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-07T21:32:33.799548"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-07T21:32:33.799556"
+        }
+      ],
       "filings": []
     }
   }
