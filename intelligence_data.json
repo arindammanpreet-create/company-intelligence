@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-07T04:03:11.979115",
+    "generated_at": "2026-09-07T12:13:18.884042",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-07T03:53:21.270947",
+      "last_updated": "2026-09-07T12:04:08.276578",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-07T03:54:18.367620",
+      "last_updated": "2026-09-07T12:05:20.088557",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-07T03:55:40.154280",
+      "last_updated": "2026-09-07T12:06:31.841616",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,43 +266,21 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-07T03:57:09.915273",
+      "last_updated": "2026-09-07T12:07:56.153890",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 1
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Balance Sheet Stress Indicators at HDFC Bank",
-          "severity": "High",
-          "description": "Financial leverage concerns for HDFC Bank: debt. Credit risk and refinancing outlook research warranted.",
-          "detected_from": "SBI to hire 12,000 people | SBI has workforce of over 2.45 lakh | Inshorts  Stocks to watch, September 7: Tata Motors, TCS, oil-linked stocks, SBI, IF...",
-          "gap_type": "debt_leverage",
-          "keywords_found": [
-            "debt"
-          ],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Credit Risk & Capital Structure Intelligence",
-              "impact": "High",
-              "timeline": "6-8 weeks",
-              "price": "₹16-24 Lakhs",
-              "methodology": "Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending",
-              "description": "**MRA/ESOMAR-compliant study**. Debt Covenant Stress-testing + Investor Interviews (12) + Altman Z-score Trending. **Deliverables**: Quarterly capital briefing, Investor perception tracker, WACC model, Refinancing window analysis.",
-              "gap_type": "debt_leverage",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -342,55 +320,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "SBI to hire 12,000 people | SBI has workforce of over 2.45 lakh | Inshorts",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WVWRxRXhXWjR0UFExRUFORk03emd4blpvWTY1SU5RS1lQUGdsaEtNNHhkS3BKR2JUTXpEcFNpR1NxT2JfcU1jSmplSUlHREdqN25GdHNFUGV3MWo2Zi1oaGJpd05wRlc1ckUtbzhwOVhxTGc5Vks2MF9pYTBYZ9IBgwFBVV95cUxOZmNic0UtajZDTGxZMjdZMTlXdlRfaFhWMWtsem9Wcm42dnVVRS1yaV9SOERCVDFmWGZ2Y05DZE9IRVFsMjVENmoxQWdTLU41cGd0aVd0ekZTcXVhbHJKQmtqblZaNS1vVTVHTW11ODB0TXN0d0tiRV9PbnpuSzVDZXdLOA?oc=5",
-          "source": "Inshorts",
-          "publishedAt": "Sun, 06 Sep 2026 11:32:53 GMT",
-          "fetched_at": "2026-09-07T03:56:24.622011",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Stocks to watch, September 7: Tata Motors, TCS, oil-linked stocks, SBI, IFCI, Lupin, NMDC, HUL, IndusInd Bank",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQVGIxMzNSZWRPa2lFNUtuVWkteW83NTVYTG03NGVQUktYdURVaUVpOGhhZkpfV294ZGVPRDFwVnJGZWE1al9oTTM4cEU2SllpWl9tVVA0WVFuOXlUME9USWx4RGM1VDhCeXZoXzhlbDRNVG5sTktrVGtQd1BmTThEZXZiblFjLVFPNmR6ZXRCMWZ3TjVrOGppYl9PMVpOSEpEV0xicmxDcjFZMWd5SFRQWGJjbVFaa0sySFMta29HTXlSQnl0cnFoYTNhSmZHcXhSd2hia1BSZ0dMQU5GLS10ZDhjRE9lWnQtc1cw?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Mon, 07 Sep 2026 02:33:05 GMT",
-          "fetched_at": "2026-09-07T03:56:24.622025",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SBI loses title deeds, Bombay High Court says pay Rs 5,000 per day from December 2023",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ3JBSDZBVGlhSldIbmtQQUo0TTgzaVhrVFhDeERUa2lERGtPaDBpQVhLOGNFSUdiZ0VYeko2MGZUT202WFhUYnJwd0tnZ3VUdDVxSXp6b29mbFdQX1RjYTJZVjJaZ1lHVFRONTl0OUIwcF9RX3VVY0R1eGpjcW1CVmFNaWd4LUdwaHVDMXVjTmZlVG9ZQUtJeGJwbG8wUnlXTGZGTFZSVEhlS0xfRzRUT2ZrV3M1cTRUbGxF0gHCAUFVX3lxTE0tR0htSDI0akR5enZaN3V6eWQtemhZRzYyMGZNY0ZmM3FwUEp0N0dTZ05GbC0yZVlaSGRELWlXZUFVVHZ0ZGI3NFVvdGdvNmk4VnlianV2dTY5c0NRSHdnNjRfUmNaNmIxeGl5clFhQV9vRUlBNlA0UUw0Z2xaaUZsZ1hBQTVFdVpWYXBKbHZ5N191SEIyRUF0NzNyT3NOMHdZNE15SGNNLXctbXRGdUhyY3BQV2tUQWhoRkVCOEQwRDJR?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Sat, 05 Sep 2026 09:30:07 GMT",
-          "fetched_at": "2026-09-07T03:56:24.622029",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SBI Banking and PSU Debt Fund - Direct Plan Fund info",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMmJkR3RWQnRwRHRWSVd2WnVXR0ZuZXBBWDJEMkNHaXBmaUVlQUNUT3pJNHZtazQtdUg5M0l4QlIzOEhmT0FyTDJ1SzlORkxfZUZrM3Z1cFN0bTNWWXBWeWc3SzM1TDNvb09wdTNJLW50V3FYNXNoZ212QkdnWUJTSTFER0FXMFBXc1BuN3dzQlpmdVo5eWtxWWhRRE15MzdwbG80?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Fri, 04 Sep 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-07T03:56:24.622032",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SBI Savings Account New Rule: Major Update in ATM Withdrawals From October 2026",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQb0VWYkpXeUFHdHlSaFBSUTIwOU5sejVta1ZkWkUteTFKSWs4UW1HZ1B5dGFhVmV6SUd4X0tEM0hGa0tucmQtMnRmOGJKeUFnTFBXWTRfNXBHczZ6bHJ5YlhlcThGLUhjaDZzbDFSQko4RXo3dkFadVZGMjA5ZmNBT2FRdVhWTS1KY3ZsMUUwelRUc2RucERVVUw4enNOVWUxR29mZVM2RTZ1VHpQWm05eXRDYl9rWmVRZGhheHFXaWJUbGM?oc=5",
-          "source": "CAclubindia",
-          "publishedAt": "Sat, 05 Sep 2026 06:25:00 GMT",
-          "fetched_at": "2026-09-07T03:56:24.622035",
-          "related_to": "SBI",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -398,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-07T03:58:26.129260",
+      "last_updated": "2026-09-07T12:08:46.660453",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -482,9 +434,9 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-07T03:59:39.291768",
+      "last_updated": "2026-09-07T12:10:12.151855",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
@@ -495,78 +447,7 @@
         "pos": 0,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "Mukesh Ambani and Mumbai Indians fans",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdGFrcVJ0WFZ2MUVnSW9zMVVNcUFWcmJYWlU2VVBKMWRFMncyU0Z4enJKVVc5X2s2UDFHV3dTTV92NnRxLTljUUdRcVVFM2ZhcWVWNFVtRjE5RFZQd1hsbG1GWk1DdzE5ejRoanJJTXRhQm1ONlJONmNwZUNrYjhxRkFDZDYzLWc?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Tue, 01 Sep 2026 02:54:00 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414899"
-        },
-        {
-          "title": "Mrs. Nita M Ambani: “Hope the kids go back with a lot of cherished memories”",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeHo0cXpDU0tZRkF4RGFVLVhqZlFzRDdod2RSOEViNjRSOHdBb3E3UC1fRjFvdUxSa05yRGt6NU42RTFZcldWTERCNUMyNGNNRmlHVjAyV1NHQ2NIcjc5bG55MF82U1BTVVNsRFNYc0p4aGRqaFpuWmoycHRaX3NxRmphb2lJRFgzVjNUV0JtNUZxdHNjNW5xYV8ya2taZi1hY0RacnA3UFh6RTg?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414918"
-        },
-        {
-          "title": "BCCI spots IPL 2026 security breaches as players face scrutiny over conduct",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM0lKSDg4d09jMklFUWU3ZnhZZEJjNmcxbXZwUmJoU3A1VTNXTEkxSEZCblFnRzliamxzRERlQmtJMGd3VlhIQVpnV1RkeHA4N3VVYWNnOURCRHVleTZBNUdWaUpOQWR4ZjVWOE81YTlvVjlqUjQzQ1dtT0RBSVZIbmVyci16M3ppY2s3Ukl3ZXhybHcweVlPR3FIcE9ad1FjR1ZqOXlWbkJvTEpFajlFM0hfT2Z4czU4UmdpX0M1bV81RFpoLVhGekk5Ti03SFJlc1VTLWNPeHFMZlZV0gHiAUFVX3lxTE9uYnRhLUhWeEpWQWxqWmF5dGRvSjlodV9TZnRmaTdVQXVzTlJ5MXRTdHdmOFBpZTY2eXQ3ZXJ5UVRfTGw2SVBEd0ZqRE1OMFN6TWJaUGZ5VC1QU1RZYTlMU094OVV2bkhmbGRVdE14TlpQTUdGMFlXb3d3Z1JrbWZFLXZJTEpOTFNsTzIwdDllMDU4Uml5S2hkV1pYbEVEUnBwSGlYWm5OY1cxeFk3d3MzajdvUzR0cUswdjdkLWp1eHFSNVh6WW16bDlMaDJTWjlpMWxQaFdpNmp3YVJYcjRBQlE?oc=5",
-          "source": "Telegraph India",
-          "publishedAt": "Sat, 05 Sep 2026 02:52:00 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414923"
-        },
-        {
-          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414928"
-        },
-        {
-          "title": "\"Make children smile\": Nita Ambani's message for MI players ahead of special ESA match vs RR",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdERSQVZxZXNjREZlNWhWNDlXaE1vRDIzWThKTlBQSXd6NGhzYWlUTm9lTkhMRHJuU2ZCUXVBUnZPZlNZUU41clUtQVNHand0RHltVkplbEhKcTR0UEUtLVBNV3l2cl9adzZzVW1adk96dTdESGZFYU9ReE55UXVZMVhjU1oxUVdYUlhoNGx0NnRxUHNySHBocENMSWhfN3k2RDJ0cTQtSFlFVXJLWGhrczdCMEFVSlBkMWh4V3dvTExwUUhadS1EVHRSRDNUeTItTnlHa1EyVnZtZWNieUE?oc=5",
-          "source": "ANI News",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414931"
-        },
-        {
-          "title": "MI’s #ESAMatchDay 2026: When Mumbai comes together for 20,000 dreams",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTDlidWtGN1VLLXUxV1h3ckRrN2RZMkJRM1I0bEN4TDFJeDVyQTlyNnZ6TnBhX3FSS0Y4dGpyaUgteGQwYmxfMi1LdGNBelBOSWtJbThETVJuRnNPVU14aFJiSTdvazB5Ql9OcGRMaWxIc3NpSW53SmlkcnZoQ2xGSnhWTEVfNTRTTWppbmpmMHBkYUdPMFE?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Sat, 23 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414934"
-        },
-        {
-          "title": "Diana Edulji, Akash Ambani and Venky Mysore at a press conference",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa1NxVEwwenRPWWF2cTl2UV9IOUJ5M1EtQnRmQm5tSEpPYnQ1aDJlaGlNaFd2WklYbzhiV2hHM2x1TFA4S0g1ZTBtRGZnaW1vR0phYlE5X05HQUpQVTVOeGV0d1pZSERfZzRqMkdCdGs0NlF2emM2YjZ3c2JfZ0xseVZIMk5DYlBqbThKWTkwSm1XMXdSYlhkSjVNOEhnT2wxOWtHeENR?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sun, 30 Aug 2026 12:33:28 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414937"
-        },
-        {
-          "title": "Team Owner, Akash Ambani, on the Quinton buy, base-price picks and planning the MI-way",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQXJJYUt0ZjZWN0xva2JZU0ExZTg4aWhTeHVFZ0J5ZXlDYzZqRHotSEVJR2RyZHRwWEozdGUyRWZwU0thd2VmdGtNdGFFSVd3bGVrRXdMWTh1YUwzTmwzdFNjMldBMzB2VGt4SVBQYTBIcjNlRmxCc0J6RGxDVUVtLXhkbWV1eHVKbHZnRGFBTzZOU0V4cDF2SGRPYjlRUzJNendUa0tCcDJFNHlIdzQ5aEJxcFh1VmdjNXc?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Tue, 16 Dec 2025 08:00:00 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414940"
-        },
-        {
-          "title": "Mumbai Indians owners Nita Ambani, Akash Ambani and Ananth Ambani pose with team members after they won IPL 2017",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMFdCVlV1S3AwX04tUVFSUVB1Vmo3cGtlZW5ndHNxeExXSVBVczlaS3ZncHpMNEF4aW53U29NbEI0cW95YWU3ck5MQ0hwWlNMWlE3Vnpob1dEeVV5Y1I5YjdrNE44a1ZBQVNsNnVHc2JTalM3NGRNeXVEMzloeHYtTjVfY2xhZUhvaExSOVFLaC1KbkphbnhpaFdIRUxPSThqUmhoWF9pS0doaFZpd2R1SGZCdm80WnhlLXFkS2wtQ09MWE13LVFWOUFDZTNBX0tMTDNwZW80RVZNc0ZLQzZjWXg5QUc?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sun, 02 Aug 2026 15:34:37 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414943"
-        },
-        {
-          "title": "Akash Ambani talks about MI's strategy at the TATA IPL Auction 2026",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQckk4SFlZWERaa2NVR3k4SFF5ZW1Pa1ZVdzRVbFhMbUdKSmdvSUZpS1RzcnpmWHdRWEl6WHlaNk9KRjRBUmVtbXpKbXFYNjVFVDE0Q0hrOFFjMGRUdWkxbGo3alp6NHQxak5yQ2dxajZLMXppb0tISW42UXU4bGhEblMtSlQ5QlpRVlZNa0MxSTlySXZjQVJrakVQRFdZX09McXBzOGNB?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Wed, 17 Dec 2025 08:00:00 GMT",
-          "fetched_at": "2026-09-07T03:58:41.414946"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
@@ -637,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-07T04:01:00.181765",
+      "last_updated": "2026-09-07T12:11:27.454081",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -721,17 +602,17 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-07T04:02:41.863381",
+      "last_updated": "2026-09-07T12:12:48.833997",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 5,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -799,95 +680,59 @@
       ],
       "competitor_intel": [
         {
-          "title": "Highlights: Mumbai Indians vs Royal Challengers Bengaluru | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHVGMV85NHlpdFJ5YmdGYVRWRG5HdGEzbHFNTWVaYTZzdkZ3LTAzazhqc25ULWNJVnRwWmdYYjVZaDFuWkZfYnk4WUZybXkwQjQzR3dJTTM4Y3BhdUF0alhmR2NJUVUxZkw3UEJfQU9XcEY1LWNORGZwdFN0bWhoNFFCUG9OTWd3V3A2X19ab0lJQ2VFdGhNeHVxNVljLVB2?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 07 Sep 2026 01:57:08 GMT",
-          "fetched_at": "2026-09-07T04:01:28.074864",
-          "related_to": "Mumbai Indians",
+          "title": "KKR urged to appoint Rinku Singh as captain after UPT20 League heroics: ‘Invest a little in him’ | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVmYxYlUzazFOd21NQmZMRDBfcHRvU21rLTNHZmtuZ3FxaTJvb0pVaVR1RjZUOFJFeldSQ2JSUUlXMzRpZDVSUjBpTVVWTVd4Mks3aWNmcDR1MllRbUNaaXZ5V2YtUGh2M2NVZGNMYXdJUThDWU41X0s2V3pmOU5xUDFEdGg1LXFmM0J0SmxNblNwbFdUczZ2WWdpSU9aWDh5SEdpUDBFNHlzZm9PNk55SHhLT2FWRUE3S0hBbk0yWklwU0FoVDVSekl5UTNjcE02SVdvSUM2aXpGZWthRmNNWGVFX2dZbTNy0gHuAUFVX3lxTFBSbFBDdkRxUXluZ1VlckVWRzR6bFRyZGx5Qi1XYVgyTzNvX2g1NzU3SzdiSF9pTW4wRV9NbEtYbkVka193aFBQeWVRUjFrVWVpLUlkRnl1WXlUZjdJcS1CT0dscWROR2xfcEZYTFdzQXRMRDZTWFZUX19kdFJiWTdmSnltU0ZnalNETmpkNkJLWGY3TGZGMFd1RV81eFlDenpaQnNJbnUxY2ZNRGNnWk9XZ2otOE1sMUxFTHFBblN3VnN5VHRsbjZPYWwzSkZraHhELTNvQ016SG9nRFV1emlLSHpxRmx2d0lzYWdMUXc?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Mon, 07 Sep 2026 05:57:53 GMT",
+          "fetched_at": "2026-09-07T12:12:18.779115",
+          "related_to": "KKR",
           "relevance": "competitor"
         },
         {
-          "title": "MI vs CSK, 33rd Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeGZrMGdtY3p2VVV4M3JuYzgwb0dkcUF2TnhDLTJUaVhFUFIzZ1B5TXJ6eVYwSUVTVUlfNWxIYUFvUnlFTmhTa1hMWmFmSlRTZmV3QzF3UjZCUnZmanJZakxpc1E4OHZRTHI2ZV9RU3Y0NThlSjlYWm4yR2I2blJYdG9zT1RwdUwya3RoU1h4NE54ZVBLQWRDVGNJWnJndDdp?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 07 Sep 2026 01:54:22 GMT",
-          "fetched_at": "2026-09-07T04:01:28.074877",
-          "related_to": "Mumbai Indians",
+          "title": "Raina backs Bhuvi for 2027 WC, wants Rinku to lead KKR",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZUVUWW5ucEFQMG5nTXh6U1pQeXFmekR4WEJiNTUyYW9LcEdkTE9nT2pLN1puVjlGTzh3eXM4LXBKbkZJaUFMMmVZUVlvcTRiQkE5T1JrdThWMUlsSnUwamtNVExwckhVTE1Xa0N6RDRCeG9xQzQ3N2pRZVFFTC1GeVdxT3Itd3MyX3BuTHpiRDNPN1NxWEZIckRvMzVYN3NWSGRoRGJTZ2p1ZEhCOUZfM2tRM2p1NW92dWloU3lrclNBa1Z5aEVz0gHMAUFVX3lxTE1kZl8zMmJrdE0yRjNnTlZQSldzS3lVLXZ1VFVlWXhodGRJNXJIQWFTdUJzQUZROHZfZ0x0djVFZUJqb1BIS1FNbW9xWVFfNmFGVnhqVWIteE5LOEpZak9PZ2tRQlJwVVc1aHpyZ1ZLdDctUmZUVjVaVmQ3VXJYRDVQNVhQUDVkY2xkUl9Pd0ZodzhRdjRVYVNSSDFlN2JGdGxZMFE1b29yOEcxRHVEZ2JSR0dsbUlzMzZveXVEZ1lUMVVDcm5QT2I3bThybw?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sun, 06 Sep 2026 20:00:00 GMT",
+          "fetched_at": "2026-09-07T12:12:18.779132",
+          "related_to": "KKR",
           "relevance": "competitor"
         },
         {
-          "title": "MI vs SRH, 41st Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRjdwdnByN3RaV1ozVkl2MEJTbC1Bc01uT0JXc2daRFkwRWpDVTFPU1NWUUtxU3RQTnFrcWdYOERUTHZCdFJGTkl1ZklXTzBOU3BGTE9nT3BqcEZOaFc5eUtrazdXYW5OOUFqOWJ2ajg1bjgwdWFaSnh4WVExcUJ2MmpHQ2lDM05ZRzY2UUl0Rl9wRDN5cEtmVEZGT19WYXNv?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 07 Sep 2026 00:18:58 GMT",
-          "fetched_at": "2026-09-07T04:01:28.074880",
-          "related_to": "Mumbai Indians",
+          "title": "KKR-Backed Fashion Chain Musinsa Takes Step Toward Korea IPO",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMWVHMjhLeVFNWGQtNXBPdE51YkxyRmw1TG5iVE1xMXo3TDZVODFYU1FSaWVhZkNQYzBSQ3lVUUtIRDRiSl9EcDJBdnVFOFFnOWpiTFN5MVJrRXNRY1FfdlcyaW5wOWdHS3J4Q1FyYVMxdE1iMGxZRWowRnJoOTdBQTRRb1dVYTQzM3FYczY0NjJ0cDZpczBRakx0ajRwQURfcFZmUUtUcThXRUppY3RnVw?oc=5",
+          "source": "Bloomberg.com",
+          "publishedAt": "Mon, 07 Sep 2026 10:23:43 GMT",
+          "fetched_at": "2026-09-07T12:12:18.779137",
+          "related_to": "KKR",
           "relevance": "competitor"
         },
         {
-          "title": "Keightley’s future as Mumbai Indians coach uncertain after Cricket Australia role",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcW9ha3d1a1h6MGgzeDRWbUtmUklsNjVmQW13NWJYeVZhNTFVZzJDRmFoVUJ0ZFpfTmRzamNLNlBER1pYOXdMYnowUEtvUWdPTlZvclN2Sk50aXgwdllzbGp1SHhneXF5Qi0tOE9HSHRpbDRNYjFFQ1R6bC10LWZjZEgyckxUQS1SSm1Ma2drQWh1OURpOFFHMHJIUDFUYWZHWXItNGw4b0ZsbkJjOTZKLThmZE1FMWZyN1g0YnplN1c1ZUl1RzBNM0MtRHd1MGM4NVVaRkFZd1JsLXc4MXJxNDcwajB1SS150gHvAUFVX3lxTE9VM0czNkFBMGFOTXNuVGZYT05ja0NiVkJIWWt0NS1HNkJJQzZjdTQ0dzZZRDQ3amp6MVZ3OWpYX1d6ZjV2Z3BDeGdoYnUyYkFSNVFUUlduQ2tjc1VnMEVES0lZREdhd1M1a2xGNUNWLTJodHZ6aHgtSy1iOHBvdm9yZDQxN2M5WkJ5X01DcEN5RDAtZ1htSnQ2VGVIa1hucF9BNTFaT1Z2UzVpZ3NwSXRONC0tNEt0WDBZNDQxbnhIdzlJUUM2YjdhWWFDbGlLck5rYUpJTFdmNVdLWkRzZm15ZHRYV2oySHpzYm9FX0xJ?oc=5",
-          "source": "sportstar.thehindu.com",
-          "publishedAt": "Fri, 04 Sep 2026 15:05:09 GMT",
-          "fetched_at": "2026-09-07T04:01:28.074887",
-          "related_to": "Mumbai Indians",
+          "title": "CSK defeat KKR by 32 runs in IPL match in Chennai",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Y5OGpsQmhWY0hOU0JNNlJBS3dzdVgzM2t5MU1sOGxfcWl5ZHB1SXFKRFM4UHoxQTBfcndfeXdEczYzc0d2eEo0MTQ1VS1pNHZOQnZicDh4Rnk1aktNU01ULURtR05TMjBONEtGdW1TaTJzS0I3LVlGUGl2WDNkdg?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Sun, 06 Sep 2026 22:55:58 GMT",
+          "fetched_at": "2026-09-07T12:12:18.779140",
+          "related_to": "KKR",
           "relevance": "competitor"
         },
         {
-          "title": "Keightley appointed to CA development role, WPL future uncertain",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNU5zanZKQ3d3Q193U29FYjJuOHl4cWN6eVJvNU9mSnMxbFlvT19MSmtXUmNYOTdxQkNnS3ZiRDQtN05jVFNxSmFIdDd6aVl0Y25MNnc2SDdpMHd3UzdCZm15TjBZZmtzNXpaUjducTNSeGVhSF9PWmdwZFBsQ3ZqNGtnLXREVDM5bzRmbHRua0lEXy1kcFBTa2dpaWxITDFVSXhYakRkTHItRTVNOXF1RjBFbXQtZUFud3NiQ1lnONIB0AFBVV95cUxNaldnRmEyMTdWZE9uVk1JbXVlR1dRMVlKTmN1bHdVbDBhRnRYcjhhbEpVNlEtQlJRN0lycFRmcDdKN0w1X212eEMxand6NnlUMHlpS3VnT2cyU0hQbDg0ZjNiWEpKb3I0Smw2eWlDTGlObDFXSXg0LWltQkx1NnpaS3JFbnVja2FkeW9kNGFUeXpNMXRQMHVaU0ZPSXpWN2E0YkZXTU1TSXZGNW9yMEt1TllRWGY2VzEtY1ZkclFtNjJwd3pTcGxwZW9mMXByaklk?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Fri, 04 Sep 2026 06:54:10 GMT",
-          "fetched_at": "2026-09-07T04:01:28.074889",
-          "related_to": "Mumbai Indians",
+          "title": "KKR-backed Musinsa to file for Kospi IPO, targeting $6 bn valuation amid tax probe",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sNXZldG15R0dLRjdnVnVneG1MSEtvbF92cHI4RTJqb2pHcC1Wb014T0tpbEpVMTVVQVltZEF5UlM5TlQwUW82a1FBQnhpTnhJNFNzWDJPM0t1NENKUDdyN2phTW9BR0NQc05MMVdIejNRQQ?oc=5",
+          "source": "KED Global",
+          "publishedAt": "Mon, 07 Sep 2026 08:18:59 GMT",
+          "fetched_at": "2026-09-07T12:12:18.779144",
+          "related_to": "KKR",
           "relevance": "competitor"
         }
       ],
-      "esg_highlights": [
-        {
-          "title": "Delhi Capitals Pacer Lungi Ngidi Taken Off Field in Ambulance After Head Injury",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTXNkWmxWaThsbFpjaHpKRGx5ZTU4SkFFUmNEWVpfaDNwNDNHVXZsRVBRcXgwYm5fMmNIcUtlYkNOSHpFMU13ZHhhZ0FMQUtlbXlRQ2QxUTNnTmV1VS1GS3QzaHdUcVpMZmFraGhra21UNk5LSFF1aDRJUTJ4cnQ1RGF6U0Rld3VoZEdublRDcno4LWZYMFRuRHNyZWpXbzhFcTA5TXQzTDE?oc=5",
-          "source": "newsonair.gov.in",
-          "publishedAt": "Sun, 06 Sep 2026 21:17:37 GMT",
-          "fetched_at": "2026-09-07T04:02:41.863090"
-        },
-        {
-          "title": "Suresh Raina backs Rishabh Pant to excel in white-ball cricket and IPL",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTzJHOWVNSmJVQU56ZktVb1pGU1hEb2JURzdQQllaNFN0U3p4WlRHZnMyZWZ4OWdua0lnR2djZUFwYUZqZVA4MVlTN2dJNVUtT05idFFVanFKQ1RiR005Q2h3NEw0QXczcFJpaUVESnVJTk5vMWVSZmdSdjZ6TEhiUV9LeU9CTGI0TU1zSjlsbnY2YUc5QV9DMTZabWR0N0FaalFVMVg5eFhuNGpFTHFYQ2d2Z2M1Z9IBuwFBVV95cUxPTGZOZXpXQXdhRmpXR05OSEx3aTdja19wRWNySXRPM2wxdkhmSWkxa2dXYW9CdmlENnR1alNsd2ppWTRIeUl2MFhoZkpId1pPWTJDQ0VkZlZtdDdLTEJNVHE3V3hIM3RzV09RcmVIcHdGNVN0SGFFb19yY3RJOUQ3YmljRXVRQTFkWmk5bWhNc2t1cGZqQ0ROZVBzdmpmMXJiV0NaaWxWN09qNVFrd3puXzV0dDUwZGZhaHow?oc=5",
-          "source": "CNBC TV18",
-          "publishedAt": "Sun, 06 Sep 2026 11:11:02 GMT",
-          "fetched_at": "2026-09-07T04:02:41.863103"
-        },
-        {
-          "title": "Indian Premier League - IPL - Delhi Capitals v Mumbai Indians",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOOHpUMXdQZHdxT3kycER2bEpkRmVLUkE0UEtwUzlWQ3RhaGR0a1BRNWlDWFRCZDJxbGRremZfRUJRM01tLVJ2WDFHUTlhd3hXVEU4aTJJOFh4MVJYejk3NE0yaHlNdFgtbUtIOHRNMHRSS09jcU9fWnRNNnRsOUdoTHJ1RFEydnRkV09md0FJeWJKYkxMenFwc0ZldjdtZWROQ0ZKekVXaTRRTEMtNEFMOTFPcUJ1WHpCZDN2b0poRGpLS3paaS1iQmUzeWxKYndpMDlqOFptTVVzeDQxV3hnVEwzY0tnTC04NUxTMUNsWGJTdVVqZDFvekJQUVplWDdfRGVNTENTWHJMdDVITUpiVWVUN0lNNkR2X0RzZTFQZnlZWlV6bWlQcWZlRXpONEI2YjdKWE5rbWFVZFBxaUdOYk1idnlOR21iUTVj?oc=5",
-          "source": "reutersconnect.com",
-          "publishedAt": "Wed, 19 Aug 2026 20:48:30 GMT",
-          "fetched_at": "2026-09-07T04:02:41.863107"
-        },
-        {
-          "title": "Delhi Capitals Cricket Team Images and Photos",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UTU1IU3hBNUpoVlpxaVJrejBCaHduTmlybnR5OEFYOTF5cG5oYV93OEwtUGFFQkp5c3ZEQnRYQ0VuMzRGR1UtVTdFLVVDalowa3lENjR6WVFNM05zRlRIZXhVU05Xa2xV?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sun, 21 Jun 2026 10:19:34 GMT",
-          "fetched_at": "2026-09-07T04:02:41.863109"
-        },
-        {
-          "title": "Ganguly and Yuvraj set for senior leadership roles in Delhi Capitals in IPL 2027",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLVlVemNRbUpmU1ZfaUFUamxlbjQzOVVDLWFSSHd4Vm5qcDZFRUJ3OEhHbk1WR1A2MTlVcHE4dWtSZnEzaVVBWTZKY2p2dV9lczA5d1ZtM19WWEU4emc5Y2JHbFVFN3hVYkkxeVhkQU83ZTJxblBwY21yaUNfMDFVd2F4aS1xRHJhdUFDOWgyT0VhZEhTbjRZdlBBSW5mekxiMndOc1JOUnV0MEIxUWZJNlFyNWFvMjFJN3dMWtIBzgFBVV95cUxOcW5Gblh6LXBmekV3ZmVqRzdPWnBDQ0wwN3lLaVZ1NUQ5djVkN3VtNWhyczN6emUzN0JlS2l0OE4yczlRcE9CaXlKS0toOUs3VExUSkdZdWgwX1pmR09pUjY5SVNtTzB3QktJNmU4NEptRVJDU1JlOFgxN2dvWFMwWkRJaWI5SFBnNXFPeTNiNFVJOGNfNUcxT0xiM0N2ZW1HeUxIcG1Ya0toZ3lCX0JqT1BOTGNLazB5eWJkdi1kUER4bEdNeXFPd20yRDVWdw?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Fri, 19 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-07T04:02:41.863112"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-07T04:03:11.979099",
+      "last_updated": "2026-09-07T12:13:18.884026",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
