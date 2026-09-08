@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-08T04:05:35.913910",
+    "generated_at": "2026-09-08T11:06:43.205908",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-08T03:56:32.387461",
+      "last_updated": "2026-09-08T10:57:43.646664",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-08T03:57:56.634032",
+      "last_updated": "2026-09-08T10:58:50.115309",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-08T03:59:17.787872",
+      "last_updated": "2026-09-08T10:59:50.643312",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-08T04:00:46.440646",
+      "last_updated": "2026-09-08T11:00:59.414895",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-08T04:01:47.179433",
+      "last_updated": "2026-09-08T11:01:56.923263",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,18 +434,18 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-08T04:02:44.402016",
+      "last_updated": "2026-09-08T11:03:13.928390",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -510,7 +510,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "MI vs KKR, 2nd Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdmxmZzZ0dU4wZUdIckJ5R0xUTjBCWlRTbE4yZHhiWWNVai0xam5JUkc4azVWTUZfU0kza3gtc0dTVWstbVZUUk1WTzFOX3ZCNE1KLWhuZkxUZHRkNW00UHloZDRCMDdQSEhQVnVjMUtNWVZ2S3lEaEtBTUhldkRaMWZMSXlJRTVYbnR6a2t1MFJHTzhIUW5XdlRrdUhHdGM?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Tue, 08 Sep 2026 07:05:39 GMT",
+          "fetched_at": "2026-09-08T11:02:54.364269",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR vs GT, 60th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNFowT3hfVFRROVQ0ZlNmd21YSlZOb3pFZUJxQ296NUtFWVNzemVZOFpiLXVjMW94VGo3VEF1WFQ2LVZiSlJ2d09Jb2J0SGVOQkdTV2JucTZ0QlJRYU9JVEZRUTQ4dktnbUYxdVJ0a0hibUE0Rldra1FzNUdIalo5ckZ6eWZrbjh6WmZBTTBYN2QwREtsTXBwWEx2T2FCdGJy?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Tue, 08 Sep 2026 07:03:03 GMT",
+          "fetched_at": "2026-09-08T11:02:54.364282",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR vs RR, 28th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTWg4YXRFNENHTjNnLTV2bHo3dmMtQVc2bGVkN3NzTHkxR2s1aWNLVGVUTkdVaUQzN3ZndnhLNHlNcmxULUpyOHQ2UUVILVhvTVFtU0pVLUdQSXVpbzRSa0RKQzlWb2xaUDFVUmJxZFg5c1pWVy12b25vTTJsWjgyZGQtWnl2YlZXSlYxZW1ESlF0UUJuRHowUjBjd0hERHJf?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Tue, 08 Sep 2026 07:02:04 GMT",
+          "fetched_at": "2026-09-08T11:02:54.364286",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "\"Captain Mil Gaya Hai KKR Ko \": IPL Legend's Big Verdict Ahead Of 2027 Season",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM3hoekZhRkh0ZlZhS2dHZThjXzNKZHlNM21QZnR1VnFtbnBVTmVfbGZ5ZXNvZmhxUWMwVDBzSGRDSUphUVJmeXljTEVaaXdRRkNoMEE1VGpwWWstNmY3d21Ldl8tQ1pjZC1qZE9raV9qQlE5SlpBQzhBYXFPVUVuQkhJMHpzZDdSdHgxWXljZXk2aWQtdzgxd0kxS0dqSk1MREVZcDUtdWF6dGxoVllVYU9veUNGcjFrZEJxTlFfTjNreW9zNmVwOWcwVk8xbF9XMlFV?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Tue, 08 Sep 2026 01:05:10 GMT",
+          "fetched_at": "2026-09-08T11:02:54.364289",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'Kaptaan Mil Gaya Hai KKR Ko': Suresh Raina Backs Rinku Singh For Leadership Role",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQelk3MUdkNTRENGd1dzRmeTFrWEs2ZVNBR21meV9YZWlnTG1ZNE5PV0hmY0Npc0lBYmhKbkI4WHZDNDZGZE9XaTN4THQxVlhVMUx6MWRLRzF3YURmOTl3SHJkQm1MZkllb1N2V3FfRThmWWg4Vy1ZOW1DT0hfWG9leHV2b2dHQ2NlZmJzdDBwdG8wVC0tN1gyaHZ4NnA0S3RyX1duVnlZeGJPbVNBcVhtOVNaWE1saHdNVjd2THdYdUhKUEhHQk5r?oc=5",
+          "source": "News18",
+          "publishedAt": "Mon, 07 Sep 2026 06:59:44 GMT",
+          "fetched_at": "2026-09-08T11:02:54.364292",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,11 +564,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-08T04:03:44.894980",
+      "last_updated": "2026-09-08T11:04:50.083753",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -594,7 +640,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Gujarat Titans | Final | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazMwV0lObFpLSzZaSXl6d1hwYkFsZ251QW9Rb3R0cjEwUzhISUlZMTB2SmJUX1pWU01QSmpsSl9FcE1JM2V6NHV6SlpZVm9KOTJZS001OUM3V1g1dnB0UHhyQW91WnZWemZ5NGF3c1FSRzllYWxuR3d3ZFk3SFNaRjdZWnZTcVVxQVhYZU5SSkdPV0R4TUE4Snd3?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Tue, 08 Sep 2026 08:59:36 GMT",
+          "fetched_at": "2026-09-08T11:04:05.006467",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT, Final, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWVlmckVCTjdER2tLTkNfNER5dGhkMjdzOThDUHF2M0dxc09DMEZ6Rk8wdFE5ZDJVd3Z4aUJDZ0dwcXFuSmVVbHg3TjVWWTFHcjJHWlViQkRiTGhsOVl6ejZWVFhBZzVyWDVQdTJsTFRnQlhoZUttY20xUFpJOENjVkh5Ym56NERiZklGWXVBNFl3U1E0OXVMRVZlczdYdw?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Tue, 08 Sep 2026 07:23:33 GMT",
+          "fetched_at": "2026-09-08T11:04:05.006481",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "\"Don't Need Anyone Else\": Rajat Patidar's Stunning Virat Kohli Revelation After Getting RCB Captaincy",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPenRzWGFra2RHd0hINkQySnlUODZmalg3RjVMQmFtUDNIVHpnY2t0VDc5MUowdUtuYlN5dV9JMENiR19YWDRkLVJycktCN1pXNjgyb1FZeXlIUElXc1o5UTZxbjFrOGlPUFJqRmtxN2N5dEdzXzFmbEhKX0ZfMzJULVhhdlU5eFNsblZ6d1dJY1dMa1V5Mjdoemw4RDBKMERVTE12bnd6bGxLejNoT2RQeG0yd3l2eVNpN25JX1RERks2d1R1dVBEZ0FBOVdTNkZvaFYyRUQ5ZERMSHRR?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Mon, 07 Sep 2026 00:58:17 GMT",
+          "fetched_at": "2026-09-08T11:04:05.006485",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "GT Vs RCB Highlights, IPL 2026 Final: Kohli Leads RCB's Rout Of GT To Defend Title",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOeUhZRUgybVZoZFQwUWo1OFMtOW5GcGhyMUxBMjJMYkx4QlRhMV9mNEk5VmVKUTRDUGRQUzBGeTgwYzJsSjB0TktLVlBETjNTYTRDNjl3NjdneFU5VjJsbDJsNlV2c0FfWHd3YjNnVFVNVUdjZlV5bjN3U2Q5SmJGTVBfOHpNVUh2U3dLRkdYalZwNHcwU2dlMEJfQUU4SllpUXI3bzY0TGx3TFZLZDZBSFc3NEU2d05zZEtycTJPUzdUdkh5X1hIRjUtZzM3Q3FCbHRVdEMzbjVTcWZ3ZF9oVEhUUllMWEhUcDN6VERrOXdGbmV4WmpxU1ViMlBXRmZyLXRwQUplM0hUcFhqVmRFeHNESlNIaFk2X1dnTHM0Y9IBpAJBVV95cUxPX2QzY2VJN0tYQWNUcmtBdUs4RjRhSFVReVlMdjNvdGozNE5mdlBlYlhWbjBwZzVtTmI5VkFTUVNmNmtWcGd0RGtjMkU0QUFpN3FnRV9KcU00Tl84S0NwQ2F2b3RZNzRtay1qTW9rYVB4ZjBjVHhqTHNORnlHblRBTG05ZlI4ZHcyUEhtWFh0OHczd1RuRmZyenRtd2xxZVdPdlNGMTl1UW9rdVBmRGFmUlQ1a2NnUGprMWp2ZmtlUXZlQ0haNWs5Um04RVZVUlJCbXNUb0RjbER5Z1ZJMUgtSkVnQkVtU1hUYkpXWF9aMlpCQW9fYnhhVW1Pb0RsdmpsY1l6cTJPSXlhZ3JSM2l2ZDBLc1RUSjR6STF4SEFqSGVPSjhr?oc=5",
+          "source": "News18",
+          "publishedAt": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-08T11:04:05.006488",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'If your idol backs you, you don't need anything more': Rajat Patidar on Virat Kohli's support",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPYjdxNWpvdGpLTnpaejM4dGxEZGdDaHAwVll1QnFqTXBwOEFoU3FieGZRNmJUZGpLdjJnbElTUWdLWjc3LTY0a1d6dUxid2tZS0tud0JQLTl5ZHFCY0xDdGs5dFdFaHRaOWt6NUhpRFlIUWlTVC1WSWJ0c0hSeDkxMUNCcHhGVnJfcDNHaFc4dzloeDdFa0lHemljNHNQUDVPamdGcFdlNUxQbkpTenpxbm1kTktNNkJJeXREalZFbk56Tnp2ZlFVUzJiYVYyaUhsalBQdnhhcldSUEEwUG1HX2hKUGg2S3M5aVQ5dEEtQjRyY0xDdDhWaXdzQm9kVVHSAYQCQVVfeXFMT2l3dG5tTmlvNXhxaFBMeEVCZGZoRDJIbkJ0dE94ZlpuUmFtV2g3LVUyOFV4M01weXktM0NKVHJIc2E5M0dPbXR3dUswclpST1hBZzJjejRnOFFxYmM1T0ZqcEFQS2NlQTVPN3hXc0JKUWRoMENFbm9PR1d3b1hUcnc5S3duclFUM2RWV2JZVWE5aUY0XzhObUVBQnRIWDhYNFY5QWxuTXZLMTBxbUp5LTkxemNIWU5zMVdaUFZmMUV5WTZCQXNRdmF2R2FQSFMxTm5NZUN4MUN5QVhKX3QxWkFBMjUxMXNwc0NOMjI0MXF3T2RJR19VNHBlcTJQbFc2VjQ3RzE?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Mon, 07 Sep 2026 00:30:00 GMT",
+          "fetched_at": "2026-09-08T11:04:05.006491",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,7 +694,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-08T04:05:05.813166",
+      "last_updated": "2026-09-08T11:06:20.292824",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,17 +778,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-08T04:05:35.913894",
+      "last_updated": "2026-09-08T11:06:43.205903",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -763,7 +855,43 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-08T11:06:43.205671"
+        },
+        {
+          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-08T11:06:43.205687"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-08T11:06:43.205691"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-08T11:06:43.205694"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-08T11:06:43.205698"
+        }
+      ],
       "filings": []
     }
   }
