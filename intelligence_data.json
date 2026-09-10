@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-10T04:08:47.985027",
+    "generated_at": "2026-09-10T11:09:03.492313",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-10T04:01:08.632745",
+      "last_updated": "2026-09-10T10:59:08.076144",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-10T04:02:03.935323",
+      "last_updated": "2026-09-10T11:00:30.934328",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,65 +182,21 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-10T04:02:43.800716",
+      "last_updated": "2026-09-10T11:02:01.527421",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": -0.33,
-        "label": "Negative",
-        "pos": 1,
-        "neg": 2
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Infosys",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Infosys: governance. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Infosys partners with IHH Healthcare on AI-powered ERP transformation  Infosys ends leadership uncertainty with a dash of confidence  Infosys CEO Sali...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "governance"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Digital Transformation Lag at Infosys",
-          "severity": "Medium",
-          "description": "Technology adoption gap identified at Infosys: digital transformation. Digital maturity assessment and tech investment ROI research required.",
-          "detected_from": "Infosys partners with IHH Healthcare on AI-powered ERP transformation  Infosys ends leadership uncertainty with a dash of confidence  Infosys CEO Sali...",
-          "gap_type": "digital_lag",
-          "keywords_found": [
-            "digital transformation"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -260,57 +216,61 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Infosys: Competitive Intelligence & Win/Loss Analysis",
+          "severity": "Medium",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Infosys partners with IHH Healthcare on AI-powered ERP transformation",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNT1NJT25UYUlBNGVraU1qZWxraTNjTWFTcFBfYy1hSVB5bWk3UWVLWWpnU2ZWdkx5cW14N1EyUEZSMlZJdkFoeW9RdVNfakQ5UWJyeUtUbUlMNmV6ZWdodl9qcVNDV0hMaTJGS3ZsR1dndXJRRHctLWhnRVhEdjVKYVlYSi1rY05VSzVWeTZ5cGw3V01kUkJud21oMllOSHo2b0FHNXlVTEhJT3hPQWVyLXNFMXo5M2xxTXNvWGRGTmh5VzdkbVVvOVRXR2V1NU14TXhkblo5bVpJUld4NVFHNlIyVUktT1Y2a19YemhHZw?oc=5",
-          "source": "scanx.trade",
-          "publishedAt": "Wed, 09 Sep 2026 03:30:29 GMT",
-          "fetched_at": "2026-09-10T04:02:43.800312"
-        },
-        {
-          "title": "Infosys ends leadership uncertainty with a dash of confidence",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1M4N1NmbWxaejF1X0FYWlptMFYwUDFYQTBodTM0TWpUWjFhVXBibUlKb0dkemxfQ3EyS0d1MTg2aGg5eXNJMHlfbkxqUU1vWDBubXVmZVJSSTBqV0l0ZDIzWWlqZmQxUVBROHhQbmxieW9yZ3lpUG81dXFTMmJyeWxyQVhHRHJKYzd6Mm9ZY2EycXR6bmg3VEtqV1c4Z3ZGQWROUGpNaGxhM2d20gG6AUFVX3lxTE82cm1mclZWX2FuQUFVZlFtU09UTnk5cVlsMm92UW44bjAzTW84UW43R00yci1UZ0ZnV3FTRUF4WEJZM0FkY196NHJPNzRORFo2Q1FmZ2NkNlNNaUhZRkxoMEFISEpxOEFZWS1NeWZJUHBoY2JKckRvNzI2QnBJMWU4Tzl0SXM3QlIyZV9PbVhCLXRadkFMZHFLX0dYTjRPQVdRd19mYWZTSjQxZEFETjhCSkxvWjRGVE5GUQ?oc=5",
-          "source": "Fortune India",
-          "publishedAt": "Sat, 08 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-10T04:02:43.800326"
-        },
-        {
-          "title": "Infosys CEO Salil Parekh's legacy: Doubling revenue, securing $100 bn deals, and AI strategy",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbkVCNmpFRWhGaHdMUTU1b3JFSFVNYWNHb3FuMHlWdy1CdGc0YWx2bHlXUjJrQnp6Tl9KZDBpTUM4OG1td3Q4QTlvNldtQmpTb0xGUWtCWVhNaXdnUzdRZU1FNFJ0NTRHazB5TVBoTnFRSWFHc3VkNmd2R0tIR2N3SWU4dVZkSXVmaFJBNXNpRzU5N2hrNE9WQnFtYlo0d1pBeEZLY3p0enZRS2tubkJ4YVZZSUg3c1h3RWpGRUF3STZKeHlodHl4T0hLWjhpVmQ5YnJuUGR0SW8wM0Fyek9OQnpMdXV5RVRPdlZiT1duS18tUjDSAfgBQVVfeXFMUDBEYXBtVDNnZEdWejdGdTl2NXlBaFdpS3NYNHJhVlJIVWZxaTR1bXZXcE05bmxvbU9KT1lwMmZUY092M2ZmekdpZU5JTGo5aEl5NFAxd0NmWlNTSnUtQ0VWUGhJLXhxYnliWkpSQWtSM2FjNGgtSWpJRVctdW83MGlLNTVvRm1vTDN4NUwtQ3dYc0tqVFg4OUVYNzZwd1FRNjgwWm1kc0N0bnNfdUlFZnBYeXF0bjJYWU44TkVBNDFlUWdfcnZIamFEdW9iaHBwOE9OOXVzZU84SzlIc2RfYkRzc3ZXSjEwR0UzT2F2dndSZTkycU9iMjQ?oc=5",
-          "source": "ET Enterprise AI",
-          "publishedAt": "Mon, 31 Aug 2026 09:31:22 GMT",
-          "fetched_at": "2026-09-10T04:02:43.800330"
-        },
-        {
-          "title": "Infosys CEO’s Salary Rises 2.5% With Rs 23 Crore Bonus: Here’s What Salil Parekh Took Home",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQjJfd2Jva2Z2NEY2Zy1uN1BMSGVobmFmUzFITGozMTdDWHRLdmowMTUxaFVaVmlESE1nTEx6TGxycVNDaS04ZDNiSV9hVkYtV21IQ2UtOGQtTk5EX01DVDBhUjlNNFkwYmJ1MEtPSzdJWjZnU2Y2RUlUamdXNzZ2dWp4dHJCdmtuWmx3NFEyRzMtekVTNENkdHpNUERySml1cUZfakFUWUF3UnRmenNhMU1qTmxJeTVxVWN4czNTcDE4NVBuUXlzYktHdk94WHNTaHotUkNrelhCXzREMFYzcdIB4wFBVV95cUxPU2RZRjNSTlZiN01CcGxYcHJBQlFxS0RiZ05JaFpqaEU5MGxNOVBIMlNhcHhfRW5PMXNrR1lCQjE4MEZXb0R5b1Z5LWR6NExXanVaVGt3eUJxanp2Y3RlaGE4a0Z3akhRSXh1dFJwd0VwazNPMHp0WTVQcFBKSVM4NTBPaVlNMUwtNWloeXBIMjZmOVZSa0JfZkxjaHhnMFc5aUZtUl9rdExDVnhPdTRmdGp1Nl9pOEZodkNiX2F2dDhhWWlURGhNUDByLVNNOFp0REdZbzNwMnJTU0lVc1FrQUVjSQ?oc=5",
-          "source": "News18",
-          "publishedAt": "Mon, 07 Sep 2026 08:29:18 GMT",
-          "fetched_at": "2026-09-10T04:02:43.800339"
-        },
-        {
-          "title": "I'm leaving Infosys in a better place: Outgoing CEO Salil Parekh says company is poised to win in AI...",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQa1paVFFmc0lhTkg0S2pBVGxOVUs1RFVhUHZjZXBPelNNWC1pTEdCQmpyOUk5eFltbThsM0ZucmxyOGhSQzFRdXpYaVRzYTVRakRjcEUyOWUzZFMtRURzaDJCSFgwZ1ZQLU1PeWdpMERWR3gxTDdSdmtzS0daWkwyeWRvTlVFVGVnUzE1LWxvdUNhcnRpQktBWWxNTGFNUTZXU2FucEVFclRVRzVaUFg5cW5pbDZCeTdDbldDSXhhZjRBbGppaXNGWDVKUURmZjFhQ29PWFp4WDk1UzNyNkxuc05xVzRTTFRCYzExWVdnREMzU0szSWhGVlpLT01fZ0JuZU5nMVNGSmdXalhTOFQ4SzlENXdUNWvSAZwCQVVfeXFMTkxlNXhJVXpWR2J2ZS1Tb3VTMzhUMFhCaHREb1EzaElrRENremdPcnBERGpfSzBkRVd5WkNnSm5uX3BFbXV1a2pKVnVuRThId3NabktSNkJ3dVc4QkxvbE1BNHlieFNTbmhSeldUd19OOWxvXzl0b1B6S3FSZExIamJwY2Vxb2Jmak1NZWxWUGxhc3oyTlZTM1o4TGJJa0FSN3JsNXM1M2hCYmgwei1pYjZKN3V6bTV5ZFFTOXpBa0Z3WHEzM3BaTDBjWUs1ZWdxc2tXQzB1TmNSNXYyMmJVVm1pamdfejJya2ZUbEVvbjk0X3VzbjBuYmlRaWI4U01KdmRmdHdPbjdUOHYxem41RmJOV2loQV9xV1k5MXo?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-10T04:02:43.800343"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "HDFC Bank": {
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-10T04:03:50.687305",
+      "last_updated": "2026-09-10T11:03:32.298521",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -382,53 +342,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "India's ICICI Prudential AMC gets RBI nod to buy up to 9.95% stakes in Kotak, three other banks",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYnVocVpKTE5UZTNyOFNIQjRtV0U2THEwZ1ZXa1NBeWtrYV9QTDV1aHptR3psUWF1WkJwZ2VnZGZDRVZGSUNJSHZic2NLQi0xd1hkUVJMaHpteUdWZzVOX3RQd0pHeXpvR0JSWFI5aEVTSDV3dWZkT1ZxM2FzVWt0OUJyN194ZURiWXozNUM0cDQ2M0xKWHhRUUJTN2JnRmM0UWpWU25pOUNCRTBvMlJHT1pyalNGdHdKTXRNNGZONXd3UQ?oc=5",
-          "source": "Reuters",
-          "publishedAt": "Wed, 09 Sep 2026 13:32:46 GMT",
-          "fetched_at": "2026-09-10T04:03:14.721207",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Stocks to Watch Today: IRB Infrastructure, Shakti Pumps, Dilip Buildcon, Indian Bank, Khadim India, ICICI...",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNeFhyRmMxbzVhTkxFUVNNOVJuUlZGUjNvLVUtSHBEOWgtZUNXTk5wZ0xPNEVrdHliRUtDZDM3UEhmQWRadnJoRncyZDlFemFhYlFBYjVFUmJTay1YbmVBcGYxVlkwVEJONG83b3NzckdaTEYyUlVjOVNJVnB1al9FMVhrc3hrQkdfVG9xUzhwOVFPTllXSGxoRUxRV3BlejFkek5VMmd2UVVnOUJvR3NZQ01PR2Qyd3VzT0s0azh0eVgxUy1faVlyUWtHMDJJTVBBTG1vMGkyb0pTejFfYUdsYkVabUhHclpSSVZIN0pPaG5TUGlGWDBkdzVtdWpqMmcwTzVSSEpoMVhZcFNXSm5YTnBVSlpqRGVCT0xiRmttMGplODB5Qm440gGsAkFVX3lxTE5IOWJxN1RaT2U0S3lOV0N5c0JXaDIyeFhGdW44RHdBODNXeE5DNmNlX2thdWtjQWJnRDBtYUNucVIwbjZJU25aWGlsWFp4dGF6Y2VtZDlxMFl4NGM1bXhaZXUtc3ZfbVY2c1ZJMzlQNEU2X25SaVZWNkoxLUkwX2NidVduNDJmREUxdlN4WUg0VXhYNG92VjdOenp3WENDZVRtZnJRMlZRekdRRXQyRTl1WjJFVHJCNzdkcmtxUWdmUGFfVkhTQ2RxUlBSLVFOSG1PNFBCVTk0N2NzakxnOVhDYkl2NVYxVFBDc3c0TnVlNzc0eUJZTHZVSDNWR3lNMnZKZktNSjRxTHVuSGtfX0FHSlRPVFU0SUNIeW9UaGdFc3JnUEI5VG54dEo0VQ?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 10 Sep 2026 01:06:54 GMT",
-          "fetched_at": "2026-09-10T04:03:14.721222",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Stocks in news: Reliance Industries, Wipro, ICICI Bank, Coal India and Hindustan Zinc",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTGJjTjI3NFMzWGFVRVo0WDRvNExBOGVhOXFvSmFlbzNjS1Q5aDVYUUtmZFhoQlJwamQtVTZJb09NcHdYUVliSEN5Q096aG5ObW5jUG9TLVdjby1lTkVsVnNzTi1GVTg2UVkwR1A1dzJpYTdSdm1YS3U1cm9BT0JzOWplOGRMN0RheWRXMVoybUFOYUhHbTM5WUJpNVlUNVVieE1lOV9xLXFlSS16QlVoVElySThXOS03MU9FWmRDZEFYc2NtbmNPejJvMF9Wanh5TXQ5X1ZBU0VCb0xRTTFxODBzUXROQ29JUVgw0gHwAUFVX3lxTE5pa1NzYktrbmxKTGRWMWhHdnNhWTNpcENiNGVoN1l6QWxEbHBpZFJ5SWNxeHF1Y1ZQNmY4UHhfN2JmNzJkQ296LVRpU21XMmlsbmw1X3p6YWtsN3pQMzA2WDNrakZoS3BlQzg2STF6MVlqeXhoSVJHWDQyWFAyT1B1WllxZFNsLUxmdDdNdGN0Z1gtYzRuR3ZybFM0YmozdjA0RXJtY0diZVo5cGd3ZDlPNWYyckJSYWlUM1U2NDVTNXJPdkJMU040ckRMX0hTWGJtNjhKSXJjQzllRnZJcmpwUEFmVDczVXMxUERib1ZuZg?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Thu, 10 Sep 2026 00:30:00 GMT",
-          "fetched_at": "2026-09-10T04:03:14.721226",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Stocks to Watch Today (Sep 10): Wipro, Hindustan Zinc, ICICI Bank, Coal India, REC and more",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTdkTVlJY2ZsZld3Nk9ZcEprNWpNWjc4VWF0djZoRU0wQlk5dHp2TDVhNEdSVW02ZXhQRFYyQ19oZG81NXJ4Z2xrM09QYVl2UjFaZlF0blR0dGQxT1BTTWpDTF84cGFSb29Zdl8zdHdqdGRHSWNWRDdKaTVPMXJmeDVVZVAtR2s4RmVFeWdFVmt5bF92ZFRjazFhb2tiS0pqODBqa1ZVekduU25iMHlOUmM4Smt2aTZUVUMzVlJrem1ncGJPUWJWSzRCaw?oc=5",
-          "source": "Zee Business",
-          "publishedAt": "Thu, 10 Sep 2026 02:24:42 GMT",
-          "fetched_at": "2026-09-10T04:03:14.721231",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Vikas Agrawal Joins Ujjivan Small Finance Bank as Business Head – MSME",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMEdlMGZtZ1ppWDMzbU9BalRKSnh6WVBpS0lxeTJsOE9hUkNMVnJDRG5QV0NoZlVja04zSnMyMGFscnk5VHRfWG1qREl1dGEyczhKU1VqeE5VUmk3VVFmOE14UmpuY2RoQVlNUjNiVmlvRmxxamJOMDNlbVkwb0Y1d1BwdnhSRTNBYVcyR1NLSXhlZw?oc=5",
-          "source": "hrtoday.in",
-          "publishedAt": "Tue, 08 Sep 2026 19:24:58 GMT",
-          "fetched_at": "2026-09-10T04:03:14.721238",
-          "related_to": "ICICI Bank",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -436,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-10T04:04:51.878752",
+      "last_updated": "2026-09-10T11:04:43.885307",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -520,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-10T04:05:49.597103",
+      "last_updated": "2026-09-10T11:05:46.676818",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -604,17 +518,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-10T04:07:08.777245",
+      "last_updated": "2026-09-10T11:07:18.885078",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -680,53 +594,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "IPL 2027: Suresh Raina reveals his choice for KKR captaincy",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcFY0enhBVnRlbE01aFMxdGpDYS1LMUZTNlM5czJlUHN5SkVjQzFHbEJyT2c4ZlZFU2xPZmE4Nmw5ZUtHcDU0WnVBWEdIdHByZHZmeDZIdFdZWThlTU9WdHg5TE5GMW5zZGxIZVNhSnhteXdwM05YeExPdk5aZmsxTG12LUt3NTJD?oc=5",
-          "source": "BDCricTime",
-          "publishedAt": "Wed, 09 Sep 2026 13:07:43 GMT",
-          "fetched_at": "2026-09-10T04:06:45.364070",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "\"Captain Mil Gaya Hai KKR Ko \": IPL Legend's Big Verdict Ahead Of 2027 Season",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM3hoekZhRkh0ZlZhS2dHZThjXzNKZHlNM21QZnR1VnFtbnBVTmVfbGZ5ZXNvZmhxUWMwVDBzSGRDSUphUVJmeXljTEVaaXdRRkNoMEE1VGpwWWstNmY3d21Ldl8tQ1pjZC1qZE9raV9qQlE5SlpBQzhBYXFPVUVuQkhJMHpzZDdSdHgxWXljZXk2aWQtdzgxd0kxS0dqSk1MREVZcDUtdWF6dGxoVllVYU9veUNGcjFrZEJxTlFfTjNreW9zNmVwOWcwVk8xbF9XMlFV?oc=5",
-          "source": "sports.ndtv.com",
-          "publishedAt": "Tue, 08 Sep 2026 01:05:10 GMT",
-          "fetched_at": "2026-09-10T04:06:45.364085",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "'Kaptaan Mil Gaya Hai KKR Ko': Suresh Raina Backs Rinku Singh For Leadership Role",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQelk3MUdkNTRENGd1dzRmeTFrWEs2ZVNBR21meV9YZWlnTG1ZNE5PV0hmY0Npc0lBYmhKbkI4WHZDNDZGZE9XaTN4THQxVlhVMUx6MWRLRzF3YURmOTl3SHJkQm1MZkllb1N2V3FfRThmWWg4Vy1ZOW1DT0hfWG9leHV2b2dHQ2NlZmJzdDBwdG8wVC0tN1gyaHZ4NnA0S3RyX1duVnlZeGJPbVNBcVhtOVNaWE1saHdNVjd2THdYdUhKUEhHQk5r?oc=5",
-          "source": "News18",
-          "publishedAt": "Mon, 07 Sep 2026 06:59:44 GMT",
-          "fetched_at": "2026-09-10T04:06:45.364090",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR Approved Rinku Singh As Captain In IPL 2027? Franchise’s 4-Word X Post Goes Viral | Watch",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVDJZU3oxLUxNMWI2Y0Jub21oa3l4SHBSa1J3ZWxqRzFlX1gyZzBUc2pZdDNLVUdOajdiV29XRDJGREkzeGV5bElrMlY1QzNEN0JZcHQ5SDMzalU1c2VZNDFGNkNtUUQ1Q2FxMzNic0l3cFo0RUdiRjB0R0FaczFacUlLODN6OVlqaGd4R1NoOE1HR2ZidXhxZHA2d0JINkVLcEUzNm1YMGxIWDNSeWVCTGswWGlzSGFEUW5mWTBNMk5yNmlPOUhGRVBJUHrSAdoBQVVfeXFMTXdKRmNiVzlFdVU1b0pnSUUyTG9xa1FaU2w4UXJzRzBPbnh5TXJaUGNHUGtHcHIxN2pqWWRNcTluWHFoX1AybEppMS04WGtnSEpQa2dyM090MWlIS2FzQzRzV2Q1cGhzWkFRbkRKTnVXTVV2d0RKV0RteEVSSzJrejBIY1VQTFI2WkV2RmhNV0ZxYVNnQ3A0eWZTdUx1VGdsZGRibXNqUUtrUlJDb25GZkdVNWtVaUloNm5oSEFIcUJTaVhTbkNTQ2lXd2NGbkkwR19SVDUwZ2FQblE?oc=5",
-          "source": "Outlook India",
-          "publishedAt": "Mon, 07 Sep 2026 08:36:40 GMT",
-          "fetched_at": "2026-09-10T04:06:45.364098",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Jefferies upgrades UGI stock rating on KKR interest, sets $43 target",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWDkxeUdQQ2J6N3NYVmgtM1VEWjh5WDA3aVdXajVuZDFvRE5EazQ4Z3ZnZ0pxdTVtSGo4Zm1JeVhvQ3d5cVZvMzhwMTcwS1BLSUlFXzNIRXF2UXJGcFdXMmtoNEEtNHdBTkd6QWN0NXdNSWtiRnVJeW1DNXVMMnJVVzhla3VpUC1MejZxeXdkbDl3bXBKWGstMDlIdEkwRnZBTHBPcDBiT0RjQ1JGTTFJLVVjYkwxWllURU9nNl85b2d3T3BR?oc=5",
-          "source": "Investing.com",
-          "publishedAt": "Wed, 09 Sep 2026 10:50:27 GMT",
-          "fetched_at": "2026-09-10T04:06:45.364102",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -734,17 +602,17 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-10T04:08:27.411970",
+      "last_updated": "2026-09-10T11:08:40.393987",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -810,7 +678,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "\"Captain Mil Gaya Hai KKR Ko \": IPL Legend's Big Verdict Ahead Of 2027 Season",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM3hoekZhRkh0ZlZhS2dHZThjXzNKZHlNM21QZnR1VnFtbnBVTmVfbGZ5ZXNvZmhxUWMwVDBzSGRDSUphUVJmeXljTEVaaXdRRkNoMEE1VGpwWWstNmY3d21Ldl8tQ1pjZC1qZE9raV9qQlE5SlpBQzhBYXFPVUVuQkhJMHpzZDdSdHgxWXljZXk2aWQtdzgxd0kxS0dqSk1MREVZcDUtdWF6dGxoVllVYU9veUNGcjFrZEJxTlFfTjNreW9zNmVwOWcwVk8xbF9XMlFV?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Tue, 08 Sep 2026 01:05:10 GMT",
+          "fetched_at": "2026-09-10T11:08:25.216230",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Accel-KKR to acquire Eleco for £207.6 million in cash deal",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZWVreTVRUi1ySHdRYWRKNDNmSGdScXlsT1JpYWlyNHpTWXBVQ3d0OHdRRHlXUGFBSklrUU5JSzNEc1BaMTMwVEM4UlpHT1U0cUxPYTAxcUFBeFdzVzd4ajFaV21LUW1jNURCSzgxbW5vZ1NhOFVHTXExd3pabTNwbWRCWVNOZ0ZjMERRTFhNUFNjR2dfTmNoX21PN0hYOTV1YWtTQjNBT19YVUJHY25TMzZ3?oc=5",
+          "source": "Investing.com",
+          "publishedAt": "Thu, 10 Sep 2026 06:30:25 GMT",
+          "fetched_at": "2026-09-10T11:08:25.216252",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL 2027: Suresh Raina reveals his choice for KKR captaincy",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcFY0enhBVnRlbE01aFMxdGpDYS1LMUZTNlM5czJlUHN5SkVjQzFHbEJyT2c4ZlZFU2xPZmE4Nmw5ZUtHcDU0WnVBWEdIdHByZHZmeDZIdFdZWThlTU9WdHg5TE5GMW5zZGxIZVNhSnhteXdwM05YeExPdk5aZmsxTG12LUt3NTJD?oc=5",
+          "source": "BDCricTime",
+          "publishedAt": "Wed, 09 Sep 2026 13:07:43 GMT",
+          "fetched_at": "2026-09-10T11:08:25.216257",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jefferies upgrades UGI stock rating on KKR interest, sets $43 target",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWDkxeUdQQ2J6N3NYVmgtM1VEWjh5WDA3aVdXajVuZDFvRE5EazQ4Z3ZnZ0pxdTVtSGo4Zm1JeVhvQ3d5cVZvMzhwMTcwS1BLSUlFXzNIRXF2UXJGcFdXMmtoNEEtNHdBTkd6QWN0NXdNSWtiRnVJeW1DNXVMMnJVVzhla3VpUC1MejZxeXdkbDl3bXBKWGstMDlIdEkwRnZBTHBPcDBiT0RjQ1JGTTFJLVVjYkwxWllURU9nNl85b2d3T3BR?oc=5",
+          "source": "Investing.com",
+          "publishedAt": "Wed, 09 Sep 2026 10:50:27 GMT",
+          "fetched_at": "2026-09-10T11:08:25.216262",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "'Kaptaan Mil Gaya Hai KKR Ko': Suresh Raina Backs Rinku Singh For Leadership Role",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQelk3MUdkNTRENGd1dzRmeTFrWEs2ZVNBR21meV9YZWlnTG1ZNE5PV0hmY0Npc0lBYmhKbkI4WHZDNDZGZE9XaTN4THQxVlhVMUx6MWRLRzF3YURmOTl3SHJkQm1MZkllb1N2V3FfRThmWWg4Vy1ZOW1DT0hfWG9leHV2b2dHQ2NlZmJzdDBwdG8wVC0tN1gyaHZ4NnA0S3RyX1duVnlZeGJPbVNBcVhtOVNaWE1saHdNVjd2THdYdUhKUEhHQk5r?oc=5",
+          "source": "News18",
+          "publishedAt": "Mon, 07 Sep 2026 06:59:44 GMT",
+          "fetched_at": "2026-09-10T11:08:25.216266",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -818,21 +732,114 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-10T04:08:47.985010",
+      "last_updated": "2026-09-10T11:09:03.492296",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450761"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450781"
+        },
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "designboom.com",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450787"
+        },
+        {
+          "title": "The high stakes of an anime convention",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmUmdKeWdPY3pJSzNLZDEzczFsUTNkQUt1clEyazhEUjV1b3BocEstelBCeUxnSHVMRzZYSVV5VXFOU3NVQmFwOWJFWGt0X1diT1JjUWN3WERjRXV4RHMyVEdNTHBIN3BMUmIyZWFyUmw2dw?oc=5",
+          "source": "L.A. Material",
+          "publishedAt": "Fri, 10 Jul 2026 12:17:15 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450790"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450794"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450797"
+        },
+        {
+          "title": "Simulations Plus (SLP) gains HSR clearance for pending Altaris acquisition",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUllVEdkVVpqM2d4S253dmV1N0pjM1h4MzBhemNHS3l2M01HR2hMOXg2b2VxbmJfWEhnelNjUnMwQ2Q5d2ViMHFKLWZVU3ptdFRURkstV3p4NGVuQnJxRTFGdHNYWTZBSXpvUi1iMmZhWGhwSkRVTk1NM0lFSm9wSTFnLUR4ZjUyd1lYZ0s5ODRLTXlnakttY014WmdiWlJVZm5LSS1PTzFTWHRu?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Thu, 13 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450801"
+        },
+        {
+          "title": "Former deputy gets 42-plus years for pandering child sexual material",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
+          "source": "Record Herald",
+          "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450804"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450808"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "wvua23.com",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-10T11:08:48.450812"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Simulations Plus (SLP) investors OK Altaris merger, await regulators  Magnetic invention removes ‘invisible’ microplastics plus some PFAS  we+ explore...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -869,26 +876,6 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
