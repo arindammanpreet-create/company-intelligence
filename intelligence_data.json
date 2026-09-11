@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-10T20:51:27.192801",
+    "generated_at": "2026-09-11T04:07:26.253621",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-10T20:40:50.818355",
+      "last_updated": "2026-09-11T03:57:28.245663",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-10T20:42:20.072527",
+      "last_updated": "2026-09-11T03:58:49.412591",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,17 +182,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-10T20:43:29.133497",
+      "last_updated": "2026-09-11T04:00:01.209794",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -258,7 +258,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "IT stocks crash as Coforge, Infy, Tech Mahindra, HCL, TCS slide on H1-B visa fee hike",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZFJCZG9vLVdDUWNwYkV0X1lJSmFSU0ZTZWhkUV9kLV9Hb3ppeDlLamxOZXZwX2tlc3JHMkZVcnl2dWFSak5XUkw3SzRKbVpvVXlrQ204clB3WXBiZXliV3dnVGJESHVLMThsRFV5VnYwUVE2WF9tSFBwUVRxVjVxZFpRbFRFamNkUzNtV3JHcF8wbGZwNW1oa2JlRnFpQUxqQWxoR0RTNjQzM2FhLVFpVThzQzdRX0FLazY0ckNsQms3QThseDRnX19mR3NsbFdzOGVTNUJsXy1LaFVJbUtQVEdGOXpuZTdJMkxmOGZmR2ZrbkpzcUwyLdIB_wFBVV95cUxPem5uWGRpSkNibjBZNGxzTkJPRzdCT1pFNy1TX1JJUXllY2ZIamVuYWc4RnZ4a1BVdnRzSjJLQWhka2FYckFXZU1uZmdNQk0zbk55UFRvRkEyT3ZUYWVZRC1HMTBkVmxFMzdQVlU4RERIOFk4bndLWXBwUkpoMG0zbEVpelFUZklDMms3NU00Z095THE0RzlkY0dzZ01EeUtzSGtRZWVWcnJUNGFnMUJlVUhEY3k1MEt4YkJNWlZETG8xWGdHeGhVTGkwcktvZ1Jjb0NJazNBbDlhaUJHUUVoczNiUWFyYmM1c0dOalVGYmNGX1dxblZBQW1jakRBVTA?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Wed, 09 Sep 2026 05:06:41 GMT",
+          "fetched_at": "2026-09-11T03:59:46.185857",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra launches 'Zero Gravity Telco Architecture' for AI-native operations",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNcHlUZlZRQW85SGY1b2tnWXY5MnBaV2ljVnhReXV1dWtvUnB2RnlJRllRcDhBVDhkb0dCV2pwX3FmdzBzc1JBRmhUYkN5MnRyNFQxcTFBRmFELTVmTlR5NC1GVVJqWnAzV2dWRE9hNGp0OVZ5RjRfRFdKTU8zejBsYkVNWGZWQVFPb0p1VHY0T3JtdFRPeDZHMDFESzdhYnAxTVlYMVFjM08tZ0cza3h2YXVjTVJYRVhGOFlMektUTk4wd0ExbTM0R2JSWjlfR2pneHczNFoxeFp3R2t6VDliMG54Ql9jMVRDOGs5czI5LXfSAfYBQVVfeXFMTi1Ya3hOMm9ITk1Pc3hPN3FkazR6dHdOOTNHdXlCV0thM1dEVXZmNVJ5dEtEUWZrMmhJYmhUdW5Eb1Q3Q2JWaFVQS3FKVkN1dnRxaUx3T0V3N1k1Y0hSRTJia2NZYm03OXVqOW9Gak9ZU1BONXpMTmlYd2hHQXUxemZBOXhfZXN6SHB3YTJfdEVzRFZCS2p3QTA1Tm1EMTBOcGtZc1pXVXVIUTdpYktrWG9Kd1U0bmFvTVAyY2YtdTl4WDhYd2V3dHJHZGRxSmYxZFp4cXVwQWRTS0NieXRuX19wZERzS3hWM0JqMUdWTjl1aXMwQ2ZR?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Wed, 09 Sep 2026 09:20:06 GMT",
+          "fetched_at": "2026-09-11T03:59:46.185872",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra Breaks Above 100-Day EMA Threshold",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOY1ZTQkppaUFaQkhVOGJsaXhxSUVhcXhGTXNsdGZzVkJlY3lFb29BS3lndUt0LWx1SUZrSVRqcjViNmk5elhOMUZ5UWdRSm1kbkhLbmR5YXlRbkRxbnhlX1VTNHRRVGlsRkROeDE4Q2x4bjFUOHY5b0NaWmxVS3N4WFBQdVY4ZVhEbkp5a0hQTFlmZkhTT3dCbE5URWtuaENCX2J0aWc2VHhnZnlYUExzLUhUTWFycDNrSWxRNFMxY2_SAcYBQVVfeXFMTW5Tazc5MnRMNDE3b1ZwNWpyUkU0RmhUUWUxXzRsR0lqeDBwbDg5SlduWkJ3eDdUMzFnUFZmR2hINW84Q1E2endFZGY1UTM1azZ0S0VONzdWQjA0ZmRWSGhDdUNhek9pWkFvaW1GbHB0RUVycHB0OWpzdnlSNWl5YUs0RFFyZHczeWJDVDhudndsVUFJMjZVdXBrMmo4NWYzS1dGaTFVSU5ZaWY5RmhaV0RMbnZNT0Zia1VoNDZVa2dfRlFjNzJR?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Thu, 10 Sep 2026 04:31:58 GMT",
+          "fetched_at": "2026-09-11T03:59:46.185877",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Coforge, Persistent, Tech Mahindra: Choice shares top IT picks; check targets",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX1BHelYzcC1wWTRCd3BlX1pqMm1TSmtmV21SOUZPQVNZbHVpNVc3Ym00eHp4cENKY0NUY09MakxGazdWZHNtbEJkRFgtTnpxX1VELWhyTVVVZl9meGJVQ2lYekstOEFCX3JJNVc4WlpaTFpYNW0zWXBOSFpVX1ZwUlVzYmlzRFpRSjBRVGZBdFAwRjRuSlZFWGJ3WFJteG1NUjR5MmZVbmlRUEt3QTNMdjNXdGhiZWxXNTF1eHNOdF9UVUZRdGtCdGxJV0Fud2ZTU2pmaUlMWGLSAd4BQVVfeXFMUHByRjRwWnAyR0ZiaDByRG5SWl91R1lQOTlkdnBYZlktYk5YRG9FMGg1ZldhOVdEWU5PMklDRzhlNVFoTkN2VHpiZjctcWx1RC05aGJxMHpVczZiaC1JVEdQNDQwOXZ6NjlxTk5HZlBGODRlSjBtdHVhYk4zbDBFQUVuOU1jMU1DcTVaTVc3M1YtYktUWTNIMzlGVnY4UXo2cGRUeU14V3hUNmxiU3NuNjV1QmZyVDZPX3FTeThvb3RuNkY2SXo2RUo0OTdORVA5dWFKUzI2Ukw0Mjl3QWJ3?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Thu, 10 Sep 2026 04:40:48 GMT",
+          "fetched_at": "2026-09-11T03:59:46.185882",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Tech Mahindra rises on unveiling Zero Gravity Telco Architecture",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQjNXN3doZ0t6anlpazhCOFNrWmg4aUI2ZExCUl9MTjNwMzc3cTlubmtnTXRVdGFrOGs1ZXNMTGxObUd2YkdTUnhWU3FySFpIUkp3Qy1KNnV3eGROMWhTbHV3OWZtNnR4ZFo3QnJCRy00VUJTcXVLWnRPYkR5OVVxWDh4YlhaWFBCOWQxRG9FWEM0dzJUakRpbTFyTl9WTi00dlg0c241eXpPcXEycEF5bG9zRQ?oc=5",
+          "source": "Investment Guru India",
+          "publishedAt": "Thu, 10 Sep 2026 10:05:55 GMT",
+          "fetched_at": "2026-09-11T03:59:46.185885",
+          "related_to": "Tech Mahindra",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-10T20:44:50.386677",
+      "last_updated": "2026-09-11T04:01:28.684974",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,17 +396,17 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-10T20:46:02.731330",
+      "last_updated": "2026-09-11T04:02:43.510631",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -426,7 +472,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Jio Payment Solutions launches cross-border payments to connect exporters with global markets",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdDdnX2tVVlJkZ2xQZ0MweU1uZEtSMXU1NnMtVXNDWUVDbng3SHFZR0kzUUNVSmpxclh6b1pCbkNHTENvb0x0cnN5MS01M2FYeWVoODRQX1lMMXluNmZKSkM1NWFNcW82N0tOQ2xiSkdHX05oMWJiVWtveUFzVEFjSEFtRmNRQ0hjbmZseDc4ZUVBTExsbS1xUkdhR3ZlWHdxeGlLaElTWUw1ejhwSE1Kc04xeTYyNkd5V0ZUZGtBRi1jLTJFQnhHRzhpTzNGQnctV2dWdUVZZ0I1N181OXRvakE0UlFpbVgzRWt5UtIB8wFBVV95cUxOeE91ZllIdWhHc3FzZVpEdDJheTlWNk5pV1AtZDhhOE5OTUVtcVgzMms4ckFFY0tSTjFaNU41SWtFRVhCNU9pUkJQWDNtRTRRYlM3MlNhQ3ZFZ0lmR0Mxa0lYb3E5R1JNVGxnbUtBaVl6eE1rcDFtNGhseU1jalF6WG5sN1lRbUZJdVJyOHVpUlFuaUFXSzlKOGtiUXliR1dCa0JiV0N1dXpqMUxnNHZmUkt6ZEJPaDdIemE3YlhUWVoyZGZ3WElpYjFGcUJqbW1JMF9fZTg1ajRVNm5QZjBVbmxiNzM4QllYcWVpVFpVOFhVSkU?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Wed, 09 Sep 2026 11:11:53 GMT",
+          "fetched_at": "2026-09-11T04:01:58.421057",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Reliance Jio to place 1,600 satellites in 650-km orbit, higher than Elon Musk’s Starlink",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUDBlUzctUlJweUhoZkxZRERwTHRtcUszbW5XNGZHRVdGNTFCdG9yWXBhZ2xzYkFNbVhaUmxmRFkxVkFCZWg0SmYzTjFpTHcyWUtOa0R5UTYyejliWFd5dVZDR01jRUYxbmp6N21ycjdUUlpDWmdlaVFDZ196VFNKQ05VRU1EbXBqYXA5cUU5anIxUGIxeXZHSGg3RXlwT3PSAaQBQVVfeXFMTlBUMXJFa0lTYUM0QXlVU1U3TjBUcDhmdHZlNHZwSm1RU3A0aFc4UFBwMVlGeWxUbXJwNzFYZ1VFbHBUYWdPY2k4cWxZY3ByTzdWMzBGaEtSQTNHRXo2bjc2OWc5bnhqS1BmRC1jUWllXzFoUDVoYnRhWmlFN1NNVFktZzZsM2o5MVphRHhGWEpnVUVKM3dUQnVCT1JLc0N3R0NZTHo?oc=5",
+          "source": "ThePrint",
+          "publishedAt": "Thu, 10 Sep 2026 12:53:55 GMT",
+          "fetched_at": "2026-09-11T04:01:58.421080",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Ex-TCS CCO Kinshuk Gupta joins Reliance Jio to lead corporate communications",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb2dUdUp2UkRLRU9xVmlSdVQ0Nk5MOXg2MldrQzV1MDI1Z2wyOVF3d3c2QUJscUF6VzR6Rzg3dWZvaEpLeUVJLWJQTlNxWk5YOVFSOU01azBaMUlBSnY0N1hhTjRDSDJVYzFubkVERGVfREw3SVh6d19zRG9HT05KajVySzgySDd4YjNMMjdPUVVaUFljdFRsWHBGMnZ2WTdTYXVGU2N3Q3VaaXB3NEJXQW44SEdXQzZJVWxQRXQxWl8?oc=5",
+          "source": "afaqs!",
+          "publishedAt": "Thu, 10 Sep 2026 02:35:11 GMT",
+          "fetched_at": "2026-09-11T04:01:58.421087",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Reliance Jio, Apple launch new RCS pricing for businesses in India, challenging WhatsApp",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxORHRMdzB0b2owQjhVcTlpMExOX3lITmtuZEI0WGc1bmJCLVBfVlZvQkJET0NJb3Y4MmtOTWQ2TUQ5aUoyUDFHY0JlcWRiaW5jV1laeDFvQ21ESnI4TnFuMUFYSFZya2JRTzlyUHFuc1dfa1Vzd3Frd2lHdGZKd0tEMXVNdjRhNlVjQllpTjZyMzhHRVR0NUpwVEJuSC11OTV1VmRVelhQYVZYNjlEY3VSLTNvSy03emNqN2RUVmtmNlU3Q1VCOURieHRwOUtlVTNiUlYwS1JINzh1bmNISUY1QmN0RnpEMUpRbDFNTjRnVGhoLTJ5anlJZUxJQkpjb1HSAYQCQVVfeXFMT3BpSUJqdEZIUmowY0xERlZRUjV5YURJeWthNEVFQ0FWeHh1VV9FamJQekhjbXl3ZWU2SzV1aWJhYW5VeTlVb3VlSUhOdnlEelE3b3ZubTNOdmZnN3VSM2V5bkJvSkMzbWpmSFlRdkxVZW1wZGxyWTFWR2Y5WFRmSm1FRUhsb09ZeFc3d1VxU0N4Vi1xOUM4QkJPVFRBYjhuSnJXcTIyRzFOLVpKOWlJeEtVSV9BbWd3eXM1QzBKdU5CMVZaYjRiZzBTSm1WRU9fT1paU1EwZWN5dHpZZlVDX2haWHYzUHJNS1NQczdJeUxRYmpndm9WSFlOS0cyMWRURlgxaEs?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Wed, 09 Sep 2026 05:05:48 GMT",
+          "fetched_at": "2026-09-11T04:01:58.421091",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Jio listing in spotlight as telecom players weigh tariff increases",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQalhmTHFlSWpKY211NVNwV3JndllWZE55Q1J1TG9GMmNsbDdvZG11ZmZTWi1KS09ETFBmNF96a3VrUTFtX1FxbU8yQ3NDa1QzRjMyX1pwV292emVxQ1Y5RGFzNVRXVEhJaFVjU3BRTlFqaEI5SDhIeGtfVjVIZzBteUwxZE9Jd2ZILWVXVE43QmtSRWpCU0dwUVpsQjZmY3d6ekZ2QWpBT1cyT0J6aVl0WHJCRUxGYzhpWnJXVy1CVTNQM3hWekVHdjg0OUpnRlHSAdQBQVVfeXFMTUg3WUNWOUFIUzd5R1pjdFV2VTE1U3ZFQ3BiamgyVnRKMVN5N3Bra2M2SDFqZ2ttRjFFbDd0S2MwVVlVWklQeWtLNDVRWXlHZUIzSV8yRTRHRVpLbklLbzUtNDB3dWtraXhVd1QxbnlpUERCVWZRWExKZS1rak95WUdpR1ZPUzhMazcwZE9HamlpOE9Kdl9Tdk1PZ01qSzVnajFBUmdaOG5rYWNIS2dVRUhzTFVPVVNtenJnV0hLUEVLVGZ2NWg0Mk9taXpRb2JNZng5d1U?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Thu, 10 Sep 2026 17:42:49 GMT",
+          "fetched_at": "2026-09-11T04:01:58.421094",
+          "related_to": "Jio",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -434,7 +526,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-10T20:47:33.272778",
+      "last_updated": "2026-09-11T04:03:56.370583",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +610,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-10T20:49:18.449279",
+      "last_updated": "2026-09-11T04:05:34.026684",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +694,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-10T20:50:57.139622",
+      "last_updated": "2026-09-11T04:06:56.203599",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +778,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-10T20:51:27.192785",
+      "last_updated": "2026-09-11T04:07:26.253603",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
