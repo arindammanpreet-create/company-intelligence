@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-11T16:23:34.229285",
+    "generated_at": "2026-09-11T20:55:16.950105",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,18 +14,18 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-11T16:13:23.781271",
+      "last_updated": "2026-09-11T20:46:08.243308",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.33,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -90,7 +90,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Adani Group plans international airports push",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHp2MFM4WVd4eV8zQURaWFE0MF9obXlsX0dmTmlFcGF3WEZ4V2lUdHhoV09EVnFkNnRsOWNkazlpaEUyd29lVG5Hd2lmWnNMS256emFpN0FSWFRmYXJQZ2QySUJrb2NiVXRTQ0hTRXBDMXVSWHdmVjV3RTBkb3ExTXlsZG8?oc=5",
+          "source": "Financial Times",
+          "publishedAt": "Wed, 09 Sep 2026 13:40:49 GMT",
+          "fetched_at": "2026-09-11T20:45:44.317015",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Sebi settles disclosure violation charges against Adani Ports CEO, CFO",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc0RtQXA5Y3l0aTdteXFVRi12aGFEdUhpUEh4Nk1ZU2tZamJCY0JOU1dwbkNsQ1plWjhlS2poSi0zNUI5d3IzTEU2RTBEVmJwbjd5dXVWRUE3M3VoRURzTHZla3VVOUJjR0E1anVNdDg0cHVQNExabkVNQS10MEpoTHBFaXRFX2pEV09KQXMtc0lLckwwUE52RXU1R2lCWEhodVUzZDlsaU44Q1F0NjdsbnFxek1nUW10M0Myb2JlWTdET0RVdC1McUpZdTl2V1pyMTk0MdIB2gFBVV95cUxPeTRQejZtdkhzNUpTV3VuQkt0ZWQ4QkJNODZJcmg2ek1oSTJNZW5qQkNtT0JDeURtdHdRcVhyM2ZaVFR3dDFfenNpR1pDYzFTN0pyS09qWFZXY1c4TFVFdEczbFEtc3E1SndpUlg2QkNzUUZMZGxvZFltbjh1OEFMSDBMZFRyeXBmRXJrOXl0UWp2VUgxQ3lKczVaaTZyMXVKbWJHbzNzQThBS0lsMHowV3Qxdl95YThmdUpHdWpWbVA5RjNnd2RGbmlmOE4tc1RkQ0YxTVFfWFhXZw?oc=5",
+          "source": "ETLegalWorld.com",
+          "publishedAt": "Fri, 11 Sep 2026 03:01:04 GMT",
+          "fetched_at": "2026-09-11T20:45:44.317029",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Trump administration fires prosecutor in dropped case against politically linked Indian billionaire",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVlZoeUFjLTZMUEFNUzFuandDVkhYWTZRbDJVQlhLLWZLdjFPQTBPRmx4bjVRLWNYYzhWMFB5RUp0QU1VQXhpWkZuSWpjMHRabnhSZ29BMHpENXdnZTlFR19qRXdPenhRQU0xcmJpMW1ya1VRRllKQVptS3NvRVhPalNlbnhHQ1hzaktZQ1B5ZmFSYlZqWndvamUzT05Vb1YyOHNSMG5zMXY5VFJDM3hFNEQ5VnljTW5NdzhWNUluRXFFOE1WLXpSUU5LOWk?oc=5",
+          "source": "NBC News",
+          "publishedAt": "Wed, 09 Sep 2026 20:21:59 GMT",
+          "fetched_at": "2026-09-11T20:45:44.317034",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Adani Group's 3-project Bengal kick-off on Sept 24, New Town hospital in pipeline",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMVlxRlZmMEo2SVFhWTYtWmhTdVBDZTZMdEJDZ0RDSFlYV2gwQ3lYb0psNWpNZUZOUkJtc0RaeDMwS21kY0FtZXBkel9Fc08zVEs4MXRTQUxVbE02YXNpbGJaMnZxYTFxQzBNaFA5cEdCNk5KOXVjSVlmdXZfR0Q2MjdsblVoZ3h5UWloOGkzUThxSlZCbTVJV1J5d1hMdTZLSzB6ajFtcGhGLXpaWDVObkdTdnRFUzNwSmc1NkhDR0xUTk9GM1VwcmR3VHo4V2tNdU1SdXFpa9IB3AFBVV95cUxPMHZfSndrdC04YTd1VV83SlMzZTI3MFJzckFGY01MX3lDMEVLemJWc29YSDVFSjlGLVJ1NWV5eDRoRjBYaGlpZ1A3MGxJNUVEQ3NLelBRX2YydjZoUlY5Y0c3QUhZM0ZPZmlEeGJuYUkzR2FrMzBQZWY0MU9YNmZGb3hjMk1CYWlMQ2FCRDl3MnoyNmotMVlVMnhkZGQ5TVFyUDZ1Zm1jT0pyYzgzXzBYdU12M19RejlYZW1TY0EycWhKMlBoTlBGY2xNMnp6ZGl0cjlaMExWME9DeE5p?oc=5",
+          "source": "Telegraph India",
+          "publishedAt": "Thu, 10 Sep 2026 01:29:49 GMT",
+          "fetched_at": "2026-09-11T20:45:44.317039",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Quick Take | Positive tipping points",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNelo4cF9DYkhTR2JsYm9VN0szMWxzYlpjZWFIakZjY3RIdnZzQ054SzNhMXE2S2VyaEdPeXdEUkx3SFJzWEVEYmVSb3FDWndpYUtOZmIwa2FnVEFZVUU2a01jNVZLM2pTSWdhT2JWbEp3VFhURjJhR2ZkZ3lmLWxYNC1sTm9uS0E3aXV2MVFsVkhhMkowYmFlNi1iYkhURlZDd3fSAa8BQVVfeXFMTWZDTDJhXy1HUjkxbTItQUpuNDVvRmpGNGNwSjUzbXZXN1RXVDM4eHZqSm9hNmFPeUNvUVhRZDdta0dmVFVLZFlfdXhlU3VfeldTX1BlNjMwdzVfYXdGVnl1TDZCS3JZUkFvTEp2SllaTE5VeU1sQW52b1pvWWRtRHZyQ3U5ZmRUcU1FQTYwdGF5ZnNLODhtOHliWndBaDRSX0gxWTJKUWo3NXBFZ0dsdw?oc=5",
+          "source": "The New Indian Express",
+          "publishedAt": "Thu, 10 Sep 2026 20:04:56 GMT",
+          "fetched_at": "2026-09-11T20:45:44.317042",
+          "related_to": "Adani Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,7 +144,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-11T16:14:40.940479",
+      "last_updated": "2026-09-11T20:47:10.765044",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-11T16:16:04.944331",
+      "last_updated": "2026-09-11T20:48:41.201445",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-11T16:17:27.331955",
+      "last_updated": "2026-09-11T20:49:54.204692",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-11T16:18:41.066581",
+      "last_updated": "2026-09-11T20:51:06.704942",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,11 +480,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-11T16:20:10.409896",
+      "last_updated": "2026-09-11T20:52:18.873947",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -510,7 +556,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-11T20:51:33.772555",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Regulatory approval for RCB sale complete",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdFhRZmVsdEFlSFc0aUpkTFBUb25wMUlBNXlPdWF5bVVZWFh6clBOMEZkZ2VVRmV3Rk40UXkzQUw3cnYxWEs1bnFsbUVpWVBPX3BnY3JpaWp1R3dTbHdET1JRZmFhMjgyMmNYSTNkYmdQRl9YY3VLSUdaTUM2R3FneFcwMjBIbVVOLTMyZVdPVzc3OVRqeWFFclA3c9IBrAFBVV95cUxPbW5PYWloTTBlaG40RXBGbk9qUjJJODFHVmhDdUhPQjZyQ3NxQ0UxVC1FbjR5ZFNOcEJqYmxYWDN0ekFHVVBvQTFwSkczQmRILTE5aHlDWXJzdDF6M0FTR01MS21uZzBRckVvazdsdWlFWjJfc2JsbVEyMjkxSWZ5Q0M4YlhwNURQclFtOUhDRk9QaG5MUEFBZzRicWZyTU00RmdUcEhyanoxTUJ5?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Tue, 30 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-11T20:51:33.772569",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Cricket Photos - MI vs RCB, 20th Match Pictures",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdlkweXZNQzI4VDZIOElaMDc2YzBELXpXd2hOM05xbkNlN280a3BoMlhhQ2VBZThjMnlHNnU0ZUo4ckN3b1NHZURYSjBoQUZBMFdNOHJxa0FrUXo1S1VydG9aelFxS3hjVzFrazdXeWJTbzZfbGN1a3pwUWNWQXVxSXlHNmJRN1lxVjZJTkdLTHRiN0hreFQ3dW53Vkhyc3hsbUVsemhlc3dDOExJdjhtYlo0clk4YUg1ZE9ucTk1ZHlxZTg?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 21 Jun 2026 15:58:46 GMT",
+          "fetched_at": "2026-09-11T20:51:33.772575",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Playing XI - RCB vs GT 14th Match | Indian Premier League Squad",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSkFOZkwyeDJ4eGMxWGhqbFFzcVVFQkdwYXkzUllsRWRwRjlOdFdaT25NM0ozOHZ3UkMyc3BaUVRIZHVhYWxjdzJfdE9aakI1VHVRb3BJVkkwczZVaWpOZ3UxTjV0UWtpUHdreXR0bWNMemxXQVNWX0hYQVJ1NWVxSWVJcGdySWlZaHhCOGVDMG90YXF2ZllBZ1RtZkVtMm1NREJnU2w1cXJSbU0zQ3FSejFDSVQzM1BDeWVEX0dEYXM4ZExLM0xtdXJB?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 21 Jun 2026 16:09:15 GMT",
+          "fetched_at": "2026-09-11T20:51:33.772580",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Playing XI - RCB vs SRH 1st Match | Indian Premier League Squad",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTlVWM3Y2dkx1dzhyX2QzQTRYekZ0RXZRYTBLb29rTWdUWUZfa2NKNURscHdkRkpQRU5iTkN0bWlKRnF6N3VnNjBKZ2pvNDZtSmhWNTdLNHZtZGdZM0NOOVAxc2Qxc2FTZ0Zic09NOW16X1ljbmVtMVZoUTFEeHMwOUkwVXY0MUZMUHJEc3h2QnRVczFZVGQyNk9hUHhtV2ZIeUdoT2h5TTFlNFRUUi1URjZ1Z2hRVVFJTFc5amM5bGFSU3FIeVFxWGhHN0ZOaDQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Tue, 16 Jun 2026 23:45:51 GMT",
+          "fetched_at": "2026-09-11T20:51:33.772584",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,7 +610,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-11T16:21:48.142661",
+      "last_updated": "2026-09-11T20:53:49.150349",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +694,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-11T16:23:04.073676",
+      "last_updated": "2026-09-11T20:54:46.885602",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +778,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-11T16:23:34.229270",
+      "last_updated": "2026-09-11T20:55:16.950089",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
