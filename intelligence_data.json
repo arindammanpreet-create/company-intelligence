@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-12T04:06:38.131308",
+    "generated_at": "2026-09-12T10:33:41.630655",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-12T03:59:31.319649",
+      "last_updated": "2026-09-12T10:24:53.521299",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-12T04:00:23.594393",
+      "last_updated": "2026-09-12T10:26:24.124727",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-12T04:01:13.014932",
+      "last_updated": "2026-09-12T10:27:39.060923",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-12T04:02:17.017051",
+      "last_updated": "2026-09-12T10:28:26.403267",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-12T04:02:53.534398",
+      "last_updated": "2026-09-12T10:29:41.832611",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,12 +434,12 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-12T04:03:53.342641",
+      "last_updated": "2026-09-12T10:30:41.695859",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
         "score": 0,
@@ -510,19 +510,101 @@
           ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "Aakash Chopra Picks \"Slightly Underrated\" Star As KKR Captain For IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc0cxeWYxY2RETzZFNXZCVmltUzBkZnh0UDctNlFJWXRaWTdWcVBKMm43dWRhTURfNk1VVHpic3BRcHNseGxaNUJGRnp3a1BjT2lReFFOdDFqOUZ1aVFMOGhrSjAyWWNjejJWTmdrVTFFcEY4dnJtcVNfQTBPWVc4UHZ1bWxfLVpLX2tfaHBKVXJiSm1aVmZuNThUa0ZjZWd1N1NxRmc3U3FwbWp0Z2ZNUER5MA?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Fri, 11 Sep 2026 15:05:09 GMT",
+          "fetched_at": "2026-09-12T10:30:20.527315",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR finalizes $2.1 billion loan to fund Integer acquisition By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0NvTDV4Nl9XdFhDTUl4WExpTG9MaXJPU2N0XzNKSkFVSWxONFQ4d0lleWRjVUpVQW5BVnlTM0pOcFk3YU82b050RGZCOXpBLWhRenNlWDJkOFJzME5Pcklra05OTEk1Qkw2RWhYSm9TUWMyRzVudmJZZTZZZHpzbk1iSnNLc3JGMUFZcTNvclRGZWhEYVhWUzFXRGZKQVJDWWswRFduTjFwRnV6?oc=5",
+          "source": "Investing.com India",
+          "publishedAt": "Sat, 12 Sep 2026 00:07:00 GMT",
+          "fetched_at": "2026-09-12T10:30:20.527330",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Rohit Sharma's secret to getting 'four pack' abs revealed by KKR coach, he says…",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObUprX3RpNTJZc0VjTGI0RlM3N0ljZlF0NFJZUHl3RWh3Q2tSeDgwZzBia0taUVM3X1BncUhIRnhGc0w3VDZHc2QwWlNJa0xHbVVlb3NyWW9KeHlKbXVHVDl4aXlkQXFxaklwakpvZlgxLVltN2pvOXNfZmhMSTJzTnpmNXVsRThmSGh1NzdQOWhWZjJPZUFaN0xQZENvU0hneXliRTlUNUNRWVRHRU80eFNpSERkVHdTWHd4SHN3ekM3YlVNNlZ3Qzh3aGVHb0Npck1MeHczczNNMFRrRnVuVW5QU1pxd2g2UURGLUxtMnFON0w2Z3hGR3NWZUx6WDjSAYQCQVVfeXFMTXQ0cDRoUVlHUzQ1VFlwZlZ6Z3JVY21NeGZZUk5mVkEtRzRKX2E3OWtBd1BTbHF1eUdoLUd5OVNPMmRkMEJZUG5hbzJkUjFGREYyR2F4aEpFeV9oeGJ4MmpjQUJsbXRCMDZFWWFycmp6VGNNU1BsR1hwSmhzQ1NkbC01aWdfZjJreW0zTTR0a3Y0OW5pWS1LY3U3LWRfLXVtUm92cGhXRTZSaUJDaERoNnVBcl9nZURzRDRabmloRHVDc2VDOTVKVE52NjN1b3V4bHRRR0tybTdSVGNYRDhIcFJLeDVoTDBfblczaEl1Q1RXYk9DbmhYamgtaktzUS1EWm9Fc1Y?oc=5",
+          "source": "India.com",
+          "publishedAt": "Fri, 11 Sep 2026 08:22:58 GMT",
+          "fetched_at": "2026-09-12T10:30:20.527340",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR (KKR) Stock Looks Below Fair Value As Deal News Lingers",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQzg2anZWbEltU05nVGJaRmgxM3MwZGFyYjJ1VHRySWQ5SWJzX0dKWXVRYWtyWTZjMDc5NWxPbW5MSS0yUV9rd2FPRzJWMXlRb1RHeDM4TExaNFZaVkhpdi1GTEltV1J2QnYyeDJEM1dUYzRaSmJRV2tyTEpmZ2xEWjdyUFJ2VUNnYTAycFIyVFBPVTV6anhUYm9Wekk5QjlNNi1MOGpIUUtRUm9QaEthY0k2X0Z1Wk50aDJsd1ZDNEhvLXp5b2h2Zmt30gHPAUFVX3lxTE05QkI0a05uUDk2RTE0T0FLZjk1eWRBOU01Nkt4clowN0g1NFNCU3pSRjgxNGpmTkl6dHlIb1kzU0tmajlBOEc3SDVUMUR0QWdNeHQ4dEh3enRJSTVoQVg3VGJKb2UzcDY4Y0VPQVpxb2JnLTc5WE1rZ3BnZnQzUlhaemNZU0I0OHZJUUhQTkJ5ZV9oMndhWmJXeWRPb1pieWE3ZG5ZTXFrczQ4emZYcWxqOFlNMzR5SUNRSTZvaGpSV1htdGdfaWlSRGRLV2NfZw?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Sat, 12 Sep 2026 08:23:35 GMT",
+          "fetched_at": "2026-09-12T10:30:20.527344",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Accel-KKR to acquire Eleco for £207.6 million in cash deal",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZWVreTVRUi1ySHdRYWRKNDNmSGdScXlsT1JpYWlyNHpTWXBVQ3d0OHdRRHlXUGFBSklrUU5JSzNEc1BaMTMwVEM4UlpHT1U0cUxPYTAxcUFBeFdzVzd4ajFaV21LUW1jNURCSzgxbW5vZ1NhOFVHTXExd3pabTNwbWRCWVNOZ0ZjMERRTFhNUFNjR2dfTmNoX21PN0hYOTV1YWtTQjNBT19YVUJHY25TMzZ3?oc=5",
+          "source": "Investing.com",
+          "publishedAt": "Thu, 10 Sep 2026 06:30:25 GMT",
+          "fetched_at": "2026-09-12T10:30:20.527348",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "Mrs. Nita M Ambani: “Hope the kids go back with a lot of cherished memories”",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeHo0cXpDU0tZRkF4RGFVLVhqZlFzRDdod2RSOEViNjRSOHdBb3E3UC1fRjFvdUxSa05yRGt6NU42RTFZcldWTERCNUMyNGNNRmlHVjAyV1NHQ2NIcjc5bG55MF82U1BTVVNsRFNYc0p4aGRqaFpuWmoycHRaX3NxRmphb2lJRFgzVjNUV0JtNUZxdHNjNW5xYV8ya2taZi1hY0RacnA3UFh6RTg?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-12T10:30:41.695461"
+        },
+        {
+          "title": "Mumbai Indians owners Akash Ambani and Nita Ambani at the WPL Eliminator",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNkQ0eWdCejN3S296U0JKNlo1aHRjUmhlSnBqYXhQRDZfaFUyU0NXcGtfZG43c0Rabjc1NWxZVW50b0xpMXNVMUgxeWFUbUMyb0JnR1hRcmtFY2Y2WWs3UUVjRWpGemUwY2Vpbnl6UzRaYzk0bmhMZjl1QmVpSFM1bDhrZUZaMXJuemdLLWx5eHlmVktNOThlX3JPa21yN2k4eTNvYS1YQ1ZYTjg2MUxiRg?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 05 Aug 2026 14:10:17 GMT",
+          "fetched_at": "2026-09-12T10:30:41.695477"
+        },
+        {
+          "title": "\"Make children smile\": Nita Ambani's message for MI players ahead of special ESA match vs RR",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdERSQVZxZXNjREZlNWhWNDlXaE1vRDIzWThKTlBQSXd6NGhzYWlUTm9lTkhMRHJuU2ZCUXVBUnZPZlNZUU41clUtQVNHand0RHltVkplbEhKcTR0UEUtLVBNV3l2cl9adzZzVW1adk96dTdESGZFYU9ReE55UXVZMVhjU1oxUVdYUlhoNGx0NnRxUHNySHBocENMSWhfN3k2RDJ0cTQtSFlFVXJLWGhrczdCMEFVSlBkMWh4V3dvTExwUUhadS1EVHRSRDNUeTItTnlHa1EyVnZtZWNieUE?oc=5",
+          "source": "ANI News",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-12T10:30:41.695484"
+        },
+        {
+          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-12T10:30:41.695489"
+        },
+        {
+          "title": "MI’s #ESAMatchDay 2026: When Mumbai comes together for 20,000 dreams",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTDlidWtGN1VLLXUxV1h3ckRrN2RZMkJRM1I0bEN4TDFJeDVyQTlyNnZ6TnBhX3FSS0Y4dGpyaUgteGQwYmxfMi1LdGNBelBOSWtJbThETVJuRnNPVU14aFJiSTdvazB5Ql9OcGRMaWxIc3NpSW53SmlkcnZoQ2xGSnhWTEVfNTRTTWppbmpmMHBkYUdPMFE?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Sat, 23 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-12T10:30:41.695493"
+        }
+      ],
       "filings": []
     },
     "Royal Challengers Bengaluru": {
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-12T04:05:20.598800",
+      "last_updated": "2026-09-12T10:32:15.122166",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -594,7 +676,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Aakash Chopra Picks \"Slightly Underrated\" Star As KKR Captain For IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc0cxeWYxY2RETzZFNXZCVmltUzBkZnh0UDctNlFJWXRaWTdWcVBKMm43dWRhTURfNk1VVHpic3BRcHNseGxaNUJGRnp3a1BjT2lReFFOdDFqOUZ1aVFMOGhrSjAyWWNjejJWTmdrVTFFcEY4dnJtcVNfQTBPWVc4UHZ1bWxfLVpLX2tfaHBKVXJiSm1aVmZuNThUa0ZjZWd1N1NxRmc3U3FwbWp0Z2ZNUER5MA?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Fri, 11 Sep 2026 15:05:09 GMT",
+          "fetched_at": "2026-09-12T10:31:46.736677",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR finalizes $2.1 billion loan to fund Integer acquisition By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0NvTDV4Nl9XdFhDTUl4WExpTG9MaXJPU2N0XzNKSkFVSWxONFQ4d0lleWRjVUpVQW5BVnlTM0pOcFk3YU82b050RGZCOXpBLWhRenNlWDJkOFJzME5Pcklra05OTEk1Qkw2RWhYSm9TUWMyRzVudmJZZTZZZHpzbk1iSnNLc3JGMUFZcTNvclRGZWhEYVhWUzFXRGZKQVJDWWswRFduTjFwRnV6?oc=5",
+          "source": "Investing.com India",
+          "publishedAt": "Sat, 12 Sep 2026 00:07:00 GMT",
+          "fetched_at": "2026-09-12T10:31:46.736690",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Rohit Sharma's secret to getting 'four pack' abs revealed by KKR coach, he says…",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObUprX3RpNTJZc0VjTGI0RlM3N0ljZlF0NFJZUHl3RWh3Q2tSeDgwZzBia0taUVM3X1BncUhIRnhGc0w3VDZHc2QwWlNJa0xHbVVlb3NyWW9KeHlKbXVHVDl4aXlkQXFxaklwakpvZlgxLVltN2pvOXNfZmhMSTJzTnpmNXVsRThmSGh1NzdQOWhWZjJPZUFaN0xQZENvU0hneXliRTlUNUNRWVRHRU80eFNpSERkVHdTWHd4SHN3ekM3YlVNNlZ3Qzh3aGVHb0Npck1MeHczczNNMFRrRnVuVW5QU1pxd2g2UURGLUxtMnFON0w2Z3hGR3NWZUx6WDjSAYQCQVVfeXFMTXQ0cDRoUVlHUzQ1VFlwZlZ6Z3JVY21NeGZZUk5mVkEtRzRKX2E3OWtBd1BTbHF1eUdoLUd5OVNPMmRkMEJZUG5hbzJkUjFGREYyR2F4aEpFeV9oeGJ4MmpjQUJsbXRCMDZFWWFycmp6VGNNU1BsR1hwSmhzQ1NkbC01aWdfZjJreW0zTTR0a3Y0OW5pWS1LY3U3LWRfLXVtUm92cGhXRTZSaUJDaERoNnVBcl9nZURzRDRabmloRHVDc2VDOTVKVE52NjN1b3V4bHRRR0tybTdSVGNYRDhIcFJLeDVoTDBfblczaEl1Q1RXYk9DbmhYamgtaktzUS1EWm9Fc1Y?oc=5",
+          "source": "India.com",
+          "publishedAt": "Fri, 11 Sep 2026 08:22:58 GMT",
+          "fetched_at": "2026-09-12T10:31:46.736698",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR (KKR) Stock Looks Below Fair Value As Deal News Lingers",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQzg2anZWbEltU05nVGJaRmgxM3MwZGFyYjJ1VHRySWQ5SWJzX0dKWXVRYWtyWTZjMDc5NWxPbW5MSS0yUV9rd2FPRzJWMXlRb1RHeDM4TExaNFZaVkhpdi1GTEltV1J2QnYyeDJEM1dUYzRaSmJRV2tyTEpmZ2xEWjdyUFJ2VUNnYTAycFIyVFBPVTV6anhUYm9Wekk5QjlNNi1MOGpIUUtRUm9QaEthY0k2X0Z1Wk50aDJsd1ZDNEhvLXp5b2h2Zmt30gHPAUFVX3lxTE05QkI0a05uUDk2RTE0T0FLZjk1eWRBOU01Nkt4clowN0g1NFNCU3pSRjgxNGpmTkl6dHlIb1kzU0tmajlBOEc3SDVUMUR0QWdNeHQ4dEh3enRJSTVoQVg3VGJKb2UzcDY4Y0VPQVpxb2JnLTc5WE1rZ3BnZnQzUlhaemNZU0I0OHZJUUhQTkJ5ZV9oMndhWmJXeWRPb1pieWE3ZG5ZTXFrczQ4emZYcWxqOFlNMzR5SUNRSTZvaGpSV1htdGdfaWlSRGRLV2NfZw?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Sat, 12 Sep 2026 08:23:35 GMT",
+          "fetched_at": "2026-09-12T10:31:46.736702",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Accel-KKR to acquire Eleco for £207.6 million in cash deal",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZWVreTVRUi1ySHdRYWRKNDNmSGdScXlsT1JpYWlyNHpTWXBVQ3d0OHdRRHlXUGFBSklrUU5JSzNEc1BaMTMwVEM4UlpHT1U0cUxPYTAxcUFBeFdzVzd4ajFaV21LUW1jNURCSzgxbW5vZ1NhOFVHTXExd3pabTNwbWRCWVNOZ0ZjMERRTFhNUFNjR2dfTmNoX21PN0hYOTV1YWtTQjNBT19YVUJHY25TMzZ3?oc=5",
+          "source": "Investing.com",
+          "publishedAt": "Thu, 10 Sep 2026 06:30:25 GMT",
+          "fetched_at": "2026-09-12T10:31:46.736706",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,12 +730,12 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-12T04:06:17.712995",
+      "last_updated": "2026-09-12T10:33:26.557161",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
         "score": 0.0,
@@ -615,78 +743,7 @@
         "pos": 1,
         "neg": 1
       },
-      "news": [
-        {
-          "title": "Delhi Capitals Send Former India Captain to Japan",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaElhdlI4WXQydm91bUVRN3d0TzB1enRHYWNHWDkzb1ozWVZ1VjAwd1VTdndaZmlja09kSnF2Sll2Wkg4b3JPRjlRbG90NzJDMmFHSUE4WFRuSFBMR1VEZkVvMllxWlJsdV9BRFlXb3A2dEtZcm5nTUFORzZqVTdnTG8xY0xfSnZiaDZz?oc=5",
-          "source": "Japan Cricket Association",
-          "publishedAt": "Mon, 07 Sep 2026 12:02:11 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638284"
-        },
-        {
-          "title": "KL Rahul staying at Delhi Capitals? DC co-owner quashes IPL 2027 trade rumours",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUVBfbXl6MWxkUTlrTzJvZzVtcFBybThfQTFXOS1qSVFGMDBIdmV0bjdPMng0c1U3Rjh5OVRNRVp2X2tTZlhQOVdyOURTVUxkU0NUY19ZMXhRTlVIWW1yRjYxY3dvVF9wZmRYWjgtQlhDdElTNlRDeXdmTDl2dlc2cm1QcS1RWUtxeDRRRjYzeW5wQ3lrVDdNcE1CMjlxTjFuY1Q5bVBud2llVEp4RnZYczNBMlg0eWRpNDFoVnp0bnYzbGMybWNub3U5RWtLZ9IB0wFBVV95cUxQS3c3N0NSbnVYX2JNa2h0OXBLb0JJNVlVaW9yRm9JVy02WUtvdmJJbm9La1UySFJTQlM5Nm5SSms3SWw5bGNiQkZ0eUxUUEl2TENhMnh0SGJoZElOTVo1SVNxWm8zU2NlckxlZ2l3QnlpeTdReXhKOEQxLVp4YkZlelVMSDc2SkVlbTIwWUEzYkhnUXhKZWlTbExnaFRsYnFERnhDN2lob1NJV2dxV2paR3ZmeHJZaGM1ak91eDVMRjl4cmpfZUxVbm9PRDRwMFBUci1F?oc=5",
-          "source": "India Today",
-          "publishedAt": "Mon, 07 Sep 2026 18:10:13 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638300"
-        },
-        {
-          "title": "‘KL is klutch’: Delhi Capitals put KL Rahul trade rumours to bed with blunt message",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUjRJNEtMdERnMXN1YjhaV3plZVpCbW9DdEJxb0hLRndua0xqSmIwbW9oWlpESzN0WWJRSkFndlJsUGcwcm9yUTBORkF2X0Y0Q2ZjQmVLQktZRU9mNHBJUjRuT3p2S1hOZ1NUQXBic3dGRXJvbkhQSkU4dDVwSjJqZWZwYTJxOUhPcDFLV3VkcmdXV3FFZmZhNDJXcXY2a19DeFprMGp3RmxJc2Mxa05lNzZEck82dVY1YTc5dVFScHcxX0lxdFBqc19MVEk5WXpLa3piY0ExR2xPYVZMWFVQd2ZUYXRfNjVMTE91Y1VCd2FwLTFy0gH6AUFVX3lxTE5oMU1tWUpfb2Z2TEhOYTFDeDhKS2lqV0ZnWTN5dU1ZbERidUV5cGs1WXdiaEdxdlhHeDhxdGFKam9rVnQ4Y3FlTlN0ZHFCSVk4Q01OeDIyZnpFMEJTNjFNRG9rNkRvdU1CM29zTEc2ckRqMEtQVjdOcEszbHotTGNmVGlhb3lYSUdNQU5Vb2FsMmpHQ0E0WlFWTFVJOGFYY3lIM25tZFhLQjBreTlDUlJlbVBIWlFjaU5DMTJtR0ZtWXdTRnJYbW51Xzg4LS1OMUtzUGp4ZEotc1ZyLUFrTDB2RmVGbC1wbTE3Z19GQUMyVnBsUEIzd1NkSlE?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Tue, 08 Sep 2026 06:33:00 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638311"
-        },
-        {
-          "title": "KL Rahul dismisses IPL transfer speculation with crystal-clear statement: 'Can't wait for ...'",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNHpGYk1pcnVPM21hZndVeUk2bW1lcjVHei1Ec005bVNvdTR0SWRnbXFtNnZFRzA2ZUlER2wxa0ZfbzVfc25PODNTdUJSdkd2eVUzZlZXZGd0WGNXaUt3VGtjWnFTQ1hQZC16dUFwN0x5Q1BNeC1CLWo3U0h3S0hyZW5jMk0yMFhlY0J3THV5c3lzdXQ5WEtrUWxEblJWUEp4bXJ4MjdUS2thY0o1MmlZVFBvbDRvNUctXzJvak9PcmtZdW_SAcgBQVVfeXFMTkZaVFNqUzRlY0ZZU05DZlNfc0UtWWVzamQxQlhIYnI1Q3lqR1duTmpoS2lQMklTRFNVRW9LVWJVRFh6TXQ5OGxISkliNXI1Y2t4OU1PMEhwUFlzVklqcUlYX1Zzb05qeEVpdTkycEVUOUoyYVd5VEF0NEVqOGhVYXJUS2ZMTmhWbllFcDFFNUVvUW1xQzVKYldGem03ZmJQWEF5VGF5aTZ3dG56MnN0Sjk5N3ZwMlhNUlVHNi1zZGtvQlUwZFJLeTc?oc=5",
-          "source": "Firstpost",
-          "publishedAt": "Tue, 08 Sep 2026 07:21:16 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638316"
-        },
-        {
-          "title": "Delhi Capitals quash KL Rahul trade rumours, franchise clears the air once and for all: ‘We have unfinished business’ | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNME5tZXRFekRTNFJTSWo0Tnd1aFZNb3ZGYVZHQ29Vb250cGRwQ1JDWkd1cU9ObW9aNWlVNXJDdl85VlFuemRka0hKQXpnOXdLeFgzc0V5dmo1a29jemFINnhYYjFVMTNaQWNvdTdPa254U1dxV1Fmc0E0WHZpWm50SUcycFBoczJTUm1aZ0IyNUNDWlZmMmd6QTF4ci1sX1BCS1J2LWc5RlpJd0xfRzFhZGNDblk5bk5fRHVYNHpWZGo0NktNaEdQekRHZEZvQVNOYTFCVXBmVFNXaUlfU1JZbHlBTzZ1dGUzeGdjaldsQzNsdU1FWW13emQ2ZE1iYVBQb04w0gGIAkFVX3lxTFA1eTNvNmViXzJZRWpPYVA0ZUZMeld5YzZVVEJYUUhnY2dNd0xBbXFpV1k1aVFSXzlVNjBvRUNHWlE2VnlVQnUyOE5JcUREdnRMV2hjWnQxS2cxTXVfdm0xZnVKTFVOdWdQM0x0SS1SZHVJX3hyc2dJeThNTWRnekFhM2l3UW1vRUFYT01FV2RwbE1FWXNHOEJCNDlLVFpYTjJXcVJHeVFieDVvQ2c3c25jUVdiX3lqQ0ZfVzNSS3JsOWIzWW1rem1YWHpDSU5kenhTUmRwS3FOS3BNLW9DdFZlVmRhOWYwN0dsMVVVVHdDWXY0TDZMWGdGV3Roc25aekZnYVFCYVRxYg?oc=5",
-          "source": "hindustantimes.com",
-          "publishedAt": "Tue, 08 Sep 2026 01:40:02 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638322"
-        },
-        {
-          "title": "Delhi Capitals end speculation on KL Rahul's potential KKR switch, owner Parth Jindal assures fans 'we...",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNX0FaWl9oTjNiYkpyUTRTLWZzV01kMDVCNjF4Q1dNMk1HTmszdW80VFJzdVhsNm1EMU9felBYaHRUWW1xbVFiY3hPa2Z2c2Q1b3BtUEFvcnFOS2VxZUlEMWVoUzJ2NTJjdkVUYWlYTF9RMDh1alF2d2JsZTFfNW5zTnVSRl9CaDZEZkI0aEZMZmJuS0xRUzBLc2pqVjFfWGllWnUtd0gzeWZHc3VnOGVhUUZpWXg0Si0xOWw4ZHVIV1RTTTFvc2dpYTlIQWhxaGVSa3F3ZHZOandVM0w4TjBrcThlcVhGRzRmeXU4V0NmTm1zSGs5UE9RMzZEVk5xTFNpVHptdVR30gGLAkFVX3lxTE5Sd2FVaUVXUUk1bjBKUzJMYW50WkdsU1JranJ5cG9aNmkwNDNhcUFhNDgzMENQQW1HM2NKYU1ydmt3VTdYVDBEWVlHdnBRRXpWWlh5eDVMa3Z4bHV5NGpkdnN5eE1yYlJia0pvLXZGNDRjaVpxR1Q3SlROdVZtUUhENGFmdU5velpxWWx4ZFlRUmY2RnhMQmNYTF9McmpNLUlCRUhYTlFBbi1ubmxpTm9lNnZ1d0l4bkRZZmQtRjNIdXg5U3lrNThpaTFOMW12T3dIN3pNSElLY1pTS19QRlVZZ19pTUJISThDb24yZjcxc3dCV1dqdTkxRjhLd0tadmNwdjRWSVVIaTlUMA?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Mon, 07 Sep 2026 14:56:13 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638327"
-        },
-        {
-          "title": "Delhi Capitals Cricket Team Images and Photos",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UTU1IU3hBNUpoVlpxaVJrejBCaHduTmlybnR5OEFYOTF5cG5oYV93OEwtUGFFQkp5c3ZEQnRYQ0VuMzRGR1UtVTdFLVVDalowa3lENjR6WVFNM05zRlRIZXhVU05Xa2xV?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sun, 21 Jun 2026 10:19:34 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638331"
-        },
-        {
-          "title": "Ganguly and Yuvraj set for senior leadership roles in Delhi Capitals in IPL 2027",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLVlVemNRbUpmU1ZfaUFUamxlbjQzOVVDLWFSSHd4Vm5qcDZFRUJ3OEhHbk1WR1A2MTlVcHE4dWtSZnEzaVVBWTZKY2p2dV9lczA5d1ZtM19WWEU4emc5Y2JHbFVFN3hVYkkxeVhkQU83ZTJxblBwY21yaUNfMDFVd2F4aS1xRHJhdUFDOWgyT0VhZEhTbjRZdlBBSW5mekxiMndOc1JOUnV0MEIxUWZJNlFyNWFvMjFJN3dMWtIBzgFBVV95cUxOcW5Gblh6LXBmekV3ZmVqRzdPWnBDQ0wwN3lLaVZ1NUQ5djVkN3VtNWhyczN6emUzN0JlS2l0OE4yczlRcE9CaXlKS0toOUs3VExUSkdZdWgwX1pmR09pUjY5SVNtTzB3QktJNmU4NEptRVJDU1JlOFgxN2dvWFMwWkRJaWI5SFBnNXFPeTNiNFVJOGNfNUcxT0xiM0N2ZW1HeUxIcG1Ya0toZ3lCX0JqT1BOTGNLazB5eWJkdi1kUER4bEdNeXFPd20yRDVWdw?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Fri, 19 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638337"
-        },
-        {
-          "title": "KL Rahul Responds To Delhi Capitals Owner's Post, Settles IPL Trade Rumours",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMFRJVERPeXdmTlFMekNlMTRyUWJIT2lzbTUyRG1ORG41X0VlbzRSSlZpX0VJQkhmM1dYSkJEemVaZjd4ZGJBQjVyYzBXc3JQQ0FmZ09YaEduR3RMVUczem5zRWR2bDZXTFJUTkpTc3pZVUxUYjVpcUZNZDBZQ0Y2dzJVS0t5bFFRTTZvX3F4ZllHQi1ULUI0MGRIZEROME5aRkFnck5IUkJlTTFZck0xZlRaSng?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Tue, 08 Sep 2026 05:33:59 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638341"
-        },
-        {
-          "title": "Behind the Scenes with the DC Crew | Delhi Capitals | IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmZCZy0tTUZXVmlUeWZIREIzUTMxemRVSGI1NU93djJIR1BtWGVLWmpQZkRjNGhwQVlNLThodFN5ZlNlSFVsWWRkRndWVVU5T0lyWUdCVHJFNEZFOGpXdjJNT0V5aGxpMG5XcGlZN3JzX3FqaDJtaWFuSk90cG9iaFdnNTFoRUF5RUNQakF1TXA3QmV5Mng5NHFR?oc=5",
-          "source": "delhicapitals.in",
-          "publishedAt": "Sat, 23 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-12T04:05:34.638345"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
@@ -750,14 +807,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "KL Rahul staying at Delhi Capitals? DC co-owner quashes IPL 2027 trade rumours",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUVBfbXl6MWxkUTlrTzJvZzVtcFBybThfQTFXOS1qSVFGMDBIdmV0bjdPMng0c1U3Rjh5OVRNRVp2X2tTZlhQOVdyOURTVUxkU0NUY19ZMXhRTlVIWW1yRjYxY3dvVF9wZmRYWjgtQlhDdElTNlRDeXdmTDl2dlc2cm1QcS1RWUtxeDRRRjYzeW5wQ3lrVDdNcE1CMjlxTjFuY1Q5bVBud2llVEp4RnZYczNBMlg0eWRpNDFoVnp0bnYzbGMybWNub3U5RWtLZ9IB0wFBVV95cUxQS3c3N0NSbnVYX2JNa2h0OXBLb0JJNVlVaW9yRm9JVy02WUtvdmJJbm9La1UySFJTQlM5Nm5SSms3SWw5bGNiQkZ0eUxUUEl2TENhMnh0SGJoZElOTVo1SVNxWm8zU2NlckxlZ2l3QnlpeTdReXhKOEQxLVp4YkZlelVMSDc2SkVlbTIwWUEzYkhnUXhKZWlTbExnaFRsYnFERnhDN2lob1NJV2dxV2paR3ZmeHJZaGM1ak91eDVMRjl4cmpfZUxVbm9PRDRwMFBUci1F?oc=5",
+          "source": "India Today",
+          "publishedAt": "Mon, 07 Sep 2026 18:10:13 GMT",
+          "fetched_at": "2026-09-12T10:33:26.556864"
+        },
+        {
+          "title": "‘KL is klutch’: Delhi Capitals put KL Rahul trade rumours to bed with blunt message",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUjRJNEtMdERnMXN1YjhaV3plZVpCbW9DdEJxb0hLRndua0xqSmIwbW9oWlpESzN0WWJRSkFndlJsUGcwcm9yUTBORkF2X0Y0Q2ZjQmVLQktZRU9mNHBJUjRuT3p2S1hOZ1NUQXBic3dGRXJvbkhQSkU4dDVwSjJqZWZwYTJxOUhPcDFLV3VkcmdXV3FFZmZhNDJXcXY2a19DeFprMGp3RmxJc2Mxa05lNzZEck82dVY1YTc5dVFScHcxX0lxdFBqc19MVEk5WXpLa3piY0ExR2xPYVZMWFVQd2ZUYXRfNjVMTE91Y1VCd2FwLTFy0gH6AUFVX3lxTE5oMU1tWUpfb2Z2TEhOYTFDeDhKS2lqV0ZnWTN5dU1ZbERidUV5cGs1WXdiaEdxdlhHeDhxdGFKam9rVnQ4Y3FlTlN0ZHFCSVk4Q01OeDIyZnpFMEJTNjFNRG9rNkRvdU1CM29zTEc2ckRqMEtQVjdOcEszbHotTGNmVGlhb3lYSUdNQU5Vb2FsMmpHQ0E0WlFWTFVJOGFYY3lIM25tZFhLQjBreTlDUlJlbVBIWlFjaU5DMTJtR0ZtWXdTRnJYbW51Xzg4LS1OMUtzUGp4ZEotc1ZyLUFrTDB2RmVGbC1wbTE3Z19GQUMyVnBsUEIzd1NkSlE?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Tue, 08 Sep 2026 06:33:00 GMT",
+          "fetched_at": "2026-09-12T10:33:26.556881"
+        },
+        {
+          "title": "KL Rahul dismisses IPL transfer speculation with crystal-clear statement: 'Can't wait for ...'",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNHpGYk1pcnVPM21hZndVeUk2bW1lcjVHei1Ec005bVNvdTR0SWRnbXFtNnZFRzA2ZUlER2wxa0ZfbzVfc25PODNTdUJSdkd2eVUzZlZXZGd0WGNXaUt3VGtjWnFTQ1hQZC16dUFwN0x5Q1BNeC1CLWo3U0h3S0hyZW5jMk0yMFhlY0J3THV5c3lzdXQ5WEtrUWxEblJWUEp4bXJ4MjdUS2thY0o1MmlZVFBvbDRvNUctXzJvak9PcmtZdW_SAcgBQVVfeXFMTkZaVFNqUzRlY0ZZU05DZlNfc0UtWWVzamQxQlhIYnI1Q3lqR1duTmpoS2lQMklTRFNVRW9LVWJVRFh6TXQ5OGxISkliNXI1Y2t4OU1PMEhwUFlzVklqcUlYX1Zzb05qeEVpdTkycEVUOUoyYVd5VEF0NEVqOGhVYXJUS2ZMTmhWbllFcDFFNUVvUW1xQzVKYldGem03ZmJQWEF5VGF5aTZ3dG56MnN0Sjk5N3ZwMlhNUlVHNi1zZGtvQlUwZFJLeTc?oc=5",
+          "source": "Firstpost",
+          "publishedAt": "Tue, 08 Sep 2026 07:21:16 GMT",
+          "fetched_at": "2026-09-12T10:33:26.556886"
+        },
+        {
+          "title": "Delhi Capitals quash KL Rahul trade rumours, franchise clears the air once and for all: ‘We have unfinished business’ | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNME5tZXRFekRTNFJTSWo0Tnd1aFZNb3ZGYVZHQ29Vb250cGRwQ1JDWkd1cU9ObW9aNWlVNXJDdl85VlFuemRka0hKQXpnOXdLeFgzc0V5dmo1a29jemFINnhYYjFVMTNaQWNvdTdPa254U1dxV1Fmc0E0WHZpWm50SUcycFBoczJTUm1aZ0IyNUNDWlZmMmd6QTF4ci1sX1BCS1J2LWc5RlpJd0xfRzFhZGNDblk5bk5fRHVYNHpWZGo0NktNaEdQekRHZEZvQVNOYTFCVXBmVFNXaUlfU1JZbHlBTzZ1dGUzeGdjaldsQzNsdU1FWW13emQ2ZE1iYVBQb04w0gGIAkFVX3lxTFA1eTNvNmViXzJZRWpPYVA0ZUZMeld5YzZVVEJYUUhnY2dNd0xBbXFpV1k1aVFSXzlVNjBvRUNHWlE2VnlVQnUyOE5JcUREdnRMV2hjWnQxS2cxTXVfdm0xZnVKTFVOdWdQM0x0SS1SZHVJX3hyc2dJeThNTWRnekFhM2l3UW1vRUFYT01FV2RwbE1FWXNHOEJCNDlLVFpYTjJXcVJHeVFieDVvQ2c3c25jUVdiX3lqQ0ZfVzNSS3JsOWIzWW1rem1YWHpDSU5kenhTUmRwS3FOS3BNLW9DdFZlVmRhOWYwN0dsMVVVVHdDWXY0TDZMWGdGV3Roc25aekZnYVFCYVRxYg?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Tue, 08 Sep 2026 01:40:02 GMT",
+          "fetched_at": "2026-09-12T10:33:26.556892"
+        },
+        {
+          "title": "Delhi Capitals end speculation on KL Rahul's potential KKR switch, owner Parth Jindal assures fans 'we...",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNX0FaWl9oTjNiYkpyUTRTLWZzV01kMDVCNjF4Q1dNMk1HTmszdW80VFJzdVhsNm1EMU9felBYaHRUWW1xbVFiY3hPa2Z2c2Q1b3BtUEFvcnFOS2VxZUlEMWVoUzJ2NTJjdkVUYWlYTF9RMDh1alF2d2JsZTFfNW5zTnVSRl9CaDZEZkI0aEZMZmJuS0xRUzBLc2pqVjFfWGllWnUtd0gzeWZHc3VnOGVhUUZpWXg0Si0xOWw4ZHVIV1RTTTFvc2dpYTlIQWhxaGVSa3F3ZHZOandVM0w4TjBrcThlcVhGRzRmeXU4V0NmTm1zSGs5UE9RMzZEVk5xTFNpVHptdVR30gGLAkFVX3lxTE5Sd2FVaUVXUUk1bjBKUzJMYW50WkdsU1JranJ5cG9aNmkwNDNhcUFhNDgzMENQQW1HM2NKYU1ydmt3VTdYVDBEWVlHdnBRRXpWWlh5eDVMa3Z4bHV5NGpkdnN5eE1yYlJia0pvLXZGNDRjaVpxR1Q3SlROdVZtUUhENGFmdU5velpxWWx4ZFlRUmY2RnhMQmNYTF9McmpNLUlCRUhYTlFBbi1ubmxpTm9lNnZ1d0l4bkRZZmQtRjNIdXg5U3lrNThpaTFOMW12T3dIN3pNSElLY1pTS19QRlVZZ19pTUJISThDb24yZjcxc3dCV1dqdTkxRjhLd0tadmNwdjRWSVVIaTlUMA?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Mon, 07 Sep 2026 14:56:13 GMT",
+          "fetched_at": "2026-09-12T10:33:26.556896"
+        }
+      ],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-12T04:06:38.131297",
+      "last_updated": "2026-09-12T10:33:41.630640",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
