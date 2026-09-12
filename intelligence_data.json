@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-11T20:55:16.950105",
+    "generated_at": "2026-09-12T04:06:38.131308",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,18 +14,18 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-11T20:46:08.243308",
+      "last_updated": "2026-09-12T03:59:31.319649",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": -0.33,
-        "label": "Negative",
-        "pos": 1,
-        "neg": 2
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
@@ -90,53 +90,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Adani Group plans international airports push",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHp2MFM4WVd4eV8zQURaWFE0MF9obXlsX0dmTmlFcGF3WEZ4V2lUdHhoV09EVnFkNnRsOWNkazlpaEUyd29lVG5Hd2lmWnNMS256emFpN0FSWFRmYXJQZ2QySUJrb2NiVXRTQ0hTRXBDMXVSWHdmVjV3RTBkb3ExTXlsZG8?oc=5",
-          "source": "Financial Times",
-          "publishedAt": "Wed, 09 Sep 2026 13:40:49 GMT",
-          "fetched_at": "2026-09-11T20:45:44.317015",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Sebi settles disclosure violation charges against Adani Ports CEO, CFO",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc0RtQXA5Y3l0aTdteXFVRi12aGFEdUhpUEh4Nk1ZU2tZamJCY0JOU1dwbkNsQ1plWjhlS2poSi0zNUI5d3IzTEU2RTBEVmJwbjd5dXVWRUE3M3VoRURzTHZla3VVOUJjR0E1anVNdDg0cHVQNExabkVNQS10MEpoTHBFaXRFX2pEV09KQXMtc0lLckwwUE52RXU1R2lCWEhodVUzZDlsaU44Q1F0NjdsbnFxek1nUW10M0Myb2JlWTdET0RVdC1McUpZdTl2V1pyMTk0MdIB2gFBVV95cUxPeTRQejZtdkhzNUpTV3VuQkt0ZWQ4QkJNODZJcmg2ek1oSTJNZW5qQkNtT0JDeURtdHdRcVhyM2ZaVFR3dDFfenNpR1pDYzFTN0pyS09qWFZXY1c4TFVFdEczbFEtc3E1SndpUlg2QkNzUUZMZGxvZFltbjh1OEFMSDBMZFRyeXBmRXJrOXl0UWp2VUgxQ3lKczVaaTZyMXVKbWJHbzNzQThBS0lsMHowV3Qxdl95YThmdUpHdWpWbVA5RjNnd2RGbmlmOE4tc1RkQ0YxTVFfWFhXZw?oc=5",
-          "source": "ETLegalWorld.com",
-          "publishedAt": "Fri, 11 Sep 2026 03:01:04 GMT",
-          "fetched_at": "2026-09-11T20:45:44.317029",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Trump administration fires prosecutor in dropped case against politically linked Indian billionaire",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVlZoeUFjLTZMUEFNUzFuandDVkhYWTZRbDJVQlhLLWZLdjFPQTBPRmx4bjVRLWNYYzhWMFB5RUp0QU1VQXhpWkZuSWpjMHRabnhSZ29BMHpENXdnZTlFR19qRXdPenhRQU0xcmJpMW1ya1VRRllKQVptS3NvRVhPalNlbnhHQ1hzaktZQ1B5ZmFSYlZqWndvamUzT05Vb1YyOHNSMG5zMXY5VFJDM3hFNEQ5VnljTW5NdzhWNUluRXFFOE1WLXpSUU5LOWk?oc=5",
-          "source": "NBC News",
-          "publishedAt": "Wed, 09 Sep 2026 20:21:59 GMT",
-          "fetched_at": "2026-09-11T20:45:44.317034",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Adani Group's 3-project Bengal kick-off on Sept 24, New Town hospital in pipeline",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMVlxRlZmMEo2SVFhWTYtWmhTdVBDZTZMdEJDZ0RDSFlYV2gwQ3lYb0psNWpNZUZOUkJtc0RaeDMwS21kY0FtZXBkel9Fc08zVEs4MXRTQUxVbE02YXNpbGJaMnZxYTFxQzBNaFA5cEdCNk5KOXVjSVlmdXZfR0Q2MjdsblVoZ3h5UWloOGkzUThxSlZCbTVJV1J5d1hMdTZLSzB6ajFtcGhGLXpaWDVObkdTdnRFUzNwSmc1NkhDR0xUTk9GM1VwcmR3VHo4V2tNdU1SdXFpa9IB3AFBVV95cUxPMHZfSndrdC04YTd1VV83SlMzZTI3MFJzckFGY01MX3lDMEVLemJWc29YSDVFSjlGLVJ1NWV5eDRoRjBYaGlpZ1A3MGxJNUVEQ3NLelBRX2YydjZoUlY5Y0c3QUhZM0ZPZmlEeGJuYUkzR2FrMzBQZWY0MU9YNmZGb3hjMk1CYWlMQ2FCRDl3MnoyNmotMVlVMnhkZGQ5TVFyUDZ1Zm1jT0pyYzgzXzBYdU12M19RejlYZW1TY0EycWhKMlBoTlBGY2xNMnp6ZGl0cjlaMExWME9DeE5p?oc=5",
-          "source": "Telegraph India",
-          "publishedAt": "Thu, 10 Sep 2026 01:29:49 GMT",
-          "fetched_at": "2026-09-11T20:45:44.317039",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Quick Take | Positive tipping points",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNelo4cF9DYkhTR2JsYm9VN0szMWxzYlpjZWFIakZjY3RIdnZzQ054SzNhMXE2S2VyaEdPeXdEUkx3SFJzWEVEYmVSb3FDWndpYUtOZmIwa2FnVEFZVUU2a01jNVZLM2pTSWdhT2JWbEp3VFhURjJhR2ZkZ3lmLWxYNC1sTm9uS0E3aXV2MVFsVkhhMkowYmFlNi1iYkhURlZDd3fSAa8BQVVfeXFMTWZDTDJhXy1HUjkxbTItQUpuNDVvRmpGNGNwSjUzbXZXN1RXVDM4eHZqSm9hNmFPeUNvUVhRZDdta0dmVFVLZFlfdXhlU3VfeldTX1BlNjMwdzVfYXdGVnl1TDZCS3JZUkFvTEp2SllaTE5VeU1sQW52b1pvWWRtRHZyQ3U5ZmRUcU1FQTYwdGF5ZnNLODhtOHliWndBaDRSX0gxWTJKUWo3NXBFZ0dsdw?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Thu, 10 Sep 2026 20:04:56 GMT",
-          "fetched_at": "2026-09-11T20:45:44.317042",
-          "related_to": "Adani Group",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -144,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-11T20:47:10.765044",
+      "last_updated": "2026-09-12T04:00:23.594393",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -228,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-11T20:48:41.201445",
+      "last_updated": "2026-09-12T04:01:13.014932",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -312,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-11T20:49:54.204692",
+      "last_updated": "2026-09-12T04:02:17.017051",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -396,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-11T20:51:06.704942",
+      "last_updated": "2026-09-12T04:02:53.534398",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -480,11 +434,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-11T20:52:18.873947",
+      "last_updated": "2026-09-12T04:03:53.342641",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -556,53 +510,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-11T20:51:33.772555",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Regulatory approval for RCB sale complete",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdFhRZmVsdEFlSFc0aUpkTFBUb25wMUlBNXlPdWF5bVVZWFh6clBOMEZkZ2VVRmV3Rk40UXkzQUw3cnYxWEs1bnFsbUVpWVBPX3BnY3JpaWp1R3dTbHdET1JRZmFhMjgyMmNYSTNkYmdQRl9YY3VLSUdaTUM2R3FneFcwMjBIbVVOLTMyZVdPVzc3OVRqeWFFclA3c9IBrAFBVV95cUxPbW5PYWloTTBlaG40RXBGbk9qUjJJODFHVmhDdUhPQjZyQ3NxQ0UxVC1FbjR5ZFNOcEJqYmxYWDN0ekFHVVBvQTFwSkczQmRILTE5aHlDWXJzdDF6M0FTR01MS21uZzBRckVvazdsdWlFWjJfc2JsbVEyMjkxSWZ5Q0M4YlhwNURQclFtOUhDRk9QaG5MUEFBZzRicWZyTU00RmdUcEhyanoxTUJ5?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Tue, 30 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-11T20:51:33.772569",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Cricket Photos - MI vs RCB, 20th Match Pictures",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdlkweXZNQzI4VDZIOElaMDc2YzBELXpXd2hOM05xbkNlN280a3BoMlhhQ2VBZThjMnlHNnU0ZUo4ckN3b1NHZURYSjBoQUZBMFdNOHJxa0FrUXo1S1VydG9aelFxS3hjVzFrazdXeWJTbzZfbGN1a3pwUWNWQXVxSXlHNmJRN1lxVjZJTkdLTHRiN0hreFQ3dW53Vkhyc3hsbUVsemhlc3dDOExJdjhtYlo0clk4YUg1ZE9ucTk1ZHlxZTg?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sun, 21 Jun 2026 15:58:46 GMT",
-          "fetched_at": "2026-09-11T20:51:33.772575",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Playing XI - RCB vs GT 14th Match | Indian Premier League Squad",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSkFOZkwyeDJ4eGMxWGhqbFFzcVVFQkdwYXkzUllsRWRwRjlOdFdaT25NM0ozOHZ3UkMyc3BaUVRIZHVhYWxjdzJfdE9aakI1VHVRb3BJVkkwczZVaWpOZ3UxTjV0UWtpUHdreXR0bWNMemxXQVNWX0hYQVJ1NWVxSWVJcGdySWlZaHhCOGVDMG90YXF2ZllBZ1RtZkVtMm1NREJnU2w1cXJSbU0zQ3FSejFDSVQzM1BDeWVEX0dEYXM4ZExLM0xtdXJB?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Sun, 21 Jun 2026 16:09:15 GMT",
-          "fetched_at": "2026-09-11T20:51:33.772580",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Playing XI - RCB vs SRH 1st Match | Indian Premier League Squad",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTlVWM3Y2dkx1dzhyX2QzQTRYekZ0RXZRYTBLb29rTWdUWUZfa2NKNURscHdkRkpQRU5iTkN0bWlKRnF6N3VnNjBKZ2pvNDZtSmhWNTdLNHZtZGdZM0NOOVAxc2Qxc2FTZ0Zic09NOW16X1ljbmVtMVZoUTFEeHMwOUkwVXY0MUZMUHJEc3h2QnRVczFZVGQyNk9hUHhtV2ZIeUdoT2h5TTFlNFRUUi1URjZ1Z2hRVVFJTFc5amM5bGFSU3FIeVFxWGhHN0ZOaDQ?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Tue, 16 Jun 2026 23:45:51 GMT",
-          "fetched_at": "2026-09-11T20:51:33.772584",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -610,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-11T20:53:49.150349",
+      "last_updated": "2026-09-12T04:05:20.598800",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -694,20 +602,91 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-11T20:54:46.885602",
+      "last_updated": "2026-09-12T04:06:17.712995",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Delhi Capitals Send Former India Captain to Japan",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaElhdlI4WXQydm91bUVRN3d0TzB1enRHYWNHWDkzb1ozWVZ1VjAwd1VTdndaZmlja09kSnF2Sll2Wkg4b3JPRjlRbG90NzJDMmFHSUE4WFRuSFBMR1VEZkVvMllxWlJsdV9BRFlXb3A2dEtZcm5nTUFORzZqVTdnTG8xY0xfSnZiaDZz?oc=5",
+          "source": "Japan Cricket Association",
+          "publishedAt": "Mon, 07 Sep 2026 12:02:11 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638284"
+        },
+        {
+          "title": "KL Rahul staying at Delhi Capitals? DC co-owner quashes IPL 2027 trade rumours",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUVBfbXl6MWxkUTlrTzJvZzVtcFBybThfQTFXOS1qSVFGMDBIdmV0bjdPMng0c1U3Rjh5OVRNRVp2X2tTZlhQOVdyOURTVUxkU0NUY19ZMXhRTlVIWW1yRjYxY3dvVF9wZmRYWjgtQlhDdElTNlRDeXdmTDl2dlc2cm1QcS1RWUtxeDRRRjYzeW5wQ3lrVDdNcE1CMjlxTjFuY1Q5bVBud2llVEp4RnZYczNBMlg0eWRpNDFoVnp0bnYzbGMybWNub3U5RWtLZ9IB0wFBVV95cUxQS3c3N0NSbnVYX2JNa2h0OXBLb0JJNVlVaW9yRm9JVy02WUtvdmJJbm9La1UySFJTQlM5Nm5SSms3SWw5bGNiQkZ0eUxUUEl2TENhMnh0SGJoZElOTVo1SVNxWm8zU2NlckxlZ2l3QnlpeTdReXhKOEQxLVp4YkZlelVMSDc2SkVlbTIwWUEzYkhnUXhKZWlTbExnaFRsYnFERnhDN2lob1NJV2dxV2paR3ZmeHJZaGM1ak91eDVMRjl4cmpfZUxVbm9PRDRwMFBUci1F?oc=5",
+          "source": "India Today",
+          "publishedAt": "Mon, 07 Sep 2026 18:10:13 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638300"
+        },
+        {
+          "title": "‘KL is klutch’: Delhi Capitals put KL Rahul trade rumours to bed with blunt message",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUjRJNEtMdERnMXN1YjhaV3plZVpCbW9DdEJxb0hLRndua0xqSmIwbW9oWlpESzN0WWJRSkFndlJsUGcwcm9yUTBORkF2X0Y0Q2ZjQmVLQktZRU9mNHBJUjRuT3p2S1hOZ1NUQXBic3dGRXJvbkhQSkU4dDVwSjJqZWZwYTJxOUhPcDFLV3VkcmdXV3FFZmZhNDJXcXY2a19DeFprMGp3RmxJc2Mxa05lNzZEck82dVY1YTc5dVFScHcxX0lxdFBqc19MVEk5WXpLa3piY0ExR2xPYVZMWFVQd2ZUYXRfNjVMTE91Y1VCd2FwLTFy0gH6AUFVX3lxTE5oMU1tWUpfb2Z2TEhOYTFDeDhKS2lqV0ZnWTN5dU1ZbERidUV5cGs1WXdiaEdxdlhHeDhxdGFKam9rVnQ4Y3FlTlN0ZHFCSVk4Q01OeDIyZnpFMEJTNjFNRG9rNkRvdU1CM29zTEc2ckRqMEtQVjdOcEszbHotTGNmVGlhb3lYSUdNQU5Vb2FsMmpHQ0E0WlFWTFVJOGFYY3lIM25tZFhLQjBreTlDUlJlbVBIWlFjaU5DMTJtR0ZtWXdTRnJYbW51Xzg4LS1OMUtzUGp4ZEotc1ZyLUFrTDB2RmVGbC1wbTE3Z19GQUMyVnBsUEIzd1NkSlE?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Tue, 08 Sep 2026 06:33:00 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638311"
+        },
+        {
+          "title": "KL Rahul dismisses IPL transfer speculation with crystal-clear statement: 'Can't wait for ...'",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNHpGYk1pcnVPM21hZndVeUk2bW1lcjVHei1Ec005bVNvdTR0SWRnbXFtNnZFRzA2ZUlER2wxa0ZfbzVfc25PODNTdUJSdkd2eVUzZlZXZGd0WGNXaUt3VGtjWnFTQ1hQZC16dUFwN0x5Q1BNeC1CLWo3U0h3S0hyZW5jMk0yMFhlY0J3THV5c3lzdXQ5WEtrUWxEblJWUEp4bXJ4MjdUS2thY0o1MmlZVFBvbDRvNUctXzJvak9PcmtZdW_SAcgBQVVfeXFMTkZaVFNqUzRlY0ZZU05DZlNfc0UtWWVzamQxQlhIYnI1Q3lqR1duTmpoS2lQMklTRFNVRW9LVWJVRFh6TXQ5OGxISkliNXI1Y2t4OU1PMEhwUFlzVklqcUlYX1Zzb05qeEVpdTkycEVUOUoyYVd5VEF0NEVqOGhVYXJUS2ZMTmhWbllFcDFFNUVvUW1xQzVKYldGem03ZmJQWEF5VGF5aTZ3dG56MnN0Sjk5N3ZwMlhNUlVHNi1zZGtvQlUwZFJLeTc?oc=5",
+          "source": "Firstpost",
+          "publishedAt": "Tue, 08 Sep 2026 07:21:16 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638316"
+        },
+        {
+          "title": "Delhi Capitals quash KL Rahul trade rumours, franchise clears the air once and for all: ‘We have unfinished business’ | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNME5tZXRFekRTNFJTSWo0Tnd1aFZNb3ZGYVZHQ29Vb250cGRwQ1JDWkd1cU9ObW9aNWlVNXJDdl85VlFuemRka0hKQXpnOXdLeFgzc0V5dmo1a29jemFINnhYYjFVMTNaQWNvdTdPa254U1dxV1Fmc0E0WHZpWm50SUcycFBoczJTUm1aZ0IyNUNDWlZmMmd6QTF4ci1sX1BCS1J2LWc5RlpJd0xfRzFhZGNDblk5bk5fRHVYNHpWZGo0NktNaEdQekRHZEZvQVNOYTFCVXBmVFNXaUlfU1JZbHlBTzZ1dGUzeGdjaldsQzNsdU1FWW13emQ2ZE1iYVBQb04w0gGIAkFVX3lxTFA1eTNvNmViXzJZRWpPYVA0ZUZMeld5YzZVVEJYUUhnY2dNd0xBbXFpV1k1aVFSXzlVNjBvRUNHWlE2VnlVQnUyOE5JcUREdnRMV2hjWnQxS2cxTXVfdm0xZnVKTFVOdWdQM0x0SS1SZHVJX3hyc2dJeThNTWRnekFhM2l3UW1vRUFYT01FV2RwbE1FWXNHOEJCNDlLVFpYTjJXcVJHeVFieDVvQ2c3c25jUVdiX3lqQ0ZfVzNSS3JsOWIzWW1rem1YWHpDSU5kenhTUmRwS3FOS3BNLW9DdFZlVmRhOWYwN0dsMVVVVHdDWXY0TDZMWGdGV3Roc25aekZnYVFCYVRxYg?oc=5",
+          "source": "hindustantimes.com",
+          "publishedAt": "Tue, 08 Sep 2026 01:40:02 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638322"
+        },
+        {
+          "title": "Delhi Capitals end speculation on KL Rahul's potential KKR switch, owner Parth Jindal assures fans 'we...",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNX0FaWl9oTjNiYkpyUTRTLWZzV01kMDVCNjF4Q1dNMk1HTmszdW80VFJzdVhsNm1EMU9felBYaHRUWW1xbVFiY3hPa2Z2c2Q1b3BtUEFvcnFOS2VxZUlEMWVoUzJ2NTJjdkVUYWlYTF9RMDh1alF2d2JsZTFfNW5zTnVSRl9CaDZEZkI0aEZMZmJuS0xRUzBLc2pqVjFfWGllWnUtd0gzeWZHc3VnOGVhUUZpWXg0Si0xOWw4ZHVIV1RTTTFvc2dpYTlIQWhxaGVSa3F3ZHZOandVM0w4TjBrcThlcVhGRzRmeXU4V0NmTm1zSGs5UE9RMzZEVk5xTFNpVHptdVR30gGLAkFVX3lxTE5Sd2FVaUVXUUk1bjBKUzJMYW50WkdsU1JranJ5cG9aNmkwNDNhcUFhNDgzMENQQW1HM2NKYU1ydmt3VTdYVDBEWVlHdnBRRXpWWlh5eDVMa3Z4bHV5NGpkdnN5eE1yYlJia0pvLXZGNDRjaVpxR1Q3SlROdVZtUUhENGFmdU5velpxWWx4ZFlRUmY2RnhMQmNYTF9McmpNLUlCRUhYTlFBbi1ubmxpTm9lNnZ1d0l4bkRZZmQtRjNIdXg5U3lrNThpaTFOMW12T3dIN3pNSElLY1pTS19QRlVZZ19pTUJISThDb24yZjcxc3dCV1dqdTkxRjhLd0tadmNwdjRWSVVIaTlUMA?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Mon, 07 Sep 2026 14:56:13 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638327"
+        },
+        {
+          "title": "Delhi Capitals Cricket Team Images and Photos",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UTU1IU3hBNUpoVlpxaVJrejBCaHduTmlybnR5OEFYOTF5cG5oYV93OEwtUGFFQkp5c3ZEQnRYQ0VuMzRGR1UtVTdFLVVDalowa3lENjR6WVFNM05zRlRIZXhVU05Xa2xV?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 21 Jun 2026 10:19:34 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638331"
+        },
+        {
+          "title": "Ganguly and Yuvraj set for senior leadership roles in Delhi Capitals in IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLVlVemNRbUpmU1ZfaUFUamxlbjQzOVVDLWFSSHd4Vm5qcDZFRUJ3OEhHbk1WR1A2MTlVcHE4dWtSZnEzaVVBWTZKY2p2dV9lczA5d1ZtM19WWEU4emc5Y2JHbFVFN3hVYkkxeVhkQU83ZTJxblBwY21yaUNfMDFVd2F4aS1xRHJhdUFDOWgyT0VhZEhTbjRZdlBBSW5mekxiMndOc1JOUnV0MEIxUWZJNlFyNWFvMjFJN3dMWtIBzgFBVV95cUxOcW5Gblh6LXBmekV3ZmVqRzdPWnBDQ0wwN3lLaVZ1NUQ5djVkN3VtNWhyczN6emUzN0JlS2l0OE4yczlRcE9CaXlKS0toOUs3VExUSkdZdWgwX1pmR09pUjY5SVNtTzB3QktJNmU4NEptRVJDU1JlOFgxN2dvWFMwWkRJaWI5SFBnNXFPeTNiNFVJOGNfNUcxT0xiM0N2ZW1HeUxIcG1Ya0toZ3lCX0JqT1BOTGNLazB5eWJkdi1kUER4bEdNeXFPd20yRDVWdw?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Fri, 19 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638337"
+        },
+        {
+          "title": "KL Rahul Responds To Delhi Capitals Owner's Post, Settles IPL Trade Rumours",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMFRJVERPeXdmTlFMekNlMTRyUWJIT2lzbTUyRG1ORG41X0VlbzRSSlZpX0VJQkhmM1dYSkJEemVaZjd4ZGJBQjVyYzBXc3JQQ0FmZ09YaEduR3RMVUczem5zRWR2bDZXTFJUTkpTc3pZVUxUYjVpcUZNZDBZQ0Y2dzJVS0t5bFFRTTZvX3F4ZllHQi1ULUI0MGRIZEROME5aRkFnck5IUkJlTTFZck0xZlRaSng?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Tue, 08 Sep 2026 05:33:59 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638341"
+        },
+        {
+          "title": "Behind the Scenes with the DC Crew | Delhi Capitals | IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmZCZy0tTUZXVmlUeWZIREIzUTMxemRVSGI1NU93djJIR1BtWGVLWmpQZkRjNGhwQVlNLThodFN5ZlNlSFVsWWRkRndWVVU5T0lyWUdCVHJFNEZFOGpXdjJNT0V5aGxpMG5XcGlZN3JzX3FqaDJtaWFuSk90cG9iaFdnNTFoRUF5RUNQakF1TXA3QmV5Mng5NHFR?oc=5",
+          "source": "delhicapitals.in",
+          "publishedAt": "Sat, 23 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-12T04:05:34.638345"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
@@ -778,7 +757,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-11T20:55:16.950089",
+      "last_updated": "2026-09-12T04:06:38.131297",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
