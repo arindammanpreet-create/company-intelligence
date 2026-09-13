@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-13T11:37:24.924162",
+    "generated_at": "2026-09-13T16:04:54.295566",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-13T11:27:46.709520",
+      "last_updated": "2026-09-13T15:56:41.436447",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-13T11:29:17.232767",
+      "last_updated": "2026-09-13T15:58:11.791740",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-13T11:30:37.083917",
+      "last_updated": "2026-09-13T15:58:42.777188",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-13T11:31:57.886794",
+      "last_updated": "2026-09-13T15:59:17.156544",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-13T11:32:55.489904",
+      "last_updated": "2026-09-13T16:00:27.110531",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-13T11:33:52.207797",
+      "last_updated": "2026-09-13T16:01:29.954262",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-13T11:35:29.265898",
+      "last_updated": "2026-09-13T16:03:06.697463",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,18 +602,18 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-13T11:37:11.971824",
+      "last_updated": "2026-09-13T16:04:24.252685",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -679,14 +679,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Delhi Capitals Pacer Lungi Ngidi Taken Off Field in Ambulance After Head Injury",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTXNkWmxWaThsbFpjaHpKRGx5ZTU4SkFFUmNEWVpfaDNwNDNHVXZsRVBRcXgwYm5fMmNIcUtlYkNOSHpFMU13ZHhhZ0FMQUtlbXlRQ2QxUTNnTmV1VS1GS3QzaHdUcVpMZmFraGhra21UNk5LSFF1aDRJUTJ4cnQ1RGF6U0Rld3VoZEdublRDcno4LWZYMFRuRHNyZWpXbzhFcTA5TXQzTDE?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Sun, 13 Sep 2026 08:32:05 GMT",
+          "fetched_at": "2026-09-13T16:04:24.252353"
+        },
+        {
+          "title": "Delhi Capitals set to appoint Chaminda Vaas as fast bowling coach",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV0FranhYd19mU0R5WGd1OWw5TlpPUjN4Q0c4WWZFdl84Yk9fS1hiUmFRVURIME9sR0t0ZTc3dG96c3VwWlBWRzFtM1BnVEdtck55aklCU3lTTzNfMmVZa2pwNEo0RTZxMENKaXFvaW5LM1RIajhGM1NlUEU5WEFMWlBlNWFJUHJKb0VtdmpqQnNuTGhQcUk0VlBfS01hWV80dGN1aXBqaWdJTGZ4TXZB0gG0AUFVX3lxTE1kSmJjcTVpVVJKREdJLUZMWllSM1RWSjdhQ2xybWdXQXNpTDVzOHNVZE1PYm5Eejcwbk5obXdab0hLcUJ2TUlZLWc3eDF6R05LUVpMeXJUb3pRaU80dlVlMVBUU1hsYTNqVWtVeGNqeWl4UTVyTGpZd0dCQlJjeFU3ZGZzVFRNS2F5OF9kZl9WSmttN0c3QzU1ZWVRWXRkZUZSOVlTN0x1UXMxNGktMEczdzhTUg?oc=5",
+          "source": "wionews.com",
+          "publishedAt": "Sun, 13 Sep 2026 08:06:33 GMT",
+          "fetched_at": "2026-09-13T16:04:24.252366"
+        },
+        {
+          "title": "Chaminda Vaas to join Delhi Capitals as bowling coach",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVldtT0lxZlBObWlsTVRvM0kxOUVvOEw4bGNEUERNWHlKM2k2Y3lPWGdKMWpLSXF3S2xYMHl3Q2JmM05xME1meFBYaUc0OXBLdXBFeEpRR2hZN3pFaV9XWnhqMElsVDI0dVJxX1BCeUNGT0l0QzZNSzVUdFAwcTg3VnhNdmhIOTRwSXVhY1pLTjctZXZFTW82WkhkWi1KeUVEZVFVbnJxcURJX0lXY0loQ3E4WFM5cllWOWg5ZlhBRXB6NG5kR2JLZmdFdUp4WXJRcEJPeUNHempaa0ZxbmFv0gHkAUFVX3lxTE1XZURJN01KcGswWmpGcWxDazVIa0lVRjA5LThGS21iRmJIZ1hMamRiVTlTaVBNQi1lWWpzcDlKTGR1NE92Q1BJZ212T0R3NUNmTmNDTlRrYjQ5SW5wdlJFWHozekNmWlRCdkNMeEladTJldFZMN19DaC0wbDFqNjNORnpxaGRYdTk0Q1ZJQ1l1WV9LOUVJaHVVLTdRMFNDNkJENU0yT0hCRDM3a2pGUHprSElTQm5EZUI4Q3R6QkQ0Z3hnZzdwQWZMRjhfbklOcHZ1Q2h6Tkptb2FnR0RTak1Pd3J1cg?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Sun, 13 Sep 2026 04:54:00 GMT",
+          "fetched_at": "2026-09-13T16:04:24.252370"
+        },
+        {
+          "title": "Plan to have dinner with Rishabh Pant: LSG owner Sanjiv Goenka on ties with DC star",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQ2dHOTdpQVNnS2JhRmRfRjh1YTRzOFBNV3pUUzdyMjRXOUZicGpxMDFxd1psSndBQ3AyZ25KTzJRWTNVVGR4cUdKajA2REFENkV6c0ZSQUxYNld6WTM2ZlJVeGYwYkN3Y3BnU2phbFJSc2NqUmwzUEgxcXdzN0hxVEZLOG4yQnAwMlZuVzJ6bm01UWFsR2lkczVlaElJbFhZTThIdWdYaHo5SnVSc1A4dG1nY0RwT00zdXBqQXNUWdIBxAFBVV95cUxQcW16VTlTR0x0Nkt0OEZjS2FULXZTSFlnVll3VVBkMnI4TTBnRXpERk1iMFBtQkhuRTJZWFJERElfRlJUWkpRN3g5QWdpZjQ3OW1Eai1WSlZVLVl1Y1hYczU1cW9tMlNvaHVDdnZYWWNaSll2ZktDRy1GVkpkUWZlR3Q0N1RkSlNCYWJtYVk1OFVybFBpTzR6ZFFTSWY5VU12bzNsNXpzcy1KRTFXQXRyOURsWmJtT3hzaEMwRE9xa3c5RkNo?oc=5",
+          "source": "India Today",
+          "publishedAt": "Sun, 13 Sep 2026 12:49:34 GMT",
+          "fetched_at": "2026-09-13T16:04:24.252374"
+        },
+        {
+          "title": "Sri Lanka Fast Bowling Great Joins Delhi Capitals' Star-Studded Coaching Staff",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeElST2tEUHZGWjA1bERPNnlGODFmQzBHbHFMZC1qaDZJUkRrS2NiN3NzRUpEWGNXdmJYMjBxU3lwVXdUV3hlZ2cyZlpqaExlbTI4MnowU1ctSmkxdm5YQnJ5R1FYVGhTbEJUU0kwb2x4U2ZmUFVWdngyUElsOVp5eUtUMm9iTE5DdDBnSS1Wdl9JamZKRHVtOE1qalFudEFNRlIwN0s5X29EcF9aZk0zNUJUX1VVRFVEU3lUQVhpWTVWWE02QkFMRDJ0eTR0TUVsd0R2bVFxSDQ?oc=5",
+          "source": "News18",
+          "publishedAt": "Sun, 13 Sep 2026 05:38:05 GMT",
+          "fetched_at": "2026-09-13T16:04:24.252378"
+        }
+      ],
       "filings": []
     },
     "Material": {
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-13T11:37:24.924147",
+      "last_updated": "2026-09-13T16:04:54.295550",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
