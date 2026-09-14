@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-14T12:30:25.019696",
+    "generated_at": "2026-09-14T21:51:26.486614",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-14T12:20:09.266096",
+      "last_updated": "2026-09-14T21:41:45.158676",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-14T12:21:25.099506",
+      "last_updated": "2026-09-14T21:43:00.464740",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,18 +182,18 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-14T12:22:46.363766",
+      "last_updated": "2026-09-14T21:44:32.357728",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": -0.33,
+        "label": "Negative",
+        "pos": 1,
+        "neg": 2
       },
       "news": [],
       "research_gaps": [
@@ -258,7 +258,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Is AI on the verge of killing us all? Ex-HCL Tech CEO Vineet Nair says don't buy the hype",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVXdVUWx1QTZ3dC1aR3VfRzRQQlAxZGxNbEpXXzdoR2dtRlZROHpnanZsV3FFdzRnU3I1clV6QnRaUnNURFRvRl9XZjZROVZ0MGpMWlY5aVZNaDJRcDI1dWpkcUp6TmczOV9KeTdRdEk2S2VoelhPSzdSeHo5Q2VCSmdORnpMWTV5RWtoenZQdHpsaFQxUlZPM29zNEV1cXc0MVl0eXllN2hEMWZwRURLZ0p2c1MyaTliQlBjZmRURVPSAcYBQVVfeXFMTUVCOVdwMUdtbUVTZjdfaW5haDNzc2Fla3JqaG9ubDd3VnhCTGRvSjcxSGR1dGp2endxdmc3MGRISlYycVB1UjlSS050cjBBUTNnZ0Z4T0lVZ1VvZjVnVjhaWnZ2UzRab3ZHZC1oRmxrWXcyRV8yamV0X2xGOWktaXNkNlJOcW9rMlNoaHBDdkhreFVIekRuNE1yVkM0N05MNmpNdDdqcDB1eGJlTTdPZDFqLV9TN3loLU1INWRvZ0hfcm8ybGNn?oc=5",
+          "source": "India Today",
+          "publishedAt": "Mon, 14 Sep 2026 17:38:05 GMT",
+          "fetched_at": "2026-09-14T21:44:02.241670",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Top stocks in focus tomorrow: Investors must watch HDFC Bank, HCL Tech, Sun Pharma shares on Tue, 15 Sept | Triggers",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOY0N5RGtjaDJPV2NFS3NnVVh5SlZjNTVuemkweEZteUlVZzdwY0dIeU5zR1h1RTNJbDBDUGRDcDVFX3JoZkZ5SW80cEVkSVdNLVdyQVhMVFEwWkJxLVBmMjFITDR0X2tNa21aX18tSnNqTVFDbS1LT0RycEZ2TW5LLVJoTUZ2QmhzMVlVN1ZiUFphVnpxUVNCOFptdW51azFBbTJ3Yy1rVmhha0NCVmF1cTVKN1E2OGRuSTAtR2c3QjRzcjhiVWFEaXJqXy1LbVVTQVFURHo1aDF5NnVaVy1qODJ4VlVtN3RMVUZkb2hMb2Y5elZaLWlKMTBsR1p2bFk5NlphUkNnbkdaSVJa0gGSAkFVX3lxTE8zd2NaMXI5ZzJ3dXJOSnIzNmhYSVFlWlFBNEkxbXJxZFF4SG8tUUxlT2RfQy1ybnYwV09sLXB1ZjdvZEJHclE4QXo5bGZTTmZtR25WRlR0UEtyRHpmRmNnYUJtZUhESDBfZGtKM201dWZkaTFIZ1NYeGlPUEk4R2duSTlYcEpEcUtsS3J5V0twSjJmSUhJWXBrbHpUVWtlSUFGTkdzRzNad2pRM01IT0FhVG15bmVYREhkcElqN3dKN084eDFkN1JBS2NTWkUxRmV1X2pkUTc5ZUNueS1PT2J6VFItMUYwUmVtWmhWMHpZdzdTZmlDc2NfRldoZG9PVGYtQXRJQ1EzTVlTb1UwbFdOdUE?oc=5",
+          "source": "Livemint",
+          "publishedAt": "Mon, 14 Sep 2026 14:32:13 GMT",
+          "fetched_at": "2026-09-14T21:44:02.241686",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCL Technologies expands CrowdStrike partnership for AI security",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaEhGRTZPSVBvNXNacDE4aWRmQU14MW52OXIwVGRZZnZCSHFGLTFfakJUTExTRzhZZ2ZRRldJZlg4cWNieTRPdGR1SEU3b1VvMkIzSGZJRU9PT0NZRkN0cXNJNmxqYzlDaHNWSUUxejVnVmJuTGdtNUo5TUR1WmZHNl9xMzlaMTUwODhHRnB3N0VldUlqdGdRN0xxb3duaG00NlFGOUlQQ0NHaC1wNmIwbmtHNEhGdmI0QkE?oc=5",
+          "source": "scanx.trade",
+          "publishedAt": "Mon, 14 Sep 2026 13:14:05 GMT",
+          "fetched_at": "2026-09-14T21:44:02.241690",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCLTech Grows CrowdStrike Partnership To Boost AI Security Via Falcon Guardian Integration",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWnF4VHdaMEdYbU9wUW0xekh0RzlDLU41X1cxanRiUEVKeHpaSzE0YXpKMktJakJ6VFVkbTBmQTBYVHFYVFdVTWVIQUtfRVd3a2otYW1yV3BqUkw3ZGEyMWk1THVuY09lTnZVdi1JdGpua2NJZklEUEJXTExVT3BfOG5PV1lqZmViMTNfUEhBQWJZcmdRQnRfU2M1aXlVaE1IOG82NFJsd3hBTnFnYy0wMUFOY3RUTnM?oc=5",
+          "source": "Sahi",
+          "publishedAt": "Mon, 14 Sep 2026 13:29:28 GMT",
+          "fetched_at": "2026-09-14T21:44:02.241694",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCL Tech stock falls 1.5%, leads Nifty losers; Citi bearish, flags rich valuation despite AI progress",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSEl4R3phM2NVakI4UjQwTGhKbFJyTi1JYmlvVzFlYTJpVDdlRlhiQjlKUjZpajlLVmFqd2FBa2c4c3dNNmN1YUp5Q3BQamdrMkg1X1NjQmQ3T2l0akpQOUhCTFlNLURVNE1vcGYyYmhvVzBBUmZpQUYwZkVUZ2o5TjBySXNxV0Q3M3Itc2JJWDBJLW9pYmtUVThUWTU3akpwMDVBRTV5V3p5eTI5NEJjSFF3cEdhMEVITVk2MnI2WTVOcFdRbEJJZkF1eXBTS0FlQUpwd2FNaHMwOF9QQ0E2UWIyMEFBc0lLTHNvN0FaaWdseHdR0gH6AUFVX3lxTE9fMFlpSlUwN3VsdU5JTlBIU1hYa2tlbUZhWmZHNUpReTBaeGdCcXF6aktITkkwUVRJVWR3eUJ2UjhwWUQ1YVJKWTFfSmc3WlJ1WlNkSTBScl9hRFJMRzV1eUFfVnFzYmFra0VkdEdLdWdycW0taE5UYktocFB6QmdfV0tLTnV5UTVaeTgtM2RVbEVxdk9UdkU3d0djdVB0NnRIVFRSRVlaaVg2dFVoS3NjemZ6dkxVVFNDbFVnb2F6Rjg5Zlo4UkxtTHNIRGxlankwUW00ZWlRSzd5bU1jZmV4ekJNWUxKN1FObVl3WlpwRkc0SXVZMk9BZHc?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 10 Sep 2026 05:45:52 GMT",
+          "fetched_at": "2026-09-14T21:44:02.241698",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-14T12:23:55.534763",
+      "last_updated": "2026-09-14T21:45:44.262084",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,12 +396,12 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-14T12:25:11.399651",
+      "last_updated": "2026-09-14T21:47:02.042079",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
         "score": 0,
@@ -427,14 +473,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
+          "source": "EY",
+          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
+          "fetched_at": "2026-09-14T21:47:02.041803"
+        },
+        {
+          "title": "Higher data users should pay more, says Bharti Airtel's Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQmZUek8zM2hpMWxzUkNaTzhPaGlxNkktaGhwOTgzN21sdnJzWkZveG5KUzh3Zm1uWHhaRXA4RGV2dUlxanh5b080dW1lOVhXNnMwT2d0aEltMkhWQjFkV2JvR3N6V3F1eTJOZHJmak9GdVF6cVJ6TXp6WTdSdGNfODFnZk5jZFN0dTdFLTBfZjkzQzR3VzluQXJFdkNEWWZMeWYxVWk4R0FORjRqYVFsdzFzZ29CUmpJR1VORnZPNXFpaHg5cVBmYVZWOHhoekR0QkHSAdcBQVVfeXFMUDFkVHdoajJReWt1ZzRRNWhSN0tXUG5GYmhkQTJEYlBBeENYZ1FicXYxalY4ajk5U2ZwOTNxYzBaaC1xeW5HYUtmZFBhakF2aWZ4d1lVOW5KVm5qVFB1NndEQjBIX21mNEtGbTU5UGhCQUxWVm91T2hHRG00S3FHVV9VODlfRnYyTVpwanh2OU5SbEZhaTRPYmNiUC1PeTJDbWhmNmpaQ2FwWVNnTzhXUW1RY2lOa2gtZEdoazJqVG9lMGQ3ZElpcFFJYW9ES3FrZUtBMHBxQlk?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Wed, 05 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-14T21:47:02.041818"
+        },
+        {
+          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0HSAeMBQVVfeXFMT0pkU3doaGNTbElsQ2UwdGFYQzhBMWQ1dzQ2UHBkQmtaWUVKRFRhTUU5d1dUazVOdnhMQTFsdFh3dS1SQkVSZU9ZRnozY28yQmlWRk9TdGN6bVlCeWlzMHQ1cUktampBMUtib01DZnlOVFJiLVR3UmhxWGVlRlFXRUFKRFMzbGZvR1RWN1RTX1BGTUdvM2hOenBrYnowMTRfRTJEUzRGYWZhams4Rm9odXBVVUZUMlYwWGItZkt4eUQ2SXY3X1MwWGt5UW9HS3NlbkhXaklVMkV1TGRQNGdreVZ5Vnc?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-14T21:47:02.041824"
+        },
+        {
+          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
+          "source": "Forbes India",
+          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-14T21:47:02.041827"
+        },
+        {
+          "title": "Gopal Vittal: The future of the Airtel brand will be built on experience as much as network",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeEtaLWtTNTFfNVV6Nm11YU1rVF8wUE5pWFJUWExwRERmcTFCYkxzVW8tZjdIQmlWdlVRWXB1N0RIMzFlNm9oajBHc3BIWkNrVVd0RmtCM0JBcHhXbGcyU293MkRyR1BTQ0ZMTEQ0c3R3YTUtNWZ1aXdzR2NHRzNTLUU2SXpYeGdpZzQ5TjVsM21QOG82X0t0d29IUHk2VU50X0VYUXJtRjVSMFJoaUd6WDBMLXJ0RjJFamFQdG9aUGVza3BidUUtQmNQS0pyRlJjb2RKWmR0OWdadFnSAeABQVVfeXFMTS1YSDY2YlJ1ck8zQjBnMVozRDJEc2xReGNXZXdhMjhMUEljSmJ0UkRNRm9Ub3pLdnM5ekZjOHQ1dDVjd2pkUjVSWENzdWM4c0RUVF96OFB6X1NXbGVfdUczbUhzM0lXNlpqeHBJQmJMaEZ6MEpVYi1VTnhKRmRaeTdHMUtocFRUTEJVVkhZY0QxdnNfY3NQeHVsd0pVdUVPQ1lyTTlpMXZMbDVNQWNJV1BDOVRES2NxaVlla2s4dV95LTNZVTAxZzZnSWxfNXJ2UmJiLXFSN1V4a3J4UUdrQms?oc=5",
+          "source": "Storyboard18",
+          "publishedAt": "Mon, 13 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-14T21:47:02.041831"
+        }
+      ],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-14T12:26:41.725072",
+      "last_updated": "2026-09-14T21:48:32.397554",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +600,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-14T12:28:27.088983",
+      "last_updated": "2026-09-14T21:49:57.211374",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +684,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-14T12:30:08.591909",
+      "last_updated": "2026-09-14T21:51:17.725579",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +768,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-14T12:30:25.019677",
+      "last_updated": "2026-09-14T21:51:26.486601",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
