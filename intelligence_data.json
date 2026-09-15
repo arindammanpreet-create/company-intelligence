@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-15T16:49:50.013154",
+    "generated_at": "2026-09-15T21:12:57.739355",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-15T16:39:42.193691",
+      "last_updated": "2026-09-15T21:04:28.027448",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-15T16:41:08.859194",
+      "last_updated": "2026-09-15T21:05:45.645847",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,17 +182,17 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-15T16:42:38.473659",
+      "last_updated": "2026-09-15T21:06:47.999489",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 3,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -258,53 +258,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "🏆 Nepomniachtchi Beats Carlsen, Tsolakidou Clinches For Ganges Grandmasters",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNellHNy1yUW1HMHp1VVViNE15eHpORFlOUm5EdXl4WnZOUzFRVUFGazktME1uQzFiRlJweTFVejRJX0hwLWhIbno3YVVGSHpjQnpNRUhQRDlqc2dnTmxjTGRjM093cnFZYzdSSVFVTWdnSnNZRlowcS1pUVR3WlVJM1Z0OGdIOHYzSUhxcW5iVWZvRTlaTk54SVpR?oc=5",
-          "source": "Chess.com",
-          "publishedAt": "Sun, 13 Sep 2026 15:45:00 GMT",
-          "fetched_at": "2026-09-15T16:42:23.251723",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra to channelise margin gains towards growth in next three year plan",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPelFUbW44b0xtdElDREo5eWg2R3dabGM2akZFaUpDRE0zZ3hVRDNDVFJBQ1ZhNHZMV1R6T01SaGRsNzFLc2dMVEVrTFlXdzM2RGExNjJjUmxjY3RyenRFRDNCUzBRX2c2bG9CS2xGQjZUZFlNeFZoUFBaZFRfTzVpNHJ1elVHeGt5Tmh6RDBVRmZ6dC1UUWl6Y0ZtYTkwaVAzLWhlbDdEeGdZaGFLS2ZMZGdUc1h5RlhwRXFhN0txY3RFV0VqS0c0VWJ6ZGZRTXI2LXJOQkdSX24yWWZ2NXBBeURuM3VOUUNXRUFV0gHwAUFVX3lxTE1XVGFHS0NIbmpVcU1yeU9OMDA2dnFvdGVDazBDa1dNTlE5OFB2RHdXelJXek9wclQzT1N1R0VIeWdyNzJjcmdMdWNueE9pcDgzdXBoX2Q1SXMycEhqbUtEWU9kVldaeVozbEp5Qi00Tng0N0dZREdGS3drWnhVbE9KMmJ0WVhvekxwZUloeHpUYjR6QmxOV1dLc3pORFhjT2dSYVlWQjZIWUwtcnIzWUt0a0FYVlFvVHZkNVdsRVRrbS0wT3lxVm1JZDJpSE1SblFUNUs4eWI1M1lyR292ck9TZHg5QThrc1RyTUg4bzZEWg?oc=5",
-          "source": "cfo.economictimes.indiatimes.com",
-          "publishedAt": "Tue, 15 Sep 2026 05:04:51 GMT",
-          "fetched_at": "2026-09-15T16:42:23.251734",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "AI to reshape IT career ladder, promotions to hinge on skills: Tech Mahindra",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWWRMZnBxSUNkaXVTV3pVaVZzZGhSVDZDN1RvcmFmTHVfdEl2M2JVOS1OdTgyZnhCdnJQZm9zVTd6cnEzRjQ0bXpCbWl1THJqYW54V2RmYUZJb3JEN2l4NEE1UmxzMFZjVEhLd0p5ZUUxcmttUF84S1c3U2o1djZQdnEtekNJTEtNd2Y1SVZEVzF5bHB2UHQ5YlIzeWJfamU5UzlDYWdZLUtManFzRjVWTW84NjlWYnhOeVFBLUhSc29BeE53V1g40gHUAUFVX3lxTFA1alNrTGR4OVZtUm4tenVmLTJoSUhaNnJydUNJa2k2cVV2MUNMYURkMm1KV2thYzItSFMtUWpmMVJoTmdTSWtvbER0NFRuTllDMi1CendLclp3eFl6TnJIZEd1dENxSjNUdlp2cG5kbnRFM3ZhZnUzWGJpY0VJNXhDeVVWQ1YzSkhJdjJjMmxrZVlCMy1rT1NLVmxlczZSaXZvOGYzbTlLWHF5TzdKODhXVzdrZGpYZmxsQmJVZzNIbm00dnhzX3FiZmJLeENtRFdZdk1B?oc=5",
-          "source": "The New Indian Express",
-          "publishedAt": "Mon, 14 Sep 2026 19:12:44 GMT",
-          "fetched_at": "2026-09-15T16:42:23.251737",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SENSEX jumps over 500 points, NIFTY50 opens at 23,576 as Tech Mahindra, HCL Tech, among other IT stocks lead gains",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQQzJ4bE5zUExpSE15eUFtdzIycHotcmloUGFtUDBGMHZtWVk1WTZDMy13cXhJVlAwRjNBSU4zanh5aGhKUTJEZEJvNTZCWU5NNTJueWdwWEdfWmlnU0R3SER6ZWp5b0tJYzdGVFJvSHBiT25zMWhGLWJRMUJwMHlsNG03VDMzNGREUFZvc3RrbXJVQThkN25wMXh1ekNaaU5ENmxJblpsbzVucm9OdS1Fd2hZS1gwZThKTDJCWHp4MEV6VndIQlJ3Sm13WVRDTjQ5UUpjM0UzY25adTNRS0FDZ3pYa0s1c3M5UmdWZkdPSkZ0MkYwUGZ5aWNJMnAtTVVh?oc=5",
-          "source": "Upstox",
-          "publishedAt": "Tue, 15 Sep 2026 03:56:10 GMT",
-          "fetched_at": "2026-09-15T16:42:23.251739",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra Ltd sees continued gains",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS3ZWdWhQQ1hrNWRheWNyZ0pvQ09abF92Ync3eDg1NURDUzdmdmhZRjhxSVBBUXNwTkFDaUx6V1dhMnJoblBxSkQzWHdPNHotdWFmeUt5ZFg3VTByUEd6Z04xTzU5S0pxZTBuUlRqc21GZ21QVTFzUUFjM3p3OTI1dV9oNnRoWFQ1bVhtclA3Vmp6NFR2MjI5OWkxX3Y5Y3FHZERvc2diMkYzTUhjQlNjc0tNN2FuamloOWZ4bNIBwgFBVV95cUxNZDhkODY4UlZzVkFEckhqM3VUcHkxNE1HeU5IdDdjdXllU1o5Sy1Da0YxdGtEa0FKOW5xckZtRTZfUEtQUFlXNnBQM1ZqdTJUaFAtT2hsb2Fka0d4UlpJckNzeW1Jbnd1NGFSdHlVYktLa0VjbktvVnZTX2NrcTVaTlVJVHR4d25LMF84Y3NjeFc0bjNvbHgtR3liT1ExbUVzTktWbkxLTkZBdjduQVpuVHlyLThpOTF5WVZrZWcwZkJZdw?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Tue, 15 Sep 2026 09:20:18 GMT",
-          "fetched_at": "2026-09-15T16:42:23.251741",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -312,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-15T16:43:50.995702",
+      "last_updated": "2026-09-15T21:08:01.142647",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -396,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-15T16:44:57.792163",
+      "last_updated": "2026-09-15T21:08:52.569959",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -480,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-15T16:46:28.919340",
+      "last_updated": "2026-09-15T21:10:07.849443",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -564,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-15T16:48:05.307467",
+      "last_updated": "2026-09-15T21:11:06.577312",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -648,11 +602,11 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-15T16:49:27.097747",
+      "last_updated": "2026-09-15T21:12:30.509323",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -724,53 +678,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "MI vs CSK, 33rd Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeGZrMGdtY3p2VVV4M3JuYzgwb0dkcUF2TnhDLTJUaVhFUFIzZ1B5TXJ6eVYwSUVTVUlfNWxIYUFvUnlFTmhTa1hMWmFmSlRTZmV3QzF3UjZCUnZmanJZakxpc1E4OHZRTHI2ZV9RU3Y0NThlSjlYWm4yR2I2blJYdG9zT1RwdUwya3RoU1h4NE54ZVBLQWRDVGNJWnJndDdp?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 15 Sep 2026 16:02:44 GMT",
-          "fetched_at": "2026-09-15T16:48:32.942302",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "MI vs KKR, 2nd Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdmxmZzZ0dU4wZUdIckJ5R0xUTjBCWlRTbE4yZHhiWWNVai0xam5JUkc4azVWTUZfU0kza3gtc0dTVWstbVZUUk1WTzFOX3ZCNE1KLWhuZkxUZHRkNW00UHloZDRCMDdQSEhQVnVjMUtNWVZ2S3lEaEtBTUhldkRaMWZMSXlJRTVYbnR6a2t1MFJHTzhIUW5XdlRrdUhHdGM?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 15 Sep 2026 15:17:00 GMT",
-          "fetched_at": "2026-09-15T16:48:32.942310",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs MI, 30th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMU5qYkVUNzlLYXlXMm1WU3c4RWZJdFg5RzhKdEQ0TlBjNEUtdTVrT2dTM0VQcEVuOXZ0dVJTYWRDU0RQejVxUWU5WDRfS1F6NDR3a2pRT3JDZTZndFBnVkRxbi1sTkFjMmp4WWJKMHZrRk5PMkcwMzhpRzJfY0pxXzhTYTExek9nbmhPWDFXNkZsNTRUM3lvRm54dS1idm8?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 15 Sep 2026 14:06:12 GMT",
-          "fetched_at": "2026-09-15T16:48:32.942314",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "BCCI, Mumbai Indians Share Wishes As Suryakumar Kumar Turns 36",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeGJjVVRSYVVoNHo1eTExTWg0VFk0czBhd0RBazBxREhCa1M0d2pvYmtrTXA3UVhMNHBBblV5QjlhQWk0MkVNWlNLZndEbXFvM285ZUFzZjIwWms0MlFUbWItdExVcm83Z1V3YWRzVjRraS1GNEdQMGhrWVpqZU85d3hDWldTd1JCN2NmbDdTU3RLQWpVSV93aDBCc0hSSGY1cGJMQg?oc=5",
-          "source": "NDTV Sports",
-          "publishedAt": "Mon, 14 Sep 2026 08:48:19 GMT",
-          "fetched_at": "2026-09-15T16:48:32.942316",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Suryakumar Yadav turns 36: Devisha, BCCI and IPL giants lead birthday wishes",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSGZaejlRRFVhQ2t5S0w5MVZyX3JBaUZxTW1Pa2h5Y0lUY0R0aXJuTThpcDQzWC14S2FrRllhb0I3eDRYa1JXc0Q0TXdLbThpUUJlZFFJWFRaYkJoaDRxMkFPUTgtSG9BRW9ndnd0OVZSc2RKT2VxTHhNNFpjUWdQdkNvSEdsdzBzb3FySDFjNVJSdTlvS0czYzl1NE83NU1sbW52VV80cDUtV2FySmgxSnEyY1VHakVWVm90Z1ptN2htQmfSAcYBQVVfeXFMTVBueU52TzNfbmFFNERxVHo2ZlFDSkcyUW5XV1o3bTNOMWhqeE4wMEY3RWlyYjQxRVBTVVcwSVh3ZkVBa1ZRZHVCVXdrZDFJVlJCQnBUVE1WYk56SmI2YlFkQnJsSDM4bjliTHU2REV4N0RIVm15SUpYNFoxM3Y0NjdmZmZNSzBqOWV4WUI4M3lCblpTRXBjN3ZONXphQm9BWWw5c2ZTbE12YzR3V0hkMEF3MWtZcm85aldTUWFseXA2S2hNZHlB?oc=5",
-          "source": "Rediff",
-          "publishedAt": "Mon, 14 Sep 2026 14:35:01 GMT",
-          "fetched_at": "2026-09-15T16:48:32.942318",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -778,17 +686,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-15T16:49:50.013150",
+      "last_updated": "2026-09-15T21:12:57.739338",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -855,43 +763,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
-          "source": "PR Newswire",
-          "publishedAt": "Tue, 15 Sep 2026 10:30:00 GMT",
-          "fetched_at": "2026-09-15T16:49:50.012980"
-        },
-        {
-          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
-          "source": "eurekalert.org",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-15T16:49:50.012990"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-15T16:49:50.012993"
-        },
-        {
-          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-15T16:49:50.012995"
-        },
-        {
-          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
-          "source": "11Alive.com",
-          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-15T16:49:50.012997"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
