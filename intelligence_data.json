@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-14T21:51:26.486614",
+    "generated_at": "2026-09-15T04:24:18.749075",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-14T21:41:45.158676",
+      "last_updated": "2026-09-15T04:16:21.621586",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-14T21:43:00.464740",
+      "last_updated": "2026-09-15T04:17:21.111021",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,21 +182,65 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-14T21:44:32.357728",
+      "last_updated": "2026-09-15T04:18:06.829673",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
-        "esg_news_count": 0
+        "competitor_intel_count": 0,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": -0.33,
+        "score": -1.0,
         "label": "Negative",
-        "pos": 1,
+        "pos": 0,
         "neg": 2
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Infosys",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Infosys: governance. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Infosys ends leadership uncertainty with a dash of confidence  Infosys CEO Salil Parekh's legacy: Doubling revenue, securing $100 bn deals, and AI str...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "governance"
+          ],
+          "solutions": [
+            {
+              "title": "Infosys: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Digital Transformation Lag at Infosys",
+          "severity": "Medium",
+          "description": "Technology adoption gap identified at Infosys: digital transformation. Digital maturity assessment and tech investment ROI research required.",
+          "detected_from": "Infosys ends leadership uncertainty with a dash of confidence  Infosys CEO Salil Parekh's legacy: Doubling revenue, securing $100 bn deals, and AI str...",
+          "gap_type": "digital_lag",
+          "keywords_found": [
+            "digital transformation"
+          ],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -216,103 +260,53 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Infosys: Competitive Intelligence & Win/Loss Analysis",
-          "severity": "Medium",
-          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "competition",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Infosys: Competitive Positioning Intelligence",
-              "impact": "High",
-              "timeline": "6-10 weeks + ongoing",
-              "price": "₹15-25 Lakhs + ₹3L/month",
-              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
-              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
-              "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [
+      "competitor_intel": [],
+      "esg_highlights": [
         {
-          "title": "Is AI on the verge of killing us all? Ex-HCL Tech CEO Vineet Nair says don't buy the hype",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVXdVUWx1QTZ3dC1aR3VfRzRQQlAxZGxNbEpXXzdoR2dtRlZROHpnanZsV3FFdzRnU3I1clV6QnRaUnNURFRvRl9XZjZROVZ0MGpMWlY5aVZNaDJRcDI1dWpkcUp6TmczOV9KeTdRdEk2S2VoelhPSzdSeHo5Q2VCSmdORnpMWTV5RWtoenZQdHpsaFQxUlZPM29zNEV1cXc0MVl0eXllN2hEMWZwRURLZ0p2c1MyaTliQlBjZmRURVPSAcYBQVVfeXFMTUVCOVdwMUdtbUVTZjdfaW5haDNzc2Fla3JqaG9ubDd3VnhCTGRvSjcxSGR1dGp2endxdmc3MGRISlYycVB1UjlSS050cjBBUTNnZ0Z4T0lVZ1VvZjVnVjhaWnZ2UzRab3ZHZC1oRmxrWXcyRV8yamV0X2xGOWktaXNkNlJOcW9rMlNoaHBDdkhreFVIekRuNE1yVkM0N05MNmpNdDdqcDB1eGJlTTdPZDFqLV9TN3loLU1INWRvZ0hfcm8ybGNn?oc=5",
-          "source": "India Today",
-          "publishedAt": "Mon, 14 Sep 2026 17:38:05 GMT",
-          "fetched_at": "2026-09-14T21:44:02.241670",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
+          "title": "Infosys ends leadership uncertainty with a dash of confidence",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1M4N1NmbWxaejF1X0FYWlptMFYwUDFYQTBodTM0TWpUWjFhVXBibUlKb0dkemxfQ3EyS0d1MTg2aGg5eXNJMHlfbkxqUU1vWDBubXVmZVJSSTBqV0l0ZDIzWWlqZmQxUVBROHhQbmxieW9yZ3lpUG81dXFTMmJyeWxyQVhHRHJKYzd6Mm9ZY2EycXR6bmg3VEtqV1c4Z3ZGQWROUGpNaGxhM2d20gG6AUFVX3lxTE82cm1mclZWX2FuQUFVZlFtU09UTnk5cVlsMm92UW44bjAzTW84UW43R00yci1UZ0ZnV3FTRUF4WEJZM0FkY196NHJPNzRORFo2Q1FmZ2NkNlNNaUhZRkxoMEFISEpxOEFZWS1NeWZJUHBoY2JKckRvNzI2QnBJMWU4Tzl0SXM3QlIyZV9PbVhCLXRadkFMZHFLX0dYTjRPQVdRd19mYWZTSjQxZEFETjhCSkxvWjRGVE5GUQ?oc=5",
+          "source": "Fortune India",
+          "publishedAt": "Sat, 08 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-15T04:18:06.829311"
         },
         {
-          "title": "Top stocks in focus tomorrow: Investors must watch HDFC Bank, HCL Tech, Sun Pharma shares on Tue, 15 Sept | Triggers",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOY0N5RGtjaDJPV2NFS3NnVVh5SlZjNTVuemkweEZteUlVZzdwY0dIeU5zR1h1RTNJbDBDUGRDcDVFX3JoZkZ5SW80cEVkSVdNLVdyQVhMVFEwWkJxLVBmMjFITDR0X2tNa21aX18tSnNqTVFDbS1LT0RycEZ2TW5LLVJoTUZ2QmhzMVlVN1ZiUFphVnpxUVNCOFptdW51azFBbTJ3Yy1rVmhha0NCVmF1cTVKN1E2OGRuSTAtR2c3QjRzcjhiVWFEaXJqXy1LbVVTQVFURHo1aDF5NnVaVy1qODJ4VlVtN3RMVUZkb2hMb2Y5elZaLWlKMTBsR1p2bFk5NlphUkNnbkdaSVJa0gGSAkFVX3lxTE8zd2NaMXI5ZzJ3dXJOSnIzNmhYSVFlWlFBNEkxbXJxZFF4SG8tUUxlT2RfQy1ybnYwV09sLXB1ZjdvZEJHclE4QXo5bGZTTmZtR25WRlR0UEtyRHpmRmNnYUJtZUhESDBfZGtKM201dWZkaTFIZ1NYeGlPUEk4R2duSTlYcEpEcUtsS3J5V0twSjJmSUhJWXBrbHpUVWtlSUFGTkdzRzNad2pRM01IT0FhVG15bmVYREhkcElqN3dKN084eDFkN1JBS2NTWkUxRmV1X2pkUTc5ZUNueS1PT2J6VFItMUYwUmVtWmhWMHpZdzdTZmlDc2NfRldoZG9PVGYtQXRJQ1EzTVlTb1UwbFdOdUE?oc=5",
-          "source": "Livemint",
-          "publishedAt": "Mon, 14 Sep 2026 14:32:13 GMT",
-          "fetched_at": "2026-09-14T21:44:02.241686",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
+          "title": "Infosys CEO Salil Parekh's legacy: Doubling revenue, securing $100 bn deals, and AI strategy",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbkVCNmpFRWhGaHdMUTU1b3JFSFVNYWNHb3FuMHlWdy1CdGc0YWx2bHlXUjJrQnp6Tl9KZDBpTUM4OG1td3Q4QTlvNldtQmpTb0xGUWtCWVhNaXdnUzdRZU1FNFJ0NTRHazB5TVBoTnFRSWFHc3VkNmd2R0tIR2N3SWU4dVZkSXVmaFJBNXNpRzU5N2hrNE9WQnFtYlo0d1pBeEZLY3p0enZRS2tubkJ4YVZZSUg3c1h3RWpGRUF3STZKeHlodHl4T0hLWjhpVmQ5YnJuUGR0SW8wM0Fyek9OQnpMdXV5RVRPdlZiT1duS18tUjDSAfgBQVVfeXFMUDBEYXBtVDNnZEdWejdGdTl2NXlBaFdpS3NYNHJhVlJIVWZxaTR1bXZXcE05bmxvbU9KT1lwMmZUY092M2ZmekdpZU5JTGo5aEl5NFAxd0NmWlNTSnUtQ0VWUGhJLXhxYnliWkpSQWtSM2FjNGgtSWpJRVctdW83MGlLNTVvRm1vTDN4NUwtQ3dYc0tqVFg4OUVYNzZwd1FRNjgwWm1kc0N0bnNfdUlFZnBYeXF0bjJYWU44TkVBNDFlUWdfcnZIamFEdW9iaHBwOE9OOXVzZU84SzlIc2RfYkRzc3ZXSjEwR0UzT2F2dndSZTkycU9iMjQ?oc=5",
+          "source": "ET Enterprise AI",
+          "publishedAt": "Mon, 31 Aug 2026 09:31:22 GMT",
+          "fetched_at": "2026-09-15T04:18:06.829324"
         },
         {
-          "title": "HCL Technologies expands CrowdStrike partnership for AI security",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaEhGRTZPSVBvNXNacDE4aWRmQU14MW52OXIwVGRZZnZCSHFGLTFfakJUTExTRzhZZ2ZRRldJZlg4cWNieTRPdGR1SEU3b1VvMkIzSGZJRU9PT0NZRkN0cXNJNmxqYzlDaHNWSUUxejVnVmJuTGdtNUo5TUR1WmZHNl9xMzlaMTUwODhHRnB3N0VldUlqdGdRN0xxb3duaG00NlFGOUlQQ0NHaC1wNmIwbmtHNEhGdmI0QkE?oc=5",
-          "source": "scanx.trade",
-          "publishedAt": "Mon, 14 Sep 2026 13:14:05 GMT",
-          "fetched_at": "2026-09-14T21:44:02.241690",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
+          "title": "Infosys To Discuss CEO Succession Plan After Salil Parekh",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd2pOSlJMNFcwX3VVNXQ2R25fOTZ2Z3EwTV9ZS3pFRVN1WWthaEJKR3JPVjVSMVFuY0tmZnVGVkQ1X3Bwd2N2dVItLUdfZUlGZWVZVGVKbkc2YlRWMkJWb2RnbmsyNkZJU2Q2V0E5eFllTWRySmlqS0dIaEdkVU1sTzBKRnBYQ3ZKbFRWN3EtTkdQckpKWExlQjZJSFVuTE42WGs2NkRvRkY4dWo5MU5VSzhCUmpHRFRMR1HSAbwBQVVfeXFMT0pHelVMWWJaYmhqWDNDdHlPMmcxRkNDdm1ramNONXBEWkxFdklaUWUtOE92eThZWU5xcmhkVEFvTENBSVhNVDg2Y1RVWVhnMllTTWI1bmZ5Y25uLUd2TEZGbDlZTHBoMG11eFFsV3YwSUZrd0JnaVV6SDBrQzBwUUdsVzJTZlVsWXdDN056SlNhczlBZmhJV25fV3ZMOVJlek1MckFKZHVuRktiZFBhSGZid1JPbWM2dW9OSUc?oc=5",
+          "source": "News18",
+          "publishedAt": "Thu, 10 Sep 2026 05:31:52 GMT",
+          "fetched_at": "2026-09-15T04:18:06.829329"
         },
         {
-          "title": "HCLTech Grows CrowdStrike Partnership To Boost AI Security Via Falcon Guardian Integration",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWnF4VHdaMEdYbU9wUW0xekh0RzlDLU41X1cxanRiUEVKeHpaSzE0YXpKMktJakJ6VFVkbTBmQTBYVHFYVFdVTWVIQUtfRVd3a2otYW1yV3BqUkw3ZGEyMWk1THVuY09lTnZVdi1JdGpua2NJZklEUEJXTExVT3BfOG5PV1lqZmViMTNfUEhBQWJZcmdRQnRfU2M1aXlVaE1IOG82NFJsd3hBTnFnYy0wMUFOY3RUTnM?oc=5",
-          "source": "Sahi",
-          "publishedAt": "Mon, 14 Sep 2026 13:29:28 GMT",
-          "fetched_at": "2026-09-14T21:44:02.241694",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
-        },
-        {
-          "title": "HCL Tech stock falls 1.5%, leads Nifty losers; Citi bearish, flags rich valuation despite AI progress",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSEl4R3phM2NVakI4UjQwTGhKbFJyTi1JYmlvVzFlYTJpVDdlRlhiQjlKUjZpajlLVmFqd2FBa2c4c3dNNmN1YUp5Q3BQamdrMkg1X1NjQmQ3T2l0akpQOUhCTFlNLURVNE1vcGYyYmhvVzBBUmZpQUYwZkVUZ2o5TjBySXNxV0Q3M3Itc2JJWDBJLW9pYmtUVThUWTU3akpwMDVBRTV5V3p5eTI5NEJjSFF3cEdhMEVITVk2MnI2WTVOcFdRbEJJZkF1eXBTS0FlQUpwd2FNaHMwOF9QQ0E2UWIyMEFBc0lLTHNvN0FaaWdseHdR0gH6AUFVX3lxTE9fMFlpSlUwN3VsdU5JTlBIU1hYa2tlbUZhWmZHNUpReTBaeGdCcXF6aktITkkwUVRJVWR3eUJ2UjhwWUQ1YVJKWTFfSmc3WlJ1WlNkSTBScl9hRFJMRzV1eUFfVnFzYmFra0VkdEdLdWdycW0taE5UYktocFB6QmdfV0tLTnV5UTVaeTgtM2RVbEVxdk9UdkU3d0djdVB0NnRIVFRSRVlaaVg2dFVoS3NjemZ6dkxVVFNDbFVnb2F6Rjg5Zlo4UkxtTHNIRGxlankwUW00ZWlRSzd5bU1jZmV4ekJNWUxKN1FObVl3WlpwRkc0SXVZMk9BZHc?oc=5",
+          "title": "I'm leaving Infosys in a better place: Outgoing CEO Salil Parekh says company is poised to win in AI...",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQa1paVFFmc0lhTkg0S2pBVGxOVUs1RFVhUHZjZXBPelNNWC1pTEdCQmpyOUk5eFltbThsM0ZucmxyOGhSQzFRdXpYaVRzYTVRakRjcEUyOWUzZFMtRURzaDJCSFgwZ1ZQLU1PeWdpMERWR3gxTDdSdmtzS0daWkwyeWRvTlVFVGVnUzE1LWxvdUNhcnRpQktBWWxNTGFNUTZXU2FucEVFclRVRzVaUFg5cW5pbDZCeTdDbldDSXhhZjRBbGppaXNGWDVKUURmZjFhQ29PWFp4WDk1UzNyNkxuc05xVzRTTFRCYzExWVdnREMzU0szSWhGVlpLT01fZ0JuZU5nMVNGSmdXalhTOFQ4SzlENXdUNWvSAZwCQVVfeXFMTkxlNXhJVXpWR2J2ZS1Tb3VTMzhUMFhCaHREb1EzaElrRENremdPcnBERGpfSzBkRVd5WkNnSm5uX3BFbXV1a2pKVnVuRThId3NabktSNkJ3dVc4QkxvbE1BNHlieFNTbmhSeldUd19OOWxvXzl0b1B6S3FSZExIamJwY2Vxb2Jmak1NZWxWUGxhc3oyTlZTM1o4TGJJa0FSN3JsNXM1M2hCYmgwei1pYjZKN3V6bTV5ZFFTOXpBa0Z3WHEzM3BaTDBjWUs1ZWdxc2tXQzB1TmNSNXYyMmJVVm1pamdfejJya2ZUbEVvbjk0X3VzbjBuYmlRaWI4U01KdmRmdHdPbjdUOHYxem41RmJOV2loQV9xV1k5MXo?oc=5",
           "source": "Moneycontrol.com",
-          "publishedAt": "Thu, 10 Sep 2026 05:45:52 GMT",
-          "fetched_at": "2026-09-14T21:44:02.241698",
-          "related_to": "HCL Tech",
-          "relevance": "competitor"
+          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-15T04:18:06.829333"
+        },
+        {
+          "title": "Unlocking AI Value: Salil Parekh on ROI, Jobs, Data, and Governance",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oWDVGNUVCeU14Y1I5dVcxOXJBb2xwVzYwdWdxWktNSjdzdmFiRFdYc2NNNWFpM1o2bmx1YmdwOW9EcmZPXy16ZFdPWHBEdkJjYTN1LVJBajVDbkJsZ0I1M205cWlTdGRRTVE?oc=5",
+          "source": "Infosys",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-15T04:18:06.829336"
         }
       ],
-      "esg_highlights": [],
       "filings": []
     },
     "HDFC Bank": {
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-14T21:45:44.262084",
+      "last_updated": "2026-09-15T04:19:17.830308",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -396,12 +390,12 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-14T21:47:02.042079",
+      "last_updated": "2026-09-15T04:20:18.089259",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
         "score": 0,
@@ -473,50 +467,14 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
-          "source": "EY",
-          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
-          "fetched_at": "2026-09-14T21:47:02.041803"
-        },
-        {
-          "title": "Higher data users should pay more, says Bharti Airtel's Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQmZUek8zM2hpMWxzUkNaTzhPaGlxNkktaGhwOTgzN21sdnJzWkZveG5KUzh3Zm1uWHhaRXA4RGV2dUlxanh5b080dW1lOVhXNnMwT2d0aEltMkhWQjFkV2JvR3N6V3F1eTJOZHJmak9GdVF6cVJ6TXp6WTdSdGNfODFnZk5jZFN0dTdFLTBfZjkzQzR3VzluQXJFdkNEWWZMeWYxVWk4R0FORjRqYVFsdzFzZ29CUmpJR1VORnZPNXFpaHg5cVBmYVZWOHhoekR0QkHSAdcBQVVfeXFMUDFkVHdoajJReWt1ZzRRNWhSN0tXUG5GYmhkQTJEYlBBeENYZ1FicXYxalY4ajk5U2ZwOTNxYzBaaC1xeW5HYUtmZFBhakF2aWZ4d1lVOW5KVm5qVFB1NndEQjBIX21mNEtGbTU5UGhCQUxWVm91T2hHRG00S3FHVV9VODlfRnYyTVpwanh2OU5SbEZhaTRPYmNiUC1PeTJDbWhmNmpaQ2FwWVNnTzhXUW1RY2lOa2gtZEdoazJqVG9lMGQ3ZElpcFFJYW9ES3FrZUtBMHBxQlk?oc=5",
-          "source": "Business Standard",
-          "publishedAt": "Wed, 05 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-14T21:47:02.041818"
-        },
-        {
-          "title": "Bharti Airtel ‘not satisfied’ with data center market share; eyes 1GW capacity: Gopal Vittal",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHFHS3JMZjhNZ3V0V0dRLVA1bXRzdVQyY21MOGlXbjlZNFhGWWxSTDJ2cVZZY2FWVjdYd3RVdWZ0M2VyZWxaVGs4VjNyYWx1Y1pSVThLT2o4U2N1LVBFakJwcEwxaVRlcUMzam9IYVY4Q3dBeDRWX0lxUGl6R08xWVVwVTNwaUtTTXd2VmZXZ1lPdm1XSmI0a0UyMlRtZ19UZXp0cFg4cjlCQm4wNmY1VTNRb0JYY192MC04clZMMkhkY1MxQzluZHNDd0I1TG42cEZySHhMeElGTHNoT0HSAeMBQVVfeXFMT0pkU3doaGNTbElsQ2UwdGFYQzhBMWQ1dzQ2UHBkQmtaWUVKRFRhTUU5d1dUazVOdnhMQTFsdFh3dS1SQkVSZU9ZRnozY28yQmlWRk9TdGN6bVlCeWlzMHQ1cUktampBMUtib01DZnlOVFJiLVR3UmhxWGVlRlFXRUFKRFMzbGZvR1RWN1RTX1BGTUdvM2hOenBrYnowMTRfRTJEUzRGYWZhams4Rm9odXBVVUZUMlYwWGItZkt4eUQ2SXY3X1MwWGt5UW9HS3NlbkhXaklVMkV1TGRQNGdreVZ5Vnc?oc=5",
-          "source": "ET Telecom",
-          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-14T21:47:02.041824"
-        },
-        {
-          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
-          "source": "Forbes India",
-          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-14T21:47:02.041827"
-        },
-        {
-          "title": "Gopal Vittal: The future of the Airtel brand will be built on experience as much as network",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeEtaLWtTNTFfNVV6Nm11YU1rVF8wUE5pWFJUWExwRERmcTFCYkxzVW8tZjdIQmlWdlVRWXB1N0RIMzFlNm9oajBHc3BIWkNrVVd0RmtCM0JBcHhXbGcyU293MkRyR1BTQ0ZMTEQ0c3R3YTUtNWZ1aXdzR2NHRzNTLUU2SXpYeGdpZzQ5TjVsM21QOG82X0t0d29IUHk2VU50X0VYUXJtRjVSMFJoaUd6WDBMLXJ0RjJFamFQdG9aUGVza3BidUUtQmNQS0pyRlJjb2RKWmR0OWdadFnSAeABQVVfeXFMTS1YSDY2YlJ1ck8zQjBnMVozRDJEc2xReGNXZXdhMjhMUEljSmJ0UkRNRm9Ub3pLdnM5ekZjOHQ1dDVjd2pkUjVSWENzdWM4c0RUVF96OFB6X1NXbGVfdUczbUhzM0lXNlpqeHBJQmJMaEZ6MEpVYi1VTnhKRmRaeTdHMUtocFRUTEJVVkhZY0QxdnNfY3NQeHVsd0pVdUVPQ1lyTTlpMXZMbDVNQWNJV1BDOVRES2NxaVlla2s4dV95LTNZVTAxZzZnSWxfNXJ2UmJiLXFSN1V4a3J4UUdrQms?oc=5",
-          "source": "Storyboard18",
-          "publishedAt": "Mon, 13 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-14T21:47:02.041831"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-14T21:48:32.397554",
+      "last_updated": "2026-09-15T04:21:32.129240",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -600,7 +558,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-14T21:49:57.211374",
+      "last_updated": "2026-09-15T04:23:01.054580",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -684,7 +642,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-14T21:51:17.725579",
+      "last_updated": "2026-09-15T04:24:07.387938",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -768,7 +726,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-14T21:51:26.486601",
+      "last_updated": "2026-09-15T04:24:18.749064",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
