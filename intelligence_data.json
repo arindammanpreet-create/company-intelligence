@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-15T04:24:18.749075",
+    "generated_at": "2026-09-15T11:37:19.085027",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-15T04:16:21.621586",
+      "last_updated": "2026-09-15T11:27:04.400621",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-15T04:17:21.111021",
+      "last_updated": "2026-09-15T11:28:35.145424",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,65 +182,21 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-15T04:18:06.829673",
+      "last_updated": "2026-09-15T11:29:51.031553",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": -1.0,
-        "label": "Negative",
+        "score": 0,
+        "label": "Neutral",
         "pos": 0,
-        "neg": 2
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "ESG Compliance Gaps at Infosys",
-          "severity": "Medium",
-          "description": "ESG red flags detected at Infosys: governance. Sustainability benchmarking and stakeholder perception study needed.",
-          "detected_from": "Infosys ends leadership uncertainty with a dash of confidence  Infosys CEO Salil Parekh's legacy: Doubling revenue, securing $100 bn deals, and AI str...",
-          "gap_type": "esg_concern",
-          "keywords_found": [
-            "governance"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: ESG Performance Benchmarking",
-              "impact": "Medium",
-              "timeline": "10-14 weeks",
-              "price": "₹20-32 Lakhs",
-              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
-              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
-              "gap_type": "esg_concern",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Digital Transformation Lag at Infosys",
-          "severity": "Medium",
-          "description": "Technology adoption gap identified at Infosys: digital transformation. Digital maturity assessment and tech investment ROI research required.",
-          "detected_from": "Infosys ends leadership uncertainty with a dash of confidence  Infosys CEO Salil Parekh's legacy: Doubling revenue, securing $100 bn deals, and AI str...",
-          "gap_type": "digital_lag",
-          "keywords_found": [
-            "digital transformation"
-          ],
-          "solutions": [
-            {
-              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "Infosys: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -260,53 +216,57 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "Infosys: Competitive Intelligence & Win/Loss Analysis",
+          "severity": "Medium",
+          "description": "Deep-dive into competitor positioning, pricing moves, and market share defense strategies.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "competition",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Competitive Positioning Intelligence",
+              "impact": "High",
+              "timeline": "6-10 weeks + ongoing",
+              "price": "₹15-25 Lakhs + ₹3L/month",
+              "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
+              "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
+              "gap_type": "competition",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
+        {
+          "title": "Infosys: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "Infosys: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Infosys ends leadership uncertainty with a dash of confidence",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1M4N1NmbWxaejF1X0FYWlptMFYwUDFYQTBodTM0TWpUWjFhVXBibUlKb0dkemxfQ3EyS0d1MTg2aGg5eXNJMHlfbkxqUU1vWDBubXVmZVJSSTBqV0l0ZDIzWWlqZmQxUVBROHhQbmxieW9yZ3lpUG81dXFTMmJyeWxyQVhHRHJKYzd6Mm9ZY2EycXR6bmg3VEtqV1c4Z3ZGQWROUGpNaGxhM2d20gG6AUFVX3lxTE82cm1mclZWX2FuQUFVZlFtU09UTnk5cVlsMm92UW44bjAzTW84UW43R00yci1UZ0ZnV3FTRUF4WEJZM0FkY196NHJPNzRORFo2Q1FmZ2NkNlNNaUhZRkxoMEFISEpxOEFZWS1NeWZJUHBoY2JKckRvNzI2QnBJMWU4Tzl0SXM3QlIyZV9PbVhCLXRadkFMZHFLX0dYTjRPQVdRd19mYWZTSjQxZEFETjhCSkxvWjRGVE5GUQ?oc=5",
-          "source": "Fortune India",
-          "publishedAt": "Sat, 08 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-15T04:18:06.829311"
-        },
-        {
-          "title": "Infosys CEO Salil Parekh's legacy: Doubling revenue, securing $100 bn deals, and AI strategy",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbkVCNmpFRWhGaHdMUTU1b3JFSFVNYWNHb3FuMHlWdy1CdGc0YWx2bHlXUjJrQnp6Tl9KZDBpTUM4OG1td3Q4QTlvNldtQmpTb0xGUWtCWVhNaXdnUzdRZU1FNFJ0NTRHazB5TVBoTnFRSWFHc3VkNmd2R0tIR2N3SWU4dVZkSXVmaFJBNXNpRzU5N2hrNE9WQnFtYlo0d1pBeEZLY3p0enZRS2tubkJ4YVZZSUg3c1h3RWpGRUF3STZKeHlodHl4T0hLWjhpVmQ5YnJuUGR0SW8wM0Fyek9OQnpMdXV5RVRPdlZiT1duS18tUjDSAfgBQVVfeXFMUDBEYXBtVDNnZEdWejdGdTl2NXlBaFdpS3NYNHJhVlJIVWZxaTR1bXZXcE05bmxvbU9KT1lwMmZUY092M2ZmekdpZU5JTGo5aEl5NFAxd0NmWlNTSnUtQ0VWUGhJLXhxYnliWkpSQWtSM2FjNGgtSWpJRVctdW83MGlLNTVvRm1vTDN4NUwtQ3dYc0tqVFg4OUVYNzZwd1FRNjgwWm1kc0N0bnNfdUlFZnBYeXF0bjJYWU44TkVBNDFlUWdfcnZIamFEdW9iaHBwOE9OOXVzZU84SzlIc2RfYkRzc3ZXSjEwR0UzT2F2dndSZTkycU9iMjQ?oc=5",
-          "source": "ET Enterprise AI",
-          "publishedAt": "Mon, 31 Aug 2026 09:31:22 GMT",
-          "fetched_at": "2026-09-15T04:18:06.829324"
-        },
-        {
-          "title": "Infosys To Discuss CEO Succession Plan After Salil Parekh",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd2pOSlJMNFcwX3VVNXQ2R25fOTZ2Z3EwTV9ZS3pFRVN1WWthaEJKR3JPVjVSMVFuY0tmZnVGVkQ1X3Bwd2N2dVItLUdfZUlGZWVZVGVKbkc2YlRWMkJWb2RnbmsyNkZJU2Q2V0E5eFllTWRySmlqS0dIaEdkVU1sTzBKRnBYQ3ZKbFRWN3EtTkdQckpKWExlQjZJSFVuTE42WGs2NkRvRkY4dWo5MU5VSzhCUmpHRFRMR1HSAbwBQVVfeXFMT0pHelVMWWJaYmhqWDNDdHlPMmcxRkNDdm1ramNONXBEWkxFdklaUWUtOE92eThZWU5xcmhkVEFvTENBSVhNVDg2Y1RVWVhnMllTTWI1bmZ5Y25uLUd2TEZGbDlZTHBoMG11eFFsV3YwSUZrd0JnaVV6SDBrQzBwUUdsVzJTZlVsWXdDN056SlNhczlBZmhJV25fV3ZMOVJlek1MckFKZHVuRktiZFBhSGZid1JPbWM2dW9OSUc?oc=5",
-          "source": "News18",
-          "publishedAt": "Thu, 10 Sep 2026 05:31:52 GMT",
-          "fetched_at": "2026-09-15T04:18:06.829329"
-        },
-        {
-          "title": "I'm leaving Infosys in a better place: Outgoing CEO Salil Parekh says company is poised to win in AI...",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQa1paVFFmc0lhTkg0S2pBVGxOVUs1RFVhUHZjZXBPelNNWC1pTEdCQmpyOUk5eFltbThsM0ZucmxyOGhSQzFRdXpYaVRzYTVRakRjcEUyOWUzZFMtRURzaDJCSFgwZ1ZQLU1PeWdpMERWR3gxTDdSdmtzS0daWkwyeWRvTlVFVGVnUzE1LWxvdUNhcnRpQktBWWxNTGFNUTZXU2FucEVFclRVRzVaUFg5cW5pbDZCeTdDbldDSXhhZjRBbGppaXNGWDVKUURmZjFhQ29PWFp4WDk1UzNyNkxuc05xVzRTTFRCYzExWVdnREMzU0szSWhGVlpLT01fZ0JuZU5nMVNGSmdXalhTOFQ4SzlENXdUNWvSAZwCQVVfeXFMTkxlNXhJVXpWR2J2ZS1Tb3VTMzhUMFhCaHREb1EzaElrRENremdPcnBERGpfSzBkRVd5WkNnSm5uX3BFbXV1a2pKVnVuRThId3NabktSNkJ3dVc4QkxvbE1BNHlieFNTbmhSeldUd19OOWxvXzl0b1B6S3FSZExIamJwY2Vxb2Jmak1NZWxWUGxhc3oyTlZTM1o4TGJJa0FSN3JsNXM1M2hCYmgwei1pYjZKN3V6bTV5ZFFTOXpBa0Z3WHEzM3BaTDBjWUs1ZWdxc2tXQzB1TmNSNXYyMmJVVm1pamdfejJya2ZUbEVvbjk0X3VzbjBuYmlRaWI4U01KdmRmdHdPbjdUOHYxem41RmJOV2loQV9xV1k5MXo?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-15T04:18:06.829333"
-        },
-        {
-          "title": "Unlocking AI Value: Salil Parekh on ROI, Jobs, Data, and Governance",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oWDVGNUVCeU14Y1I5dVcxOXJBb2xwVzYwdWdxWktNSjdzdmFiRFdYc2NNNWFpM1o2bmx1YmdwOW9EcmZPXy16ZFdPWHBEdkJjYTN1LVJBajVDbkJsZ0I1M205cWlTdGRRTVE?oc=5",
-          "source": "Infosys",
-          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-15T04:18:06.829336"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     },
     "HDFC Bank": {
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-15T04:19:17.830308",
+      "last_updated": "2026-09-15T11:31:22.629330",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -390,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-15T04:20:18.089259",
+      "last_updated": "2026-09-15T11:32:23.391417",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -474,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-15T04:21:32.129240",
+      "last_updated": "2026-09-15T11:33:43.196265",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -558,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-15T04:23:01.054580",
+      "last_updated": "2026-09-15T11:35:17.889660",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -642,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-15T04:24:07.387938",
+      "last_updated": "2026-09-15T11:36:51.292871",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -726,7 +686,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-15T04:24:18.749064",
+      "last_updated": "2026-09-15T11:37:19.085010",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
