@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-16T04:23:28.445968",
+    "generated_at": "2026-09-16T11:23:13.704143",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-16T04:13:08.635109",
+      "last_updated": "2026-09-16T11:13:04.882705",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,18 +98,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-16T04:14:37.450237",
+      "last_updated": "2026-09-16T11:14:24.250857",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.5,
+        "label": "Positive",
+        "pos": 3,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -175,14 +175,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "TCS to Accelerate AI-Led Technology Transformation for Germany’s Aareal Bank",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ3VxLUJReS1NbmxaMy1PYnlHcTE1ZVpDQjctT1hyRUE1eUF1QVB0aHV2dGVOSmNXUnJGdjQwS2RYMUVMVWRaazVaamh6d2l1ZzZYU3NvT01vUVQxNnBnWFNXaGFYbnEwMzllblZ0bk9KVjktNHlVUzRhYXd1ZWFGaHh3OWpQWEFYRjNnZEZKRWtVTUdMd1pNeVVTZzk2cURwZWJIOHNldkJhbVRIVFBIZDF0djhyTTdLVG9VaUdn?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Tue, 15 Sep 2026 09:13:57 GMT",
+          "fetched_at": "2026-09-16T11:14:24.250541"
+        },
+        {
+          "title": "TCS may shift Bengaluru staff to Yeshwanthpur as Bhuwalka lease nears end",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPYzJ5dVZHbmhtdmFIWFk0dGRoNHZMcnJmZTBja2MxbUl3UEFVZlNoV3M5U2V3V1FuOHpubV9sbDNNbnpaTE4td243UTJKZTJLRXY4UFFzZnlPMDBNVGt1cWRwNE56Q1hIbUh3UUhKNE1UY09ja2xKT21rSzg2QnAtZXpBQjlOUDdQbVlERnk0WGx2OWFtLTdVODQtQnhJMW52TmNmcjBiV0lGWHpHaTdhWG1SUmc1R2lYRWhKcjJ5NVBPbXFCekZxQUFwbm9MdGFOMnZCb1NGc0piY1h4cTc3bHZoSE11bVZZ0gHuAUFVX3lxTE5pNXpuMm45UlNiT1Z4ZTQtUE5FU1RjOW5pUkpjUWVZTl9TV1dzSU02ZXh3bXFsbjN6UUVjNnFMaFh1bGF1bjh1Vm9oMFlqUGVWMkI5LWkzQmlDdENNZTBzaThCd01pQmFzSFZQTnFGZ254dHZyTmJEdmgxOVJ3OEF6bTFLa2F5REhaNTgwcU5TUmxjMkVzcmJyZG5vRFNNWGhKRDhOYS1GdnFteEF0V0dXMzZ2VzVMYlo4WDI1dnNGNGFyS2dkMmZUMmtXVTZKY1VxaDU4WGtjS1VZQWpzU2xKRHJRTmlYekhRaUVSN1E?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Wed, 16 Sep 2026 04:28:01 GMT",
+          "fetched_at": "2026-09-16T11:14:24.250556"
+        },
+        {
+          "title": "TCS Share Price Falls 2.26%: Price Action and Valuation",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMk9lYloyU0RiNDNLdENmXy1TNGR5V0g4cHQxNEVPTk92dEJzV0ZDWmFTN0RqSVpsZWppY0xKOXJOMlVTak5peUk4SEFPeFlSY2prbEZka0VpaFJ0VHFPRDVDQWFyTkw5bFl4Z0tVV2JZZnVlcEo3U0xoT1VleUtXN3B3REFpdWtMMlpYYVpPR0lFQQ?oc=5",
+          "source": "Univest",
+          "publishedAt": "Wed, 16 Sep 2026 08:18:49 GMT",
+          "fetched_at": "2026-09-16T11:14:24.250561"
+        },
+        {
+          "title": "Top Gainers And Losers September 16: HDFC Life, TCS, Wipro",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQXdPMFN0U2NjeGR0ZXNMQmRuR1I3YUg1TlpBWDVGQlJOd3lkdlVnOGFGR3JmU25TNHZUWWd5QVVvTDQzLVljRHJPOExvN1I4Uk1meUZnRlREcUc1eXA0N1JmYXNJeG1DcUowTEJjNmlNS2N6czBwUUlVY3UtS1VuSWhDb1JoU0M1ZzZNa3RGZHcxYzBqdG91U2lR?oc=5",
+          "source": "HDFC Sky",
+          "publishedAt": "Wed, 16 Sep 2026 10:36:35 GMT",
+          "fetched_at": "2026-09-16T11:14:24.250565"
+        },
+        {
+          "title": "Tata Consultancy Services Ltd: Technical Momentum Shifts Amid Mixed Market Signals",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObzJGTUs5b1o2cWppZjJwU0liRTc3OVdBWXdiN3B1ZThRa1FyMTBVWHpNZ1FvUmhFNXdMZVBlNjhEdGdzbERKbElweTFTREhxdnBiQkVhVXdHNDNTSFAwdzBnWTFqTmp2T1FsM3ZZZFd6VHhFQXM1cEwtTDZmNnJCUnd1V0IxdnJPbU5qaWU2NnZ2cnVtZWdHaVdiUUtBNkZ5MHJyRlU3QkJFQ1RjWkl6ekFYOFYybWxpaElDdUlXRlE3UW1sem1pdHNneXF1RC1STWwwZVZB?oc=5",
+          "source": "MarketsMojo",
+          "publishedAt": "Wed, 16 Sep 2026 03:25:02 GMT",
+          "fetched_at": "2026-09-16T11:14:24.250568"
+        }
+      ],
       "filings": []
     },
     "Infosys": {
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-16T04:15:45.732185",
+      "last_updated": "2026-09-16T11:15:42.984633",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,21 +302,114 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-16T04:17:13.981051",
+      "last_updated": "2026-09-16T11:17:04.839516",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Who Is Kaizad Bharucha? All You Need To Know About HDFC Bank’s Potential Next CEO To Succeed Sashidhar Jagdishan",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPbzlqTmE0WVI5MGNmbFBpZy12WGM1amtuTXU3RDA0S0JxTlQ5cnJocHR1c2ZSckJCZ0gyRS1TeEFZUUc0ekFQdUg0MTZzU1RQQ0V6ZlhjX0ttNy0zNUZJRFU3eEFpdl8yWlItNndDX2ZzUWRCaE9LTlZLbFZtOGFfWTU4VW9uOThYdVJ1Nm5tZXZvbVlGeGdGc1JBenE0VmRNWGdGUlZEa2MtWWtEMFAzZ2ZPTkMzS3d5TEc2RV9EMnFKZnEwY2NMa0hNUWVxNjV2cEMxLXNMVm55NzhkaUVvb0I4WWpCSGxUTy1adUFXU3NaS3B4OEp2WWJ3OF_SAYMCQVVfeXFMTzZMZk1QSEVjUEd0ZWIwY2g2dXN3QW9sOWo1aWZnQS1WR0w2Q0MyMllyMUstWTZyNUF3cVE5LVZLVlQ4WjNkSTdnRWFWTVBrYVhzZDQxc1Zzb08xQ3RtUkZGWUVZN3A2bEhaemYyYk1WWmxwek5XVEJTYjJyNnBvVWVvNTVaclctUHhjV2xMZjdVTGExZFJRT0MwNTNOcFJmVjhBUWR2UDlWVU00WjVYcVlXRHdmWDZ4TXMyZi1fcFA4V3pERVdnR1NWWno0S2NoaVJ3UF81YTcyUGVycTRkdUJoaENhZ1ZBSkhISTBiNVdNcjZ6TEt3ZThQUHNWcHJqOEpnYw?oc=5",
+          "source": "jagranjosh.com",
+          "publishedAt": "Tue, 15 Sep 2026 08:39:46 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257325"
+        },
+        {
+          "title": "Who is Kaizad Bharucha? HDFC's Deputy Managing Director, who is among frontrunners to succeed CEO Sashidhar Jagdishan",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeUlhYXJpcU5iZnBLWGZwWWlGaFl1MXpla1h4MmQwSk5sSDl1ekR1V2FzcGVjWElhSVVJcGFPeHZTc2RHSC1ER2ZYUFd1bzl1Z0dxNVFjc3dIWXBrZXk4eG5SYTN3NWMyOC1ka1pjb2VZRDY2RTRpaDBTWWlaRUFZUVlkcHhGVnl2OVBQOFE3NTZXZzN6SWlXcFAwekhvbFdiTWZYT0NJcHpsNmpYSzhpUGlIVW02a0p4dXYyTWN5c2lOOFFTcnF5VmJvZ19ibnhnY1hud1F2VGdOQ3hQMUFGNkhyZDlrLVlkNXFPdU1Md3RnS05NdlVUZHJZSGctVGVTMU51QUNwSdIBjAJBVV95cUxPMDJUUU1EVlFLSGZpVXhVM3VLcm1qTTI2Zl9Qbm4xa3huVnppelpkbGRUbUt1QUJLM1FHeVZEYzlhMFhFbVlNY3pTckQyRU15TmZuaGVmOWV6SmNLWjBJY2t0NHZkOUtiSWhRQ1N5b0lYQWx5RkFoV3RlRERQbUNBSzRYR2lUbFNjSkc3WVNCX1BrNUpra1VRenByY2pQVTZ4d2dCWllsdjFIMHFqc180VlpBSkY3QTU3SndlRnRrR0VSRUh4OHFDZGx6WDJ2eDJLRTFLcjlHU3JaTkxyTzkxQ0VHTU1UV3VqZnEyNjNVY1ZoNnpKYWplQXNrZUJIY1o4MFpRc08yZVJPSUlT?oc=5",
+          "source": "livemint.com",
+          "publishedAt": "Mon, 14 Sep 2026 16:43:05 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257341"
+        },
+        {
+          "title": "HDFC Bank board 'successfully resolves' issues, submits names for CEO and MD’s job to RBI: Source",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQN3lBamFST19yWFdxTU9sVjNYdTZfVUk5Z3JvbXd2NW1jQXB0OWtPektxakdoNzRiSGNkTVFDZGVhTVQybmZwb3VHdEsxNE9SdUh4dHFXMWs2VmR4TEJ1aHoydVpmakxVUU83WW9kNFBPQWY3LWpIdlphV1hjSTZXNXJUNUhCbU1FSWI4U1FoQ0YzU05meDBoVXZvbk9CUUIxaFNVZE9fYUNkbThCZDE5Q1pEWnZzMUxSNVJYN04zSzhpM01zUlI4OERBdHhRTEw1X3U1Ujhwc3AxMGx1bG5vcnlaS1MzUVnSAewBQVVfeXFMUGdlMEIwR1dvWTdSb21SeVIyNnlmNDRwMWkyNkVFT29FQkl4OEY4cVAwd0pXeE0zdk1UYlNfRks4VGlHNzlGZkduUi1WNFhWOGVoQnZRT3dSdHB6M2hJNUJzblc5X2dPdzRGRHA1eVBIS0lkUHBpSXp1V3c0NFJ2MENfbGt1NFdiM1h4cXlEa0g3am9TSHh6YUYxd0lLSWNfLWppYmNaamFzZXNBZ3hMdldFdms5U1phNUNNVndOQ09oMmdvN2h4eTVlRDFaSXNiTU1oRFk1dUxMbTNiLXNVNzJrNVRQUWxXaXl0TmM?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Sat, 12 Sep 2026 15:54:38 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257347"
+        },
+        {
+          "title": "India's HDFC Bank submits two candidates to RBI for next CEO",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNjdMbW15NHlUVGNJZHhBaUJxWFZRUi1aSVNsYTBCb1p4T2VyRzdEZWYzZUhGZ0tCQUo0eXNBRkt1RE43T1RKSWg3R2xRX1ljTkpzandKaG9JVzJ3QlhtTk04cll5QXVLd0M0V3MwWU9ycnZIalZzOU10NGxQUjFwTTN3M3BHbzBMWXpadmRmYkxlVWZxTkJzdmNlU08yb3RMTEE?oc=5",
+          "source": "Reuters",
+          "publishedAt": "Sat, 12 Sep 2026 11:59:43 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257351"
+        },
+        {
+          "title": "HDFC Bank sends two names to RBI for next MD & CEO",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZnlVbGhwLUNZb29xZVRORXhvQnlGQmJLOG1ZeEEyckNkVG9RVFhQemFlbG1rbzZIMFRCTkpxQk5ySmJaYTduLVpCMU1xUU0yUjdkOEhoMl9mdDBHUmtSVW5taFNKZV85Vmp5UGVQX1RGOFlwQ3hKenAzRS1sa0ZyQ2JZYnlWUUZ4MkhDNk1UUlJRMk5sWDJIdlNQWlByNFFfalE1Y9IBqwFBVV95cUxNcXZDVVRuWEZnTzNrdk9meUlGeksyM0RuY0JQd19DT1pKZkhkcU5GS2F2R2UxWkFWMC1zcmVxUW5hQUI3Q0FKenk0SjRtdERvZk4xelVNU0gyZTB3bmFpelo2OTZESF9KU0ZheTdadmtzUFVpemFhODFzV1RCM2JJMEpmNDJHVmRYV0h4MllKeDZLeGh2bHVkZUNLRDF2WU8xUTZfZUpyQll0b0U?oc=5",
+          "source": "The Hindu",
+          "publishedAt": "Sat, 12 Sep 2026 12:00:14 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257355"
+        },
+        {
+          "title": "HDFC Bank's board approves two names for MD&CEO, sends shortlist to RBI",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZGlRMEMtZDVQRHlZbHhzUEF2bGlJaXVLY2hfaWpET2V0YlktcUF6VElDSVhfSV9ZVExSMFJOc3hGUTdOWkRZSzdzZ3hpMWxBNkwwc0pxekFuRzBBZXBJTlpkSS1UdHNRQkJDT0h1VWlwRk1hSFRPbmtqdmhFN3pLRTVuUUQyVjV3dzVJZUZ6SUstamxrUkgwQnZFOFAybzdWSFZycTVKTkFZbGJnRmNuZE13bVJaU3lMS0J1U2gyZmNDX0tvaWtkUGdINF9DUWFLclhiTnBR0gHbAUFVX3lxTE44LUg0ZlF0ZDhRc3lvM2NEY3RVZUdaaDhUWlBmV09FVUJCcUxmWS14MU9ycVZEQS1UNTF1QnhhWFBRTHlKSVVrVDltR2Nmc0tfeHg3RWFpa1E0SXVsaUxsQ3hpNkd4TFVnY291aUtvcGZyeWZnYktqeVFHc2RMNlVhdzdZRjlxTExJaEVWU2MtUHBhVFdZbVZSSFpWOGJOY0hhY21uNWhqcEJwVUJJeEhkMjByRDhOdFpmbVowNkg2bDVvSTN1M0VIQmV4Q3drcWlVNFA4Y0c5bERCMA?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Sat, 12 Sep 2026 12:09:17 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257359"
+        },
+        {
+          "title": "HDFC Bank names 2 MD & CEO candidates for RBI approval as Sashidhar Jagdishan prepares to exit",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbno2d213WXczTF80X09ZVFhvM0pDNmJ6cnBzY0dpd05DN3E0R004c0VPMFk1UlZFSXZROVJKRExJeE5XLXlqc2w2RlZFdUptM0M4RnBzTjRkTWFjdU9EdjUtM1JJNWVTUE1YSHg4eldMNXk2Y0oyQmlCNzFsU3VtZkNFdF84dkVEZ3luRGlmYmMteUowNXV0aGlZem5VX3Nkdjl2UUFfcFNvU2IxSGN2OVFVbGl3YWp6Y0FkWXRIc3pqeW53dlNpYlVVZTZGcXBtdkRzSlpCdnJTSnhveUcxNDNsbno3NkZXSWfSAe8BQVVfeXFMTzg1LU05MGVDbjhDeFNBWHhBb1V5RmFRM2RPc3Rjd25xeXhOdGswTzNzS2VKeVlTWDN5alFzWnQxMlNfU25OdUkzQUloclJ6SlFoS1lOSmh1bU5Tek5WQ05venZPcTZrdUNNM01FdmZJdXh6ajZOYUxrbURUU2w5Mk1JVnFRQzdieG1jeElRQ180N2l5aFB1emJNTjltdk9PWGNQbFkzQ2tOTkF3SGhibTRkdmRfNTR5NWpoM0xPUTZNZWt2eG51eW43NXJOR3dlM3VHYnVwLUk3dUNybjI0VGF4cEFTM2JoSVk4MndBZzQ?oc=5",
+          "source": "livemint.com",
+          "publishedAt": "Sat, 12 Sep 2026 12:12:58 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257363"
+        },
+        {
+          "title": "HDFC Bank sends two names to RBI for CEO post",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNmlrVGw3OFU0RWdTc2VJSllVMkRMU1FzaVlyaEhYcU4zbmpaSm1pRjRvSlRLM2ZNczlhVnBTNk9leTlJSzR2bV9KWExSTW5uWTJxWnBmcDI3aUtGVGRhbjE3TlBFcnV3U00yM3FVcS13VlJodmM0R21hMlA5ZDg0WlJBdkgzaUdneFlpMjFyS1hXdWlHanhrNjdTdjJQR3Yw0gGuAUFVX3lxTE9OemNZUVlQZlJnX2N2UkRUaUNvdU0wWTgzYzA5SXZTYzZpTVJqRkJBTHR5ak9YUHh1NjRZdWx0TEh2cTVXMGt5LWIyTzhqalM5SG85c3NVOWs2d2lOTXJLOWo1d1FUeklQN1ZDMmJkUXNNOXhQVE9ZTnpOM3l6TFlmYldxVGVOWUo1YnEzQ09Rc3UyZTg1MW44NEhFTG1yTFY2NF8xbl85S1cybWtFUQ?oc=5",
+          "source": "The New Indian Express",
+          "publishedAt": "Sat, 12 Sep 2026 13:03:05 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257366"
+        },
+        {
+          "title": "India's HDFC Bank rises as CEO succession process moves ahead",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUEVwbUxfYmtLWHA2UHVya1MtOElKWTNNaEdhSjdTWFdpOEdDdXlhcFRxY0xHdWFfSlZELWRMWmJabHRRNTE5aHViaWRPY0JucHFxeVQ4WEZYV2haS1V1SjBOemYxUmk0VlZXTEVvZjAtQm5SXzU0U01Jd3ZKQ0QzVWU0M2hVNHFEOFZoZzRoUzBTUGU1eTRFQU15V3REb2JieldOMHhQQXl2eWNIWGo0emdvd0pXM21mcWpvczVDVGpUUlRkQTg2bWNjekpsOXl1bnfSAdcBQVVfeXFMTWh6RE9PN0owSEQxUngwVFYwY1pSNnI3ZFpuREc3T3FFclBlWVc3Y28xc2hJMUJRalRyUHB2dWExbEdoSzJnbFAzc2JBYVVFYm9Nc3JGc3J2NHlxVk44OERUM0FoZHNIdkpkRjVWcFBxei1vRC0xNzRmMU9xVVQyWk43QnhicjBoakNSNzM5clhBdE12RUtYQWc0ZWd5VmpuYnZxOHBoWnp6SGNPSXZrOUwzRWpiVUJSelJEUVhYM2NTbGxLdWFIby1URmcyaXNHYmJpZzNlUFk?oc=5",
+          "source": "cfo.economictimes.indiatimes.com",
+          "publishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257370"
+        },
+        {
+          "title": "Sashidhar Jagdishan’s Tenure at HDFC Bank: Six Years of Carrying Other People’s Baggage",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeXU0WkMyRlR3VEpJVGpYSFBkR3p4c1dveTVxQWk3Z2F5dG83VkZkRDlrbjVUM1FEN3NBYXd5b19SanRncnVuUXJJaXd6VnFDRWRmazdRZTZZZDc5Z0tNX0dRYmJGVDI3UUhEcE8yVkx2OGNRWElHMmZBSXVVOXV4aEt3bGpFb1R4N0NWY1YtSEdkbVpieml4c2I0TW0weTM5SEVGemllU1hZZXFWWFcxdXcwMl9DbVlXZi1CZ2ZDLWtpNFMxcXpz?oc=5",
+          "source": "Moneylife",
+          "publishedAt": "Fri, 04 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-16T11:15:59.257374"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at HDFC Bank",
+          "severity": "Medium",
+          "description": "ESG red flags detected at HDFC Bank: board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Who Is Kaizad Bharucha? All You Need To Know About HDFC Bank’s Potential Next CEO To Succeed Sashidhar Jagdishan  Who is Kaizad Bharucha? HDFC's Deput...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "HDFC Bank: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "HDFC Bank: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -320,26 +449,6 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "HDFC Bank: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "HDFC Bank: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
@@ -350,7 +459,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-16T04:18:20.208500",
+      "last_updated": "2026-09-16T11:18:15.222198",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,20 +543,91 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-16T04:19:50.546317",
+      "last_updated": "2026-09-16T11:19:41.854410",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Mrs. Nita M Ambani: “Hope the kids go back with a lot of cherished memories”",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeHo0cXpDU0tZRkF4RGFVLVhqZlFzRDdod2RSOEViNjRSOHdBb3E3UC1fRjFvdUxSa05yRGt6NU42RTFZcldWTERCNUMyNGNNRmlHVjAyV1NHQ2NIcjc5bG55MF82U1BTVVNsRFNYc0p4aGRqaFpuWmoycHRaX3NxRmphb2lJRFgzVjNUV0JtNUZxdHNjNW5xYV8ya2taZi1hY0RacnA3UFh6RTg?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296820"
+        },
+        {
+          "title": "Mumbai Indians owners Akash Ambani and Nita Ambani at the WPL Eliminator",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNkQ0eWdCejN3S296U0JKNlo1aHRjUmhlSnBqYXhQRDZfaFUyU0NXcGtfZG43c0Rabjc1NWxZVW50b0xpMXNVMUgxeWFUbUMyb0JnR1hRcmtFY2Y2WWs3UUVjRWpGemUwY2Vpbnl6UzRaYzk0bmhMZjl1QmVpSFM1bDhrZUZaMXJuemdLLWx5eHlmVktNOThlX3JPa21yN2k4eTNvYS1YQ1ZYTjg2MUxiRg?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 05 Aug 2026 14:10:17 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296836"
+        },
+        {
+          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296842"
+        },
+        {
+          "title": "Rohit Sharma unrecognizable, Mumbai Indians owner Nita Ambani reacts to sensational transformation –...",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPcHV4RGRkbWJVR3RvRVpvalpXa2c5VTdIQW5YTWVuc2dqTnVnNE40bEVuLXNZX3BIVWpWeDJWZEdicXNQZUxleDRESl91MHR1WmlTdXFhTVNCQzh0VS1sLVBjLXlBS1RYZG53UUF5bU9pLTBiQVJyUE1QMUVVTE4xOGFKSWQ0c1NVMzNsWVhldlU2SUl3TGFmUE1PYkI2ckphZ3dlc2duQm8wOVd1czdqb2ZNNk1VT0RjZG5VRzAzU25GcG8ycUluR0JicW1pTnhFV2UxUy01NEpKeVY0MDlBam1oUmoxWWtUTHRvZ21VajVBLXRrWE9LMzJrODhxUdIBgwJBVV95cUxNRWhKWnVmN3dmWnhOcC03NGR4SVFaQmY2ZmRxdlhFVTBnNUhzVEl5MzIzSTdWY0pKLWUwdC0wRElyZktXNFQ0emtmdzRfUFJfV05HSElJaV9GNFYxOWo0ejlWb0RkbC05dUR0UFlzR3ZjcXRmUUV3YWRkaUxPeTJYR0FrMkp1Mlk1NFV0NWlBSjVuUHhHakkyd2xnX2stV3lFTUhnRGFCSkpTSkpEclU5WVZENmwwbUxTWjJ2YlN1XzhNTDhjVm5FWFFCUkhYNFJMQWxVbTAzaFJ4RE5GaEd4WVltYjRWM0swSlo5V2M2dEFxOVpjX1dWeEVVTlBrb3ZsX1Fv?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296847"
+        },
+        {
+          "title": "Mumbai Indians owner Nita Ambani fails to recognise Rohit Sharma after batting great’s unbelievable transformation | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdWN2MWEweHFuLWdadDNBTDFTQVdzVnRYTm1vOFowcEtvQjhCWWZ1aHN4MXNTMDd3aUlxdVFaZWhwY3MycUZaUHNBVi1vUTRFZUJINHlqcXdpdE0xc0xZLTRLc3Y2SWNqRUpjeTBad3lnVWllZHV3TWRJVjNlYmE0RHFVYVlqcWxqTGI2bFdaNmRaWnRvY3lrM09WOGpGT3hPSmpIbWc1S28tTklHT0RtNVJ0NHpBcFhfWlF0THhJYWZFSmNsTFNCVEtEU1owZVpfSWx3ZF9ZOWVHTU8yTlBqX0JsRkpNVE5OUF9PSkxuYzB1N3JxS2RHWlFUQnEtMkY1Ym5rb9IBigJBVV95cUxPa1lnRlI5RmJlOUdybEtKUVVzaEdjQUlzcU1RaUptSWI3YXVpNnBJS1A4WVhWekotM0dabUxBMkE3UHpWVmVWWFhMalFOU2ZpYmREWU9Rdi1MeFZIbnVSX0V5LTRvMlpjelp5NU5odFNXMWtLRlBYQUk4Znk3SDdqR0tlOUhHa0Z5alI3enVmLU1vNlVRdVlxZTFsNDZJQW1pVkFKQmlwUG5ZX3FTRUppSUlRV1NKc1R0TXIxZjJXZGRiYnI0R253YjhkbTgtWGgycTByMWlidU9IV0tJZEhEQjZ0QlFWOU9uSVhJelczckpQVi1fZzB3MUUzVHMwdFdJNmpoSFNlNUgzQQ?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296852"
+        },
+        {
+          "title": "MI’s #ESAMatchDay 2026: When Mumbai comes together for 20,000 dreams",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTDlidWtGN1VLLXUxV1h3ckRrN2RZMkJRM1I0bEN4TDFJeDVyQTlyNnZ6TnBhX3FSS0Y4dGpyaUgteGQwYmxfMi1LdGNBelBOSWtJbThETVJuRnNPVU14aFJiSTdvazB5Ql9OcGRMaWxIc3NpSW53SmlkcnZoQ2xGSnhWTEVfNTRTTWppbmpmMHBkYUdPMFE?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Sat, 23 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296856"
+        },
+        {
+          "title": "Mumbai Indians owners Nita Ambani, Akash Ambani and Ananth Ambani pose with team members after they won IPL 2017",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMFdCVlV1S3AwX04tUVFSUVB1Vmo3cGtlZW5ndHNxeExXSVBVczlaS3ZncHpMNEF4aW53U29NbEI0cW95YWU3ck5MQ0hwWlNMWlE3Vnpob1dEeVV5Y1I5YjdrNE44a1ZBQVNsNnVHc2JTalM3NGRNeXVEMzloeHYtTjVfY2xhZUhvaExSOVFLaC1KbkphbnhpaFdIRUxPSThqUmhoWF9pS0doaFZpd2R1SGZCdm80WnhlLXFkS2wtQ09MWE13LVFWOUFDZTNBX0tMTDNwZW80RVZNc0ZLQzZjWXg5QUc?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 02 Aug 2026 15:34:37 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296861"
+        },
+        {
+          "title": "Team Owner, Akash Ambani, on the Quinton buy, base-price picks and planning the MI-way",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQXJJYUt0ZjZWN0xva2JZU0ExZTg4aWhTeHVFZ0J5ZXlDYzZqRHotSEVJR2RyZHRwWEozdGUyRWZwU0thd2VmdGtNdGFFSVd3bGVrRXdMWTh1YUwzTmwzdFNjMldBMzB2VGt4SVBQYTBIcjNlRmxCc0J6RGxDVUVtLXhkbWV1eHVKbHZnRGFBTzZOU0V4cDF2SGRPYjlRUzJNendUa0tCcDJFNHlIdzQ5aEJxcFh1VmdjNXc?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Tue, 16 Dec 2025 08:00:00 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296865"
+        },
+        {
+          "title": "Hardik Pandya (centre) talks to Mumbai Indians owner Akash Ambani (right)",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWXp4alB5enZ5QkhfamhoOXNnSWJlaktFdkZmT1JmaFdFSm43YktQaG91bWdwS3o3V2RmWkp1M2tQalpXV0tNTHZxLW9MWTJqaEFoLVVUOUNyY3JydzN1Q2dnU2JZbEZpZ0JjYlRGY1BkeTNUMkVESUFQRlVldDdITnl4eldWVzBQMklaa09SZEx5bjRCNloydUNaOWk5YlFqMTRhUlNMd0ZxNldZ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 21 Jun 2026 20:13:20 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296869"
+        },
+        {
+          "title": "Akash Ambani talks about MI's strategy at the TATA IPL Auction 2026",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQckk4SFlZWERaa2NVR3k4SFF5ZW1Pa1ZVdzRVbFhMbUdKSmdvSUZpS1RzcnpmWHdRWEl6WHlaNk9KRjRBUmVtbXpKbXFYNjVFVDE0Q0hrOFFjMGRUdWkxbGo3alp6NHQxak5yQ2dxajZLMXppb0tISW42UXU4bGhEblMtSlQ5QlpRVlZNa0MxSTlySXZjQVJrakVQRFdZX09McXBzOGNB?oc=5",
+          "source": "Mumbai Indians | Official website",
+          "publishedAt": "Wed, 17 Dec 2025 08:00:00 GMT",
+          "fetched_at": "2026-09-16T11:18:30.296872"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
@@ -510,7 +690,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Neuberger and KKR to Invest in Datavant Alongside New Mountain Capital",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMkU0Z3F5YTRMRGtvZHNCZ2w4TnRpX3VQMUEzMUNoWGlhaEJ6QzVFa1RBVzZ4ZVJUekIwMHNBMFo4X0xWLURJajEyaU5LZ0laSVFiMUpyOWZtdmNKNl82RXFCeHRYRk5NUElsT2s0Q2UtSV9Wdnlxb2hNNlctREJxYnBFRTBtZXRnRjlOVUtKTzJFaDVJWHVFOFNNXzU2SmlTTnVXYjhqd1NUYjJVX1pGZklTSl9xQ21XQTB2UU9pRHZiNnE4U0E?oc=5",
+          "source": "Business Wire",
+          "publishedAt": "Tue, 15 Sep 2026 11:00:00 GMT",
+          "fetched_at": "2026-09-16T11:19:11.790861",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR at barclays conference: private credit push gains scale By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVmh6UVAxa0JULTAzQmFyeHJqY1Noc3c4bUtXNmFJdkhUQzlhN2JKaHBuMHFJTHhSYUtMRVZIejVMQkdiVkZlT0cydHdNNllHMzhlbUR2a0ZmWFdHSWxKek9oUDZwTTBoTFYxTGx4WnViVkFrYjdnVGtGMGp1TWtSdFlrWUVDeDEzZWc5Um5QYU8wSFE2RUF3bndTXzU1Z3hpSWF6WHlfSlV2UU1pVHVQeS1KYllxR3lqQi0w?oc=5",
+          "source": "Investing.com India",
+          "publishedAt": "Tue, 15 Sep 2026 13:15:53 GMT",
+          "fetched_at": "2026-09-16T11:19:11.790874",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR (KKR) Dropped, So What Is Driving Attention Now?",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUUVoN2hxZkpqMEZackxldzVyVEYyZUsteWJWcUpPOWJHLVJVVVVQcFktM2NoWGdTVEhfS2Nld3M5U285MjRLd1BrRE5hS3R5YVgtbGVXTWJncm5WSklLak5ycWJtZmhETWNkeXIydF9XM1QySmotNkZFcG1fNDFzZmRDQVVoa3JqeFBTXzFxcEJqMzdweVdxby1hcm0xMTYzcXJEeXFVZGJfUU91ZnBoaE9pbkMyY2xJbU11OTZn0gHDAUFVX3lxTFBXOTBwMnJJeURTWFBTNHNjOVl5VVdRa2ZMaTlZRFdWbGtUM2FOLWNjUkc2YzY0VVZmQXhvMjlRMndnVFRSMDZBTEpVNE5tV1JsT2gtUHdObzV6dW51b0FmUGVGeHltTENsdE41dVAyaFZkWjBGNWxGalg1UUVRU2MyRGRialhRb2l3OUNyejFQV3pWekw2T3lHZ0tFNlY1YnpEZ3lJcDh2VUhwRFY4bDNBX0tQUTlDNTN1MllJWWd2Zm00dw?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Wed, 16 Sep 2026 07:29:15 GMT",
+          "fetched_at": "2026-09-16T11:19:11.790878",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Realty Income and KKR to Establish Euro-Denominated Joint Venture, Advancing Realty Income's Private Capital Platform",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMThMOWU5T19kX085MnFKam43NTh6WnNab3RzQWhOT255ZjV5enNRbzNEZjhsS0ZuaC1XY042LTFSeTc0VjRrSlY1SzFzTmdzNlBTS0wtRkJuWUkxeWYteUJFTVZwdFJuZDVYWXplS0pzRXpCaWxHTDc1cU1DNDNWd0VGNDlHdWtNVnhOSG14RHdubjVSTU50a3YyYVYzc05TV245QVJIT1NwcXBVbWp4dGJNN3Nla2RJdDBJaTZLcXVuN1hxUklhaGY0U2xLQW9qLW1FaDNZb1VDcWF0ajl2ZVl3czBMcXVLQ09GdFFnODdiZTZEa3RYc0p5eWZ5VGZK?oc=5",
+          "source": "PR Newswire",
+          "publishedAt": "Mon, 14 Sep 2026 11:00:00 GMT",
+          "fetched_at": "2026-09-16T11:19:11.790883",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Citizens reiterates KKR Real Estate Financial Trust stock rating By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQclVTX3BIRXl3Njd4UFVzNmU1eEFaYkRfNWVJZGMxbXN5VHh4enEwN2gtcG0xT2EyM3VOemJRQ3laRUloRVRlZmVPTnRIb29tdXVSaTVkc09oNWVma1lobVBPdjlWM240cGRid3NUZmlZd3pwYkVYY0VxYVE4NzRubFJQMjU4RFJfd3ZEZlgyUmhzYjVYMU1Td2k5S1FiZU9uRUZFN2M0QUFEekF3bi1kQ3ZfWHp0Zm9TS1dfM2Z0bTRtMnM?oc=5",
+          "source": "Investing.com India",
+          "publishedAt": "Tue, 15 Sep 2026 09:35:46 GMT",
+          "fetched_at": "2026-09-16T11:19:11.790888",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,7 +744,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-16T04:21:35.950916",
+      "last_updated": "2026-09-16T11:20:58.415280",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +828,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-16T04:22:58.330895",
+      "last_updated": "2026-09-16T11:22:43.638738",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +912,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-16T04:23:28.445953",
+      "last_updated": "2026-09-16T11:23:13.704125",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
