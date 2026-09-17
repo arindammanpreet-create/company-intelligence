@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-16T21:16:33.621631",
+    "generated_at": "2026-09-17T04:29:41.346198",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-16T21:06:49.373920",
+      "last_updated": "2026-09-17T04:19:50.870335",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-16T21:08:19.201527",
+      "last_updated": "2026-09-17T04:21:14.130787",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-16T21:09:07.385536",
+      "last_updated": "2026-09-17T04:22:36.845482",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-16T21:10:35.040766",
+      "last_updated": "2026-09-17T04:23:50.412658",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-16T21:11:38.276380",
+      "last_updated": "2026-09-17T04:24:55.542930",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-16T21:13:08.616881",
+      "last_updated": "2026-09-17T04:26:05.549345",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,17 +518,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-16T21:14:42.587278",
+      "last_updated": "2026-09-17T04:27:26.795578",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -594,7 +594,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Highlights: Royal Challengers Bengaluru vs Kolkata Knight Riders | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc3d2Y0JKVnN1c3ZZclJfMTJIRTkwZTBKdVZLQl9PbWJqTkpXRDk2MU4zNHlIOTJvdC1RLV9jd2JsQkllNHFIa1F2bnltdmtsV0lJaWdXeWJhaHdlNm9MLS1td1R6dWpRVWplcUh6WU5ycF8wWDhRLVZ6RHJtSGNmVG5TWE4yODZoVzlIb2I3Y0VqcEEzSHBYTFd6Y0ZMZlV3RHc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Wed, 16 Sep 2026 22:06:45 GMT",
+          "fetched_at": "2026-09-17T04:26:48.785940",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bhuvneshwar Kumar Was 'Surprised' After Being Picked By RCB, Explains Why: \"Bidding Went To Rs 5-6 Crore\"",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzlTMHZJTEd0VXU3Z0xmUU1kWmJMWURZRkkwZGJlazFDWGZZTjRROWF0ZHZuWXRuV1RfdjJIVnFlUEVnVGNVLXdIVVhnMTQzajAtSjJZbHpfcUVTS0toOGdvWXJTa3dQZ3pQLU5NYzBtS0oxWUtnRjJPdS0xU0NnelBSNUdXNUozZUY5TDVzblp4SE53bzhuRVlmN2JhMHd0M19uQUlObTBmbmFqVktuOC0xRUk1WXc5cTZDZ1NFeUM1Vms1ZWc2ZDVvZVlaYlFWUWVrREhoYV8?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Thu, 17 Sep 2026 00:47:56 GMT",
+          "fetched_at": "2026-09-17T04:26:48.785955",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB Pacer Bhuvneshwar Kumar Opens Up On The Biggest Regret Of His Cricket Career",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX0ZJVTljNkF3NkJHR2Q0Q1NSSW5hYnJWZlZobjNaRUJsZERzNG5INlp1ZmU1UVQ4aWVTOFZ1S2pMSms4S2xHNmlvbXhrSWFxUVpEd1ZKcUd5ZUxtT3oxTFNyVDFCWWpWQXR6QzR2UlJJWHk3RUx3cE1HYzFEWTRCS0tkRFFzSktQN2htRVIxNklkVDJsdWlZTnJuY3g0aVZOSnRoWA?oc=5",
+          "source": "rvcj.com",
+          "publishedAt": "Wed, 16 Sep 2026 13:44:10 GMT",
+          "fetched_at": "2026-09-17T04:26:48.785960",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RCB vs GT Cricket Scorecard, Final at Ahmedabad, May 31, 2026",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYUljdC04VjkwcDNTRTd1TDkybHFSTndIelFvemNCUGhnbXkyNWJfanljWWRHTm1meTFEdkZDZkVveGlUR1AzZnMtVUxjMDY0OHVTMl9JLVFjQUx2T3NHWDYxbFhhUFBWVklYQzlqb3lLZjZlbnBrZV93REJ5Wnc1R1RIWm1MN3BBVjROWVAya0lUdmtmNEZHUzktTk5aWm81NGZGazBfeHJyWnNNMllscnl2TmJ6ZTdETWMyZjhKSGg?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Tue, 16 Jun 2026 14:19:00 GMT",
+          "fetched_at": "2026-09-17T04:26:48.785963",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bhuvneshwar Kumar eyes India comeback after back-to-back IPL titles with RCB - Mid-Day",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbHBncWlqdEtkWkJVb1g4WTBrdklYQm5IWXR5UWIyc1lFYURuekhWMndfUWxLdEI2c2VzczFnVUp3ZllOX2R2YUMxOHlSNExTYnZNODViNndKa1M4eGxybWQ3NFBuT1FoUGNfV3hFdUk0RXllSHA0SFpCMnU5WlZQYzY1Njlrb29VSUR3VTNhNzVocXM5RmcxeGRyM3QxN1NJTHBteEtLLVoyMl80OERsQ1VWa2VKZkNIQUpQV1pwSEkySkVJNV9tVWY1TErSAdIBQVVfeXFMUEh1X19PZTRDc1NRZmJLdDBWVDd5em9tSUM4bk94X0FRaVBLUFdkRUR5NjV0UXJUbGl1dXh2d1Q5RWY4YkJxUVJWcE5CNDRuTnBONy0zR1JPWTdwX2tjM3g1VmdxMWxfMlM2cXp4RnRVMTU1SVpoTjNvZkNpOXJXb2hUV3cwUVJXallwMXg5YVZTQ2FhTjlZNFpIdlpNcmdsZm1yOXlGaGRzX3N5M084U2QyblhKS2o2MHRFenZrdXp5WFFBNVBsVWlkUkxvQnRXa0Nn?oc=5",
+          "source": "Mid-Day",
+          "publishedAt": "Tue, 15 Sep 2026 09:03:00 GMT",
+          "fetched_at": "2026-09-17T04:26:48.785967",
+          "related_to": "RCB",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-16T21:16:10.713681",
+      "last_updated": "2026-09-17T04:29:11.146470",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,17 +732,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-16T21:16:33.621625",
+      "last_updated": "2026-09-17T04:29:41.346182",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -763,43 +809,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
-          "source": "PR Newswire",
-          "publishedAt": "Tue, 15 Sep 2026 10:30:00 GMT",
-          "fetched_at": "2026-09-16T21:16:33.621355"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-16T21:16:33.621370"
-        },
-        {
-          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
-          "source": "eurekalert.org",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-16T21:16:33.621379"
-        },
-        {
-          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-16T21:16:33.621382"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-16T21:16:33.621386"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
