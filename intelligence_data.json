@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-18T16:19:18.074767",
+    "generated_at": "2026-09-18T20:51:04.449023",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-18T16:09:36.345223",
+      "last_updated": "2026-09-18T20:41:49.867042",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,21 +98,43 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-18T16:11:02.250032",
+      "last_updated": "2026-09-18T20:42:58.382099",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "Digital Transformation Lag at TCS",
+          "severity": "Medium",
+          "description": "Technology adoption gap identified at TCS: digital transformation. Digital maturity assessment and tech investment ROI research required.",
+          "detected_from": "Former Infosys chief’s AI startup nabs another $53M  India has a once-in-a-generation semiconductor demand window: Infosys SVP Vikram Meghal  India ca...",
+          "gap_type": "digital_lag",
+          "keywords_found": [
+            "digital transformation"
+          ],
+          "solutions": [
+            {
+              "title": "TCS: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -152,29 +174,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "TCS: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Former Infosys chief’s AI startup nabs another $53M",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFd1UlB6TUNfekw3YnpDSEx2Um9sTGV6b1JKa1R3ajlUY0Z3eEVfbTloZ3dKWVJBQnQzNGNsMjRCQmRmS1ktNC13V3labXNheHl6UzZkeFE0Z3ZwSVVqR3N2dHFMRGZGUTVDR0dGM1NqQkJVc0lzREpQQTFmWWRpZkFCWDRVRzlpcVhDcENnS000a3hGVDVKNlpDMFRaOHNPbFZ3ZDh1X01nOUZLUU93?oc=5",
+          "source": "techcrunch.com",
+          "publishedAt": "Wed, 16 Sep 2026 13:00:00 GMT",
+          "fetched_at": "2026-09-18T20:42:20.983692",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "India has a once-in-a-generation semiconductor demand window: Infosys SVP Vikram Meghal",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNcjhBWW9sX042R3dFb3piZHFid0YzdWRhZnVuSkJvVndCZzdYX2VXWEJiVVhBUFkxVEN2bG1MZVFzLWZINC1YQW5mMU1ua2FLbFRXTWtkcmFHQUFoVHhybU5ibXM2YTNNWjB5UFpsVHM0MHdkRnBvbHdfMDdsOE9QMUZBTVM0WWVURzAtcm9aWDRTTmt4ZnFBTHk5Q3JCeTNveF9ZRkVfYlVXWW4zWVRQYkh3ZjNwdTlSVmhNTGZ4dEhkSWdPMEJURGh2RUJKZF8zUTRrT1dDR0VFY0ZwNk91ZVZzSVBHT1ZGVDJUZnJIc2tURl9Cek9Qdm9tY29uNmdTU2RCa2Jn0gGLAkFVX3lxTFBzbnY0OHFTR2pnQXVDMkRKQzkwVmhfcVZjenF5cjJ1N1dyM1Ntdkxtb1Y5NFlTRnN6dGl2U0o5a1F6dkdpRmEwZzJoX25OOXZoV3A5ZmFDY0psNU85OHowdkJocHBtVklJSjMtRS1LREF0dTZHeE93c3JmSjFKOGJSa2hDOTRxS1FIYXo1WHY5Y0VOYnlPbDFxRVZOMERXU1RVNDFGVGl3Szk5dU1CeExob2ZkUlFsd1ptVjJoV1Z6N1BPNGVFeVZBVDNuQmpMVmJ6OURpMVowSHlUaF93dnB0ZzI3M0o2MUNfaEg2RGpaS1pIS1FfMjhDMjlvWHJiVEdVdU8xNkM0cm0ycw?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Fri, 18 Sep 2026 09:22:31 GMT",
+          "fetched_at": "2026-09-18T20:42:20.983715",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "India can move from ‘engineered in India’ to ‘invent in India’ in semiconductors: Infosys",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeFVSRmNSd3ljczhBZ3VfOFZQS0JoV1VqbWlZcEFud2hDMUJ1andQcWk4Q0tuT1o1TG1jVmZwcGhGR0s1am1ZNFZ3aC1NUjBqM0l1VkZPNFlFT3ZQUXhWazFHdjZFRXFYQ1k4U1I2cGxVX0t0M2VmQWJkY0dGV0pZUkVwOTdFa0lIQWxiWTAwOEVFLUVHNEN6R3JOQ2Nmcmd3WXN5QVVzbWZkUkk2N29NSUNaVlBCQ0dCdzZmNHV3ZHJ6SVlVcFNqTFJXbmxLNERMX3FsbEN2dDNVV2R2V0Q1RWlMc0dzQdIB7AFBVV95cUxNRWNEMUFJMVBzN0NHNGRReUlidVNVQ2NpUEFZSGZocnFPQlh4UkxCZ015OEVCclFrTWlWa0VXVDliQlY4Y2JvaXlTU2ZWZXc0R285Ynh2Z2ZLckVvQllKYVFKMmVoekNNb29aekZmbGIwOFotcGdvVGhpVnRNQjNFVFpOX3diXy00TmN3akF6R1RxZXpOU3JZLTZCN0xxVnlYOVZyUlc1d2xqMlBQYW4wLVd4R3c0QllQUEFfWnk3UkdUN3dYTGtORWtoRHVqcXdiLTlvako4VWhwektMOGdlTGhkWmdoR0VSUEFXSw?oc=5",
+          "source": "BusinessLine",
+          "publishedAt": "Fri, 18 Sep 2026 07:45:31 GMT",
+          "fetched_at": "2026-09-18T20:42:20.983722",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "India must shift from chip engineering to product ownership to capture higher value: Infosys Vikram Meghal",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWXZFdzk4TFRPQ2JWTTRfaUlXUWtfMkg2NGZUT1hBN1kwRlhwTXBkbThUVmRuUzBsSUhFV1pWRnlKZVdlQjF2d25EQWJ3OWhNVFpZWGlMUnN2YUE2QTZmalgzd1Y3SEZIZUJYM1V4YmU0WHlDd05IUjkwN0pMYXd3ZDNwbTUzVDFVOUtwU1pONGp2WGlRcXI4c2FERzNjNnNBUkRxQmZ6YmNmR0Q0WGJ3V3JWS2FMSEVwYlFxZFk1T2pLQzNnYVhuTHQ0dEVuaTlnMU02TjcwNDhkSkNMV1ZlTk83UdIB5wFBVV95cUxQbUVkcDB6MmJ2dElHWjZha3ptWUFlNVNBbWxWaWl2Z0VGRFZQUldLQ2wzTGE0Ty1OZ1NaREdKd1BIdDN1ajVIREdIWnhNc0kyS2pFeW94V3VVUUlNdHJEY3hKa3l6Nld5UXdwZEg5LV9SRUV4Mmp5cG9fWnZkR0otVlFxc08tRXZwUUNwTUpwTzRiRHNqSDlmMzExR09uWFBQRFRTMHA5ZXVPZktYS3BGMkxoZmlsWmZGbXlOR1JCZGVGVGNUendfTWJvejBQUTFleTRZN05ULUxxNW1sQ2Vqckl2RmxOLWc?oc=5",
+          "source": "The Tribune",
+          "publishedAt": "Fri, 18 Sep 2026 04:47:24 GMT",
+          "fetched_at": "2026-09-18T20:42:20.983727",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys expands Indore centre",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVVF5NHJubW5LaTBqejRSSFZOZnU5ZG9WU1FHMW9XUHgtUTZ6MXFzem9zUWhGaVR0ZnZyN0thaXZNblYyZENTZ2xFMDZhWVZBUE15ajc4YmdRaTA4YlJyb3U2bF9Jak9nN1Y5MWxPQW9PTUkzMFRoRVZpN2o1ZDRydElNc2U0QWluVExKYlB2NEVoLXE5YXEtTW9RclNXMjk0NC04anJLM2Y4OVl2Q0oxNkdORGl5QdIBuwFBVV95cUxQTk9RM29SRmltZUVXNElMa2FlcmdVOFZsX18teWJfYlJHYTdFVU5jR3VIdEdmNEJ4blpRT2J6UEZWbVdKd25xeGZKSjBiTmo5RWtxclR2VVZhekNDNjlRa1dicFpwanJERUdZSlJXX21PMXd1cjNLSkt6cGdJTmYzZ3lDSUtQU05BMGI2VWNvSGhlMjRLOEIwQXBqbXlVSDhsMWFocGV2RS1ueFZnS1MtaG83NldtV1JMZEJz?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Wed, 16 Sep 2026 18:08:00 GMT",
+          "fetched_at": "2026-09-18T20:42:20.983730",
+          "related_to": "Infosys",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -182,7 +230,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-18T16:12:32.844104",
+      "last_updated": "2026-09-18T20:44:01.331742",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +314,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-18T16:13:57.993186",
+      "last_updated": "2026-09-18T20:45:12.624949",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +398,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-18T16:15:03.217956",
+      "last_updated": "2026-09-18T20:46:12.289853",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +482,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-18T16:16:18.601223",
+      "last_updated": "2026-09-18T20:47:32.435504",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,11 +566,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-18T16:17:36.873807",
+      "last_updated": "2026-09-18T20:48:59.099227",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -594,53 +642,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Refused to work as a sweeper, trusted himself to build career in cricket, he is now KKR's biggest bet in...",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTUQxc0F1bzYwZUxWZGV4UTc0SE1UUzI0VkdpNmJyTldPWC1hQlRHUV9VUjN4MEg3YloyVmtha3JoMXlUU2RCeldoWXk1U2hiTEpwMHlYUmY3WU5raU41aUlNeVNMclI3R2I3aHppbl8xZnVwY2I1TjdFd0h2ODNBVllnWDlLSVRGd3dDVkFUaE05aFV1dGRsbEY5M3d4cGdJLVBUdjNCeXZFOXg5Q1VGeE44U1NsMzY1dmptZGtWUFAtNU05V04tRmlpWUlfZlVfLW5zazRsM2k1M3p2SHRveFRFNWxscDYyNlR4TXlCSl9Fd9IB9wFBVV95cUxQdi1ZRDVGQzg5SGpTbGRzZ0M3QmxENURWOHN4T0J2bU13bnFKdGZNd1ZhZzlDTkNwNVNHWjFzLXFRdld2Y1NpTzd6YTNoWkxFaWZxSHBZRjFTWjBJWHJucXVlYVhtZXJxeXp4STY2dUYzYXpHV1B1dUJPSng5UVliNWxWcEpKZU14ME9halNNaVRqT05GWXFrZ3NSRlVkV3FGSG85S1FHN08xdkZ1UTJKb1pKZGdWc25ld1dFTksydTdjZkNXMEo1QVRxQUlyVWN0b0NvVWRLdHhzVk0wenBCdHgyLWhXU1lTTkMycjdPNzRXazVpVl9F?oc=5",
-          "source": "Moneycontrol.com",
-          "publishedAt": "Fri, 18 Sep 2026 08:40:21 GMT",
-          "fetched_at": "2026-09-18T16:17:15.217672",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR coach wants Rohit Sharma in Kolkata, batter's reply wins hearts in game-show",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPajJxRURGYU05d2JrQzVlUnFXc0pPUGppZTU3MExMSEowMTgxdDJsNFoyd2huQjFGS1k4RzVONWpRLXd5bTdKQzhPbjBrbWVIVUhBMTY3dXBIQllrMkU3N1pOdjhwdEhwdnF1dWNNelI2N1VWeEdCN3Y5NzlTMU5EVi0wSUJLRGRwUG9ac1p1aDlVNndGejRFX3d2Z3ZKMXE4WjFVM1hNYmRVLUNPR2lGX0pUNmhsNTBPQkM1Xzc5YkpxNDBpem1YcdIBzgFBVV95cUxNUUtxd2NCSnpNcWpRU0cxWXRHbENQU01OMHB1ZU0yVHppLXEtNE84ekJYTE5RQkFzdGdBR0RsS2hnQjdvOXBtNVdqTzF0S3FUMnp3NWFXZ2xkOXMybk1YUFNOTG9FcmE0b1lHMmhIRWdUeUxzX010eGVpZ0dZUTNuTlg3VkdKTTBXcXhhVkpOWFBuTVk4T2xlU2ZtMm1YaHpKTzJnZTBPcV9haXNUYWx6WTJiaVVESk9vc3pPMGVxU2lFOTlNN2VZN28zWm5Vdw?oc=5",
-          "source": "India Today",
-          "publishedAt": "Fri, 18 Sep 2026 09:31:04 GMT",
-          "fetched_at": "2026-09-18T16:17:15.217688",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rinku Singh reveals his supports THIS EPL team due to former KKR captain Nitish Rana",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMVQzdGpVSXVLYTV0NkJQcGVEaGpnN1hjbzJKMU1aS0h0NkVRVThod0pCeWxxNll1YUZFWk5Sc0xfYmZDOHI1R1BINmdmekY2OXRIbV9QdDZtOXZWRWh0Z0NEb1RiZ2YxckN3RXZQUnVKNlNFTmg4bUswbEwwU0FwMHdVY05LWDFDeGRndFFGZGs2VzQ0QnVaVnhqQUwtRDluWDdrV3c4eVBWRk1QakhEMDRvX1F1WVBFZk8ySjZrSkh1LW1OOXlfUmQ4U3Bnd9IB0wFBVV95cUxORVlmT0Z2aVdoTy1ZNEg5ZGVab1YxcFR2VFBFWk4xVUxxN0dXbUh0Zkp4N3g0bmItdHg3czY1SkFPUHpzQWxsQjRZWFUxYW1ZaGRxeXZKQ2tRU2diZFdVOExLNkJNUjhYVFJaOUk2YndSOGxxNS1aamFBMHduRHZzTEl5VkE5alJqc2lGX1Z2aWFYZmNPQ0dsckd1eHUwdWNuc1VpV2RKUFlGVDBQQnhnS1VyckJoVlVzWnFYdnM1dzYxSlRVUFE3M0s3dTh6VmZHb1JV?oc=5",
-          "source": "India.com",
-          "publishedAt": "Fri, 18 Sep 2026 07:54:29 GMT",
-          "fetched_at": "2026-09-18T16:17:15.217693",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Former KKR India chief Sanjay Nayar buys Mumbai home for ₹90 crore",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdUlEdU5XTGFDQ1lhQ1dYcHE5aDhVWDY1TWt1b3lYa1hIa1hOa0pONjlRY1BfOVpzaURHeXJXQnB0NEhKTnk4X0RxUldiY1AwOUtmVzBncWF3eDcyX2NiNjUyM3lEeXZ5TTFGWDFDc2hMOGlHaXp1RGw0YWZwQ1dCa01uUTNKSUV0NS0wVnhud3lVQWlralY1SDVzMXh0bm82b2dIamdNV0JSeHlrYld1MlhFSTh1WU9LVjdMZGhjT2ZXenE1VWlXcTFfZ9IB0AFBVV95cUxPbzlEb0hkWk9iNkNXNDQ3bTY1RW5wT0JLM3NUTm5TR0hib2w2dGk2aUxCdmE4S3NjU21JNzRJVGEwTkJzd0cxU0ZSbUZfOEtLQWRRaXhCTHA1c3ZjWFhmWWVVWW9VTVNPcTIyQ3dSZmd3QW1fRUM5X3JKNWY3c3hqNnV0T0VESHQ4QXZKVktkNzRKWnhHSmFaT25DczM2Q3lkQXhqYWRLUDczdHkxeU9fM1JicHBSNFhtUENOUVV3allkUll4TEpIT1VlT0d0TW9Y?oc=5",
-          "source": "Livemint",
-          "publishedAt": "Thu, 17 Sep 2026 12:35:17 GMT",
-          "fetched_at": "2026-09-18T16:17:15.217703",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        },
-        {
-          "title": "KKR (KKR) Private Investment Grade Deal Volume Topped $80 Billion",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaUVfcGJ5V3VIVkxtM01sYXVoTnJCV0ozT2wwYXhlTmFkZmVhVld0Xy1nWjdUTm5MTHEwdTRIdWJjdTN3cHFRQzBNNkNaeXIwbW1GTEx0amJJNTMwakdTT1poRkl3cEhkZV9XLUd2VUthSDR6V2ZWRzZ0SURSR1psRjAweFpHQlpXUC1Jd2p4QW9HYmpSMnNzSmctV0c1QUJENTN2MVdLeWtuR3V1bHdoOHpVcWlrRkVDM2RkLWVvNF93WU1vMDRSb0JIbWR0QdIB0wFBVV95cUxQbnZ2YTRHX0JJSG1tUC1LcHFLUUR0RlVMSTFEMEM2dkZPNGFCSmZCYkgwRUF5c3kwdEM2bGhKU1FJck9GbzRzbUlCMGVWenBhclA2TFBTX01aOWtmd0liQXRrMlVyc01zdlFFeEZ3TURwQWJNSjBMeEtmV0haZlVWT2VCbjRzY05FcDVrNTFYd0NnRVBrbXVhLWRuaDlObmEybHZScFE1cnYxM1U1ZllfZUEycmczbHZFcURHQzNXZTdRNnhDY1RsMzlGa2x6Z0VPNXFR?oc=5",
-          "source": "simplywall.st",
-          "publishedAt": "Fri, 18 Sep 2026 11:37:27 GMT",
-          "fetched_at": "2026-09-18T16:17:15.217707",
-          "related_to": "KKR",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -648,17 +650,17 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-18T16:18:55.817225",
+      "last_updated": "2026-09-18T20:50:34.133136",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -724,53 +726,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "Highlights: Gujarat Titans vs Royal Challengers Bengaluru | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWHJXcloyWDR0WTJVZmtYVFdrOWtrbUxNV1MtY2tWYnhDSUFJZTFOMUZqUnQ3WGpNSXU1ZE9ySDdnX1pKMGRqYjVKcmRvVmNXdWV3QUwyRlpyMlk2dk9hVENEeFpuX09TVkFvbjBCX3N4VEg3VWF4SWtGN0MwbjNHeTNUTXZtc3lNcV9zS0IyUTBnMm9kVldrb21MQkNJZ0pJ?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Fri, 18 Sep 2026 14:59:06 GMT",
-          "fetched_at": "2026-09-18T16:18:29.896520",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "IPL set for grand 20th edition celebrations in 2027 as BCCI re-elects Arun Dhumal, Khairul Jamal Majumdar | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQaUNnMFBRVjlpNWNlMERXelhvZEFZeWhNWnBORzN4TURBQ005ek5TR2Q0N1dDaU5NTHdySFgwd3JfbUpYUkYzc3RTdHNQNFRxZkdrWl8xTUVvUnhwcldPbVdURFA1NEphQ1dTU1ROZy1BYnVxODNBc0c4MHJDbHgyRGZsTk1OZGRwakx1MFlvcVlzOUtuRnN4T2hmVkRRRzlIU2V1a1N4VXZZem9uZVBPVHNFMW1fZnREbTNGT2R1N0E2ZW5XNWh3emhZWnpYWXhyWEhVX0dNUXFkSE5aRm5qX0kxaFBZdTlTSFB5QnZIUl85c2Z5eFdR0gH8AUFVX3lxTE8tMUxoakYxS0YxeDF1LVVaOTRjdHlUa3BUTU05NjVyWHRDLThUMWdQTjRBc2dQRUU1Rm1ORVJDZ3FJVlg3RHNJTDl2Z09WU1lkVmNyTGd6cW52WmhWNVQ2MEJMX3BXZ0psS0pOeTRISXBKazFxU2lQVVYzRUJmSVB1cDFzX0V1WVpLMFhKU2dGby1zaDl4ejlwRjhfTFZYbjZxd2FDSG1qdzJDY2FUaV93bk8wMWM0RU14QUU3WmVGbmRRYlFiRjk1Q2t3Nmh1dkdSMUg3X0RFRG8wVWV6dlhlUEJLU1p1bG4taE81RkZmYnJMaFhNSXh5STQzNA?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Fri, 18 Sep 2026 12:53:52 GMT",
-          "fetched_at": "2026-09-18T16:18:29.896536",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Highlights: Royal Challengers Bengaluru vs Lucknow Super Giants | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTzNxT3RIb1pyMjh4U3dnVXR3SkNMVlVDUnFTNXBFRGdZTjVfVUhTQlNlVHNOa0t2ajkxeEJDdXRIS2U1eXlqa3FQNHRTc212NXZIMWNlWlBaLW1zVmRFN0lDYkY5c0RwM3hWMjBiV0tsZ3ZjdXc2ZlpFSjdBNEdaR0thZF9KS1lya1pUX0x3cWZnMTlCVV82LXJlT1RFRVRuRUE?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Fri, 18 Sep 2026 13:53:37 GMT",
-          "fetched_at": "2026-09-18T16:18:29.896542",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RCB vs GT Cricket Scorecard, Final at Ahmedabad, May 31, 2026",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYUljdC04VjkwcDNTRTd1TDkybHFSTndIelFvemNCUGhnbXkyNWJfanljWWRHTm1meTFEdkZDZkVveGlUR1AzZnMtVUxjMDY0OHVTMl9JLVFjQUx2T3NHWDYxbFhhUFBWVklYQzlqb3lLZjZlbnBrZV93REJ5Wnc1R1RIWm1MN3BBVjROWVAya0lUdmtmNEZHUzktTk5aWm81NGZGazBfeHJyWnNNMllscnl2TmJ6ZTdETWMyZjhKSGg?oc=5",
-          "source": "Cricinfo",
-          "publishedAt": "Tue, 16 Jun 2026 14:19:00 GMT",
-          "fetched_at": "2026-09-18T16:18:29.896546",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Bhuvneshwar Kumar reveals why RCB auction pick surprised him despite bidding war",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWVNJdWRRd2dSbEhDaGItNENLMWt6VG1CaHI2ZzZYZG1Sb3lzUENqVnpzQ3FRNkZYQ1Rtd3o0amdLdWhlWVJzNnUyWTdGbG8tbUtoanJ6Y1JmUllCNm5UVVNnRUFVZm12eEJoWWZzbEgxbzl4cUlEYm9mNU1SdnNIWlc4X2s1NzNMUElTa2N5bXlXc21QMEZUTk1fMHN5dFB4NzBoVlRFRHBxRzNMX3BjSnNKWjQ2NXlT?oc=5",
-          "source": "heraldgoa.in",
-          "publishedAt": "Thu, 17 Sep 2026 16:12:05 GMT",
-          "fetched_at": "2026-09-18T16:18:29.896549",
-          "related_to": "RCB",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -778,17 +734,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-18T16:19:18.074761",
+      "last_updated": "2026-09-18T20:51:04.449005",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -855,43 +811,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
-          "source": "PR Newswire",
-          "publishedAt": "Tue, 15 Sep 2026 10:30:00 GMT",
-          "fetched_at": "2026-09-18T16:19:18.074466"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-18T16:19:18.074481"
-        },
-        {
-          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
-          "source": "EurekAlert!",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-18T16:19:18.074489"
-        },
-        {
-          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-18T16:19:18.074493"
-        },
-        {
-          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
-          "source": "Real Simple",
-          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-18T16:19:18.074497"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
