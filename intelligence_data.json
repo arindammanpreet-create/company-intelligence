@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-18T20:51:04.449023",
+    "generated_at": "2026-09-19T04:08:48.605165",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-18T20:41:49.867042",
+      "last_updated": "2026-09-19T04:00:20.870755",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,43 +98,21 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-18T20:42:58.382099",
+      "last_updated": "2026-09-19T04:01:25.062196",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 10,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0.0,
-        "label": "Neutral",
-        "pos": 1,
-        "neg": 1
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
+        "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Digital Transformation Lag at TCS",
-          "severity": "Medium",
-          "description": "Technology adoption gap identified at TCS: digital transformation. Digital maturity assessment and tech investment ROI research required.",
-          "detected_from": "Former Infosys chief’s AI startup nabs another $53M  India has a once-in-a-generation semiconductor demand window: Infosys SVP Vikram Meghal  India ca...",
-          "gap_type": "digital_lag",
-          "keywords_found": [
-            "digital transformation"
-          ],
-          "solutions": [
-            {
-              "title": "TCS: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -174,52 +152,72 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "TCS: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
       "competitor_intel": [
         {
-          "title": "Former Infosys chief’s AI startup nabs another $53M",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFd1UlB6TUNfekw3YnpDSEx2Um9sTGV6b1JKa1R3ajlUY0Z3eEVfbTloZ3dKWVJBQnQzNGNsMjRCQmRmS1ktNC13V3labXNheHl6UzZkeFE0Z3ZwSVVqR3N2dHFMRGZGUTVDR0dGM1NqQkJVc0lzREpQQTFmWWRpZkFCWDRVRzlpcVhDcENnS000a3hGVDVKNlpDMFRaOHNPbFZ3ZDh1X01nOUZLUU93?oc=5",
-          "source": "techcrunch.com",
-          "publishedAt": "Wed, 16 Sep 2026 13:00:00 GMT",
-          "fetched_at": "2026-09-18T20:42:20.983692",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
-          "title": "India has a once-in-a-generation semiconductor demand window: Infosys SVP Vikram Meghal",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNcjhBWW9sX042R3dFb3piZHFid0YzdWRhZnVuSkJvVndCZzdYX2VXWEJiVVhBUFkxVEN2bG1MZVFzLWZINC1YQW5mMU1ua2FLbFRXTWtkcmFHQUFoVHhybU5ibXM2YTNNWjB5UFpsVHM0MHdkRnBvbHdfMDdsOE9QMUZBTVM0WWVURzAtcm9aWDRTTmt4ZnFBTHk5Q3JCeTNveF9ZRkVfYlVXWW4zWVRQYkh3ZjNwdTlSVmhNTGZ4dEhkSWdPMEJURGh2RUJKZF8zUTRrT1dDR0VFY0ZwNk91ZVZzSVBHT1ZGVDJUZnJIc2tURl9Cek9Qdm9tY29uNmdTU2RCa2Jn0gGLAkFVX3lxTFBzbnY0OHFTR2pnQXVDMkRKQzkwVmhfcVZjenF5cjJ1N1dyM1Ntdkxtb1Y5NFlTRnN6dGl2U0o5a1F6dkdpRmEwZzJoX25OOXZoV3A5ZmFDY0psNU85OHowdkJocHBtVklJSjMtRS1LREF0dTZHeE93c3JmSjFKOGJSa2hDOTRxS1FIYXo1WHY5Y0VOYnlPbDFxRVZOMERXU1RVNDFGVGl3Szk5dU1CeExob2ZkUlFsd1ptVjJoV1Z6N1BPNGVFeVZBVDNuQmpMVmJ6OURpMVowSHlUaF93dnB0ZzI3M0o2MUNfaEg2RGpaS1pIS1FfMjhDMjlvWHJiVEdVdU8xNkM0cm0ycw?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "Fri, 18 Sep 2026 09:22:31 GMT",
-          "fetched_at": "2026-09-18T20:42:20.983715",
-          "related_to": "Infosys",
-          "relevance": "competitor"
-        },
-        {
-          "title": "India can move from ‘engineered in India’ to ‘invent in India’ in semiconductors: Infosys",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeFVSRmNSd3ljczhBZ3VfOFZQS0JoV1VqbWlZcEFud2hDMUJ1andQcWk4Q0tuT1o1TG1jVmZwcGhGR0s1am1ZNFZ3aC1NUjBqM0l1VkZPNFlFT3ZQUXhWazFHdjZFRXFYQ1k4U1I2cGxVX0t0M2VmQWJkY0dGV0pZUkVwOTdFa0lIQWxiWTAwOEVFLUVHNEN6R3JOQ2Nmcmd3WXN5QVVzbWZkUkk2N29NSUNaVlBCQ0dCdzZmNHV3ZHJ6SVlVcFNqTFJXbmxLNERMX3FsbEN2dDNVV2R2V0Q1RWlMc0dzQdIB7AFBVV95cUxNRWNEMUFJMVBzN0NHNGRReUlidVNVQ2NpUEFZSGZocnFPQlh4UkxCZ015OEVCclFrTWlWa0VXVDliQlY4Y2JvaXlTU2ZWZXc0R285Ynh2Z2ZLckVvQllKYVFKMmVoekNNb29aekZmbGIwOFotcGdvVGhpVnRNQjNFVFpOX3diXy00TmN3akF6R1RxZXpOU3JZLTZCN0xxVnlYOVZyUlc1d2xqMlBQYW4wLVd4R3c0QllQUEFfWnk3UkdUN3dYTGtORWtoRHVqcXdiLTlvako4VWhwektMOGdlTGhkWmdoR0VSUEFXSw?oc=5",
+          "title": "HCL Tech leads IT stocks rally, AI sector repricing triggers relief move in Indian IT",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQakM4aVg0ZlFselJJMjlCZ0VFbWo5YURPZGpONTZ6U3Ftb1pVYWlTU3JZLVhRV1UyS1F1bFIzY2JGdTVSQ0JnWTZoQUJ2TWZtZTVKdUh2aUtxNUZhOGlyc1ZNUlJtU1BKOV9WbmoyOGtvVldqVGZ1bS04MnAyWlZyS1pwd19ZQUxNTFNHcWdQV25ZaUJGOFIyejJEUzRmS1h2OEx0a2RrQzdrbzdfS1FOVjNqdVVLMlZpY1BNUnZkQmpnUmVrTjRoNGlfSUxnTFJpREdyRkFiSEdIRjRyUUJqVHhsNUY0VEYxYnFEM1pzaWZVNllpdVHSAfwBQVVfeXFMUGEycTFpRm9kLU5QMExta05aa2U3TEpoYnpRTE5zeFBuMzI0NjJQY0E1SS1HLUs4eEp0OU1iZFdhWk83Mk4zUG4zaFhUSjRObl9IRzVlU0Ytd1RIOUgwRGVPTmxOTjRpX0s0eDc0VHprdGxLVFRCVVh6VHVvZEVQdDZMU280Q0hURXA3MmlwMzdnTFRMZDZVNjhMQXBZMG9kWmx4S3FUdXJtYXFRSmNIS0lObFJGYmh6em9SWjJENnNsSWdVNVlITllZUkdrX09RTFJuWEVwX2xKYXM2aldHMXNRSVFvcS1hRmxPaG9WV1h1dnhETmx2VUE5dVM3?oc=5",
           "source": "BusinessLine",
-          "publishedAt": "Fri, 18 Sep 2026 07:45:31 GMT",
-          "fetched_at": "2026-09-18T20:42:20.983722",
-          "related_to": "Infosys",
+          "publishedAt": "Tue, 15 Sep 2026 08:06:30 GMT",
+          "fetched_at": "2026-09-19T04:01:09.958018",
+          "related_to": "HCL Tech",
           "relevance": "competitor"
         },
         {
-          "title": "India must shift from chip engineering to product ownership to capture higher value: Infosys Vikram Meghal",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWXZFdzk4TFRPQ2JWTTRfaUlXUWtfMkg2NGZUT1hBN1kwRlhwTXBkbThUVmRuUzBsSUhFV1pWRnlKZVdlQjF2d25EQWJ3OWhNVFpZWGlMUnN2YUE2QTZmalgzd1Y3SEZIZUJYM1V4YmU0WHlDd05IUjkwN0pMYXd3ZDNwbTUzVDFVOUtwU1pONGp2WGlRcXI4c2FERzNjNnNBUkRxQmZ6YmNmR0Q0WGJ3V3JWS2FMSEVwYlFxZFk1T2pLQzNnYVhuTHQ0dEVuaTlnMU02TjcwNDhkSkNMV1ZlTk83UdIB5wFBVV95cUxQbUVkcDB6MmJ2dElHWjZha3ptWUFlNVNBbWxWaWl2Z0VGRFZQUldLQ2wzTGE0Ty1OZ1NaREdKd1BIdDN1ajVIREdIWnhNc0kyS2pFeW94V3VVUUlNdHJEY3hKa3l6Nld5UXdwZEg5LV9SRUV4Mmp5cG9fWnZkR0otVlFxc08tRXZwUUNwTUpwTzRiRHNqSDlmMzExR09uWFBQRFRTMHA5ZXVPZktYS3BGMkxoZmlsWmZGbXlOR1JCZGVGVGNUendfTWJvejBQUTFleTRZN05ULUxxNW1sQ2Vqckl2RmxOLWc?oc=5",
-          "source": "The Tribune",
-          "publishedAt": "Fri, 18 Sep 2026 04:47:24 GMT",
-          "fetched_at": "2026-09-18T20:42:20.983727",
-          "related_to": "Infosys",
+          "title": "HCL Tech, BEL, CG Power, Vedanta, Dixon Tech, Tata Elxsi shares in focus today; here's why",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdEppcktPVDdnbmxqSEpwVWNUeHQ1NzVEQlI2SnZwdlZhUzN4aWVWMHpONkdlaF9jVjUyRUZHZWZ5cndvUWx4aExyQkw5SjJNa3JFTTdOSGFiaEZQLUx6MjBkSG9ndURWRTBvZG10Y2lackVsdGs2RVpneHZYeW0yWW81Sm9XR0FielBMOTI4NGRNWnFucFQxb1hEeHNQaEYxTlNWNGtVNi03QlpUbkh2MEgtWW9wV0FCdWc1YWt2eWdGc3loY1JYUUJ1SldnMTRRcW41MFp1WHRKLW1UbktOQTEyYUY3Z9IB6wFBVV95cUxNY1FDdUhZT3dRQmJaV1dHeUNFZnFwWmxiNm41Y2xYRkNQeFc5UDA1bmRYZEdjQVlOdGRBeE5aaER4bWY2X0JaVENIb2ViSEduMTJGNURDSGtjd0FDbTJxX09rWEs4QmtLMUpNbDN2eUZ5VVpPczBTWDZSQWdXMjZxTWRUbGNBcUR4WDNIWUR4VDM3TWhnRWg3dnFBanVoYXV5NGZvNnc2OFVhQWpzVV84ZjFZai1UTERPa21WejJGdm9qSEQ4a1laMWh2MVpCXzRhcFplWHRNTDcxR001WFF3bk9GdVJZdEFEbFRV?oc=5",
+          "source": "Business Today",
+          "publishedAt": "Thu, 17 Sep 2026 03:30:10 GMT",
+          "fetched_at": "2026-09-19T04:01:09.958032",
+          "related_to": "HCL Tech",
           "relevance": "competitor"
         },
         {
-          "title": "Infosys expands Indore centre",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVVF5NHJubW5LaTBqejRSSFZOZnU5ZG9WU1FHMW9XUHgtUTZ6MXFzem9zUWhGaVR0ZnZyN0thaXZNblYyZENTZ2xFMDZhWVZBUE15ajc4YmdRaTA4YlJyb3U2bF9Jak9nN1Y5MWxPQW9PTUkzMFRoRVZpN2o1ZDRydElNc2U0QWluVExKYlB2NEVoLXE5YXEtTW9RclNXMjk0NC04anJLM2Y4OVl2Q0oxNkdORGl5QdIBuwFBVV95cUxQTk9RM29SRmltZUVXNElMa2FlcmdVOFZsX18teWJfYlJHYTdFVU5jR3VIdEdmNEJ4blpRT2J6UEZWbVdKd25xeGZKSjBiTmo5RWtxclR2VVZhekNDNjlRa1dicFpwanJERUdZSlJXX21PMXd1cjNLSkt6cGdJTmYzZ3lDSUtQU05BMGI2VWNvSGhlMjRLOEIwQXBqbXlVSDhsMWFocGV2RS1ueFZnS1MtaG83NldtV1JMZEJz?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Wed, 16 Sep 2026 18:08:00 GMT",
-          "fetched_at": "2026-09-18T20:42:20.983730",
-          "related_to": "Infosys",
+          "title": "TCS, HCL Tech, Tata Elxsi, Route Mobile to Tech Mahindra: IT stocks dip up to 3% | Here's why",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPam02Y25jNndQQTIydGFEOXVFc3g1WkVYcVNRWlBXOTJhalh6Mlp3Vl9CTHVOYzE2TndBcndZTi0yWi1pM2pGMGF1ck4zMzMybzNNckZzVXo2cTNwZ3lmeHN4b0VWb012eVoyRlJyVWlSVnRVci03WWdySlI4S0RwMzFwRjNoVVM1Z3BHQmhXcUJ6elZYTEtxSU8xVGNCVElvcjBzZ1NlRXZUd1JjZm1qd25xZm0tbWxLNTViTHBCZktULW1jTENOQWZuMDFXZnh5bVVuRWFVdmlMUU9HMGdVOTgyaUlDUTZnZDRB0gHwAUFVX3lxTE5fUG1sZUdmN2FweFpmTDJQam1ycXZCdE5PekloeTJldnk0elp4cU02M25pQWJRdm1nczRSOVYzWkhDd3ZnYnhZY0p5NXBWeVZTeWVsUkppQ1NPXzBVbEo4dXdxVkVrUVVRZ0RfaVhLb3g2YmNpdl9nOTRLeEJkek5oZkcyakVSNUFhdmdSLVlHMk9HdC1QQmhCcnlpWDVabmdoNllFS2lxUGJaZzliTlhHZ21CclJ2cmVtYVpqdEtPb3dkbjNhWkJRTDRNNjNTb1c1WngtbWx6YVFuVEFxV21zbXg4WjQxRzJaU3NkTF84Rg?oc=5",
+          "source": "Livemint",
+          "publishedAt": "Fri, 18 Sep 2026 04:42:37 GMT",
+          "fetched_at": "2026-09-19T04:01:09.958036",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCL Technologies shares surge 7% on expanding partnership with CrowdStrike",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUVZDVVhvMHlpVHFuMVVvMEE5bWVKSGc4a2E5dnN2dlBOeEcyTkNwdFhDa1N2NlZVaVRzY3l4VEg4YUZWbTBFR1RVbTlmS3lzZXJEY2dzVlB2eDRfYVc4MkJXVTg4X2gxZklsbll3WTd1MkFCeGRWTlVjUVl4UDcyY1pxTUk1Wno1akpvWmFYVE9KSEEtM0szV2lnaklpdjdrbDBiTWZ2bzBDekJDaS1qTVVKekNpbURjUDhlc1hyZ3dtNXZrX2wyaG9vbEFzQQ?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Tue, 15 Sep 2026 05:03:55 GMT",
+          "fetched_at": "2026-09-19T04:01:09.958040",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Why are IT stocks on fire? Check TCS, HCL Tech, LTM, Tech Mahindra, Infosys share performance",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWjJVLVNzTGZYYngyNWEwOGI4MFZrcVpRWWR5MWhFMXFMTHZNTGtBTEpwa3NoTlJoajBLVGVidXFXUzAtcXVxN1JKcTlqNERLVGstcnRYNzhlRFM3YXJWbjJZc1AyTDk0UEdjREo4MGcxREEzTFB1TXdZQ1VtYURCMHRIaWFnS0hfRmxiYUQxaG12YXJyVDdIT3FiQ3BEb1kyRTV0czNTeXF4cnM1b3ppS2RyNTVCVFNpdF90cHZwRUQzb0VGWVN4QTZMeDluQnFTdkpiblZla3dOeEQwd1E?oc=5",
+          "source": "TradingView",
+          "publishedAt": "Tue, 15 Sep 2026 08:27:02 GMT",
+          "fetched_at": "2026-09-19T04:01:09.958043",
+          "related_to": "HCL Tech",
           "relevance": "competitor"
         }
       ],
@@ -230,7 +228,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-18T20:44:01.331742",
+      "last_updated": "2026-09-19T04:02:27.294036",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -314,7 +312,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-18T20:45:12.624949",
+      "last_updated": "2026-09-19T04:03:43.035214",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -398,7 +396,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-18T20:46:12.289853",
+      "last_updated": "2026-09-19T04:04:47.353861",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -482,7 +480,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-18T20:47:32.435504",
+      "last_updated": "2026-09-19T04:06:14.313886",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -566,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-18T20:48:59.099227",
+      "last_updated": "2026-09-19T04:07:41.647311",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -650,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-18T20:50:34.133136",
+      "last_updated": "2026-09-19T04:08:41.333669",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -734,17 +732,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-18T20:51:04.449005",
+      "last_updated": "2026-09-19T04:08:48.605159",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -811,7 +809,43 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
+          "source": "PR Newswire",
+          "publishedAt": "Tue, 15 Sep 2026 10:30:00 GMT",
+          "fetched_at": "2026-09-19T04:08:48.604925"
+        },
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-19T04:08:48.604938"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-19T04:08:48.604948"
+        },
+        {
+          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-19T04:08:48.604952"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-19T04:08:48.604956"
+        }
+      ],
       "filings": []
     }
   }
