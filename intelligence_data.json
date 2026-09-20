@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-20T15:56:01.557469",
+    "generated_at": "2026-09-20T20:42:25.720245",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-20T15:48:23.328107",
+      "last_updated": "2026-09-20T20:35:04.241539",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,21 +98,114 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-20T15:49:20.947788",
+      "last_updated": "2026-09-20T20:36:02.995637",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
-      "news": [],
+      "news": [
+        {
+          "title": "TCS launches next-gen system-on-chip design services for automotive and semiconductor companies",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONFVGbVRvdTB2SlRKTHE5cFU0cXR2d1dmQmhWWHBSa1dHMW4yTjJ3cU9JUUhacGh6TlVycUZCNVl4eVVuZE5Oblh2TW9WMmNISWRUMmlsQUtuR2ZLUnAzUjhZdVhtbGo2eWJ1N3U4c0RSenV6NWxaY19ORkQ3bW5sMkEwRlV1OVhKTndFNjR0elluV292aE1NcU1aeWpFUVNMamY3WDk3VWd2cUt5cjZSUWowSkZKNXFJdWZfN0VtWm1XM0NTdlh6bnlMUHFoMUF3bkNBYQ?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Fri, 18 Sep 2026 02:19:57 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421080"
+        },
+        {
+          "title": "Tata Consultancy Services Share Price Prediction for Monday: 21 Sep 2026",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR1gyVm9qMlpYYzlPRjM4ODI4bzdWMnptZkpXOUpiY1YwbG4yNnc0S1ljb1BPbS1xZmtvSXJZczNua2gzc1JoZE1FVm9WZjdwakk5U1kwcUF3MllsWUdoTTVEdHRtakM0Mk5GcXpLTEVGalE1SVBnMzQ0T2F5em1Zai1uUDNRYk1MR3JvM0lrYm9uM0pwc0VJaEQ4UVNXLTJaeEpWVg?oc=5",
+          "source": "Univest",
+          "publishedAt": "Fri, 18 Sep 2026 10:53:00 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421095"
+        },
+        {
+          "title": "Tata board fight sets up lose-lose stalemate",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdjdYdmh4VzhNZXllMFc1NFJkTzdYOWRjSFFTVjdQTHRBdnB6aVZwS1kxNm9zV21Ba0xDVWhWN3BTZHZ5T1ZDWlM3RHdrSk1Yb0p1bjNmSDgweUtZMHF5bEg3X1h4TUpnVDhGWmFOS3FucmNNT3gzdUFCcE5EZHk5NVdIbjNSd0dJQmtxVmRkdXRkdVBRcEdCdzN3bGN6UU9SYzlUY1JhMjZLeE1Z?oc=5",
+          "source": "Breakingviews",
+          "publishedAt": "Thu, 17 Sep 2026 13:55:13 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421104"
+        },
+        {
+          "title": "Tata Consultancy Services falls Friday, underperforms competitors",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeVloRzNZQWstakVxYU04Zlp3dXQybnpua3dXVVRQRFU5NF96MXB3ZXVNUzlHbUljSEhwTUxOdkl6MzhvLUhxRVdvRXRfZS1MdXZ2TWl3MGNORzRwTlgyWDVYWTVNVmxXVy1rVDlIbE5iU2VMbmlBdm5FS2hCbGZKaG1IUWZuTEYxTFA5QlA3SG1MaVV6VVh3NmhwM0tjN1VJWGNSdkh3WVk3c1V6OE5CUXhjcTJqdUtWVDVsTQ?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Fri, 18 Sep 2026 10:33:00 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421108"
+        },
+        {
+          "title": "Tata Consultancy Services Ltd Slides 2.85%, BSE Information Technology index Shed 1.34%",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPYXI3QlUwaXhna19CcXBacUlLbFA4NFVtTXN3VEtjTVlHTGF3ZFZGYnR6STZ0bjB0RnlPR01rX21kN0FGYlNtTHFjeTFpdmFPLWVYS1BhRUNPMURDWWlmV1FIYnZDa2J3YlJ4al9zbHJDODBSUHZ5Y0ZlN0FoRWtCN18yT1ROalJ0YW5COUM2cENYRC1KUUw5U1JQNUQwYkE4bXhLMG4wOFRKZGVlY3MtaV92X3dwQmNxMnZJZzR2OWtXSTNZa1ZNcmJGaWRtU0ZfMVZ2TlRTdWkyMUdaMzRqbXViMy1fUm5IR3NNQVR3M2xiUzJUN0hHcE5n0gH_AUFVX3lxTFBwTnBqc1pDNjNpa2pfVldXUFRENkxUalhYNVlSOEJrVkNBZUNrVGhiRmhkTTNVcUU5dXVpZWRmY1k0bU1kOWFLRWFMWUw2c1VCc1h6cC1fM1VtWFRHZWR2blpLYlMzd09KcWRtLUF0aF9uOWliYmc5VVpPeTk2V0JLSTFnc0NJbzAyZUpaRDFlMDI5ZWpfR1B0UThwQjUtZmpHd0hHTlAyNnR0cTRFSUItVXV1NElxUTZwVUFMU1JqWDN6MzBoWEVhdndqdVIwR1dtT01ReVVueVlZSl9WdGQybC1RRTlEX2hWZlJ3OExPYUlHLUt5czBBcXdvUWZnOA?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Fri, 18 Sep 2026 04:34:20 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421113"
+        },
+        {
+          "title": "Porsche sells MHP to Tata Consultancy Services",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeHFwVEE1MVllNXIzQ1ZoWnBrRzJEUElXbGtkbGZ4X1JxdFdNdGtncDZZaWlxdC1mTHJlNVhidHVTTnB3VnI4ZXh3TmpMckhQa1E2U19hemZnVkZCYm85NzdYOGc5VExvb1JLYTlVTGxVdWx4QzFkdDFCSVpGX3hQbnJZQU9JWGVCc0lQY2pXOUNaU1ZDbWc5TUUxVl95X1U?oc=5",
+          "source": "newsroom.porsche.com",
+          "publishedAt": "Mon, 24 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421116"
+        },
+        {
+          "title": "Trade Idea of The Day - Tata Consultancy Services Ltd Target Rs. 56 - Religare Broking Ltd",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNczc0VFdUbElpUld4ZERYMHNYbkZ0QkNHUmVrQnJDVEhUQWd3dTFCSjZXd3UxSzV4WW9kNXVEaFdseEJnZ09neVBaZGJ1STkxdHpjNnBVeWdNYTBPSXpUSVFVR29tYVRyMUd2bGNMcWNieFdoa1JReEI0ODlDRTV3cnFPYlBGakxyM0VzbmhIMHNNb3JJbTBNNWxSamd5Z21wTEMydXFTa2oxZV9pRXg4aGJmeHYtRzJQNk8zVUdqeVc3ZDJkWWJFOXhKZHIxWDlSRUh5Yw?oc=5",
+          "source": "Investment Guru India",
+          "publishedAt": "Thu, 17 Sep 2026 05:48:01 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421121"
+        },
+        {
+          "title": "Tata stocks fall after Chandrasekaran row; Tata Chemicals tumbles 9 pc",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRFRqVFhqcVE0b1l3N3ZjVHJmUWkwZjlNNzZXTE1sZHZWZWxXR0F6Q3RiM2NxWmEyYnE1TDE1R0xsdHhqQXczRjBGaUMwVWFfNjV1NXlQX2d6emw2QUFBeWxKZHBxUnZENUxvc1RBN1A4ckNTRGRIUFdoSDFKWFpCVC1FSVlJMmg5SWt1ckdmM2Jpek5WUXYxUDVrdm0zTW41WDk0WUMyUmFNMXdtTTdXNllocHBHMTZyT0E?oc=5",
+          "source": "The Federal",
+          "publishedAt": "Fri, 18 Sep 2026 06:20:18 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421126"
+        },
+        {
+          "title": "Tata Consultancy Services Limited (NSE: TCS) Share Price, TCS Stock News, TCS Share Price & Updates",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tYkdRbkpSNWlpSVRyUWZXSWdPTlg3QjFKZ0hYSnhua1dxeGR2bll6b2FiR3ZVaEVtV0lTdUpzN21XQ1gtTmJpQUM4c082QUVs?oc=5",
+          "source": "Kalkine",
+          "publishedAt": "Wed, 16 Sep 2026 09:45:00 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421130"
+        },
+        {
+          "title": "TCS Share Price Falls Over 3% As Tata Sons Boardroom Battle Deepens",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdC05RWU3STB1cmd6cDBvNGdrcTZoeE12Y3NnVUMxdWVUdi1QMU42TEc4MlN6YWkzUkx0RzBfUTZ1bE1ISzA5Qk5JaHVXQ2NmcHROQV9uY0ctYUpQUGxidVdLSzBfZzdwTW9wb19wSmotNXh1a2pwMTlPUDZTZDFkMm1qSm9kbmlpOVNxMHR3Q0lFZWJ3aXdQWXN1bUtFQWY4ZGQ1ZHZhYU9JdWgwZF9N0gG3AUFVX3lxTE50SVB4bE1PWFBkM3VkT1hOblg3bzJjNDlTTnlhMEpYM1ZyWktLTFk2UXp0cm1JV0xpM084UjFfaXdmNlJDZkFkQTBGZWdPQThiUHRWbWxZMDZUUHdDMlJUaFpobjRoY09xT0RoZGpGNEE0V3lrdlI5eDZETldYYUFROFowRXVvSEFuRDdVRnJMaUdSWjdVWVNQWXVlWUpzekpLUjhKU1VRYWlwMFhjNDVYM2lmaEtTOA?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Fri, 18 Sep 2026 04:12:21 GMT",
+          "fetched_at": "2026-09-20T20:35:17.421134"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at TCS",
+          "severity": "Medium",
+          "description": "ESG red flags detected at TCS: board. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "TCS launches next-gen system-on-chip design services for automotive and semiconductor companies  Tata Consultancy Services Share Price Prediction for ...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "board"
+          ],
+          "solutions": [
+            {
+              "title": "TCS: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -152,26 +245,6 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "TCS: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
       "competitor_intel": [],
@@ -182,18 +255,18 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-20T15:49:54.932773",
+      "last_updated": "2026-09-20T20:37:12.502971",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
+        "score": 0.0,
         "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "pos": 1,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -258,7 +331,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Wipro launches Wipro STO360 with Aramco and SAP; shares fall 38% year-to-date",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTDJ1ZTI5WTI0RTM3Q3dZODhRUGFXTmNxWTBjOHJDRFhfU1duVG85UTNFV1ZWRy0zN0RwUFQxdmhlaGRVc04ycFZ6cGZwLWNMVEk4NjhLeFBiWkwwUndlT3dkWWQ1MWl3MVlkRkFtSlRnU0NuMV9XSjNYUDFXb0l1cUswZVFwd0pBYVB5aVRCMFJVRmEzckxkRW1Va2lsX3diY2Q0dWhlRktScUtWT1lBekxiQkxJMlpXelR5eUJTUEs4TXh5dlZybk84bzNSOG0t?oc=5",
+          "source": "Upstox",
+          "publishedAt": "Thu, 17 Sep 2026 12:48:51 GMT",
+          "fetched_at": "2026-09-20T20:36:42.734832",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "ABB Extends Engagement with Wipro to Deliver and Enhance Global Digital Workplace Services",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNS2tnX2h1Rkdrb0IwOEYwOTlXTUN2STBqNHdmdjVsTERjeFdDdUlSdThpdFRQUmdUYWdxQU5LSU11VjZhYXE0WjBadkRJRzR2NHZxZGowZkVVTmVOWmNWUGZxejN6NWsyTW82NW1FZHp2ZVcwbjVBWkp5S0RCQldCWk02MjRZRm13RHlBRDM1LUpzLVZ3dF9VZXNMZWFSUHBQc0NZV1dZanV4QXlMaW9mS1c4YW1GQnBWa3psbkZZQjhFdk1iMl9jZGRsV0ZzZEFDZ3Q1Z3czbnp2dw?oc=5",
+          "source": "Wipro",
+          "publishedAt": "Wed, 02 Sep 2026 08:47:03 GMT",
+          "fetched_at": "2026-09-20T20:36:42.734845",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Infosys, TCS, HCLTech, Wipro Share Price Falls In Trade: Three Reasons IT Stocks Are Under Pressure",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMkk2UkQ0NFBIVGFfMW43MWFVUVVnUlZIekNnTDZBT1BMX2FOX3NRMkFlOW94SVhzeU1faXpOWldfd1I2Mi1HaWJ2OFZPNUVJSDQ1OE1kczA5Yk5oNXZadWNBbWh2ZG5pVk9NTkk2bmo3bklXbWx2c2NmZE1uRklhYzV2NC1uZUtySFdlRWJxenBxQTdYVUNPVXFLN3lpUGZhLTZtYTRMaks2RThlQmtoeno5bVdqSmxBN09hREYtQzVPbVpIdjh3TGNLT2ZZSTRSckFPWmtn0gHeAUFVX3lxTE9LQ0duWlRvMUVpNE1scEZ1WkRaYkdLaTRqWEJScmhCelc3UmRsVDdXX0l3S09uTzcwbnhCNXJQX3JVLVdFaFI1R2VVNTVQZlhBR0c4ZW9Rb01RdE5YMGwtSmN2ajIzY2VhNTJXWU84TWtiR3hLMDlVb3hWaG5DVnI2d0JkZlUtdHJOaGZsWUR2U0tkaVlYREJJZkJNRWVWVVh4SjlhSzhqNEk5RzFrY1FZanhXc2d6TEduMTFaMmh0N3B3NUoxbTVtN1BJXzBMV0NMM0t1LXZnZ2RDcURQUQ?oc=5",
+          "source": "NDTV Profit",
+          "publishedAt": "Thu, 17 Sep 2026 04:16:52 GMT",
+          "fetched_at": "2026-09-20T20:36:42.734850",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro Limited stock holds steady as ADR trades near analyst target",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbjJFbENfcW52UUZ2Q0kya2NZdTY2bkJmRERXMkw0c3J0RnBiclFLMjVpYTJMNWh2bW9uenJhNHFNV1lfTUZ2Vi1qeElDRlNpSkozM1BZeWN0ZFV0WHZfdExEYTN3dDdqMzBmSGk2WXlNSWRrbmR6a09rTXF0aWIyQVlFV3JWQk5ud1E0MG5VR29IdU5JR2FLQVZqM0dyV0N6a1FuNHJWdDVwOEUxUnhMS09oY3l4Z0NzaHVrVlFzQU4zQlE?oc=5",
+          "source": "AD HOC NEWS",
+          "publishedAt": "Sun, 20 Sep 2026 18:40:13 GMT",
+          "fetched_at": "2026-09-20T20:36:42.734854",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Wipro: The Order Book Needs To Earn Its Keep (NYSE:WIT)",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaE5TVW5iQVBLdF80ZGtaLXBPZXJTUWM3cnZqZHBBQ3U4cWliWmw5T3p6MXA1akhESEt5Z1B0YWw1QTdDaGRybFlYUE1iS3c1N3NXZUZqbDh1MnhRWFVteG9rcC1KSHdMODZ3aE1aQldJUnlsTE9MSzdTZnp5RTQycG9SZTRFeDhwTnRndw?oc=5",
+          "source": "Seeking Alpha",
+          "publishedAt": "Sun, 20 Sep 2026 13:21:14 GMT",
+          "fetched_at": "2026-09-20T20:36:42.734857",
+          "related_to": "Wipro",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -266,11 +385,11 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-20T15:51:14.894502",
+      "last_updated": "2026-09-20T20:38:26.394617",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -342,7 +461,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "ICICI Prudential Life Members Approve Name Change To ICICI Life Insurance With 99.9994% Support",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVEg4NkJXRXgtVG1LUzVnWk5fREtmb1ZMY1NIN2h5T1lQVHFOVE1HNnBqU2NobHlGYTJyTXBNMUVvVmZGTlc2amRXN1EzNV9kQnM5bC1sblcwaXYyMmY5Y3hSd2JZZVRlVlBrWFVyWU1wbW12SHRYMklhVjJ3cjRxWmZ2RTJaeG8tdGpHalFBSnJZMWpnRnBjVjdKdTg3c1J0RHBBaUF3SC1QWU5Xd1EyZTRKbmYwbS1fZ2NrMg?oc=5",
+          "source": "Sahi",
+          "publishedAt": "Sat, 19 Sep 2026 15:58:18 GMT",
+          "fetched_at": "2026-09-20T20:37:43.073369",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Senior citizen FD rates in September 2026: SBI, HDFC Bank, ICICI Bank, PNB, Axis Bank, Bank of Baroda compared; check latest interest rates",
+          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQd2Ewck4xc1cwOTVnX2dwRzRENjdCYkkzQ3Jzb2JiTXpIc2FlQ2xGS3cwSnZ6dzdXWlBNbVpzbmw0SFZpaXVDN3FWRVVZTFF1T1JEUW9PbmU0bFRoY0VHLVAtNkZNYmp3ck1RMEZBV1NyT1ZIY2M3ZHRjRFhrQ3pINmEzbzJwUmJlQzRXRnJIc3RST01HNFNmTVdURGpxbnFGaWRtMTJtVHduMmZWNnE3aTZjSHlGR0VzN3RIMUlTV2dBc2NZbjhlNVpXNjFPSzA5NUpCYV9tUDZkOHAxWW9hb0k3aE1jQXhFcDVZU0RoSlRUMVhMTno5eDBPSDVmc2JVM29zM2tRYlVWOWVKWGtjRlZR?oc=5",
+          "source": "Zee Business",
+          "publishedAt": "Sun, 20 Sep 2026 12:00:03 GMT",
+          "fetched_at": "2026-09-20T20:37:43.073384",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Saturday bank holiday: Are HDFC Bank, ICICI Bank, SBI open or closed today on September 19, 2026?",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQ2J6cWdOc19MN1NuWTNKQml2WDhrWHVHRGhrdHMwdm1pcTVfOVVJY29sVGpOSmFTUE5RUWdZTDFwbUsyQUQ5clVtWkNHRDNIRUhOWXV3NGNlT1NvS3JIOUMwYWlWNUhPRVRsdDd6M2podlBCam5qcmdfQVdTSi1nS3l6UTRhYU9jZ2pjQ2JVQ2Z4azlmRHFZSTM5UFJ5MnlOeUlDeUtFWm95R2FGWlFINFB3Y2IxQzNyOHBRTWlkM1RPdXZEQ3JlX0dtLXNuNmVhRXJlZ25ZTlJmcm1vRGgtVmlZeG9IT1NYcFowRmRWUdIB9AFBVV95cUxQM1BCVkkwNU5NVEwwRXVLRWpkSG03LXktV1NTSF85bTVzektneU1Cdks0a3JsYzhLenJ6VmotUDdobWg5WVQxYVNmWEROWk1wNFZWY1FEOEhoN2V5SHJ6cE1PQU5SNEcydDM1NF91MVFBUGNtbTNJX1N5VUd3dzBDTEtvV19pbzdIWG1nTVNnSGcyMmR0Vk1UTDZPR0JDRE54T0R2LXZyY1czcVBHQTlTNFhlTXk2MTBiWEhtM3ItUHh0VmFwb0JKSWszZy14SFdwOEVfNjh4bFZWSEoxT0E4LUxzZi1RUWNGWHBNLUJwNHZFZTFf?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sat, 19 Sep 2026 01:35:00 GMT",
+          "fetched_at": "2026-09-20T20:37:43.073388",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bank holiday today: Check if SBI, HDFC, ICICI branches are open or closed on Saturday, September 19",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNYUxMOGVfVHN3VmxkN1FyOExXdVl1R0ZUX1p0Q1VnYmZiRi1vYm1rMko5dWllVUd4THo5S3IyaDhmOHM5M3pEaDZXMVFjNWFfSEdUYXE5TS1Ha2I1aEI4eDlQUXQyOXBJNldNX003VnlpNThfaUVCckd5dTktaGNFaWFNSFAwODZYS1BvZ0FxbEswX215S3pDdWdfTTZXU1RYWlZrQ2hfVDVwYTV6VFdUOE05Qkd4bjljaElweUhRLWNkWmZSX2VtaGdZcVpGZHRtTWpsQ1IxVXY5OUZMOTRSREJGSFZtRzl4ZkFHc1lENGpHazQ5QkHSAfsBQVVfeXFMTnVWZW9GcEF2b01HSUNwMk1TSVZMc2g4T3NkdzRRS2FrSVVZXzJxX19zVG12X3IwelF2N3QyRnlTNlhRekpCR3gzdEphdEZ0amlIVHpNYXVxZVVLdE10bWhmcWlOdjVwX2ZQdDk2MVhCNEkyTmhCNmhPRjBGTGdxNF80R0xTUjliSlpIcjBpVVZyTFhkQUtRd2VFaWRRaVJEZlVQd1BxWUVKS3d4aDZtRnI1YXZWcWJxNlY5aHo0cEppYXNSUUo3N3lidnFrZkxvV2JvY0M2V2pwUjM3c2xBZUZhNHZialZxZ21na094Q3ppY1NFaDBuM2RULWc?oc=5",
+          "source": "Livemint",
+          "publishedAt": "Sat, 19 Sep 2026 02:13:20 GMT",
+          "fetched_at": "2026-09-20T20:37:43.073393",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Bank Holiday Next Week (September 21-27): When are SBI, HDFC, ICICI and other bank branches closed?",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNLVBxZk83b1ZuNU81eXhkTEt6ZmJrR0xBWDFjcGhWcVpjUDExejNaeGlmeFJwYXpIakpHQnhBRmphMFRRMThna2lMdHFLN0d3R3pSdFZjei12T1ZoX0lad3B4NjBxV3VqY0h6N09meG5uM3g0Zkh4YWhoM3B6NGh6OGh5YmdJaHhkUS1IV2tUNFBZclJ5OEFfZGtnRms5TmdVY2Uydy1OQ2ZVQ1JYS3lQRi16R1lHMWZpT0tjUVJadk5reVVCblBvSjZGSHoxTFZUWVR5VGEwenFWZ21MWXU1WXNfS2VPM0RP?oc=5",
+          "source": "Zee Business",
+          "publishedAt": "Sat, 19 Sep 2026 00:30:00 GMT",
+          "fetched_at": "2026-09-20T20:37:43.073397",
+          "related_to": "ICICI Bank",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -350,7 +515,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-20T15:52:26.447707",
+      "last_updated": "2026-09-20T20:39:36.155850",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,11 +599,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-20T15:53:48.606593",
+      "last_updated": "2026-09-20T20:40:39.787364",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -510,7 +675,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "CSK vs DC, 18th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeVpVaFJTZ2RmNGZTNkx1RW5PN1VxWUtXdlByRDBMLVo3QVo3d0VnX1ljei1zMEpQYzVBRU9DOV9VSzlJZ3ZnNU8yNVoyMTUyQUhOUzdmaDh0VzAyajdCS0k0VURkemFTc0dWTVliOXVKU21PdElFVmtNOElNTE1jYjF0d203LVVhY3FaeTFwZEkzNzBSVEI3UFhIM3pqRXNf?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 20 Sep 2026 19:02:54 GMT",
+          "fetched_at": "2026-09-20T20:40:03.985260",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK vs SRH, 63rd Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV3hneHVyd1R1b296cVMwR2JUMFdYZTFvcWlsVUhuRnlVdTcyRmg0eEZqMW1rQnF1b2FKYjA1a19PSDFtejZ2UUFRR0NpVFJiYVo5dkk4b0NwM0dkajQwMkYyZWNZeElpb0RwT2p2RWRPMWJCbGRnLWlxNzFhRnN5U0NSV0JWczBDRC1HLUN2a09NU25HaG53R1BzY3pxek44cmc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 20 Sep 2026 18:42:13 GMT",
+          "fetched_at": "2026-09-20T20:40:03.985275",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "PBKS vs CSK, Qualifier 2, Indian Premier League 2014 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTjR2UHlPVXhhSmt6cnhHS0NPb1VzT2FIRGE1UzZxVy1aVTBjWUZTZ2hNQlF3Ty1oQ3g5OXlfYVZOaGFHYzNSNEVGRkZUTzlQd2tVdEZ6Y2pINlhyU1RZbERYaTVzWlFjOHZPMTJZUmlTQVZwTU85TXRvVUFPQmJjMDE4Vlc3ZkFYUmI0UkZvS0d5am9vUUdKNTE3Mi04RGE3UHJPdGZvSQ?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 20 Sep 2026 16:45:21 GMT",
+          "fetched_at": "2026-09-20T20:40:03.985280",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MS Dhoni reportedly picks THIS star player to be next CSK head coach after Stephen Fleming",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX1VkOElndnFyQzUtQkZLN2M5ZkYyeDRwWHZJTHJzSHlwalFzeDF4dkdtbTBsMW5DbGFSRnBZVjFXcVA0VjZjcWtJYjExNUQwWU9FeUJRV05BYzFmVV9KSm5HOWdrRUxwWWVmNzNoS1k5YzVNVHVBYlM4eGRJNVVLMklyRGs5V0tBOXd2aUdya2wtYmtsbVBvR080SGlHMkRfQ2NicUhPRHl4UThjbU10b08yc1BlQlczbjU5TFBLT2RNQ1RFcnFmZnFJOE5xYTRKcmpMOGFLbWRIMnFJRzBZ?oc=5",
+          "source": "India.com",
+          "publishedAt": "Wed, 09 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-20T20:40:03.985285",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK Told To Retain Ruturaj Gaikwad As Captain For IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY1FNUnp2REY4ZkoxTkZEejd0TU4tYTYzS0djdzVLc2NSQnRTaFA2NWZ1cGR5S2tGU2Q1aUR3QVJqejRfM0s5a1BYeEdMci1Nb3NZcHdmMm9yOUh2OHpvbWRGVF9HNTVxcjI2aTdmaUxvRGl5MHVPQ1V6Uk1iNWg4MUJfcVhkbFM4anR0bjg2eXlFR0RTLURZNThjUkgwakRlMVRTU3I3bU9Tc0F6SEszbk1pamlMNlZRMDlzN19n0gHDAUFVX3lxTFBwM09HU3p5WWZwTlFRN0ppb1hpRVFqTEJFOHdyeTZiZFNFcm5mVzhxLThfV0Q1U0Y0Smt6WkdnYzJjSjRUTm5mVXFJRWxVaEpjWkRjM09lcHhyQWN1MFgzekVVS1RKa1gzWkNqc0tueVNkSVU0alJ1RDZDbFBvTTVBOTVIZW9Db3hITjlPWXgyWWZVcThRZlZwWGVXS3k2dEpfNEVwTHo4UUk2X2g4S3pKN1BvMVBJVFJWWlZ1aGFTOXRpcw?oc=5",
+          "source": "News18",
+          "publishedAt": "Sat, 19 Sep 2026 14:50:21 GMT",
+          "fetched_at": "2026-09-20T20:40:03.985289",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,7 +729,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-20T15:54:23.537309",
+      "last_updated": "2026-09-20T20:41:40.338550",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +813,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-20T15:55:31.460238",
+      "last_updated": "2026-09-20T20:41:55.668728",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +897,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-20T15:56:01.557452",
+      "last_updated": "2026-09-20T20:42:25.720229",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
