@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-22T11:28:06.977032",
+    "generated_at": "2026-09-22T16:49:45.421999",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-22T11:17:32.516074",
+      "last_updated": "2026-09-22T16:39:22.298968",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-22T11:19:01.300145",
+      "last_updated": "2026-09-22T16:40:38.866800",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-22T11:20:14.317610",
+      "last_updated": "2026-09-22T16:42:07.562311",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-22T11:21:44.998291",
+      "last_updated": "2026-09-22T16:43:36.320970",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-22T11:23:00.527457",
+      "last_updated": "2026-09-22T16:44:52.539901",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,11 +434,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-22T11:24:30.704425",
+      "last_updated": "2026-09-22T16:46:11.700861",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -510,7 +510,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "RR vs GT, 52nd Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFM5SHlGV2xoTEVwZUtMS3c2OTluQXd1dUZ0VWw5cmNNNkUxdzNwdngtMVBjNXBsWmxXM1lyc3Ewa2RrTVFOQ3lQZTNUTk5ZeVN3S2ZidmRjdWJKWkRwV1dWQW5sekRUZVlGQkxicWlTT1NvUXYwQlBNR2lWN1Zya3lWWFZCRVFkNjZhaDVWTjFvMU9nRGIwNzNPdEttemc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Tue, 22 Sep 2026 14:47:37 GMT",
+          "fetched_at": "2026-09-22T16:45:56.597250",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "PBKS vs RR, 27th Match, Indian Premier League 2024 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcUpxaE5rQ2k3YnNsMklnZDBxaFpPcFZXXzc0MkItQkxUZFJCMTJGd3JvSk1sZW5kcVl1MmFFZTI4ZmR6X3IxWTVnZjVxMl9PWmY3dzBQT1RGZldNOGx0bTY3ZVFrZHZhTFFWeEVWNGg2UlJrZDVUVHA4Nklqc1Z5NU15cEs0Zk02eExkTmxvRTF0MlJORVdXSUZKWEdCcWR5S05KTg?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Tue, 22 Sep 2026 13:07:03 GMT",
+          "fetched_at": "2026-09-22T16:45:56.597264",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RR vs MI, 13th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSENXQU9OOXlibFJnMGhybzZJY0F6d0UycGxWSlBJOHR4Z2tqWWd5QjUzb1BWakUyRGFfTm5GaXktQ1dVQkc4ZnJJenJoaGdKQ0J4ampERm1BN3BFSUJRUU4zRVZtNFd1dzdJX1hmWEo4UkptcVYzN3pfcjZQc0VDQ0QwWXBpN2syb1p6cnQyRWZ6bF9Gdl9nZkNsVzlNdnc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Tue, 22 Sep 2026 14:08:36 GMT",
+          "fetched_at": "2026-09-22T16:45:56.597266",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Lakshmi Mittal, Adar Poonawalla set to acquire Rajasthan Royals in 15 thousand crore deal",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUGxPR1ZVelRnTGE1dzQwVi1JQ05Zd29oRWRadzBoX3E4eFJ4SmJsekxIeUdVaVk4VlBMTm83Q2JUU3RTNXFHeGxLRWJxMHlOY2Q1RS1aSEV4cEptWGJ0aVlRYS1LUUZZV05nTlhrWjdqZGFNS3dBeTlkbWllbGRCYWZERDdoaE5RaXJlMjdneUpZc0dERG42c1ktX1JYRlR0TnZKM3lJSk1BbmRza29DcUZqdVpFUjUzRUFERGJFMS1YUnZkLWxQTXM3clBrMmhwdmoyddIB2gFBVV95cUxNbWZHdXplSWRiQTJabXBQWV94Y2RIYW9ZRGNZOFVMZEZlRUZSMFc4czcxNEpkYTJCaDNNUG13SXVpOExLQmRNa0UzeW1EWHRFMHRDT2UtVVU1NGhBSFd3Nkc2alNLUjJPMEVFaGh2bXd5djctVWQ1Qkg3ZHp2ZV9kOU8weUgwLTRTTjZNUG5nejliWlU3OV9mQnJHQm1qVWpjY01Vck1Qc01uNnoyWlRiN3FlR3lFUF9pclZHbTg4ejZKbDdYZkZONlNPZHFfZ2o3LWJoYzczYkJzUQ?oc=5",
+          "source": "Livemint",
+          "publishedAt": "Mon, 21 Sep 2026 17:32:03 GMT",
+          "fetched_at": "2026-09-22T16:45:56.597269",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Lakshmi Mittal family, Adar Poonawalla secures CCI nod to buy Rajasthan Royals & 2 other teams",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNVZxcWRYVXNrcUFhSGhMMU92UG5QUm1UbmdnUHRBdjkzZDhyWlZsY3dLWVllNENQTmttSTc2X2pmOG5BYTc0RWVhdnRUeUVGTkZvbmE0a3VsZGJkMnZ5RE5IVEdwZnQ1WGg0RHlpeV9Zc1lab2hRT1RUUDVmNjAzOEtmOWxwLVNybW1EcXkya1lFVUM4ZmFkTUhRa1U3cUtaNFRqUmJicGdmQmp6ZmJQMjFjRk9IbVAwMUYtakI0bUhkRzRCd1ZEaUYyNGxKQzZWaDRVRDdRclZCc3Fmeng0bXR5R3BUZw?oc=5",
+          "source": "businesstoday.in",
+          "publishedAt": "Mon, 21 Sep 2026 09:19:59 GMT",
+          "fetched_at": "2026-09-22T16:45:56.597272",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -518,7 +564,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-22T11:26:07.438338",
+      "last_updated": "2026-09-22T16:47:44.146975",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +648,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-22T11:27:36.917780",
+      "last_updated": "2026-09-22T16:49:19.310045",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +732,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-22T11:28:06.977014",
+      "last_updated": "2026-09-22T16:49:45.421984",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
