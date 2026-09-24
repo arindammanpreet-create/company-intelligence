@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-24T17:02:09.576111",
+    "generated_at": "2026-09-24T21:30:51.750179",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-24T16:51:38.746383",
+      "last_updated": "2026-09-24T21:21:12.545394",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-24T16:52:58.565144",
+      "last_updated": "2026-09-24T21:22:28.424960",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-24T16:54:28.963479",
+      "last_updated": "2026-09-24T21:23:53.448086",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-24T16:55:59.263303",
+      "last_updated": "2026-09-24T21:25:21.899027",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-24T16:57:14.580648",
+      "last_updated": "2026-09-24T21:26:03.567494",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,91 +434,20 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-24T16:58:43.253106",
+      "last_updated": "2026-09-24T21:27:17.466355",
       "data_sources": {
-        "news_count": 15,
+        "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
-      "news": [
-        {
-          "title": "Coach who delivered RCB's first title now appointed Mumbai Indians head coach ahead of 2027 season",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNG5fLTVYUnBGTERNbnBhNzhubDYxVlRfODctMG9YQXpNYlAtUHQwMC1UbnMwclZlUGZ2QzRIYWNMUXZ4anc1RlgzNGNSYmFzTnBHMFVENUJERzZQOHRib2ZlMmw5eklvWmpqUE5heFpfM2R0UVpfQXVtSHNUc1Q0OVg3bWl2NzRrLVd2R0xSQjloVEdjdTVJbDJ0LWZvTW5IWEUtQkZJUldSbU1FNnN4QWxkZEpnRFZReHczQXIxaUJPT0JCWHhxOWg0dHgxaGpxaTVvOEtaQXQwemNac3cwUUdJVm5mRXczTHRuWkR3ZTU3QVVRdGxzV0VzR0xjOExlc2N0emNFMm55d9IBjwJBVV95cUxPSnctTG9vVEotLTVscnRJWS1ZcGtZaV9jZG1JODdfeVk1b2w4TDY4VlZsTERHYjVZRmVhN1NZVzVxMUJKak5FMjM1WkRVdGs0clRLNUlDbDQ4MVhjbE0zaEpWR25mdkxhQTFwREZGbXpGTGNGYWp3Z2FhdEZOVmtUejBoU0NzY080Z1hOWUNCSWxVRXNpNlV1SGJIV2d1YzU3cW9TU01HZVZ2MnpVamlvNWs2ZE02c2IwODRQVkUyRHFRT2c1RTU0UkFKLWhUcjNBV2xqajVCcVZGa1gxTjQ1cWdiTWhFc0Q1TDNQRzNlTWdVUWtOTTFVRjRxbDI1b0o3a0ZrYl9JSEtoZDdDYmZz?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "Thu, 24 Sep 2026 12:44:00 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309898"
-        },
-        {
-          "title": "Mumbai Indians make big move, Harmanpreet Kaur's side appoint Luke Williams as new head coach",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa1pRaUhwb1FBN05YM0lUYV85cE1ZbjNHdmo5bWxhZzRKaHZrZ1J2Q0JobHdCWURmbjdsbHZVX3Z0ZlRraDJvRk5FQVU5TWhabkFqNkNtSUowY3RKV3FzNmJfQ09td2dtLUtqNW1hZzE2QjB6dGlYSy1wZnhXUUs4ODFnRDQzMExwak9kcGN0SGxPRWUteWd0bFBYeU94WWVtbUIxOHlMRDg5bkQ1cUZadUJIaVlVdEkwbThSYVJ0S2FOSGhWd3ZoSWVJcXpOMjNDVHY00gHYAUFVX3lxTE5VZTdHSHJtQVZLOE5ieFlLQTNEajd2Tk5ZOVVOZUJoMGYtMlZfV09GNTNNbVYyWW11bFBuZjhFQkdHbWpKZVpXME1CQ1U5ajVZUjl3YU9Peng3ZThzbGttbnZqd0Y0WHhJdTBrWUhJQXJoMFVwbC1ZVEoybVFaS1Y5Q3BSZ09EcTI5NE9WUGVtUHdjdEpRd3ZKaTg0UjQ1UHFGcjkwemZPZzhLQXgtNzFlNnpXLTJKMnhydGU2MTlSNXNwRDJvUWRhLWdIYUp4SG8tVVZxWmNpOA?oc=5",
-          "source": "india.com",
-          "publishedAt": "Thu, 24 Sep 2026 10:20:52 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309912"
-        },
-        {
-          "title": "Mumbai Indians announces Luke Williams as new WPL head coach",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQjN2R2VHTmlob1lxVGtaZm5IM0x5WmdiajRsU1dSSThkQVVZbzF2ZGJQWDRvRHNVaHhySWZFXzBlY2cwRURITmdLMTRwRU56b29MTUdlRktGZDJvZWxmUzZVMnVBMTZJdmljLVJycFVqVklnZ1VNaFVCalFFZzBkUWFqUFdoMm92eDQ5NWFlbUJsTUgx?oc=5",
-          "source": "KalingaTV",
-          "publishedAt": "Thu, 24 Sep 2026 08:57:24 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309917"
-        },
-        {
-          "title": "Mrs. Nita M Ambani: “Hope the kids go back with a lot of cherished memories”",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeHo0cXpDU0tZRkF4RGFVLVhqZlFzRDdod2RSOEViNjRSOHdBb3E3UC1fRjFvdUxSa05yRGt6NU42RTFZcldWTERCNUMyNGNNRmlHVjAyV1NHQ2NIcjc5bG55MF82U1BTVVNsRFNYc0p4aGRqaFpuWmoycHRaX3NxRmphb2lJRFgzVjNUV0JtNUZxdHNjNW5xYV8ya2taZi1hY0RacnA3UFh6RTg?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309926"
-        },
-        {
-          "title": "‘Like our beloved Mumbai Indians, there will be tough seasons’: Nita Ambani left in splits after student’s witty dig",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHl3NnVUR3ZKc1o1LVc4V3c4VzdQYnRkcy0zSlhMRE8yWUd5c1JDa1lRRVFWUU9OSEkyT2dnRXl5UERoRENpRGRKdmpTdFhXdXFXc3c4Z0lDVVR4dUVMWEZPRkhLNVluS2k2WnFnc3laM2tISWc3amVsQTE5M2dBZ0NET1ZRelItLXo4aFAycXE4V0RJMmhFNWR2OFJ1SGhNZ0Q2MUpfalNINGJDOURJVjkzbzJQdlotS29NUDZrX3pwVVBfVEHSAcwBQVVfeXFMTjA0dkEyOW0wcm5NbFJCYnVyNEhnd1dIa2lwZ0R0Q0U1cUZvX0JWNTZxaHA5UHFLYVpNU2JRbDZUcS1LSEVINzJxUW83TjZYbnN5V2dSOFpHYkhJc29rcEY5Sll2RXJMWkhtTjMtbWZtZjVyc05wRW5QTEUyZ0tQSnZ3MDYwWWZmVHNKQlJJSmRSVVdZOVEwU2xjM3E4TEd3NmwyZWxqbmRIeVZ2dlM2eUl5Vm85MVdUdkN1ZTVrckIwX0t3M3ItUi1sUGpL?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "Mon, 25 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309931"
-        },
-        {
-          "title": "Mumbai Indians owner Nita Ambani fails to recognise Rohit Sharma after batting great’s unbelievable transformation | Cricket",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdWN2MWEweHFuLWdadDNBTDFTQVdzVnRYTm1vOFowcEtvQjhCWWZ1aHN4MXNTMDd3aUlxdVFaZWhwY3MycUZaUHNBVi1vUTRFZUJINHlqcXdpdE0xc0xZLTRLc3Y2SWNqRUpjeTBad3lnVWllZHV3TWRJVjNlYmE0RHFVYVlqcWxqTGI2bFdaNmRaWnRvY3lrM09WOGpGT3hPSmpIbWc1S28tTklHT0RtNVJ0NHpBcFhfWlF0THhJYWZFSmNsTFNCVEtEU1owZVpfSWx3ZF9ZOWVHTU8yTlBqX0JsRkpNVE5OUF9PSkxuYzB1N3JxS2RHWlFUQnEtMkY1Ym5rb9IBigJBVV95cUxPa1lnRlI5RmJlOUdybEtKUVVzaEdjQUlzcU1RaUptSWI3YXVpNnBJS1A4WVhWekotM0dabUxBMkE3UHpWVmVWWFhMalFOU2ZpYmREWU9Rdi1MeFZIbnVSX0V5LTRvMlpjelp5NU5odFNXMWtLRlBYQUk4Znk3SDdqR0tlOUhHa0Z5alI3enVmLU1vNlVRdVlxZTFsNDZJQW1pVkFKQmlwUG5ZX3FTRUppSUlRV1NKc1R0TXIxZjJXZGRiYnI0R253YjhkbTgtWGgycTByMWlidU9IV0tJZEhEQjZ0QlFWOU9uSVhJelczckpQVi1fZzB3MUUzVHMwdFdJNmpoSFNlNUgzQQ?oc=5",
-          "source": "Hindustan Times",
-          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309936"
-        },
-        {
-          "title": "Rohit, I didn't recognise you: Nita Ambani praises MI opener's fitness transformation",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObk1BTGdfTkhycTlmTHBZZ3gybW9WQWRCWEcwRE5SaGh2NFF4OHE4b0ZPbXdZa3NESU40bnRsN2pqbUJ3Mzg0VzBoa2EzTjAtME13ZndSZEVNOTlFSGd0azRKZ2lGdUxCZ3ZYQlpmWHI2eG4wZ3ZCTjRod3JtbW0xb3pIV3l3NDlxNWpzX0JqMnAxMXFnQUZCbDEwS0NvRVYwNUQweVhUWFpqb3o1VmJsbXJxeEFVVzNFOHUyZDU3RHozN0FULVB5cDJIRUl2dmNQazlF0gHYAUFVX3lxTE4yT2ZvNFhfNlRmaUVjRVRoMmtaTnQ4YWpYOVI2NXVDcHV6clROejBYLU9vekgwU0hBQmREYlFTUGowQVNQT3lJV0dDN1NJZTgzbVZFSjJGYndhNWNyZlY1Y0JoOGNhbEYySEhlYkkxTnVFOXVHZ3gtZFR1bWw5anViQ0xNcjRwRjNCR1JsSDc5TklLTmdkWmRtQURrTEFTb0wzQTdjUXZrV0s3amRHcWozNlV1dVdpODFzM2hicF9UcVpYeXNPb1NlUjEyNVpfQl8xTUFpNVhydQ?oc=5",
-          "source": "India Today",
-          "publishedAt": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309940"
-        },
-        {
-          "title": "\"Make children smile\": Nita Ambani's message for MI players ahead of special ESA match vs RR",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdERSQVZxZXNjREZlNWhWNDlXaE1vRDIzWThKTlBQSXd6NGhzYWlUTm9lTkhMRHJuU2ZCUXVBUnZPZlNZUU41clUtQVNHand0RHltVkplbEhKcTR0UEUtLVBNV3l2cl9adzZzVW1adk96dTdESGZFYU9ReE55UXVZMVhjU1oxUVdYUlhoNGx0NnRxUHNySHBocENMSWhfN3k2RDJ0cTQtSFlFVXJLWGhrczdCMEFVSlBkMWh4V3dvTExwUUhadS1EVHRSRDNUeTItTnlHa1EyVnZtZWNieUE?oc=5",
-          "source": "ANI News",
-          "publishedAt": "Sun, 24 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309945"
-        },
-        {
-          "title": "MI’s #ESAMatchDay 2026: When Mumbai comes together for 20,000 dreams",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTDlidWtGN1VLLXUxV1h3ckRrN2RZMkJRM1I0bEN4TDFJeDVyQTlyNnZ6TnBhX3FSS0Y4dGpyaUgteGQwYmxfMi1LdGNBelBOSWtJbThETVJuRnNPVU14aFJiSTdvazB5Ql9OcGRMaWxIc3NpSW53SmlkcnZoQ2xGSnhWTEVfNTRTTWppbmpmMHBkYUdPMFE?oc=5",
-          "source": "Mumbai Indians | Official website",
-          "publishedAt": "Sat, 23 May 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309949"
-        },
-        {
-          "title": "Bad news for Nita Ambani's Mumbai Indians, after Hardik Pandya, THIS star player has also…",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZ1BiWDFNbzBienI4WWVheGlIa0JyTU1LZFA4ZGpNOWJQSUhva2FOS1hRLXNFcTFLME9RVXVJN1M2NnNYM2VweTNmMUJxdUtxSGRBVjVLc1JSZUJMbnFJRzNnT0lrVzRnV0JtbmFhaXFuVUl4RllFY2liVllJU01wd2h5alJjSFhkNmcyME93X2Z0NndaYXVnOGlhbExRQnRpUXp4R2RkX096RTUyLUdHVXU5WEVtSkRjLTNSSDBEb2tiOU5sQUNneWEwUHhZU2M4LVBMaXJRUjVWTWRRM00zZtIB5gFBVV95cUxOWkZXZTJQRmkyQ0pYTlN6TmpLVXdWQ3pKMVRpSlEtdXl0UmhuTFBYMjMySVVtVFMyRnJuanVXUFhxWXVlYVZrWHVkTFZjSUxZSkxidWh3cnJta0RlWEFHZXBHNmtKcEwxR3pwZkZGVFJSVENxT1UxczFMMDV3Nkx6N2lfRHk1YlZHV3djemVZZUFoYjBLbkxsZ3BpZ09nS3VILVlKUnAzVnFfUzJLakNHV0RVYWVqTFJNWEgwQWQ0T09jRjNMX3FfSFdRRWdSNU02UUx0UV92V1NTVTQyRXNfcGNEUUN2dw?oc=5",
-          "source": "india.com",
-          "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T16:57:29.309953"
-        }
-      ],
+      "news": [],
       "research_gaps": [
         {
           "title": "Mumbai Indians: Strategic Market Intelligence & Early Warning System",
@@ -581,7 +510,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Form 8K KKR Infrastructure Conglomerate LLC For: 23 September",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYUhOZzR4cWh5QlJ3Xzk5bWRhZFNkSzFVc0s4QXBJZVF3QmtjcnFvMlNoc2JQOG8xUW1FWTROQjFGdXdBOFVfZjZkcm55NWN4US13UnlNMDZqbVZ6eTM1eGNUY0FqNHpLcnliUF83NElQUG5YNTN5ZHQtaWkxOVRqbVBQZWNBdGxFN2s5LW4xX1JVSmZZb0FzRnU3UW1zSTVhcEtHWS1IUU1Tb1ItMl9XRVMzLThWNzNNaUpHNW5B?oc=5",
+          "source": "Investing.com India",
+          "publishedAt": "Wed, 23 Sep 2026 20:47:20 GMT",
+          "fetched_at": "2026-09-24T21:26:50.591261",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Star player from MI to lead New Zealand against world champions India, KKR's Rachin Ravindra ruled out",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQWUNRRnp5OG4tNjZMc1NwNDJieHZaOEdkV3VNZnpoQUtNaG9pSHFrMEk0ZDhZajE4aXdKR3RFaVZrMVJuSG5XNWJMUGpvdmFHclRvMWdLWV83NWtDcWZkaDBfSkxkSHhzb3VHOVdOMVJKQVR4QjFHUjRsZld2M1hLaURFT1M1Z0xoMXpkMkwyc2cxZlQzYTNubTFmUndaNmFxMl9pM05GM2VERkY2cEwwU0hHbmx6cS1xZHN3ZTJOaHlWR2Yydi16Mi1PX0dhZGlBNnpNNl9leFVJclZUaW5qd3Rxak1lbEJfWjdfWFFsR0tqd0U10gH6AUFVX3lxTFBVNGlkYl9wYVZBS1kyQWRrcGpvTTg1T0k1Y2xCeEtRd09jbDQ1eDUteWlQYWVWN0hWRHhSV3FOX2FRYU9MSHAzbFZlY05vek1Ma01oYThObkE4cVdpcFVfc0l4WHVNbGVFT1A5a0xUMjd6bFlXLXBEM2xWQ2R6aXhRd0FRV3FZQTNoV0xqNV9wdnVBdGUtUHc3NVE0WnlwQUo3VDN3VkVEdU0zcXA5bE1fU25ObFNOZjRtMXp2ZGNKMnZIQTdJeHlMalpXVWYwUG5KZklNSmhwWVVVdVNpQUFRdFB5U3Y3VFBLTkxFVm1XUjE3VjNtSGdJaXc?oc=5",
+          "source": "India.com",
+          "publishedAt": "Wed, 23 Sep 2026 09:02:32 GMT",
+          "fetched_at": "2026-09-24T21:26:50.591277",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Why Is KKR (KKR) Putting $350 Million Into Equipment Finance Now?",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONW9QZTlIWnFmU3hUNWFQckxaYXk2cmMxYW9jcFhKMEhtVXppQmtUSnlKdmdTRUViR3J1UHVRV1BsU0Y2aUpSQ2U0S2RmUVFoUDFkTElaSkIxUEJNaFNvLXhFSEZ1d2FBOGtKQTZLUEFGNXBONUFzejRCN2l3ZXd5cXhfQVo1ZGIwVVRzdzFLeXY0bnE3dzRnYWIzWW5EUlZEV19EU3JDUXJJT1FNaWlfVGlzaE9DU0pCNlNxc1VnbHZJOHRURnhGQmJUd05uUdIB0wFBVV95cUxON0VxOUFfS2dCcTZDUUlNeXVPbWgxZ0huelpwQ2JwUW11MFJxdE1iX20yUjNET2NZZXZmRkg5OFpxN0s5WXFoOVgyU3VURWJyNWFiU1V5SjlHQnhKN3lEMGtUVmxza1ExUTRzaEhxSUxLQnBmVTRlRkk1WTk2WW1WMTFHMDF3WXc5QzdmdGx3R1RJT21qQUltLWJrZ0twN0lOQUVCLTMxSU5ocVdwSlV4TGt3MWR4aGpYY0JCQmdYNnJVa1JXR29iSzBMQTNDSm5zLXNZ?oc=5",
+          "source": "simplywall.st",
+          "publishedAt": "Wed, 23 Sep 2026 12:55:18 GMT",
+          "fetched_at": "2026-09-24T21:26:50.591282",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR set to ramp up exposure to India’s green energy sector with a new deal",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdjlVd3RuVzNGLTJMZjlYTkc1OXJYOG1hZmNKMlk5UXAzVUpXY01Ib0RXYTZ4R0VJeElldnNuMDZER1NYUEtpTTdjVmZEV3EtUG5mZTE3R3BUZDVhc3NoTU9Dd0lqX3d6VzYweDV5NW5zcW5LcVVVdGZUdHZvMVdSY3c4a001RE4wcGVrN2w0OUU2OUx5OVNFR25QZmo4cTg?oc=5",
+          "source": "VCCircle",
+          "publishedAt": "Tue, 22 Sep 2026 07:31:33 GMT",
+          "fetched_at": "2026-09-24T21:26:50.591291",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR acquires 2.7 million sq ft UK logistics portfolio from Ares",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYUJhbGFTTDBhb3ZGMjhwdnBKR2MwV1BDX2Vfd0E2MEpQMmdzWEwyc09rX09rT1NEM2FXUnhka3FUSG4wSWR2d1kwR3pYYldpazRkSHpPazB0am1oVE1KbGlBVDdPZjB1M0c4YWRqYXlvV25fbVhsYkhqd2VybEFkVEdDOWxJdkxLUmxfNFpXNmhGZjlKbzJQZHBDeDhsbm80MmxBeTVFSGVEcHdRamtRbktybmRfSnl4d3pVVW8zYVE?oc=5",
+          "source": "Investing.com India",
+          "publishedAt": "Tue, 22 Sep 2026 09:19:48 GMT",
+          "fetched_at": "2026-09-24T21:26:50.591295",
+          "related_to": "KKR",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -589,18 +564,18 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-24T17:00:28.466488",
+      "last_updated": "2026-09-24T21:29:01.664898",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
+        "score": -1.0,
+        "label": "Negative",
         "pos": 0,
-        "neg": 0
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -665,7 +640,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "CSK vs GT, 37th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN2VfMkR2VnJuUlQzNkNBWlozLVB4U2FzSlNwMzk4dWJEaC05bGR0VUZlVnJ6MUVPS2pYbm9hR1lGS01fUmtLbHBGMVE4TnZBMW1SbVZLZHY4bkRmZ0FMY0hJVFpnOWZIa0s0b05FNGdGaENCOHpKbHprT01IOFFGX2tnaWFiVnJDanM5bFAzeEFvMnV6YXZWSnFELUhheXgw?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Thu, 24 Sep 2026 20:02:54 GMT",
+          "fetched_at": "2026-09-24T21:28:01.531661",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK vs DC, 18th Match, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNEgyZ3pFMU5zMmY4U01NRFZ0a1JDWHB4amxDYW8wOWpObjRGX0otOXU5ZHBmV2pXQUt3OThYLVZLc0txV0JNalphakprbXUwQWNnU3p3dzlIT1lTOHRfMDJrQUtmTXU3Rnl4eDdmQk90Qm04MFg1Zldfc0NXdXcxaFlIZm9hdzZZdGRRcm1JQ090cVUtWHpRWWFDVkU2ZDFpUTcxQw?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Thu, 24 Sep 2026 19:49:00 GMT",
+          "fetched_at": "2026-09-24T21:28:01.531673",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK bring in Zaheer Khan as head coach for IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVnhIQ0pfRGw1YUhPbW11ejIzZFN3Tm53SXZKWW1zMGdvTmFTdW5mUVhyMGNTYVFidjlJZ3NMeDM4cEY3eV9HWTF1VU5jQ2lWbUpfak1YSzFWcjVrU2lkdTRldm1vbUViT09QX1kxdVpsdXdwcy1DQXIwTTBOYWlMRUVHTDhHLWZuVmdSaS1LQ3kzUE95STFnS9IBqgFBVV95cUxNMWVrdXdpY1lCZ2czQ3U2U3dyYVYyZ0Nya0FDTjJWSmF1REs0T0hOR25YREI5MGFCNDVwaXR1aEUzYUZwdzY2LTlIN2FNNlhLaXRJNXBYSVNTTmZBaExwUzlrVmZjQU4xSnRNUHRBTVdQYmI0SE04YTFWMXNSLXJMWmdmNHNEdjZwTDFTMmJaQS05LWhtOU55MkFta1Mxd0YzUkhmS2RCdXdqdw?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Mon, 21 Sep 2026 15:50:43 GMT",
+          "fetched_at": "2026-09-24T21:28:01.531679",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "R Ashwin drops Ashish Nehra bombshell, reveals CSK considered GT head coach as Fleming replacement before Zaheer Khan | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQMjJEME0xNmJYWjk5c3N5enJEUkYyY2FNdHZhTU5IQ0RrZVFQTWdzdGh0V0RzTS0zRVA0UXYtN2NrcDZzcVYtWEJRb3k2ZE1sRlNaaFM4b1JCV2dQODdjSWoybXd5OURNbGJUVXBJLUJPOG9nWC1adER5ZmNmZkJfVnNxc2k4blgtUHYwdXdINU0xZUtCNGZNZ2hRSENLYUVRVlc2WVFMOXlpUm51MlpwWUZjUXVUTWRtUjhqOEdmNnBNQzMzOVU5eHRxbEVESG9lQnE3b09RRGhGaXhaVzNfalRQdGQ1Y1RpLWFVYXlIU2RUZHJvQjFWeTFQejFUUWFJZGpIckZIQdIBjAJBVV95cUxQelEtMWo2UlRKTzJwLXZoSkFrVmlNWl9LbXFBSWhQck11MDlfUVJCNVU3WVJRMXlQMExzdjhMV2pMXzI5Q0NNUFpJQUtSdDdyLXpuRDRlREpQaHhhOVhZZGJSc1NBVENKMThuekdhdWdXQnp5NXp5OTY4ZHhZMnRINFB3aGoxQUxPLThaR0ZOWnVZUjhteV9ldzdOVjNGYm04VWhBU1lPQnlWeTdGem0teFJiQWZlck1qWDlkekxFS1VwbE14X3BwNnFkbVF6THJveWV2eHAtYldKbGxRZ0FPdTM5cjczQmVqTkUzMTRtN3NxWGRfNVRnclhSN1piTXA0ZWViU05PTExhYnIy?oc=5",
+          "source": "Hindustan Times",
+          "publishedAt": "Wed, 23 Sep 2026 12:24:14 GMT",
+          "fetched_at": "2026-09-24T21:28:01.531684",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK Welcomes Zaheer Khan as New Head Coach with Warm Video",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtdmtKRXphcW8zWi1LQWthRmtpN3BRRnY2WER6eDdhbEIxY2dTT0tuZEkwazE2UXZkRUo4UXhNWWJlNVczQXZ1UjhwZXN2WldnWmdiYnB1SQ?oc=5",
+          "source": "x.com",
+          "publishedAt": "Thu, 24 Sep 2026 19:00:03 GMT",
+          "fetched_at": "2026-09-24T21:28:01.531688",
+          "related_to": "CSK",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -673,7 +694,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-24T17:01:46.993272",
+      "last_updated": "2026-09-24T21:30:27.307094",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -757,12 +778,12 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-24T17:02:09.576104",
+      "last_updated": "2026-09-24T21:30:51.750163",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
         "score": 0,
@@ -834,43 +855,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
-          "source": "PR Newswire",
-          "publishedAt": "Tue, 15 Sep 2026 10:30:00 GMT",
-          "fetched_at": "2026-09-24T17:02:09.575839"
-        },
-        {
-          "title": "Physicists Blasted a Quantum Material With Lasers – Then Watched It Rebuild Itself",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcHJCX3Q1YlBsMUpsalZJQ2xrMW1UU3F1NlZvNmZpMnFFeVBJNm5ka0p3OHYzZXhSckdCQTYzVEtYNmQzM2EyQ0pNSHROeHlod1VHVlZTVXdpTmhUV0p2M21hZkVxaEQ3dXFZY0pTVmNsWkdsZVMyLS1GQXQ1bUdGWkVVNmFMRUxXNVl0OS1kbzFFbTVxOVY5Y0R6TkN5RU1ZbWh4ZVgyN2RmSHhJeWc?oc=5",
-          "source": "ScienceAlert",
-          "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T17:02:09.575855"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T17:02:09.575860"
-        },
-        {
-          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
-          "source": "EurekAlert!",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T17:02:09.575865"
-        },
-        {
-          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-24T17:02:09.575868"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
