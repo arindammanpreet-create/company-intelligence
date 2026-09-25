@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-25T04:27:14.699951",
+    "generated_at": "2026-09-25T11:41:59.522928",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-25T04:18:56.910891",
+      "last_updated": "2026-09-25T11:32:07.593216",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-25T04:19:49.603108",
+      "last_updated": "2026-09-25T11:33:19.645888",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-25T04:20:42.808381",
+      "last_updated": "2026-09-25T11:34:49.890243",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-25T04:21:58.744605",
+      "last_updated": "2026-09-25T11:36:01.836473",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,17 +350,17 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-25T04:22:37.647561",
+      "last_updated": "2026-09-25T11:37:07.180142",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -427,14 +427,50 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Airtel Cloud customer count touches about 40; manufacturing firms account for quarter",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONlF3akoySWJITWp0VGYzS1NHZUY3VXlETk1Pbm83QldNQVFHblpCcVFhQnZXUS1qZGVmU2RZcmt0Z0lDZUEzNTZBdlNEanFUQ25LWWZXcnNrTXRHNTVEaDFOZVE1SnJtY3ZvdllydlkwSkdUYlRVenZKdWFKSENiU2tZdS1sdURreTc2NDl1TUdaUnF4Zk5Kc2ZIdGJTODZwYkIwQWVMMkVkZ2UzUDg2cFBmY2E3S3N2RE8xYUcyd2VudURWTi1PZ3pscUVHT1FJa0JpRWYxX0NUMDhmekhvMmlyZEV2S2ho0gHuAUFVX3lxTE1CSTAyZmlwYW9peUw3YmFPb0dGUlNjSTNJR3N4RTlKdXk0aTFTcWdMT1RWT0hPQjVsRUtkS0FzYUNiTnFlMGlGX1UzOGVoeGtQQjZCc0FwYWMzdUFpV1JzN1dmREhEZmJuNmhMVk00bm1CTDhqa3A4ZlVKMGFrNjhuNjYxTWNWOC1sZERDRDZRUUs1N052VE9hSXI3VmwxMXRmYjRkanlmOERNUW93RW9IZ2RBZGVyWVZYOUljSG9XUEYxMi1GMHFxbk04ajlJWTVmWWxVVE1sUWJDbVl0M0ZCaHNLVjJuT0Y2UEM5cHc?oc=5",
+          "source": "ET Telecom",
+          "publishedAt": "Sun, 20 Sep 2026 13:04:20 GMT",
+          "fetched_at": "2026-09-25T11:37:07.179842"
+        },
+        {
+          "title": "Gopal Vittal – Managing Director, Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbmF3clhSMkpuNk13b2FZN09xREd3c3FOcVFySWNSREtCalExeTBZa1o1dTZmTnMzVnY3SW96SzFqTmVNdGJOMnRhU2F0cDZKWFA4RXFNcGhvVHRfU0pIbl9QQ2w2VWNfZXFQS0RtX09va1VZY3hUMG9ocGhwRWVzanFPSQ?oc=5",
+          "source": "ey.com",
+          "publishedAt": "Wed, 18 Feb 2026 11:23:11 GMT",
+          "fetched_at": "2026-09-25T11:37:07.179865"
+        },
+        {
+          "title": "Manufacturers drive Airtel Cloud growth as sovereign infrastructure demand rises",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb19ubkpzejhlRV9EWEUtNDN0YkZUUExLZGdKdkdjN0tIaHFsVVNLekFsRGZVYWdVU3FyOTV5eDdYMnpsZ2NhZ0tTbmZzekxFRm0yZTg2NmhIR2dqa0ZSd0NZczNrZGpvbHpKZjBlaVpzamVuOVFrODlSdTZHd0pVek03RWRYNzNoSmlOcjJmcUk0SFItRmoxNXREd1F4VVBuSU9TUFgyYTNUd0tvUzR6Y1FwMklITzJNX1c4aA?oc=5",
+          "source": "CRN Asia",
+          "publishedAt": "Mon, 21 Sep 2026 05:19:22 GMT",
+          "fetched_at": "2026-09-25T11:37:07.179869"
+        },
+        {
+          "title": "Higher data users should pay more, says Bharti Airtel's Gopal Vittal",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQmZUek8zM2hpMWxzUkNaTzhPaGlxNkktaGhwOTgzN21sdnJzWkZveG5KUzh3Zm1uWHhaRXA4RGV2dUlxanh5b080dW1lOVhXNnMwT2d0aEltMkhWQjFkV2JvR3N6V3F1eTJOZHJmak9GdVF6cVJ6TXp6WTdSdGNfODFnZk5jZFN0dTdFLTBfZjkzQzR3VzluQXJFdkNEWWZMeWYxVWk4R0FORjRqYVFsdzFzZ29CUmpJR1VORnZPNXFpaHg5cVBmYVZWOHhoekR0QkHSAdcBQVVfeXFMUDFkVHdoajJReWt1ZzRRNWhSN0tXUG5GYmhkQTJEYlBBeENYZ1FicXYxalY4ajk5U2ZwOTNxYzBaaC1xeW5HYUtmZFBhakF2aWZ4d1lVOW5KVm5qVFB1NndEQjBIX21mNEtGbTU5UGhCQUxWVm91T2hHRG00S3FHVV9VODlfRnYyTVpwanh2OU5SbEZhaTRPYmNiUC1PeTJDbWhmNmpaQ2FwWVNnTzhXUW1RY2lOa2gtZEdoazJqVG9lMGQ3ZElpcFFJYW9ES3FrZUtBMHBxQlk?oc=5",
+          "source": "Business Standard",
+          "publishedAt": "Wed, 05 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:37:07.179871"
+        },
+        {
+          "title": "Gopal Vittal's network effect: How he rewired Bharti Airtel",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSU8wYzlJajl4Tl9BNGFrZVJ0VFE5UlVUeWVBMXJtdU9qLWRCNkx4Z1JDTnhMVWJfZ1RSaVJhWkJxV3hycGFUUS0xMktyYjk4elVmUGU2QWVyVVUwUG9TZHpISXJfV2JoSTlCbnkwU2dXVUtlTW5FcjUxLWRubS11RG9RRUVRMWZRX2RGaTNOT0pHQWl3akl3UEd4MDlWTll2Z29hcXRCMGZNcWR1OENDT3psbGfSAboBQVVfeXFMT0h1RjRLX3lMWlpMSXNvQ1U1dlBxLWpmbGFhUjJPYzEyeTFNNWotV0N5WGFqcEEtUTBJU28xVzFzZkY3Rl9FRDMydkh6Nzd6dVRrM2xJNElIbjg5RXdBS2ZRdXhNanFjUlVUbEh5STVCamZZc3BYS3NhUHVCVDhpcmpzckQ4REkzRC1ZYmc0YVYyeVY4TWhnbFU2RnUxVTZ1WVlWYXMwQWRvM2ZxNFhGMFFabGdzcFVzMEZ3?oc=5",
+          "source": "Forbes India",
+          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:37:07.179873"
+        }
+      ],
       "filings": []
     },
     "Mumbai Indians": {
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-25T04:24:01.441302",
+      "last_updated": "2026-09-25T11:38:28.425762",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,20 +554,91 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-25T04:25:17.611918",
+      "last_updated": "2026-09-25T11:40:10.121631",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 3,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Virat kohli masterclass leads Royal Challengers Bengaluru to IPL title defence in style",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYVFvdWktTHN3VGNhbmRZaHRJMnN6dXRCNFpFOUtPd0Yza2J5VWJrb2d0SVpMN0ZycllvaVo3ZUpRekdLRVlOMVdRZHRlUXkxZ1FCV0RCRVFhV19iRjAwLUIxUEtpV1pkamhHT3NVZUhSa01sSHR0M1hKa19vNDZfdWFqNnY5WEx6SnBGRi1vTFRwd0d2Yzk2N0tOanNfNFotdUl1MXFDTC01Q3ZIQzJ4WkJEYw?oc=5",
+          "source": "ddnews.gov.in",
+          "publishedAt": "Fri, 25 Sep 2026 06:05:53 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058647"
+        },
+        {
+          "title": "Virat Kohli slams record 9th IPL century as RCB beat KKR by 6 wickets",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3ZmcWVzZGtFZE81UUVrQzFUTzdnWDhjbzBLLTl6RElKNG9rUS1yTFJTdUtVdk85T3hob3ZMYUtFTmdhVV9JX0paVUlEa2FuN1l4OTdRTmVTRU5tc25vNy1GaWV5U2tfa2xZMWFPVXhURGR0NnVWQTUyYVRqMEtDbnR2UDk5QmhXNVBTaGd1NWVjYndDRUxzVmFnOA?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Thu, 24 Sep 2026 16:36:06 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058663"
+        },
+        {
+          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058666"
+        },
+        {
+          "title": "From Virat Kohli to Tim David: RCB’s top five batters in IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYzlBMVRBM3dDMTNTZ1g5QU80cUFJbXZzOWFWLURVSkVCSENMSVprZ3R1VjlpWEhjenlQZnpreGNSb29IM2NDSVIzZ3lFeWRCeS1mVl9OQ0JyZnVSUzluU2YwcU0yR2R6elI3SlppbWY2djY3elJuRlFRX2x1WURWSnNKRFl1NHZqcVdYTDB4amVkNWpmazhpam94NFNucXF2SzJvUEhTclVrOXdmSERBQmlSRFJpbExoN1E?oc=5",
+          "source": "Royal Challengers Bengaluru Official Website",
+          "publishedAt": "Thu, 04 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058673"
+        },
+        {
+          "title": "Royal Challengers Bengaluru beat Gujarat Titans by 5 wkts (12b rem) - Royal Challengers Bengaluru vs Gujarat Titans, Indian Premier League 2026, Final Match Summary, Report",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORDE1NVo0aHFyUkFPbWdNc042OXZ6ZTNVdk84T1NLQlA1TXJINkpnZzR2Zld6bVl5YkN5Q2U4N0dYZmd0N3JvWlF3b0tlOGV6enQxcWxLWktDWWpjN185MDljZV9xSzJVYzRKNVZ5NnhGX1pxUVRibVhlb1Q3WDM3LXdRQmZucDROV1N3X0h0dTZ0bFloTDFtRjlLbEJUeGNFTHJVTjZ2ci1XZWtWVTJaSGRQcjNuajhfT2dhSl9NdmU1dERYQkRrSzJ0RVg?oc=5",
+          "source": "ESPN",
+          "publishedAt": "Sun, 31 May 2026 13:21:04 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058677"
+        },
+        {
+          "title": "Kohli, Padikkal hit fifties as RCB ace the chase against GT",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNXzJYVFc5NVRxeHhwT3JXd0hnaUtneDRmQ2p6SFVTLXBvRkpKSUVsQXFnMmhFRm1WRl8xVUlzQlUyQ2F4Wkgwd1QtaFJ2TDJVNVFKTFh1UlMzOFY0cVVtVU5tcmJCX2dNU2ZROURTVU91N1JKS1JQTHA3clJGbGd0Z3ZqdExTRUtUejUxTXB1VDdIUzZkZENwWGxGZUJtTXE0YkRvTUg3a1RrN0xGaXhFRm45R2hVdjM5a0lkellrNlNiOG1p?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058694"
+        },
+        {
+          "title": "“The most complete player” – Phil Salt heaps the ultimate praise on Virat Kohli",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXQyR0ZsTVFKZ1NkSk1hRWp2enlKcXpybGVWLU1YOHRNdC1CanBOUy1yOC1PTXZHTE44WGVnU3MyREhhUXlwdEVFcmpDMlpSWFdyQWFKbkoySEFUZThyYk5PUl9rbjhzYmpCYlZhVEJ4M0EtRVQtaEpBWVQ4UG9wMkc1UFdHcF9DNWRYMExSSktLTG5Ic1NQN2tla0JsUlpEcG94dDBGTExJdDJQSEsxQXNiUXJVRGda?oc=5",
+          "source": "Royal Challengers Bengaluru Official Website",
+          "publishedAt": "Mon, 06 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058698"
+        },
+        {
+          "title": "Thus far and then a little further - Kohli chases his dream and catches up with it",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTUNEMHZEcUxFRFlSSm1mZkpXZUxQV3RmcTdIdTNzaEJYV2g3OVVIOElEVEFzQVVBR0pGV2o2R1loelBnRzJJS3AyMVM2Qm5pQUFGU2RnNThxdTRob0tjdHd1eW1INkZ3Nm0yX3FIVzIwR2JUTGQyUFNSOVdJNkk0S25nc1Fwc05VRHlnSjB2d1l5M2FNckdvQVZadV9LTGFu0gGyAUFVX3lxTE8tbDBDTjlYcnZldEgzcGNLQ3RIS2hHMVRwZE84YmtCb1cycS0yaE1RQU50MGdqOEUzT1Y5V1FjbFJXMTdfQ1NRMUROUnp5bTNWOXZpMFpBejJMQktWNHp2cmxGeFNaX28zVExsWGNxYXh2amkwdnZaUDJndzhHdU9hSnFCQ3BZOWNpYk92YnBoUWFKTUQ3UF9xT2FNY3NHcDdBR3RGTVR1dlVNeXJSZlNsY1E?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058701"
+        },
+        {
+          "title": "“I'm always ready because that's my daily life” – Virat Kohli on his eagerness to play cricket",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYl9kMDA1YmM4YjRpTS01cVI1NVMyQTdHbXJBU2pIeHhabWJoT0w3LVlrTUVaaUdVYzI5N1plS09ST29JMVJxcjdiTTlEVVM2WTNtWjZwRnV4LWszLWdWamhodEhyZHJBem4wY2hXSFJGcUZoYWtzSV9FbTdodWpzbkVreWIxVHlzaVJ1S2FpT09fWjZFekgwVDZLUVJUdFhNeEZ6bWhiemhFbC1lMUJkWU5PaWNiQW9qVHUzYmF1UQ?oc=5",
+          "source": "Royal Challengers Bengaluru Official Website",
+          "publishedAt": "Sat, 16 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058704"
+        },
+        {
+          "title": "RCB Podcast ft. Virat Kohli | Life in Cricket | Teaser",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMXBBLU41ejlOcHNQTmxTUmdPMWxFTncwT2lwT0VfN0F6dGF3RFkzZ3VHUjA4Uk5QMVJFV2NiRmJrUTJXOHVuaGJMY1FyZFJLcjA2NF9ycFNJY2F1Qy1Sa1d2YlM3UmdtQzdHQzAwZ2RoTDNMS203Mkx1R0tVN3UtT1lxQTNtM1JWU3hibUduNUdlLVNWenJQMHNsTFI4WjVB?oc=5",
+          "source": "Royal Challengers Bengaluru Official Website",
+          "publishedAt": "Fri, 15 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:38:43.058706"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Royal Challengers Bengaluru: Strategic Market Intelligence & Early Warning System",
@@ -602,11 +709,11 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-25T04:26:53.741147",
+      "last_updated": "2026-09-25T11:41:37.144165",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -678,53 +785,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "KKR vs MI, 65th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSjRuZExxQ3AtRG16bjFnZjVCTW1XZ0Vad1BCSGJEUmZlcUZ4cmV2M0NRS3U0d2QxVmJ0T0pzYVlqQWJKdjgzb25fcFpIQWZleHctSThaVVNiV09PLXV6cGhlNVJPd2Z1OUtFSEdHYzBXUDZpRUF5ZGhYVVE2ZEdyZjFQekNPSWFjWThubzhFZ0VFM01XQXU0MlB0S1RNa2Fp?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Fri, 25 Sep 2026 01:20:32 GMT",
-          "fetched_at": "2026-09-25T04:25:45.165027",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RR vs MI, 13th Match, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV2t2TlFyb3d5Q3ZNN0UyUjJsZkZPUFFOZm5ZQzdYSEhOQll2NjB0cnNYc0FIVlZWUTRSMUI3cnB1WUVRMFA1VWdZQWdMWDhWNXlmXzFGWjVvQVJWWTJtRFJLMG9mcTRiZnhrSjg4RVNMR0c2SUZtUFdWV0VRVVFnWnZBTDNMNDBIZlNIVWVvS2J3eVNDY0FHUDJUd25rZHRoN2xj?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Thu, 24 Sep 2026 20:16:18 GMT",
-          "fetched_at": "2026-09-25T04:25:45.165043",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Highlights: Mumbai Indians vs Royal Challengers Bengaluru | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHVGMV85NHlpdFJ5YmdGYVRWRG5HdGEzbHFNTWVaYTZzdkZ3LTAzazhqc25ULWNJVnRwWmdYYjVZaDFuWkZfYnk4WUZybXkwQjQzR3dJTTM4Y3BhdUF0alhmR2NJUVUxZkw3UEJfQU9XcEY1LWNORGZwdFN0bWhoNFFCUG9OTWd3V3A2X19ab0lJQ2VFdGhNeHVxNVljLVB2?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Thu, 24 Sep 2026 23:17:04 GMT",
-          "fetched_at": "2026-09-25T04:25:45.165047",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Mumbai Indians appoint Luke Williams as head coach ahead of WPL 2027",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa0FudGh3SGxHcXpjMkRTWWxXMDlVcWdXbF9FcVVYWjZQTGJEN2VuQTFNQkRqX3pRVVFkZ2kyNnk3bnZvbHRyRnRyLWNpU3FOU2pPbUM5b0xCOVNIY0toTEVkMmM3bFEwQ1BocWgxU1JldXhhN29qLWJzdHNxYzVBVGU0RmJaTFFib3RRTU9pTmJSS3NBLVBDaHJMb0R5NDV0OGR5c0huNkllQjZyUk16UUwxTkV4N3hOcFhRX09FZ2c3Nnc?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Thu, 24 Sep 2026 07:02:02 GMT",
-          "fetched_at": "2026-09-25T04:25:45.165051",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Rohit Sharma to MS Dhoni: Captains with most victories in India's 200 T20I wins",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWVKOEN1Mk9CdjRwV05XVFFyNHRZVE1vV2loYXpLSmJkLWZYN3FvYkZjTkE5OFZ0YXFXOXBud2xBemVRTGlIa1JpdkpkNk5WWG4wQ2twcld2UHduRm45cUUzYXFsRnhMODBKRlU4T2N2Q2VvczFOTHhyWm4wRUd1OEdSa0l1NlVpeG5lLUtDejYyT2dkZkYzbzk2X3JBS3FLaEcyelNGZW9yRWJ0THJlYkdmVHJfaDRxQ2JMMnZR?oc=5",
-          "source": "India.com",
-          "publishedAt": "Wed, 23 Sep 2026 11:43:58 GMT",
-          "fetched_at": "2026-09-25T04:25:45.165054",
-          "related_to": "Mumbai Indians",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -732,21 +793,114 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-25T04:27:14.699934",
+      "last_updated": "2026-09-25T11:41:59.522913",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
         "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
+          "source": "PR Newswire",
+          "publishedAt": "Tue, 15 Sep 2026 10:30:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480876"
+        },
+        {
+          "title": "Physicists Blasted a Quantum Material With Lasers – Then Watched It Rebuild Itself",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcHJCX3Q1YlBsMUpsalZJQ2xrMW1UU3F1NlZvNmZpMnFFeVBJNm5ka0p3OHYzZXhSckdCQTYzVEtYNmQzM2EyQ0pNSHROeHlod1VHVlZTVXdpTmhUV0p2M21hZkVxaEQ3dXFZY0pTVmNsWkdsZVMyLS1GQXQ1bUdGWkVVNmFMRUxXNVl0OS1kbzFFbTVxOVY5Y0R6TkN5RU1ZbWh4ZVgyN2RmSHhJeWc?oc=5",
+          "source": "ScienceAlert",
+          "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480897"
+        },
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480900"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert!",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480903"
+        },
+        {
+          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480905"
+        },
+        {
+          "title": "Designers Are Ditching Granite and Marble for This Countertop—Plus More Kitchen Trends for 2026",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90akF0TE5hVGtOZ1ZiVHh0cXpMNkdxLVVoMjN2QUg1bnNjVWV0UmY3cFl4c3N0UF9MU1Bza3VzMXN5OFR5VUVDazRmcDNVdGFJSWt0NmU1RllzYW5vajRKVHdESUZlWnFNUV9pZTBIU3llbVExZWc?oc=5",
+          "source": "Real Simple",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480908"
+        },
+        {
+          "title": "TITANS SQUAD SHOW: Cam Ward is TOP 10 QB material NOW, plus crucial UDFA SLEEPERS",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNRVhqWnNZLTRVNWtxSC1scW5MdVdTczlabFNCRFNWblNoSE9PcWlWQXdRQ2NoZFV1bnZwWFVSNXVVVXRPYUplTnFxVkgwclVaVWxtUERMWldlcGNuaHdKTF9yUTNVT1lyUU9SYzliQ3FlMEEyVnh4V3laWUM5YUpBS0k2dG9TOUlYS0lQdzZheTJIZ19mVjZVc2Q4UENDSS1HMXNwN2ZnZTVaY29Zd2xETTF1N3hrX2J2WmNfelZPVmNQVnRkX2VBYnBHTEpmYXVOUVJPQUM1VDhwY255Nzc1TTd6a3ZvbTdoNHJ4X0NNOXYwMXFiYmVvS2I1VFc1bW5zR0tXeWhwNkhqcWxfbHU3QnZHckVNcHF2WlBPQXRB?oc=5",
+          "source": "11Alive.com",
+          "publishedAt": "Tue, 19 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480910"
+        },
+        {
+          "title": "L&F Plus Completes Daegu LFP Cathode Material Plant... Mass Production to Begin in Q3",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91OTdSV2M5RFVSc29CQjlXSlBtc0taTUpobHZ2N1FCY1FhX1VvOHo4c2RvaWVqdXZjNGh6dnViMjA5MUl1Mko0RUJsTHdkZGRQWEk5eWM2bDdJUk90TXBhY20tRkY?oc=5",
+          "source": "아시아경제",
+          "publishedAt": "Mon, 18 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480914"
+        },
+        {
+          "title": "Fayette County man charged with 50-plus counts related to child abuse sex material",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNThuZkJVMGZDM2t0RjFoS1lWOC1yLW9vOHN3T0ZwUUhIOWV3dHNySHNiOC15MDVBVDhOUzlTWlFTaEI4UDdqRWhyY2hSY25zTkstV2lSdVRqelR2VngtMjFNSWNZSloxOGJUZGxxZmxDeGpGQVZuQXc5NlpxSXJQOGYtY3RJU1hlQ3VUQmFsOVRwWWYwUXRfU3BHVHlIVE1Vb3l3SnEtR25heV93b1liSl9Ld1VhdHNvaFlLY2wzcXBjWjJsQjVKbXhJNktqRDVTUGlzRXAtR0wzaVVvU1djZnFoVXBRWHpYVG5kSUI5RHN1Zw?oc=5",
+          "source": "WVUA 23",
+          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480916"
+        },
+        {
+          "title": "Former deputy gets 42-plus years for pandering child sexual material",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnBvUkdqMjc3UWVYTGR3RmxTT181LTd5TW1YdWpVekVsS2xLY0VnUDZ1SEpjU01uSVhod2JON1BEMHJhSDh2ZGhwNHdhOGxUcExVN3BzdXE4R3FSNjRJbU8ySUV5VUNkZ2h6djZGSHBfXzF4cHdnLUdnYTFwR0IyTDU2cEZfcXBzTzZqM090bjcwYmVydU9RcExtdV9YZERIVGdPUVp5OGJ3MmdUaVE?oc=5",
+          "source": "Record Herald",
+          "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-25T11:41:44.480918"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Material",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Material: carbon. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx  Physicists Blasted a Quantum Material With Lasers – Then Wa...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "carbon"
+          ],
+          "solutions": [
+            {
+              "title": "Material: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Material: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -783,26 +937,6 @@
               "methodology": "Win/Loss (100 deals) + Social Listening + Patent/Job Tracking",
               "description": "**MRA/ESOMAR-compliant study**. Win/Loss (100 deals) + Social Listening + Patent/Job Tracking. **Deliverables**: Weekly battlecards, Quarterly win/loss analysis, Pricing gap tracker, Response engine.",
               "gap_type": "competition",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
-        {
-          "title": "Material: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Material: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
               "framework": "MRA/ESOMAR"
             }
           ]
