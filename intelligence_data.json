@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-26T11:16:35.678209",
+    "generated_at": "2026-09-26T16:17:26.976858",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-26T11:06:58.904808",
+      "last_updated": "2026-09-26T16:07:46.345951",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-26T11:08:29.269897",
+      "last_updated": "2026-09-26T16:09:00.835181",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-26T11:09:45.234808",
+      "last_updated": "2026-09-26T16:10:31.176995",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-26T11:10:46.826276",
+      "last_updated": "2026-09-26T16:11:34.012517",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-26T11:11:43.420978",
+      "last_updated": "2026-09-26T16:12:34.306717",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-26T11:12:58.761584",
+      "last_updated": "2026-09-26T16:13:57.770893",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,17 +518,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-26T11:14:25.613674",
+      "last_updated": "2026-09-26T16:15:26.639964",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 10,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 3,
         "neg": 0
       },
       "news": [],
@@ -594,15 +594,97 @@
           ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "Mumbai Indians appoint Luke Williams as head coach ahead of WPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa0FudGh3SGxHcXpjMkRTWWxXMDlVcWdXbF9FcVVYWjZQTGJEN2VuQTFNQkRqX3pRVVFkZ2kyNnk3bnZvbHRyRnRyLWNpU3FOU2pPbUM5b0xCOVNIY0toTEVkMmM3bFEwQ1BocWgxU1JldXhhN29qLWJzdHNxYzVBVGU0RmJaTFFib3RRTU9pTmJSS3NBLVBDaHJMb0R5NDV0OGR5c0huNkllQjZyUk16UUwxTkV4N3hOcFhRX09FZ2c3Nnc?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Thu, 24 Sep 2026 07:02:02 GMT",
+          "fetched_at": "2026-09-26T16:14:25.316955",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Mumbai Indians name Luke Williams as new head coach for WPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTUNFRlFkSTZRMU4wQ0tsWXY3VVVudHoyd2RFRHpBRFhVbDZiZzhiMVFQVXd3TkpURXB2LWcwWG91WHFESERsSlZiQm8zdmZnWlU2ZmJOckVrbjVZRFNLb01Va1JGeUhTTlp3a08tcnA4MTgybE9DYjRtTUg4SGRwTDRvN0pwT2p2NjViTjlkRU5oUFFkY0pYR3lEeE13Q1RKTUlNbTRfZ0RSa0lsV3FpbTZnbW8xeHQ5NTRBc2oyMU5lcXpDd01zUWVR0gHMAUFVX3lxTE03VmdGUFdPQlkydXJxRzYzdGdHRU1heTdHTXhzUW5JZ2w0d19NTVVKOFdoQzdmS2FaSFRsaXBzbmFBOEhrbXNTalQybEtpSG5ndUZUNHU2dWZxVTBKUEk1dXhTY3NKWkdNRFo5dTVkcDdfWElMbmtqeUlLbl9TY2pPdnI4RVNLOFB5ekV1NlViY2VKcG50Vlc3RHZyLVQwaTlxcXQ4ZW1ybHktQnYwRVotd25FbzBoNHJob3phanFzTk1kak9ETkhrcGhFQQ?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Thu, 24 Sep 2026 07:40:22 GMT",
+          "fetched_at": "2026-09-26T16:14:25.316970",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Who is Luke Williams, the new head coach of Mumbai Indians’ women’s team? | Cricket",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZWlQNTlzNnlPVUlyNVl6NmlrcDQxeUFaZmNjNDU3clV3TDFqcV9idldxYVdzUUJQM2NQQ2Jhbmd6bFUzWHZxWTJDQ1R4NU1xU1ZZUFVQVGEyZURCX3RpOWR2RzlCV1g5djlYa1d5UUZOZURQZkhfUWVER0FKRkdDUVdqUlhCOXhoQ2xCcS1QQ1ZTU2pHOE1Yc3hwSnFiV3F0amh3QkwzOE51UDc1eUF0WXpPeFFCWWltemd2eW9vX2RvWUxYVlJXaXF30gHPAUFVX3lxTE5iM2JTV0IyMERPTzVrWkJ0SlhmeTB4dy1ZM0VUSG5kT3FEcDU0RzhJblRlZVFLZFdVemxaZjlFaFhHSGx3SEtKZ0JDbWZFX0FWbVJEc0RFX1FGZnV2amR5WklkdlpMLWJoa0tWNDhZbXp2ZEhhZG1Xa0gyZjFPZENuMTA2UHcwMlprWWpabU1QS3pTUlUzWkJRNERDTU03S0dsdmE4YVdtM2xaLThZZmZqWDZtUEFtb0JPNktJNkJnZGZYNHYzSllHMVlWQmQ2TQ?oc=5",
+          "source": "hindustantimes.com",
+          "publishedAt": "Thu, 24 Sep 2026 08:55:54 GMT",
+          "fetched_at": "2026-09-26T16:14:25.316979",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Mumbai Indians vs Royal Challengers Bengaluru | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHVGMV85NHlpdFJ5YmdGYVRWRG5HdGEzbHFNTWVaYTZzdkZ3LTAzazhqc25ULWNJVnRwWmdYYjVZaDFuWkZfYnk4WUZybXkwQjQzR3dJTTM4Y3BhdUF0alhmR2NJUVUxZkw3UEJfQU9XcEY1LWNORGZwdFN0bWhoNFFCUG9OTWd3V3A2X19ab0lJQ2VFdGhNeHVxNVljLVB2?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sat, 26 Sep 2026 11:17:04 GMT",
+          "fetched_at": "2026-09-26T16:14:25.316983",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "PBKS vs MI, 58th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR1hnempUWXBYcS1YbTYzNFBsRlc2MGZ5QUFiQ0RyZ095MFBtRXdNclFKN2tOQ0oxY3Y3SDBncjczQ3FrSGRncm83MXhyT2FhVGpLSnVraWRLTERkcWhNdmlVcXp1eTNIMnBGSDU0aG5GbEYwN0JoR294a1dKVUVQakgtaS1jbjFGNWF1N3N3UzZkRmJ6ZWdBM0xXVHNRdXJwMkE?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sat, 26 Sep 2026 08:55:05 GMT",
+          "fetched_at": "2026-09-26T16:14:25.316987",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "Virat Kohli slams record 9th IPL century as RCB beat KKR by 6 wickets",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3ZmcWVzZGtFZE81UUVrQzFUTzdnWDhjbzBLLTl6RElKNG9rUS1yTFJTdUtVdk85T3hob3ZMYUtFTmdhVV9JX0paVUlEa2FuN1l4OTdRTmVTRU5tc25vNy1GaWV5U2tfa2xZMWFPVXhURGR0NnVWQTUyYVRqMEtDbnR2UDk5QmhXNVBTaGd1NWVjYndDRUxzVmFnOA?oc=5",
+          "source": "News On AIR",
+          "publishedAt": "Fri, 25 Sep 2026 21:20:57 GMT",
+          "fetched_at": "2026-09-26T16:15:26.639506"
+        },
+        {
+          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-26T16:15:26.639521"
+        },
+        {
+          "title": "“The most complete player” – Phil Salt heaps the ultimate praise on Virat Kohli",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXQyR0ZsTVFKZ1NkSk1hRWp2enlKcXpybGVWLU1YOHRNdC1CanBOUy1yOC1PTXZHTE44WGVnU3MyREhhUXlwdEVFcmpDMlpSWFdyQWFKbkoySEFUZThyYk5PUl9rbjhzYmpCYlZhVEJ4M0EtRVQtaEpBWVQ4UG9wMkc1UFdHcF9DNWRYMExSSktLTG5Ic1NQN2tla0JsUlpEcG94dDBGTExJdDJQSEsxQXNiUXJVRGda?oc=5",
+          "source": "Royal Challengers Bengaluru Official Website",
+          "publishedAt": "Mon, 06 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-26T16:15:26.639529"
+        },
+        {
+          "title": "Kohli says 2027 World Cup will be his last for India",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNUtGT3l4UFhfSEtzS0liVW9IcUlUSGxxbU5XeE1JaEpFT2JPeHcwejlyc25kX1FlckhsOFhRdFZWMzBHdHB2cExhUnVwNkdjOUQ2ZzlIVXR5b2x0b0FNNmZFdjlELXBKYXp0WER1eU1pdnVCN1V0SmxiSXdfWGk4ZU1uRFJDWWViQWdSclhfaWphZ25zVjBDR0VubWczeVN0SXNZTjd0NnVHOXVQZ0xWYdIBWkFVX3lxTE44eTZwcUlfa2ZxTDRJYTZpOEFkY2luRU9kRE5qQkpXWHZ6T0ZqVlVKN1ZMZ25NTlBycGgxcGpfS1dmWUwwME82TW1NOV8zbHlablJXYmhXSnBZdw?oc=5",
+          "source": "Oman Observer",
+          "publishedAt": "Sat, 26 Sep 2026 10:42:53 GMT",
+          "fetched_at": "2026-09-26T16:15:26.639533"
+        },
+        {
+          "title": "TATA IPL 2026, Match 57: RCB vs KKR – Match Report",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQjc0QkZFNkVxV0xnSWtfWVA4QmZRLTZmOGV6SjJoT0E5SWxLVURfNUhHTnc5OFFLeGVZV2wwdVhqODZYb3QxQ2VkdXV5SHd3SVN4NmFMbXhrUTE4Y09xN1FGRVNtX2ZuWFVyRG45N0x5bUNFOVZBSDFWYlJ0Z05JVlVRU21udGdJUlE?oc=5",
+          "source": "IPL",
+          "publishedAt": "Sat, 05 Sep 2026 02:19:02 GMT",
+          "fetched_at": "2026-09-26T16:15:26.639537"
+        }
+      ],
       "filings": []
     },
     "Delhi Capitals": {
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-26T11:16:05.471672",
+      "last_updated": "2026-09-26T16:16:56.890677",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +768,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-26T11:16:35.678193",
+      "last_updated": "2026-09-26T16:17:26.976843",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
