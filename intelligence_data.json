@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-27T04:49:58.320007",
+    "generated_at": "2026-09-27T11:55:29.539181",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-27T04:40:27.665632",
+      "last_updated": "2026-09-27T11:45:49.802674",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,18 +98,18 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-27T04:41:42.082100",
+      "last_updated": "2026-09-27T11:47:17.160384",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
-        "neg": 0
+        "score": 0.5,
+        "label": "Positive",
+        "pos": 3,
+        "neg": 1
       },
       "news": [],
       "research_gaps": [
@@ -174,15 +174,97 @@
           ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "IT dividend heavyweights compared: TCS, Infosys, HCL Tech, Wipro, Accelya Solutions - Which IT stock has highest yield?",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPS2dLdGlzUWl1SGZrZ01HNkpleVY0N05vX0hvUWk4VzhueWlfb3dxSDJVTXdKajVMcGg1aFFPaTJ0S2xrTjU2a1N5aXlRejVzbjN6RzRVSk9fZnM1SWFCQ0JUQVZaRkxtRXB1aW5qV1N0YUp3TldSYk54amN6Nm5hRXFzbXJEZXZyRUZlOXZubGVJVE1uV0h5dlVxVl9FOEdoU3VORFRSRXZ1bXREOWFJdHFIWnh2NF9zZ0hXWXR3bDFhdkhIb3BoZGpXTF81QTF4S0NWSElQd3JRSl9sOU5kc3EtT3J4R3Nrbjd2T2RYaUpCZVBPbHVDRnl5T2s?oc=5",
+          "source": "TradingView",
+          "publishedAt": "Thu, 24 Sep 2026 11:03:30 GMT",
+          "fetched_at": "2026-09-27T11:46:49.307939",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "TCS, Infosys, HCL Tech Maintained At Hold By CLSA As WTI Falls Below $100",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNFh1NENMZ0JpWWFBUUVaZHRwVWVXRXNZSlNWTFJjbWVYYlIxVm5OR0J3V0cycHhsc20wTnloSmkzZXdLSEJfZFYzY2ZWcUxlNjM3NHdaRDMzVFNDaDBOLXhqdUdqclF5THhYcVd0a3lSU2d2Q2lsTFZWOTc4T2xzREp6cDdIRUJaSHM0Z0swb3ZhWEVmUHhYV0dwR05hNWo1LW1Na29kSQ?oc=5",
+          "source": "Sahi",
+          "publishedAt": "Tue, 22 Sep 2026 07:29:20 GMT",
+          "fetched_at": "2026-09-27T11:46:49.307952",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IT dividend heavyweights compared: TCS, Infosys, HCL Tech, Wipro, Accelya Solutions - Which IT stock has highest yield?",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbExjNFpneWJQV2ItLVY3T1p5TmZOSF9nZWFNVmJSNFpOS2J6LV9LR3V5dFU1a0JPUXZ0cFdKMThLRnhpcUh1MXR6TUJ3WmpjQl9Rd1lCcmdkY2pnT3VqTzIzZ3BhLXRoQS05Zk8wUVBHdW5RZTJ5S1NmVkN5c0l0V3kwUER5R0FxRFVlUkc5UFRDRHFJaDhpUloteGIyeTVteVpYTC15VWN0cEQ4LUlhYTlHaEJRVVQ1TUplNWRrTTdHSnozMmpjZnREZ2VxS3M4bUYyWEZOWkVkd1VtaWh2STZnTWJqUHd0Z1RVQ0lQWFEtNS1kVXljQWY3SmVBUEwxbFByaXNtRDU4bHR1bGfSAZMCQVVfeXFMTmVlUGxkbDFMWHgyVGQ4SWczTEpBQmFSZlpXNXViMGg3czhfSnYwZ1JIRXBueEphVVVIOHRMT2hSVFZER0J0Tzk3aWxxTjN1ZWtDOWdxRXU5NEVQM192R3ZCMmtIcGpqMG9qV3J2a21uTG5wdkx5MVQ2RDFVbXUyMEZMYVR6YlJsTWxndTBJdktHWmhqNjM1a3ZaMVQta0NrN2x6V29iYjJyQjh1bWlpYzN4YjVGTV9fWXFQVzAwLVRKV3dJam5hdlQwQjdKMHl0QTRMSjJnYUFoQ3EtSVdKemkxUGw5dGFSSmttYy1WVXEyRDRVRkNGRDExWUpWRHBkemtUR0VMbTAweFJTNXBYYTFmUkU?oc=5",
+          "source": "Livemint",
+          "publishedAt": "Thu, 24 Sep 2026 07:43:56 GMT",
+          "fetched_at": "2026-09-27T11:46:49.307958",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "India's Top 100 Billionaires 2026: Roshni Nadar Malhotra bets on 3A strategy for HCLTech's growth",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNml5djdsWURzTm9BemJqaXNIeDlpMUJxM29rc2kzRlBVM25VbDVsS2ItMGNzUDBOY1o5bW56UV9QWkJqM1BqVktGY3hfYWdvbVNGaWk5ME5Tb2h6WWVFVU14OEdsbjVLcEZoU2hVLUI5VEdyQ0dSclVZX1dlN3lxS2FjZ3RxYTB4N1NWT09uNWVMZTJNRXd1bG0zemdsX1dKVXZCcHJRZ0Y4TUpXWjVsSWhvM3NTNS1sdll2Y2ktUzB1R1ZPRXJNNUxpQ25XWEgzdS1zamV4RHHSAeYBQVVfeXFMUDFNcUJ1T1E4NERka1FPM2JtbE1rTF9pX2R5YVNZMU9zMDVHQ1pVdk1LTVd2YmVKTFRNXy1BbEJoR2d6NGZPRDJVaTJ0YmRSbXBybm9aOHVXVzl6a0d6Mldza200cFI5UDd4alZQeXZ2Vjd5ZHFjaWhMandROTVkV0RNVWxLc0RvRjZxWnZEVmFILWFXNjQxMGE0eWtOb3E5VkR5OVNVYlpGTmZqcTV3YktDd0o0SThYNEtXUm1ZWTFUOExoOEJ6YWtRbW9IN3BfbV9TdVE0NWw2YUZvWDk4RUJ5UFBENUE?oc=5",
+          "source": "Fortune India",
+          "publishedAt": "Sun, 27 Sep 2026 06:00:42 GMT",
+          "fetched_at": "2026-09-27T11:46:49.307962",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        },
+        {
+          "title": "HCL Tech Q2 Results SOON: Third Interim Dividend Announcement Expected; Check Result Date & More",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNldnb3k2QXF2ZVVSd3U0bmNoLVlBajI3QlE2UjRBMklxc3ZWNjJfcUVObG9YdnFmckh2aHdibHBTOHd4TmJDZ3RMU3hrd2ZnY1N3aFA0SXJrNmgtajVMMnloQ3BFRVlidk41bC0ySll4WnBYMDBiem5zSXNZRkJfUXJlNzZmUGpxWEMwMXV1UGVnY1JuazRjb0JabGlpVGx2M1ZaLWJDWl9LeEl5OGpGeGZ1VEpzZ1VVazJIR25TdU1qRGJZNDNjOFRYM0dFOExMQV9B?oc=5",
+          "source": "goodreturns.in",
+          "publishedAt": "Sun, 20 Sep 2026 12:14:34 GMT",
+          "fetched_at": "2026-09-27T11:46:49.307967",
+          "related_to": "HCL Tech",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "Tata Consultancy Services Prediction for Tomorrow: 28 Sept 2026",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQmtkLXF4RGxLbG1UVDRDcUgybHhkRzlmTWVEUmxFXzhNcTZwREtXSkdrRlNXaFZoMjdmU21CQXZTUkxOcXRpU1B1YU1xTGtzYTVhajczX3cwQWZsbnFfSmRiSGpqSXNZUHVvRlpIcl9BbGRTOF9mNGtoRHRyWmhYLVgtM1VfTWFfRjFiNzJoMDlzVUtWYWVRQVFhcm1HY1RlLXZNOVFKTExYYnM3Y1dnVQ?oc=5",
+          "source": "Univest",
+          "publishedAt": "Sun, 27 Sep 2026 04:58:12 GMT",
+          "fetched_at": "2026-09-27T11:47:17.160036"
+        },
+        {
+          "title": "TCS launches India’s first lights-out factory lab to advance AI-first manufacturing",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNXZ2UTdjb1d0QTVvWmMwZGVFX3ptZWR2UnBXOWtOckVCTU80R2c3Tm0xX0JDc2lCaWRaZlhSQWZIMXJES29uZ0h4OTI0NXRwMHFZeFU2OEZKWkJacTJLTlZWMnhaSVNwWTB0RTdmWnNlem91M3VOSlJPRC0wclN6bloxQnFpSlhMRmlROHpuMFk3bkRpWFY3eWJGcmV1NzJIV2djTW9hakkyOVBoSW1lZzA2eUlOQThfUWNOVF9tLXdLcG9UaFZnQjV3VW1LZw?oc=5",
+          "source": "Tata Consultancy Services",
+          "publishedAt": "Wed, 09 Sep 2026 08:15:20 GMT",
+          "fetched_at": "2026-09-27T11:47:17.160053"
+        },
+        {
+          "title": "Tata Consultancy Services advances Friday, outperforms competitors",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaHQ3dFExdWZ2dlNkU2dYeDNPMXFtX183bkpyMlNYTXpQYnUyTlZIN1NLcUxkOFI0eG1oNWYwdGFTcjhqQ1g1aHNGOFZuVUFHa1NPeUhsLXYzYVp2V3BGbndFbENINHExM3JKUjI4VC1uMVdwUzlNSFRwSjc3MUF3S21CNTc4MFZRaTFRRkNwbzhOWExpSFBLLURZQ2hFVkExZDJBcUxvOXZMYXNmay1KRExBYTdHb1doR0FnaXBB?oc=5",
+          "source": "MarketWatch",
+          "publishedAt": "Fri, 25 Sep 2026 10:33:00 GMT",
+          "fetched_at": "2026-09-27T11:47:17.160059"
+        },
+        {
+          "title": "IIEST Shibpur, TCS sign MoU to establish Centre of Excellence in Artificial Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPb0RpZUN3Qm10dXZTOXBZdFJkaGJLcm9tNWxHeFZNaFRTUTJKS0N0ZHVnZEZ0RDVuSHBvRDlJdXNHZnRNVy1ZSXdvSm1zMGR3WlJwV2RfdktPS2RmUHRaeHZRMlBYNEE4bmgyc3FYRFVVSThudnNITmVoa3ljUU16bzQ2ajBLc0dPZHRQMEU3M3lGNTRaSzUzYmJUSWpRZVloYlNWU2FIR3l3dUkyNzU0ZzlNU05EcDVBcXRnYkVHNHFDbkpqSTAtY2ZsbHNDa3UzQV9DdTVsWkZ4WHZpSkx6aVhjSEvSAeQBQVVfeXFMT29EaWVDd0JtdHV2UzlwWXRSZGhiS3JvbTVsR3hWTWhUU1EySktDdGR1Z2RGdEQ1bkhwb0Q5SXVzR2Z0TVctWUl3b0ptczBkd1pScFdkX3ZLT0tkZlB0Wnh2UTJQWDRBOG5oMnNxWERVVUk4bnZzSE5laGt5Y1FNem80NmowS3NHT2R0UDBFNzN5RjU0Wks1M2JiVElqUWVZaGJTVlNhSEd5d3VJMjc1NGc5TVNORHA1QXF0Z2JFRzRxQ25KakkwLWNmbGxzQ2t1M0FfQ3U1bFpGeFh2aUpMemlYY0hL?oc=5",
+          "source": "Telegraph India",
+          "publishedAt": "Sat, 26 Sep 2026 15:36:10 GMT",
+          "fetched_at": "2026-09-27T11:47:17.160064"
+        },
+        {
+          "title": "IIEST, Shibpur partners with TCS to launch state-of-the-art centre of excellence in AI",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQjNGcTdOWm4tZjBGNk9pUmxTSUVZR00weVBGVEwyZDhPTGt2dVppMnVQYi1CaFpVVFdOYkRjOWJCNjVPNG1LbkdJR000V01FM3NBZHhUeFpBSjJ1YUpZYURRclJ3QXVWazB0TEVXMVFWTlUzODRCZnRoRV9rYWJGUjBiQlFvZW9ESEhINHAtT0hXOEVRSGFoUEY2VmNudFVia255aEZPVkdkSEhrdDJURQ?oc=5",
+          "source": "ddnews.gov.in",
+          "publishedAt": "Thu, 24 Sep 2026 09:35:00 GMT",
+          "fetched_at": "2026-09-27T11:47:17.160067"
+        }
+      ],
       "filings": []
     },
     "Infosys": {
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-27T04:43:01.976595",
+      "last_updated": "2026-09-27T11:48:31.844486",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +348,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-27T04:44:01.906446",
+      "last_updated": "2026-09-27T11:49:34.942049",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +432,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-27T04:45:17.409066",
+      "last_updated": "2026-09-27T11:50:43.632998",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +516,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-27T04:46:37.825590",
+      "last_updated": "2026-09-27T11:52:04.660972",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,17 +600,17 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-27T04:48:17.860921",
+      "last_updated": "2026-09-27T11:53:44.730503",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "competitor_intel_count": 5,
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 2,
         "neg": 0
       },
       "news": [],
@@ -594,28 +676,181 @@
           ]
         }
       ],
-      "competitor_intel": [],
-      "esg_highlights": [],
+      "competitor_intel": [
+        {
+          "title": "MI vs RR, 69th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3hUcFhPWnZ2YmY4b0ZMdjFGajJTa2dEcllfM1Q3b0pJUGZWSk9WbnljUGk2dm9YSk9TeU9qOHV1VC1FY3ZTcXBJQVhLTXlZWS0tY0JyanNVS1dlNDBfYk5YYmJmRkNqcWFIU3FvbXJuUzV2bGNZYjg2WFlTTGtaQWdwR21Cc1ZKWk1OXzVKYk5UV0hoUWdmWTN5MmROaVU?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 27 Sep 2026 11:24:28 GMT",
+          "fetched_at": "2026-09-27T11:53:30.247821",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "SRH vs RR, Eliminator, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWnhzMFhWdW14OU02elB4bkJTUmMtcnFOME4xLTJxRXN0V0RqU0pidnNYdTNKekt5TGQ1N0s3THRsVzJPNWcxelhqdWJnVmF6Sk9nd3I4Y04yNzVNcEw2U0JiT09NUE5CZVozdG5GQV9LRTQwelJ6Y3d5aGE5dFVlU0lIQVJoUFhYQ1lQRHUzaDdrZVk2U0pnSGRSbVhGQ200MHRjRA?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 27 Sep 2026 11:12:57 GMT",
+          "fetched_at": "2026-09-27T11:53:30.247834",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MI vs RR, 69th Match, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOFd0MF9yUzNPV3RUS3JFMmFIc2ljdjJKSzBsNWlNdVduTWNzUEljQXFsa1NsZkRSSHZWdlNpMEVObWM2OEFQNFFleDF6R3FqQ3NURHF3OEhGQVNTd0l2aHVObUpBZ0toem9hbjF0bFRFdHVUQjBoZE5wOW5TblJ1MTJxZ0dTM2ZQREd4YXc5emQ3TnpVd0dvNlNKZDJJd1hyNkZn?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 27 Sep 2026 11:14:39 GMT",
+          "fetched_at": "2026-09-27T11:53:30.247838",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RR Teammate Defends Yashasvi Jaiswal Over Head-Butting Asitha Fernando, “Very Ugly….”",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNczdZYkdsSVliUG83UkFRM3lENnJQRWp5bHRtZzFIT2Z6eUpQV3puZGM3QUd4OGRtZ0pwWHk2eVBEZDBSWGVvZjItX1hBZTFkczFIWlRXRDRMZEJFLVZQQ1ltd3l6X282VWJwNEdQZF9BdDlkM2JGTjI0YlBZY1FYeTk3OWl2QXJBMERjOXdFdzE1S0ZHcFFibGpQb2c3aVhsbzBMag?oc=5",
+          "source": "rvcj.com",
+          "publishedAt": "Sat, 26 Sep 2026 13:21:41 GMT",
+          "fetched_at": "2026-09-27T11:53:30.247846",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "IPL | DC 226/3 (19.1) vs RR 225/6 (Ashutosh Sharma 25(15) Tristan Stubbs 18(11)) | Rajasthan Royals vs Delhi Capitals, 43rd Match, Indian Premier League 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX25LdzFYSnE2andwVE1MTFBSUWtOSEhOZ243a2FicXpxSEZRb2FEa0tGbFFRQVFoeDc2TDhPN0V0cXZHN1d5S3I4SWM1WGpqaW5sWE8zVVgxNElJN1J6b201MzZLdUFyZWpmdHZmRWl2Ti1ZNUl4Zi1FRUhfeHR3VkkyRTZtLUhfSEFFU3hQaDlFWUJUak0tVWpzNjVyVUk?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 27 Sep 2026 10:39:52 GMT",
+          "fetched_at": "2026-09-27T11:53:30.247852",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
+      "esg_highlights": [
+        {
+          "title": "Kohli has 'unfinished business' at his 'last World Cup' in 2027",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQclpiWERGWkx0UWM0dEpRN1Q1cG1JVUNrdzRvV3NVRVU4SUtpNW9KOEJ5MzVEd1hJaUpfVjAwUGIzQTBxMUFodktMR2huQndVQk9SS1pNMXBWUF9oQlc3c0RZVkZkMmxLd1hLTlpZbkM2c3V3d1NjaXVsWlRZZERtRF8tNzAtZnJ0V3h4UnFVMW5oM0V4bHFmX1hJSW9IbHBrUUdQLVJkaS1veTBVaDAzOU1PaW5xMnRKZVVyVUxB0gHPAUFVX3lxTFB4UjREV0RGeTdEM0hOWnNvMVpFYjVxckJsbU9IT3JMV083dlNfOUh0QTVuSEYyOWFXRUhEdVdlQzkxZlAtOTRQaldzV3FwX2NzUlJtOVk2bzFseE9XNXdkcXItWGVDb0UxRVo4a0RLVEJlaHpJRWRNVDBoOEZUQkZYSU9RN1lrdG0tUGVGRUpjWnEtbG02NTdCTExiNkFPVVZlMGRaX283MUFMYnVGb2VkQ3dLbnRwUU1jUmRGRGdTSGRMNVV1bmxjM3duYmlpMA?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 27 Sep 2026 05:39:15 GMT",
+          "fetched_at": "2026-09-27T11:53:44.730158"
+        },
+        {
+          "title": "“The most complete player” – Phil Salt heaps the ultimate praise on Virat Kohli",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXQyR0ZsTVFKZ1NkSk1hRWp2enlKcXpybGVWLU1YOHRNdC1CanBOUy1yOC1PTXZHTE44WGVnU3MyREhhUXlwdEVFcmpDMlpSWFdyQWFKbkoySEFUZThyYk5PUl9rbjhzYmpCYlZhVEJ4M0EtRVQtaEpBWVQ4UG9wMkc1UFdHcF9DNWRYMExSSktLTG5Ic1NQN2tla0JsUlpEcG94dDBGTExJdDJQSEsxQXNiUXJVRGda?oc=5",
+          "source": "Royal Challengers Bengaluru Official Website",
+          "publishedAt": "Mon, 06 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:44.730175"
+        },
+        {
+          "title": "TATA IPL 2026, Match 57: RCB vs KKR – Match Report",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQjc0QkZFNkVxV0xnSWtfWVA4QmZRLTZmOGV6SjJoT0E5SWxLVURfNUhHTnc5OFFLeGVZV2wwdVhqODZYb3QxQ2VkdXV5SHd3SVN4NmFMbXhrUTE4Y09xN1FGRVNtX2ZuWFVyRG45N0x5bUNFOVZBSDFWYlJ0Z05JVlVRU21udGdJUlE?oc=5",
+          "source": "IPL",
+          "publishedAt": "Sat, 05 Sep 2026 02:19:02 GMT",
+          "fetched_at": "2026-09-27T11:53:44.730179"
+        },
+        {
+          "title": "Royal Challengers Bengaluru beat Gujarat Titans by 5 wkts (12b rem) - Royal Challengers Bengaluru vs Gujarat Titans, Indian Premier League 2026, Final Match Summary, Report",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORDE1NVo0aHFyUkFPbWdNc042OXZ6ZTNVdk84T1NLQlA1TXJINkpnZzR2Zld6bVl5YkN5Q2U4N0dYZmd0N3JvWlF3b0tlOGV6enQxcWxLWktDWWpjN185MDljZV9xSzJVYzRKNVZ5NnhGX1pxUVRibVhlb1Q3WDM3LXdRQmZucDROV1N3X0h0dTZ0bFloTDFtRjlLbEJUeGNFTHJVTjZ2ci1XZWtWVTJaSGRQcjNuajhfT2dhSl9NdmU1dERYQkRrSzJ0RVg?oc=5",
+          "source": "ESPN",
+          "publishedAt": "Sun, 31 May 2026 13:21:04 GMT",
+          "fetched_at": "2026-09-27T11:53:44.730186"
+        },
+        {
+          "title": "IPL 2026, RCB vs KKR 57th Match Match Report, May 13, 2026 - Kohli's ninth IPL hundred powers RCB to the top",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElVbTlPaVd3RF8yeXdGS3l0bGpHS2RnUzBDeV9zeGMyMmo4NjlHMnVqUGZZX0RZMHZuQnUwZ3liQUYtNXQ1VmtEcmZJRWlpb1J2YnB2RlhlcFMwVnhseTVpX2RCb3dRRnhtX0JWaW92NGt6NXI2TDVrdHZDVTNJQk90OEFPa1FvX1ZScjdqdmZfVV9LTFA1OUdCd1l1NTN0Sk1SYV9mTXdmTnNVOEI4LWlyQl9NSF84ekd5dlduZElpMXA1T2ZDUE4xOV84QQ?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 13 May 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:44.730191"
+        }
+      ],
       "filings": []
     },
     "Delhi Capitals": {
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-27T04:49:29.147807",
+      "last_updated": "2026-09-27T11:55:07.245280",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Delhi Capitals Confirm K L Rahul For IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbzYyT0h0UHpnYUpVdlhvcWc5VW95LWJoRGp5d0o2VGVHcTZqaU9OTHpuY3NjRFExQ0dOc2NnQ2pzUC1IWTdXV0s0X2N1d3pZLXRXazBvMXpxMzJ4RFRkRmdOMFBwOVhuUE1BTkJHYURQcTJoNS03WGFQenBmOVAzZ29pd19RSkRMcUxocFltYXNNMlkyeWJGRjVtRW_SAZ8BQVVfeXFMTXBlWmljZkpINnVxTEg2aExpMG01SUgwdGs3R2dnZmg1b3VIU2dILUNUVXhPaDlfVjEtaURrTzBNSDFSdHpsdEo2N1ZNZXdHOUlGWFU0Z3pSS04zYmFUZndUTnVTZEU1azU5djNhak9tX2tfRXVERFJpVkZTazdkX29yeTBrZEpCTWdjRFd1eENPRmExX1RyNlEzU0RwMXVn?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681008"
+        },
+        {
+          "title": "‘KL is klutch’: Delhi Capitals put KL Rahul trade rumours to bed with blunt message",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUjRJNEtMdERnMXN1YjhaV3plZVpCbW9DdEJxb0hLRndua0xqSmIwbW9oWlpESzN0WWJRSkFndlJsUGcwcm9yUTBORkF2X0Y0Q2ZjQmVLQktZRU9mNHBJUjRuT3p2S1hOZ1NUQXBic3dGRXJvbkhQSkU4dDVwSjJqZWZwYTJxOUhPcDFLV3VkcmdXV3FFZmZhNDJXcXY2a19DeFprMGp3RmxJc2Mxa05lNzZEck82dVY1YTc5dVFScHcxX0lxdFBqc19MVEk5WXpLa3piY0ExR2xPYVZMWFVQd2ZUYXRfNjVMTE91Y1VCd2FwLTFy0gH6AUFVX3lxTE5oMU1tWUpfb2Z2TEhOYTFDeDhKS2lqV0ZnWTN5dU1ZbERidUV5cGs1WXdiaEdxdlhHeDhxdGFKam9rVnQ4Y3FlTlN0ZHFCSVk4Q01OeDIyZnpFMEJTNjFNRG9rNkRvdU1CM29zTEc2ckRqMEtQVjdOcEszbHotTGNmVGlhb3lYSUdNQU5Vb2FsMmpHQ0E0WlFWTFVJOGFYY3lIM25tZFhLQjBreTlDUlJlbVBIWlFjaU5DMTJtR0ZtWXdTRnJYbW51Xzg4LS1OMUtzUGp4ZEotc1ZyLUFrTDB2RmVGbC1wbTE3Z19GQUMyVnBsUEIzd1NkSlE?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681026"
+        },
+        {
+          "title": "KL Rahul Responds To Delhi Capitals Owner's Post, Settles IPL Trade Rumours",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMFRJVERPeXdmTlFMekNlMTRyUWJIT2lzbTUyRG1ORG41X0VlbzRSSlZpX0VJQkhmM1dYSkJEemVaZjd4ZGJBQjVyYzBXc3JQQ0FmZ09YaEduR3RMVUczem5zRWR2bDZXTFJUTkpTc3pZVUxUYjVpcUZNZDBZQ0Y2dzJVS0t5bFFRTTZvX3F4ZllHQi1ULUI0MGRIZEROME5aRkFnck5IUkJlTTFZck0xZlRaSng?oc=5",
+          "source": "NDTV Sports",
+          "publishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681031"
+        },
+        {
+          "title": "IPL Auction 2027: Expected date and venue - what we know so far",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa3VkVmFWZkRObGZzaVdZSjlpYXhiS2E4TGlvTzQ5M1dBd2Y4MkRyaFNPT2ItMHFrVnU1Q0NxUktuQm1xVzRnQXRsakNqQkJJc09VVFVfMzd4NTBFa3lwRjYzZmFqRzNUQUE2N3ZNamxsSGp0RFhpaXhhRHFYS2dnLWVzTEY4WFgxSU9lRlRMaURTQWVWZGRQQmttc0lFd2hzazFzRTMyTXFTSmZHOTZZTE5UVThPRWdxT0s2VzFCTkxNa3PSAcgBQVVfeXFMT29DVG96c05GeG5BamZrRnJLOFMtX0l4QUFVWkhzMzF4bDRVa0JiLU5kOGlOT3dWbmVmem1Da3cwdjlpek1UWnhtQzlTcUs5V2dGaWI5d09rbHRkcjNsSDMwSF9Pei1HVlFXWEhtLTRCOUQyYWtXUUs3NHJicV9mVFpZMzFMSkNVaHhfVHhkLXZlZVJIYVAzeS1pY0VaR1VOLV9XMmpCaDVTdFMzanhmQmIyQjdnQXFXV1o3SGltNm1McjMydi14bTA?oc=5",
+          "source": "Livemint",
+          "publishedAt": "Thu, 24 Sep 2026 15:32:25 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681035"
+        },
+        {
+          "title": "Delhi Capitals begin IPL 2027 build-up as Yuvraj Singh, Amit Mishra oversee camp and domestic talent trials",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQN1BGWlNnZ1RlelRDT0RsU0VtcFYxOE9ta214TTlaYUVzcHJ2VWJ3S2lVa2EwcTVTaFB1eEpESlMzdG9SVmwzZzN6YXBJM2RjWEZPcHJaWnQtRnhjNkFlSWg4Z2w1bUlKbjFhdlNGUnRpT3p4YzFWZkZfZTIwb1VSR0RJTWJpaVdadS1wT1hTMWpMZjlPVnc3azNaTm51REtFUTJMbm5adWEzSWdBdW5mQktKX2xoY3pIYlltVG5LMVZIR3dZZGtONUFMYWlUaDFLRnBQRzY3bmdoMDRDTmlwRFE0LUNRQ1VaeXJCWVJGZ9IB9AFBVV95cUxQRVRualAyanJqSzE0ZUh6MkxxOUkwU1Y5dE9KR1VYSHZaX3dQSnNJNVVJZ2dtRUpsZWFzUzdfNVNGbVhOelQ1NEd1V2hDSVczeHAxNlVFUF82amh1VVFoYWlaeTRabjdfNWM3MU0xUU9DenByZTEyUE9SZGZzSnJQd0tfZ2NqTFpKZ3E3alVYX25rVkNKeDlDdUxSeFY4OUY3aHY2Z21Ccm5GaGZ3M3BjNVJGSnc0S20wQ2xncTZzR0paRFRlakhzUDF5TDZCcU5hWEdNWEhyTmFHV0J4SUp5VXRWR1BZN0dvMVBDNmFsdFU1aTlx?oc=5",
+          "source": "The Statesman",
+          "publishedAt": "Mon, 14 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681039"
+        },
+        {
+          "title": "Delhi Capitals end speculation on KL Rahul's potential KKR switch, owner Parth Jindal assures fans 'we...",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNX0FaWl9oTjNiYkpyUTRTLWZzV01kMDVCNjF4Q1dNMk1HTmszdW80VFJzdVhsNm1EMU9felBYaHRUWW1xbVFiY3hPa2Z2c2Q1b3BtUEFvcnFOS2VxZUlEMWVoUzJ2NTJjdkVUYWlYTF9RMDh1alF2d2JsZTFfNW5zTnVSRl9CaDZEZkI0aEZMZmJuS0xRUzBLc2pqVjFfWGllWnUtd0gzeWZHc3VnOGVhUUZpWXg0Si0xOWw4ZHVIV1RTTTFvc2dpYTlIQWhxaGVSa3F3ZHZOandVM0w4TjBrcThlcVhGRzRmeXU4V0NmTm1zSGs5UE9RMzZEVk5xTFNpVHptdVR30gGLAkFVX3lxTE5Sd2FVaUVXUUk1bjBKUzJMYW50WkdsU1JranJ5cG9aNmkwNDNhcUFhNDgzMENQQW1HM2NKYU1ydmt3VTdYVDBEWVlHdnBRRXpWWlh5eDVMa3Z4bHV5NGpkdnN5eE1yYlJia0pvLXZGNDRjaVpxR1Q3SlROdVZtUUhENGFmdU5velpxWWx4ZFlRUmY2RnhMQmNYTF9McmpNLUlCRUhYTlFBbi1ubmxpTm9lNnZ1d0l4bkRZZmQtRjNIdXg5U3lrNThpaTFOMW12T3dIN3pNSElLY1pTS19QRlVZZ19pTUJISThDb24yZjcxc3dCV1dqdTkxRjhLd0tadmNwdjRWSVVIaTlUMA?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Mon, 07 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681043"
+        },
+        {
+          "title": "Vaas and Mishra set to join Delhi Capitals as bowling coaches",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWWNuZ3QySy1Bci1YRlVZNDBoWk52dVh5LXBDMHVXYnFzcWc3SEZ0MXYyZzF5eE1VMWtsUy1fcld1eUlYMFU0Q0JjNmtySVdkTmZYaWNxcG5LYUVEM0NRb3RSa0ZKZFdGS0M2UlNuRXZzaUVZNm55bUx1OHFTaU9uVGJfLUJ1MEdmYnF0dm1PSU9sTzhkWU9STDNUVkZ0QXo1TXRjZ0lySVFuZTI2Vm9MTGpCM2h0bm00ZkHSAcsBQVVfeXFMTXFSRWF2czlJbU82bWRhNm1UOWhpb1RpM0RIWERSblR0cDl6Z1N5bkJMOWtuYzRiaGI0TklDU2t3WGtGVUpYbG5zT1doMVgwcmQwZGJDMG5GVUNqQTQ3YWFxcFR1TFZkSG05ZzlZd3loYmJmb2VLNE9peTVoZnFaZEtDVWlOV21KbGRQa3I4OElPTDNJYnc4Y0FQdDFxaFhyZEJTS3lrcXoya2FmcnJibENKMGx1UzJ3QjY1YXVteHJqQ1JFdGhpYVhLWk0?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Mon, 14 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681046"
+        },
+        {
+          "title": "Delhi Capitals Welcome Back Rishabh Pant As Kuldeep Yadav Joins Lucknow Super Giants",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmlHRWRxQVljV3otSG1CYzc4WlduN0FCRnkyek81ZDc0RzNKVUNmc0wwR3NkSUhBV0NDX3hheGxFWXFpNDFNU1V0OHJFczhiTE1QeGF3VGlhWmYzZ2xQTTAzUWhqY0h4NVQ2WXpCc1pKcU84Z0ZQQ0FxSm5RMzZJaWdaVUc1aHlTNDNSanJBNnY3NXJiRGZBakxiZWtyNUh6bm1hWGFSNHd2V2VrME9DNU9WZm90aWFMOUhB?oc=5",
+          "source": "delhicapitals.in",
+          "publishedAt": "Tue, 23 Jun 2026 13:47:06 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681050"
+        },
+        {
+          "title": "Delhi Capitals set to appoint Chaminda Vaas as fast bowling coach",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV0FranhYd19mU0R5WGd1OWw5TlpPUjN4Q0c4WWZFdl84Yk9fS1hiUmFRVURIME9sR0t0ZTc3dG96c3VwWlBWRzFtM1BnVEdtck55aklCU3lTTzNfMmVZa2pwNEo0RTZxMENKaXFvaW5LM1RIajhGM1NlUEU5WEFMWlBlNWFJUHJKb0VtdmpqQnNuTGhQcUk0VlBfS01hWV80dGN1aXBqaWdJTGZ4TXZB0gG0AUFVX3lxTE1kSmJjcTVpVVJKREdJLUZMWllSM1RWSjdhQ2xybWdXQXNpTDVzOHNVZE1PYm5Eejcwbk5obXdab0hLcUJ2TUlZLWc3eDF6R05LUVpMeXJUb3pRaU80dlVlMVBUU1hsYTNqVWtVeGNqeWl4UTVyTGpZd0dCQlJjeFU3ZGZzVFRNS2F5OF9kZl9WSmttN0c3QzU1ZWVRWXRkZUZSOVlTN0x1UXMxNGktMEczdzhTUg?oc=5",
+          "source": "WION",
+          "publishedAt": "Sun, 13 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681053"
+        },
+        {
+          "title": "KL Rahul staying at Delhi Capitals? DC co-owner quashes IPL 2027 trade rumours",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUVBfbXl6MWxkUTlrTzJvZzVtcFBybThfQTFXOS1qSVFGMDBIdmV0bjdPMng0c1U3Rjh5OVRNRVp2X2tTZlhQOVdyOURTVUxkU0NUY19ZMXhRTlVIWW1yRjYxY3dvVF9wZmRYWjgtQlhDdElTNlRDeXdmTDl2dlc2cm1QcS1RWUtxeDRRRjYzeW5wQ3lrVDdNcE1CMjlxTjFuY1Q5bVBud2llVEp4RnZYczNBMlg0eWRpNDFoVnp0bnYzbGMybWNub3U5RWtLZ9IB0wFBVV95cUxQS3c3N0NSbnVYX2JNa2h0OXBLb0JJNVlVaW9yRm9JVy02WUtvdmJJbm9La1UySFJTQlM5Nm5SSms3SWw5bGNiQkZ0eUxUUEl2TENhMnh0SGJoZElOTVo1SVNxWm8zU2NlckxlZ2l3QnlpeTdReXhKOEQxLVp4YkZlelVMSDc2SkVlbTIwWUEzYkhnUXhKZWlTbExnaFRsYnFERnhDN2lob1NJV2dxV2paR3ZmeHJZaGM1ak91eDVMRjl4cmpfZUxVbm9PRDRwMFBUci1F?oc=5",
+          "source": "India Today",
+          "publishedAt": "Mon, 07 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:53:58.681057"
+        }
+      ],
       "research_gaps": [
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
@@ -678,7 +913,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "MI vs RR, 69th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3hUcFhPWnZ2YmY4b0ZMdjFGajJTa2dEcllfM1Q3b0pJUGZWSk9WbnljUGk2dm9YSk9TeU9qOHV1VC1FY3ZTcXBJQVhLTXlZWS0tY0JyanNVS1dlNDBfYk5YYmJmRkNqcWFIU3FvbXJuUzV2bGNZYjg2WFlTTGtaQWdwR21Cc1ZKWk1OXzVKYk5UV0hoUWdmWTN5MmROaVU?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 27 Sep 2026 08:14:30 GMT",
+          "fetched_at": "2026-09-27T11:54:10.712361",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Who Is Naman Dhir? 26-Year-Old Mumbai Indians Batter Makes India Debut In 1st ODI Against West Indies",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcEdmbFI3Um5Ebnhxc28yYU02Y3c3emxjRlAzZjVRNS1vUThvd2NaYmZtRU1mWEhXdmRCZk9LcXRaSzZUalFuSHR0Y0dDY2ZQU3UtSGd6dmFxLVpkRDFRV0xRNUVMcDRFN3dDdnViRnUzbVpiYlNWUFBoc3lBbmtpaVh1SlY5REhMbnNSN096d2ZJbFAwYnl2SGNtWHlnWkVyRFVIMUdBZDBPWDk1amdRTGZ4T09NT1Byb253RnR4MGhxSEFIU1dIelFINHBBYmF0SDUwN3Z6aDZZdlpnTGRXc2F0RV_SAeoBQVVfeXFMT09jTlFVRUZONXEtNFNlNll5eUdEVlVfWHNZOXVVYlNZLVYzSk1JRGhGVG1CM3Z1bEl0SWQyQnZuNThlcXZPZlBHVkk2N3VKWTkyaXRtSHdBZm1KdHlySGxPNDR4b1hYR0k2SWpyNGQtcnA2V21qclRQYmgxcHNsc2pnWTFxUmpvVmJVS2traEpZczFSbGQwNElDSGVnSEtHOHVlSnZCOVphbkcxNFU1M3F3TjVMYmdXdVlGSjlBZmZBZlN0TWlBU0RxdlE1bU81cm4wVTBOV1R0SW9kdjd5NWRxbjdkOVozRUdn?oc=5",
+          "source": "News18",
+          "publishedAt": "Sun, 27 Sep 2026 07:57:59 GMT",
+          "fetched_at": "2026-09-27T11:54:10.712375",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "CSK vs MI, 3rd Match, Indian Premier League 2025 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSWJnOElCeDA1MHNvTVNleF9IVkNKLVVzaGRhOHBROUtOU1hZdTFLUUpnWk5WTnZzVDBkVVNuMEZiZnBRMjdGaElULXdrS3JYVHp0OF9lSHZoSmtJRzJGN3JTZnlpUU5BTHNoVG5FajRMZWwzYU5DaHE1MkdrcDBrak94ZzFYczhyTWJIUDNOb0hQQVREcDhMZDNaMURybDI3Q2dF?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 27 Sep 2026 09:41:35 GMT",
+          "fetched_at": "2026-09-27T11:54:10.712379",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Mumbai Indians vs Royal Challengers Bengaluru | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHVGMV85NHlpdFJ5YmdGYVRWRG5HdGEzbHFNTWVaYTZzdkZ3LTAzazhqc25ULWNJVnRwWmdYYjVZaDFuWkZfYnk4WUZybXkwQjQzR3dJTTM4Y3BhdUF0alhmR2NJUVUxZkw3UEJfQU9XcEY1LWNORGZwdFN0bWhoNFFCUG9OTWd3V3A2X19ab0lJQ2VFdGhNeHVxNVljLVB2?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 27 Sep 2026 10:11:40 GMT",
+          "fetched_at": "2026-09-27T11:54:10.712383",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "KKR vs MI, 65th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSjRuZExxQ3AtRG16bjFnZjVCTW1XZ0Vad1BCSGJEUmZlcUZ4cmV2M0NRS3U0d2QxVmJ0T0pzYVlqQWJKdjgzb25fcFpIQWZleHctSThaVVNiV09PLXV6cGhlNVJPd2Z1OUtFSEdHYzBXUDZpRUF5ZGhYVVE2ZEdyZjFQekNPSWFjWThubzhFZ0VFM01XQXU0MlB0S1RNa2Fp?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sun, 27 Sep 2026 09:25:41 GMT",
+          "fetched_at": "2026-09-27T11:54:10.712387",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -686,17 +967,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-27T04:49:58.319992",
+      "last_updated": "2026-09-27T11:55:29.539175",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -763,7 +1044,43 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
+          "source": "PR Newswire",
+          "publishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:55:29.538875"
+        },
+        {
+          "title": "Physicists Blasted a Quantum Material With Lasers – Then Watched It Rebuild Itself",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcHJCX3Q1YlBsMUpsalZJQ2xrMW1UU3F1NlZvNmZpMnFFeVBJNm5ka0p3OHYzZXhSckdCQTYzVEtYNmQzM2EyQ0pNSHROeHlod1VHVlZTVXdpTmhUV0p2M21hZkVxaEQ3dXFZY0pTVmNsWkdsZVMyLS1GQXQ1bUdGWkVVNmFMRUxXNVl0OS1kbzFFbTVxOVY5Y0R6TkN5RU1ZbWh4ZVgyN2RmSHhJeWc?oc=5",
+          "source": "ScienceAlert",
+          "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:55:29.538918"
+        },
+        {
+          "title": "Herma Launches Linerless Plus Label Material With 62Dps Adhesive - THE PACKMAN",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
+          "source": "the packman",
+          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:55:29.538924"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert! Science News Releases",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:55:29.538928"
+        },
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-27T11:55:29.538932"
+        }
+      ],
       "filings": []
     }
   }
