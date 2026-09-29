@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-29T05:19:29.399609",
+    "generated_at": "2026-09-29T12:40:07.782275",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-29T05:09:19.126847",
+      "last_updated": "2026-09-29T12:29:42.283880",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,43 +98,21 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-29T05:10:44.109197",
+      "last_updated": "2026-09-29T12:31:02.517697",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
       "research_gaps": [
-        {
-          "title": "Player Retention & Auction Strategy Risk at TCS",
-          "severity": "Medium",
-          "description": "Squad stability concerns for TCS: contract. Auction strategy and salary cap optimization research needed.",
-          "detected_from": "CoRover.ai, Tech Mahindra Partner to Accelerate India-Origin AI Solutions for Global Markets  Tech Mahindra Partners With Verato to Strengthen Healthc...",
-          "gap_type": "player_retention",
-          "keywords_found": [
-            "contract"
-          ],
-          "solutions": [
-            {
-              "title": "TCS: Squad Strategy & Auction Intelligence",
-              "impact": "Medium",
-              "timeline": "4-6 months + ongoing",
-              "price": "₹12-18 Lakhs + ₹1.5L/quarter",
-              "methodology": "Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning",
-              "description": "**MRA/ESOMAR-compliant study**. Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning. **Deliverables**: Auction strategy playbook, Retention priority matrix, Salary cap optimizer, Competitor squad analysis.",
-              "gap_type": "player_retention",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
-        },
         {
           "title": "TCS: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -174,55 +152,29 @@
               "framework": "MRA/ESOMAR"
             }
           ]
+        },
+        {
+          "title": "TCS: Digital Transformation & Tech Investment Benchmarking",
+          "severity": "Medium",
+          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
+          "detected_from": "System-generated strategic coverage gap",
+          "gap_type": "digital_lag",
+          "keywords_found": [],
+          "solutions": [
+            {
+              "title": "TCS: Digital Maturity Assessment & Tech ROI",
+              "impact": "Medium",
+              "timeline": "8-12 weeks",
+              "price": "₹18-28 Lakhs",
+              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
+              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
+              "gap_type": "digital_lag",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "CoRover.ai, Tech Mahindra Partner to Accelerate India-Origin AI Solutions for Global Markets",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVW5KR2hhR1owRzhDc1B5UHdIZU5YU1BISWRra1UyZW1iSXpyUk1BajhXc1dOSTBycGhieE5ESWJNcmFqVmI3akNtRnJPYVBlbUJGM2J2anlZMjZxN3ZpdmlYdXc1MnJHYmF0SnZGNU14T0JUY3R2SkZmUm9fSlc1MmhXZEh2TjFLbjduZ3ZlZnNWS0NPeVdfVEp6VHF5MUVEeFlZTDhqQUNBVGhHZEl3Y0ZpQ2ZEdVBrbUFxaVR2LXdMREU?oc=5",
-          "source": "Tech Mahindra",
-          "publishedAt": "Tue, 22 Sep 2026 12:00:00 GMT",
-          "fetched_at": "2026-09-29T05:10:29.076611",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra Partners With Verato to Strengthen Healthcare AI Data Foundations",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc2Fnc19HZzhlY2tfM3IwRldpTy04eFFkRGVQSmJzM0Z1VTJqZWNIYjlOLWFQQTZJQS1xT1RRTFVqYVhBb09MUzZYV1I3ZzBPSFh5U1hSSVYtYU41VjVyREhPZWRVREJ4NlNtTU9YQ2xrckNrcXhINWF6ai1pSUlrNkpWTVBwVzZxYW5LbDltQm5CR2xRTkNxTEZkSWh4VUdSV1FwZWFqRWxMN2RYS0RlUThsajdCM1h1?oc=5",
-          "source": "analyticsindiamag.com",
-          "publishedAt": "Thu, 24 Sep 2026 07:06:35 GMT",
-          "fetched_at": "2026-09-29T05:10:29.076624",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Tech Mahindra Analyst Day 2026 & Q4FY26 Earnings Meet Scheduled April 22, 2026",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOVhIRzQyV254UnZYZnFRa1QxWW93U2lnSzNSVUdENWtiajZHWEhuckR1RFlnZ2lRVEJVSWFrSDJQYXlBTHBrMVdFX0lWU3dwZTA5cjNPSzUwaVZzZjBpclZFTzFMWldER2tFSWRQRGF0Y3pEVHRTcDIzOURVVERMWXV0RzgzQnlObDRPS1llODZQTTcxRkJTZnhaTS1nMm96MVdibngySlhRMDRXeTlDVDFabXpMTHRxTTdfOVdkNzhWY205U1d0cm9qRWJ4alA3YzVqM3JlSTdkUDg5VElVWUF5V2VYVWgydGRfaUxxVzNNTHVwX0E?oc=5",
-          "source": "scanx.trade",
-          "publishedAt": "Sun, 27 Sep 2026 15:36:00 GMT",
-          "fetched_at": "2026-09-29T05:10:29.076629",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Two Races, One Track: The Large-Cap Shorthand No Longer Fits Indian IT",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYklyWEZSaEctVW5oZ09oNE9ZcVNJcW5HbEV3Z3VsTXJ5RjJZci05bFRsMDhIOGdhejlZbXR2dF93NUQzdTV5aWplRHdKSFVKQWxOTzFTMHNyY2hxSkRIck56c1phZEx5LThFVVZKLXB4TnY5QnlNMWdaUFhFZ1RHUndVMVozSTFnUjNYWDRucE5LaEE5LUhZbG16aHhtX2RyazZObHE3RTkwMTlYNHdDTDU1RHhDTW1sQkxMdG5obm1MbnBlWGx3dV9R0gHSAUFVX3lxTE9vWWFGMnR4NGhwR0RrT3hYR1JxRTVEQm9zbGMtVk1GWEwzTlphUlFYb2lRUmlRYV9HbU1PZHlUQjZEcGh4Q09rQVVURTMtekN4dHMwX0c1YmdCT3dqM0dRZS0xZzlaVkFlMnhnb1BnRUJFVldyZDJkNFZzRlN3ellCLVNNc0ZKN3haUDdrNG14UHhac1pKVjZqUlpHUGl5TnlGeFNEWGl0VjBJVHd0RC1LNk82dlRZZExfZnB3WUNTYU1FZEhNVkZFMU1tTENZcmdqUQ?oc=5",
-          "source": "NDTV Profit",
-          "publishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-29T05:10:29.076633",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Weekly Recap: Lower subcontracting costs and India‑origin AI partnerships",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZVNZWmVsNUF5eHQ5ZktHaTNUMjJLNjFETjcwUUtSSU9VQ2hwYXZ2bTBPMnRjX2NyRG90eVo1S2twOTZuNkY3cjlVYUpWMnJvUkNOb0JTc2VkaDVSTXVvU3A0ZFktQzI1S01RcDMzN3psYjVZNzJUWFBrRGZGeEF3WWFQU2hCM0VCbzdyOHFMOEwyeVlPNTRYMnBoUFpubDJIVzNBUDRteXV3MmZ5R0dRRkN4YmtWbGdCWnhrSVFoS3p1ajRRZ3VDNUIybGpGS0E?oc=5",
-          "source": "TradingView",
-          "publishedAt": "Mon, 28 Sep 2026 01:00:00 GMT",
-          "fetched_at": "2026-09-29T05:10:29.076641",
-          "related_to": "Tech Mahindra",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -230,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-29T05:12:07.795031",
+      "last_updated": "2026-09-29T12:32:32.799854",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -314,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-29T05:13:27.459530",
+      "last_updated": "2026-09-29T12:33:41.030708",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -398,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-29T05:14:42.774459",
+      "last_updated": "2026-09-29T12:34:51.930937",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -482,11 +434,11 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-29T05:16:03.415749",
+      "last_updated": "2026-09-29T12:36:07.236941",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 5,
+        "competitor_intel_count": 0,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -558,53 +510,7 @@
           ]
         }
       ],
-      "competitor_intel": [
-        {
-          "title": "SRH vs RR, Eliminator, Indian Premier League 2026 - Scorecard",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWnhzMFhWdW14OU02elB4bkJTUmMtcnFOME4xLTJxRXN0V0RqU0pidnNYdTNKekt5TGQ1N0s3THRsVzJPNWcxelhqdWJnVmF6Sk9nd3I4Y04yNzVNcEw2U0JiT09NUE5CZVozdG5GQV9LRTQwelJ6Y3d5aGE5dFVlU0lIQVJoUFhYQ1lQRHUzaDdrZVk2U0pnSGRSbVhGQ200MHRjRA?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 28 Sep 2026 17:34:59 GMT",
-          "fetched_at": "2026-09-29T05:15:48.383679",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "SRH vs RR, 21st Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWVlWZkdyN2ZPbzY0M0FBanRBejljajI5LS1uNEpTQjVvTXhVMXZhWExYa2hfeXBFdGtuaW9QamxYWnhESHFIbUtBTkNISjdEODBEWFFHU1o4bk5vdkFiRUJKa3Uxekk4czRkVFlocWgtMUZHLXRSRVMwUnRVRV9YM2hMVE0wLWRoYTIydVBlb0RyalpaeG9hUHhneXlQTjJh?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 29 Sep 2026 01:30:26 GMT",
-          "fetched_at": "2026-09-29T05:15:48.383692",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "GT vs RR, 9th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM3lRQVZvY0VCYjl5U3h1V1hNTlNJX1pBdkc0QzgyZHVOX0VlMmhsRllGOTlJbldvMWpnQXQ2R3RWOC10b2E1LUw1ajQxdXZBWHIxX21TVFFIcGNIUDZodjM1WHZvb2hKVU44ckZXZU9vc19GZThtcW00SEE0VnZHZUJxbjc2V19IQ0ltbkZvMUtHOVdlUUYyczJYQnRFUQ?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Tue, 29 Sep 2026 00:36:36 GMT",
-          "fetched_at": "2026-09-29T05:15:48.383698",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "Highlights: Rajasthan Royals vs Royal Challengers Bengaluru | TATA IPL 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUGxFbUtUbThUWDhJY3BsNzQyNzRkLUhxUV9zZTRuMFhsYlAtS3E0TndQeFYwOHY3OXl5dUNvbG53amJaMXBlOXVkYjQ0LWNSZ0N1elFwLUk2bnR5TzBFdkVYa2R0SWMzaFZIR3ZuSEpQaXZTTFh1ZTR2WE96X3hNREdSNnlKLWZBQk1waGVqOE1yaGNrV2RUOTJkVnphMlF0?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 28 Sep 2026 23:40:41 GMT",
-          "fetched_at": "2026-09-29T05:15:48.383702",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        },
-        {
-          "title": "RR vs MI, 13th Match, Indian Premier League 2026 - Commentary",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSENXQU9OOXlibFJnMGhybzZJY0F6d0UycGxWSlBJOHR4Z2tqWWd5QjUzb1BWakUyRGFfTm5GaXktQ1dVQkc4ZnJJenJoaGdKQ0J4ampERm1BN3BFSUJRUU4zRVZtNFd1dzdJX1hmWEo4UkptcVYzN3pfcjZQc0VDQ0QwWXBpN2syb1p6cnQyRWZ6bF9Gdl9nZkNsVzlNdnc?oc=5",
-          "source": "Cricbuzz",
-          "publishedAt": "Mon, 28 Sep 2026 15:12:59 GMT",
-          "fetched_at": "2026-09-29T05:15:48.383706",
-          "related_to": "Rajasthan Royals",
-          "relevance": "competitor"
-        }
-      ],
+      "competitor_intel": [],
       "esg_highlights": [],
       "filings": []
     },
@@ -612,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-29T05:17:35.926962",
+      "last_updated": "2026-09-29T12:37:52.467710",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -696,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-29T05:19:14.902635",
+      "last_updated": "2026-09-29T12:39:37.717214",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -780,17 +686,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-29T05:19:29.399603",
+      "last_updated": "2026-09-29T12:40:07.782257",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -857,43 +763,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Herma Launches Linerless Plus Label Material With 62Dps Adhesive - THE PACKMAN",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
-          "source": "the packman",
-          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-29T05:19:29.399333"
-        },
-        {
-          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
-          "source": "PR Newswire",
-          "publishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-29T05:19:29.399347"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-29T05:19:29.399351"
-        },
-        {
-          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
-          "source": "EurekAlert! Science News Releases",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-29T05:19:29.399358"
-        },
-        {
-          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-29T05:19:29.399362"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
