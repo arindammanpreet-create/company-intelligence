@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T12:25:18.631364",
+    "generated_at": "2026-09-30T22:13:33.600194",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-30T12:14:50.050720",
+      "last_updated": "2026-09-30T22:04:01.256913",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-30T12:16:18.665260",
+      "last_updated": "2026-09-30T22:05:16.878818",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-30T12:17:44.505509",
+      "last_updated": "2026-09-30T22:06:29.122088",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-30T12:19:10.941145",
+      "last_updated": "2026-09-30T22:07:28.641078",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-30T12:20:20.467031",
+      "last_updated": "2026-09-30T22:08:27.781320",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-30T12:21:51.035118",
+      "last_updated": "2026-09-30T22:09:48.709203",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-30T12:23:21.745372",
+      "last_updated": "2026-09-30T22:11:32.519542",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,21 +602,114 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-30T12:24:56.976771",
+      "last_updated": "2026-09-30T22:13:14.620413",
       "data_sources": {
-        "news_count": 0,
+        "news_count": 15,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Delhi Capitals Announce Retained Player List",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTlBqYTYwTHhGdG9LQkxWQm85dmY2MTd6VlVzMkxPQm5uZTBDek54VDJCOFBFelpXbk1IS1E0aGRxVmJjVWdMb0ZPN2ExdC1jUU9UUHpUQURXUi1SeXVRanluQ2JwYUVPUzFuX2FqNGtGMU9wU1h4SlBoT0swcUxqelZEZWpyd1daMFhlQmd2WHF1REx4Rkk5SlhvV2tyQQ?oc=5",
+          "source": "delhicapitals.in",
+          "publishedAt": "Mon, 28 Sep 2026 10:49:58 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764002"
+        },
+        {
+          "title": "Delhi Capitals cricketer back in squad ahead of Ranji Trophy days after bail in sexual offence case",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPUU01MjBFejNhNFp6TlNCU0ltdDVkSVp2WDAycUFOWEVKbWlsNzhFQTRXZUZkOGxqWmZLSWRXdkRBUGJfQUpDOWNkZ2J1X3lYN3JMcHpWU0ZHX2MyTmtUNjBCdllkNi1KSno0cnBreGZQYlRHLTR5QVRRU3RQRUl6LXQtWVN3ZXF4Z2gxaEpJVDZwMkNYUmt2ZGRRS0YwUk9kbmxqQ0pBcFVZQ2doMWdja3F2cVR1bFFtcVEwckNVckZPbFZfVlZCUTlrd0FaTHJzc2hsYjBGTWduVkRLX2tFb09FOG9PRGhFWlVnMzlnY2pzNzltZGhObXhIMi1QbFhaX1ZXRURzdTczd3JySnfSAZMCQVVfeXFMT3FtSFdFTE1DOWtJUzFTUmoteE5rUHoxZmdDLVRsbzY0MmMxakRtSVV6MVMtWFlGaFBnUFFISW1DSmRDWWxHNE5peFN2dnBKVVJSMi1vVU5fQ2sxSjlYV29DaWpyLTM2MWpoZ1RLOXA3cVI1TlN0OXYweW1Pdndqc2E5V3pzZmNsenFZY0VzR2hyVFNmTDN3OWdmWkt0NGFndzl6eDhoR0d2TUtUQjFhaG5peE5RRXZzanluRTNHSzZnWDdvYjFWUDVGa1pyb0UzYzVQNEk1OFY0dXN0MFdndlNzLUpfcEdwRU1nRGFjY0JDVWN5MGljZ2FVMVJHTm9GLVB2TmpvMXczNm9zQXJIMmZrbTQ?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "Tue, 29 Sep 2026 06:51:00 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764017"
+        },
+        {
+          "title": "Delhi Capitals retain 13 players including Jemimah Rodrigues ahead of WPL 2027 auction",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONDkweFhkbENOZTMySFFoeVRZOHlpT0xIY1Z3MmFVZkt4UUVTWHlVbkxXeGE5LTlzYmZFd3VkMFp5d1FaVEloeWZNUG5IU3hBTzlsU1dsVUxzaEVlOVd3a3dYN0F0bmhRRmhDaWdfRFV4T3JBeWc3T1AxalpPZEZSZ0J2N1N5QmllZTlsa3RmbnNKTW9nMzl5WkFRcnB1UzdxX2ZDbW5JQzlNTTdlV3cydkFkNW1lelpiUnZN?oc=5",
+          "source": "The News Mill",
+          "publishedAt": "Mon, 28 Sep 2026 11:32:25 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764020"
+        },
+        {
+          "title": "Delhi Capitals retain 13, release six ahead of WPL 2027 auction",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOUIzQWtoY0ZnTlN3ZFhuQmdXY1NObUxIT0dQd0Jjc1ZZSlJFWWRfUlFEZ1A1ZEl4RTdyZkFmc0hPak1OMmxTeVBwQU90TW5PbF93Q21aR1BMcU5zbDlHTGRyNTFNVDZZM0d5ZWFzMVdhWmx2OXBOeUQ2MnctN3ZSdnhqS0g3MEdCT21ZMUZBVmFkR1hpMnRRNWxXckRCSkxOTE1XbktRUFdTS1Rob1IyeFlqekxkSVl0RXp4MEduTlJQNmYzS3lRTTQ3M1YtLU9pV0HSAdcBQVVfeXFMTm1DcUhIS0Q0MjJIbVFfUm13RnBoMm43Zk1nTDRyb252RkVDOWVlRDhzZmNDTDZZa1JwSjd5bkc0ZG5RdVFvVGh5MHNHeDhPdkszaUl4aUVMdS1fSkQ3NENiRy1wUl90eWRxSDh3b2lYYjFHQkhNYmlPNEFXaFNiU3JJbnpiMGVzeG5LcTZQX0JtbktPWnEyRjEtX3NZM2lGdEFnV0FlSG9lR1Rsbm1BM0lPTjN6UUl3TDlKby1Oc1NZcFMtQ3AzZ3MwVWZMVTlRUmwxRjJLazg?oc=5",
+          "source": "economictimes.com",
+          "publishedAt": "Mon, 28 Sep 2026 12:04:17 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764023"
+        },
+        {
+          "title": "WPL 2027 retention: All players retained and released",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVNFNHdlNkdRblFPdVVvb29yelo4V0NxYlVaMzhEOHF0RC1nazFDSjhjM2h5WmxwMkc1UzRlYkhrSDFaSmZHVV93Y0FNRE1aN2xVMEF0dWoxMURxTDd4UHF0UWg1dkpfNExPWHJXTWpIMmo1WXAxak1YaEJjWC0zM0NxS21YUGNLTHUzZ3llQ1RhOTgtYjJjLVRabjU4SkM1bWZUbw?oc=5",
+          "source": "olympics.com",
+          "publishedAt": "Mon, 28 Sep 2026 11:37:00 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764026"
+        },
+        {
+          "title": "WPL 2027: RCB retain Smriti Mandhana, DC keep Jemimah Rodrigues ahead of upcoming season - Mid-Day",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOHE2VzQwdHJQX1I3Mjd2TERURzJsQ3FQX29KdlE0V2g3X2FsNnBpeHMta0JMTWtMWDNOT0xuVm11X0o2Rl9la19Uak5ST001Y2Y5X0ptUFZ4NEgxWVhJQmVKZngtMXN0MkRHdXloOFpKbzh5S09jb1Z0NFprSDI1UVdsYkY3UXQ2bGVJNWZKc2NUVFFpT3NpV2JLVldIMS1hVEpSTWc5Q3gxalJGbW1tdmhMcVl4UEJiWWVuYXJndGdXRXNfN3ZMeFpraTNpR0xVQVBnLThOc1RQZ9IB3wFBVV95cUxNTWl0YWwtVDVWZy1GaW9Wb18wNDBXalEtTlRZM0c1dUZBSERSRGtUS2dPTUhwUjU3RG9KZnplNUlncTRyMXh6eFZObzY2dmdBWmR5YVlxeTY2cDhWWFBnZVNQbkpXZjlSNEwtUTlaNGNXMjVzTnpQak5jcUR4eGdUbXFPbXBxVjh1YXZ6NG1tZF9HQnZyOThjZFhQZDJLdHlaV2ZtZ3Z6UVVhd0VqSERndTI2UkdoMTYtajhDZUVqWVR4dGY4bWtDdlc3Y1ZFSmRSY3ZEQU4zc1c5QjFEMndv?oc=5",
+          "source": "Mid-Day",
+          "publishedAt": "Mon, 28 Sep 2026 13:36:00 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764029"
+        },
+        {
+          "title": "Delhi Capitals Welcome Back Rishabh Pant As Kuldeep Yadav Joins Lucknow Super Giants",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmlHRWRxQVljV3otSG1CYzc4WlduN0FCRnkyek81ZDc0RzNKVUNmc0wwR3NkSUhBV0NDX3hheGxFWXFpNDFNU1V0OHJFczhiTE1QeGF3VGlhWmYzZ2xQTTAzUWhqY0h4NVQ2WXpCc1pKcU84Z0ZQQ0FxSm5RMzZJaWdaVUc1aHlTNDNSanJBNnY3NXJiRGZBakxiZWtyNUh6bm1hWGFSNHd2V2VrME9DNU9WZm90aWFMOUhB?oc=5",
+          "source": "delhicapitals.in",
+          "publishedAt": "Tue, 23 Jun 2026 13:47:06 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764032"
+        },
+        {
+          "title": "Do you want to play against the Delhi Capitals players? Here's your chance.",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSkpEUGdQNndyWWJTbGpRSjAxZ3g2YUlfSi0yRjNiUTZmb2l2Qm9tVUw4WG1jdnZDV2dYaDlJRk1ad1ZKdWk4d18xTzNRMTFiWHFad3hPNVowSEM1eFhjVjBXYW9uQmtpU2ZzTWdUMFVnR3dTVWFBZ3A1bkxSUWVxTFlaMTA4R2JGajhnWnJCRlR5TjBwS0I5ZlkxM0d1enVQQW9PWU85OXNadw?oc=5",
+          "source": "delhicapitals.in",
+          "publishedAt": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764036"
+        },
+        {
+          "title": "A Roaring Addition: Rehan Ahmed Joins Delhi Capitals for TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdWNjRndKNVhQN09rNFlGNVVnaVJGYnFrS0xabzI2dzNaNkZHMmNUM0V1bWRuR3NlTjBVMmJGbldrQlB5Y3pWQVpyeW9xZEloaW0ycmhiWWFOZHBzaWtVa0lhS0c5RHlGRDJRVV92amE0bkNweTU4U0R1X2pDTDkwMkhnYjN1bW1LcmFWZDlnOGtiQ1VNcUhLaTlTa25hMV95bnc?oc=5",
+          "source": "delhicapitals.in",
+          "publishedAt": "Thu, 23 Apr 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764038"
+        },
+        {
+          "title": "Delhi Capitals Cricket Team Images and Photos",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UTU1IU3hBNUpoVlpxaVJrejBCaHduTmlybnR5OEFYOTF5cG5oYV93OEwtUGFFQkp5c3ZEQnRYQ0VuMzRGR1UtVTdFLVVDalowa3lENjR6WVFNM05zRlRIZXhVU05Xa2xV?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Sun, 21 Jun 2026 10:19:34 GMT",
+          "fetched_at": "2026-09-30T22:11:46.764041"
+        }
+      ],
       "research_gaps": [
+        {
+          "title": "Player Retention & Auction Strategy Risk at Delhi Capitals",
+          "severity": "Medium",
+          "description": "Squad stability concerns for Delhi Capitals: retention. Auction strategy and salary cap optimization research needed.",
+          "detected_from": "Delhi Capitals Announce Retained Player List  Delhi Capitals cricketer back in squad ahead of Ranji Trophy days after bail in sexual offence case  Del...",
+          "gap_type": "player_retention",
+          "keywords_found": [
+            "retention"
+          ],
+          "solutions": [
+            {
+              "title": "Delhi Capitals: Squad Strategy & Auction Intelligence",
+              "impact": "Medium",
+              "timeline": "4-6 months + ongoing",
+              "price": "₹12-18 Lakhs + ₹1.5L/quarter",
+              "methodology": "Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning",
+              "description": "**MRA/ESOMAR-compliant study**. Player Performance Analytics + Salary Cap Modeling + Peer Benchmarking + Scenario Planning. **Deliverables**: Auction strategy playbook, Retention priority matrix, Salary cap optimizer, Competitor squad analysis.",
+              "gap_type": "player_retention",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Delhi Capitals: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -656,29 +749,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Delhi Capitals: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Delhi Capitals: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "SRH vs RR, Eliminator, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWnhzMFhWdW14OU02elB4bkJTUmMtcnFOME4xLTJxRXN0V0RqU0pidnNYdTNKekt5TGQ1N0s3THRsVzJPNWcxelhqdWJnVmF6Sk9nd3I4Y04yNzVNcEw2U0JiT09NUE5CZVozdG5GQV9LRTQwelJ6Y3d5aGE5dFVlU0lIQVJoUFhYQ1lQRHUzaDdrZVk2U0pnSGRSbVhGQ200MHRjRA?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Wed, 30 Sep 2026 19:11:56 GMT",
+          "fetched_at": "2026-09-30T22:12:59.563807",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MI vs RR, 69th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3hUcFhPWnZ2YmY4b0ZMdjFGajJTa2dEcllfM1Q3b0pJUGZWSk9WbnljUGk2dm9YSk9TeU9qOHV1VC1FY3ZTcXBJQVhLTXlZWS0tY0JyanNVS1dlNDBfYk5YYmJmRkNqcWFIU3FvbXJuUzV2bGNZYjg2WFlTTGtaQWdwR21Cc1ZKWk1OXzVKYk5UV0hoUWdmWTN5MmROaVU?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Wed, 30 Sep 2026 18:44:36 GMT",
+          "fetched_at": "2026-09-30T22:12:59.563820",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Highlights: Gujarat Titans vs Rajasthan Royals | Qualifier 2 | TATA IPL 2026",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVENVUDFKUWpTSWNMcVpyVmpoUFlxUDBiUHhIUXBGYVZEQWZVYl9ISjhydkR0ZXhfWVpYSlNfUG4ybTl5QWhBcEpqRU1CSEJaUVhzYlVuNE1CSDh1VU5ZSnBsUlhEVWIyX0UtUTFOeDlhc01rS0pnS2ZJVTRNOXdCazRZZkxTZ2JEOVEtSXZ1Ny1DZ1RlcXlUZGFqYnNNa1pr?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Wed, 30 Sep 2026 18:56:44 GMT",
+          "fetched_at": "2026-09-30T22:12:59.563824",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RR vs RCB Cricket Scorecard, 16th Match at Guwahati, April 10, 2026",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcU1CcjhWOGVBN0JQbVNsQmpLZ1Q2RjJxLXhtUE1ZUm54SDVGXzE4VTdtRHBSVXZsWUlUalllSmsxclpkenNtOUc4clB5bjJmQTVSMElzNjVTN3VtbWVQN2diVjI5QkN4a2dmSkNibW5QMWVwdUJyMjdqZlNUclhJM2xJenBsb2pZNXVHN3RkZUNqU2lhNjVyRVFlMVRDbG5GbDUyYXNmeEhTRW5kM3k5MjBrTEpnQjdaaUNKSUNXcVlrT1RkQXBWQlp3?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Tue, 16 Jun 2026 18:03:49 GMT",
+          "fetched_at": "2026-09-30T22:12:59.563827",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        },
+        {
+          "title": "RR vs CSK, 3rd Match, Indian Premier League 2026 - Scorecard",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYTlHZFlGLUlxVFhOdUZEMF9oVllMQzJSdElKUjFoM1hIT0NwTTkzNmpKcUtoV3p6TkVkbTVRUmVncDZvN2N6R0JjMU9XLUZOeHE0QmRERkM5Mjg1ZHBGZ0tFc2hXcHFDdDNtSDJJMU1Qd04zM0w3ZE53WkdzQzRaOENHTXZDaEhfLUx2RDQycmtfbGY2SGhOZXluTEtHWjB6TXNr?oc=5",
+          "source": "cricbuzz.com",
+          "publishedAt": "Wed, 30 Sep 2026 17:34:33 GMT",
+          "fetched_at": "2026-09-30T22:12:59.563830",
+          "related_to": "Rajasthan Royals",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -686,17 +805,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-30T12:25:18.631356",
+      "last_updated": "2026-09-30T22:13:33.600184",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 10
+        "esg_news_count": 0
       },
       "sentiment": {
-        "score": 1.0,
-        "label": "Positive",
-        "pos": 1,
+        "score": 0,
+        "label": "Neutral",
+        "pos": 0,
         "neg": 0
       },
       "news": [],
@@ -763,43 +882,7 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [
-        {
-          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
-          "source": "PR Newswire",
-          "publishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-30T12:25:18.631010"
-        },
-        {
-          "title": "Herma Launches Linerless Plus Label Material With 62Dps Adhesive - THE PACKMAN",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
-          "source": "thepackman.in",
-          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-30T12:25:18.631027"
-        },
-        {
-          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
-          "source": "EurekAlert! Science News Releases",
-          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-30T12:25:18.631038"
-        },
-        {
-          "title": "we+ explores craft and digital fabrication through material intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
-          "source": "Designboom",
-          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-30T12:25:18.631043"
-        },
-        {
-          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
-          "source": "Stock Titan",
-          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
-          "fetched_at": "2026-09-30T12:25:18.631048"
-        }
-      ],
+      "esg_highlights": [],
       "filings": []
     }
   }
