@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T05:05:07.432485",
+    "generated_at": "2026-09-30T12:25:18.631364",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,7 +14,7 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-09-30T04:55:58.821573",
+      "last_updated": "2026-09-30T12:14:50.050720",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -98,7 +98,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-09-30T04:56:56.361051",
+      "last_updated": "2026-09-30T12:16:18.665260",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +182,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-09-30T04:58:16.972060",
+      "last_updated": "2026-09-30T12:17:44.505509",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +266,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-09-30T04:59:37.612069",
+      "last_updated": "2026-09-30T12:19:10.941145",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +350,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-09-30T05:00:48.595876",
+      "last_updated": "2026-09-30T12:20:20.467031",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +434,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-09-30T05:02:00.873884",
+      "last_updated": "2026-09-30T12:21:51.035118",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,7 +518,7 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-09-30T05:03:27.653467",
+      "last_updated": "2026-09-30T12:23:21.745372",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -602,7 +602,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-09-30T05:04:37.381678",
+      "last_updated": "2026-09-30T12:24:56.976771",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,17 +686,17 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-09-30T05:05:07.432470",
+      "last_updated": "2026-09-30T12:25:18.631356",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
         "competitor_intel_count": 0,
-        "esg_news_count": 0
+        "esg_news_count": 10
       },
       "sentiment": {
-        "score": 0,
-        "label": "Neutral",
-        "pos": 0,
+        "score": 1.0,
+        "label": "Positive",
+        "pos": 1,
         "neg": 0
       },
       "news": [],
@@ -763,7 +763,43 @@
         }
       ],
       "competitor_intel": [],
-      "esg_highlights": [],
+      "esg_highlights": [
+        {
+          "title": "Amtech Brings Full Material Traceability Plus Cloud Delivery and Analytics to Label Traxx",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQazk3M1h0SlMzRVFudEZTT1I1ek1PUEpPd3AzODdxTDExMFBGcDlSeWNUblpRZFc2WHV3bXZCcWxFaE9DUnE4N2stQWxjS0dITmNza0EwYVo2SURoOUd3T3Awa2JHUGloekVucWJfSVJOenFZX25qTnJoZW5tWWhPQWdxNFc2aEhlaTZmcER6TmxFMlpTaDFtZ1QwWDlWcXhiWmFZODJoLUFWemR5dlZGZ0lZM1IxSE9yV0hFSVJhRGRTTW9pTkVGLTlmYnpnYTh0b0lTTHNpeTRGQjRTMXc?oc=5",
+          "source": "PR Newswire",
+          "publishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-30T12:25:18.631010"
+        },
+        {
+          "title": "Herma Launches Linerless Plus Label Material With 62Dps Adhesive - THE PACKMAN",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUThzXzNtSDNkc253dWJKU2x4aGQ0WF9jU2Myci1WazJOQUJMbkVoZmFRR3E3QW9iNFJqUkFhbTdnR3pNR0pEQUVNczJFLUVXSURlRnhwQ1VyWWRqNm1pQzRnU2VDMlFXXzZNRkJrSGpaQ0gza2pTQW80NzV2bHVSaWRBYVhuRFl6WEJZaXYwclXSAZYBQVVfeXFMTzR3Ni1ZbXU3MmxNNEVaeTR1R2JPYVVmQWJXdll5T19wOFVLeTd3ZGZjT20td0x4QlZXVm04ZU9DSGdFWVhHWXR4aWpSWlg5VVdaV21DcGljYzJtcGtqWlF3TlBHald0bjdxb2pKR3U4ZElNQVpGZjlGME5kUjlQbGNmYjlpMlUtUjlucWQ4ZWc3bmtldXlR?oc=5",
+          "source": "thepackman.in",
+          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-30T12:25:18.631027"
+        },
+        {
+          "title": "Magnetic invention removes ‘invisible’ microplastics plus some PFAS",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSWlRlTVJNX3lId2ZIdWdsNFhsZDZXTXE2d0g1eW94UWtWdG03ZUxjQnNMTm9PaWNYYkVaZERtbUk3akRjWHN1WHBYTU9uTDBsdG9vaGczSENOblJY?oc=5",
+          "source": "EurekAlert! Science News Releases",
+          "publishedAt": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-30T12:25:18.631038"
+        },
+        {
+          "title": "we+ explores craft and digital fabrication through material intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkhDU2tGSENaT2NaVERBTV9TNnlUMVhISFVUaUhWbUlIV2tYSXcyaUNkOG1Ga2xkZ0pBU0hNb1ByR2VpVDU1NTFoMjNtLTB5Z1dVWEg2Ym9sVkRhVF9pRHNWcTRfRjVmMjl2NlZWSzFmYzJMOFhHSGxlMVR1ZDB5R3BGTTdKN3lOVzg3bTJqQ283dE8zUWExX2JDeU5ZaVZhbGc?oc=5",
+          "source": "Designboom",
+          "publishedAt": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-30T12:25:18.631043"
+        },
+        {
+          "title": "Simulations Plus (SLP) investors OK Altaris merger, await regulators",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJkeFhmclhZSjJwengzTC1xbzBQd1o0a21CX2NfWklILXBUX1h3X09Gd2dKQzhTNlJGUURVd3VMRHgtOXBSQTV4OF9hblM5S3ljNklCVldNRF94X1ppa3hPRkw1SjNvV3hVTWZ5TzByUmowWGVmdmR6cEsxYmlOR3Vra2sybnZYMllDM0xTcGZiRlBjLVBuZjdyQlFvOXVmcWxYWVZPbEx5LXZ5?oc=5",
+          "source": "Stock Titan",
+          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-30T12:25:18.631048"
+        }
+      ],
       "filings": []
     }
   }
