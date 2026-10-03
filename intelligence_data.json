@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-02T22:10:53.845610",
+    "generated_at": "2026-10-03T04:51:08.445151",
     "version": "1.0",
     "total_companies": 9,
     "data_sources": [
@@ -14,11 +14,11 @@
       "company": "Reliance Industries",
       "ticker": "RELIANCE",
       "sector": "conglomerate",
-      "last_updated": "2026-10-02T22:01:03.235219",
+      "last_updated": "2026-10-03T04:41:59.467698",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 5,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -29,6 +29,29 @@
       },
       "news": [],
       "research_gaps": [
+        {
+          "title": "ESG Compliance Gaps at Reliance Industries",
+          "severity": "Medium",
+          "description": "ESG red flags detected at Reliance Industries: board, whistleblower. Sustainability benchmarking and stakeholder perception study needed.",
+          "detected_from": "Tata Group whistleblower complaints cross 12,000 mark in Chandrasekaran’s second term  Chandra, Venu didn't inform Tata Sons board of a second family ...",
+          "gap_type": "esg_concern",
+          "keywords_found": [
+            "board",
+            "whistleblower"
+          ],
+          "solutions": [
+            {
+              "title": "Reliance Industries: ESG Performance Benchmarking",
+              "impact": "Medium",
+              "timeline": "10-14 weeks",
+              "price": "₹20-32 Lakhs",
+              "methodology": "CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol)",
+              "description": "**MRA/ESOMAR-compliant study**. CDP/Sustainalytics/MSCI Scoring + Stakeholder Interviews (25) + Carbon Accounting (GHG Protocol). **Deliverables**: Quarterly ESG scorecard, Carbon trajectory analysis, Stakeholder Perception Index, ESG investor deck.",
+              "gap_type": "esg_concern",
+              "framework": "MRA/ESOMAR"
+            }
+          ]
+        },
         {
           "title": "Reliance Industries: Strategic Market Intelligence & Early Warning System",
           "severity": "Medium",
@@ -68,29 +91,55 @@
               "framework": "MRA/ESOMAR"
             }
           ]
-        },
-        {
-          "title": "Reliance Industries: Digital Transformation & Tech Investment Benchmarking",
-          "severity": "Medium",
-          "description": "Assessment of digital maturity, AI adoption, and technology ROI relative to sector leaders.",
-          "detected_from": "System-generated strategic coverage gap",
-          "gap_type": "digital_lag",
-          "keywords_found": [],
-          "solutions": [
-            {
-              "title": "Reliance Industries: Digital Maturity Assessment & Tech ROI",
-              "impact": "Medium",
-              "timeline": "8-12 weeks",
-              "price": "₹18-28 Lakhs",
-              "methodology": "DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling",
-              "description": "**MRA/ESOMAR-compliant study**. DMM Survey (200+ employees) + CIO Interviews (20) + NPV/IRR Modeling. **Deliverables**: Digital transformation tracker, Tech prioritization matrix, Cloud/AI/ERP roadmap, Vendor scorecards.",
-              "gap_type": "digital_lag",
-              "framework": "MRA/ESOMAR"
-            }
-          ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "Tata Group whistleblower complaints cross 12,000 mark in Chandrasekaran’s second term",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeXktOUVrMVlBcWtkSm01aDNsT1lyeGExMWd4bW1GbHhBVnMyeTQ3dFBuRGxtOVRjbXRObXZ6U0RhX3hkY3poenU3RExqS29Ga3lzaWFvall0dmxMOU5QTHF5UE5RZ2FuSWRYZm5VNmtibDRETGd4QXpfZ0JxV3h5Z3ZUOEdyaXFyZ3lud3RQTGtWYXctVEE2a1ZKZkZsVU1FOFRSaksySHNxTXNqS0VPRGROdGd1Vjh5UHBfNWdhdmxOeklZRzZiUFhkdkRuRWNwVFQycjdsMzNyZ9IB3wFBVV95cUxNZ0V6RGJpQkJuUTlZUXU2NlUwd2t5WFhDTmp6WHNVa1lzSk5hYUZxT2JpRGYzamQ0WUhCemJsal9oS0FFNlpiSGRSWXBKR2luSnRkamU4NHZIUkJwb2FNazJoRkFNeWIzMXQ1bEQwbXA2Q2NrRHA5Q3BIWkRUODc4OXFpWC15SDl3WnFHaDh5SFkzTEZ4SE1JUWRhY01LRE84WFlOU3ptaExfZ0VRSk9HcFJPbHZNWFJ0alVmSndmSUFMVDNkNzZFRi1CM1JoYUxTV2J4dnNDWndQM1FPaDJz?oc=5",
+          "source": "Moneycontrol.com",
+          "publishedAt": "Thu, 01 Oct 2026 13:02:12 GMT",
+          "fetched_at": "2026-10-03T04:41:27.603481",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Chandra, Venu didn't inform Tata Sons board of a second family firm deal",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN3dRbmpTRWExYWx5VUprYy0wRjUzZ0pzUGFleGsycXVvNXRJX19FYWVlVDhTMXI4SERIb1BVakN1a3gwQVNKRURBMjM2WmdkVmFxSGJKc3ZXTEVOZnpXdktmWWdNTjJ0VjQwTHd3OURzeFoyUFktSElMcTBNbFBvcUFpZkpzc0cwOTZIU1U3WGNEdkdVaW9Cb1NWM2JYXy1PSTg2QXRXVEFlMDZtdDVKR1J5MUdibml3bFpQcFZ0SklTaUItcmhn0gHMAUFVX3lxTE1HZlJfaFhGTVJuRmh0eEk3bVVhSnluWWwzU1dmRFR4U3NxNVE1MkJoVlB4U0pGSk5TeG1MblR0X2c3YjVrb19QX2Qwb2lYYlF2RnJBSlJDbVVmX1V6SkVNQWM2Z0xuNER6VDNocTFNRWduMmFUanFTS29Zd2pyZnNoRUNrSzNMWGRha0g0YzhNUTNpZUo2ZVllNGR4ODRJWmlaRGFDUnVseDh6V1pPLS1KeWduTUx5LV9oRUNBR1QzUWpDRFlrM2ZTUDN2Ug?oc=5",
+          "source": "Livemint",
+          "publishedAt": "Wed, 30 Sep 2026 13:26:00 GMT",
+          "fetched_at": "2026-10-03T04:41:27.603501",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Noel Tata seeks Tata Sons meeting video, minutes; questions legal opinions on Chandrasekaran reappointment",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPTGRTMVFpYW0yeld0WTZGV1hTQm04UGdQNjVzaEprNXdvcW03SGRuaTRZR1p4SW1YYUQ2Nk9MRk03LUo4U2tVT3UwU1QtemMzLURZLUU2cmJCcDNsam82cUp6MHpsRnVmYjgzMHEyUzl6T2trY0J6c3YxckxveGh4aTg3UGpyZ20wMzZXTzRocHg0bWd3bEV2VGpmcWN3S2Y0T2lXMGVCR3JIMHVkLUxreENZbUpCOUt5MnpYTEMzblpZLUZyeV9aX0RyZkt3WEpTWXlvck9VdkxWa1pldnpHVFU1N1JsVFF3WUtLRHJNcjFveEQyTUNDYU1jQkUzRjBVQ2hpa0sxVUtUWnRrR2NyX2gwdHhScFXSAZwCQVVfeXFMTzF0cElHVEVDdXA4OEtEMTVnaWtMNDMzYjFHdlB1anhhZEhDZ1dGcDdma0dBVG5LLTl4LUIwNE1ab0gweE1mYXM0SGdveGxqMF92THp0dW1NZnZSRlFPazBacEtqRnhBOHRYYk9ST2lBOUxVaHR2bzc2V3U1ZFh6TUtqb3NjbFNVc3paN2lOejVMTGJGRWJQRERoRE41NzFQNm85eGxYSzNMWXZndVpCeGk4V19BZF8xU1J3YVFmaFBkOGtBQ1ZFVmlrTnlVd0JJY3hxTHBFQkN3SHN3bFhFUl9ZcmZfWm4zU1dDMnpBeVIwTjY3SlZtYm95UGdzazFlQy1EakhXemVWbmRVaDVHTDZCWFBpOHVRR1lRdWI?oc=5",
+          "source": "The Economic Times",
+          "publishedAt": "Sat, 03 Oct 2026 00:00:00 GMT",
+          "fetched_at": "2026-10-03T04:41:27.603508",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Members of India's Tata Trusts query plan to avoid Tata Sons listing",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRGJCZUhBN1JSUWZGWWgzaWxRWnQ2dDhyY1RmcDNKY0hGZ2ZyeWd0LW1KNVNKbklsaEJQa3h1Y2hfRGJkUDIwYXlzal9mMk5CVkFkQm5tenJVamwxSTBJUUJfblZYenhzOHQteDRaS2tTcXJHRWZJZVVPTUFVcVZGUll1WmtkXzRJT3M4MC1uZlkybndqYlFGTW1VX2hDSDcxM0hIOGt1by1wQ2VCcnc?oc=5",
+          "source": "reuters.com",
+          "publishedAt": "Thu, 01 Oct 2026 14:07:43 GMT",
+          "fetched_at": "2026-10-03T04:41:27.603513",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Venu Srinivasan, Vijay Singh, Say Trust Did Not Consult Them Before Tata Sons Merger Proposal",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQVUyZ0RVQVlNRTlfYzU0NWRTSmNnSG0yeGJFd1ltZGNfTmsxU1d3MTRzNFNYcnl0SU5NWjByWDhuMjFOQVlWY1hVT3JodUN6NS14Vm1Tdm1OYV9uT2MtbVd1dDI1SnF1S0Q3Sy1RMVRCY0ZLT1FodlV6Zk16cDFsU2lCTEFRb3JQNnMtTTd6bm93ODBxYnQwYVRveDRITE1udHRBeGNCZDJDVWRjeUNtbUNFTTVGQUxzMEJIcjJNczJzaEg4ajdVedIBzgFBVV95cUxPeWZ4a0tNMmdKbzByanRUOUo3em9ScVFNUVpVWGQtczROSGpyOWNHcXNPVkhtQS1Pb0RYZ2NqenpMZHFUUGMzTkY0b0VibElyTUNNS04yWEZYdW1rLU1hR19wM2xLa01vQXdBVVplandBZDBhX3FvNHBoRG5fcDVrMzhHY2kxQnMtRlFQMjhEQnJtaWFtLVRlWk5LRzJpWWxZQU1lRGNtemlwRnE5cnF1Nmx2aDdsQm84WThaWTlvVkZoc3BXc2stSkVURTlDdw?oc=5",
+          "source": "TheWire.in",
+          "publishedAt": "Fri, 02 Oct 2026 08:25:05 GMT",
+          "fetched_at": "2026-10-03T04:41:27.603518",
+          "related_to": "Tata Group",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -98,7 +147,7 @@
       "company": "TCS",
       "ticker": "TCS",
       "sector": "it",
-      "last_updated": "2026-10-02T22:02:23.698293",
+      "last_updated": "2026-10-03T04:43:11.133959",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -182,7 +231,7 @@
       "company": "Infosys",
       "ticker": "INFY",
       "sector": "it",
-      "last_updated": "2026-10-02T22:03:28.422967",
+      "last_updated": "2026-10-03T04:44:29.950669",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -266,7 +315,7 @@
       "company": "HDFC Bank",
       "ticker": "HDFCBANK",
       "sector": "banking",
-      "last_updated": "2026-10-02T22:04:39.535641",
+      "last_updated": "2026-10-03T04:45:51.295485",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -350,7 +399,7 @@
       "company": "Bharti Airtel",
       "ticker": "BHARTIARTL",
       "sector": "telecom",
-      "last_updated": "2026-10-02T22:05:47.549903",
+      "last_updated": "2026-10-03T04:46:34.322188",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -434,7 +483,7 @@
       "company": "Mumbai Indians",
       "ticker": "MI",
       "sector": "sports",
-      "last_updated": "2026-10-02T22:07:17.674861",
+      "last_updated": "2026-10-03T04:47:56.005883",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -518,11 +567,11 @@
       "company": "Royal Challengers Bengaluru",
       "ticker": "RCB",
       "sector": "sports",
-      "last_updated": "2026-10-02T22:08:54.417541",
+      "last_updated": "2026-10-03T04:49:19.307796",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
-        "competitor_intel_count": 0,
+        "competitor_intel_count": 10,
         "esg_news_count": 0
       },
       "sentiment": {
@@ -594,7 +643,53 @@
           ]
         }
       ],
-      "competitor_intel": [],
+      "competitor_intel": [
+        {
+          "title": "KKR vs MI, 65th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSjRuZExxQ3AtRG16bjFnZjVCTW1XZ0Vad1BCSGJEUmZlcUZ4cmV2M0NRS3U0d2QxVmJ0T0pzYVlqQWJKdjgzb25fcFpIQWZleHctSThaVVNiV09PLXV6cGhlNVJPd2Z1OUtFSEdHYzBXUDZpRUF5ZGhYVVE2ZEdyZjFQekNPSWFjWThubzhFZ0VFM01XQXU0MlB0S1RNa2Fp?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sat, 03 Oct 2026 03:41:09 GMT",
+          "fetched_at": "2026-10-03T04:48:17.383423",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "MI vs LSG, 47th Match, Indian Premier League 2026 - Commentary",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTHBhZjllTVFCZVdrTDFMX0ZKQnNpeUdzNEduSmw1WmNOZnFuS0psMVViQ2NMX0N5R3RTMWxfeldPVWV4cDZJbUJ1emZDQUNSNEFuSVFpRTFXMDJLV1lTdGhjazI3aTNIYUhDSnJURi1EeFpHU1pNSHByejNOa3hzNE93QUdHbjFoTk9ETjRfbEJKSkoyd1luYUlJOC16SGRT?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Sat, 03 Oct 2026 02:38:51 GMT",
+          "fetched_at": "2026-10-03T04:48:17.383439",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Naman Dhir credits Ravindra Jadeja, Mumbai Indians for bowling development",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQkVUMFNzNEQtd1hFWGxXREh0bEVBd20xWU9ndS0tb2xYUGxTRDBMSXV1UThFVWF3VXZFWlVLT0dDLUpoODRnZndLTDhBdHh3T0hOV0FXMGlSZi12TTI1YS1tTVFxcFR1clZlVlAycDIydnFkUjdseGxPeWxzR0Q0V203R1VsRHVPOGYxUzJRTVpGb3VKUGJtbXRTUmFMNWxyU3dsN0xn0gGoAUFVX3lxTE80YlE3WXBIUm5JRjBrbHByX1FvLUlpcF9halM4X1paMTNsNlVfZUlFR3hnQnVWdzVhTWRtbG1fVE8zNmhOZm9JLU5QbFFhM25Vai14VGNZV1BjMzR6QzEtcmFwdk9SbG9IS3pib2diWnZObUptTHBBZ2pqR3BpUkFaUUJHdTNvM3E0ZmJ3Nms1ME5lY1hSQ2VNZ0E3ZmVfSVRxUHMyMmdsbA?oc=5",
+          "source": "Rediff",
+          "publishedAt": "Fri, 02 Oct 2026 12:49:30 GMT",
+          "fetched_at": "2026-10-03T04:48:17.383445",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Mark Boucher appointed MI Emirates head coach",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSG5kWkVOZWlOazZ5TWktWFk4a3c0THNmQ2tYV3Z0V0ZURWF1YlZMVm11TmFHcFlEZFkzWXhsaG5KZzJnNTFIa3M0TnNPdWpTOG90MzgyOVlnTm82dkNwMnJ2TW9zUmR4MHMzbFJzWHlLNU92c1VhOFB0aW81TnRoSmt3WFBjUTZkM0FjQTI2N0V6SEpIZlpKMjZLMW9DNmvSAbABQVVfeXFMT0pPaXh1ZHNyZk4wZ2QzY2ZmdlFGU25jLUh5S3p0Mk9lclBlMWRwRkh0MmdYUnNVd0s4RU14Zk5oS0RqNk8xQXdDMHoxaXNGT3cwNWRWUkRJaEY3QWxrWjdpYVFsLW44cXFGWVRmVi1JQXdtVEZlUjRYaDdsT09pOUNxbjZVSFI5cXdtaEtGZnRWbTFRdXFjclBSbjhKY0dKLV91cEZJRE1oLVZZN1RiQjM?oc=5",
+          "source": "Cricinfo",
+          "publishedAt": "Wed, 30 Sep 2026 09:41:46 GMT",
+          "fetched_at": "2026-10-03T04:48:17.383449",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        },
+        {
+          "title": "Credit to Jadeja & Mumbai Indians for my bowling development: Naman",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbFh5dllOVTVtZWpJVlJoMlFZZmc0eXpYLXh4eWg0NEV5ZGRBNHJGVDJscTJXUkE3eFVqcHJHdmZiOVNtc2dwaUE4WkVpUXdJem9GSG1HeS1oUDBoNTdUYm1tQ05MYXBaQTdZRXFYeHA0Y0FMVkJQOUV4a0NfRGZMb1Ixc1ZxQXI1SC1VLW1HbGRwb3gyc1FjbDdGblBvUFdiS0RPenVWSGpZN09wU3M5cA?oc=5",
+          "source": "Cricbuzz",
+          "publishedAt": "Fri, 02 Oct 2026 15:54:38 GMT",
+          "fetched_at": "2026-10-03T04:48:17.383454",
+          "related_to": "Mumbai Indians",
+          "relevance": "competitor"
+        }
+      ],
       "esg_highlights": [],
       "filings": []
     },
@@ -602,7 +697,7 @@
       "company": "Delhi Capitals",
       "ticker": "DC",
       "sector": "sports",
-      "last_updated": "2026-10-02T22:10:23.810569",
+      "last_updated": "2026-10-03T04:50:46.057791",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
@@ -686,7 +781,7 @@
       "company": "Material",
       "ticker": "MATRL",
       "sector": "market_research",
-      "last_updated": "2026-10-02T22:10:53.845595",
+      "last_updated": "2026-10-03T04:51:08.445140",
       "data_sources": {
         "news_count": 0,
         "filings_count": 0,
